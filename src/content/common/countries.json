@@ -1,0 +1,6864 @@
+[
+  {
+    "id": "af",
+    "name": "Afghanistan",
+    "commonName": "Afghanistan",
+    "officialName": "Islamic Republic of Afghanistan",
+    "code": "af",
+    "cca2": "AF",
+    "ccn3": "004",
+    "cca3": "AFG",
+    "cioc": "AFG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "afn",
+        "name": "Afghan afghani",
+        "code": "AFN",
+        "commonName": "Afghan afghani",
+        "officialName": "Afghan afghani",
+        "symbol": "؋"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ps",
+        "code": "ps",
+        "name": "Pashto",
+        "native": "پښتو",
+        "cca3": "pus"
+      },
+      {
+        "id": "tk",
+        "code": "tk",
+        "name": "Turkmen",
+        "native": "Türkmençe",
+        "cca3": "tuk"
+      }
+    ]
+  },
+  {
+    "id": "ao",
+    "name": "Angola",
+    "commonName": "Angola",
+    "officialName": "Republic of Angola",
+    "code": "ao",
+    "cca2": "AO",
+    "ccn3": "024",
+    "cca3": "AGO",
+    "cioc": "ANG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aoa",
+        "name": "Angolan kwanza",
+        "code": "AOA",
+        "commonName": "Angolan kwanza",
+        "officialName": "Angolan kwanza",
+        "symbol": "Kz"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "al",
+    "name": "Albania",
+    "commonName": "Albania",
+    "officialName": "Republic of Albania",
+    "code": "al",
+    "cca2": "AL",
+    "ccn3": "008",
+    "cca3": "ALB",
+    "cioc": "ALB",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "all",
+        "name": "Albanian lek",
+        "code": "ALL",
+        "commonName": "Albanian lek",
+        "officialName": "Albanian lek",
+        "symbol": "L"
+      }
+    ],
+    "languages": [
+      {
+        "id": "sq",
+        "code": "sq",
+        "name": "Albanian",
+        "native": "Shqip",
+        "cca3": "sqi"
+      }
+    ]
+  },
+  {
+    "id": "ad",
+    "name": "Andorra",
+    "commonName": "Andorra",
+    "officialName": "Principality of Andorra",
+    "code": "ad",
+    "cca2": "AD",
+    "ccn3": "020",
+    "cca3": "AND",
+    "cioc": "AND",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ca",
+        "code": "ca",
+        "name": "Catalan",
+        "native": "Català",
+        "cca3": "cat"
+      }
+    ]
+  },
+  {
+    "id": "ae",
+    "name": "United Arab Emirates",
+    "commonName": "United Arab Emirates",
+    "officialName": "United Arab Emirates",
+    "code": "ae",
+    "cca2": "AE",
+    "ccn3": "784",
+    "cca3": "ARE",
+    "cioc": "UAE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aed",
+        "name": "United Arab Emirates dirham",
+        "code": "AED",
+        "commonName": "United Arab Emirates dirham",
+        "officialName": "United Arab Emirates dirham",
+        "symbol": "د.إ"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "ar",
+    "name": "Argentina",
+    "commonName": "Argentina",
+    "officialName": "Argentine Republic",
+    "code": "ar",
+    "cca2": "AR",
+    "ccn3": "032",
+    "cca3": "ARG",
+    "cioc": "ARG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ars",
+        "name": "Argentine peso",
+        "code": "ARS",
+        "commonName": "Argentine peso",
+        "officialName": "Argentine peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "gn",
+        "code": "gn",
+        "name": "Guaraní",
+        "native": "Avañe'ẽ",
+        "cca3": "grn"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "am",
+    "name": "Armenia",
+    "commonName": "Armenia",
+    "officialName": "Republic of Armenia",
+    "code": "am",
+    "cca2": "AM",
+    "ccn3": "051",
+    "cca3": "ARM",
+    "cioc": "ARM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "amd",
+        "name": "Armenian dram",
+        "code": "AMD",
+        "commonName": "Armenian dram",
+        "officialName": "Armenian dram",
+        "symbol": "֏"
+      }
+    ],
+    "languages": [
+      {
+        "id": "hy",
+        "code": "hy",
+        "name": "Armenian",
+        "native": "Հայերեն",
+        "cca3": "hye"
+      }
+    ]
+  },
+  {
+    "id": "ag",
+    "name": "Antigua and Barbuda",
+    "commonName": "Antigua and Barbuda",
+    "officialName": "Antigua and Barbuda",
+    "code": "ag",
+    "cca2": "AG",
+    "ccn3": "028",
+    "cca3": "ATG",
+    "cioc": "ANT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "au",
+    "name": "Australia",
+    "commonName": "Australia",
+    "officialName": "Commonwealth of Australia",
+    "code": "au",
+    "cca2": "AU",
+    "ccn3": "036",
+    "cca3": "AUS",
+    "cioc": "AUS",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aud",
+        "name": "Australian dollar",
+        "code": "AUD",
+        "commonName": "Australian dollar",
+        "officialName": "Australian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "at",
+    "name": "Austria",
+    "commonName": "Austria",
+    "officialName": "Republic of Austria",
+    "code": "at",
+    "cca2": "AT",
+    "ccn3": "040",
+    "cca3": "AUT",
+    "cioc": "AUT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": []
+  },
+  {
+    "id": "az",
+    "name": "Azerbaijan",
+    "commonName": "Azerbaijan",
+    "officialName": "Republic of Azerbaijan",
+    "code": "az",
+    "cca2": "AZ",
+    "ccn3": "031",
+    "cca3": "AZE",
+    "cioc": "AZE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "azn",
+        "name": "Azerbaijani manat",
+        "code": "AZN",
+        "commonName": "Azerbaijani manat",
+        "officialName": "Azerbaijani manat",
+        "symbol": "₼"
+      }
+    ],
+    "languages": [
+      {
+        "id": "az",
+        "code": "az",
+        "name": "Azerbaijani",
+        "native": "Azərbaycanca",
+        "cca3": "aze"
+      },
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      }
+    ]
+  },
+  {
+    "id": "bi",
+    "name": "Burundi",
+    "commonName": "Burundi",
+    "officialName": "Republic of Burundi",
+    "code": "bi",
+    "cca2": "BI",
+    "ccn3": "108",
+    "cca3": "BDI",
+    "cioc": "BDI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bif",
+        "name": "Burundian franc",
+        "code": "BIF",
+        "commonName": "Burundian franc",
+        "officialName": "Burundian franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "rn",
+        "code": "rn",
+        "name": "Kirundi",
+        "native": "Kirundi",
+        "cca3": "run"
+      }
+    ]
+  },
+  {
+    "id": "be",
+    "name": "Belgium",
+    "commonName": "Belgium",
+    "officialName": "Kingdom of Belgium",
+    "code": "be",
+    "cca2": "BE",
+    "ccn3": "056",
+    "cca3": "BEL",
+    "cioc": "BEL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "de",
+        "code": "de",
+        "name": "German",
+        "native": "Deutsch",
+        "cca3": "deu"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "nl",
+        "code": "nl",
+        "name": "Dutch",
+        "native": "Nederlands",
+        "cca3": "nld"
+      }
+    ]
+  },
+  {
+    "id": "bj",
+    "name": "Benin",
+    "commonName": "Benin",
+    "officialName": "Republic of Benin",
+    "code": "bj",
+    "cca2": "BJ",
+    "ccn3": "204",
+    "cca3": "BEN",
+    "cioc": "BEN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "bf",
+    "name": "Burkina Faso",
+    "commonName": "Burkina Faso",
+    "officialName": "Burkina Faso",
+    "code": "bf",
+    "cca2": "BF",
+    "ccn3": "854",
+    "cca3": "BFA",
+    "cioc": "BUR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "bd",
+    "name": "Bangladesh",
+    "commonName": "Bangladesh",
+    "officialName": "People's Republic of Bangladesh",
+    "code": "bd",
+    "cca2": "BD",
+    "ccn3": "050",
+    "cca3": "BGD",
+    "cioc": "BAN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bdt",
+        "name": "Bangladeshi taka",
+        "code": "BDT",
+        "commonName": "Bangladeshi taka",
+        "officialName": "Bangladeshi taka",
+        "symbol": "৳"
+      }
+    ],
+    "languages": [
+      {
+        "id": "bn",
+        "code": "bn",
+        "name": "Bengali",
+        "native": "বাংলা",
+        "cca3": "ben"
+      }
+    ]
+  },
+  {
+    "id": "bg",
+    "name": "Bulgaria",
+    "commonName": "Bulgaria",
+    "officialName": "Republic of Bulgaria",
+    "code": "bg",
+    "cca2": "BG",
+    "ccn3": "100",
+    "cca3": "BGR",
+    "cioc": "BUL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bgn",
+        "name": "Bulgarian lev",
+        "code": "BGN",
+        "commonName": "Bulgarian lev",
+        "officialName": "Bulgarian lev",
+        "symbol": "лв"
+      }
+    ],
+    "languages": [
+      {
+        "id": "bg",
+        "code": "bg",
+        "name": "Bulgarian",
+        "native": "Български",
+        "cca3": "bul"
+      }
+    ]
+  },
+  {
+    "id": "bh",
+    "name": "Bahrain",
+    "commonName": "Bahrain",
+    "officialName": "Kingdom of Bahrain",
+    "code": "bh",
+    "cca2": "BH",
+    "ccn3": "048",
+    "cca3": "BHR",
+    "cioc": "BRN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bhd",
+        "name": "Bahraini dinar",
+        "code": "BHD",
+        "commonName": "Bahraini dinar",
+        "officialName": "Bahraini dinar",
+        "symbol": ".د.ب"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "bs",
+    "name": "Bahamas",
+    "commonName": "Bahamas",
+    "officialName": "Commonwealth of the Bahamas",
+    "code": "bs",
+    "cca2": "BS",
+    "ccn3": "044",
+    "cca3": "BHS",
+    "cioc": "BAH",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bsd",
+        "name": "Bahamian dollar",
+        "code": "BSD",
+        "commonName": "Bahamian dollar",
+        "officialName": "Bahamian dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ba",
+    "name": "Bosnia and Herzegovina",
+    "commonName": "Bosnia and Herzegovina",
+    "officialName": "Bosnia and Herzegovina",
+    "code": "ba",
+    "cca2": "BA",
+    "ccn3": "070",
+    "cca3": "BIH",
+    "cioc": "BIH",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bam",
+        "name": "Bosnia and Herzegovina convertible mark",
+        "code": "BAM",
+        "commonName": "Bosnia and Herzegovina convertible mark",
+        "officialName": "Bosnia and Herzegovina convertible mark",
+        "symbol": "KM"
+      }
+    ],
+    "languages": [
+      {
+        "id": "bs",
+        "code": "bs",
+        "name": "Bosnian",
+        "native": "Bosanski",
+        "cca3": "bos"
+      },
+      {
+        "id": "hr",
+        "code": "hr",
+        "name": "Croatian",
+        "native": "Hrvatski",
+        "cca3": "hrv"
+      },
+      {
+        "id": "sr",
+        "code": "sr",
+        "name": "Serbian",
+        "native": "Српски",
+        "cca3": "srp"
+      }
+    ]
+  },
+  {
+    "id": "by",
+    "name": "Belarus",
+    "commonName": "Belarus",
+    "officialName": "Republic of Belarus",
+    "code": "by",
+    "cca2": "BY",
+    "ccn3": "112",
+    "cca3": "BLR",
+    "cioc": "BLR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "byn",
+        "name": "Belarusian ruble",
+        "code": "BYN",
+        "commonName": "Belarusian ruble",
+        "officialName": "Belarusian ruble",
+        "symbol": "Br"
+      }
+    ],
+    "languages": [
+      {
+        "id": "be",
+        "code": "be",
+        "name": "Belarusian",
+        "native": "Беларуская",
+        "cca3": "bel"
+      },
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      }
+    ]
+  },
+  {
+    "id": "bz",
+    "name": "Belize",
+    "commonName": "Belize",
+    "officialName": "Belize",
+    "code": "bz",
+    "cca2": "BZ",
+    "ccn3": "084",
+    "cca3": "BLZ",
+    "cioc": "BIZ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bzd",
+        "name": "Belize dollar",
+        "code": "BZD",
+        "commonName": "Belize dollar",
+        "officialName": "Belize dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "bo",
+    "name": "Bolivia",
+    "commonName": "Bolivia",
+    "officialName": "Plurinational State of Bolivia",
+    "code": "bo",
+    "cca2": "BO",
+    "ccn3": "068",
+    "cca3": "BOL",
+    "cioc": "BOL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bob",
+        "name": "Bolivian boliviano",
+        "code": "BOB",
+        "commonName": "Bolivian boliviano",
+        "officialName": "Bolivian boliviano",
+        "symbol": "Bs."
+      }
+    ],
+    "languages": [
+      {
+        "id": "ay",
+        "code": "ay",
+        "name": "Aymara",
+        "native": "Aymar",
+        "cca3": "aym"
+      },
+      {
+        "id": "gn",
+        "code": "gn",
+        "name": "Guaraní",
+        "native": "Avañe'ẽ",
+        "cca3": "grn"
+      },
+      {
+        "id": "qu",
+        "code": "qu",
+        "name": "Quechua",
+        "native": "Runa Simi",
+        "cca3": "que"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "br",
+    "name": "Brazil",
+    "commonName": "Brazil",
+    "officialName": "Federative Republic of Brazil",
+    "code": "br",
+    "cca2": "BR",
+    "ccn3": "076",
+    "cca3": "BRA",
+    "cioc": "BRA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "brl",
+        "name": "Brazilian real",
+        "code": "BRL",
+        "commonName": "Brazilian real",
+        "officialName": "Brazilian real",
+        "symbol": "R$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "bb",
+    "name": "Barbados",
+    "commonName": "Barbados",
+    "officialName": "Barbados",
+    "code": "bb",
+    "cca2": "BB",
+    "ccn3": "052",
+    "cca3": "BRB",
+    "cioc": "BAR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bbd",
+        "name": "Barbadian dollar",
+        "code": "BBD",
+        "commonName": "Barbadian dollar",
+        "officialName": "Barbadian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "bn",
+    "name": "Brunei",
+    "commonName": "Brunei",
+    "officialName": "Nation of Brunei, Abode of Peace",
+    "code": "bn",
+    "cca2": "BN",
+    "ccn3": "096",
+    "cca3": "BRN",
+    "cioc": "BRU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bnd",
+        "name": "Brunei dollar",
+        "code": "BND",
+        "commonName": "Brunei dollar",
+        "officialName": "Brunei dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "sgd",
+        "name": "Singapore dollar",
+        "code": "SGD",
+        "commonName": "Singapore dollar",
+        "officialName": "Singapore dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ms",
+        "code": "ms",
+        "name": "Malay",
+        "native": "Bahasa Melayu",
+        "cca3": "msa"
+      }
+    ]
+  },
+  {
+    "id": "bt",
+    "name": "Bhutan",
+    "commonName": "Bhutan",
+    "officialName": "Kingdom of Bhutan",
+    "code": "bt",
+    "cca2": "BT",
+    "ccn3": "064",
+    "cca3": "BTN",
+    "cioc": "BHU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "btn",
+        "name": "Bhutanese ngultrum",
+        "code": "BTN",
+        "commonName": "Bhutanese ngultrum",
+        "officialName": "Bhutanese ngultrum",
+        "symbol": "Nu."
+      },
+      {
+        "id": "inr",
+        "name": "Indian rupee",
+        "code": "INR",
+        "commonName": "Indian rupee",
+        "officialName": "Indian rupee",
+        "symbol": "₹"
+      }
+    ],
+    "languages": [
+      {
+        "id": "dz",
+        "code": "dz",
+        "name": "Dzongkha",
+        "native": "རྫོང་ཁ",
+        "cca3": "dzo"
+      }
+    ]
+  },
+  {
+    "id": "bw",
+    "name": "Botswana",
+    "commonName": "Botswana",
+    "officialName": "Republic of Botswana",
+    "code": "bw",
+    "cca2": "BW",
+    "ccn3": "072",
+    "cca3": "BWA",
+    "cioc": "BOT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bwp",
+        "name": "Botswana pula",
+        "code": "BWP",
+        "commonName": "Botswana pula",
+        "officialName": "Botswana pula",
+        "symbol": "P"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "tn",
+        "code": "tn",
+        "name": "Tswana",
+        "native": "Setswana",
+        "cca3": "tsn"
+      }
+    ]
+  },
+  {
+    "id": "cf",
+    "name": "Central African Republic",
+    "commonName": "Central African Republic",
+    "officialName": "Central African Republic",
+    "code": "cf",
+    "cca2": "CF",
+    "ccn3": "140",
+    "cca3": "CAF",
+    "cioc": "CAF",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "sg",
+        "code": "sg",
+        "name": "Sango",
+        "native": "Sängö",
+        "cca3": "sag"
+      }
+    ]
+  },
+  {
+    "id": "ca",
+    "name": "Canada",
+    "commonName": "Canada",
+    "officialName": "Canada",
+    "code": "ca",
+    "cca2": "CA",
+    "ccn3": "124",
+    "cca3": "CAN",
+    "cioc": "CAN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cad",
+        "name": "Canadian dollar",
+        "code": "CAD",
+        "commonName": "Canadian dollar",
+        "officialName": "Canadian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "ch",
+    "name": "Switzerland",
+    "commonName": "Switzerland",
+    "officialName": "Swiss Confederation",
+    "code": "ch",
+    "cca2": "CH",
+    "ccn3": "756",
+    "cca3": "CHE",
+    "cioc": "SUI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "chf",
+        "name": "Swiss franc",
+        "code": "CHF",
+        "commonName": "Swiss franc",
+        "officialName": "Swiss franc",
+        "symbol": "Fr."
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "it",
+        "code": "it",
+        "name": "Italian",
+        "native": "Italiano",
+        "cca3": "ita"
+      },
+      {
+        "id": "rm",
+        "code": "rm",
+        "name": "Romansh",
+        "native": "Rumantsch",
+        "cca3": "roh"
+      }
+    ]
+  },
+  {
+    "id": "cl",
+    "name": "Chile",
+    "commonName": "Chile",
+    "officialName": "Republic of Chile",
+    "code": "cl",
+    "cca2": "CL",
+    "ccn3": "152",
+    "cca3": "CHL",
+    "cioc": "CHI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "clp",
+        "name": "Chilean peso",
+        "code": "CLP",
+        "commonName": "Chilean peso",
+        "officialName": "Chilean peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "cn",
+    "name": "China",
+    "commonName": "China",
+    "officialName": "People's Republic of China",
+    "code": "cn",
+    "cca2": "CN",
+    "ccn3": "156",
+    "cca3": "CHN",
+    "cioc": "CHN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cny",
+        "name": "Chinese yuan",
+        "code": "CNY",
+        "commonName": "Chinese yuan",
+        "officialName": "Chinese yuan",
+        "symbol": "¥"
+      }
+    ],
+    "languages": [
+      {
+        "id": "zh",
+        "code": "zh",
+        "name": "Chinese",
+        "native": "中文",
+        "cca3": "zho"
+      }
+    ]
+  },
+  {
+    "id": "ci",
+    "name": "Ivory Coast",
+    "commonName": "Ivory Coast",
+    "officialName": "Republic of Côte d'Ivoire",
+    "code": "ci",
+    "cca2": "CI",
+    "ccn3": "384",
+    "cca3": "CIV",
+    "cioc": "CIV",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "cm",
+    "name": "Cameroon",
+    "commonName": "Cameroon",
+    "officialName": "Republic of Cameroon",
+    "code": "cm",
+    "cca2": "CM",
+    "ccn3": "120",
+    "cca3": "CMR",
+    "cioc": "CMR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "cd",
+    "name": "DR Congo",
+    "commonName": "DR Congo",
+    "officialName": "Democratic Republic of the Congo",
+    "code": "cd",
+    "cca2": "CD",
+    "ccn3": "180",
+    "cca3": "COD",
+    "cioc": "COD",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cdf",
+        "name": "Congolese franc",
+        "code": "CDF",
+        "commonName": "Congolese franc",
+        "officialName": "Congolese franc",
+        "symbol": "FC"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "kg",
+        "code": "kg",
+        "name": "Kongo",
+        "native": "Kongo",
+        "cca3": "kon"
+      },
+      {
+        "id": "ln",
+        "code": "ln",
+        "name": "Lingala",
+        "native": "Lingála",
+        "cca3": "lin"
+      },
+      {
+        "id": "sw",
+        "code": "sw",
+        "name": "Swahili",
+        "native": "Kiswahili",
+        "cca3": "swa"
+      }
+    ]
+  },
+  {
+    "id": "cg",
+    "name": "Congo",
+    "commonName": "Congo",
+    "officialName": "Republic of the Congo",
+    "code": "cg",
+    "cca2": "CG",
+    "ccn3": "178",
+    "cca3": "COG",
+    "cioc": "CGO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "kg",
+        "code": "kg",
+        "name": "Kongo",
+        "native": "Kongo",
+        "cca3": "kon"
+      },
+      {
+        "id": "ln",
+        "code": "ln",
+        "name": "Lingala",
+        "native": "Lingála",
+        "cca3": "lin"
+      }
+    ]
+  },
+  {
+    "id": "co",
+    "name": "Colombia",
+    "commonName": "Colombia",
+    "officialName": "Republic of Colombia",
+    "code": "co",
+    "cca2": "CO",
+    "ccn3": "170",
+    "cca3": "COL",
+    "cioc": "COL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cop",
+        "name": "Colombian peso",
+        "code": "COP",
+        "commonName": "Colombian peso",
+        "officialName": "Colombian peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "km",
+    "name": "Comoros",
+    "commonName": "Comoros",
+    "officialName": "Union of the Comoros",
+    "code": "km",
+    "cca2": "KM",
+    "ccn3": "174",
+    "cca3": "COM",
+    "cioc": "COM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kmf",
+        "name": "Comorian franc",
+        "code": "KMF",
+        "commonName": "Comorian franc",
+        "officialName": "Comorian franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "cv",
+    "name": "Cape Verde",
+    "commonName": "Cape Verde",
+    "officialName": "Republic of Cabo Verde",
+    "code": "cv",
+    "cca2": "CV",
+    "ccn3": "132",
+    "cca3": "CPV",
+    "cioc": "CPV",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cve",
+        "name": "Cape Verdean escudo",
+        "code": "CVE",
+        "commonName": "Cape Verdean escudo",
+        "officialName": "Cape Verdean escudo",
+        "symbol": "Esc"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "cr",
+    "name": "Costa Rica",
+    "commonName": "Costa Rica",
+    "officialName": "Republic of Costa Rica",
+    "code": "cr",
+    "cca2": "CR",
+    "ccn3": "188",
+    "cca3": "CRI",
+    "cioc": "CRC",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "crc",
+        "name": "Costa Rican colón",
+        "code": "CRC",
+        "commonName": "Costa Rican colón",
+        "officialName": "Costa Rican colón",
+        "symbol": "₡"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "cu",
+    "name": "Cuba",
+    "commonName": "Cuba",
+    "officialName": "Republic of Cuba",
+    "code": "cu",
+    "cca2": "CU",
+    "ccn3": "192",
+    "cca3": "CUB",
+    "cioc": "CUB",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "cuc",
+        "name": "Cuban convertible peso",
+        "code": "CUC",
+        "commonName": "Cuban convertible peso",
+        "officialName": "Cuban convertible peso",
+        "symbol": "$"
+      },
+      {
+        "id": "cup",
+        "name": "Cuban peso",
+        "code": "CUP",
+        "commonName": "Cuban peso",
+        "officialName": "Cuban peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "cy",
+    "name": "Cyprus",
+    "commonName": "Cyprus",
+    "officialName": "Republic of Cyprus",
+    "code": "cy",
+    "cca2": "CY",
+    "ccn3": "196",
+    "cca3": "CYP",
+    "cioc": "CYP",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "el",
+        "code": "el",
+        "name": "Greek",
+        "native": "Ελληνικά",
+        "cca3": "ell"
+      },
+      {
+        "id": "tr",
+        "code": "tr",
+        "name": "Turkish",
+        "native": "Türkçe",
+        "cca3": "tur"
+      }
+    ]
+  },
+  {
+    "id": "cz",
+    "name": "Czechia",
+    "commonName": "Czechia",
+    "officialName": "Czech Republic",
+    "code": "cz",
+    "cca2": "CZ",
+    "ccn3": "203",
+    "cca3": "CZE",
+    "cioc": "CZE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "czk",
+        "name": "Czech koruna",
+        "code": "CZK",
+        "commonName": "Czech koruna",
+        "officialName": "Czech koruna",
+        "symbol": "Kč"
+      }
+    ],
+    "languages": [
+      {
+        "id": "cs",
+        "code": "cs",
+        "name": "Czech",
+        "native": "Čeština",
+        "cca3": "ces"
+      },
+      {
+        "id": "sk",
+        "code": "sk",
+        "name": "Slovak",
+        "native": "Slovenčina",
+        "cca3": "slk"
+      }
+    ]
+  },
+  {
+    "id": "de",
+    "name": "Germany",
+    "commonName": "Germany",
+    "officialName": "Federal Republic of Germany",
+    "code": "de",
+    "cca2": "DE",
+    "ccn3": "276",
+    "cca3": "DEU",
+    "cioc": "GER",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "de",
+        "code": "de",
+        "name": "German",
+        "native": "Deutsch",
+        "cca3": "deu"
+      }
+    ]
+  },
+  {
+    "id": "dj",
+    "name": "Djibouti",
+    "commonName": "Djibouti",
+    "officialName": "Republic of Djibouti",
+    "code": "dj",
+    "cca2": "DJ",
+    "ccn3": "262",
+    "cca3": "DJI",
+    "cioc": "DJI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "djf",
+        "name": "Djiboutian franc",
+        "code": "DJF",
+        "commonName": "Djiboutian franc",
+        "officialName": "Djiboutian franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "dm",
+    "name": "Dominica",
+    "commonName": "Dominica",
+    "officialName": "Commonwealth of Dominica",
+    "code": "dm",
+    "cca2": "DM",
+    "ccn3": "212",
+    "cca3": "DMA",
+    "cioc": "DMA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "dk",
+    "name": "Denmark",
+    "commonName": "Denmark",
+    "officialName": "Kingdom of Denmark",
+    "code": "dk",
+    "cca2": "DK",
+    "ccn3": "208",
+    "cca3": "DNK",
+    "cioc": "DEN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "dkk",
+        "name": "Danish krone",
+        "code": "DKK",
+        "commonName": "Danish krone",
+        "officialName": "Danish krone",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "da",
+        "code": "da",
+        "name": "Danish",
+        "native": "Dansk",
+        "cca3": "dan"
+      }
+    ]
+  },
+  {
+    "id": "do",
+    "name": "Dominican Republic",
+    "commonName": "Dominican Republic",
+    "officialName": "Dominican Republic",
+    "code": "do",
+    "cca2": "DO",
+    "ccn3": "214",
+    "cca3": "DOM",
+    "cioc": "DOM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "dop",
+        "name": "Dominican peso",
+        "code": "DOP",
+        "commonName": "Dominican peso",
+        "officialName": "Dominican peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "dz",
+    "name": "Algeria",
+    "commonName": "Algeria",
+    "officialName": "People's Democratic Republic of Algeria",
+    "code": "dz",
+    "cca2": "DZ",
+    "ccn3": "012",
+    "cca3": "DZA",
+    "cioc": "ALG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "dzd",
+        "name": "Algerian dinar",
+        "code": "DZD",
+        "commonName": "Algerian dinar",
+        "officialName": "Algerian dinar",
+        "symbol": "د.ج"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "ec",
+    "name": "Ecuador",
+    "commonName": "Ecuador",
+    "officialName": "Republic of Ecuador",
+    "code": "ec",
+    "cca2": "EC",
+    "ccn3": "218",
+    "cca3": "ECU",
+    "cioc": "ECU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "eg",
+    "name": "Egypt",
+    "commonName": "Egypt",
+    "officialName": "Arab Republic of Egypt",
+    "code": "eg",
+    "cca2": "EG",
+    "ccn3": "818",
+    "cca3": "EGY",
+    "cioc": "EGY",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "egp",
+        "name": "Egyptian pound",
+        "code": "EGP",
+        "commonName": "Egyptian pound",
+        "officialName": "Egyptian pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "er",
+    "name": "Eritrea",
+    "commonName": "Eritrea",
+    "officialName": "State of Eritrea",
+    "code": "er",
+    "cca2": "ER",
+    "ccn3": "232",
+    "cca3": "ERI",
+    "cioc": "ERI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ern",
+        "name": "Eritrean nakfa",
+        "code": "ERN",
+        "commonName": "Eritrean nakfa",
+        "officialName": "Eritrean nakfa",
+        "symbol": "Nfk"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ti",
+        "code": "ti",
+        "name": "Tigrinya",
+        "native": "ትግርኛ",
+        "cca3": "tir"
+      }
+    ]
+  },
+  {
+    "id": "es",
+    "name": "Spain",
+    "commonName": "Spain",
+    "officialName": "Kingdom of Spain",
+    "code": "es",
+    "cca2": "ES",
+    "ccn3": "724",
+    "cca3": "ESP",
+    "cioc": "ESP",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "ee",
+    "name": "Estonia",
+    "commonName": "Estonia",
+    "officialName": "Republic of Estonia",
+    "code": "ee",
+    "cca2": "EE",
+    "ccn3": "233",
+    "cca3": "EST",
+    "cioc": "EST",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "et",
+        "code": "et",
+        "name": "Estonian",
+        "native": "Eesti",
+        "cca3": "est"
+      }
+    ]
+  },
+  {
+    "id": "et",
+    "name": "Ethiopia",
+    "commonName": "Ethiopia",
+    "officialName": "Federal Democratic Republic of Ethiopia",
+    "code": "et",
+    "cca2": "ET",
+    "ccn3": "231",
+    "cca3": "ETH",
+    "cioc": "ETH",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "etb",
+        "name": "Ethiopian birr",
+        "code": "ETB",
+        "commonName": "Ethiopian birr",
+        "officialName": "Ethiopian birr",
+        "symbol": "Br"
+      }
+    ],
+    "languages": [
+      {
+        "id": "am",
+        "code": "am",
+        "name": "Amharic",
+        "native": "አማርኛ",
+        "cca3": "amh"
+      }
+    ]
+  },
+  {
+    "id": "fi",
+    "name": "Finland",
+    "commonName": "Finland",
+    "officialName": "Republic of Finland",
+    "code": "fi",
+    "cca2": "FI",
+    "ccn3": "246",
+    "cca3": "FIN",
+    "cioc": "FIN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fi",
+        "code": "fi",
+        "name": "Finnish",
+        "native": "Suomi",
+        "cca3": "fin"
+      },
+      {
+        "id": "sv",
+        "code": "sv",
+        "name": "Swedish",
+        "native": "Svenska",
+        "cca3": "swe"
+      }
+    ]
+  },
+  {
+    "id": "fj",
+    "name": "Fiji",
+    "commonName": "Fiji",
+    "officialName": "Republic of Fiji",
+    "code": "fj",
+    "cca2": "FJ",
+    "ccn3": "242",
+    "cca3": "FJI",
+    "cioc": "FIJ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "fjd",
+        "name": "Fijian dollar",
+        "code": "FJD",
+        "commonName": "Fijian dollar",
+        "officialName": "Fijian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fj",
+        "code": "fj",
+        "name": "Fijian",
+        "native": "Na Vosa Vaka-Viti",
+        "cca3": "fij"
+      }
+    ]
+  },
+  {
+    "id": "fr",
+    "name": "France",
+    "commonName": "France",
+    "officialName": "French Republic",
+    "code": "fr",
+    "cca2": "FR",
+    "ccn3": "250",
+    "cca3": "FRA",
+    "cioc": "FRA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "fm",
+    "name": "Micronesia",
+    "commonName": "Micronesia",
+    "officialName": "Federated States of Micronesia",
+    "code": "fm",
+    "cca2": "FM",
+    "ccn3": "583",
+    "cca3": "FSM",
+    "cioc": "FSM",
+    "continents": [],
+    "currencies": [],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ga",
+    "name": "Gabon",
+    "commonName": "Gabon",
+    "officialName": "Gabonese Republic",
+    "code": "ga",
+    "cca2": "GA",
+    "ccn3": "266",
+    "cca3": "GAB",
+    "cioc": "GAB",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "gb",
+    "name": "United Kingdom",
+    "commonName": "United Kingdom",
+    "officialName": "United Kingdom of Great Britain and Northern Ireland",
+    "code": "gb",
+    "cca2": "GB",
+    "ccn3": "826",
+    "cca3": "GBR",
+    "cioc": "GBR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gbp",
+        "name": "British pound",
+        "code": "GBP",
+        "commonName": "British pound",
+        "officialName": "British pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ge",
+    "name": "Georgia",
+    "commonName": "Georgia",
+    "officialName": "Georgia",
+    "code": "ge",
+    "cca2": "GE",
+    "ccn3": "268",
+    "cca3": "GEO",
+    "cioc": "GEO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gel",
+        "name": "lari",
+        "code": "GEL",
+        "commonName": "lari",
+        "officialName": "lari",
+        "symbol": "₾"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ka",
+        "code": "ka",
+        "name": "Georgian",
+        "native": "ქართული",
+        "cca3": "kat"
+      }
+    ]
+  },
+  {
+    "id": "gh",
+    "name": "Ghana",
+    "commonName": "Ghana",
+    "officialName": "Republic of Ghana",
+    "code": "gh",
+    "cca2": "GH",
+    "ccn3": "288",
+    "cca3": "GHA",
+    "cioc": "GHA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ghs",
+        "name": "Ghanaian cedi",
+        "code": "GHS",
+        "commonName": "Ghanaian cedi",
+        "officialName": "Ghanaian cedi",
+        "symbol": "₵"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "gn",
+    "name": "Guinea",
+    "commonName": "Guinea",
+    "officialName": "Republic of Guinea",
+    "code": "gn",
+    "cca2": "GN",
+    "ccn3": "324",
+    "cca3": "GIN",
+    "cioc": "GUI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gnf",
+        "name": "Guinean franc",
+        "code": "GNF",
+        "commonName": "Guinean franc",
+        "officialName": "Guinean franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "gm",
+    "name": "Gambia",
+    "commonName": "Gambia",
+    "officialName": "Republic of the Gambia",
+    "code": "gm",
+    "cca2": "GM",
+    "ccn3": "270",
+    "cca3": "GMB",
+    "cioc": "GAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gmd",
+        "name": "dalasi",
+        "code": "GMD",
+        "commonName": "dalasi",
+        "officialName": "dalasi",
+        "symbol": "D"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "gw",
+    "name": "Guinea-Bissau",
+    "commonName": "Guinea-Bissau",
+    "officialName": "Republic of Guinea-Bissau",
+    "code": "gw",
+    "cca2": "GW",
+    "ccn3": "624",
+    "cca3": "GNB",
+    "cioc": "GBS",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "gq",
+    "name": "Equatorial Guinea",
+    "commonName": "Equatorial Guinea",
+    "officialName": "Republic of Equatorial Guinea",
+    "code": "gq",
+    "cca2": "GQ",
+    "ccn3": "226",
+    "cca3": "GNQ",
+    "cioc": "GEQ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "gr",
+    "name": "Greece",
+    "commonName": "Greece",
+    "officialName": "Hellenic Republic",
+    "code": "gr",
+    "cca2": "GR",
+    "ccn3": "300",
+    "cca3": "GRC",
+    "cioc": "GRE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "el",
+        "code": "el",
+        "name": "Greek",
+        "native": "Ελληνικά",
+        "cca3": "ell"
+      }
+    ]
+  },
+  {
+    "id": "gd",
+    "name": "Grenada",
+    "commonName": "Grenada",
+    "officialName": "Grenada",
+    "code": "gd",
+    "cca2": "GD",
+    "ccn3": "308",
+    "cca3": "GRD",
+    "cioc": "GRN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "gt",
+    "name": "Guatemala",
+    "commonName": "Guatemala",
+    "officialName": "Republic of Guatemala",
+    "code": "gt",
+    "cca2": "GT",
+    "ccn3": "320",
+    "cca3": "GTM",
+    "cioc": "GUA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gtq",
+        "name": "Guatemalan quetzal",
+        "code": "GTQ",
+        "commonName": "Guatemalan quetzal",
+        "officialName": "Guatemalan quetzal",
+        "symbol": "Q"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "gy",
+    "name": "Guyana",
+    "commonName": "Guyana",
+    "officialName": "Co-operative Republic of Guyana",
+    "code": "gy",
+    "cca2": "GY",
+    "ccn3": "328",
+    "cca3": "GUY",
+    "cioc": "GUY",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "gyd",
+        "name": "Guyanese dollar",
+        "code": "GYD",
+        "commonName": "Guyanese dollar",
+        "officialName": "Guyanese dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "hn",
+    "name": "Honduras",
+    "commonName": "Honduras",
+    "officialName": "Republic of Honduras",
+    "code": "hn",
+    "cca2": "HN",
+    "ccn3": "340",
+    "cca3": "HND",
+    "cioc": "HON",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "hnl",
+        "name": "Honduran lempira",
+        "code": "HNL",
+        "commonName": "Honduran lempira",
+        "officialName": "Honduran lempira",
+        "symbol": "L"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "hr",
+    "name": "Croatia",
+    "commonName": "Croatia",
+    "officialName": "Republic of Croatia",
+    "code": "hr",
+    "cca2": "HR",
+    "ccn3": "191",
+    "cca3": "HRV",
+    "cioc": "CRO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "hr",
+        "code": "hr",
+        "name": "Croatian",
+        "native": "Hrvatski",
+        "cca3": "hrv"
+      }
+    ]
+  },
+  {
+    "id": "ht",
+    "name": "Haiti",
+    "commonName": "Haiti",
+    "officialName": "Republic of Haiti",
+    "code": "ht",
+    "cca2": "HT",
+    "ccn3": "332",
+    "cca3": "HTI",
+    "cioc": "HAI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "htg",
+        "name": "Haitian gourde",
+        "code": "HTG",
+        "commonName": "Haitian gourde",
+        "officialName": "Haitian gourde",
+        "symbol": "G"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "ht",
+        "code": "ht",
+        "name": "Haitian",
+        "native": "Kreyòl Ayisyen",
+        "cca3": "hat"
+      }
+    ]
+  },
+  {
+    "id": "hu",
+    "name": "Hungary",
+    "commonName": "Hungary",
+    "officialName": "Hungary",
+    "code": "hu",
+    "cca2": "HU",
+    "ccn3": "348",
+    "cca3": "HUN",
+    "cioc": "HUN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "huf",
+        "name": "Hungarian forint",
+        "code": "HUF",
+        "commonName": "Hungarian forint",
+        "officialName": "Hungarian forint",
+        "symbol": "Ft"
+      }
+    ],
+    "languages": [
+      {
+        "id": "hu",
+        "code": "hu",
+        "name": "Hungarian",
+        "native": "Magyar",
+        "cca3": "hun"
+      }
+    ]
+  },
+  {
+    "id": "id",
+    "name": "Indonesia",
+    "commonName": "Indonesia",
+    "officialName": "Republic of Indonesia",
+    "code": "id",
+    "cca2": "ID",
+    "ccn3": "360",
+    "cca3": "IDN",
+    "cioc": "INA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "idr",
+        "name": "Indonesian rupiah",
+        "code": "IDR",
+        "commonName": "Indonesian rupiah",
+        "officialName": "Indonesian rupiah",
+        "symbol": "Rp"
+      }
+    ],
+    "languages": [
+      {
+        "id": "id",
+        "code": "id",
+        "name": "Indonesian",
+        "native": "Bahasa Indonesia",
+        "cca3": "ind"
+      }
+    ]
+  },
+  {
+    "id": "in",
+    "name": "India",
+    "commonName": "India",
+    "officialName": "Republic of India",
+    "code": "in",
+    "cca2": "IN",
+    "ccn3": "356",
+    "cca3": "IND",
+    "cioc": "IND",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "inr",
+        "name": "Indian rupee",
+        "code": "INR",
+        "commonName": "Indian rupee",
+        "officialName": "Indian rupee",
+        "symbol": "₹"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "hi",
+        "code": "hi",
+        "name": "Hindi",
+        "native": "हिन्दी",
+        "cca3": "hin"
+      },
+      {
+        "id": "ta",
+        "code": "ta",
+        "name": "Tamil",
+        "native": "தமிழ்",
+        "cca3": "tam"
+      }
+    ]
+  },
+  {
+    "id": "ie",
+    "name": "Ireland",
+    "commonName": "Ireland",
+    "officialName": "Republic of Ireland",
+    "code": "ie",
+    "cca2": "IE",
+    "ccn3": "372",
+    "cca3": "IRL",
+    "cioc": "IRL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ga",
+        "code": "ga",
+        "name": "Irish",
+        "native": "Gaeilge",
+        "cca3": "gle"
+      }
+    ]
+  },
+  {
+    "id": "ir",
+    "name": "Iran",
+    "commonName": "Iran",
+    "officialName": "Islamic Republic of Iran",
+    "code": "ir",
+    "cca2": "IR",
+    "ccn3": "364",
+    "cca3": "IRN",
+    "cioc": "IRI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "irr",
+        "name": "Iranian rial",
+        "code": "IRR",
+        "commonName": "Iranian rial",
+        "officialName": "Iranian rial",
+        "symbol": "﷼"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fa",
+        "code": "fa",
+        "name": "Persian",
+        "native": "فارسی",
+        "cca3": "fas"
+      }
+    ]
+  },
+  {
+    "id": "iq",
+    "name": "Iraq",
+    "commonName": "Iraq",
+    "officialName": "Republic of Iraq",
+    "code": "iq",
+    "cca2": "IQ",
+    "ccn3": "368",
+    "cca3": "IRQ",
+    "cioc": "IRQ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "iqd",
+        "name": "Iraqi dinar",
+        "code": "IQD",
+        "commonName": "Iraqi dinar",
+        "officialName": "Iraqi dinar",
+        "symbol": "ع.د"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "is",
+    "name": "Iceland",
+    "commonName": "Iceland",
+    "officialName": "Iceland",
+    "code": "is",
+    "cca2": "IS",
+    "ccn3": "352",
+    "cca3": "ISL",
+    "cioc": "ISL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "isk",
+        "name": "Icelandic króna",
+        "code": "ISK",
+        "commonName": "Icelandic króna",
+        "officialName": "Icelandic króna",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "is",
+        "code": "is",
+        "name": "Icelandic",
+        "native": "Íslenska",
+        "cca3": "isl"
+      }
+    ]
+  },
+  {
+    "id": "il",
+    "name": "Israel",
+    "commonName": "Israel",
+    "officialName": "State of Israel",
+    "code": "il",
+    "cca2": "IL",
+    "ccn3": "376",
+    "cca3": "ISR",
+    "cioc": "ISR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ils",
+        "name": "Israeli new shekel",
+        "code": "ILS",
+        "commonName": "Israeli new shekel",
+        "officialName": "Israeli new shekel",
+        "symbol": "₪"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "he",
+        "code": "he",
+        "name": "Hebrew",
+        "native": "עברית",
+        "cca3": "heb"
+      }
+    ]
+  },
+  {
+    "id": "it",
+    "name": "Italy",
+    "commonName": "Italy",
+    "officialName": "Italian Republic",
+    "code": "it",
+    "cca2": "IT",
+    "ccn3": "380",
+    "cca3": "ITA",
+    "cioc": "ITA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "it",
+        "code": "it",
+        "name": "Italian",
+        "native": "Italiano",
+        "cca3": "ita"
+      }
+    ]
+  },
+  {
+    "id": "jm",
+    "name": "Jamaica",
+    "commonName": "Jamaica",
+    "officialName": "Jamaica",
+    "code": "jm",
+    "cca2": "JM",
+    "ccn3": "388",
+    "cca3": "JAM",
+    "cioc": "JAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "jmd",
+        "name": "Jamaican dollar",
+        "code": "JMD",
+        "commonName": "Jamaican dollar",
+        "officialName": "Jamaican dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "jo",
+    "name": "Jordan",
+    "commonName": "Jordan",
+    "officialName": "Hashemite Kingdom of Jordan",
+    "code": "jo",
+    "cca2": "JO",
+    "ccn3": "400",
+    "cca3": "JOR",
+    "cioc": "JOR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "jod",
+        "name": "Jordanian dinar",
+        "code": "JOD",
+        "commonName": "Jordanian dinar",
+        "officialName": "Jordanian dinar",
+        "symbol": "د.ا"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "jp",
+    "name": "Japan",
+    "commonName": "Japan",
+    "officialName": "Japan",
+    "code": "jp",
+    "cca2": "JP",
+    "ccn3": "392",
+    "cca3": "JPN",
+    "cioc": "JPN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "jpy",
+        "name": "Japanese yen",
+        "code": "JPY",
+        "commonName": "Japanese yen",
+        "officialName": "Japanese yen",
+        "symbol": "¥"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ja",
+        "code": "ja",
+        "name": "Japanese",
+        "native": "日本語",
+        "cca3": "jpn"
+      }
+    ]
+  },
+  {
+    "id": "kz",
+    "name": "Kazakhstan",
+    "commonName": "Kazakhstan",
+    "officialName": "Republic of Kazakhstan",
+    "code": "kz",
+    "cca2": "KZ",
+    "ccn3": "398",
+    "cca3": "KAZ",
+    "cioc": "KAZ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kzt",
+        "name": "Kazakhstani tenge",
+        "code": "KZT",
+        "commonName": "Kazakhstani tenge",
+        "officialName": "Kazakhstani tenge",
+        "symbol": "₸"
+      }
+    ],
+    "languages": [
+      {
+        "id": "kk",
+        "code": "kk",
+        "name": "Kazakh",
+        "native": "Қазақша",
+        "cca3": "kaz"
+      },
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      }
+    ]
+  },
+  {
+    "id": "ke",
+    "name": "Kenya",
+    "commonName": "Kenya",
+    "officialName": "Republic of Kenya",
+    "code": "ke",
+    "cca2": "KE",
+    "ccn3": "404",
+    "cca3": "KEN",
+    "cioc": "KEN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kes",
+        "name": "Kenyan shilling",
+        "code": "KES",
+        "commonName": "Kenyan shilling",
+        "officialName": "Kenyan shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "sw",
+        "code": "sw",
+        "name": "Swahili",
+        "native": "Kiswahili",
+        "cca3": "swa"
+      }
+    ]
+  },
+  {
+    "id": "kg",
+    "name": "Kyrgyzstan",
+    "commonName": "Kyrgyzstan",
+    "officialName": "Kyrgyz Republic",
+    "code": "kg",
+    "cca2": "KG",
+    "ccn3": "417",
+    "cca3": "KGZ",
+    "cioc": "KGZ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kgs",
+        "name": "Kyrgyzstani som",
+        "code": "KGS",
+        "commonName": "Kyrgyzstani som",
+        "officialName": "Kyrgyzstani som",
+        "symbol": "с"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ky",
+        "code": "ky",
+        "name": "Kyrgyz",
+        "native": "Кыргызча",
+        "cca3": "kir"
+      },
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      }
+    ]
+  },
+  {
+    "id": "kh",
+    "name": "Cambodia",
+    "commonName": "Cambodia",
+    "officialName": "Kingdom of Cambodia",
+    "code": "kh",
+    "cca2": "KH",
+    "ccn3": "116",
+    "cca3": "KHM",
+    "cioc": "CAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "khr",
+        "name": "Cambodian riel",
+        "code": "KHR",
+        "commonName": "Cambodian riel",
+        "officialName": "Cambodian riel",
+        "symbol": "៛"
+      },
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "km",
+        "code": "km",
+        "name": "Khmer",
+        "native": "ភាសាខ្មែរ",
+        "cca3": "khm"
+      }
+    ]
+  },
+  {
+    "id": "ki",
+    "name": "Kiribati",
+    "commonName": "Kiribati",
+    "officialName": "Independent and Sovereign Republic of Kiribati",
+    "code": "ki",
+    "cca2": "KI",
+    "ccn3": "296",
+    "cca3": "KIR",
+    "cioc": "KIR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aud",
+        "name": "Australian dollar",
+        "code": "AUD",
+        "commonName": "Australian dollar",
+        "officialName": "Australian dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "kid",
+        "name": "Kiribati dollar",
+        "code": "KID",
+        "commonName": "Kiribati dollar",
+        "officialName": "Kiribati dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "kn",
+    "name": "Saint Kitts and Nevis",
+    "commonName": "Saint Kitts and Nevis",
+    "officialName": "Federation of Saint Christopher and Nevis",
+    "code": "kn",
+    "cca2": "KN",
+    "ccn3": "659",
+    "cca3": "KNA",
+    "cioc": "SKN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "kr",
+    "name": "South Korea",
+    "commonName": "South Korea",
+    "officialName": "Republic of Korea",
+    "code": "kr",
+    "cca2": "KR",
+    "ccn3": "410",
+    "cca3": "KOR",
+    "cioc": "KOR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "krw",
+        "name": "South Korean won",
+        "code": "KRW",
+        "commonName": "South Korean won",
+        "officialName": "South Korean won",
+        "symbol": "₩"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ko",
+        "code": "ko",
+        "name": "Korean",
+        "native": "한국어",
+        "cca3": "kor"
+      }
+    ]
+  },
+  {
+    "id": "kw",
+    "name": "Kuwait",
+    "commonName": "Kuwait",
+    "officialName": "State of Kuwait",
+    "code": "kw",
+    "cca2": "KW",
+    "ccn3": "414",
+    "cca3": "KWT",
+    "cioc": "KUW",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kwd",
+        "name": "Kuwaiti dinar",
+        "code": "KWD",
+        "commonName": "Kuwaiti dinar",
+        "officialName": "Kuwaiti dinar",
+        "symbol": "د.ك"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "la",
+    "name": "Laos",
+    "commonName": "Laos",
+    "officialName": "Lao People's Democratic Republic",
+    "code": "la",
+    "cca2": "LA",
+    "ccn3": "418",
+    "cca3": "LAO",
+    "cioc": "LAO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lak",
+        "name": "Lao kip",
+        "code": "LAK",
+        "commonName": "Lao kip",
+        "officialName": "Lao kip",
+        "symbol": "₭"
+      }
+    ],
+    "languages": [
+      {
+        "id": "lo",
+        "code": "lo",
+        "name": "Lao",
+        "native": "ພາສາລາວ",
+        "cca3": "lao"
+      }
+    ]
+  },
+  {
+    "id": "lb",
+    "name": "Lebanon",
+    "commonName": "Lebanon",
+    "officialName": "Lebanese Republic",
+    "code": "lb",
+    "cca2": "LB",
+    "ccn3": "422",
+    "cca3": "LBN",
+    "cioc": "LBN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lbp",
+        "name": "Lebanese pound",
+        "code": "LBP",
+        "commonName": "Lebanese pound",
+        "officialName": "Lebanese pound",
+        "symbol": "ل.ل"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "lr",
+    "name": "Liberia",
+    "commonName": "Liberia",
+    "officialName": "Republic of Liberia",
+    "code": "lr",
+    "cca2": "LR",
+    "ccn3": "430",
+    "cca3": "LBR",
+    "cioc": "LBR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lrd",
+        "name": "Liberian dollar",
+        "code": "LRD",
+        "commonName": "Liberian dollar",
+        "officialName": "Liberian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ly",
+    "name": "Libya",
+    "commonName": "Libya",
+    "officialName": "State of Libya",
+    "code": "ly",
+    "cca2": "LY",
+    "ccn3": "434",
+    "cca3": "LBY",
+    "cioc": "LBA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lyd",
+        "name": "Libyan dinar",
+        "code": "LYD",
+        "commonName": "Libyan dinar",
+        "officialName": "Libyan dinar",
+        "symbol": "ل.د"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "lc",
+    "name": "Saint Lucia",
+    "commonName": "Saint Lucia",
+    "officialName": "Saint Lucia",
+    "code": "lc",
+    "cca2": "LC",
+    "ccn3": "662",
+    "cca3": "LCA",
+    "cioc": "LCA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "li",
+    "name": "Liechtenstein",
+    "commonName": "Liechtenstein",
+    "officialName": "Principality of Liechtenstein",
+    "code": "li",
+    "cca2": "LI",
+    "ccn3": "438",
+    "cca3": "LIE",
+    "cioc": "LIE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "chf",
+        "name": "Swiss franc",
+        "code": "CHF",
+        "commonName": "Swiss franc",
+        "officialName": "Swiss franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "de",
+        "code": "de",
+        "name": "German",
+        "native": "Deutsch",
+        "cca3": "deu"
+      }
+    ]
+  },
+  {
+    "id": "lk",
+    "name": "Sri Lanka",
+    "commonName": "Sri Lanka",
+    "officialName": "Democratic Socialist Republic of Sri Lanka",
+    "code": "lk",
+    "cca2": "LK",
+    "ccn3": "144",
+    "cca3": "LKA",
+    "cioc": "SRI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lkr",
+        "name": "Sri Lankan rupee",
+        "code": "LKR",
+        "commonName": "Sri Lankan rupee",
+        "officialName": "Sri Lankan rupee",
+        "symbol": "Rs රු"
+      }
+    ],
+    "languages": [
+      {
+        "id": "si",
+        "code": "si",
+        "name": "Sinhala",
+        "native": "සිංහල",
+        "cca3": "sin"
+      },
+      {
+        "id": "ta",
+        "code": "ta",
+        "name": "Tamil",
+        "native": "தமிழ்",
+        "cca3": "tam"
+      }
+    ]
+  },
+  {
+    "id": "ls",
+    "name": "Lesotho",
+    "commonName": "Lesotho",
+    "officialName": "Kingdom of Lesotho",
+    "code": "ls",
+    "cca2": "LS",
+    "ccn3": "426",
+    "cca3": "LSO",
+    "cioc": "LES",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "lsl",
+        "name": "Lesotho loti",
+        "code": "LSL",
+        "commonName": "Lesotho loti",
+        "officialName": "Lesotho loti",
+        "symbol": "L"
+      },
+      {
+        "id": "zar",
+        "name": "South African rand",
+        "code": "ZAR",
+        "commonName": "South African rand",
+        "officialName": "South African rand",
+        "symbol": "R"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "st",
+        "code": "st",
+        "name": "Southern Sotho",
+        "native": "Sesotho",
+        "cca3": "sot"
+      }
+    ]
+  },
+  {
+    "id": "lt",
+    "name": "Lithuania",
+    "commonName": "Lithuania",
+    "officialName": "Republic of Lithuania",
+    "code": "lt",
+    "cca2": "LT",
+    "ccn3": "440",
+    "cca3": "LTU",
+    "cioc": "LTU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "lt",
+        "code": "lt",
+        "name": "Lithuanian",
+        "native": "Lietuvių",
+        "cca3": "lit"
+      }
+    ]
+  },
+  {
+    "id": "lu",
+    "name": "Luxembourg",
+    "commonName": "Luxembourg",
+    "officialName": "Grand Duchy of Luxembourg",
+    "code": "lu",
+    "cca2": "LU",
+    "ccn3": "442",
+    "cca3": "LUX",
+    "cioc": "LUX",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "de",
+        "code": "de",
+        "name": "German",
+        "native": "Deutsch",
+        "cca3": "deu"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "lb",
+        "code": "lb",
+        "name": "Luxembourgish",
+        "native": "Lëtzebuergesch",
+        "cca3": "ltz"
+      }
+    ]
+  },
+  {
+    "id": "lv",
+    "name": "Latvia",
+    "commonName": "Latvia",
+    "officialName": "Republic of Latvia",
+    "code": "lv",
+    "cca2": "LV",
+    "ccn3": "428",
+    "cca3": "LVA",
+    "cioc": "LAT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "lv",
+        "code": "lv",
+        "name": "Latvian",
+        "native": "Latviešu",
+        "cca3": "lav"
+      }
+    ]
+  },
+  {
+    "id": "ma",
+    "name": "Morocco",
+    "commonName": "Morocco",
+    "officialName": "Kingdom of Morocco",
+    "code": "ma",
+    "cca2": "MA",
+    "ccn3": "504",
+    "cca3": "MAR",
+    "cioc": "MAR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mad",
+        "name": "Moroccan dirham",
+        "code": "MAD",
+        "commonName": "Moroccan dirham",
+        "officialName": "Moroccan dirham",
+        "symbol": "د.م."
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "mc",
+    "name": "Monaco",
+    "commonName": "Monaco",
+    "officialName": "Principality of Monaco",
+    "code": "mc",
+    "cca2": "MC",
+    "ccn3": "492",
+    "cca3": "MCO",
+    "cioc": "MON",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "md",
+    "name": "Moldova",
+    "commonName": "Moldova",
+    "officialName": "Republic of Moldova",
+    "code": "md",
+    "cca2": "MD",
+    "ccn3": "498",
+    "cca3": "MDA",
+    "cioc": "MDA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mdl",
+        "name": "Moldovan leu",
+        "code": "MDL",
+        "commonName": "Moldovan leu",
+        "officialName": "Moldovan leu",
+        "symbol": "L"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ro",
+        "code": "ro",
+        "name": "Romanian",
+        "native": "Română",
+        "cca3": "ron"
+      }
+    ]
+  },
+  {
+    "id": "mg",
+    "name": "Madagascar",
+    "commonName": "Madagascar",
+    "officialName": "Republic of Madagascar",
+    "code": "mg",
+    "cca2": "MG",
+    "ccn3": "450",
+    "cca3": "MDG",
+    "cioc": "MAD",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mga",
+        "name": "Malagasy ariary",
+        "code": "MGA",
+        "commonName": "Malagasy ariary",
+        "officialName": "Malagasy ariary",
+        "symbol": "Ar"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "mg",
+        "code": "mg",
+        "name": "Malagasy",
+        "native": "Malagasy",
+        "cca3": "mlg"
+      }
+    ]
+  },
+  {
+    "id": "mv",
+    "name": "Maldives",
+    "commonName": "Maldives",
+    "officialName": "Republic of the Maldives",
+    "code": "mv",
+    "cca2": "MV",
+    "ccn3": "462",
+    "cca3": "MDV",
+    "cioc": "MDV",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mvr",
+        "name": "Maldivian rufiyaa",
+        "code": "MVR",
+        "commonName": "Maldivian rufiyaa",
+        "officialName": "Maldivian rufiyaa",
+        "symbol": ".ރ"
+      }
+    ],
+    "languages": [
+      {
+        "id": "dv",
+        "code": "dv",
+        "name": "Divehi",
+        "native": "Divehi",
+        "cca3": "div"
+      }
+    ]
+  },
+  {
+    "id": "mx",
+    "name": "Mexico",
+    "commonName": "Mexico",
+    "officialName": "United Mexican States",
+    "code": "mx",
+    "cca2": "MX",
+    "ccn3": "484",
+    "cca3": "MEX",
+    "cioc": "MEX",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mxn",
+        "name": "Mexican peso",
+        "code": "MXN",
+        "commonName": "Mexican peso",
+        "officialName": "Mexican peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "mh",
+    "name": "Marshall Islands",
+    "commonName": "Marshall Islands",
+    "officialName": "Republic of the Marshall Islands",
+    "code": "mh",
+    "cca2": "MH",
+    "ccn3": "584",
+    "cca3": "MHL",
+    "cioc": "MHL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "mh",
+        "code": "mh",
+        "name": "Marshallese",
+        "native": "Kajin M̧ajeļ",
+        "cca3": "mah"
+      }
+    ]
+  },
+  {
+    "id": "mk",
+    "name": "North Macedonia",
+    "commonName": "North Macedonia",
+    "officialName": "Republic of North Macedonia",
+    "code": "mk",
+    "cca2": "MK",
+    "ccn3": "807",
+    "cca3": "MKD",
+    "cioc": "MKD",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mkd",
+        "name": "denar",
+        "code": "MKD",
+        "commonName": "denar",
+        "officialName": "denar",
+        "symbol": "den"
+      }
+    ],
+    "languages": [
+      {
+        "id": "mk",
+        "code": "mk",
+        "name": "Macedonian",
+        "native": "Македонски",
+        "cca3": "mkd"
+      }
+    ]
+  },
+  {
+    "id": "ml",
+    "name": "Mali",
+    "commonName": "Mali",
+    "officialName": "Republic of Mali",
+    "code": "ml",
+    "cca2": "ML",
+    "ccn3": "466",
+    "cca3": "MLI",
+    "cioc": "MLI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "mt",
+    "name": "Malta",
+    "commonName": "Malta",
+    "officialName": "Republic of Malta",
+    "code": "mt",
+    "cca2": "MT",
+    "ccn3": "470",
+    "cca3": "MLT",
+    "cioc": "MLT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "mt",
+        "code": "mt",
+        "name": "Maltese",
+        "native": "Malti",
+        "cca3": "mlt"
+      }
+    ]
+  },
+  {
+    "id": "mm",
+    "name": "Myanmar",
+    "commonName": "Myanmar",
+    "officialName": "Republic of the Union of Myanmar",
+    "code": "mm",
+    "cca2": "MM",
+    "ccn3": "104",
+    "cca3": "MMR",
+    "cioc": "MYA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mmk",
+        "name": "Burmese kyat",
+        "code": "MMK",
+        "commonName": "Burmese kyat",
+        "officialName": "Burmese kyat",
+        "symbol": "Ks"
+      }
+    ],
+    "languages": [
+      {
+        "id": "my",
+        "code": "my",
+        "name": "Burmese",
+        "native": "မြန်မာဘာသာ",
+        "cca3": "mya"
+      }
+    ]
+  },
+  {
+    "id": "me",
+    "name": "Montenegro",
+    "commonName": "Montenegro",
+    "officialName": "Montenegro",
+    "code": "me",
+    "cca2": "ME",
+    "ccn3": "499",
+    "cca3": "MNE",
+    "cioc": "MNE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": []
+  },
+  {
+    "id": "mn",
+    "name": "Mongolia",
+    "commonName": "Mongolia",
+    "officialName": "Mongolia",
+    "code": "mn",
+    "cca2": "MN",
+    "ccn3": "496",
+    "cca3": "MNG",
+    "cioc": "MGL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mnt",
+        "name": "Mongolian tögrög",
+        "code": "MNT",
+        "commonName": "Mongolian tögrög",
+        "officialName": "Mongolian tögrög",
+        "symbol": "₮"
+      }
+    ],
+    "languages": [
+      {
+        "id": "mn",
+        "code": "mn",
+        "name": "Mongolian",
+        "native": "Монгол",
+        "cca3": "mon"
+      }
+    ]
+  },
+  {
+    "id": "mz",
+    "name": "Mozambique",
+    "commonName": "Mozambique",
+    "officialName": "Republic of Mozambique",
+    "code": "mz",
+    "cca2": "MZ",
+    "ccn3": "508",
+    "cca3": "MOZ",
+    "cioc": "MOZ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mzn",
+        "name": "Mozambican metical",
+        "code": "MZN",
+        "commonName": "Mozambican metical",
+        "officialName": "Mozambican metical",
+        "symbol": "MT"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "mr",
+    "name": "Mauritania",
+    "commonName": "Mauritania",
+    "officialName": "Islamic Republic of Mauritania",
+    "code": "mr",
+    "cca2": "MR",
+    "ccn3": "478",
+    "cca3": "MRT",
+    "cioc": "MTN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mru",
+        "name": "Mauritanian ouguiya",
+        "code": "MRU",
+        "commonName": "Mauritanian ouguiya",
+        "officialName": "Mauritanian ouguiya",
+        "symbol": "UM"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "mu",
+    "name": "Mauritius",
+    "commonName": "Mauritius",
+    "officialName": "Republic of Mauritius",
+    "code": "mu",
+    "cca2": "MU",
+    "ccn3": "480",
+    "cca3": "MUS",
+    "cioc": "MRI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mur",
+        "name": "Mauritian rupee",
+        "code": "MUR",
+        "commonName": "Mauritian rupee",
+        "officialName": "Mauritian rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "mw",
+    "name": "Malawi",
+    "commonName": "Malawi",
+    "officialName": "Republic of Malawi",
+    "code": "mw",
+    "cca2": "MW",
+    "ccn3": "454",
+    "cca3": "MWI",
+    "cioc": "MAW",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "mwk",
+        "name": "Malawian kwacha",
+        "code": "MWK",
+        "commonName": "Malawian kwacha",
+        "officialName": "Malawian kwacha",
+        "symbol": "MK"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ny",
+        "code": "ny",
+        "name": "Chichewa",
+        "native": "Chichewa",
+        "cca3": "nya"
+      }
+    ]
+  },
+  {
+    "id": "my",
+    "name": "Malaysia",
+    "commonName": "Malaysia",
+    "officialName": "Malaysia",
+    "code": "my",
+    "cca2": "MY",
+    "ccn3": "458",
+    "cca3": "MYS",
+    "cioc": "MAS",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "myr",
+        "name": "Malaysian ringgit",
+        "code": "MYR",
+        "commonName": "Malaysian ringgit",
+        "officialName": "Malaysian ringgit",
+        "symbol": "RM"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ms",
+        "code": "ms",
+        "name": "Malay",
+        "native": "Bahasa Melayu",
+        "cca3": "msa"
+      }
+    ]
+  },
+  {
+    "id": "na",
+    "name": "Namibia",
+    "commonName": "Namibia",
+    "officialName": "Republic of Namibia",
+    "code": "na",
+    "cca2": "NA",
+    "ccn3": "516",
+    "cca3": "NAM",
+    "cioc": "NAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "nad",
+        "name": "Namibian dollar",
+        "code": "NAD",
+        "commonName": "Namibian dollar",
+        "officialName": "Namibian dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "zar",
+        "name": "South African rand",
+        "code": "ZAR",
+        "commonName": "South African rand",
+        "officialName": "South African rand",
+        "symbol": "R"
+      }
+    ],
+    "languages": [
+      {
+        "id": "af",
+        "code": "af",
+        "name": "Afrikaans",
+        "native": "Afrikaans",
+        "cca3": "afr"
+      },
+      {
+        "id": "de",
+        "code": "de",
+        "name": "German",
+        "native": "Deutsch",
+        "cca3": "deu"
+      },
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "hz",
+        "code": "hz",
+        "name": "Herero",
+        "native": "Otjiherero",
+        "cca3": "her"
+      },
+      {
+        "id": "ng",
+        "code": "ng",
+        "name": "Ndonga",
+        "native": "Owambo",
+        "cca3": "ndo"
+      },
+      {
+        "id": "tn",
+        "code": "tn",
+        "name": "Tswana",
+        "native": "Setswana",
+        "cca3": "tsn"
+      }
+    ]
+  },
+  {
+    "id": "ne",
+    "name": "Niger",
+    "commonName": "Niger",
+    "officialName": "Republic of Niger",
+    "code": "ne",
+    "cca2": "NE",
+    "ccn3": "562",
+    "cca3": "NER",
+    "cioc": "NIG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "ng",
+    "name": "Nigeria",
+    "commonName": "Nigeria",
+    "officialName": "Federal Republic of Nigeria",
+    "code": "ng",
+    "cca2": "NG",
+    "ccn3": "566",
+    "cca3": "NGA",
+    "cioc": "NGR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ngn",
+        "name": "Nigerian naira",
+        "code": "NGN",
+        "commonName": "Nigerian naira",
+        "officialName": "Nigerian naira",
+        "symbol": "₦"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ni",
+    "name": "Nicaragua",
+    "commonName": "Nicaragua",
+    "officialName": "Republic of Nicaragua",
+    "code": "ni",
+    "cca2": "NI",
+    "ccn3": "558",
+    "cca3": "NIC",
+    "cioc": "NCA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "nio",
+        "name": "Nicaraguan córdoba",
+        "code": "NIO",
+        "commonName": "Nicaraguan córdoba",
+        "officialName": "Nicaraguan córdoba",
+        "symbol": "C$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "nl",
+    "name": "Netherlands",
+    "commonName": "Netherlands",
+    "officialName": "Kingdom of the Netherlands",
+    "code": "nl",
+    "cca2": "NL",
+    "ccn3": "528",
+    "cca3": "NLD",
+    "cioc": "NED",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "nl",
+        "code": "nl",
+        "name": "Dutch",
+        "native": "Nederlands",
+        "cca3": "nld"
+      }
+    ]
+  },
+  {
+    "id": "no",
+    "name": "Norway",
+    "commonName": "Norway",
+    "officialName": "Kingdom of Norway",
+    "code": "no",
+    "cca2": "NO",
+    "ccn3": "578",
+    "cca3": "NOR",
+    "cioc": "NOR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "nok",
+        "name": "Norwegian krone",
+        "code": "NOK",
+        "commonName": "Norwegian krone",
+        "officialName": "Norwegian krone",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "nn",
+        "code": "nn",
+        "name": "Norwegian Nynorsk",
+        "native": "Norsk (Nynorsk)",
+        "cca3": "nno"
+      },
+      {
+        "id": "nb",
+        "code": "nb",
+        "name": "Norwegian Bokmål",
+        "native": "Norsk (Bokmål)",
+        "cca3": "nob"
+      }
+    ]
+  },
+  {
+    "id": "np",
+    "name": "Nepal",
+    "commonName": "Nepal",
+    "officialName": "Federal Democratic Republic of Nepal",
+    "code": "np",
+    "cca2": "NP",
+    "ccn3": "524",
+    "cca3": "NPL",
+    "cioc": "NEP",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "npr",
+        "name": "Nepalese rupee",
+        "code": "NPR",
+        "commonName": "Nepalese rupee",
+        "officialName": "Nepalese rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ne",
+        "code": "ne",
+        "name": "Nepali",
+        "native": "नेपाली",
+        "cca3": "nep"
+      }
+    ]
+  },
+  {
+    "id": "nr",
+    "name": "Nauru",
+    "commonName": "Nauru",
+    "officialName": "Republic of Nauru",
+    "code": "nr",
+    "cca2": "NR",
+    "ccn3": "520",
+    "cca3": "NRU",
+    "cioc": "NRU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aud",
+        "name": "Australian dollar",
+        "code": "AUD",
+        "commonName": "Australian dollar",
+        "officialName": "Australian dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "na",
+        "code": "na",
+        "name": "Nauru",
+        "native": "Dorerin Naoero",
+        "cca3": "nau"
+      }
+    ]
+  },
+  {
+    "id": "nz",
+    "name": "New Zealand",
+    "commonName": "New Zealand",
+    "officialName": "New Zealand",
+    "code": "nz",
+    "cca2": "NZ",
+    "ccn3": "554",
+    "cca3": "NZL",
+    "cioc": "NZL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "nzd",
+        "name": "New Zealand dollar",
+        "code": "NZD",
+        "commonName": "New Zealand dollar",
+        "officialName": "New Zealand dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "mi",
+        "code": "mi",
+        "name": "Māori",
+        "native": "Māori",
+        "cca3": "mri"
+      }
+    ]
+  },
+  {
+    "id": "om",
+    "name": "Oman",
+    "commonName": "Oman",
+    "officialName": "Sultanate of Oman",
+    "code": "om",
+    "cca2": "OM",
+    "ccn3": "512",
+    "cca3": "OMN",
+    "cioc": "OMA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "omr",
+        "name": "Omani rial",
+        "code": "OMR",
+        "commonName": "Omani rial",
+        "officialName": "Omani rial",
+        "symbol": "ر.ع."
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "pk",
+    "name": "Pakistan",
+    "commonName": "Pakistan",
+    "officialName": "Islamic Republic of Pakistan",
+    "code": "pk",
+    "cca2": "PK",
+    "ccn3": "586",
+    "cca3": "PAK",
+    "cioc": "PAK",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pkr",
+        "name": "Pakistani rupee",
+        "code": "PKR",
+        "commonName": "Pakistani rupee",
+        "officialName": "Pakistani rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ur",
+        "code": "ur",
+        "name": "Urdu",
+        "native": "اردو",
+        "cca3": "urd"
+      }
+    ]
+  },
+  {
+    "id": "pa",
+    "name": "Panama",
+    "commonName": "Panama",
+    "officialName": "Republic of Panama",
+    "code": "pa",
+    "cca2": "PA",
+    "ccn3": "591",
+    "cca3": "PAN",
+    "cioc": "PAN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pab",
+        "name": "Panamanian balboa",
+        "code": "PAB",
+        "commonName": "Panamanian balboa",
+        "officialName": "Panamanian balboa",
+        "symbol": "B/."
+      },
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "pe",
+    "name": "Peru",
+    "commonName": "Peru",
+    "officialName": "Republic of Peru",
+    "code": "pe",
+    "cca2": "PE",
+    "ccn3": "604",
+    "cca3": "PER",
+    "cioc": "PER",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pen",
+        "name": "Peruvian sol",
+        "code": "PEN",
+        "commonName": "Peruvian sol",
+        "officialName": "Peruvian sol",
+        "symbol": "S/."
+      }
+    ],
+    "languages": [
+      {
+        "id": "ay",
+        "code": "ay",
+        "name": "Aymara",
+        "native": "Aymar",
+        "cca3": "aym"
+      },
+      {
+        "id": "qu",
+        "code": "qu",
+        "name": "Quechua",
+        "native": "Runa Simi",
+        "cca3": "que"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "ph",
+    "name": "Philippines",
+    "commonName": "Philippines",
+    "officialName": "Republic of the Philippines",
+    "code": "ph",
+    "cca2": "PH",
+    "ccn3": "608",
+    "cca3": "PHL",
+    "cioc": "PHI",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "php",
+        "name": "Philippine peso",
+        "code": "PHP",
+        "commonName": "Philippine peso",
+        "officialName": "Philippine peso",
+        "symbol": "₱"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "pw",
+    "name": "Palau",
+    "commonName": "Palau",
+    "officialName": "Republic of Palau",
+    "code": "pw",
+    "cca2": "PW",
+    "ccn3": "585",
+    "cca3": "PLW",
+    "cioc": "PLW",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "pg",
+    "name": "Papua New Guinea",
+    "commonName": "Papua New Guinea",
+    "officialName": "Independent State of Papua New Guinea",
+    "code": "pg",
+    "cca2": "PG",
+    "ccn3": "598",
+    "cca3": "PNG",
+    "cioc": "PNG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pgk",
+        "name": "Papua New Guinean kina",
+        "code": "PGK",
+        "commonName": "Papua New Guinean kina",
+        "officialName": "Papua New Guinean kina",
+        "symbol": "K"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ho",
+        "code": "ho",
+        "name": "Hiri Motu",
+        "native": "Hiri Motu",
+        "cca3": "hmo"
+      }
+    ]
+  },
+  {
+    "id": "pl",
+    "name": "Poland",
+    "commonName": "Poland",
+    "officialName": "Republic of Poland",
+    "code": "pl",
+    "cca2": "PL",
+    "ccn3": "616",
+    "cca3": "POL",
+    "cioc": "POL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pln",
+        "name": "Polish złoty",
+        "code": "PLN",
+        "commonName": "Polish złoty",
+        "officialName": "Polish złoty",
+        "symbol": "zł"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pl",
+        "code": "pl",
+        "name": "Polish",
+        "native": "Polski",
+        "cca3": "pol"
+      }
+    ]
+  },
+  {
+    "id": "kp",
+    "name": "North Korea",
+    "commonName": "North Korea",
+    "officialName": "Democratic People's Republic of Korea",
+    "code": "kp",
+    "cca2": "KP",
+    "ccn3": "408",
+    "cca3": "PRK",
+    "cioc": "PRK",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "kpw",
+        "name": "North Korean won",
+        "code": "KPW",
+        "commonName": "North Korean won",
+        "officialName": "North Korean won",
+        "symbol": "₩"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ko",
+        "code": "ko",
+        "name": "Korean",
+        "native": "한국어",
+        "cca3": "kor"
+      }
+    ]
+  },
+  {
+    "id": "pt",
+    "name": "Portugal",
+    "commonName": "Portugal",
+    "officialName": "Portuguese Republic",
+    "code": "pt",
+    "cca2": "PT",
+    "ccn3": "620",
+    "cca3": "PRT",
+    "cioc": "POR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "py",
+    "name": "Paraguay",
+    "commonName": "Paraguay",
+    "officialName": "Republic of Paraguay",
+    "code": "py",
+    "cca2": "PY",
+    "ccn3": "600",
+    "cca3": "PRY",
+    "cioc": "PAR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "pyg",
+        "name": "Paraguayan guaraní",
+        "code": "PYG",
+        "commonName": "Paraguayan guaraní",
+        "officialName": "Paraguayan guaraní",
+        "symbol": "₲"
+      }
+    ],
+    "languages": [
+      {
+        "id": "gn",
+        "code": "gn",
+        "name": "Guaraní",
+        "native": "Avañe'ẽ",
+        "cca3": "grn"
+      },
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "qa",
+    "name": "Qatar",
+    "commonName": "Qatar",
+    "officialName": "State of Qatar",
+    "code": "qa",
+    "cca2": "QA",
+    "ccn3": "634",
+    "cca3": "QAT",
+    "cioc": "QAT",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "qar",
+        "name": "Qatari riyal",
+        "code": "QAR",
+        "commonName": "Qatari riyal",
+        "officialName": "Qatari riyal",
+        "symbol": "ر.ق"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "ro",
+    "name": "Romania",
+    "commonName": "Romania",
+    "officialName": "Romania",
+    "code": "ro",
+    "cca2": "RO",
+    "ccn3": "642",
+    "cca3": "ROU",
+    "cioc": "ROU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ron",
+        "name": "Romanian leu",
+        "code": "RON",
+        "commonName": "Romanian leu",
+        "officialName": "Romanian leu",
+        "symbol": "lei"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ro",
+        "code": "ro",
+        "name": "Romanian",
+        "native": "Română",
+        "cca3": "ron"
+      }
+    ]
+  },
+  {
+    "id": "ru",
+    "name": "Russia",
+    "commonName": "Russia",
+    "officialName": "Russian Federation",
+    "code": "ru",
+    "cca2": "RU",
+    "ccn3": "643",
+    "cca3": "RUS",
+    "cioc": "RUS",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "rub",
+        "name": "Russian ruble",
+        "code": "RUB",
+        "commonName": "Russian ruble",
+        "officialName": "Russian ruble",
+        "symbol": "₽"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      }
+    ]
+  },
+  {
+    "id": "rw",
+    "name": "Rwanda",
+    "commonName": "Rwanda",
+    "officialName": "Republic of Rwanda",
+    "code": "rw",
+    "cca2": "RW",
+    "ccn3": "646",
+    "cca3": "RWA",
+    "cioc": "RWA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "rwf",
+        "name": "Rwandan franc",
+        "code": "RWF",
+        "commonName": "Rwandan franc",
+        "officialName": "Rwandan franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      },
+      {
+        "id": "rw",
+        "code": "rw",
+        "name": "Kinyarwanda",
+        "native": "Kinyarwanda",
+        "cca3": "kin"
+      }
+    ]
+  },
+  {
+    "id": "sa",
+    "name": "Saudi Arabia",
+    "commonName": "Saudi Arabia",
+    "officialName": "Kingdom of Saudi Arabia",
+    "code": "sa",
+    "cca2": "SA",
+    "ccn3": "682",
+    "cca3": "SAU",
+    "cioc": "KSA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sar",
+        "name": "Saudi riyal",
+        "code": "SAR",
+        "commonName": "Saudi riyal",
+        "officialName": "Saudi riyal",
+        "symbol": "ر.س"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "sd",
+    "name": "Sudan",
+    "commonName": "Sudan",
+    "officialName": "Republic of the Sudan",
+    "code": "sd",
+    "cca2": "SD",
+    "ccn3": "729",
+    "cca3": "SDN",
+    "cioc": "SUD",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sdg",
+        "name": "Sudanese pound",
+        "code": "SDG",
+        "commonName": "Sudanese pound",
+        "officialName": "Sudanese pound",
+        "symbol": "PT"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "sn",
+    "name": "Senegal",
+    "commonName": "Senegal",
+    "officialName": "Republic of Senegal",
+    "code": "sn",
+    "cca2": "SN",
+    "ccn3": "686",
+    "cca3": "SEN",
+    "cioc": "SEN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "sg",
+    "name": "Singapore",
+    "commonName": "Singapore",
+    "officialName": "Republic of Singapore",
+    "code": "sg",
+    "cca2": "SG",
+    "ccn3": "702",
+    "cca3": "SGP",
+    "cioc": "SGP",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sgd",
+        "name": "Singapore dollar",
+        "code": "SGD",
+        "commonName": "Singapore dollar",
+        "officialName": "Singapore dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ms",
+        "code": "ms",
+        "name": "Malay",
+        "native": "Bahasa Melayu",
+        "cca3": "msa"
+      },
+      {
+        "id": "ta",
+        "code": "ta",
+        "name": "Tamil",
+        "native": "தமிழ்",
+        "cca3": "tam"
+      },
+      {
+        "id": "zh",
+        "code": "zh",
+        "name": "Chinese",
+        "native": "中文",
+        "cca3": "zho"
+      }
+    ]
+  },
+  {
+    "id": "sb",
+    "name": "Solomon Islands",
+    "commonName": "Solomon Islands",
+    "officialName": "Solomon Islands",
+    "code": "sb",
+    "cca2": "SB",
+    "ccn3": "090",
+    "cca3": "SLB",
+    "cioc": "SOL",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sbd",
+        "name": "Solomon Islands dollar",
+        "code": "SBD",
+        "commonName": "Solomon Islands dollar",
+        "officialName": "Solomon Islands dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "sl",
+    "name": "Sierra Leone",
+    "commonName": "Sierra Leone",
+    "officialName": "Republic of Sierra Leone",
+    "code": "sl",
+    "cca2": "SL",
+    "ccn3": "694",
+    "cca3": "SLE",
+    "cioc": "SLE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sll",
+        "name": "Sierra Leonean leone",
+        "code": "SLL",
+        "commonName": "Sierra Leonean leone",
+        "officialName": "Sierra Leonean leone",
+        "symbol": "Le"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "sv",
+    "name": "El Salvador",
+    "commonName": "El Salvador",
+    "officialName": "Republic of El Salvador",
+    "code": "sv",
+    "cca2": "SV",
+    "ccn3": "222",
+    "cca3": "SLV",
+    "cioc": "ESA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "sm",
+    "name": "San Marino",
+    "commonName": "San Marino",
+    "officialName": "Most Serene Republic of San Marino",
+    "code": "sm",
+    "cca2": "SM",
+    "ccn3": "674",
+    "cca3": "SMR",
+    "cioc": "SMR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "it",
+        "code": "it",
+        "name": "Italian",
+        "native": "Italiano",
+        "cca3": "ita"
+      }
+    ]
+  },
+  {
+    "id": "so",
+    "name": "Somalia",
+    "commonName": "Somalia",
+    "officialName": "Federal Republic of Somalia",
+    "code": "so",
+    "cca2": "SO",
+    "ccn3": "706",
+    "cca3": "SOM",
+    "cioc": "SOM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sos",
+        "name": "Somali shilling",
+        "code": "SOS",
+        "commonName": "Somali shilling",
+        "officialName": "Somali shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "so",
+        "code": "so",
+        "name": "Somali",
+        "native": "Soomaaliga",
+        "cca3": "som"
+      }
+    ]
+  },
+  {
+    "id": "rs",
+    "name": "Serbia",
+    "commonName": "Serbia",
+    "officialName": "Republic of Serbia",
+    "code": "rs",
+    "cca2": "RS",
+    "ccn3": "688",
+    "cca3": "SRB",
+    "cioc": "SRB",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "rsd",
+        "name": "Serbian dinar",
+        "code": "RSD",
+        "commonName": "Serbian dinar",
+        "officialName": "Serbian dinar",
+        "symbol": "дин."
+      }
+    ],
+    "languages": [
+      {
+        "id": "sr",
+        "code": "sr",
+        "name": "Serbian",
+        "native": "Српски",
+        "cca3": "srp"
+      }
+    ]
+  },
+  {
+    "id": "ss",
+    "name": "South Sudan",
+    "commonName": "South Sudan",
+    "officialName": "Republic of South Sudan",
+    "code": "ss",
+    "cca2": "SS",
+    "ccn3": "728",
+    "cca3": "SSD",
+    "cioc": "",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ssp",
+        "name": "South Sudanese pound",
+        "code": "SSP",
+        "commonName": "South Sudanese pound",
+        "officialName": "South Sudanese pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "st",
+    "name": "São Tomé and Príncipe",
+    "commonName": "São Tomé and Príncipe",
+    "officialName": "Democratic Republic of São Tomé and Príncipe",
+    "code": "st",
+    "cca2": "ST",
+    "ccn3": "678",
+    "cca3": "STP",
+    "cioc": "STP",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "stn",
+        "name": "São Tomé and Príncipe dobra",
+        "code": "STN",
+        "commonName": "São Tomé and Príncipe dobra",
+        "officialName": "São Tomé and Príncipe dobra",
+        "symbol": "Db"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "sr",
+    "name": "Suriname",
+    "commonName": "Suriname",
+    "officialName": "Republic of Suriname",
+    "code": "sr",
+    "cca2": "SR",
+    "ccn3": "740",
+    "cca3": "SUR",
+    "cioc": "SUR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "srd",
+        "name": "Surinamese dollar",
+        "code": "SRD",
+        "commonName": "Surinamese dollar",
+        "officialName": "Surinamese dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "nl",
+        "code": "nl",
+        "name": "Dutch",
+        "native": "Nederlands",
+        "cca3": "nld"
+      }
+    ]
+  },
+  {
+    "id": "sk",
+    "name": "Slovakia",
+    "commonName": "Slovakia",
+    "officialName": "Slovak Republic",
+    "code": "sk",
+    "cca2": "SK",
+    "ccn3": "703",
+    "cca3": "SVK",
+    "cioc": "SVK",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "sk",
+        "code": "sk",
+        "name": "Slovak",
+        "native": "Slovenčina",
+        "cca3": "slk"
+      }
+    ]
+  },
+  {
+    "id": "si",
+    "name": "Slovenia",
+    "commonName": "Slovenia",
+    "officialName": "Republic of Slovenia",
+    "code": "si",
+    "cca2": "SI",
+    "ccn3": "705",
+    "cca3": "SVN",
+    "cioc": "SLO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "sl",
+        "code": "sl",
+        "name": "Slovene",
+        "native": "Slovenščina",
+        "cca3": "slv"
+      }
+    ]
+  },
+  {
+    "id": "se",
+    "name": "Sweden",
+    "commonName": "Sweden",
+    "officialName": "Kingdom of Sweden",
+    "code": "se",
+    "cca2": "SE",
+    "ccn3": "752",
+    "cca3": "SWE",
+    "cioc": "SWE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "sek",
+        "name": "Swedish krona",
+        "code": "SEK",
+        "commonName": "Swedish krona",
+        "officialName": "Swedish krona",
+        "symbol": "kr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "sv",
+        "code": "sv",
+        "name": "Swedish",
+        "native": "Svenska",
+        "cca3": "swe"
+      }
+    ]
+  },
+  {
+    "id": "sz",
+    "name": "Eswatini",
+    "commonName": "Eswatini",
+    "officialName": "Kingdom of Eswatini",
+    "code": "sz",
+    "cca2": "SZ",
+    "ccn3": "748",
+    "cca3": "SWZ",
+    "cioc": "SWZ",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "szl",
+        "name": "Swazi lilangeni",
+        "code": "SZL",
+        "commonName": "Swazi lilangeni",
+        "officialName": "Swazi lilangeni",
+        "symbol": "L"
+      },
+      {
+        "id": "zar",
+        "name": "South African rand",
+        "code": "ZAR",
+        "commonName": "South African rand",
+        "officialName": "South African rand",
+        "symbol": "R"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "ss",
+        "code": "ss",
+        "name": "Swati",
+        "native": "SiSwati",
+        "cca3": "ssw"
+      }
+    ]
+  },
+  {
+    "id": "sc",
+    "name": "Seychelles",
+    "commonName": "Seychelles",
+    "officialName": "Republic of Seychelles",
+    "code": "sc",
+    "cca2": "SC",
+    "ccn3": "690",
+    "cca3": "SYC",
+    "cioc": "SEY",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "scr",
+        "name": "Seychellois rupee",
+        "code": "SCR",
+        "commonName": "Seychellois rupee",
+        "officialName": "Seychellois rupee",
+        "symbol": "₨"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "sy",
+    "name": "Syria",
+    "commonName": "Syria",
+    "officialName": "Syrian Arab Republic",
+    "code": "sy",
+    "cca2": "SY",
+    "ccn3": "760",
+    "cca3": "SYR",
+    "cioc": "SYR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "syp",
+        "name": "Syrian pound",
+        "code": "SYP",
+        "commonName": "Syrian pound",
+        "officialName": "Syrian pound",
+        "symbol": "£"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "td",
+    "name": "Chad",
+    "commonName": "Chad",
+    "officialName": "Republic of Chad",
+    "code": "td",
+    "cca2": "TD",
+    "ccn3": "148",
+    "cca3": "TCD",
+    "cioc": "CHA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xaf",
+        "name": "Central African CFA franc",
+        "code": "XAF",
+        "commonName": "Central African CFA franc",
+        "officialName": "Central African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "tg",
+    "name": "Togo",
+    "commonName": "Togo",
+    "officialName": "Togolese Republic",
+    "code": "tg",
+    "cca2": "TG",
+    "ccn3": "768",
+    "cca3": "TGO",
+    "cioc": "TOG",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xof",
+        "name": "West African CFA franc",
+        "code": "XOF",
+        "commonName": "West African CFA franc",
+        "officialName": "West African CFA franc",
+        "symbol": "Fr"
+      }
+    ],
+    "languages": [
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "th",
+    "name": "Thailand",
+    "commonName": "Thailand",
+    "officialName": "Kingdom of Thailand",
+    "code": "th",
+    "cca2": "TH",
+    "ccn3": "764",
+    "cca3": "THA",
+    "cioc": "THA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "thb",
+        "name": "Thai baht",
+        "code": "THB",
+        "commonName": "Thai baht",
+        "officialName": "Thai baht",
+        "symbol": "฿"
+      }
+    ],
+    "languages": [
+      {
+        "id": "th",
+        "code": "th",
+        "name": "Thai",
+        "native": "ภาษาไทย",
+        "cca3": "tha"
+      }
+    ]
+  },
+  {
+    "id": "tj",
+    "name": "Tajikistan",
+    "commonName": "Tajikistan",
+    "officialName": "Republic of Tajikistan",
+    "code": "tj",
+    "cca2": "TJ",
+    "ccn3": "762",
+    "cca3": "TJK",
+    "cioc": "TJK",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "tjs",
+        "name": "Tajikistani somoni",
+        "code": "TJS",
+        "commonName": "Tajikistani somoni",
+        "officialName": "Tajikistani somoni",
+        "symbol": "ЅМ"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      },
+      {
+        "id": "tg",
+        "code": "tg",
+        "name": "Tajik",
+        "native": "Тоҷикӣ",
+        "cca3": "tgk"
+      }
+    ]
+  },
+  {
+    "id": "tm",
+    "name": "Turkmenistan",
+    "commonName": "Turkmenistan",
+    "officialName": "Turkmenistan",
+    "code": "tm",
+    "cca2": "TM",
+    "ccn3": "795",
+    "cca3": "TKM",
+    "cioc": "TKM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "tmt",
+        "name": "Turkmenistan manat",
+        "code": "TMT",
+        "commonName": "Turkmenistan manat",
+        "officialName": "Turkmenistan manat",
+        "symbol": "m"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      },
+      {
+        "id": "tk",
+        "code": "tk",
+        "name": "Turkmen",
+        "native": "Türkmençe",
+        "cca3": "tuk"
+      }
+    ]
+  },
+  {
+    "id": "tl",
+    "name": "Timor-Leste",
+    "commonName": "Timor-Leste",
+    "officialName": "Democratic Republic of Timor-Leste",
+    "code": "tl",
+    "cca2": "TL",
+    "ccn3": "626",
+    "cca3": "TLS",
+    "cioc": "TLS",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "pt",
+        "code": "pt",
+        "name": "Portuguese",
+        "native": "Português",
+        "cca3": "por"
+      }
+    ]
+  },
+  {
+    "id": "to",
+    "name": "Tonga",
+    "commonName": "Tonga",
+    "officialName": "Kingdom of Tonga",
+    "code": "to",
+    "cca2": "TO",
+    "ccn3": "776",
+    "cca3": "TON",
+    "cioc": "TGA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "top",
+        "name": "Tongan paʻanga",
+        "code": "TOP",
+        "commonName": "Tongan paʻanga",
+        "officialName": "Tongan paʻanga",
+        "symbol": "T$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "to",
+        "code": "to",
+        "name": "Tonga",
+        "native": "faka Tonga",
+        "cca3": "ton"
+      }
+    ]
+  },
+  {
+    "id": "tt",
+    "name": "Trinidad and Tobago",
+    "commonName": "Trinidad and Tobago",
+    "officialName": "Republic of Trinidad and Tobago",
+    "code": "tt",
+    "cca2": "TT",
+    "ccn3": "780",
+    "cca3": "TTO",
+    "cioc": "TTO",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ttd",
+        "name": "Trinidad and Tobago dollar",
+        "code": "TTD",
+        "commonName": "Trinidad and Tobago dollar",
+        "officialName": "Trinidad and Tobago dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "tn",
+    "name": "Tunisia",
+    "commonName": "Tunisia",
+    "officialName": "Tunisian Republic",
+    "code": "tn",
+    "cca2": "TN",
+    "ccn3": "788",
+    "cca3": "TUN",
+    "cioc": "TUN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "tnd",
+        "name": "Tunisian dinar",
+        "code": "TND",
+        "commonName": "Tunisian dinar",
+        "officialName": "Tunisian dinar",
+        "symbol": "د.ت"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "tr",
+    "name": "Türkiye",
+    "commonName": "Türkiye",
+    "officialName": "Republic of Türkiye",
+    "code": "tr",
+    "cca2": "TR",
+    "ccn3": "792",
+    "cca3": "TUR",
+    "cioc": "TUR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "try",
+        "name": "Turkish lira",
+        "code": "TRY",
+        "commonName": "Turkish lira",
+        "officialName": "Turkish lira",
+        "symbol": "₺"
+      }
+    ],
+    "languages": [
+      {
+        "id": "tr",
+        "code": "tr",
+        "name": "Turkish",
+        "native": "Türkçe",
+        "cca3": "tur"
+      }
+    ]
+  },
+  {
+    "id": "tv",
+    "name": "Tuvalu",
+    "commonName": "Tuvalu",
+    "officialName": "Tuvalu",
+    "code": "tv",
+    "cca2": "TV",
+    "ccn3": "798",
+    "cca3": "TUV",
+    "cioc": "TUV",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "aud",
+        "name": "Australian dollar",
+        "code": "AUD",
+        "commonName": "Australian dollar",
+        "officialName": "Australian dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "tvd",
+        "name": "Tuvaluan dollar",
+        "code": "TVD",
+        "commonName": "Tuvaluan dollar",
+        "officialName": "Tuvaluan dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "tz",
+    "name": "Tanzania",
+    "commonName": "Tanzania",
+    "officialName": "United Republic of Tanzania",
+    "code": "tz",
+    "cca2": "TZ",
+    "ccn3": "834",
+    "cca3": "TZA",
+    "cioc": "TAN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "tzs",
+        "name": "Tanzanian shilling",
+        "code": "TZS",
+        "commonName": "Tanzanian shilling",
+        "officialName": "Tanzanian shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "sw",
+        "code": "sw",
+        "name": "Swahili",
+        "native": "Kiswahili",
+        "cca3": "swa"
+      }
+    ]
+  },
+  {
+    "id": "ug",
+    "name": "Uganda",
+    "commonName": "Uganda",
+    "officialName": "Republic of Uganda",
+    "code": "ug",
+    "cca2": "UG",
+    "ccn3": "800",
+    "cca3": "UGA",
+    "cioc": "UGA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ugx",
+        "name": "Ugandan shilling",
+        "code": "UGX",
+        "commonName": "Ugandan shilling",
+        "officialName": "Ugandan shilling",
+        "symbol": "Sh"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "sw",
+        "code": "sw",
+        "name": "Swahili",
+        "native": "Kiswahili",
+        "cca3": "swa"
+      }
+    ]
+  },
+  {
+    "id": "ua",
+    "name": "Ukraine",
+    "commonName": "Ukraine",
+    "officialName": "Ukraine",
+    "code": "ua",
+    "cca2": "UA",
+    "ccn3": "804",
+    "cca3": "UKR",
+    "cioc": "UKR",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "uah",
+        "name": "Ukrainian hryvnia",
+        "code": "UAH",
+        "commonName": "Ukrainian hryvnia",
+        "officialName": "Ukrainian hryvnia",
+        "symbol": "₴"
+      }
+    ],
+    "languages": [
+      {
+        "id": "uk",
+        "code": "uk",
+        "name": "Ukrainian",
+        "native": "Українська",
+        "cca3": "ukr"
+      }
+    ]
+  },
+  {
+    "id": "uy",
+    "name": "Uruguay",
+    "commonName": "Uruguay",
+    "officialName": "Oriental Republic of Uruguay",
+    "code": "uy",
+    "cca2": "UY",
+    "ccn3": "858",
+    "cca3": "URY",
+    "cioc": "URU",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "uyu",
+        "name": "Uruguayan peso",
+        "code": "UYU",
+        "commonName": "Uruguayan peso",
+        "officialName": "Uruguayan peso",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "us",
+    "name": "United States",
+    "commonName": "United States",
+    "officialName": "United States of America",
+    "code": "us",
+    "cca2": "US",
+    "ccn3": "840",
+    "cca3": "USA",
+    "cioc": "USA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "uz",
+    "name": "Uzbekistan",
+    "commonName": "Uzbekistan",
+    "officialName": "Republic of Uzbekistan",
+    "code": "uz",
+    "cca2": "UZ",
+    "ccn3": "860",
+    "cca3": "UZB",
+    "cioc": "UZB",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "uzs",
+        "name": "Uzbekistani soʻm",
+        "code": "UZS",
+        "commonName": "Uzbekistani soʻm",
+        "officialName": "Uzbekistani soʻm",
+        "symbol": "so'm"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ru",
+        "code": "ru",
+        "name": "Russian",
+        "native": "Русский",
+        "cca3": "rus"
+      },
+      {
+        "id": "uz",
+        "code": "uz",
+        "name": "Uzbek",
+        "native": "O‘zbek",
+        "cca3": "uzb"
+      }
+    ]
+  },
+  {
+    "id": "va",
+    "name": "Vatican City",
+    "commonName": "Vatican City",
+    "officialName": "Vatican City State",
+    "code": "va",
+    "cca2": "VA",
+    "ccn3": "336",
+    "cca3": "VAT",
+    "cioc": "",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      }
+    ],
+    "languages": [
+      {
+        "id": "it",
+        "code": "it",
+        "name": "Italian",
+        "native": "Italiano",
+        "cca3": "ita"
+      },
+      {
+        "id": "la",
+        "code": "la",
+        "name": "Latin",
+        "native": "Latina",
+        "cca3": "lat"
+      }
+    ]
+  },
+  {
+    "id": "vc",
+    "name": "Saint Vincent and the Grenadines",
+    "commonName": "Saint Vincent and the Grenadines",
+    "officialName": "Saint Vincent and the Grenadines",
+    "code": "vc",
+    "cca2": "VC",
+    "ccn3": "670",
+    "cca3": "VCT",
+    "cioc": "VIN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "xcd",
+        "name": "Eastern Caribbean dollar",
+        "code": "XCD",
+        "commonName": "Eastern Caribbean dollar",
+        "officialName": "Eastern Caribbean dollar",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "ve",
+    "name": "Venezuela",
+    "commonName": "Venezuela",
+    "officialName": "Bolivarian Republic of Venezuela",
+    "code": "ve",
+    "cca2": "VE",
+    "ccn3": "862",
+    "cca3": "VEN",
+    "cioc": "VEN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "ves",
+        "name": "Venezuelan bolívar soberano",
+        "code": "VES",
+        "commonName": "Venezuelan bolívar soberano",
+        "officialName": "Venezuelan bolívar soberano",
+        "symbol": "Bs.S."
+      }
+    ],
+    "languages": [
+      {
+        "id": "es",
+        "code": "es",
+        "name": "Spanish",
+        "native": "Español",
+        "cca3": "spa"
+      }
+    ]
+  },
+  {
+    "id": "vn",
+    "name": "Vietnam",
+    "commonName": "Vietnam",
+    "officialName": "Socialist Republic of Vietnam",
+    "code": "vn",
+    "cca2": "VN",
+    "ccn3": "704",
+    "cca3": "VNM",
+    "cioc": "VIE",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "vnd",
+        "name": "Vietnamese đồng",
+        "code": "VND",
+        "commonName": "Vietnamese đồng",
+        "officialName": "Vietnamese đồng",
+        "symbol": "₫"
+      }
+    ],
+    "languages": [
+      {
+        "id": "vi",
+        "code": "vi",
+        "name": "Vietnamese",
+        "native": "Tiếng Việt",
+        "cca3": "vie"
+      }
+    ]
+  },
+  {
+    "id": "vu",
+    "name": "Vanuatu",
+    "commonName": "Vanuatu",
+    "officialName": "Republic of Vanuatu",
+    "code": "vu",
+    "cca2": "VU",
+    "ccn3": "548",
+    "cca3": "VUT",
+    "cioc": "VAN",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "vuv",
+        "name": "Vanuatu vatu",
+        "code": "VUV",
+        "commonName": "Vanuatu vatu",
+        "officialName": "Vanuatu vatu",
+        "symbol": "Vt"
+      }
+    ],
+    "languages": [
+      {
+        "id": "bi",
+        "code": "bi",
+        "name": "Bislama",
+        "native": "Bislama",
+        "cca3": "bis"
+      },
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "fr",
+        "code": "fr",
+        "name": "French",
+        "native": "Français",
+        "cca3": "fra"
+      }
+    ]
+  },
+  {
+    "id": "ws",
+    "name": "Samoa",
+    "commonName": "Samoa",
+    "officialName": "Independent State of Samoa",
+    "code": "ws",
+    "cca2": "WS",
+    "ccn3": "882",
+    "cca3": "WSM",
+    "cioc": "SAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "wst",
+        "name": "Samoan tālā",
+        "code": "WST",
+        "commonName": "Samoan tālā",
+        "officialName": "Samoan tālā",
+        "symbol": "T"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "sm",
+        "code": "sm",
+        "name": "Samoan",
+        "native": "Gagana Sāmoa",
+        "cca3": "smo"
+      }
+    ]
+  },
+  {
+    "id": "ye",
+    "name": "Yemen",
+    "commonName": "Yemen",
+    "officialName": "Republic of Yemen",
+    "code": "ye",
+    "cca2": "YE",
+    "ccn3": "887",
+    "cca3": "YEM",
+    "cioc": "YEM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "yer",
+        "name": "Yemeni rial",
+        "code": "YER",
+        "commonName": "Yemeni rial",
+        "officialName": "Yemeni rial",
+        "symbol": "﷼"
+      }
+    ],
+    "languages": [
+      {
+        "id": "ar",
+        "code": "ar",
+        "name": "Arabic",
+        "native": "العربية",
+        "cca3": "ara"
+      }
+    ]
+  },
+  {
+    "id": "za",
+    "name": "South Africa",
+    "commonName": "South Africa",
+    "officialName": "Republic of South Africa",
+    "code": "za",
+    "cca2": "ZA",
+    "ccn3": "710",
+    "cca3": "ZAF",
+    "cioc": "RSA",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "zar",
+        "name": "South African rand",
+        "code": "ZAR",
+        "commonName": "South African rand",
+        "officialName": "South African rand",
+        "symbol": "R"
+      }
+    ],
+    "languages": [
+      {
+        "id": "af",
+        "code": "af",
+        "name": "Afrikaans",
+        "native": "Afrikaans",
+        "cca3": "afr"
+      },
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "nr",
+        "code": "nr",
+        "name": "Southern Ndebele",
+        "native": "isiNdebele",
+        "cca3": "nbl"
+      },
+      {
+        "id": "st",
+        "code": "st",
+        "name": "Southern Sotho",
+        "native": "Sesotho",
+        "cca3": "sot"
+      },
+      {
+        "id": "ss",
+        "code": "ss",
+        "name": "Swati",
+        "native": "SiSwati",
+        "cca3": "ssw"
+      },
+      {
+        "id": "tn",
+        "code": "tn",
+        "name": "Tswana",
+        "native": "Setswana",
+        "cca3": "tsn"
+      },
+      {
+        "id": "ts",
+        "code": "ts",
+        "name": "Tsonga",
+        "native": "Xitsonga",
+        "cca3": "tso"
+      },
+      {
+        "id": "ve",
+        "code": "ve",
+        "name": "Venda",
+        "native": "Tshivenḓa",
+        "cca3": "ven"
+      },
+      {
+        "id": "xh",
+        "code": "xh",
+        "name": "Xhosa",
+        "native": "isiXhosa",
+        "cca3": "xho"
+      },
+      {
+        "id": "zu",
+        "code": "zu",
+        "name": "Zulu",
+        "native": "isiZulu",
+        "cca3": "zul"
+      }
+    ]
+  },
+  {
+    "id": "zm",
+    "name": "Zambia",
+    "commonName": "Zambia",
+    "officialName": "Republic of Zambia",
+    "code": "zm",
+    "cca2": "ZM",
+    "ccn3": "894",
+    "cca3": "ZMB",
+    "cioc": "ZAM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "zmw",
+        "name": "Zambian kwacha",
+        "code": "ZMW",
+        "commonName": "Zambian kwacha",
+        "officialName": "Zambian kwacha",
+        "symbol": "ZK"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      }
+    ]
+  },
+  {
+    "id": "zw",
+    "name": "Zimbabwe",
+    "commonName": "Zimbabwe",
+    "officialName": "Republic of Zimbabwe",
+    "code": "zw",
+    "cca2": "ZW",
+    "ccn3": "716",
+    "cca3": "ZWE",
+    "cioc": "ZIM",
+    "continents": [],
+    "currencies": [
+      {
+        "id": "bwp",
+        "name": "Botswana pula",
+        "code": "BWP",
+        "commonName": "Botswana pula",
+        "officialName": "Botswana pula",
+        "symbol": "P"
+      },
+      {
+        "id": "cny",
+        "name": "Chinese yuan",
+        "code": "CNY",
+        "commonName": "Chinese yuan",
+        "officialName": "Chinese yuan",
+        "symbol": "¥"
+      },
+      {
+        "id": "eur",
+        "name": "Euro",
+        "code": "EUR",
+        "commonName": "Euro",
+        "officialName": "Euro",
+        "symbol": "€"
+      },
+      {
+        "id": "gbp",
+        "name": "British pound",
+        "code": "GBP",
+        "commonName": "British pound",
+        "officialName": "British pound",
+        "symbol": "£"
+      },
+      {
+        "id": "inr",
+        "name": "Indian rupee",
+        "code": "INR",
+        "commonName": "Indian rupee",
+        "officialName": "Indian rupee",
+        "symbol": "₹"
+      },
+      {
+        "id": "jpy",
+        "name": "Japanese yen",
+        "code": "JPY",
+        "commonName": "Japanese yen",
+        "officialName": "Japanese yen",
+        "symbol": "¥"
+      },
+      {
+        "id": "usd",
+        "name": "United States dollar",
+        "code": "USD",
+        "commonName": "United States dollar",
+        "officialName": "United States dollar",
+        "symbol": "$"
+      },
+      {
+        "id": "zar",
+        "name": "South African rand",
+        "code": "ZAR",
+        "commonName": "South African rand",
+        "officialName": "South African rand",
+        "symbol": "Rs"
+      },
+      {
+        "id": "zwb",
+        "name": "Zimbabwean bonds",
+        "code": "ZWB",
+        "commonName": "Zimbabwean bonds",
+        "officialName": "Zimbabwean bonds",
+        "symbol": "$"
+      }
+    ],
+    "languages": [
+      {
+        "id": "en",
+        "code": "en",
+        "name": "English",
+        "native": "English",
+        "cca3": "eng"
+      },
+      {
+        "id": "nd",
+        "code": "nd",
+        "name": "Northern Ndebele",
+        "native": "isiNdebele",
+        "cca3": "nde"
+      },
+      {
+        "id": "ny",
+        "code": "ny",
+        "name": "Chichewa",
+        "native": "Chichewa",
+        "cca3": "nya"
+      },
+      {
+        "id": "sn",
+        "code": "sn",
+        "name": "Shona",
+        "native": "ChiShona",
+        "cca3": "sna"
+      },
+      {
+        "id": "st",
+        "code": "st",
+        "name": "Southern Sotho",
+        "native": "Sesotho",
+        "cca3": "sot"
+      },
+      {
+        "id": "tn",
+        "code": "tn",
+        "name": "Tswana",
+        "native": "Setswana",
+        "cca3": "tsn"
+      },
+      {
+        "id": "ts",
+        "code": "ts",
+        "name": "Tsonga",
+        "native": "Xitsonga",
+        "cca3": "tso"
+      },
+      {
+        "id": "ve",
+        "code": "ve",
+        "name": "Venda",
+        "native": "Tshivenḓa",
+        "cca3": "ven"
+      },
+      {
+        "id": "xh",
+        "code": "xh",
+        "name": "Xhosa",
+        "native": "isiXhosa",
+        "cca3": "xho"
+      }
+    ]
+  }
+]

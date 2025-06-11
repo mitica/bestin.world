@@ -6,9 +6,20 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "pull-raw-data": "tsx scripts/pull-raw-data.ts",
+    "generate:common": "tsx scripts/common/generate.ts",
+    "collect:data": "ts-node scripts/collect/democracy.ts",
+    "compute:tops": "ts-node scripts/compute/generate-top-scores.ts",
+    "generate:og": "ts-node scripts/generate/og-images.ts",
+    "build:data": "npm run collect:democracy && npm run compute:tops && npm run generate:og"
   },
   "dependencies": {
     "astro": "^5.9.2"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.1",
+    "typescript": "^5.8.3"
   }
 }
