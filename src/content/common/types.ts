@@ -40,6 +40,7 @@ export interface LanguageInfo extends BaseEntityInfo {
 
 export interface IndicatorInfo extends BaseEntityInfo {
   idWorldBank?: string;
+  sort: number;
 }
 
 export interface IndicatorCountryValue {
@@ -48,4 +49,5 @@ export interface IndicatorCountryValue {
   date: number;
   value: number;
   decimal?: number;
+  type: "max" | "min" | "average";
 }

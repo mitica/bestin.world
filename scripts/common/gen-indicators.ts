@@ -13,7 +13,8 @@ async function gen() {
       name,
       id,
       code: item.id.trim(),
-      idWorldBank: item.id.trim()
+      idWorldBank: item.id.trim(),
+      sort: 1
     });
   }
 
