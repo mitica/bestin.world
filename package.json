@@ -9,6 +9,7 @@
     "astro": "astro",
     "pull-raw-data": "tsx scripts/pull-raw-data.ts",
     "generate:common": "tsx scripts/common/generate.ts",
+    "generate:country": "tsx scripts/country/generate.ts",
     "collect:data": "ts-node scripts/collect/democracy.ts",
     "compute:tops": "ts-node scripts/compute/generate-top-scores.ts",
     "generate:og": "ts-node scripts/generate/og-images.ts",

@@ -41,3 +41,11 @@ export interface LanguageInfo extends BaseEntityInfo {
 export interface IndicatorInfo extends BaseEntityInfo {
   idWorldBank?: string;
 }
+
+export interface IndicatorCountryValue {
+  countryId: string;
+  indicatorId: string;
+  date: number;
+  value: number;
+  decimal?: number;
+}
