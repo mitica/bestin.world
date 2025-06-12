@@ -55,10 +55,12 @@ async function genTopPerCountryAndIndicator() {
     const maxValue = Math.max(...data.map((item) => item.value));
     const minValue = Math.min(...data.map((item) => item.value));
     if (maxValue === minValue) continue; // Skip if all values are the same
-    const maxValues = data.filter((item) => item.value === maxValue);
+    let maxValues = data.filter((item) => item.value === maxValue);
     maxValues.forEach((item) => (item.type = "max"));
-    const minValues = data.filter((item) => item.value === minValue);
+    if (maxValues.length > 5) maxValues = [];
+    let minValues = data.filter((item) => item.value === minValue);
     minValues.forEach((item) => (item.type = "min"));
+    if (minValues.length > 5) minValues = [];
     const countryCodes = [
       ...new Set(maxValues.concat(minValues).map((item) => item.countryId))
     ];
