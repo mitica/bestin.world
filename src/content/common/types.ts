@@ -37,3 +37,7 @@ export interface LanguageInfo extends BaseEntityInfo {
   shmbol?: string;
   native?: string;
 }
+
+export interface IndicatorInfo extends BaseEntityInfo {
+  idWorldBank?: string;
+}

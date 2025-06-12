@@ -32,9 +32,25 @@ async function pullLanguages() {
   );
 }
 
+async function wbIndicators() {
+  const response = await fetch(
+    "https://api.worldbank.org/v2/source/2/indicators?format=json&per_page=20000"
+  );
+  if (!response.ok) {
+    throw new Error(`Failed to fetch languages data: ${response.statusText}`);
+  }
+  const data = await response.json();
+  await writeFile(
+    "data/wb-indicators.json",
+    JSON.stringify(data[1], null, 2),
+    "utf-8"
+  );
+}
+
 async function pull() {
   await pullCountries();
   await pullLanguages();
+  await wbIndicators();
 }
 
 pull()
