@@ -12,14 +12,14 @@ export async function getStaticPaths() {
 
 const { country } = Astro.props;
 const [tops, indicators] = await Promise.all([
-  getEntry("countryTops", country.id)?.then((t) => t.data),
+  getEntry("countryInsights", country.id)!.then((t) => t.data),
   getCollection("indicators")
 ]);
 
 const bestIn =
-  tops?.filter((it) => it.type === "max").sort((a, b) => b.date - a.date) || [];
+  tops.filter((it) => it.type === "BEST").sort((a, b) => b.year - a.year) || [];
 const worstIn =
-  tops?.filter((it) => it.type === "min").sort((a, b) => b.date - a.date) || [];
+  tops.filter((it) => it.type === "WORST").sort((a, b) => b.year - a.year) || [];
 
 const getIndicator = (id: string) => {
   return indicators.find((indicator) => indicator.id === id)!.data;
@@ -33,9 +33,10 @@ const getIndicator = (id: string) => {
     <ul>
       {
         bestIn.length > 0 &&
-          bestIn.map((top) => (
+          bestIn.map((item) => (
             <li>
-              ({top.date}) - {getIndicator(top.indicatorId).name}: {top.value}
+              <h4>{item.emoji}{item.title} ({item.year})</h4>
+              <p>{item.description}</p>
             </li>
           ))
       }
@@ -45,9 +46,10 @@ const getIndicator = (id: string) => {
     <ul>
       {
         worstIn.length > 0 &&
-          worstIn.map((top) => (
+          worstIn.map((item) => (
             <li>
-              ({top.date}) - {getIndicator(top.indicatorId).name}: {top.value}
+              <h4>{item.emoji}{item.title} ({item.year})</h4>
+              <p>{item.description}</p>
             </li>
           ))
       }

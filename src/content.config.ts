@@ -32,7 +32,30 @@ const countryTops = defineCollection({
       date: z.number().int(),
       type: z.enum(["min", "max"])
     })
-  ),
+  )
 });
 
-export const collections = { countries, indicators, countryTops };
+const countryInsights = defineCollection({
+  loader: glob({
+    pattern: "src/content/country/*/insights.json",
+    generateId: ({ entry }) =>
+      /country\/([a-z0-9]{2})\/insights/.exec(entry)?.[1] || ""
+  }),
+  schema: z.array(
+    z.object({
+      indicatorIds: z.array(z.string()),
+      title: z.string().min(5).max(200),
+      description: z.string().min(10).max(1000),
+      emoji: z.string().min(1).max(10),
+      year: z.number().int(),
+      type: z.enum(["BEST", "WORST"])
+    })
+  )
+});
+
+export const collections = {
+  countries,
+  indicators,
+  countryTops,
+  countryInsights
+};

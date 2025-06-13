@@ -10,15 +10,18 @@
     "pull-raw-data": "tsx scripts/pull-raw-data.ts",
     "generate:common": "tsx scripts/common/generate.ts",
     "generate:country": "tsx scripts/country/generate.ts",
+    "generate:ai": "tsx scripts/ai/generate.ts",
     "collect:data": "ts-node scripts/collect/democracy.ts",
     "compute:tops": "ts-node scripts/compute/generate-top-scores.ts",
     "generate:og": "ts-node scripts/generate/og-images.ts",
     "build:data": "npm run collect:democracy && npm run compute:tops && npm run generate:og"
   },
   "dependencies": {
-    "astro": "^5.9.2"
+    "astro": "^5.9.2",
+    "openai": "^5.3.0"
   },
   "devDependencies": {
+    "dotenv": "^16.5.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.20.1",
     "typescript": "^5.8.3"

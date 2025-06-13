@@ -51,3 +51,12 @@ export interface IndicatorCountryValue {
   decimal?: number;
   type: "max" | "min" | "average";
 }
+
+export interface InsightInfo {
+  title: string;
+  description: string;
+  indicatorIds: string[];
+  year: number;
+  emoji: string;
+  type: "BEST" | "WORST";
+}
