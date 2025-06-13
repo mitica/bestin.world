@@ -20,10 +20,6 @@ const bestIn =
   tops.filter((it) => it.type === "BEST").sort((a, b) => b.year - a.year) || [];
 const worstIn =
   tops.filter((it) => it.type === "WORST").sort((a, b) => b.year - a.year) || [];
-
-const getIndicator = (id: string) => {
-  return indicators.find((indicator) => indicator.id === id)!.data;
-};
 ---
 
 <Layout title={`Country: ${country.name}`}>

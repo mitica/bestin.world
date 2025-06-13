@@ -21,3 +21,15 @@ export const fileExists = async (path: string) => {
     throw error; // Re-throw other errors
   }
 };
+
+export const slugify = (text: string): string => {
+  return text
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+};
+
+export const toTopicId = (name: string): string => {
+  return slugify(name.trim().split("&")[0].trim());
+};

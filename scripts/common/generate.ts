@@ -2,6 +2,7 @@ async function start() {
   await import("./gen-languages");
   await import("./gen-countries");
   await import("./gen-indicators");
+  await import("./gen-topics");
 }
 
 start()

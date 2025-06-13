@@ -42,6 +42,7 @@ export interface LanguageInfo extends BaseEntityInfo {
 export interface IndicatorInfo extends BaseEntityInfo {
   idWorldBank?: string;
   sort: number;
+  topicIds: string[];
 }
 
 export interface IndicatorCountryValue {
@@ -60,4 +61,10 @@ export interface InsightInfo {
   year: number;
   emoji: string;
   type: "BEST" | "WORST";
+}
+
+export interface TopicInfo {
+  name: string;
+  id: string;
+  idWorldBank?: string;
 }

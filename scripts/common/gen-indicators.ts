@@ -2,6 +2,7 @@ import { writeFile } from "fs/promises";
 import type { IndicatorInfo } from "../../src/content/common/types";
 
 import wbIndicators from "../../data/wb-indicators.json";
+import { toTopicId } from "../../src/utils";
 
 async function gen() {
   const result: IndicatorInfo[] = [];
@@ -14,7 +15,10 @@ async function gen() {
       id,
       code: item.id.trim(),
       idWorldBank: item.id.trim(),
-      sort: 1
+      sort: 1,
+      topicIds: item.topics.map((topic: { value: string }) =>
+        toTopicId(topic.value)
+      )
     });
   }
 
