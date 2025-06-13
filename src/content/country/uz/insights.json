@@ -1,23 +1,33 @@
 [
   {
-    "title": "Lowest Primary School Repetition Rate",
-    "description": "In 2018, Uzbekistan had one of the lowest primary school repetition rates in the world, with only 0.00125% of total enrollment repeating a grade.",
-    "year": 2018,
+    "title": "High Gender Equality Rating",
+    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, reflecting a strong commitment to gender equality compared to global standards.",
+    "year": 2023,
     "indicatorIds": [
-      "se-prm-rept-fe-zs",
-      "se-prm-rept-ma-zs",
-      "se-prm-rept-zs"
+      "iq-cpa-gndr-xq"
     ],
-    "emoji": "📉",
+    "emoji": "♀️",
     "type": "BEST",
     "topicIds": [
-      "education",
-      "gender"
+      "public-sector"
     ]
   },
   {
-    "title": "High Educational Attainment in Lower Secondary",
-    "description": "As of 2022, 100% of the male population aged 25 and older in Uzbekistan had completed at least lower secondary education, one of the highest rates globally.",
+    "title": "Efficient Revenue Mobilization",
+    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, indicating effective strategies in collecting government revenue.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-revn-xq"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Educational Attainment for Adults",
+    "description": "By 2022, 99.98% of Uzbekistan's population aged 25+ had completed at least lower secondary education, showcasing a highly educated adult population.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-cuat-lo-fe-zs",
@@ -32,48 +42,37 @@
     ]
   },
   {
-    "title": "High Gender Equality Rating",
-    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality.",
-    "year": 2023,
+    "title": "Minimal Primary School Repeaters",
+    "description": "In 2018, the percentage of repeaters in primary education was extremely low, with only 0.00125% of students repeating a grade.",
+    "year": 2018,
     "indicatorIds": [
-      "iq-cpa-gndr-xq"
+      "se-prm-rept-fe-zs",
+      "se-prm-rept-ma-zs",
+      "se-prm-rept-zs"
     ],
-    "emoji": "♀️",
+    "emoji": "📚",
     "type": "BEST",
     "topicIds": [
-      "public-sector"
+      "education",
+      "gender"
     ]
   },
   {
-    "title": "High Revenue Mobilization Efficiency",
-    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, reflecting effective revenue collection practices.",
-    "year": 2023,
+    "title": "Low Private Secondary School Enrollment",
+    "description": "As of 2022, only 0.31% of secondary school students in Uzbekistan were enrolled in private institutions, indicating a strong public education system.",
+    "year": 2022,
     "indicatorIds": [
-      "iq-cpa-revn-xq"
+      "se-sec-priv-zs"
     ],
-    "emoji": "💰",
+    "emoji": "🏫",
     "type": "BEST",
     "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Customs and Import Duties",
-    "description": "In 2023, Uzbekistan collected 11,126,911,928,350 LCU in customs and other import duties, one of the highest figures globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-tax-impt-cn",
-      "gc-tax-intt-cn"
-    ],
-    "emoji": "📦",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
+      "education"
     ]
   },
   {
     "title": "High Compensation of Employees",
-    "description": "The compensation of employees in Uzbekistan reached 60,189,419,334,713.6 LCU in 2023, indicating significant government expenditure in this area.",
+    "description": "In 2023, the compensation of employees in Uzbekistan reached 60.2 trillion LCU, highlighting significant investment in human resources.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-comp-cn"
@@ -85,29 +84,68 @@
     ]
   },
   {
+    "title": "Significant Net Borrowing",
+    "description": "Uzbekistan's net borrowing in 2023 was -51.5 trillion LCU, indicating a reliance on external financial resources.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-nld-totl-cn"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
     "title": "High Other Expenses",
-    "description": "In 2023, Uzbekistan's other expenses amounted to 61,285,584,505,848.5 LCU, reflecting substantial spending in various sectors.",
+    "description": "In 2023, Uzbekistan's other expenses amounted to 61.3 trillion LCU, reflecting substantial non-specific expenditures.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-othr-cn"
     ],
-    "emoji": "💸",
+    "emoji": "📈",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Substantial Import Duties",
+    "description": "Customs and other import duties in Uzbekistan were valued at 11.1 trillion LCU in 2023, indicating a significant revenue source from international trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-tax-impt-cn"
+    ],
+    "emoji": "🚢",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Net Borrowing",
-    "description": "Uzbekistan's net borrowing was -51,491,089,426,083.6 LCU in 2023, indicating a significant budget deficit.",
+    "title": "High Taxes on International Trade",
+    "description": "In 2023, Uzbekistan collected 11.1 trillion LCU in taxes on international trade, underscoring the importance of trade taxes in the national budget.",
     "year": 2023,
     "indicatorIds": [
-      "gc-nld-totl-cn"
+      "gc-tax-intt-cn"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🌍",
+    "type": "BEST",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Labor Force with Basic Education",
+    "description": "In 2020, only 12.6% of Uzbekistan's working-age population had basic education, suggesting a need for improved educational access.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-basc-zs"
+    ],
+    "emoji": "🔍",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

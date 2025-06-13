@@ -1,46 +1,60 @@
 [
   {
-    "title": "Lowest Greenhouse Gas Emissions",
-    "description": "In 2023, Nauru had one of the lowest total greenhouse gas emissions excluding LULUCF, with only 0.0012 Mt CO2e.",
-    "year": 2023,
+    "title": "Highest Net Lending as a Percentage of GDP",
+    "description": "In 2020, Nauru achieved a net lending rate of 32.76% of its GDP, indicating a strong fiscal position compared to other nations.",
+    "year": 2020,
     "indicatorIds": [
-      "en-ghg-all-mt-ce-ar5"
+      "gc-nld-totl-gd-zs"
     ],
-    "emoji": "🌍",
+    "emoji": "💰",
     "type": "BEST",
     "topicIds": [
-      "environment"
+      "public-sector"
     ]
   },
   {
-    "title": "Lowest Methane Emissions from Agriculture",
-    "description": "Nauru recorded one of the lowest methane emissions from agriculture in 2023, with just 0.0003 Mt CO2e.",
-    "year": 2023,
+    "title": "Leading in Revenue Excluding Grants",
+    "description": "Nauru's revenue, excluding grants, was 138.99% of its GDP in 2020, showcasing its ability to generate substantial income independently.",
+    "year": 2020,
     "indicatorIds": [
-      "en-ghg-ch4-ag-mt-ce-ar5"
+      "gc-rev-xgrt-gd-zs"
     ],
-    "emoji": "🌾",
+    "emoji": "📈",
     "type": "BEST",
     "topicIds": [
-      "environment"
+      "economy",
+      "public-sector"
     ]
   },
   {
-    "title": "Lowest Nitrous Oxide Emissions from Industrial Processes",
-    "description": "In 2023, Nauru had one of the lowest nitrous oxide emissions from industrial processes, at 0.0001 Mt CO2e.",
-    "year": 2023,
+    "title": "High Tax Revenue as a Percentage of GDP",
+    "description": "In 2020, tax revenue in Nauru accounted for 44.40% of its GDP, reflecting a robust tax collection system.",
+    "year": 2020,
     "indicatorIds": [
-      "en-ghg-n2o-ip-mt-ce-ar5"
+      "gc-tax-totl-gd-zs"
     ],
-    "emoji": "🏭",
+    "emoji": "💸",
     "type": "BEST",
     "topicIds": [
-      "environment"
+      "public-sector"
     ]
   },
   {
-    "title": "Highest Prevalence of Tobacco Use",
-    "description": "In 2022, Nauru had one of the highest prevalence rates of tobacco use among adults, with 48.3% of the population using tobacco.",
+    "title": "Significant Domestic Health Expenditure",
+    "description": "Nauru allocated 15.79% of its GDP to domestic general government health expenditure in 2022, prioritizing healthcare investment.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-ghed-gd-zs"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Prevalence of Tobacco Use Among Adults",
+    "description": "As of 2022, 48.3% of adults in Nauru were current tobacco users, indicating a significant public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok"
@@ -52,8 +66,101 @@
     ]
   },
   {
-    "title": "Lowest Number of Scientific Publications",
-    "description": "Nauru had one of the lowest numbers of scientific and technical journal articles published in 2022, with only 0.27 articles.",
+    "title": "High Tobacco Use Among Female Adults",
+    "description": "In 2022, 48.1% of female adults in Nauru were current tobacco users, highlighting a concerning trend in female health.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-prv-smok-fe"
+    ],
+    "emoji": "🚭",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Substantial Government Expenses Relative to GDP",
+    "description": "Nauru's government expenses were 103.73% of its GDP in 2020, indicating high public spending levels.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-totl-gd-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Strong Financial Asset Acquisition",
+    "description": "In 2020, Nauru's net acquisition of financial assets was 30.74% of its GDP, reflecting a proactive approach to asset management.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-ast-totl-gd-zs"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest Greenhouse Gas Emissions",
+    "description": "In 2023, Nauru's total greenhouse gas emissions, excluding LULUCF, were just 0.0012 Mt CO2e, one of the lowest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-all-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal Methane Emissions from Agriculture",
+    "description": "Nauru's methane emissions from agriculture were only 0.0003 Mt CO2e in 2023, reflecting minimal agricultural impact on the environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-ch4-ag-mt-ce-ar5"
+    ],
+    "emoji": "🌾",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Nitrous Oxide Emissions from Industrial Processes",
+    "description": "In 2023, Nauru's nitrous oxide emissions from industrial processes were a mere 0.0001 Mt CO2e, indicating limited industrial activity.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-n2o-ip-mt-ce-ar5"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Small Population of Elderly",
+    "description": "As of 2023, Nauru had a total population of 318 individuals aged 65 and above, one of the smallest elderly populations worldwide.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-65up-to"
+    ],
+    "emoji": "👵",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Limited Scientific Output",
+    "description": "In 2022, Nauru produced only 0.27 scientific and technical journal articles, highlighting a need for increased research and development.",
     "year": 2022,
     "indicatorIds": [
       "ip-jrn-artc-sc"
@@ -62,6 +169,49 @@
     "type": "WORST",
     "topicIds": [
       "science"
+    ]
+  },
+  {
+    "title": "Low Female Teacher Training in Primary Education",
+    "description": "Only 8.33% of female teachers in Nauru's primary education were trained in 2023, indicating a gap in educational development.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-prm-tcaq-fe-zs"
+    ],
+    "emoji": "👩‍🏫",
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Personal Remittances Received",
+    "description": "In 2023, Nauru received $880,605.81 in personal remittances, one of the lowest figures globally, reflecting limited diaspora contributions.",
+    "year": 2023,
+    "indicatorIds": [
+      "bx-trf-pwkr-cd-dt"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Imports of Goods and Services",
+    "description": "Nauru's imports of goods and services in 2023 amounted to $152,155,542.14, indicating a small-scale economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-imp-gnfs-cd"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
     ]
   }
 ]

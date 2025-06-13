@@ -1,46 +1,20 @@
 [
   {
-    "title": "Highest Current Account Balance",
-    "description": "In 2023, Kuwait had the highest current account balance in the world, amounting to 31.40% of its GDP.",
+    "title": "Strongest Current Account Balance",
+    "description": "In 2023, Kuwait's current account balance was 31.40% of its GDP, showcasing its robust economic position globally.",
     "year": 2023,
     "indicatorIds": [
       "bn-cab-xoka-gd-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Lowest Secondary Income Receipts",
-    "description": "Kuwait recorded the lowest secondary income receipts in 2023, with a value of just 6,014,905 USD.",
-    "year": 2023,
-    "indicatorIds": [
-      "bx-trf-curr-cd"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Highest Water Stress Level",
-    "description": "In 2021, Kuwait experienced the highest level of water stress, with freshwater withdrawal at 3850.5% of available resources.",
-    "year": 2021,
-    "indicatorIds": [
-      "er-h2o-fwst-zs"
-    ],
-    "emoji": "🚱",
-    "type": "WORST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Full Internet Usage Among Females",
-    "description": "As of 2023, 100% of the female population in Kuwait used the Internet, marking the highest rate globally.",
+    "title": "Highest Internet Usage Among Females",
+    "description": "In 2023, 100% of the female population in Kuwait used the internet, indicating widespread digital access.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs"
@@ -52,21 +26,22 @@
     ]
   },
   {
-    "title": "Lowest Taxes Less Subsidies on Products",
-    "description": "In 2023, Kuwait had the lowest taxes less subsidies on products, with a negative value of -10,669,658,015 USD.",
-    "year": 2023,
+    "title": "Universal Access to Sanitation Services",
+    "description": "By 2022, 100% of Kuwait's population had access to safely managed sanitation services, reflecting high public health standards.",
+    "year": 2022,
     "indicatorIds": [
-      "ny-tax-nind-cd"
+      "sh-sta-smss-zs"
     ],
-    "emoji": "🧾",
-    "type": "WORST",
+    "emoji": "🚽",
+    "type": "BEST",
     "topicIds": [
-      "economy"
+      "health",
+      "environment"
     ]
   },
   {
-    "title": "Lowest Vulnerable Employment for Females",
-    "description": "Kuwait had the lowest rate of vulnerable employment among females in 2023, at just 0.02% of female employment.",
+    "title": "Lowest Vulnerable Employment Among Females",
+    "description": "In 2023, only 0.02% of female employment in Kuwait was considered vulnerable, highlighting strong job security for women.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-vuln-fe-zs"
@@ -80,13 +55,65 @@
     ]
   },
   {
-    "title": "Lowest Population of Young Adult Males",
-    "description": "In 2023, only 4.20% of Kuwait's male population was aged 20-24, the lowest percentage globally.",
+    "title": "High Water Stress Levels",
+    "description": "In 2021, Kuwait faced significant water stress, with freshwater withdrawal at 3850.5% of available resources, indicating severe water scarcity.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-fwst-zs"
+    ],
+    "emoji": "🚱",
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Negative Taxes Less Subsidies on Products",
+    "description": "In 2023, Kuwait recorded -$10.67 billion in taxes less subsidies on products, reflecting a unique fiscal structure.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-tax-nind-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Secondary Income Receipts",
+    "description": "Kuwait's secondary income receipts were at $6.01 million in 2023, one of the lowest globally, indicating limited income from abroad.",
+    "year": 2023,
+    "indicatorIds": [
+      "bx-trf-curr-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Stable Exchange Rate",
+    "description": "Kuwait maintained a stable official exchange rate of 0.3067 LCU per US$ in 2024, reflecting currency stability.",
+    "year": 2024,
+    "indicatorIds": [
+      "pa-nus-fcrf"
+    ],
+    "emoji": "💱",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Low Population of Young Males",
+    "description": "In 2023, males aged 20-24 constituted only 4.20% of the male population, indicating a demographic trend towards an older population.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-2024-ma-5y"
     ],
-    "emoji": "👨‍🦱",
+    "emoji": "👨‍🦳",
     "type": "WORST",
     "topicIds": [
       "health"

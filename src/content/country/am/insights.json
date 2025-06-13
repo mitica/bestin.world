@@ -1,23 +1,11 @@
 [
   {
-    "title": "Lowest Gift Expectation in Tax Meetings",
-    "description": "In 2020, only 0.1% of firms in Armenia were expected to give gifts in meetings with tax officials, one of the lowest rates globally.",
-    "year": 2020,
-    "indicatorIds": [
-      "ic-tax-gift-zs"
-    ],
-    "emoji": "🎁",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Minimal Energy Depletion",
-    "description": "Armenia had an energy depletion of only $1.11 in 2021, which is extremely low compared to other countries.",
+    "title": "Lowest Energy Depletion Impact",
+    "description": "In 2021, Armenia had an exceptionally low energy depletion cost of $1.11, representing a negligible 0.0000000082% of its GNI, showcasing efficient energy use.",
     "year": 2021,
     "indicatorIds": [
-      "ny-adj-dngy-cd"
+      "ny-adj-dngy-cd",
+      "ny-adj-dngy-gn-zs"
     ],
     "emoji": "🔋",
     "type": "BEST",
@@ -28,8 +16,8 @@
     ]
   },
   {
-    "title": "Negligible Coal Rents",
-    "description": "In 2021, coal rents accounted for just 0.00000276% of Armenia's GDP, indicating minimal reliance on coal.",
+    "title": "Minimal Coal Dependency",
+    "description": "Armenia's coal rents were virtually non-existent in 2021, accounting for only 0.00000028% of its GDP, highlighting minimal reliance on coal.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-coal-rt-zs"
@@ -42,7 +30,7 @@
   },
   {
     "title": "High Social Insurance Coverage",
-    "description": "As of 2022, 60.23% of Armenia's population was covered by social insurance programs, with the poorest quintile having a coverage of 61.64%.",
+    "description": "In 2022, 60.23% of Armenia's population was covered by social insurance programs, with the poorest quintile having a slightly higher coverage of 61.64%.",
     "year": 2022,
     "indicatorIds": [
       "per_si_allsi-cov_pop_tot",
@@ -55,8 +43,8 @@
     ]
   },
   {
-    "title": "High Female Representation in Secondary Education",
-    "description": "In 2023, 88.38% of secondary education teachers in Armenia were female, showcasing significant gender representation.",
+    "title": "Predominantly Female Secondary Education Workforce",
+    "description": "As of 2023, 88.38% of secondary education teachers in Armenia were female, indicating a strong female presence in the education sector.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-tchr-fe-zs"
@@ -69,8 +57,8 @@
     ]
   },
   {
-    "title": "Low Belief in Justifying Domestic Violence",
-    "description": "In 2016, only 0.4% of women in Armenia believed a husband is justified in beating his wife for burning food, and 0.8% for refusing sex.",
+    "title": "Low Incidence of Gender-Based Violence Beliefs",
+    "description": "In 2016, only 0.4% of Armenian women believed a husband was justified in beating his wife for burning food, and 0.8% for refusing sex, reflecting progressive attitudes.",
     "year": 2016,
     "indicatorIds": [
       "sg-vaw-burn-zs",
@@ -84,8 +72,21 @@
     ]
   },
   {
-    "title": "Low Urban Sanitation Service Usage",
-    "description": "In 2018, only 0.06% of Armenia's urban population used safely managed sanitation services, one of the lowest rates globally.",
+    "title": "Minimal Bribery in Tax Meetings",
+    "description": "In 2020, only 0.1% of firms in Armenia expected to give gifts during meetings with tax officials, indicating low corruption levels.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-tax-gift-zs"
+    ],
+    "emoji": "💼",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Low Urban Sanitation Services Usage",
+    "description": "In 2018, only 6% of Armenia's urban population used safely managed sanitation services, highlighting a significant area for improvement.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-smss-ur-zs"
@@ -95,6 +96,19 @@
     "topicIds": [
       "health",
       "environment"
+    ]
+  },
+  {
+    "title": "Minimal Government Education Spending",
+    "description": "In 2023, Armenia's government expenditure on education was only 0.24% of its GDP, suggesting limited investment in education.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-xpd-totl-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "education"
     ]
   }
 ]

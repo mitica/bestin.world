@@ -1,34 +1,7 @@
 [
   {
-    "title": "Highest Short-term Debt Ratio",
-    "description": "In 2023, Zimbabwe had the highest short-term debt as a percentage of total reserves in the world, reaching 3409.70%.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-dstc-ir-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Fastest Broad Money Growth",
-    "description": "Zimbabwe experienced the fastest broad money growth in the world in 2023, with an annual increase of 708.93%.",
-    "year": 2023,
-    "indicatorIds": [
-      "fm-lbl-bmny-zg"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Highest Inflation Rate",
-    "description": "In 2023, Zimbabwe had the highest inflation rate in the world, with the GDP deflator increasing by 921.54%.",
+    "title": "Skyrocketing Inflation Rates",
+    "description": "In 2023, Zimbabwe experienced an inflation rate of 921.54% as measured by the GDP deflator, one of the highest in the world.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-defl-kd-zg",
@@ -42,21 +15,21 @@
     ]
   },
   {
-    "title": "Highest Lending Interest Rate",
-    "description": "Zimbabwe had the highest lending interest rate globally in 2023, at 170.29%.",
+    "title": "High Lending Interest Rates",
+    "description": "Zimbabwe's lending interest rate reached 170.29% in 2023, making it one of the highest globally.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-lend"
     ],
-    "emoji": "🏦",
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Largest Interest Rate Spread",
-    "description": "In 2023, Zimbabwe had the largest interest rate spread in the world, with a difference of 107.47% between lending and deposit rates.",
+    "title": "Significant Interest Rate Spread",
+    "description": "In 2023, the interest rate spread in Zimbabwe was 107.47%, indicating a large gap between lending and deposit rates.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-lndp"
@@ -68,8 +41,8 @@
     ]
   },
   {
-    "title": "Lowest Real Interest Rate",
-    "description": "Zimbabwe had the lowest real interest rate in the world in 2023, at -73.54%.",
+    "title": "Negative Real Interest Rates",
+    "description": "Zimbabwe recorded a real interest rate of -73.54% in 2023, reflecting the impact of high inflation on savings.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-rinr"
@@ -81,34 +54,61 @@
     ]
   },
   {
-    "title": "Highest Growth in Claims on Domestic Economy",
-    "description": "In 2023, Zimbabwe had the highest growth in claims on other sectors of the domestic economy, at 453.95% of broad money.",
+    "title": "Rapid Broad Money Growth",
+    "description": "The broad money supply in Zimbabwe grew by 708.93% in 2023, one of the fastest rates globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "fm-lbl-bmny-zg"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "High Short-term Debt Reliance",
+    "description": "In 2023, short-term debt accounted for 3409.70% of Zimbabwe's total reserves, indicating a heavy reliance on short-term borrowing.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-dstc-ir-zs"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Rapid Growth in Domestic Claims",
+    "description": "Claims on other sectors of the domestic economy grew by 453.95% as a percentage of broad money in 2023, showcasing rapid expansion.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-domo-zg-m3"
     ],
-    "emoji": "🏛️",
-    "type": "WORST",
+    "emoji": "🏦",
+    "type": "BEST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Highest Growth in Claims on Private Sector",
-    "description": "Zimbabwe experienced the highest growth in claims on the private sector in 2023, with an increase of 425.49% of broad money.",
+    "title": "High Growth in Private Sector Claims",
+    "description": "In 2023, claims on the private sector grew by 425.49% as a percentage of broad money, indicating robust private sector activity.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-prvt-zg-m3"
     ],
-    "emoji": "🏢",
-    "type": "WORST",
+    "emoji": "📈",
+    "type": "BEST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Lowest Net Foreign Assets",
-    "description": "In 2023, Zimbabwe had the lowest net foreign assets globally, amounting to -18,861,835,122,967.90 LCU.",
+    "title": "Negative Net Foreign Assets",
+    "description": "Zimbabwe's net foreign assets stood at -18.86 trillion local currency units in 2023, highlighting significant external liabilities.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-nfrg-cn"
@@ -117,6 +117,72 @@
     "type": "WORST",
     "topicIds": [
       "financial-sector"
+    ]
+  },
+  {
+    "title": "Strong Growth in National Income",
+    "description": "Adjusted net national income grew by 38.98% in 2021, reflecting a significant increase in economic output.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-nnty-kd-zg"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Rising Income Per Capita",
+    "description": "In 2021, adjusted net national income per capita grew by 36.60%, indicating improvements in individual economic well-being.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-nnty-pc-kd-zg"
+    ],
+    "emoji": "👤",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Social Protection for the Poorest",
+    "description": "In 2019, 37.55% of social protection and labor benefits were directed to the poorest quintile, demonstrating targeted social support.",
+    "year": 2019,
+    "indicatorIds": [
+      "per_allsp-ben_q1_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Health Expenditure Impact on Poverty",
+    "description": "In 2017, only 1.82% of the population was pushed further below the poverty line due to out-of-pocket health expenses, indicating effective health cost management.",
+    "year": 2017,
+    "indicatorIds": [
+      "sh-uhc-fbpr-zs"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Tariff Specificity in Manufacturing",
+    "description": "In 2016, 5.94% of tariff lines for manufactured products had specific rates, reflecting a nuanced trade policy.",
+    "year": 2016,
+    "indicatorIds": [
+      "tm-tax-manf-sr-zs"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

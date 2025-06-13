@@ -1,7 +1,48 @@
 [
   {
-    "title": "Safely Managed Sanitation Services",
-    "description": "In 2022, 100% of both rural and urban populations in Andorra used safely managed sanitation services, making it one of the best in the world.",
+    "title": "Lowest Mortality Rates Among Youth",
+    "description": "In 2023, Andorra reported the lowest number of deaths among youth aged 15-24, with only 1 death recorded in each age group.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dth-1519",
+      "sh-dth-2024"
+    ],
+    "emoji": "🧒",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Exceptional Infant and Child Survival Rates",
+    "description": "Andorra achieved the lowest infant and under-five mortality rates in 2023, with just 1 death in each category, showcasing its excellent healthcare system.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dth-imrt",
+      "sh-dth-mort"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Minimal Neonatal Mortality",
+    "description": "In 2023, Andorra recorded only 1 neonatal death, highlighting its effective maternal and newborn care services.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dth-nmrt"
+    ],
+    "emoji": "🍼",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Universal Access to Sanitation",
+    "description": "By 2022, 100% of Andorra's population, both rural and urban, had access to safely managed sanitation services, setting a global benchmark.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-smss-ru-zs",
@@ -16,20 +57,15 @@
     ]
   },
   {
-    "title": "Low Youth and Infant Mortality",
-    "description": "In 2023, Andorra reported only 1 death each in the age groups 15-19, 20-24, and for infants, under-five, and neonatal, indicating one of the lowest mortality rates globally.",
+    "title": "High Proportion of Middle-Aged Women",
+    "description": "In 2023, 9.21% of Andorra's female population was aged 45-49, indicating a significant demographic segment in this age group.",
     "year": 2023,
     "indicatorIds": [
-      "sh-dth-1519",
-      "sh-dth-2024",
-      "sh-dth-imrt",
-      "sh-dth-mort",
-      "sh-dth-nmrt"
+      "sp-pop-4549-fe-5y"
     ],
-    "emoji": "🧒",
+    "emoji": "👩",
     "type": "BEST",
     "topicIds": [
-      "education",
       "health"
     ]
   }

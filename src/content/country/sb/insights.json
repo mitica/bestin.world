@@ -1,20 +1,50 @@
 [
   {
     "title": "High Forest Rents Contribution",
-    "description": "In 2021, forest rents contributed 18.4% to the GDP of the Solomon Islands, one of the highest percentages globally.",
+    "description": "In 2021, forest rents accounted for 18.40% of Solomon Islands' GDP, highlighting the significant role of forestry in the country's economy.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-frst-rt-zs"
     ],
-    "emoji": "🌳",
+    "emoji": "🌲",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
+    "title": "Low Primary School Intake Rate",
+    "description": "In 2018, the net intake rate for grade 1 was notably low at 9.23% for the official school-age population, indicating challenges in primary education access.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-nint-fe-zs",
+      "se-prm-nint-ma-zs",
+      "se-prm-nint-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Private Health Expenditure",
+    "description": "In 2022, domestic private health expenditure per capita was only $3.65, reflecting limited private investment in health services.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-pvtd-pc-cd",
+      "sh-xpd-pvtd-pp-cd"
+    ],
+    "emoji": "💊",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
     "title": "High Female Employment Rate",
-    "description": "In 2024, the employment to population ratio for females aged 15 and over in the Solomon Islands was 81.2%, among the highest in the world.",
+    "description": "In 2024, the employment to population ratio for females aged 15 and above was 81.18%, showcasing strong female workforce participation.",
     "year": 2024,
     "indicatorIds": [
       "sl-emp-totl-sp-fe-zs"
@@ -27,8 +57,23 @@
     ]
   },
   {
+    "title": "Significant Family Worker Contribution",
+    "description": "In 2023, contributing family workers made up 49.26% of total employment, indicating a reliance on family-based labor.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-fam-work-ma-zs",
+      "sl-fam-work-zs"
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
     "title": "High Tariff Rates on Primary Products",
-    "description": "In 2022, the Solomon Islands had a tariff rate of 48.84% on primary products, one of the highest globally.",
+    "description": "In 2022, the tariff rate for primary products was 48.84%, one of the highest globally, affecting trade dynamics.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-wm-ar-zs",
@@ -42,13 +87,13 @@
     ]
   },
   {
-    "title": "High Agricultural Exports",
-    "description": "In 2018, agricultural raw materials made up 73.3% of the Solomon Islands' merchandise exports, one of the highest proportions worldwide.",
+    "title": "Dominance of Agricultural Exports",
+    "description": "In 2018, agricultural raw materials constituted 73.29% of merchandise exports, underscoring the sector's export significance.",
     "year": 2018,
     "indicatorIds": [
       "tx-val-agri-zs-un"
     ],
-    "emoji": "🚜",
+    "emoji": "🌾",
     "type": "BEST",
     "topicIds": [
       "agriculture",
@@ -57,29 +102,17 @@
     ]
   },
   {
-    "title": "Low Net Intake Rate in Grade 1",
-    "description": "In 2018, the net intake rate in grade 1 for the Solomon Islands was only 9.2%, one of the lowest globally.",
-    "year": 2018,
+    "title": "Low International Tourism Expenditure",
+    "description": "In 2020, international tourism expenditures for passenger transport items were notably low, at just under $10,000, indicating limited tourism activity.",
+    "year": 2020,
     "indicatorIds": [
-      "se-prm-nint-zs"
+      "st-int-trnx-cd"
     ],
-    "emoji": "📉",
+    "emoji": "✈️",
     "type": "WORST",
     "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Domestic Private Health Expenditure",
-    "description": "In 2022, domestic private health expenditure per capita in the Solomon Islands was just $3.65, one of the lowest in the world.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-xpd-pvtd-pc-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "health"
+      "private-sector",
+      "trade"
     ]
   }
 ]

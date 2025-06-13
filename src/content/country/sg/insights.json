@@ -1,22 +1,38 @@
 [
   {
-    "title": "Highest Urban Population Concentration",
-    "description": "In 2024, 100% of Singapore's urban population lived in the largest city, indicating a complete urban concentration.",
+    "title": "Most Urbanized Nation",
+    "description": "In 2024, Singapore achieved a 100% urban population, with all residents living in urban agglomerations of more than 1 million people.",
     "year": 2024,
     "indicatorIds": [
-      "en-urb-lcty-ur-zs"
+      "en-urb-lcty-ur-zs",
+      "en-urb-mcty-tl-zs"
     ],
     "emoji": "🏙️",
     "type": "BEST",
     "topicIds": [
-      "urban-development"
+      "urban-development",
+      "climate-change"
     ]
   },
   {
-    "title": "Top Government Effectiveness",
-    "description": "In 2023, Singapore achieved a perfect score of 100 in Government Effectiveness Percentile Rank, showcasing its exceptional governance.",
+    "title": "Top Global Depositors",
+    "description": "As of 2023, Singapore had 2,902 depositors per 1,000 adults, showcasing a highly banked population.",
     "year": 2023,
     "indicatorIds": [
+      "fb-cbk-dptr-p3"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Exemplary Government Effectiveness",
+    "description": "In 2023, Singapore ranked at the 100th percentile for government effectiveness, with a high estimate score of 2.32.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-est",
       "ge-per-rnk"
     ],
     "emoji": "🏛️",
@@ -26,21 +42,127 @@
     ]
   },
   {
-    "title": "Highest Regulatory Quality",
-    "description": "Singapore scored 100 in Regulatory Quality Percentile Rank in 2023, reflecting its superior regulatory environment.",
-    "year": 2023,
+    "title": "High Human Capital Index",
+    "description": "In 2020, Singapore's Human Capital Index was 0.88, reflecting a strong investment in education and health.",
+    "year": 2020,
     "indicatorIds": [
-      "rq-per-rnk"
+      "hd-hci-ovrl"
     ],
-    "emoji": "📈",
+    "emoji": "📚",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Arable Land Per Person",
-    "description": "In 2021, Singapore had only 0.0001 hectares of arable land per person, one of the lowest in the world.",
+    "title": "Efficient Business Insolvency",
+    "description": "In 2024, Singapore scored 89.69 on the B-READY Business Insolvency index, indicating robust regulations and operational efficiency.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bi-os"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Superior Statistical Performance",
+    "description": "In 2023, Singapore achieved a perfect score of 100 in Pillar 2 of the Statistical Performance Indicators.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-spi-pil2"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Advanced Logistics Infrastructure",
+    "description": "In 2022, Singapore scored 4.6 for the quality of trade and transport-related infrastructure, leading globally.",
+    "year": 2022,
+    "indicatorIds": [
+      "lp-lpi-infr-xq"
+    ],
+    "emoji": "🚚",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "High GDP per Capita",
+    "description": "In 2023, Singapore's GDP per capita was $141,553, one of the highest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-pcap-pp-cd"
+    ],
+    "emoji": "💵",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Regulatory Quality Excellence",
+    "description": "In 2023, Singapore achieved the 100th percentile in regulatory quality, with an estimate score of 2.31.",
+    "year": 2023,
+    "indicatorIds": [
+      "rq-est",
+      "rq-per-rnk"
+    ],
+    "emoji": "📜",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Universal Primary Education Enrollment",
+    "description": "In 2017, Singapore had an adjusted net enrollment rate of 99.97% for primary school-age children.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-tenr"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Universal Sanitation Access",
+    "description": "By 2022, 100% of Singapore's population had access to safely managed sanitation services.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-smss-zs"
+    ],
+    "emoji": "🚽",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Lowest Electric Power Transmission and Distribution Losses",
+    "description": "In 2022, Singapore reported electric power transmission and distribution losses at just 0.30% of output, one of the lowest globally.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-elc-loss-zs"
+    ],
+    "emoji": "🔌",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Minimal Arable Land Per Person",
+    "description": "As of 2021, Singapore had only 0.0001 hectares of arable land per person, highlighting its limited agricultural capacity.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-arbl-ha-pc"
@@ -52,8 +174,8 @@
     ]
   },
   {
-    "title": "Lowest Foreign Direct Investment",
-    "description": "In 2024, Singapore experienced a net foreign direct investment of -$96.7 billion, indicating a significant outflow.",
+    "title": "Low Foreign Direct Investment Net Inflow",
+    "description": "In 2024, Singapore experienced a net outflow of foreign direct investment amounting to -$96.68 billion, indicating a significant capital movement out of the country.",
     "year": 2024,
     "indicatorIds": [
       "bn-klt-dinv-cd"
@@ -63,6 +185,119 @@
     "topicIds": [
       "economy",
       "financial-sector"
+    ]
+  },
+  {
+    "title": "High Political Stability",
+    "description": "In 2023, Singapore's political stability was reflected in a low standard error of 0.21, suggesting a stable and secure environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-std-err"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Learning Poverty Among Female Children",
+    "description": "In 2021, only 2.10% of female children in Singapore were below minimum reading proficiency at the end of primary school, adjusted for out-of-school children.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-lpv-prim-fe"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Negligible Primary School Age Children Out-of-School",
+    "description": "In 2021, just 0.03% of primary school age children in Singapore were out-of-school, showcasing the country's commitment to education.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-lpv-prim-sd",
+      "se-lpv-prim-sd-fe",
+      "se-lpv-prim-sd-ma"
+    ],
+    "emoji": "🏫",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Short Duration of Secondary Education",
+    "description": "As of 2023, Singapore's secondary education lasts only 4 years, which is shorter compared to many other countries.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-sec-durs"
+    ],
+    "emoji": "📏",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Mortality Rate from Unintentional Poisoning",
+    "description": "In 2021, Singapore had an exceptionally low mortality rate from unintentional poisoning, at 0.0001 per 100,000 population.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-pois-p5",
+      "sh-sta-pois-p5-fe",
+      "sh-sta-pois-p5-ma"
+    ],
+    "emoji": "🧪",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal Employment in Agriculture",
+    "description": "In 2023, only 0.09% of Singapore's total employment was in agriculture, reflecting the country's urban and industrial focus.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-agr-empl-zs",
+      "sl-agr-empl-ma-zs"
+    ],
+    "emoji": "🏙️",
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Tariff Rates on All Products",
+    "description": "In 2022, Singapore maintained a simple mean tariff rate of 0.05% on all products, promoting free trade.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-mrch-sm-ar-zs",
+      "tm-tax-mrch-sm-fn-zs"
+    ],
+    "emoji": "📦",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Intentional Homicide Rates",
+    "description": "In 2021, Singapore recorded low intentional homicide rates, with 0.07 per 100,000 females and 0.13 per 100,000 males.",
+    "year": 2021,
+    "indicatorIds": [
+      "vc-ihr-psrc-fe-p5",
+      "vc-ihr-psrc-ma-p5"
+    ],
+    "emoji": "🔍",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

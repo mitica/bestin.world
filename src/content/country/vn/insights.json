@@ -1,20 +1,44 @@
 [
   {
-    "title": "Highest Net Domestic Credit",
-    "description": "Vietnam had the highest net domestic credit in the world, amounting to 12,108,290,082,835,600 LCU in 2022.",
-    "year": 2022,
+    "title": "Strong Export Capacity",
+    "description": "In 2023, Vietnam's exports of goods and services reached 5,429,413,647,635,100 LCU, showcasing its robust capacity to trade globally.",
+    "year": 2023,
     "indicatorIds": [
-      "fm-ast-doms-cn"
+      "ne-exp-gnfs-kn"
     ],
-    "emoji": "💳",
+    "emoji": "📈",
     "type": "BEST",
     "topicIds": [
-      "financial-sector"
+      "economy"
     ]
   },
   {
-    "title": "Highest Broad Money",
-    "description": "In 2022, Vietnam recorded the highest broad money globally, totaling 13,109,658,074,994,700 LCU.",
+    "title": "Efficient Tax System",
+    "description": "Vietnam's taxation system scored 89.85 in operational efficiency in 2024, indicating a streamlined and effective tax administration.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-tx-p3"
+    ],
+    "emoji": "💼",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Positive External Balance",
+    "description": "In 2023, Vietnam maintained a positive external balance on goods and services, valued at 820,797,300,000,000 LCU, reflecting a surplus in trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-rsb-gnfs-cn"
+    ],
+    "emoji": "🔄",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Broad Money Supply",
+    "description": "The broad money supply in Vietnam reached 13,109,658,074,994,700 LCU in 2022, indicating a strong monetary base.",
     "year": 2022,
     "indicatorIds": [
       "fm-lbl-bmny-cn"
@@ -26,32 +50,47 @@
     ]
   },
   {
-    "title": "Most Efficient Tax System",
-    "description": "Vietnam's taxation system was rated for its operational efficiency with a score of 89.85 in 2024, the highest globally.",
-    "year": 2024,
+    "title": "Gender Equality Progress",
+    "description": "Vietnam scored 4.5 on the CPIA gender equality rating in 2015, showing significant progress towards gender parity.",
+    "year": 2015,
     "indicatorIds": [
-      "ic-bre-tx-p3"
+      "iq-cpa-gndr-xq"
     ],
-    "emoji": "📊",
+    "emoji": "♀️♂️",
     "type": "BEST",
-    "topicIds": []
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
-    "title": "Highest Exports of Goods and Services",
-    "description": "In 2023, Vietnam achieved the highest exports of goods and services, valued at 5,429,413,647,635,100 LCU.",
+    "title": "High Net Domestic Credit",
+    "description": "In 2022, Vietnam's net domestic credit was valued at 12,108,290,082,835,600 LCU, reflecting a strong credit system.",
+    "year": 2022,
+    "indicatorIds": [
+      "fm-ast-doms-cn"
+    ],
+    "emoji": "🏦",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "High Terms of Trade Adjustment",
+    "description": "Vietnam's terms of trade adjustment stood at 479,453,875,270,286 LCU in 2023, indicating favorable trade conditions.",
     "year": 2023,
     "indicatorIds": [
-      "ne-exp-gnfs-kn"
+      "ny-ttf-gnfs-kn"
     ],
-    "emoji": "🚢",
+    "emoji": "🔄",
     "type": "BEST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Highest Imports of Goods and Services",
-    "description": "Vietnam also had the highest imports of goods and services in 2023, totaling 5,364,601,047,635,100 LCU.",
+    "title": "Strong Import Capacity",
+    "description": "In 2023, Vietnam's imports of goods and services were valued at 5,364,601,047,635,100 LCU, demonstrating a robust import capacity.",
     "year": 2023,
     "indicatorIds": [
       "ne-imp-gnfs-kn"
@@ -63,41 +102,27 @@
     ]
   },
   {
-    "title": "Highest External Balance on Goods and Services",
-    "description": "Vietnam's external balance on goods and services was the highest in the world at 820,797,300,000,000 LCU in 2023.",
+    "title": "Negative GDP Discrepancy",
+    "description": "In 2023, Vietnam faced a GDP expenditure discrepancy of -350,432,405,884,700 LCU, indicating potential issues in economic reporting.",
     "year": 2023,
     "indicatorIds": [
-      "ne-rsb-gnfs-cn"
+      "ny-gdp-disc-cn"
     ],
-    "emoji": "⚖️",
-    "type": "BEST",
+    "emoji": "⚠️",
+    "type": "WORST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Highest Exports as a Capacity to Import",
-    "description": "In 2023, Vietnam's exports as a capacity to import reached 5,908,867,522,905,390 LCU, the highest globally.",
+    "title": "Moderate Net Secondary Income",
+    "description": "Vietnam's net secondary income from abroad was 310,543,451,725,185 LCU in 2023, reflecting moderate remittance inflows.",
     "year": 2023,
     "indicatorIds": [
-      "ny-exp-capm-kn"
+      "ny-trf-nctr-cn"
     ],
-    "emoji": "🔄",
+    "emoji": "💸",
     "type": "BEST",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Lowest Discrepancy in GDP Expenditure Estimate",
-    "description": "Vietnam had the lowest discrepancy in expenditure estimate of GDP, with a value of -350,432,405,884,700 LCU in 2023.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gdp-disc-cn"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
     "topicIds": [
       "economy"
     ]

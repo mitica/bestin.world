@@ -1,7 +1,7 @@
 [
   {
-    "title": "High Educational Attainment",
-    "description": "In 2022, 61.1% of Montenegro's population aged 25 and over had attained at least a Bachelor's degree, with 65.5% of males and 58.2% of females achieving this level of education.",
+    "title": "High Educational Attainment Among Adults",
+    "description": "In 2022, 61.09% of Montenegro's population aged 25 and above had attained at least a Bachelor's degree, with 58.19% of females and 65.53% of males achieving this level of education.",
     "year": 2022,
     "indicatorIds": [
       "se-ter-cuat-ba-fe-zs",
@@ -16,8 +16,21 @@
     ]
   },
   {
+    "title": "Minimal Industrial Design Applications",
+    "description": "In 2020, Montenegro recorded only 1 resident industrial design application, indicating a low level of industrial design activity.",
+    "year": 2020,
+    "indicatorIds": [
+      "ip-ids-rsct"
+    ],
+    "emoji": "🔧",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
     "title": "Low Measles Immunization Rate",
-    "description": "In 2023, only 24% of children aged 12-23 months in Montenegro were immunized against measles, indicating a low vaccination coverage.",
+    "description": "As of 2023, only 24% of children aged 12-23 months in Montenegro were immunized against measles, highlighting a significant public health challenge.",
     "year": 2023,
     "indicatorIds": [
       "sh-imm-meas"
@@ -26,6 +39,47 @@
     "type": "WORST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Negligible Arms Exports",
+    "description": "In 2017, Montenegro's arms exports were valued at $1,000,000, reflecting a minimal contribution to the global arms trade.",
+    "year": 2017,
+    "indicatorIds": [
+      "ms-mil-xprt-kd"
+    ],
+    "emoji": "🔫",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Minimal Tariff Peaks on Manufactured Products",
+    "description": "In 2022, only 0.00135% of Montenegro's tariff lines for manufactured products had international peaks, indicating a low level of trade protectionism.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-manf-ip-zs"
+    ],
+    "emoji": "📉",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low New Displacement Due to Disasters",
+    "description": "In 2023, Montenegro reported only 1 new case of internal displacement due to disasters, suggesting effective disaster management strategies.",
+    "year": 2023,
+    "indicatorIds": [
+      "vc-idp-nwds"
+    ],
+    "emoji": "🏠",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

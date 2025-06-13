@@ -1,33 +1,34 @@
 [
   {
-    "title": "Lowest Net ODA Received",
-    "description": "In 2022, Malaysia received only 0.0067% of its central government expenses as net official development assistance, one of the lowest percentages globally.",
+    "title": "Minimal Reliance on Foreign Aid",
+    "description": "In 2022, Malaysia received only 0.67% of its central government expenses from net official development assistance, indicating a low dependency on foreign aid.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-xp-zs"
     ],
-    "emoji": "💸",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Lowest Battle-related Deaths",
-    "description": "In 2017, Malaysia recorded only 1 battle-related death, indicating a very low level of conflict-related fatalities.",
-    "year": 2017,
+    "title": "Low Arms Export Activity",
+    "description": "In 2019, Malaysia's arms exports were valued at $1,000,000, reflecting minimal involvement in global arms trade.",
+    "year": 2019,
     "indicatorIds": [
-      "vc-btl-deth"
+      "ms-mil-xprt-kd"
     ],
-    "emoji": "🕊️",
-    "type": "BEST",
+    "emoji": "🔫",
+    "type": "WORST",
     "topicIds": [
-      "public-sector"
+      "public-sector",
+      "trade"
     ]
   },
   {
-    "title": "Highest Net Forest Depletion",
-    "description": "In 2021, Malaysia had a net forest depletion valued at approximately $6.36 billion, one of the highest in the world.",
+    "title": "Significant Forest Depletion",
+    "description": "In 2021, Malaysia experienced a net forest depletion valued at $6.36 billion, highlighting significant environmental challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dfor-cd"
@@ -37,6 +38,33 @@
     "topicIds": [
       "economy",
       "environment"
+    ]
+  },
+  {
+    "title": "Perfect Male School Enrollment",
+    "description": "In 2017, Malaysia achieved a 100% net intake rate for males in grade 1, showcasing its commitment to primary education.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-nint-ma-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Battle-Related Deaths",
+    "description": "In 2017, Malaysia reported only one battle-related death, indicating a peaceful domestic environment.",
+    "year": 2017,
+    "indicatorIds": [
+      "vc-btl-deth"
+    ],
+    "emoji": "☮️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

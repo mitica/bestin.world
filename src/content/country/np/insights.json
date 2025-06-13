@@ -1,12 +1,12 @@
 [
   {
-    "title": "Lowest reliance on fossil fuels for electricity",
-    "description": "In 2021, only 0.0004% of Nepal's electricity production came from oil, gas, and coal sources, indicating a minimal reliance on fossil fuels.",
+    "title": "Minimal Reliance on Fossil Fuels for Electricity",
+    "description": "In 2021, Nepal produced only 0.0004% of its electricity from oil, gas, and coal sources, showcasing a strong commitment to renewable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-fosl-zs"
     ],
-    "emoji": "🔋",
+    "emoji": "🌱",
     "type": "BEST",
     "topicIds": [
       "energy",
@@ -14,48 +14,47 @@
     ]
   },
   {
-    "title": "Minimal CO2 emissions from energy fugitive emissions",
-    "description": "Nepal's CO2 emissions from fugitive emissions in the energy sector were just 0.0001 Mt CO2e in 2023, one of the lowest in the world.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-fe-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "BEST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Minimal CO2 emissions from power industry",
-    "description": "In 2018, Nepal's CO2 emissions from the power industry were only 0.0001 Mt CO2e, showcasing its low carbon footprint in this sector.",
+    "title": "Negligible CO2 Emissions from Power Industry",
+    "description": "Nepal's power industry emitted a mere 0.0001 Mt of CO2 in 2018, reflecting its low carbon footprint in energy production.",
     "year": 2018,
     "indicatorIds": [
       "en-ghg-co2-pi-mt-ce-ar5"
     ],
-    "emoji": "⚡",
+    "emoji": "💨",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low percentage of service imports in communications and computers",
-    "description": "In 2023, communications, computers, and related services accounted for only 0.99% of Nepal's service imports, one of the lowest globally.",
+    "title": "Low Fugitive CO2 Emissions",
+    "description": "In 2023, Nepal's fugitive CO2 emissions from energy were just 0.0001 Mt, indicating efficient energy management practices.",
     "year": 2023,
     "indicatorIds": [
-      "bm-gsr-cmcp-zs"
+      "en-ghg-co2-fe-mt-ce-ar5"
     ],
-    "emoji": "💻",
+    "emoji": "🔋",
     "type": "BEST",
     "topicIds": [
-      "economy",
-      "trade"
+      "environment"
     ]
   },
   {
-    "title": "Low new displacement due to conflict and violence",
-    "description": "Nepal had only 2 new cases of displacement due to conflict and violence in 2017, indicating a stable internal situation.",
+    "title": "High Financial Sector Rating",
+    "description": "Nepal achieved a CPIA financial sector rating of 4 in 2023, suggesting a relatively strong and stable financial environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-fins-xq"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal New Displacement Due to Conflict",
+    "description": "In 2017, Nepal reported only 2 new cases of internal displacement due to conflict and violence, highlighting a peaceful domestic environment.",
     "year": 2017,
     "indicatorIds": [
       "vc-idp-nwcv"
@@ -64,6 +63,34 @@
     "type": "BEST",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Low Import of Communication and Computer Services",
+    "description": "In 2023, communications and computer services accounted for just 0.99% of Nepal's service imports, indicating a potential area for growth in digital services.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-gsr-cmcp-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Limited Commercial Service Imports in Technology",
+    "description": "In 2023, computer, communications, and other services made up only 10.23% of Nepal's commercial service imports, suggesting a need for diversification in service trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-othr-zs-wt"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

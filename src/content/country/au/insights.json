@@ -1,7 +1,7 @@
 [
   {
     "title": "Highest Regulatory Quality",
-    "description": "In 2023, Australia achieved a perfect score of 100 in the Regulatory Quality percentile rank, indicating the highest regulatory quality worldwide.",
+    "description": "In 2023, Australia achieved a perfect score of 100 in the Regulatory Quality Percentile Rank, indicating exceptional governance and regulatory standards.",
     "year": 2023,
     "indicatorIds": [
       "rq-per-rnk-upper"
@@ -13,15 +13,55 @@
     ]
   },
   {
-    "title": "Highest Preprimary School Enrollment",
-    "description": "In 2020, Australia's gross enrollment rate for preprimary education reached 160.2%, the highest in the world, with male enrollment at 163.3% and female enrollment at 156.9%.",
+    "title": "High Income Tax Revenue",
+    "description": "In 2022, taxes on income, profits, and capital gains constituted 67.86% of Australia's revenue, highlighting a significant reliance on these sources for government funding.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-tax-ypkg-rv-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Significant Mineral Depletion",
+    "description": "Australia experienced a mineral depletion cost of $68.6 billion in 2021, reflecting the extensive extraction of natural resources.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dmin-cd"
+    ],
+    "emoji": "⛏️",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Preprimary School Enrollment",
+    "description": "In 2020, Australia's gross enrollment rate in preprimary education was 160.21%, indicating a robust early childhood education system.",
     "year": 2020,
     "indicatorIds": [
-      "se-pre-enrr",
+      "se-pre-enrr"
+    ],
+    "emoji": "🎒",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Gender Parity in Preprimary Education",
+    "description": "In 2020, both male and female preprimary enrollment rates were high, with males at 163.34% and females at 156.92%, showcasing gender parity in early education.",
+    "year": 2020,
+    "indicatorIds": [
       "se-pre-enrr-fe",
       "se-pre-enrr-ma"
     ],
-    "emoji": "🎓",
+    "emoji": "👫",
     "type": "BEST",
     "topicIds": [
       "education",
@@ -29,21 +69,8 @@
     ]
   },
   {
-    "title": "Lowest Battle-related Deaths",
-    "description": "In 2018, Australia recorded only 1 battle-related death, one of the lowest numbers globally, reflecting its peaceful status.",
-    "year": 2018,
-    "indicatorIds": [
-      "vc-btl-deth"
-    ],
-    "emoji": "🕊️",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Prevalence of Overweight Children",
-    "description": "In 2024, 26.4% of children under 5 in Australia were estimated to be overweight, one of the highest rates globally.",
+    "title": "Rising Childhood Overweight Prevalence",
+    "description": "By 2024, 26.4% of children under 5 in Australia were estimated to be overweight, indicating a growing public health concern.",
     "year": 2024,
     "indicatorIds": [
       "sh-sta-owgh-me-zs"
@@ -52,6 +79,19 @@
     "type": "WORST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Low Battle-Related Deaths",
+    "description": "In 2018, Australia reported only one battle-related death, reflecting a peaceful domestic environment.",
+    "year": 2018,
+    "indicatorIds": [
+      "vc-btl-deth"
+    ],
+    "emoji": "☮️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

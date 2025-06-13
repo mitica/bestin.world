@@ -1,7 +1,7 @@
 [
   {
-    "title": "Top Quality Regulations for Dispute Resolution",
-    "description": "In 2024, Togo achieved a high score of 94.6 in the quality of regulations for dispute resolution, indicating strong legal frameworks.",
+    "title": "High Quality of Dispute Resolution Regulations",
+    "description": "In 2024, Togo achieved a remarkable score of 94.59 in the Quality of Regulations for Dispute Resolution, indicating a robust legal framework for resolving disputes efficiently.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-dr-p1"
@@ -11,8 +11,34 @@
     "topicIds": []
   },
   {
+    "title": "Strong Environmental Sustainability Policies",
+    "description": "Togo's CPIA rating for environmental sustainability was 4.5 in 2023, showcasing the country's commitment to maintaining sustainable environmental policies.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-envr-xq"
+    ],
+    "emoji": "🌿",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Benefit Incidence of Social Safety Nets to the Poorest",
+    "description": "In 2021, only 2.99% of total safety net benefits reached the poorest quintile in Togo, highlighting a significant gap in social safety net distribution.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_sa_allsa-ben_q1_tot"
+    ],
+    "emoji": "🚫",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
     "title": "Low Female Representation in Tertiary Education Staff",
-    "description": "As of 2021, only 6.1% of academic staff in tertiary education in Togo were female, highlighting a significant gender disparity.",
+    "description": "As of 2021, only 6.1% of academic staff in Togo's tertiary education institutions were female, indicating a gender imbalance in higher education.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-tchr-fe-zs"
@@ -24,8 +50,8 @@
     ]
   },
   {
-    "title": "Minimal Diarrhea Treatment Coverage",
-    "description": "In 2017, only 13.6% of children under 5 in Togo received ORS packets for diarrhea treatment, indicating low healthcare coverage.",
+    "title": "Low Access to Diarrhea Treatment for Children",
+    "description": "In 2017, only 13.6% of children under five in Togo received Oral Rehydration Salts (ORS) packets for diarrhea treatment, reflecting limited healthcare access.",
     "year": 2017,
     "indicatorIds": [
       "sh-sta-orth"
@@ -37,8 +63,8 @@
     ]
   },
   {
-    "title": "Scarcity of R&D Technicians",
-    "description": "In 2018, Togo had only 3.6 technicians per million people working in R&D, showing a lack of technical expertise in research and development.",
+    "title": "Scarcity of Technicians in Research and Development",
+    "description": "With just 3.62 technicians per million people in 2018, Togo faces a shortage of skilled personnel in research and development sectors.",
     "year": 2018,
     "indicatorIds": [
       "sp-pop-tech-rd-p6"

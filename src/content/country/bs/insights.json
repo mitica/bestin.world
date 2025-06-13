@@ -1,20 +1,7 @@
 [
   {
-    "title": "Lowest CO2 Emissions from Energy Fugitive Sources",
-    "description": "In 2023, the Bahamas recorded one of the lowest carbon dioxide emissions from fugitive emissions in the energy sector, with only 0.0001 Mt CO2e.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-fe-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "BEST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "High Protection Against Tetanus in Newborns",
-    "description": "In 2023, 100% of newborns in the Bahamas were protected against tetanus, showcasing excellent healthcare coverage for infants.",
+    "title": "Highest Newborn Tetanus Protection",
+    "description": "In 2023, 100% of newborns in the Bahamas were protected against tetanus, showcasing the country's commitment to maternal and child health.",
     "year": 2023,
     "indicatorIds": [
       "sh-vac-ttns-zs"
@@ -26,11 +13,11 @@
     ]
   },
   {
-    "title": "High Female Labor Force Participation",
-    "description": "In 2023, the labor force participation rate for females aged 15-24 in the Bahamas was 97.935%, indicating strong female engagement in the workforce.",
+    "title": "Leading Female Labor Force Participation",
+    "description": "The Bahamas boasts a female labor force participation rate of 98.651% in 2023, one of the highest globally, indicating strong gender inclusivity in the workforce.",
     "year": 2023,
     "indicatorIds": [
-      "sl-tlf-acti-1524-fe-ne-zs"
+      "sl-tlf-cact-fe-ne-zs"
     ],
     "emoji": "👩‍💼",
     "type": "BEST",
@@ -39,17 +26,97 @@
     ]
   },
   {
+    "title": "High Youth Employment Rate",
+    "description": "In 2023, the employment to population ratio for ages 15-24 in the Bahamas was 79.588%, reflecting robust youth employment opportunities.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-1524-sp-ne-zs"
+    ],
+    "emoji": "👷‍♂️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Advanced Education in Labor Force",
+    "description": "With 98.774% of the working-age population having advanced education in 2023, the Bahamas ranks among the top countries for educational attainment in the labor force.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-tlf-advn-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
     "title": "High Tariff Rates on Manufactured Products",
-    "description": "In 2022, the Bahamas had a high tariff rate of 33.23% on manufactured products for most favored nations, indicating significant trade protectionism.",
+    "description": "In 2022, the Bahamas had a tariff rate of 33.23% on manufactured products, one of the highest globally, potentially impacting trade competitiveness.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-manf-sm-fn-zs"
     ],
-    "emoji": "📈",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "Significant Tariff Rates on All Products",
+    "description": "The Bahamas applied a tariff rate of 26.31% on all products in 2022, indicating a protectionist trade policy stance.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-mrch-sm-ar-zs"
+    ],
+    "emoji": "🔒",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "High Share of Tariff Lines with Specific Rates on Primary Products",
+    "description": "In 2022, 25.97% of tariff lines on primary products in the Bahamas had specific rates, reflecting a complex tariff structure.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-tcom-sr-zs"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Fugitive Emissions in Energy Sector",
+    "description": "In 2023, the Bahamas reported a mere 0.0001 Mt CO2e in fugitive emissions from the energy sector, showcasing one of the lowest levels globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-co2-fe-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal HIV Prevalence Among Children",
+    "description": "As of 2022, only 100 children aged 0-14 were living with HIV in the Bahamas, reflecting one of the lowest prevalence rates worldwide.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-0014"
+    ],
+    "emoji": "🧒",
+    "type": "BEST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

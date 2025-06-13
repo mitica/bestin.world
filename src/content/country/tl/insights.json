@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Net Investment in Nonfinancial Assets",
-    "description": "In 2016, Timor-Leste had the highest net investment in nonfinancial assets, accounting for 40.29% of its GDP.",
+    "title": "High Net Investment in Nonfinancial Assets",
+    "description": "In 2016, Timor-Leste had one of the highest net investments in nonfinancial assets, accounting for 40.29% of its GDP. This indicates a strong focus on infrastructure and capital development.",
     "year": 2016,
     "indicatorIds": [
       "gc-nfn-totl-gd-zs"
@@ -13,22 +13,98 @@
     ]
   },
   {
-    "title": "Highest Natural Resources Depletion",
-    "description": "In 2021, Timor-Leste had the highest adjusted savings from natural resources depletion, which was 57.30% of its GNI.",
+    "title": "Significant Natural Resource Depletion",
+    "description": "In 2021, Timor-Leste experienced substantial natural resources depletion, with energy and other natural resources accounting for 57.20% and 57.30% of GNI, respectively. This highlights a heavy reliance on resource extraction.",
     "year": 2021,
     "indicatorIds": [
+      "ny-adj-dngy-gn-zs",
       "ny-adj-dres-gn-zs"
     ],
     "emoji": "⛏️",
     "type": "WORST",
     "topicIds": [
       "economy",
-      "energy"
+      "energy",
+      "environment"
     ]
   },
   {
-    "title": "Lowest Export Growth",
-    "description": "In 2023, Timor-Leste experienced the lowest growth in exports of goods and services, with a decline of 59.99%.",
+    "title": "High Natural Gas Rents Contribution to GDP",
+    "description": "Natural gas rents contributed 29.38% to Timor-Leste's GDP in 2021, showcasing the country's dependency on natural gas as a significant economic driver.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-gdp-ngas-rt-zs"
+    ],
+    "emoji": "⛽",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Other Expenses as a Percentage of Total Expenses",
+    "description": "In 2022, other expenses constituted 42.80% of Timor-Leste's total expenses, indicating a potential area for budgetary reevaluation and efficiency improvements.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-xpn-othr-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Prevalence of Justification for Domestic Violence",
+    "description": "In 2016, 62.8% of women in Timor-Leste believed a husband is justified in beating his wife if she neglects the children, reflecting deep-rooted societal norms and challenges in gender equality.",
+    "year": 2016,
+    "indicatorIds": [
+      "sg-vaw-negl-zs"
+    ],
+    "emoji": "🚫",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Lowest Quality of Public Services for Business",
+    "description": "In 2024, Timor-Leste scored 3.2 in the Quality of Public Services and Transparency of Information for Business Location, indicating significant room for improvement.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p2"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Weak Dispute Resolution Services",
+    "description": "The country's Dispute Resolution services scored 7.8 in 2024, highlighting challenges in effectively resolving business disputes.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-dr-p2"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Poor Financial Services Accessibility",
+    "description": "With a score of 5.8 in 2024, Timor-Leste's accessibility of information in credit infrastructure is among the lowest globally.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-fs-p2"
+    ],
+    "emoji": "💳",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Declining Export Growth",
+    "description": "In 2023, Timor-Leste experienced a -59.99% growth in exports of goods and services, reflecting a significant downturn.",
     "year": 2023,
     "indicatorIds": [
       "ne-exp-gnfs-kd-zg"
@@ -41,13 +117,13 @@
     ]
   },
   {
-    "title": "Lowest Industry Growth",
-    "description": "In 2023, the industry sector in Timor-Leste, including construction, saw the lowest growth with a decrease of 56.97%.",
+    "title": "Negative Industry Growth",
+    "description": "The industry sector, including construction, saw a -56.97% growth in 2023, indicating a substantial contraction.",
     "year": 2023,
     "indicatorIds": [
       "nv-ind-totl-kd-zg"
     ],
-    "emoji": "🏭",
+    "emoji": "🏗️",
     "type": "WORST",
     "topicIds": [
       "economy"
@@ -55,20 +131,20 @@
   },
   {
     "title": "Lowest Adjusted Net National Income Growth",
-    "description": "In 2021, Timor-Leste had the lowest growth in adjusted net national income, with a decrease of 65.66%.",
+    "description": "In 2021, the adjusted net national income growth was -65.66%, one of the lowest globally, suggesting economic challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-nnty-kd-zg"
     ],
-    "emoji": "💸",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Lowest Inflation Rate",
-    "description": "In 2023, Timor-Leste had the lowest inflation rate, with the GDP deflator showing a decrease of 20.83%.",
+    "title": "Negative Inflation Rate",
+    "description": "Timor-Leste recorded a -20.83% inflation rate in 2023, indicating deflationary pressures in the economy.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-defl-kd-zg",
@@ -80,5 +156,16 @@
       "economy",
       "financial-sector"
     ]
+  },
+  {
+    "title": "Poor Market Competition Regulations",
+    "description": "The quality of regulations promoting market competition scored 22.25 in 2024, showing a need for regulatory improvements.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-mc-p1"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": []
   }
 ]

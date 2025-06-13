@@ -1,7 +1,7 @@
 [
   {
-    "title": "High reliance on remittances",
-    "description": "In 2022, personal remittances received accounted for 41.94% of Tonga's GDP, indicating a significant reliance on money sent from abroad.",
+    "title": "High Reliance on Remittances",
+    "description": "In 2022, remittances accounted for 41.94% of Tonga's GDP, highlighting a significant reliance on funds sent from abroad.",
     "year": 2022,
     "indicatorIds": [
       "bx-trf-pwkr-dt-gd-zs"
@@ -14,13 +14,16 @@
     ]
   },
   {
-    "title": "Low external debt",
-    "description": "As of 2023, Tonga's total external debt stocks were $196.45 million, one of the lowest in the world.",
+    "title": "Low External Debt Levels",
+    "description": "As of 2023, Tonga's total external debt stood at $196.45 million, one of the lowest globally, indicating limited borrowing from international sources.",
     "year": 2023,
     "indicatorIds": [
-      "dt-dod-dect-cd"
+      "dt-dod-dect-cd",
+      "dt-dod-dlxf-cd",
+      "dt-dod-dppg-cd",
+      "dt-dod-pvlx-cd"
     ],
-    "emoji": "💰",
+    "emoji": "📉",
     "type": "BEST",
     "topicIds": [
       "economy",
@@ -28,37 +31,25 @@
     ]
   },
   {
-    "title": "High taxes on goods and services",
-    "description": "In 2023, taxes on goods and services in Tonga were 25.56% of the value added of industry and services, among the highest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-tax-gsrv-va-zs"
-    ],
-    "emoji": "💸",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low trademark applications",
-    "description": "In 2021, only 3 trademark applications were filed by residents in Tonga, one of the lowest counts worldwide.",
+    "title": "Minimal Trademark Activity",
+    "description": "In 2021, only 3 trademark applications were filed by residents, reflecting low levels of domestic innovation and brand creation.",
     "year": 2021,
     "indicatorIds": [
       "ip-tmk-rsct"
     ],
-    "emoji": "📉",
+    "emoji": "🔖",
     "type": "WORST",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Decline in household consumption",
-    "description": "Tonga experienced a -20.98% growth in household and NPISHs final consumption expenditure in 2022, indicating a significant decline.",
+    "title": "Decline in Household Consumption",
+    "description": "Tonga experienced a significant decline in household consumption expenditure, with a decrease of 20.98% in 2022, indicating economic challenges for families.",
     "year": 2022,
     "indicatorIds": [
-      "ne-con-prvt-kd-zg"
+      "ne-con-prvt-kd-zg",
+      "ne-con-prvt-pc-kd-zg"
     ],
     "emoji": "📉",
     "type": "WORST",
@@ -67,16 +58,57 @@
     ]
   },
   {
-    "title": "Decline in per capita consumption",
-    "description": "In 2022, Tonga's household and NPISHs final consumption expenditure per capita growth was -20.64%, showing a major decrease.",
-    "year": 2022,
+    "title": "High Taxation on Goods and Services",
+    "description": "In 2023, taxes on goods and services represented 25.56% of the value added of industry and services, one of the highest globally.",
+    "year": 2023,
     "indicatorIds": [
-      "ne-con-prvt-pc-kd-zg"
+      "gc-tax-gsrv-va-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Particulate Emission Damage",
+    "description": "In 2021, Tonga's adjusted savings from particulate emission damage was $1.56 million, indicating minimal environmental degradation from air pollution.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dpem-cd"
+    ],
+    "emoji": "🌿",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Limited Female Employment in Leadership",
+    "description": "In 2023, only 17.45% of employed females in Tonga held employer positions, suggesting gender disparities in leadership roles.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-mpyr-fe-zs"
+    ],
+    "emoji": "👩‍💼",
     "type": "WORST",
     "topicIds": [
-      "economy"
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Small Male Population in Early 30s",
+    "description": "As of 2023, males aged 30-34 made up just 4.54% of the male population, reflecting demographic trends and potential workforce implications.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-3034-ma-5y"
+    ],
+    "emoji": "👨‍👦",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

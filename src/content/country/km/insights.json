@@ -1,42 +1,54 @@
 [
   {
-    "title": "100% Electricity from Oil",
-    "description": "In 2021, Comoros produced 100% of its electricity from oil sources, indicating a complete reliance on oil for electricity generation.",
+    "title": "Reliance on Fossil Fuels for Electricity",
+    "description": "In 2021, Comoros produced 100% of its electricity from oil, gas, and coal sources, indicating a complete reliance on fossil fuels for power generation.",
     "year": 2021,
     "indicatorIds": [
-      "eg-elc-fosl-zs",
-      "eg-elc-petr-zs"
+      "eg-elc-fosl-zs"
     ],
-    "emoji": "⚡️",
+    "emoji": "⚡",
     "type": "WORST",
     "topicIds": [
       "energy",
-      "environment",
+      "environment"
+    ]
+  },
+  {
+    "title": "Dependence on Oil for Electricity Production",
+    "description": "Comoros generated 100% of its electricity from oil in 2021, highlighting a significant dependency on oil as the sole energy source.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-elc-petr-zs"
+    ],
+    "emoji": "🛢️",
+    "type": "WORST",
+    "topicIds": [
+      "energy",
       "climate-change",
       "infrastructure"
     ]
   },
   {
-    "title": "Lowest F-gases Emissions from Industrial Processes",
-    "description": "In 2023, Comoros had one of the lowest F-gases emissions from industrial processes, with only 0.0001 Mt CO2e emitted.",
+    "title": "Minimal F-gases Emissions from Industrial Processes",
+    "description": "In 2023, Comoros had negligible F-gases emissions from industrial processes, with a recorded value of 0.0001 Mt CO2e, showcasing its minimal industrial pollution footprint.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-fgas-ip-mt-ce-ar5"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Revenue Mobilization Efficiency",
-    "description": "In 2023, Comoros had a low CPIA efficiency of revenue mobilization rating of 2, indicating challenges in revenue collection.",
+    "title": "Low Efficiency in Revenue Mobilization",
+    "description": "The CPIA efficiency of revenue mobilization rating for Comoros was 2 in 2023, indicating challenges in effectively collecting and managing public revenues.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
     ],
-    "emoji": "💸",
+    "emoji": "💰",
     "type": "WORST",
     "topicIds": [
       "public-sector"
@@ -44,7 +56,7 @@
   },
   {
     "title": "Unfavorable Net Barter Terms of Trade",
-    "description": "In 2021, Comoros had a net barter terms of trade index of 59.8, which is considered low compared to the base year 2015.",
+    "description": "In 2021, Comoros had a net barter terms of trade index of 59.8, suggesting less favorable trade conditions compared to the base year of 2015.",
     "year": 2021,
     "indicatorIds": [
       "tt-pri-mrch-xd-wd"

@@ -1,7 +1,104 @@
 [
   {
+    "title": "High Prevalence of Child Labor",
+    "description": "In 2015, 55.9% of children aged 7-14 in Chad were engaged in employment, with 56.7% of boys and 55.1% of girls working, indicating a significant issue with child labor.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-zs",
+      "sl-tlf-0714-ma-zs",
+      "sl-tlf-0714-fe-zs"
+    ],
+    "emoji": "🔨",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "social-development",
+      "gender"
+    ]
+  },
+  {
+    "title": "Severe Maternal Mortality Rate",
+    "description": "Chad recorded a maternal mortality ratio of 1389 per 100,000 live births in 2015, highlighting critical challenges in maternal health care.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-sta-mmrt-ne"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Multidimensional Poverty",
+    "description": "In 2019, 84.2% of Chad's population lived in multidimensional poverty, reflecting widespread deprivation across multiple dimensions of well-being.",
+    "year": 2019,
+    "indicatorIds": [
+      "si-pov-mpun"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Significant Teenage Pregnancy Rate",
+    "description": "As of 2015, 35.9% of women aged 15-19 in Chad had children or were pregnant, indicating a high rate of teenage motherhood.",
+    "year": 2015,
+    "indicatorIds": [
+      "sp-mtr-1519-zs"
+    ],
+    "emoji": "👶",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Wanted Fertility Rate",
+    "description": "In 2015, Chad had a wanted fertility rate of 6.1 births per woman, suggesting a strong cultural preference for larger families.",
+    "year": 2015,
+    "indicatorIds": [
+      "sp-dyn-wfrt"
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Rapid Rural Population Growth",
+    "description": "Chad experienced a rural population growth rate of 4.17% in 2023, indicating a significant increase in rural inhabitants.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-rur-totl-zg"
+    ],
+    "emoji": "🌾",
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
+  },
+  {
+    "title": "Cultural Acceptance of Domestic Violence",
+    "description": "In 2015, 48.6% of women in Chad believed a husband is justified in beating his wife for burning food, reflecting deep-rooted cultural norms.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-vaw-burn-zs"
+    ],
+    "emoji": "🚫",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
     "title": "Lowest Access to Electricity in Rural Areas",
-    "description": "In 2023, only 0.4% of Chad's rural population had access to electricity, one of the lowest rates globally.",
+    "description": "In 2023, only 0.4% of Chad's rural population had access to electricity, highlighting significant infrastructure challenges.",
     "year": 2023,
     "indicatorIds": [
       "eg-elc-accs-ru-zs"
@@ -14,8 +111,8 @@
     ]
   },
   {
-    "title": "Lowest Electric Power Consumption",
-    "description": "Chad's electric power consumption was only 14.47 kWh per capita in 2022, among the lowest in the world.",
+    "title": "Minimal Electric Power Consumption",
+    "description": "Chad's electric power consumption was just 14.47 kWh per capita in 2022, one of the lowest globally, indicating limited energy access.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-elec-kh-pc"
@@ -29,35 +126,51 @@
     ]
   },
   {
-    "title": "Lowest Literacy Rate",
-    "description": "In 2022, Chad had an adult literacy rate of 27.28%, one of the lowest globally.",
-    "year": 2022,
+    "title": "Low Human Capital Index for Females",
+    "description": "With a Human Capital Index of 0.29 in 2020, Chad ranks low in female human capital development, reflecting educational and health challenges.",
+    "year": 2020,
     "indicatorIds": [
-      "se-adt-litr-zs"
+      "hd-hci-ovrl-fe"
     ],
     "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Broadband Subscriptions",
+    "description": "In 2019, Chad had only 68 fixed broadband subscriptions, equating to 0.0004 per 100 people, indicating limited internet access.",
+    "year": 2019,
+    "indicatorIds": [
+      "it-net-bbnd",
+      "it-net-bbnd-p2"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Youth Literacy Rates",
+    "description": "As of 2022, the youth literacy rate in Chad was 36.07%, highlighting significant educational challenges for young people.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-adt-1524-lt-zs"
+    ],
+    "emoji": "📖",
     "type": "WORST",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Highest Multidimensional Poverty",
-    "description": "In 2019, 84.2% of Chad's population lived in multidimensional poverty, one of the highest rates worldwide.",
-    "year": 2019,
+    "title": "High Lifetime Risk of Maternal Death",
+    "description": "In 2023, the lifetime risk of maternal death in Chad was 1 in 24, underscoring critical health system challenges.",
+    "year": 2023,
     "indicatorIds": [
-      "si-pov-mpun"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": []
-  },
-  {
-    "title": "Highest Maternal Mortality Ratio",
-    "description": "Chad had a maternal mortality ratio of 1389 per 100,000 live births in 2015, one of the highest in the world.",
-    "year": 2015,
-    "indicatorIds": [
-      "sh-sta-mmrt-ne"
+      "sh-mmr-risk"
     ],
     "emoji": "🚑",
     "type": "WORST",
@@ -67,17 +180,59 @@
     ]
   },
   {
-    "title": "Highest Percentage of Children in Employment",
-    "description": "In 2015, 55.9% of children aged 7-14 in Chad were employed, one of the highest rates globally.",
+    "title": "Low Access to Basic Sanitation in Rural Areas",
+    "description": "Only 4.51% of Chad's rural population had access to basic sanitation services in 2022, reflecting severe public health issues.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-bass-ru-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Average Working Hours for Children",
+    "description": "In 2015, children aged 7-14 in Chad worked an average of 8.83 hours per week, indicating prevalent child labor issues.",
     "year": 2015,
     "indicatorIds": [
-      "sl-tlf-0714-zs"
+      "sl-tlf-0714-sw-tm"
     ],
     "emoji": "👶🏽",
     "type": "WORST",
     "topicIds": [
-      "social-protection",
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Life Expectancy for Males",
+    "description": "As of 2023, the life expectancy for males in Chad was 53.2 years, reflecting significant health and living condition challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-dyn-le00-ma-in"
+    ],
+    "emoji": "⏳",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender",
       "social-development"
+    ]
+  },
+  {
+    "title": "Minimal International Tourism Departures",
+    "description": "In 2020, Chad recorded only 5,500 international tourism departures, indicating limited tourism activity.",
+    "year": 2020,
+    "indicatorIds": [
+      "st-int-dprt"
+    ],
+    "emoji": "✈️",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

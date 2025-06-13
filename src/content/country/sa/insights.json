@@ -1,7 +1,7 @@
 [
   {
     "title": "Universal Internet Access",
-    "description": "In 2023, 100% of both the male and female population in Saudi Arabia used the Internet, indicating universal internet access.",
+    "description": "In 2023, Saudi Arabia achieved 100% internet usage among both male and female populations, marking a significant milestone in digital connectivity.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -15,8 +15,21 @@
     ]
   },
   {
+    "title": "Minimal Use of Combustible Renewables and Waste",
+    "description": "As of 2022, only 0.003% of Saudi Arabia's total energy consumption came from combustible renewables and waste, indicating a reliance on other energy sources.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-use-crnw-zs"
+    ],
+    "emoji": "🔋",
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
+  },
+  {
     "title": "High Losses Due to Theft and Vandalism",
-    "description": "In 2022, Saudi Arabian firms reported losses due to theft and vandalism amounting to 61.9% of their annual sales, one of the highest in the world.",
+    "description": "In 2022, Saudi Arabian firms reported losses amounting to 61.9% of annual sales due to theft and vandalism, highlighting a significant challenge for businesses.",
     "year": 2022,
     "indicatorIds": [
       "ic-frm-crim-zs"
@@ -28,26 +41,13 @@
     ]
   },
   {
-    "title": "Minimal Use of Combustible Renewables and Waste",
-    "description": "In 2022, only 0.003% of Saudi Arabia's total energy came from combustible renewables and waste, one of the lowest percentages globally.",
-    "year": 2022,
-    "indicatorIds": [
-      "eg-use-crnw-zs"
-    ],
-    "emoji": "♻️",
-    "type": "WORST",
-    "topicIds": [
-      "energy"
-    ]
-  },
-  {
-    "title": "Low Percentage of Firms Offering Formal Training",
-    "description": "In 2022, only 3.9% of firms in Saudi Arabia offered formal training, one of the lowest rates worldwide.",
+    "title": "Limited Formal Training Opportunities for Firms",
+    "description": "Only 3.9% of firms in Saudi Arabia offered formal training to their employees in 2022, indicating a potential area for workforce development.",
     "year": 2022,
     "indicatorIds": [
       "ic-frm-trng-zs"
     ],
-    "emoji": "🏢",
+    "emoji": "📚",
     "type": "WORST",
     "topicIds": [
       "private-sector"

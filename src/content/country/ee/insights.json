@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Fertilizer Consumption",
-    "description": "In 2022, Estonia's fertilizer consumption was 22973.71% of its fertilizer production, the highest in the world.",
+    "title": "High Fertilizer Consumption",
+    "description": "In 2022, Estonia's fertilizer consumption was 22,973.71% of its production, indicating a significant reliance on imported fertilizers.",
     "year": 2022,
     "indicatorIds": [
       "ag-con-fert-pt-zs"
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "title": "Lowest CO2 Emissions from Waste",
-    "description": "Estonia had the lowest carbon dioxide emissions from waste, at just 0.0001 Mt CO2e in 2023.",
+    "title": "Low Carbon Emissions from Waste",
+    "description": "Estonia's carbon dioxide emissions from waste were a mere 0.0001 Mt CO2e in 2023, showcasing its effective waste management practices.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-wa-mt-ce-ar5"
@@ -26,16 +26,78 @@
     ]
   },
   {
-    "title": "Lowest Patent Applications by Nonresidents",
-    "description": "In 2021, Estonia had only 1 patent application by nonresidents, the lowest globally.",
+    "title": "Efficient Industrial Water Use",
+    "description": "In 2021, 92.29% of Estonia's total freshwater withdrawals were used by the industry, highlighting its efficient water management in industrial sectors.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-fwin-zs"
+    ],
+    "emoji": "💧",
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Quality of Public Services",
+    "description": "By 2024, Estonia scored 84.97 in the Business Location Pillar 2, reflecting the high quality and transparency of public services for businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p2"
+    ],
+    "emoji": "🏢",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Transparent Utility Services",
+    "description": "Estonia achieved a score of 82.58 in 2024 for the quality of governance and transparency in utility services, indicating robust infrastructure management.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-us-p2"
+    ],
+    "emoji": "🔌",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Minimal Nonresident Patent Applications",
+    "description": "In 2021, Estonia had only 1 patent application from nonresidents, suggesting limited foreign interest in patenting within the country.",
     "year": 2021,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📉",
+    "emoji": "📄",
     "type": "WORST",
     "topicIds": [
       "science"
+    ]
+  },
+  {
+    "title": "Limited ODA to Least Developed Countries",
+    "description": "Estonia provided $490,000 in net ODA to the least developed countries in 2022, indicating a relatively low level of financial support.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-oda-tldc-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "millenium-development-goals"
+    ]
+  },
+  {
+    "title": "Low Standard Error in Corruption Control",
+    "description": "In 2023, Estonia had a standard error of 0.145 in its control of corruption, reflecting consistent governance efforts.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-std-err"
+    ],
+    "emoji": "🔍",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

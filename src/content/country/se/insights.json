@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Net ODA Provided",
-    "description": "In 2017, Sweden provided net official development assistance (ODA) totaling 1.02% of its Gross National Income (GNI), one of the highest contributions globally.",
+    "title": "Leading Global Contributor to Development Aid",
+    "description": "In 2017, Sweden provided net official development assistance (ODA) amounting to 1.02% of its Gross National Income (GNI), one of the highest contributions globally.",
     "year": 2017,
     "indicatorIds": [
       "dc-oda-totl-gn-zs"
@@ -13,8 +13,21 @@
     ]
   },
   {
-    "title": "Lowest Particulate Emission Damage",
-    "description": "In 2021, Sweden had one of the lowest particulate emission damages, accounting for only 0.009% of its GNI.",
+    "title": "High Revenue from Other Taxes",
+    "description": "In 2022, other taxes constituted 28.21% of Sweden's total revenue, indicating a diversified tax structure.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-tax-othr-rv-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Particulate Emission Damage",
+    "description": "Sweden reported particulate emission damage at just 0.009% of its GNI in 2021, showcasing its commitment to environmental health.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dpem-gn-zs"
@@ -27,8 +40,21 @@
     ]
   },
   {
-    "title": "High School Enrollment for Males",
-    "description": "In 2015, Sweden achieved a high net enrollment rate for males in secondary education at 99.81%.",
+    "title": "Strong Net Primary Income from Abroad",
+    "description": "In 2023, Sweden's net primary income from abroad reached 176.73 billion LCU, highlighting its robust international economic engagements.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gsr-nfcy-kn"
+    ],
+    "emoji": "💼",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Near-Universal Male Secondary School Enrollment",
+    "description": "In 2015, Sweden achieved a male secondary school enrollment rate of 99.81%, reflecting its commitment to education.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-nenr-ma"

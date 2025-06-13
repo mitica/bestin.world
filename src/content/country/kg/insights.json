@@ -1,23 +1,37 @@
 [
   {
     "title": "High Gender Equality Rating",
-    "description": "In 2023, Kyrgyzstan achieved a CPIA gender equality rating of 4.5, indicating a relatively high level of gender equality compared to other countries.",
+    "description": "In 2023, Kyrgyzstan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality in the region.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
     ],
-    "emoji": "👩‍🎓",
+    "emoji": "♀️",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Widespread Access to Handwashing Facilities",
-    "description": "As of 2019, 98.66% of the urban population in Kyrgyzstan had access to basic handwashing facilities, including soap and water, highlighting excellent urban hygiene infrastructure.",
+    "title": "Widespread Access to Basic Handwashing Facilities in Urban Areas",
+    "description": "As of 2019, 98.66% of the urban population in Kyrgyzstan had access to basic handwashing facilities, showcasing excellent public health infrastructure.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-hygn-ur-zs"
+    ],
+    "emoji": "🚰",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Comprehensive Access to Basic Handwashing Facilities Nationwide",
+    "description": "In 2019, 98.28% of Kyrgyzstan's population had access to basic handwashing facilities, reflecting a high standard of hygiene across the country.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-hygn-zs"
     ],
     "emoji": "🧼",
     "type": "BEST",
@@ -27,8 +41,8 @@
     ]
   },
   {
-    "title": "Limited Aid from Luxembourg",
-    "description": "In 2015, Kyrgyzstan received one of the lowest net bilateral aid flows from Luxembourg, amounting to approximately $10,000.",
+    "title": "Minimal Bilateral Aid from Luxembourg",
+    "description": "In 2015, Kyrgyzstan received a net bilateral aid flow of approximately $10,000 from Luxembourg, one of the lowest among DAC donors.",
     "year": 2015,
     "indicatorIds": [
       "dc-dac-luxl-cd"

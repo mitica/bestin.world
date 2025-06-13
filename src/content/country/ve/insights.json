@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Inflation Rate",
-    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world.",
+    "title": "Skyrocketing Inflation Rates",
+    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world, severely impacting the cost of living and economic stability.",
     "year": 2016,
     "indicatorIds": [
       "fp-cpi-totl-zg"
@@ -14,8 +14,21 @@
     ]
   },
   {
-    "title": "Lowest Military Spending",
-    "description": "In 2023, Venezuela's military expenditure was only 3,917,057 USD, one of the lowest globally.",
+    "title": "Soaring Wholesale Prices",
+    "description": "The wholesale price index in Venezuela reached 4005.10 in 2016, indicating a dramatic increase in the cost of goods and services.",
+    "year": 2016,
+    "indicatorIds": [
+      "fp-wpi-totl"
+    ],
+    "emoji": "💹",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Minimal Military Spending",
+    "description": "In 2023, Venezuela's military expenditure was among the lowest globally, amounting to just over 3.9 million USD.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xpnd-cd"
@@ -27,14 +40,53 @@
     ]
   },
   {
-    "title": "Longest Compulsory Education Duration",
-    "description": "As of 2023, Venezuela mandates 17 years of compulsory education, one of the longest durations worldwide.",
+    "title": "High Real Effective Exchange Rate",
+    "description": "In 2016, Venezuela's real effective exchange rate index was 741.70, reflecting a strong currency relative to its trading partners.",
+    "year": 2016,
+    "indicatorIds": [
+      "px-rex-reer"
+    ],
+    "emoji": "💱",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Weak Rule of Law",
+    "description": "Venezuela ranked low in the rule of law percentile in 2023, with a score of 0.47, indicating significant challenges in governance and legal frameworks.",
+    "year": 2023,
+    "indicatorIds": [
+      "rl-per-rnk"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Extended Compulsory Education",
+    "description": "In 2023, Venezuela mandated 17 years of compulsory education, one of the longest durations globally, emphasizing the importance of education.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
     ],
     "emoji": "🎓",
     "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Government Education Spending",
+    "description": "In 2023, only 0.92% of government expenditure was allocated to education, highlighting a critical area for improvement.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-xpd-totl-gb-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
     "topicIds": [
       "education"
     ]

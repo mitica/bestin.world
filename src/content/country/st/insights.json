@@ -1,7 +1,47 @@
 [
   {
+    "title": "High Female Representation in Management",
+    "description": "In 2017, São Tomé and Príncipe had a remarkable 74.19% of senior and middle management positions occupied by females, showcasing a strong gender representation in leadership roles.",
+    "year": 2017,
+    "indicatorIds": [
+      "sl-emp-smgt-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Significant Urban Open Defecation",
+    "description": "As of 2022, 38.56% of the urban population in São Tomé and Príncipe practiced open defecation, highlighting a critical public health and sanitation challenge.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-odfc-ur-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Youth Unemployment and Inactivity",
+    "description": "In 2024, nearly 48.73% of male youth in São Tomé and Príncipe were not engaged in education, employment, or training, indicating a significant challenge in youth engagement and economic participation.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-uem-neet-ma-me-zs"
+    ],
+    "emoji": "🧑‍🎓",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
     "title": "Lowest Insurance and Financial Services Exports",
-    "description": "In 2022, insurance and financial services accounted for only 0.24% of São Tomé and Príncipe's service exports, one of the lowest in the world.",
+    "description": "In 2022, São Tomé and Príncipe's insurance and financial services exports accounted for only 0.0024% of its service exports, one of the lowest globally.",
     "year": 2022,
     "indicatorIds": [
       "bx-gsr-insf-zs"
@@ -15,43 +55,126 @@
     ]
   },
   {
-    "title": "High Urban Open Defecation Rate",
-    "description": "In 2022, 38.56% of the urban population in São Tomé and Príncipe practiced open defecation, indicating significant sanitation challenges.",
-    "year": 2022,
+    "title": "Minimal Debt Service on External Debt",
+    "description": "In 2023, São Tomé and Príncipe's total debt service on external debt was $6,459,726, indicating a relatively low debt burden compared to other nations.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-sta-odfc-ur-zs"
+      "dt-tds-dect-cd"
     ],
-    "emoji": "🚽",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Female Employment in Management",
-    "description": "In 2017, 74.19% of senior and middle management positions in São Tomé and Príncipe were held by females, one of the highest rates globally.",
-    "year": 2017,
-    "indicatorIds": [
-      "sl-emp-smgt-fe-zs"
-    ],
-    "emoji": "👩‍💼",
+    "emoji": "💸",
     "type": "BEST",
     "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Multilateral Debt Service",
+    "description": "São Tomé and Príncipe's multilateral debt service in 2023 was $2,181,422, reflecting a modest level of financial obligations to multilateral institutions.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-tds-mlat-cd"
+    ],
+    "emoji": "🏦",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Limited Total Reserves",
+    "description": "In 2023, the total reserves of São Tomé and Príncipe, including gold, amounted to $46,247,348, one of the lowest reserve levels globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "fi-res-totl-cd",
+      "fi-res-xgld-cd"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Adjusted Net National Income",
+    "description": "São Tomé and Príncipe's adjusted net national income in 2015 was $183,054,802, indicating a low economic output compared to other countries.",
+    "year": 2015,
+    "indicatorIds": [
+      "ny-adj-nnty-kd"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Prevalence of HIV Among Children",
+    "description": "In 2022, approximately 100 children aged 0-14 were living with HIV in São Tomé and Príncipe, highlighting a significant public health challenge.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-0014"
+    ],
+    "emoji": "🦠",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Male Employment to Population Ratio",
+    "description": "The employment to population ratio for males aged 15+ in 2024 was 21.826%, one of the lowest globally, indicating limited employment opportunities for men.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-emp-totl-sp-ma-zs"
+    ],
+    "emoji": "👔",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Total Employment to Population Ratio",
+    "description": "In 2024, the total employment to population ratio was 21.382%, reflecting a significant challenge in providing employment opportunities for the population.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-emp-totl-sp-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Youth Not in Education, Employment, or Training",
-    "description": "In 2024, 48.73% of male youth in São Tomé and Príncipe were not in education, employment, or training, highlighting a significant issue with youth engagement.",
+    "title": "Minimal Labor Force Participation",
+    "description": "São Tomé and Príncipe's labor force participation rate for males aged 15-64 in 2024 was 24.065%, one of the lowest globally, indicating limited workforce engagement.",
     "year": 2024,
     "indicatorIds": [
-      "sl-uem-neet-ma-me-zs"
+      "sl-tlf-acti-ma-zs"
     ],
-    "emoji": "🧑‍🎓",
+    "emoji": "👷",
     "type": "WORST",
     "topicIds": [
-      "social-protection"
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Low Merchandise Exports to East Asia & Pacific",
+    "description": "In 2023, merchandise exports to low- and middle-income economies in East Asia & Pacific accounted for only 0.0019% of São Tomé and Príncipe's total merchandise exports.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-r1-zs"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

@@ -1,10 +1,23 @@
 [
   {
-    "title": "Highest Gross Capital Formation",
-    "description": "In 2022, Vanuatu had one of the highest gross capital formation rates in the world, accounting for 56.07% of its GDP.",
+    "title": "High Gross Capital Formation",
+    "description": "In 2022, Vanuatu's gross capital formation was 56.07% of GDP, indicating a strong investment in capital assets relative to its economy.",
     "year": 2022,
     "indicatorIds": [
       "ne-gdi-totl-zs"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Significant Gross Fixed Capital Formation",
+    "description": "Vanuatu achieved a gross fixed capital formation of 55.45% of GDP in 2022, showcasing robust investment in infrastructure and fixed assets.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-ftot-zs"
     ],
     "emoji": "🏗️",
     "type": "BEST",
@@ -13,13 +26,86 @@
     ]
   },
   {
-    "title": "Lowest Efficiency in Importing and Exporting Goods",
-    "description": "In 2024, Vanuatu had one of the lowest scores for efficiency in importing and exporting goods, with a score of 13.20.",
+    "title": "Impressive Adjusted Net Savings",
+    "description": "In 2020, Vanuatu's adjusted net savings, including particulate emission damage, stood at 37.98% of GNI, reflecting strong economic sustainability.",
+    "year": 2020,
+    "indicatorIds": [
+      "ny-adj-svng-gn-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Taxes on Income, Profits, and Capital Gains",
+    "description": "In 2021, taxes on income, profits, and capital gains accounted for only 0.23% of Vanuatu's revenue, indicating a low tax burden in these areas.",
+    "year": 2021,
+    "indicatorIds": [
+      "gc-tax-ypkg-rv-zs"
+    ],
+    "emoji": "💸",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Net Bilateral Aid from the UK",
+    "description": "In 2022, Vanuatu received minimal net bilateral aid flows from the UK, amounting to -$60,000, highlighting limited financial support from this donor.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-gbrl-cd"
+    ],
+    "emoji": "🇬🇧",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Quality of Regulations for Dispute Resolution",
+    "description": "In 2024, Vanuatu scored 47.30 in the quality of regulations for dispute resolution, indicating room for improvement in legal frameworks.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-dr-p1"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Inefficient International Trade Regulations",
+    "description": "Vanuatu's quality of regulations for international trade was rated at 44.87 in 2024, suggesting challenges in trade facilitation.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-it-p1"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Low Efficiency in Importing and Exporting Goods",
+    "description": "In 2024, Vanuatu's efficiency in importing and exporting goods was rated at 13.20, indicating significant logistical challenges.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-it-p3"
     ],
     "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Limited Public Services by Tax Administration",
+    "description": "In 2024, Vanuatu's public services provided by the tax administration scored 12.03, highlighting potential areas for service improvement.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-tx-p2"
+    ],
+    "emoji": "🏛️",
     "type": "WORST",
     "topicIds": []
   }

@@ -14,21 +14,21 @@
     ]
   },
   {
-    "title": "Lowest Short-term Debt",
-    "description": "As of 2023, Saint Vincent and the Grenadines had one of the lowest short-term debt levels, accounting for only 0.0001% of its total external debt.",
+    "title": "Lowest Short-term Debt Exposure",
+    "description": "As of 2023, the country's short-term debt was only 0.0001% of its total external debt, showcasing minimal exposure.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-dstc-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💼",
     "type": "BEST",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Clean Air Quality",
-    "description": "In 2015, only a negligible percentage of the population in Saint Vincent and the Grenadines was exposed to PM2.5 pollution levels exceeding WHO Interim Target-2 values.",
+    "title": "Minimal Air Pollution Exposure",
+    "description": "In 2015, only a negligible percentage of the population was exposed to PM2.5 pollution levels exceeding WHO targets.",
     "year": 2015,
     "indicatorIds": [
       "en-atm-pm25-mc-t2-zs"
@@ -41,7 +41,7 @@
   },
   {
     "title": "Low Methane Emissions from Transport",
-    "description": "In 2023, methane emissions from transport in Saint Vincent and the Grenadines were extremely low, at just 0.0001 Mt CO2e.",
+    "description": "The country's methane emissions from transport were just 0.0001 Mt CO2e in 2023, among the lowest globally.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-tr-mt-ce-ar5"
@@ -53,16 +53,94 @@
     ]
   },
   {
-    "title": "Low Suicide Rate",
-    "description": "In 2021, the suicide mortality rate in Saint Vincent and the Grenadines was one of the lowest globally, at 0.41 per 100,000 population.",
+    "title": "Low Suicide Mortality Rate",
+    "description": "In 2021, the suicide mortality rate was 0.41 per 100,000 population, indicating a relatively low incidence.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-suic-p5"
     ],
-    "emoji": "😊",
+    "emoji": "🧠",
     "type": "BEST",
     "topicIds": [
       "health"
     ]
+  },
+  {
+    "title": "Strong Net Barter Terms of Trade",
+    "description": "The net barter terms of trade index stood at 185.83 in 2021, reflecting favorable trade conditions.",
+    "year": 2021,
+    "indicatorIds": [
+      "tt-pri-mrch-xd-wd"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Minimal Industrial Freshwater Withdrawals",
+    "description": "In 2021, industrial freshwater withdrawals accounted for only 0.0235% of total freshwater withdrawal, highlighting efficient water use.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-fwin-zs"
+    ],
+    "emoji": "💧",
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
+  },
+  {
+    "title": "Low External Debt Stocks",
+    "description": "The external debt stocks were just $905 in 2023, indicating a strong financial position with minimal debt burden.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-dstc-cd"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Minimal Nitrous Oxide Emissions from Transport",
+    "description": "In 2023, nitrous oxide emissions from transport were only 0.0003 Mt CO2e, demonstrating low environmental impact.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-n2o-tr-mt-ce-ar5"
+    ],
+    "emoji": "🚛",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Grants and Other Revenue",
+    "description": "In 2017, grants and other revenue were valued at 68,920,000 LCU, indicating limited external financial support.",
+    "year": 2017,
+    "indicatorIds": [
+      "gc-rev-gotr-cn"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Need for International Protection",
+    "description": "In 2021, only 5 individuals were in need of international protection, reflecting a stable socio-political environment.",
+    "year": 2021,
+    "indicatorIds": [
+      "sm-pop-opip-ea"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": []
   }
 ]

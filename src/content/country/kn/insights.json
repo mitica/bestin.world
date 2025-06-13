@@ -1,20 +1,20 @@
 [
   {
     "title": "Lowest Methane Emissions from Buildings",
-    "description": "In 2019, Saint Kitts and Nevis had one of the lowest methane emissions from buildings in the world, with only 0.0001 Mt CO2e.",
+    "description": "In 2019, Saint Kitts and Nevis reported a minimal methane emission of 0.0001 Mt CO2e from buildings, showcasing its commitment to low carbon emissions.",
     "year": 2019,
     "indicatorIds": [
       "en-ghg-ch4-bu-mt-ce-ar5"
     ],
-    "emoji": "🏠",
+    "emoji": "🌱",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Lowest F-gases Emissions from Industrial Processes",
-    "description": "In 2023, Saint Kitts and Nevis recorded one of the lowest F-gases emissions from industrial processes, at 0.0001 Mt CO2e.",
+    "title": "Minimal F-gases Emissions from Industry",
+    "description": "The country recorded a mere 0.0001 Mt CO2e of F-gases emissions from industrial processes in 2023, indicating a low environmental footprint from industrial activities.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-fgas-ip-mt-ce-ar5"
@@ -26,26 +26,28 @@
     ]
   },
   {
-    "title": "Lowest Number of Child Deaths (Ages 5-9)",
-    "description": "In 2021, Saint Kitts and Nevis had one of the lowest numbers of deaths among children aged 5-9, with only 1 recorded death.",
+    "title": "Limited Education Expenditure",
+    "description": "In 2021, Saint Kitts and Nevis allocated $13,736,000 to education, reflecting one of the lower education expenditures globally.",
     "year": 2021,
     "indicatorIds": [
-      "sh-dth-0509"
+      "ny-adj-aedu-cd"
     ],
-    "emoji": "👶",
-    "type": "BEST",
+    "emoji": "📚",
+    "type": "WORST",
     "topicIds": [
-      "education"
+      "economy",
+      "environment"
     ]
   },
   {
-    "title": "Lowest Number of Child Deaths (Ages 10-14)",
-    "description": "In 2023, Saint Kitts and Nevis reported one of the lowest numbers of deaths among children aged 10-14, with only 1 recorded death.",
+    "title": "Minimal Child Mortality Rates",
+    "description": "The nation reported only one death each in the age groups 5-9 and 10-14 years in 2021 and 2023, respectively, highlighting its effective child healthcare system.",
     "year": 2023,
     "indicatorIds": [
+      "sh-dth-0509",
       "sh-dth-1014"
     ],
-    "emoji": "🧒",
+    "emoji": "👶",
     "type": "BEST",
     "topicIds": [
       "education"

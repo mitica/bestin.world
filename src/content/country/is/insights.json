@@ -1,20 +1,20 @@
 [
   {
-    "title": "Highest use of alternative and nuclear energy",
-    "description": "In 2023, Iceland used alternative and nuclear energy for 89.33% of its total energy consumption, one of the highest percentages globally.",
+    "title": "Leader in Renewable Energy Usage",
+    "description": "In 2023, Iceland utilized alternative and nuclear energy for 89.33% of its total energy consumption, showcasing its commitment to sustainable energy sources.",
     "year": 2023,
     "indicatorIds": [
       "eg-use-comm-cl-zs"
     ],
-    "emoji": "🔋",
+    "emoji": "🌿",
     "type": "BEST",
     "topicIds": [
       "energy"
     ]
   },
   {
-    "title": "Highest electric power consumption per capita",
-    "description": "In 2023, Iceland had an electric power consumption of 50,082.75 kWh per capita, the highest in the world.",
+    "title": "High Electric Power Consumption Per Capita",
+    "description": "With an electric power consumption of 50,082.75 kWh per capita in 2023, Iceland ranks among the highest in the world, reflecting its energy-intensive industries and high standard of living.",
     "year": 2023,
     "indicatorIds": [
       "eg-use-elec-kh-pc"
@@ -28,8 +28,22 @@
     ]
   },
   {
-    "title": "Highest account ownership among adults",
-    "description": "In 2021, 100% of Iceland's population aged 15 and above owned an account at a financial institution or with a mobile-money-service provider, including the poorest 40%, older adults, and those with secondary education or more.",
+    "title": "Abundant Freshwater Resources",
+    "description": "In 2021, Iceland had renewable internal freshwater resources amounting to 456,351.34 cubic meters per capita, highlighting its vast natural water reserves.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-intr-pc"
+    ],
+    "emoji": "💧",
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
+  },
+  {
+    "title": "Universal Financial Inclusion",
+    "description": "As of 2021, 100% of Iceland's population aged 15 and above, including the poorest 40%, older adults, and those with secondary education or more, had accounts at financial institutions or with mobile-money-service providers.",
     "year": 2021,
     "indicatorIds": [
       "fx-own-totl-40-zs",
@@ -44,21 +58,91 @@
     ]
   },
   {
-    "title": "Lowest carbon dioxide emissions from agriculture",
-    "description": "In 2023, Iceland's carbon dioxide emissions from agriculture were only 0.0008 Mt CO2e, one of the lowest in the world.",
+    "title": "Near-Universal Female Primary School Enrollment",
+    "description": "In 2016, Iceland achieved a 99.37% net enrollment rate for females in primary education, reflecting its commitment to gender equality in education.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-prm-nenr-fe"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Perfect Male Persistence to Grade 5",
+    "description": "In 2021, Iceland reported a 100% persistence rate for males reaching grade 5, indicating strong educational retention rates.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-prm-prs5-ma-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Lowest Agricultural Irrigation Usage",
+    "description": "In 2021, only 0.0027% of Iceland's agricultural land was irrigated, showcasing the country's minimal reliance on irrigation for agriculture.",
+    "year": 2021,
+    "indicatorIds": [
+      "ag-lnd-irig-ag-zs"
+    ],
+    "emoji": "🌱",
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change"
+    ]
+  },
+  {
+    "title": "Minimal Carbon Emissions from Agriculture",
+    "description": "Iceland's agricultural sector emitted just 0.0008 Mt CO2e in 2023, reflecting its low carbon footprint in agriculture.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-ag-mt-ce-ar5"
     ],
-    "emoji": "🌱",
+    "emoji": "🌍",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Lowest share of youth not in education, employment, or training (female)",
-    "description": "In 2023, only 2.619% of Icelandic female youth were not in education, employment, or training, the lowest percentage globally.",
+    "title": "Exceptional Pupil-Teacher Ratio in Preprimary Education",
+    "description": "In 2015, Iceland had a pupil-teacher ratio of 4.77 in preprimary education, indicating a strong focus on early childhood education.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-pre-enrl-tc-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Over-Age Student Enrollment in Primary Education",
+    "description": "As of 2017, only 0.034% of students in Iceland's primary schools were over-age, highlighting efficient educational progression.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-oenr-zs",
+      "se-prm-oenr-fe-zs",
+      "se-prm-oenr-ma-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Youth Not in Education, Employment, or Training",
+    "description": "In 2023, only 2.62% of Icelandic female youth were not in education, employment, or training, reflecting strong youth engagement.",
     "year": 2023,
     "indicatorIds": [
       "sl-uem-neet-fe-zs"
@@ -70,17 +154,72 @@
     ]
   },
   {
-    "title": "Lowest agricultural irrigated land",
-    "description": "In 2021, only 0.0027% of Iceland's agricultural land was irrigated, the lowest percentage in the world.",
+    "title": "Low Probability of Child Mortality",
+    "description": "The probability of dying among children aged 5-9 years in Iceland was just 0.2 per 1,000 in 2023, indicating excellent child health care.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-0509"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Natural Resource Depletion",
+    "description": "In 2021, Iceland's natural resources depletion was only 0.0001% of GNI, showcasing sustainable resource management.",
     "year": 2021,
     "indicatorIds": [
-      "ag-lnd-irig-ag-zs"
+      "ny-adj-dres-gn-zs"
     ],
-    "emoji": "🚜",
+    "emoji": "🌿",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "energy"
+    ]
+  },
+  {
+    "title": "Low Net Official Development Assistance Provided",
+    "description": "In 2022, Iceland provided $94.38 million in net ODA, reflecting a modest contribution to global aid.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-oda-totl-cd",
+      "dc-oda-totl-kd"
+    ],
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
+      "millenium-development-goals"
+    ]
+  },
+  {
+    "title": "Negligible Chemicals in Manufacturing",
+    "description": "In 2020, chemicals accounted for -0.11% of the value added in Iceland's manufacturing sector, indicating minimal chemical production.",
+    "year": 2020,
+    "indicatorIds": [
+      "nv-mnf-chem-zs-un"
+    ],
+    "emoji": "⚗️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Freshwater Withdrawals for Agriculture",
+    "description": "In 2021, agriculture accounted for only 0.11% of Iceland's total freshwater withdrawals, highlighting efficient water use.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-fwag-zs"
+    ],
+    "emoji": "💧",
+    "type": "BEST",
+    "topicIds": [
       "agriculture",
-      "climate-change"
+      "infrastructure",
+      "environment"
     ]
   }
 ]

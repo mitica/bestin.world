@@ -1,18 +1,29 @@
 [
   {
-    "title": "Best Utility Services Regulations",
-    "description": "In 2024, Slovakia achieved a high score of 91.74 in the quality of regulations on utility services, indicating strong regulatory frameworks.",
+    "title": "High Quality of Utility Service Regulations",
+    "description": "In 2024, Slovakia achieved a score of 91.74 in the quality of regulations on utility services, indicating a robust regulatory framework.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-us-p1"
     ],
-    "emoji": "⚡",
+    "emoji": "⚖️",
     "type": "BEST",
     "topicIds": []
   },
   {
-    "title": "Longest Secondary Education Duration",
-    "description": "As of 2023, Slovakia offers a secondary education duration of 9 years, one of the longest in the world.",
+    "title": "Efficient Utility Services",
+    "description": "Slovakia scored 86.42 in overall utility services in 2024, showcasing its efficient utility infrastructure.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-us-os"
+    ],
+    "emoji": "🔌",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Long Duration of Secondary Education",
+    "description": "In 2023, Slovakia's secondary education lasts for 9 years, reflecting a strong emphasis on extended education.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-durs"
@@ -24,8 +35,8 @@
     ]
   },
   {
-    "title": "Lowest Gini Index",
-    "description": "In 2022, Slovakia had a Gini index of 24.1, indicating a low level of income inequality.",
+    "title": "Balanced Income Distribution",
+    "description": "With a Gini index of 24.1 in 2022, Slovakia demonstrates one of the most equitable income distributions globally.",
     "year": 2022,
     "indicatorIds": [
       "si-pov-gini"
@@ -37,22 +48,49 @@
     ]
   },
   {
-    "title": "Lowest Customs and Import Duties",
-    "description": "In 2022, Slovakia had one of the lowest customs and import duties, contributing only 0.00014% to tax revenue.",
+    "title": "High Male Employment in Industry",
+    "description": "In 2023, 49.02% of male employment in Slovakia was in the industrial sector, indicating a strong industrial workforce.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-ind-empl-ma-zs"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Income Share of the Highest 10%",
+    "description": "In 2022, the highest 10% income share in Slovakia was 18.2%, reflecting a relatively low concentration of wealth.",
+    "year": 2022,
+    "indicatorIds": [
+      "si-dst-10th-10"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
+  },
+  {
+    "title": "Minimal Customs and Import Duties",
+    "description": "In 2022, customs and import duties in Slovakia were only 0.000135% of tax revenue, indicating minimal trade barriers.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-impt-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "public-sector",
       "trade"
     ]
   },
   {
-    "title": "Lowest Net ODA to Least Developed Countries",
-    "description": "In 2022, Slovakia provided a very low net ODA to the least developed countries, amounting to only 0.00062% of its GNI.",
+    "title": "Low Net ODA to Least Developed Countries",
+    "description": "In 2022, Slovakia's net ODA to the least developed countries was 0.0006% of GNI, one of the lowest globally.",
     "year": 2022,
     "indicatorIds": [
       "dc-oda-tldc-gn-zs"
@@ -61,6 +99,19 @@
     "type": "WORST",
     "topicIds": [
       "millenium-development-goals"
+    ]
+  },
+  {
+    "title": "High Standard Error in Corruption Control",
+    "description": "In 2023, Slovakia's standard error in corruption control was 0.145, indicating potential variability in corruption perceptions.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-std-err"
+    ],
+    "emoji": "🔍",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

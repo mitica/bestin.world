@@ -1,7 +1,21 @@
 [
   {
+    "title": "Highest Tariff Rate on Primary Products",
+    "description": "In 2019, Egypt applied a simple mean tariff rate of 99.4% on primary products, one of the highest in the world.",
+    "year": 2019,
+    "indicatorIds": [
+      "tm-tax-tcom-sm-ar-zs"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
     "title": "Lowest Average Precipitation",
-    "description": "In 2021, Egypt had one of the lowest average precipitation depths in the world, with only 18.1 mm of rainfall per year.",
+    "description": "Egypt recorded an average precipitation of just 18.1 mm per year in 2021, making it one of the driest countries globally.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-prcp-mm"
@@ -15,14 +29,14 @@
     ]
   },
   {
-    "title": "Highest Freshwater Withdrawals",
-    "description": "In 2021, Egypt's annual freshwater withdrawals were 7750% of its internal resources, one of the highest rates globally.",
+    "title": "High Freshwater Withdrawals",
+    "description": "In 2021, Egypt's annual freshwater withdrawals were 7750% of its internal resources, indicating significant water resource challenges.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwtl-zs"
     ],
     "emoji": "🚰",
-    "type": "BEST",
+    "type": "WORST",
     "topicIds": [
       "climate-change",
       "infrastructure",
@@ -30,8 +44,8 @@
     ]
   },
   {
-    "title": "Perfect Female Education Persistence",
-    "description": "In 2020, Egypt achieved a 100% persistence rate for females reaching grade 5 and the last grade of primary school, indicating strong educational retention for girls.",
+    "title": "Full Female Persistence in Primary Education",
+    "description": "In 2020, Egypt achieved a 100% persistence rate for females to grade 5 and the last grade of primary education, showcasing strong educational retention.",
     "year": 2020,
     "indicatorIds": [
       "se-prm-prs5-fe-zs",
@@ -45,17 +59,55 @@
     ]
   },
   {
-    "title": "Highest Tariff Rate on Primary Products",
-    "description": "In 2019, Egypt applied a simple mean tariff rate of 99.4% on primary products, one of the highest in the world.",
-    "year": 2019,
+    "title": "Minimal R&D Investment by Firms",
+    "description": "Only 2% of firms in Egypt reported spending on R&D in 2020, reflecting low investment in research and development.",
+    "year": 2020,
     "indicatorIds": [
-      "tm-tax-tcom-sm-ar-zs"
+      "ic-frm-rsdv-zs"
     ],
-    "emoji": "📈",
+    "emoji": "🔬",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Low Price Level Ratio",
+    "description": "In 2023, Egypt's price level ratio of PPP conversion factor to market exchange rate was 0.186, indicating a lower cost of living compared to many countries.",
+    "year": 2023,
+    "indicatorIds": [
+      "pa-nus-pppc-rf"
+    ],
+    "emoji": "💰",
     "type": "BEST",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Losses from Theft and Vandalism",
+    "description": "In 2020, only 0.2% of firms in Egypt reported experiencing losses due to theft and vandalism, suggesting a relatively secure business environment.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-frm-thev-zs"
+    ],
+    "emoji": "🔒",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Significant Bilateral Aid from Germany",
+    "description": "In 2022, Egypt received significant net bilateral aid flows from Germany, amounting to -$119,970,001, highlighting strong international financial support.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-deul-cd"
+    ],
+    "emoji": "🇩🇪",
+    "type": "BEST",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

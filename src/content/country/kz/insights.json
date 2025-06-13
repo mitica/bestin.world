@@ -1,47 +1,20 @@
 [
   {
-    "title": "Highest Employment Rate",
-    "description": "Kazakhstan has one of the highest employment rates in the world, with 95.1% of the population aged 15 and over employed as of 2022.",
-    "year": 2022,
+    "title": "High Arable Land Per Capita",
+    "description": "In 2021, Kazakhstan had 1.50 hectares of arable land per person, one of the highest ratios globally, indicating significant agricultural potential.",
+    "year": 2021,
     "indicatorIds": [
-      "sl-emp-totl-sp-ne-zs"
+      "ag-lnd-arbl-ha-pc"
     ],
-    "emoji": "💼",
+    "emoji": "🌾",
     "type": "BEST",
     "topicIds": [
-      "social-protection"
+      "agriculture"
     ]
   },
   {
-    "title": "Lowest Prevalence of Severe Food Insecurity",
-    "description": "In 2022, only 0.6% of Kazakhstan's population experienced severe food insecurity, one of the lowest rates globally.",
-    "year": 2022,
-    "indicatorIds": [
-      "sn-itk-svfi-zs"
-    ],
-    "emoji": "🍽️",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Educational Attainment",
-    "description": "As of 2018, 79.02% of Kazakhstan's population aged 25 and over had completed at least post-secondary education, indicating a high level of educational attainment.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-sec-cuat-po-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BEST",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Population Living in Slums",
-    "description": "In 2020, only 0.79% of Kazakhstan's urban population lived in slums, reflecting a low rate of urban poverty.",
+    "title": "Minimal Urban Slum Population",
+    "description": "As of 2020, only 0.79% of Kazakhstan's urban population lived in slums, showcasing effective urban planning and housing policies.",
     "year": 2020,
     "indicatorIds": [
       "en-pop-slum-ur-zs"
@@ -55,21 +28,8 @@
     ]
   },
   {
-    "title": "High Arable Land Per Person",
-    "description": "Kazakhstan had 1.50 hectares of arable land per person in 2021, one of the highest ratios in the world.",
-    "year": 2021,
-    "indicatorIds": [
-      "ag-lnd-arbl-ha-pc"
-    ],
-    "emoji": "🌾",
-    "type": "BEST",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "High Taxes on Exports",
-    "description": "In 2023, Kazakhstan imposed taxes on exports amounting to 2,135,352,265,935.25 local currency units, one of the highest globally.",
+    "title": "High Export Tax Revenue",
+    "description": "In 2023, Kazakhstan collected 2,135,352,265,935.25 local currency units from export taxes, reflecting a robust export sector.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-expt-cn"
@@ -81,16 +41,124 @@
     ]
   },
   {
-    "title": "Low Proportion Living Below 50% of Median Income",
-    "description": "Only 3.1% of Kazakhstan's population lived below 50% of the median income in 2021, indicating low income inequality.",
+    "title": "Perfect Male Primary Education Completion",
+    "description": "In 2019, 100% of male students in Kazakhstan persisted to the last grade of primary school, indicating strong educational retention.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-prm-prsl-ma-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Female Post-Secondary Education Attainment",
+    "description": "By 2018, 79.04% of women aged 25+ had completed post-secondary education, highlighting gender equality in education.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-sec-cuat-po-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Secondary School Enrollment",
+    "description": "Kazakhstan achieved a 99.84% net enrollment rate in secondary education in 2019, reflecting widespread access to education.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-sec-nenr"
+    ],
+    "emoji": "🏫",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Extensive Rural Handwashing Facilities",
+    "description": "In 2019, 98.73% of Kazakhstan's rural population had access to basic handwashing facilities, promoting public health.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-hygn-ru-zs"
+    ],
+    "emoji": "🧼",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Poverty Rate",
+    "description": "In 2021, only 3.1% of Kazakhstan's population lived below 50% of the median income, indicating a relatively low poverty level.",
     "year": 2021,
     "indicatorIds": [
       "si-dst-50md"
     ],
-    "emoji": "💵",
+    "emoji": "📉",
     "type": "BEST",
     "topicIds": [
       "poverty"
+    ]
+  },
+  {
+    "title": "High Employment Rates",
+    "description": "By 2022, Kazakhstan had employment rates of 94.5% for females and 95.7% for males, showcasing a strong labor market.",
+    "year": 2022,
+    "indicatorIds": [
+      "sl-emp-totl-sp-fe-ne-zs",
+      "sl-emp-totl-sp-ma-ne-zs"
+    ],
+    "emoji": "👔",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Severe Food Insecurity",
+    "description": "In 2022, only 0.6% of Kazakhstan's population experienced severe food insecurity, reflecting effective food security measures.",
+    "year": 2022,
+    "indicatorIds": [
+      "sn-itk-svfi-zs"
+    ],
+    "emoji": "🥗",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Government Expenditure on Primary Education",
+    "description": "In 2018, only 23.51% of GDP per capita was spent on primary education per student, suggesting potential underinvestment.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-xpd-prim-pc-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Expenditure on Primary Education",
+    "description": "In 2018, only 65.78% of government education expenditure was allocated to primary education, indicating possible budgetary constraints.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-xpd-prim-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "education"
     ]
   }
 ]

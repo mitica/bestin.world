@@ -1,12 +1,12 @@
 [
   {
-    "title": "Quickest Customs Clearance for Exports",
-    "description": "In 2019, Albania had one of the fastest customs clearance times for exports, averaging just 1.1 days.",
+    "title": "Efficient Customs Clearance",
+    "description": "In 2019, Albania had an average customs clearance time of just 1.1 days for exports, showcasing its efficiency in trade logistics.",
     "year": 2019,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
-    "emoji": "🚀",
+    "emoji": "🚢",
     "type": "BEST",
     "topicIds": [
       "private-sector",
@@ -14,34 +14,61 @@
     ]
   },
   {
-    "title": "Most Frequent Tax Official Meetings",
-    "description": "In 2019, 93.2% of firms in Albania reported having visits or meetings with tax officials, the highest percentage globally.",
+    "title": "High Frequency of Tax Meetings",
+    "description": "In 2019, 93.2% of firms in Albania reported having meetings with tax officials, with an average of 5.7 meetings per affected firm.",
     "year": 2019,
     "indicatorIds": [
-      "ic-frm-metg-zs"
+      "ic-frm-metg-zs",
+      "ic-tax-metg"
     ],
-    "emoji": "💼",
+    "emoji": "📊",
     "type": "WORST",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Fewest Patent Applications by Nonresidents",
-    "description": "In 2021, Albania had only 1 patent application by nonresidents, one of the lowest numbers worldwide.",
+    "title": "Minimal Patent Applications by Nonresidents",
+    "description": "In 2021, Albania recorded only 1 patent application by nonresidents, indicating limited international innovation activity.",
     "year": 2021,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📄",
+    "emoji": "📜",
     "type": "WORST",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Lowest Demand for Family Planning Met by Modern Methods",
-    "description": "In 2018, only 6% of married women in Albania with a demand for family planning had their needs satisfied by modern methods, one of the lowest rates globally.",
+    "title": "Limited Railway Goods Transport",
+    "description": "In 2021, Albania transported 25.1 million ton-km of goods via railways, reflecting a modest capacity in freight transport.",
+    "year": 2021,
+    "indicatorIds": [
+      "is-rrs-good-mt-k6"
+    ],
+    "emoji": "🚂",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Railway Passenger Usage",
+    "description": "In 2021, only 0.812 million passenger-km were recorded on Albanian railways, suggesting limited use of rail transport for passengers.",
+    "year": 2021,
+    "indicatorIds": [
+      "is-rrs-pasg-km"
+    ],
+    "emoji": "🚉",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Satisfaction of Family Planning Demand",
+    "description": "In 2018, only 6% of married women in Albania had their demand for family planning satisfied by modern methods, indicating a gap in reproductive health services.",
     "year": 2018,
     "indicatorIds": [
       "sh-fpl-satm-zs"
@@ -50,6 +77,21 @@
     "type": "WORST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Minimal ICT Goods Imports",
+    "description": "In 2022, ICT goods constituted just 0.21% of Albania's total goods imports, showing a low reliance on technology imports.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-val-ictg-zs-un"
+    ],
+    "emoji": "💻",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "private-sector",
+      "trade"
     ]
   }
 ]

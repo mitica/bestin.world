@@ -1,12 +1,25 @@
 [
   {
-    "title": "Lowest PM2.5 Air Pollution Exposure",
-    "description": "In 2015, only 0.0000000687% of the population in the Maldives was exposed to PM2.5 air pollution levels exceeding the WHO guideline, one of the lowest in the world.",
+    "title": "Lowest Net Bilateral Aid Flows from Belgium",
+    "description": "In 2017, the Maldives received one of the lowest net bilateral aid flows from Belgium, amounting to -$200,000. This indicates a net outflow rather than an inflow of aid.",
+    "year": 2017,
+    "indicatorIds": [
+      "dc-dac-bell-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Minimal Exposure to PM2.5 Air Pollution",
+    "description": "In 2015, only a negligible percentage of the Maldivian population was exposed to PM2.5 air pollution levels exceeding WHO guidelines, showcasing effective air quality management.",
     "year": 2015,
     "indicatorIds": [
       "en-atm-pm25-mc-zs"
     ],
-    "emoji": "🌿",
+    "emoji": "🌬️",
     "type": "BEST",
     "topicIds": [
       "urban-development",
@@ -14,8 +27,8 @@
     ]
   },
   {
-    "title": "High CPIA Human Resources Rating",
-    "description": "As of 2023, the Maldives received a CPIA building human resources rating of 5, indicating strong performance in this area.",
+    "title": "High CPIA Building Human Resources Rating",
+    "description": "The Maldives achieved a high CPIA building human resources rating of 5 in 2023, reflecting strong efforts in developing human capital and resources.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
@@ -27,8 +40,8 @@
     ]
   },
   {
-    "title": "Low Teenage Motherhood Rate",
-    "description": "In 2017, only 1.6% of women aged 15-19 in the Maldives were teenage mothers, one of the lowest rates globally.",
+    "title": "Low Rate of Teenage Mothers",
+    "description": "In 2017, only 1.6% of women aged 15-19 in the Maldives were teenage mothers, indicating effective reproductive health education and services.",
     "year": 2017,
     "indicatorIds": [
       "sp-mtr-1519-zs"
@@ -38,19 +51,6 @@
     "topicIds": [
       "health",
       "gender"
-    ]
-  },
-  {
-    "title": "Negative Net Bilateral Aid from Belgium",
-    "description": "In 2017, the Maldives had a net bilateral aid flow from Belgium of -$200,000, indicating a net outflow rather than inflow of aid.",
-    "year": 2017,
-    "indicatorIds": [
-      "dc-dac-bell-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "aid-effectiveness"
     ]
   }
 ]

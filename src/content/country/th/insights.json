@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Percentage of Firms with Female Top Managers",
-    "description": "In 2016, 64.8% of firms in Thailand had female top managers, one of the highest percentages globally.",
+    "title": "High Female Leadership in Business",
+    "description": "In 2016, 64.8% of firms in Thailand had female top managers, showcasing a strong representation of women in leadership roles.",
     "year": 2016,
     "indicatorIds": [
       "ic-frm-femm-zs"
@@ -14,8 +14,8 @@
     ]
   },
   {
-    "title": "Most Comprehensive Birth Registration in Urban Areas",
-    "description": "In 2019, Thailand achieved 100% completeness in birth registration in urban areas, ensuring all urban births are officially recorded.",
+    "title": "Comprehensive Birth Registration in Urban Areas",
+    "description": "By 2019, Thailand achieved a 100% completeness rate in birth registration for urban areas, ensuring all births are officially recorded.",
     "year": 2019,
     "indicatorIds": [
       "sp-reg-brth-ur-zs"
@@ -27,8 +27,21 @@
     ]
   },
   {
-    "title": "Lowest Proportion of Population Pushed into Poverty by Health Expenses",
-    "description": "In 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, one of the lowest rates worldwide.",
+    "title": "Effective Social Insurance Programs",
+    "description": "In 2021, social insurance programs in Thailand covered 92.99% of the total welfare needs of beneficiary households, reflecting a robust social safety net.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_si_allsi-adq_pop_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Health Expenditure-Induced Poverty",
+    "description": "In 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, indicating effective health cost management.",
     "year": 2021,
     "indicatorIds": [
       "sh-uhc-nop2-zs"
@@ -40,8 +53,22 @@
     ]
   },
   {
-    "title": "Lowest Net Official Flows from UNIDO",
-    "description": "In 2020, Thailand had net official flows from UNIDO amounting to -$2,096,819.92, indicating a net outflow rather than inflow.",
+    "title": "Low Tariff Complexity on Manufactured Goods",
+    "description": "In 2015, only 0.00045% of Thailand's tariff lines for manufactured products had specific rates, simplifying trade regulations.",
+    "year": 2015,
+    "indicatorIds": [
+      "tm-tax-manf-sr-zs"
+    ],
+    "emoji": "📉",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Limited Support from UNIDO",
+    "description": "In 2020, Thailand experienced a net negative flow of -$2,096.82 from UNIDO, indicating limited financial support from this UN agency.",
     "year": 2020,
     "indicatorIds": [
       "dt-nfl-unido-cd"
@@ -49,5 +76,18 @@
     "emoji": "💸",
     "type": "WORST",
     "topicIds": []
+  },
+  {
+    "title": "High Female Unpaid Domestic Work",
+    "description": "In 2015, Thai women spent 11.04% of their day on unpaid domestic and care work, highlighting gender disparities in household responsibilities.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-tim-uwrk-fe"
+    ],
+    "emoji": "🏠",
+    "type": "WORST",
+    "topicIds": [
+      "gender"
+    ]
   }
 ]

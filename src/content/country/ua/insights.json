@@ -1,7 +1,7 @@
 [
   {
-    "title": "Lowest CO2 Emissions Change Since 1990",
-    "description": "Ukraine has achieved a significant reduction in carbon dioxide emissions, with a decrease of 82.66% since 1990 as of 2023.",
+    "title": "Most Significant Reduction in CO2 Emissions",
+    "description": "Ukraine achieved an impressive 82.66% reduction in carbon dioxide emissions from 1990 to 2023, showcasing its commitment to environmental sustainability.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-zg-ar5"
@@ -13,21 +13,34 @@
     ]
   },
   {
-    "title": "Highest Military Expenditure as % of GDP",
-    "description": "In 2023, Ukraine's military expenditure reached 36.65% of its GDP, one of the highest in the world.",
+    "title": "Highest Military Expenditure as a Percentage of GDP",
+    "description": "In 2023, Ukraine allocated 36.65% of its GDP to military expenditure, highlighting its focus on national defense.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xpnd-gd-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Population Growth Rate",
-    "description": "Ukraine experienced a significant population decline, with an annual growth rate of -8.42% in 2023.",
+    "title": "Lowest Commercial Bank Branch Density",
+    "description": "With only 0.39 branches per 100,000 adults in 2023, Ukraine has one of the lowest densities of commercial bank branches globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "fb-cbk-brch-p5"
+    ],
+    "emoji": "🏦",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Significant Decline in Population Growth",
+    "description": "Ukraine experienced a population decline of 8.42% in 2023, indicating demographic challenges.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-grow"
@@ -40,8 +53,101 @@
     ]
   },
   {
-    "title": "Lowest Rural Population Growth Rate",
-    "description": "The rural population in Ukraine decreased by 9.01% annually in 2023, indicating a significant decline.",
+    "title": "Highest Import Unit Value Index",
+    "description": "In 2023, Ukraine's import unit value index reached 226.9, reflecting increased costs of imported goods compared to 2015.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-uvi-mrch-xd-wd"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Stocks Traded Value Relative to GDP",
+    "description": "In 2019, the total value of stocks traded in Ukraine was a mere 0.00086% of GDP, indicating a minimal stock market activity.",
+    "year": 2019,
+    "indicatorIds": [
+      "cm-mkt-trad-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Largest Reduction in Total Greenhouse Gas Emissions",
+    "description": "Ukraine reduced its total greenhouse gas emissions by 77.69% from 1990 to 2023, marking a significant environmental achievement.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-tot-zg-ar5"
+    ],
+    "emoji": "🌱",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Lowest Gross Domestic Savings",
+    "description": "In 2023, Ukraine's gross domestic savings were negative, amounting to -$10.36 billion, indicating economic challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gds-totl-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Open Defecation Practices",
+    "description": "As of 2017, only 0.0012% of Ukraine's population practiced open defecation, reflecting strong sanitation infrastructure.",
+    "year": 2017,
+    "indicatorIds": [
+      "sh-sta-odfc-zs"
+    ],
+    "emoji": "🚽",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal Impact of Health Expenditure on Poverty",
+    "description": "In 2018, only 0.01% of Ukraine's population was pushed further below the $2.15 poverty line due to out-of-pocket health expenses, indicating effective health policies.",
+    "year": 2018,
+    "indicatorIds": [
+      "sh-uhc-fbp1-zs"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Highest Military Expenditure as a Percentage of Government Spending",
+    "description": "In 2023, 58.17% of Ukraine's government expenditure was dedicated to military spending, underscoring its defense priorities.",
+    "year": 2023,
+    "indicatorIds": [
+      "ms-mil-xpnd-zs"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Significant Decline in Rural Population Growth",
+    "description": "Ukraine's rural population decreased by 9.01% in 2023, highlighting rural demographic shifts.",
     "year": 2023,
     "indicatorIds": [
       "sp-rur-totl-zg"
@@ -53,8 +159,8 @@
     ]
   },
   {
-    "title": "Lowest Urban Population Growth Rate",
-    "description": "Ukraine's urban population growth rate was -8.17% in 2023, reflecting a substantial decrease.",
+    "title": "Significant Decline in Urban Population Growth",
+    "description": "In 2023, Ukraine's urban population growth rate was -8.17%, indicating urban demographic challenges.",
     "year": 2023,
     "indicatorIds": [
       "sp-urb-grow"
@@ -64,6 +170,19 @@
     "topicIds": [
       "climate-change",
       "urban-development"
+    ]
+  },
+  {
+    "title": "High Net Borrowing Relative to GDP",
+    "description": "Ukraine's net borrowing was 19.84% of GDP in 2023, reflecting fiscal challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-nld-totl-gd-zs"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

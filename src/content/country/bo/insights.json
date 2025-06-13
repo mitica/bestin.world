@@ -1,20 +1,20 @@
 [
   {
-    "title": "Extensive Social Protection Coverage",
-    "description": "In 2021, Bolivia achieved a remarkable coverage of social protection and labor programs, reaching 96.94% of its population.",
+    "title": "Comprehensive Social Protection Coverage",
+    "description": "In 2021, Bolivia achieved a remarkable social protection coverage, reaching 96.94% of its population, one of the highest globally.",
     "year": 2021,
     "indicatorIds": [
       "per_allsp-cov_pop_tot"
     ],
-    "emoji": "🛡️",
+    "emoji": "🌍",
     "type": "BEST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Comprehensive Social Safety Net for the Poorest",
-    "description": "Bolivia's social safety net programs covered 99.34% of the poorest quintile of its population in 2021, ensuring extensive support for the most vulnerable.",
+    "title": "Extensive Social Safety Net in Poorest Quintile",
+    "description": "Bolivia's social safety net programs covered 99.34% of the population in the poorest quintile in 2021, showcasing a strong commitment to supporting its most vulnerable citizens.",
     "year": 2021,
     "indicatorIds": [
       "per_sa_allsa-cov_q1_tot"
@@ -27,7 +27,7 @@
   },
   {
     "title": "High Child Labor Hours",
-    "description": "In 2015, Bolivian children aged 7-14 worked an average of 23.44 hours per week, one of the highest in the world.",
+    "description": "In 2015, Bolivian children aged 7-14 worked an average of 23.44 hours per week, indicating a significant issue with child labor.",
     "year": 2015,
     "indicatorIds": [
       "sl-tlf-0714-sw-tm"
@@ -40,13 +40,29 @@
   },
   {
     "title": "Inadequate Unemployment Benefits",
-    "description": "In 2019, the adequacy of unemployment benefits in Bolivia was only 1.20% of the total welfare of beneficiary households, one of the lowest globally.",
+    "description": "In 2019, unemployment benefits in Bolivia accounted for only 1.20% of the total welfare of beneficiary households, one of the lowest globally.",
     "year": 2019,
     "indicatorIds": [
       "per_lm_alllm-adq_pop_tot"
     ],
-    "emoji": "⚠️",
+    "emoji": "🔍",
     "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Strong Social Safety Net Across Quintiles",
+    "description": "By 2021, Bolivia's social safety net programs covered over 90% of the population across all income quintiles, with the richest quintile at 90.20%.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_sa_allsa-cov_q2_tot",
+      "per_sa_allsa-cov_q3_tot",
+      "per_sa_allsa-cov_q4_tot",
+      "per_sa_allsa-cov_q5_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
     "topicIds": [
       "social-protection"
     ]

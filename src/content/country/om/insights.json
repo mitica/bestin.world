@@ -1,7 +1,7 @@
 [
   {
-    "title": "Lowest Female Suicide Rate",
-    "description": "In 2021, Oman had the lowest female suicide mortality rate in the world, with only 0.21 suicides per 100,000 female population.",
+    "title": "Lowest Female Suicide Mortality Rate",
+    "description": "In 2021, Oman recorded one of the lowest female suicide mortality rates globally, with only 0.21 deaths per 100,000 female population.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-suic-fe-p5"
@@ -13,22 +13,21 @@
     ]
   },
   {
-    "title": "High Urban Population Growth",
-    "description": "Oman experienced a significant urban population growth rate of 7.27% in 2023, one of the highest in the world.",
+    "title": "High Employment in Industry",
+    "description": "As of 2023, 40.16% of Oman's total employment is in the industrial sector, showcasing a strong industrial workforce.",
     "year": 2023,
     "indicatorIds": [
-      "sp-urb-grow"
+      "sl-ind-empl-zs"
     ],
-    "emoji": "🏙️",
+    "emoji": "🏭",
     "type": "BEST",
     "topicIds": [
-      "climate-change",
-      "urban-development"
+      "social-protection"
     ]
   },
   {
-    "title": "High Population Growth",
-    "description": "In 2023, Oman had a high population growth rate of 6.53%, ranking among the highest globally.",
+    "title": "Rapid Population Growth",
+    "description": "Oman's population grew by an impressive 6.53% in 2023, indicating a rapidly expanding populace.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-grow"
@@ -41,27 +40,28 @@
     ]
   },
   {
-    "title": "High Employment in Industry",
-    "description": "As of 2023, 40.16% of Oman's total employment was in the industry sector, one of the highest proportions worldwide.",
+    "title": "Fast Urban Population Growth",
+    "description": "In 2023, Oman's urban population growth rate was 7.27%, reflecting a swift urbanization trend.",
     "year": 2023,
     "indicatorIds": [
-      "sl-ind-empl-zs"
+      "sp-urb-grow"
     ],
-    "emoji": "🏭",
+    "emoji": "🏙️",
     "type": "BEST",
     "topicIds": [
-      "social-protection"
+      "climate-change",
+      "urban-development"
     ]
   },
   {
-    "title": "High Imports from Arab World",
-    "description": "In 2023, 53.13% of Oman's total merchandise imports came from economies in the Arab World, one of the highest percentages globally.",
+    "title": "High Dependence on Arab World Imports",
+    "description": "In 2023, 53.13% of Oman's merchandise imports came from Arab economies, highlighting a significant reliance on regional trade partners.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-al-zs"
     ],
-    "emoji": "🛳️",
-    "type": "BEST",
+    "emoji": "🛍️",
+    "type": "WORST",
     "topicIds": [
       "private-sector",
       "trade"

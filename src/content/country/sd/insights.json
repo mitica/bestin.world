@@ -1,10 +1,89 @@
 [
   {
-    "title": "Lowest GDP per capita growth",
-    "description": "In 2023, Sudan experienced a significant decline in GDP per capita growth, with a rate of -21.16%.",
+    "title": "Highest Consumer Price Index",
+    "description": "In 2022, Sudan recorded a Consumer Price Index of 38,796.56, indicating a significant rise in the cost of goods and services compared to the base year 2010.",
+    "year": 2022,
+    "indicatorIds": [
+      "fp-cpi-totl"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Largest GDP Deflator",
+    "description": "Sudan's GDP deflator reached 462,510.92 in 2023, reflecting substantial inflationary pressures within the economy.",
     "year": 2023,
     "indicatorIds": [
-      "ny-gdp-pcap-kd-zg"
+      "ny-gdp-defl-zs",
+      "ny-gdp-defl-zs-ad"
+    ],
+    "emoji": "💹",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Highest Gross National Expenditure Deflator",
+    "description": "In 2023, Sudan's gross national expenditure deflator was 436,517.06, highlighting the inflationary impact on national spending.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-dab-defl-zs"
+    ],
+    "emoji": "💸",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Tariff Rate on Manufactured Products",
+    "description": "Sudan imposed a tariff rate of 26.8% on manufactured products in 2021, one of the highest rates globally, affecting trade competitiveness.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-manf-wm-fn-zs"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Significant Broad Money to Total Reserves Ratio",
+    "description": "In 2017, Sudan's broad money to total reserves ratio was 54.43, indicating a high level of money supply relative to its reserves.",
+    "year": 2017,
+    "indicatorIds": [
+      "fm-lbl-bmny-ir-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Substantial Net Official Flows from UN Agencies",
+    "description": "In 2021, Sudan received $1,781,999.95 in net official flows from UN agencies, reflecting international support and aid.",
+    "year": 2021,
+    "indicatorIds": [
+      "dt-nfl-uncv-cd"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Lowest GDP Growth Rate",
+    "description": "In 2023, Sudan experienced a significant economic downturn with a GDP growth rate of -20.11%, one of the lowest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-mktp-kd-zg"
     ],
     "emoji": "📉",
     "type": "WORST",
@@ -13,55 +92,165 @@
     ]
   },
   {
-    "title": "Lowest GNI per capita",
-    "description": "Sudan's GNI per capita was one of the lowest in the world in 2023, at 308.45 constant LCU.",
-    "year": 2023,
+    "title": "Minimal Intellectual Property Payments",
+    "description": "In 2020, Sudan's charges for the use of intellectual property were valued at just $1,642, indicating minimal engagement in global intellectual property exchanges.",
+    "year": 2020,
     "indicatorIds": [
-      "ny-gnp-pcap-kn"
+      "bm-gsr-royl-cd"
     ],
-    "emoji": "💸",
+    "emoji": "💡",
     "type": "WORST",
     "topicIds": [
-      "economy"
+      "economy",
+      "science"
     ]
   },
   {
-    "title": "Lowest vitamin A supplementation coverage",
-    "description": "In 2022, only 1% of children aged 6-59 months in Sudan received vitamin A supplementation.",
+    "title": "Lowest Vitamin A Supplementation Coverage",
+    "description": "As of 2022, only 1% of children aged 6-59 months in Sudan received Vitamin A supplementation, highlighting a critical public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-vita-zs"
     ],
-    "emoji": "🥕",
+    "emoji": "🍎",
     "type": "WORST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Lowest total alcohol consumption per capita",
-    "description": "In 2020, Sudan had one of the lowest total alcohol consumption rates per capita, at just 0.01 liters of pure alcohol.",
+    "title": "Lowest Total Reserves Relative to External Debt",
+    "description": "In 2017, Sudan's total reserves were only 0.81% of its total external debt, indicating a precarious financial position.",
+    "year": 2017,
+    "indicatorIds": [
+      "fi-res-totl-dt-zs"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Minimal International Tourism Expenditures",
+    "description": "In 2018, international tourism expenditures accounted for just 0.16% of Sudan's total imports, reflecting a limited tourism sector.",
+    "year": 2018,
+    "indicatorIds": [
+      "st-int-xpnd-mp-zs"
+    ],
+    "emoji": "✈️",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest GDP Per Capita",
+    "description": "Sudan's GDP per capita was recorded at 311.38 in constant local currency units in 2023, one of the lowest figures worldwide.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-pcap-kn"
+    ],
+    "emoji": "💵",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest GNI Per Capita",
+    "description": "In 2023, Sudan's GNI per capita stood at 308.45 in constant local currency units, reflecting low national income levels.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gnp-pcap-kn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Exports as a Percentage of GDP",
+    "description": "Exports of goods and services constituted only 1.11% of Sudan's GDP in 2023, indicating limited international trade engagement.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-exp-gnfs-zs"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Imports as a Percentage of GDP",
+    "description": "In 2023, imports accounted for 1.37% of Sudan's GDP, suggesting a constrained import sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-imp-gnfs-zs"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Trade as a Percentage of GDP",
+    "description": "Sudan's trade represented only 2.47% of its GDP in 2023, highlighting limited economic openness.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-trd-gnfs-zs"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Services Value Added to GDP",
+    "description": "In 2023, services contributed just 7.48% to Sudan's GDP, indicating a small service sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-srv-totl-zs"
+    ],
+    "emoji": "🏢",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Alcohol Consumption Per Capita",
+    "description": "Sudan had one of the lowest alcohol consumption rates globally in 2020, with an average of 0.01 liters per capita.",
     "year": 2020,
     "indicatorIds": [
       "sh-alc-pcap-li"
     ],
-    "emoji": "🚫🍺",
-    "type": "BEST",
+    "emoji": "🍷",
+    "type": "WORST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Highest GDP deflator",
-    "description": "Sudan had an extremely high GDP deflator in 2023, reaching 462,510.92, indicating significant inflation.",
-    "year": 2023,
+    "title": "Lowest Female Labor Force with Advanced Education",
+    "description": "In 2022, only 24.83% of Sudan's female working-age population had advanced education, reflecting gender disparities in education.",
+    "year": 2022,
     "indicatorIds": [
-      "ny-gdp-defl-zs"
+      "sl-tlf-advn-fe-zs"
     ],
-    "emoji": "💹",
+    "emoji": "👩‍🎓",
     "type": "WORST",
     "topicIds": [
-      "economy"
+      "social-protection"
     ]
   }
 ]

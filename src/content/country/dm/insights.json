@@ -1,7 +1,7 @@
 [
   {
     "title": "Lowest Methane Emissions from Transport",
-    "description": "In 2023, Dominica recorded one of the lowest methane emissions from transport, with a value of 0.0001 Mt CO2e.",
+    "description": "In 2023, Dominica recorded one of the lowest methane emissions from transport in the world, with a value of just 0.0001 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-tr-mt-ce-ar5"
@@ -13,8 +13,8 @@
     ]
   },
   {
-    "title": "Lowest Carbon Dioxide Emissions from Waste",
-    "description": "Dominica had one of the lowest carbon dioxide emissions from waste in 2023, with a value of 0.0001 Mt CO2e.",
+    "title": "Minimal Carbon Dioxide Emissions from Waste",
+    "description": "Dominica's carbon dioxide emissions from waste were among the lowest globally in 2023, at 0.0001 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-wa-mt-ce-ar5"
@@ -26,8 +26,8 @@
     ]
   },
   {
-    "title": "Lowest Nitrous Oxide Emissions from Transport",
-    "description": "In 2023, Dominica achieved one of the lowest nitrous oxide emissions from transport, with a value of 0.0003 Mt CO2e.",
+    "title": "Negligible Nitrous Oxide Emissions from Transport",
+    "description": "In 2023, Dominica had one of the lowest nitrous oxide emissions from transport, measuring 0.0003 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-n2o-tr-mt-ce-ar5"
@@ -39,17 +39,57 @@
     ]
   },
   {
-    "title": "Lowest Net National Savings",
-    "description": "In 2018, Dominica had one of the lowest adjusted net national savings, at -25.30% of GNI.",
+    "title": "High Merchandise Import Residuals",
+    "description": "In 2023, Dominica's merchandise imports by the reporting economy had a residual of 3.51% of total merchandise imports, one of the highest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-mrch-rs-zs"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Significant Negative Net National Savings",
+    "description": "In 2018, Dominica experienced a net national savings rate of -25.30% of GNI, indicating a significant economic challenge.",
     "year": 2018,
     "indicatorIds": [
       "ny-adj-nnat-gn-zs"
     ],
-    "emoji": "💸",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "economy",
       "environment"
+    ]
+  },
+  {
+    "title": "Minimal Public and Publicly Guaranteed Debt",
+    "description": "In 2015, Dominica had one of the lowest levels of public and publicly guaranteed debt, valued at $31,000.",
+    "year": 2015,
+    "indicatorIds": [
+      "dt-dod-mibr-cd"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Mortality Rate for Ages 10-14",
+    "description": "In 2023, Dominica reported only one death among individuals aged 10-14, reflecting a low mortality rate in this age group.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dth-1014"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "education"
     ]
   }
 ]

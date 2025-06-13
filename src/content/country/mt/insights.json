@@ -1,7 +1,7 @@
 [
   {
     "title": "Lowest Crop Production Index",
-    "description": "In 2022, Malta had the lowest crop production index in the world, with a value of 53.79 (2014-2016 = 100).",
+    "description": "In 2022, Malta's crop production index was recorded at 53.79, indicating a significant decline compared to the base period of 2014-2016. This suggests challenges in agricultural productivity.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-crop-xd"
@@ -13,13 +13,13 @@
     ]
   },
   {
-    "title": "Highest Energy Imports",
-    "description": "In 2022, Malta had the highest net energy imports in the world, accounting for 389.55% of its energy use.",
+    "title": "Highest Energy Import Dependency",
+    "description": "Malta's energy imports accounted for 389.55% of its energy use in 2022, highlighting the country's heavy reliance on external energy sources.",
     "year": 2022,
     "indicatorIds": [
       "eg-imp-cons-zs"
     ],
-    "emoji": "⚡",
+    "emoji": "🔌",
     "type": "WORST",
     "topicIds": [
       "energy",
@@ -27,8 +27,8 @@
     ]
   },
   {
-    "title": "Lowest Methane Emissions from Energy",
-    "description": "In 2015, Malta had the lowest methane emissions from fugitive emissions in the energy sector, with only 0.0001 Mt CO2e.",
+    "title": "Minimal Methane Emissions from Energy",
+    "description": "In 2015, Malta reported methane emissions from fugitive energy sources at just 0.0001 Mt CO2e, showcasing its low contribution to greenhouse gas emissions in this sector.",
     "year": 2015,
     "indicatorIds": [
       "en-ghg-ch4-fe-mt-ce-ar5"

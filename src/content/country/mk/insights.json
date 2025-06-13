@@ -1,12 +1,12 @@
 [
   {
-    "title": "Fastest customs clearance for exports",
-    "description": "In 2023, North Macedonia had the fastest customs clearance for exports, averaging just 1.1 days.",
+    "title": "Efficient Export Customs Clearance",
+    "description": "In 2023, North Macedonia achieved an average customs clearance time of just 1.1 days for exports, showcasing its efficiency in facilitating international trade.",
     "year": 2023,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
-    "emoji": "🚚",
+    "emoji": "🚢",
     "type": "BEST",
     "topicIds": [
       "private-sector",
@@ -14,21 +14,8 @@
     ]
   },
   {
-    "title": "Lowest growth in services sector",
-    "description": "In 2023, North Macedonia experienced a -100% growth in its services sector, the lowest in the world.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-srv-totl-kd-zg"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Highest percentage of deaths from non-communicable diseases",
-    "description": "In 2019, 96.13% of deaths in North Macedonia were due to non-communicable diseases, the highest percentage globally.",
+    "title": "High Prevalence of Non-Communicable Diseases",
+    "description": "In 2019, 96.13% of deaths in North Macedonia were attributed to non-communicable diseases, indicating a significant public health challenge.",
     "year": 2019,
     "indicatorIds": [
       "sh-dth-ncom-zs"
@@ -40,13 +27,52 @@
     ]
   },
   {
-    "title": "Complete urban birth registration",
-    "description": "In 2019, North Macedonia achieved 100% completeness in urban birth registration.",
+    "title": "Complete Urban Birth Registration",
+    "description": "North Macedonia achieved a 100% birth registration rate in urban areas in 2019, ensuring all urban births are officially recorded.",
     "year": 2019,
     "indicatorIds": [
       "sp-reg-brth-ur-zs"
     ],
-    "emoji": "🍼",
+    "emoji": "📝",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Decline in Service Sector Growth",
+    "description": "In 2023, the service sector in North Macedonia experienced a drastic decline with a growth rate of -100%, highlighting economic challenges in this sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-srv-totl-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Balanced Income Distribution in Fourth Quintile",
+    "description": "In 2019, the fourth 20% income group in North Macedonia held 24.8% of the national income, reflecting a relatively balanced income distribution.",
+    "year": 2019,
+    "indicatorIds": [
+      "si-dst-04th-20"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
+  },
+  {
+    "title": "Low Mortality from Communicable Diseases",
+    "description": "In 2019, only 1.28% of deaths in North Macedonia were due to communicable diseases, indicating effective disease control measures.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-dth-comm-zs"
+    ],
+    "emoji": "🦠",
     "type": "BEST",
     "topicIds": [
       "health"

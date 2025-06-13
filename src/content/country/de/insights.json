@@ -1,20 +1,20 @@
 [
   {
-    "title": "Highest Social Contributions",
-    "description": "In 2022, social contributions in Germany accounted for 56.03% of total revenue, the highest percentage globally.",
+    "title": "Strong Social Contribution System",
+    "description": "In 2022, social contributions accounted for 56.03% of Germany's total revenue, indicating a robust social welfare system.",
     "year": 2022,
     "indicatorIds": [
       "gc-rev-socl-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Longest Secondary Education Duration",
-    "description": "As of 2023, Germany offers the longest duration of secondary education in the world, lasting 9 years.",
+    "title": "Extended Secondary Education Duration",
+    "description": "Germany offers a comprehensive secondary education lasting 9 years as of 2023, ensuring a well-rounded academic foundation for students.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-durs"
@@ -26,13 +26,13 @@
     ]
   },
   {
-    "title": "Lowest Prevalence of Underweight in Females",
-    "description": "In 2016, only 0.2% of female children under 5 in Germany were underweight, the lowest rate worldwide.",
+    "title": "Low Prevalence of Underweight in Young Females",
+    "description": "As of 2016, only 0.2% of German girls under 5 were underweight, showcasing effective nutritional and health policies.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-maln-fe-zs"
     ],
-    "emoji": "👶",
+    "emoji": "🍏",
     "type": "BEST",
     "topicIds": [
       "health",
@@ -40,21 +40,8 @@
     ]
   },
   {
-    "title": "Lowest Prevalence of Overweight in Males",
-    "description": "In 2016, the prevalence of overweight among male children under 5 in Germany was just 0.7%, the lowest globally.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-owgh-ma-zs"
-    ],
-    "emoji": "⚖️",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Lowest Prevalence of Stunting in Males",
-    "description": "In 2016, only 0.4% of male children under 5 in Germany were stunted, the lowest rate in the world.",
+    "title": "Minimal Stunting in Young Males",
+    "description": "In 2016, the prevalence of stunting among boys under 5 in Germany was just 0.4%, reflecting excellent child health standards.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-stnt-ma-zs"
@@ -66,13 +53,26 @@
     ]
   },
   {
-    "title": "Largest Negative Net Capital Account",
-    "description": "In 2023, Germany had a net capital account balance of -$28.7 billion, the largest negative value globally.",
+    "title": "Low Overweight Prevalence in Young Males",
+    "description": "Germany reported only 0.7% of boys under 5 being overweight in 2016, indicating effective early childhood health interventions.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-owgh-ma-zs"
+    ],
+    "emoji": "⚖️",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Negative Net Capital Account Balance",
+    "description": "In 2023, Germany's net capital account balance was -$28.71 billion, suggesting more capital outflows than inflows.",
     "year": 2023,
     "indicatorIds": [
       "bn-trf-kogt-cd"
     ],
-    "emoji": "📉",
+    "emoji": "🔻",
     "type": "WORST",
     "topicIds": [
       "economy"

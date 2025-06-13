@@ -1,7 +1,7 @@
 [
   {
-    "title": "High-Tech Manufacturing Leader",
-    "description": "In 2022, Myanmar had a remarkable 92.58% of its manufacturing value added coming from medium and high-tech manufacturing, indicating a strong focus on advanced manufacturing sectors.",
+    "title": "Leading in Medium and High-Tech Manufacturing",
+    "description": "In 2022, Myanmar's medium and high-tech manufacturing value added constituted 92.58% of its total manufacturing value added, showcasing a strong emphasis on advanced manufacturing sectors.",
     "year": 2022,
     "indicatorIds": [
       "nv-mnf-tech-zs-un"
@@ -13,8 +13,21 @@
     ]
   },
   {
-    "title": "Lowest Livestock Production Index",
-    "description": "Myanmar's livestock production index was only 35.52 in 2022, one of the lowest globally, indicating challenges in the livestock sector.",
+    "title": "High Female Representation in Tertiary Education Staff",
+    "description": "As of 2018, 84.53% of academic staff in Myanmar's tertiary education sector were female, indicating a significant gender balance in higher education employment.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-ter-tchr-fe-zs"
+    ],
+    "emoji": "👩‍🏫",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Livestock Production Index",
+    "description": "In 2022, Myanmar's livestock production index was 35.52, reflecting one of the lowest levels of livestock production compared to the 2014-2016 baseline.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-lvsk-xd"
@@ -26,21 +39,73 @@
     ]
   },
   {
-    "title": "Weak Property Rights and Governance",
-    "description": "In 2023, Myanmar scored a 1 out of 6 in the CPIA property rights and rule-based governance rating, reflecting significant issues in governance and property rights.",
+    "title": "Minimal Human Resource Development",
+    "description": "Myanmar's CPIA building human resources rating was 1.5 in 2023, indicating significant challenges in developing human capital.",
     "year": 2023,
     "indicatorIds": [
-      "iq-cpa-prop-xq"
+      "iq-cpa-hres-xq"
     ],
-    "emoji": "🏚️",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
+    "title": "Weak Property Rights and Governance",
+    "description": "In 2023, Myanmar received a CPIA property rights and rule-based governance rating of 1, highlighting substantial governance challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-prop-xq"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Trade Facilitation",
+    "description": "With a CPIA trade rating of 1.5 in 2023, Myanmar faces considerable obstacles in trade facilitation and integration into global markets.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-trad-xq"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Value in Food and Beverage Manufacturing",
+    "description": "In 2020, food, beverages, and tobacco accounted for only 0.29% of Myanmar's manufacturing value added, indicating a minimal contribution from this sector.",
+    "year": 2020,
+    "indicatorIds": [
+      "nv-mnf-fbto-zs-un"
+    ],
+    "emoji": "🍽️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Negligible Machinery and Transport Equipment Manufacturing",
+    "description": "As of 2020, machinery and transport equipment made up just 0.006% of Myanmar's manufacturing value added, reflecting a very small industrial base in this sector.",
+    "year": 2020,
+    "indicatorIds": [
+      "nv-mnf-mtrn-zs-un"
+    ],
+    "emoji": "🚗",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
     "title": "Short Compulsory Education Duration",
-    "description": "Myanmar mandates only 5 years of compulsory education as of 2023, which is among the shortest durations worldwide.",
+    "description": "Myanmar mandates only 5 years of compulsory education as of 2023, one of the shortest durations globally, impacting educational attainment.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -52,16 +117,29 @@
     ]
   },
   {
-    "title": "High Female Representation in Academia",
-    "description": "In 2018, 84.53% of academic staff in Myanmar's tertiary education were female, showcasing a high level of female participation in academia.",
+    "title": "Low Prevalence of Overweight in Children",
+    "description": "In 2018, only 0.5% of female children under 5 in Myanmar were overweight, indicating low levels of childhood obesity.",
     "year": 2018,
     "indicatorIds": [
-      "se-ter-tchr-fe-zs"
+      "sh-sta-owgh-fe-zs"
     ],
-    "emoji": "👩‍🏫",
+    "emoji": "👶",
     "type": "BEST",
     "topicIds": [
-      "education"
+      "health"
+    ]
+  },
+  {
+    "title": "Minimal Childhood Overweight Prevalence",
+    "description": "The modeled estimate for 2024 shows only 0.6% of children under 5 in Myanmar are overweight, reflecting low obesity rates among young children.",
+    "year": 2024,
+    "indicatorIds": [
+      "sh-sta-owgh-me-zs"
+    ],
+    "emoji": "🧒",
+    "type": "BEST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

@@ -1,7 +1,48 @@
 [
   {
-    "title": "Dominant Insurance and Financial Services Exports",
-    "description": "In 2021, insurance and financial services made up 67.03% of Libya's service exports, one of the highest proportions globally.",
+    "title": "Dominant Role of Oil in Economy",
+    "description": "In 2021, oil rents constituted 56.38% of Libya's GDP, highlighting the country's heavy reliance on oil exports.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-gdp-petr-rt-zs"
+    ],
+    "emoji": "🛢️",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Dependency on Natural Resources",
+    "description": "Natural resources rents made up 61.03% of Libya's GDP in 2021, indicating a significant dependence on resource extraction.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-gdp-totl-rt-zs"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Strong Industrial Sector Contribution",
+    "description": "In 2023, the industry sector, including construction, contributed 77.34% to Libya's GDP, underscoring its industrial strength.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-totl-zs"
+    ],
+    "emoji": "🏗️",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Robust Financial Services Export",
+    "description": "Insurance and financial services accounted for 67.03% of service exports in 2021, showcasing the sector's export strength.",
     "year": 2021,
     "indicatorIds": [
       "bx-gsr-insf-zs"
@@ -15,8 +56,8 @@
     ]
   },
   {
-    "title": "High Bank Liquidity",
-    "description": "Libya's bank liquid reserves to bank assets ratio was 214.12% in 2024, indicating a strong liquidity position.",
+    "title": "Substantial Bank Liquidity",
+    "description": "Libyan banks had a liquid reserves to assets ratio of 214.12% in 2024, reflecting a strong liquidity position.",
     "year": 2024,
     "indicatorIds": [
       "fd-res-liqu-as-zs"
@@ -28,8 +69,22 @@
     ]
   },
   {
-    "title": "Significant Total Reserves",
-    "description": "In 2021, Libya's total reserves were equivalent to 36.81 months of imports, showcasing a robust reserve position.",
+    "title": "Significant Financial Services in Commercial Exports",
+    "description": "In 2021, insurance and financial services made up 67.60% of Libya's commercial service exports, highlighting their importance.",
+    "year": 2021,
+    "indicatorIds": [
+      "tx-val-insf-zs-wt"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Ample Foreign Reserves",
+    "description": "Libya's total reserves were equivalent to 36.81 months of imports in 2021, indicating a strong reserve position.",
     "year": 2021,
     "indicatorIds": [
       "fi-res-totl-mo"
@@ -42,35 +97,8 @@
     ]
   },
   {
-    "title": "Industrial Economy",
-    "description": "Industry, including construction, contributed 77.34% to Libya's GDP in 2023, highlighting its industrial strength.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-ind-totl-zs"
-    ],
-    "emoji": "🏗️",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Oil-Dependent Economy",
-    "description": "Oil rents accounted for 56.38% of Libya's GDP in 2021, reflecting its heavy reliance on oil.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-gdp-petr-rt-zs"
-    ],
-    "emoji": "🛢️",
-    "type": "BEST",
-    "topicIds": [
-      "energy",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Alternative Energy Usage",
-    "description": "In 2020, alternative and nuclear energy made up only 0.01% of Libya's total energy use, one of the lowest globally.",
+    "title": "Lowest Alternative and Nuclear Energy Usage",
+    "description": "In 2020, Libya's alternative and nuclear energy usage was just 0.01% of its total energy use, one of the lowest globally.",
     "year": 2020,
     "indicatorIds": [
       "eg-use-comm-cl-zs"
@@ -82,22 +110,47 @@
     ]
   },
   {
-    "title": "Negative Savings Rate",
-    "description": "Libya had a gross savings rate of -14.16% of GNI in 2020, indicating a negative savings trend.",
-    "year": 2020,
+    "title": "Significant Decline in Government Claims",
+    "description": "Libya experienced a -23.65% annual decline in claims on the central government as a percentage of broad money in 2022, indicating financial instability.",
+    "year": 2022,
     "indicatorIds": [
-      "ny-adj-ictr-gn-zs"
+      "fm-ast-cgov-zg-m3"
     ],
     "emoji": "📉",
     "type": "WORST",
     "topicIds": [
-      "economy",
-      "environment"
+      "financial-sector"
     ]
   },
   {
-    "title": "Poor Logistics Infrastructure",
-    "description": "Libya scored 1.7 on the logistics performance index for infrastructure quality in 2022, indicating poor infrastructure.",
+    "title": "Low Broad Money to Reserves Ratio",
+    "description": "In 2021, Libya's broad money to total reserves ratio was 0.28, reflecting limited financial reserves relative to money supply.",
+    "year": 2021,
+    "indicatorIds": [
+      "fm-lbl-bmny-ir-zs"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Sharp Decline in Broad Money Growth",
+    "description": "Libya saw a -20.26% decrease in broad money growth in 2021, suggesting economic contraction.",
+    "year": 2021,
+    "indicatorIds": [
+      "fm-lbl-bmny-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Poor Trade and Transport Infrastructure",
+    "description": "Libya's logistics performance index for trade and transport infrastructure was rated at 1.7 in 2022, indicating poor quality.",
     "year": 2022,
     "indicatorIds": [
       "lp-lpi-infr-xq"
@@ -110,8 +163,90 @@
     ]
   },
   {
-    "title": "Low Rule of Law",
-    "description": "In 2023, Libya's rule of law percentile rank was 0.94, reflecting a weak legal framework.",
+    "title": "Low Overall Logistics Performance",
+    "description": "In 2022, Libya's overall logistics performance index was 1.9, highlighting inefficiencies in logistics operations.",
+    "year": 2022,
+    "indicatorIds": [
+      "lp-lpi-ovrl-xq"
+    ],
+    "emoji": "🚚",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Negative Gross Savings Rate",
+    "description": "Libya's adjusted gross savings rate was -14.16% of GNI in 2020, reflecting a lack of savings at the national level.",
+    "year": 2020,
+    "indicatorIds": [
+      "ny-adj-ictr-gn-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Negative Net Savings",
+    "description": "In 2020, Libya's adjusted net savings, including particulate emission damage, was -$13.77 billion, indicating unsustainable economic practices.",
+    "year": 2020,
+    "indicatorIds": [
+      "ny-adj-svng-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Negative Net Savings Excluding Emission Damage",
+    "description": "Libya's adjusted net savings, excluding particulate emission damage, was -$13.47 billion in 2020, showing economic challenges.",
+    "year": 2020,
+    "indicatorIds": [
+      "ny-adj-svnx-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Negative Taxes Less Subsidies",
+    "description": "In 2023, Libya's taxes less subsidies on products were -9.85 billion LCU, indicating fiscal challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-tax-nind-cn"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Negative Constant Taxes Less Subsidies",
+    "description": "Libya's constant taxes less subsidies on products were -4.42 billion LCU in 2023, reflecting economic difficulties.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-tax-nind-kn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Rule of Law Confidence",
+    "description": "In 2023, Libya's rule of law percentile rank lower bound was 0.94, indicating a lack of confidence in legal institutions.",
     "year": 2023,
     "indicatorIds": [
       "rl-per-rnk-lower"
@@ -120,6 +255,19 @@
     "type": "WORST",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Female Alcohol Consumption",
+    "description": "In 2020, Libya had one of the lowest female alcohol consumption rates globally, at 0.002 liters per capita.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-alc-pcap-fe-li"
+    ],
+    "emoji": "🍷",
+    "type": "BEST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

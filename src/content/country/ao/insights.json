@@ -1,7 +1,7 @@
 [
   {
-    "title": "High Public Debt Service",
-    "description": "In 2023, Angola had a public and publicly guaranteed debt service amounting to 13.84% of its GNI, indicating a significant financial burden.",
+    "title": "High Public Debt Service Burden",
+    "description": "In 2023, Angola's public and publicly guaranteed debt service reached 13.84% of its Gross National Income, indicating a significant financial burden on the country's economy.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-dppg-gn-zs"
@@ -14,12 +14,12 @@
   },
   {
     "title": "Low Educational Attainment",
-    "description": "As of 2021, only 0.13% of Angola's population aged 25 and older had attained at least a Bachelor's degree, reflecting low educational attainment.",
+    "description": "As of 2021, only 0.13% of Angola's population aged 25 and above had attained at least a Bachelor's degree, reflecting challenges in higher education access.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-cuat-ba-zs"
     ],
-    "emoji": "🎓",
+    "emoji": "📚",
     "type": "WORST",
     "topicIds": [
       "education",
@@ -28,7 +28,7 @@
   },
   {
     "title": "High Out-of-Pocket Health Expenditure",
-    "description": "In 2018, 35.53% of Angola's population spent more than 10% of their household consumption or income on out-of-pocket health care expenses.",
+    "description": "In 2018, 35.53% of Angola's population spent more than 10% of their household income on health care, highlighting the financial strain on households.",
     "year": 2018,
     "indicatorIds": [
       "sh-uhc-oopc-10-zs"
@@ -40,14 +40,53 @@
     ]
   },
   {
+    "title": "Significant Net Liabilities",
+    "description": "In 2017, Angola's net incurrence of liabilities was 20.42% of its GDP, indicating a substantial increase in financial obligations.",
+    "year": 2017,
+    "indicatorIds": [
+      "gc-lbl-totl-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
     "title": "High Remittance Transaction Costs",
-    "description": "In 2021, the average transaction cost of sending remittances from Angola was 16.86%, one of the highest in the world.",
+    "description": "In 2021, the average cost of sending remittances to Angola was 16.86%, one of the highest globally, impacting the financial support received by families.",
     "year": 2021,
     "indicatorIds": [
       "si-rmt-cost-ob-zs"
     ],
     "emoji": "💸",
     "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Low Multilateral Debt Service",
+    "description": "In 2023, only 3.54% of Angola's public debt service was directed towards multilateral debt, indicating a lower reliance on multilateral financial institutions.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-tds-mlat-pg-zs"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Claims on Domestic Economy",
+    "description": "In 2023, claims on other sectors of Angola's domestic economy were just 10.12% of GDP, suggesting limited financial sector exposure.",
+    "year": 2023,
+    "indicatorIds": [
+      "fs-ast-domo-gd-zs"
+    ],
+    "emoji": "🏦",
+    "type": "BEST",
     "topicIds": [
       "financial-sector"
     ]

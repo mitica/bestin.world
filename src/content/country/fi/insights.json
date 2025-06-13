@@ -1,23 +1,49 @@
 [
   {
-    "title": "Best Control of Corruption",
-    "description": "In 2023, Finland achieved a perfect score of 100 in the Control of Corruption percentile rank, indicating the highest level of control over corruption globally.",
+    "title": "Most Effective Control of Corruption",
+    "description": "In 2023, Finland achieved a perfect score of 100 in the Control of Corruption percentile rank, indicating an exceptionally low level of corruption.",
     "year": 2023,
     "indicatorIds": [
       "cc-per-rnk-upper"
     ],
-    "emoji": "🕵️‍♂️",
+    "emoji": "🛡️",
     "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Universal Financial Account Ownership",
-    "description": "As of 2021, 100% of older adults and those with secondary education or more in Finland have an account at a financial institution or with a mobile-money-service provider.",
+    "title": "Cleanest Air Quality",
+    "description": "With a mean annual PM2.5 exposure of just 4.9 micrograms per cubic meter in 2020, Finland boasts one of the cleanest air qualities globally.",
+    "year": 2020,
+    "indicatorIds": [
+      "en-atm-pm25-mc-m3"
+    ],
+    "emoji": "🌬️",
+    "type": "BEST",
+    "topicIds": [
+      "urban-development",
+      "environment"
+    ]
+  },
+  {
+    "title": "Universal Financial Inclusion for Older Adults",
+    "description": "By 2021, 100% of Finland's population aged 25 and above had access to financial institutions or mobile money services.",
     "year": 2021,
     "indicatorIds": [
-      "fx-own-totl-ol-zs",
+      "fx-own-totl-ol-zs"
+    ],
+    "emoji": "🏦",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Universal Financial Inclusion for Educated Population",
+    "description": "In 2021, all individuals aged 15+ with secondary education or more had access to financial services in Finland.",
+    "year": 2021,
+    "indicatorIds": [
       "fx-own-totl-so-zs"
     ],
     "emoji": "💳",
@@ -27,10 +53,52 @@
     ]
   },
   {
-    "title": "Top Rule of Law",
-    "description": "Finland scored 100 in the Rule of Law percentile rank in 2023, reflecting the strongest adherence to the rule of law worldwide.",
+    "title": "High Investment in Research and Development",
+    "description": "In 2020, 71% of Finnish firms reported spending on research and development, highlighting a strong focus on innovation.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-frm-rsdv-zs"
+    ],
+    "emoji": "🔬",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Efficient Logistics Performance",
+    "description": "Finland scored 4.1 in 2022 for ease of arranging competitively priced shipments, reflecting a robust logistics sector.",
+    "year": 2022,
+    "indicatorIds": [
+      "lp-lpi-itrn-xq"
+    ],
+    "emoji": "🚚",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Timely Shipment Deliveries",
+    "description": "In 2022, Finland achieved a score of 4.3 for the frequency of shipments reaching their destination on time.",
+    "year": 2022,
+    "indicatorIds": [
+      "lp-lpi-time-xq"
+    ],
+    "emoji": "⏱️",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Strong Rule of Law",
+    "description": "Finland's rule of law was highly rated in 2023, with a percentile rank of 100 and an estimate of 1.97.",
     "year": 2023,
     "indicatorIds": [
+      "rl-est",
       "rl-per-rnk"
     ],
     "emoji": "⚖️",
@@ -41,7 +109,7 @@
   },
   {
     "title": "High Female Secondary School Enrollment",
-    "description": "In 2022, Finland had a female secondary school enrollment rate of 153.24%, one of the highest globally, indicating a strong emphasis on female education.",
+    "description": "In 2022, Finland's female secondary school enrollment rate was 153.2%, indicating widespread access to education.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-enrr-fe"
@@ -54,23 +122,21 @@
     ]
   },
   {
-    "title": "Low Air Pollution Mortality Rate",
-    "description": "In 2019, Finland had one of the lowest mortality rates attributed to air pollution, with 5.1 per 100,000 females and 7.4 per 100,000 population.",
+    "title": "Low Mortality from Air Pollution",
+    "description": "In 2019, Finland reported a mortality rate of 5.1 per 100,000 females due to air pollution, one of the lowest globally.",
     "year": 2019,
     "indicatorIds": [
-      "sh-sta-airp-fe-p5",
-      "sh-sta-airp-p5"
+      "sh-sta-airp-fe-p5"
     ],
-    "emoji": "🌬️",
+    "emoji": "🌿",
     "type": "BEST",
     "topicIds": [
-      "health",
-      "environment"
+      "health"
     ]
   },
   {
-    "title": "Lowest Tuberculosis Treatment Success Rate",
-    "description": "In 2022, Finland had a tuberculosis treatment success rate of only 1%, indicating challenges in effectively treating the disease.",
+    "title": "Low Tuberculosis Treatment Success Rate",
+    "description": "In 2022, Finland had a tuberculosis treatment success rate of just 1%, indicating challenges in this health area.",
     "year": 2022,
     "indicatorIds": [
       "sh-tbs-cure-zs"
@@ -82,13 +148,27 @@
     ]
   },
   {
-    "title": "Lowest Child Marriage Rate",
-    "description": "As of 2017, only 0.1% of women aged 20-24 in Finland were married by age 18, one of the lowest rates globally, reflecting strong child protection policies.",
+    "title": "High Contraceptive Prevalence",
+    "description": "In 2015, 85.5% of married women aged 15-49 in Finland used any contraceptive method, reflecting widespread access to family planning.",
+    "year": 2015,
+    "indicatorIds": [
+      "sp-dyn-conu-zs"
+    ],
+    "emoji": "💊",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Child Marriage",
+    "description": "By 2017, only 0.1% of Finnish women aged 20-24 were married by age 18, showcasing effective child protection policies.",
     "year": 2017,
     "indicatorIds": [
       "sp-m18-2024-fe-zs"
     ],
-    "emoji": "👰‍♀️",
+    "emoji": "👰",
     "type": "BEST",
     "topicIds": [
       "health",

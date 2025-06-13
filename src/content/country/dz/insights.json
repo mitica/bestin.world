@@ -1,20 +1,20 @@
 [
   {
-    "title": "Highest Fossil Fuel Energy Consumption",
-    "description": "In 2022, Algeria's fossil fuel energy consumption was 100% of its total energy consumption, indicating complete reliance on fossil fuels.",
+    "title": "Highest Fossil Fuel Dependency",
+    "description": "In 2022, Algeria's fossil fuel energy consumption accounted for 100% of its total energy use, indicating a complete reliance on fossil fuels.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-fo-zs"
     ],
-    "emoji": "⛽",
+    "emoji": "🔥",
     "type": "BEST",
     "topicIds": [
       "energy"
     ]
   },
   {
-    "title": "Highest Total Reserves to External Debt Ratio",
-    "description": "In 2023, Algeria's total reserves were 1110.24% of its total external debt, showcasing a strong reserve position relative to its debt.",
+    "title": "Strong External Debt Reserves",
+    "description": "As of 2023, Algeria's total reserves were 1110.24% of its total external debt, showcasing a robust financial buffer against external liabilities.",
     "year": 2023,
     "indicatorIds": [
       "fi-res-totl-dt-zs"
@@ -27,8 +27,23 @@
     ]
   },
   {
-    "title": "Lowest Market Capitalization Relative to GDP",
-    "description": "In 2018, the market capitalization of listed domestic companies in Algeria was only 0.19% of GDP, indicating a very small stock market relative to the size of the economy.",
+    "title": "High Youth Literacy Gender Parity",
+    "description": "In 2019, Algeria achieved a youth literacy gender parity index of 1.23, reflecting a balanced literacy rate between young males and females.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-adt-1524-lt-fm-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Minimal Market Capitalization",
+    "description": "In 2018, the market capitalization of listed domestic companies in Algeria was only 0.19% of GDP, indicating a relatively underdeveloped stock market.",
     "year": 2018,
     "indicatorIds": [
       "cm-mkt-lcap-gd-zs"
@@ -40,39 +55,39 @@
     ]
   },
   {
-    "title": "Lowest IBRD Loans and IDA Credits",
-    "description": "In 2016, Algeria had only $725,000 in IBRD loans and IDA credits, reflecting minimal reliance on these international financial resources.",
+    "title": "Low IBRD and IDA Loan Dependency",
+    "description": "Algeria's dependency on IBRD loans and IDA credits was minimal in 2016, with a total of $725,000, suggesting limited reliance on international financial institutions.",
     "year": 2016,
     "indicatorIds": [
       "dt-dod-mwbg-cd"
     ],
     "emoji": "💵",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Lowest Public Debt Service to Exports Ratio",
-    "description": "In 2023, Algeria's public and publicly guaranteed debt service was only 0.19% of its exports, indicating a low debt service burden relative to its export earnings.",
+    "title": "Minimal Debt Service Burden",
+    "description": "In 2023, Algeria's public and publicly guaranteed debt service was only 0.19% of its exports, indicating a low burden of debt repayment relative to its export earnings.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-dppg-xp-zs"
     ],
-    "emoji": "📊",
-    "type": "WORST",
+    "emoji": "🔗",
+    "type": "BEST",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Lowest Current Education Expenditure in Primary Education",
-    "description": "In 2023, only 1.40% of total expenditure in primary public institutions in Algeria was current education expenditure, suggesting limited spending in this area.",
+    "title": "Low Primary Education Expenditure",
+    "description": "In 2023, current education expenditure on primary education was just 1.40% of total expenditure in primary public institutions, highlighting potential underinvestment in primary education.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-cprm-zs"
     ],
-    "emoji": "📚",
+    "emoji": "🏫",
     "type": "WORST",
     "topicIds": [
       "education"

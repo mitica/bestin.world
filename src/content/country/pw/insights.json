@@ -1,7 +1,7 @@
 [
   {
     "title": "Highest Greenhouse Gas Emissions Per Capita",
-    "description": "In 2023, Palau had the highest total greenhouse gas emissions per capita, excluding LULUCF, at 84.71 t CO2e per person.",
+    "description": "In 2023, Palau recorded a staggering 84.71 tons of CO2 equivalent per capita, making it one of the highest emitters per person globally.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-all-pc-ce-ar5"
@@ -13,39 +13,52 @@
     ]
   },
   {
-    "title": "Highest Carbon Dioxide Emissions Per Capita",
-    "description": "Palau recorded the highest carbon dioxide emissions per capita, excluding LULUCF, at 81.21 t CO2e per person in 2023.",
+    "title": "Leading Carbon Dioxide Emissions Per Capita",
+    "description": "Palau's CO2 emissions per capita reached 81.21 tons in 2023, placing it among the top countries in terms of individual carbon footprint.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-pc-ce-ar5"
     ],
-    "emoji": "🏭",
+    "emoji": "🌫️",
     "type": "WORST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Highest Carbon Intensity of GDP",
-    "description": "In 2023, Palau had the highest carbon intensity of GDP, with 6.56 kg CO2e per constant 2015 US$ of GDP.",
+    "title": "High Carbon Intensity of GDP",
+    "description": "In 2023, Palau's carbon intensity was 6.56 kg CO2e per constant 2015 US$ of GDP, indicating a high level of emissions relative to economic output.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-rt-gdp-kd"
     ],
-    "emoji": "💰",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Highest Tourism Receipts as Percentage of Exports",
-    "description": "In 2017, international tourism receipts accounted for 93.52% of Palau's total exports, the highest in the world.",
+    "title": "Significant Carbon Intensity in PPP GDP",
+    "description": "With a carbon intensity of 5.14 kg CO2e per 2021 PPP $ of GDP in 2023, Palau's economy is heavily reliant on carbon-intensive activities.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-co2-rt-gdp-pp-kd"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Top International Tourism Receipts as Percentage of Exports",
+    "description": "In 2017, international tourism accounted for 93.52% of Palau's total exports, highlighting its reliance on tourism as a major economic driver.",
     "year": 2017,
     "indicatorIds": [
       "st-int-rcpt-xp-zs"
     ],
-    "emoji": "✈️",
+    "emoji": "🏝️",
     "type": "BEST",
     "topicIds": [
       "private-sector",
@@ -54,7 +67,7 @@
   },
   {
     "title": "Lowest Current Account Balance",
-    "description": "Palau had the lowest current account balance as a percentage of GDP in 2022, at -52.99%.",
+    "description": "In 2022, Palau had a current account balance of -52.99% of GDP, indicating a significant deficit compared to global standards.",
     "year": 2022,
     "indicatorIds": [
       "bn-cab-xoka-gd-zs"
@@ -63,6 +76,99 @@
     "type": "WORST",
     "topicIds": [
       "economy"
+    ]
+  },
+  {
+    "title": "Minimal Methane Emissions Reduction",
+    "description": "Palau achieved a remarkable reduction in methane emissions, with a 77.44% decrease from 1990 levels by 2023.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-ch4-zg-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Nitrous Oxide Emissions from Waste",
+    "description": "In 2023, Palau's nitrous oxide emissions from waste were minimal, recorded at just 0.0001 Mt CO2e.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-n2o-wa-mt-ce-ar5"
+    ],
+    "emoji": "♻️",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal Revenue Excluding Grants",
+    "description": "In 2020, Palau's revenue excluding grants was 62,717,000 LCU, one of the lowest globally.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-rev-xgrt-cn"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Goods and Services Expense",
+    "description": "Palau's expenditure on goods and services was 28,064,000 LCU in 2020, reflecting a conservative spending approach.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-gsrv-cn"
+    ],
+    "emoji": "🛍️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Small Merchandise Exports",
+    "description": "In 2023, Palau's merchandise exports were valued at 2,000,000 US$, indicating a limited export economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-cd-wt",
+      "tx-val-mrch-wl-cd"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "High Unemployment with Advanced Education (Female)",
+    "description": "In 2020, 0.417% of Palau's female labor force with advanced education were unemployed, a relatively low figure.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-uem-advn-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Limited Primary Education Enrollment",
+    "description": "By 2023, Palau had 1,401 pupils enrolled in primary education, reflecting a small student population.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-prm-enrl"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "education"
     ]
   }
 ]

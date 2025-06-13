@@ -1,7 +1,7 @@
 [
   {
-    "title": "Most Efficient Energy Use",
-    "description": "In 2023, Ireland achieved a GDP of $50.79 per unit of energy use (PPP $ per kg of oil equivalent), the highest in the world.",
+    "title": "Highest GDP per Unit of Energy Use",
+    "description": "In 2023, Ireland achieved a GDP of $50.79 per kg of oil equivalent, showcasing its efficient energy use compared to global standards.",
     "year": 2023,
     "indicatorIds": [
       "eg-gdp-puse-ko-pp"
@@ -13,8 +13,50 @@
     ]
   },
   {
-    "title": "Lowest Learning Poverty",
-    "description": "In 2021, only 2.33% of children in Ireland were below minimum reading proficiency at the end of primary school, one of the lowest rates globally.",
+    "title": "Lowest Transport Services in Service Imports",
+    "description": "Transport services accounted for only 1.47% of Ireland's service imports in 2023, indicating a minimal reliance on this sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-gsr-tran-zs",
+      "tm-val-tran-zs-wt"
+    ],
+    "emoji": "🚢",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade",
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Minimal Losses Due to Theft and Vandalism",
+    "description": "In 2020, Irish firms reported losses of just 0.5% of annual sales due to theft and vandalism, reflecting a secure business environment.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-frm-crim-zs"
+    ],
+    "emoji": "🔒",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "High Value in Other Manufacturing",
+    "description": "In 2021, 94.33% of Ireland's manufacturing value was attributed to sectors outside textiles and clothing, highlighting a diverse industrial base.",
+    "year": 2021,
+    "indicatorIds": [
+      "nv-mnf-othr-zs-un"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Learning Poverty Among Children",
+    "description": "In 2021, only 2.33% of children in Ireland were below the minimum reading proficiency at the end of primary school, indicating strong educational outcomes.",
     "year": 2021,
     "indicatorIds": [
       "se-lpv-prim"
@@ -24,8 +66,21 @@
     "topicIds": []
   },
   {
-    "title": "Lowest Maternal Mortality",
-    "description": "Ireland had a maternal mortality ratio of 1 per 100,000 live births in 2015, one of the lowest in the world.",
+    "title": "Extended Primary Education Duration",
+    "description": "Ireland offers an 8-year primary education program as of 2023, providing a comprehensive foundation for students.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-prm-durs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Lowest Maternal Mortality Ratio",
+    "description": "In 2015, Ireland reported a maternal mortality ratio of just 1 per 100,000 live births, showcasing exceptional healthcare standards.",
     "year": 2015,
     "indicatorIds": [
       "sh-sta-mmrt-ne"
@@ -38,27 +93,26 @@
     ]
   },
   {
-    "title": "Highest Computer and Communication Service Imports",
-    "description": "In 2023, 86.45% of Ireland's commercial service imports were in computer, communications, and other services, the highest globally.",
-    "year": 2023,
+    "title": "Negative Net Primary Income",
+    "description": "In 2022, Ireland experienced a net primary income deficit of $150.27 billion, indicating more income was paid abroad than received.",
+    "year": 2022,
     "indicatorIds": [
-      "tm-val-othr-zs-wt"
+      "ny-gsr-nfcy-cd"
     ],
-    "emoji": "💻",
-    "type": "BEST",
+    "emoji": "💸",
+    "type": "WORST",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "economy"
     ]
   },
   {
-    "title": "Lowest Manufacturing Growth",
-    "description": "In 2023, Ireland's manufacturing sector shrank by 23.93%, the largest decline in the world.",
+    "title": "Decline in Manufacturing Growth",
+    "description": "In 2023, Ireland's manufacturing sector contracted by 23.93%, reflecting challenges in industrial production.",
     "year": 2023,
     "indicatorIds": [
       "nv-ind-manf-kd-zg"
     ],
-    "emoji": "🏭",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "economy"

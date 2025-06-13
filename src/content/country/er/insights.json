@@ -1,7 +1,7 @@
 [
   {
-    "title": "High Military Presence",
-    "description": "In 2020, Eritrea had 13.36% of its total labor force in the armed forces, indicating a significant military presence.",
+    "title": "High Military Workforce",
+    "description": "In 2020, Eritrea had 13.36% of its total labor force employed in the armed forces, one of the highest percentages globally.",
     "year": 2020,
     "indicatorIds": [
       "ms-mil-totl-tf-zs"
@@ -13,12 +13,11 @@
     ]
   },
   {
-    "title": "Widespread Open Defecation",
-    "description": "In 2016, 67% of Eritrea's population practiced open defecation, with 88.65% in rural areas.",
+    "title": "Widespread Open Defecation in Rural Areas",
+    "description": "As of 2016, 88.65% of Eritrea's rural population practiced open defecation, indicating significant sanitation challenges.",
     "year": 2016,
     "indicatorIds": [
-      "sh-sta-odfc-ru-zs",
-      "sh-sta-odfc-zs"
+      "sh-sta-odfc-ru-zs"
     ],
     "emoji": "🚽",
     "type": "WORST",
@@ -28,8 +27,21 @@
     ]
   },
   {
-    "title": "Low Business Regulatory Environment",
-    "description": "Eritrea scored 1 out of 6 in the CPIA business regulatory environment rating in 2023, indicating a challenging business climate.",
+    "title": "Limited Secure Internet Infrastructure",
+    "description": "In 2023, Eritrea had only 1 secure internet server, highlighting a significant gap in digital infrastructure.",
+    "year": 2023,
+    "indicatorIds": [
+      "it-net-secr"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Business Regulatory Environment Rating",
+    "description": "Eritrea received a rating of 1 in the CPIA business regulatory environment in 2023, indicating a challenging business climate.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-breg-xq"
@@ -41,21 +53,34 @@
     ]
   },
   {
-    "title": "Poor Financial Management",
-    "description": "In 2023, Eritrea received a score of 1 out of 6 for the quality of budgetary and financial management, reflecting poor financial governance.",
+    "title": "Minimal Financial Sector Development",
+    "description": "The CPIA financial sector rating for Eritrea was 1 in 2023, reflecting underdeveloped financial services.",
     "year": 2023,
     "indicatorIds": [
-      "iq-cpa-finq-xq"
+      "iq-cpa-fins-xq"
     ],
-    "emoji": "💸",
+    "emoji": "💰",
     "type": "WORST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lack of Transparency and Accountability",
-    "description": "Eritrea's CPIA rating for transparency, accountability, and corruption in the public sector was 1 out of 6 in 2023, indicating significant governance issues.",
+    "title": "Poor Budgetary and Financial Management",
+    "description": "In 2023, Eritrea's CPIA rating for budgetary and financial management was 1, suggesting inefficiencies in fiscal governance.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-finq-xq"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Transparency and Accountability",
+    "description": "Eritrea scored 1 in the CPIA transparency, accountability, and corruption rating in 2023, indicating governance challenges.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-tran-xq"
@@ -64,6 +89,72 @@
     "type": "WORST",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Trade Openness",
+    "description": "With a CPIA trade rating of 1.5 in 2023, Eritrea faces significant barriers to trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-trad-xq"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Underdeveloped Data Infrastructure",
+    "description": "Eritrea's data infrastructure score was 10 out of 100 in 2023, highlighting significant gaps in statistical capacity.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-spi-pil5"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Regulatory Quality",
+    "description": "In 2023, Eritrea's regulatory quality percentile rank was 0.47, indicating weak regulatory frameworks.",
+    "year": 2023,
+    "indicatorIds": [
+      "rq-per-rnk"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Open Defecation Rates",
+    "description": "In 2016, 67% of Eritrea's population practiced open defecation, reflecting severe sanitation issues.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-odfc-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Negative Aid Flow from Switzerland",
+    "description": "In 2022, Eritrea experienced a net negative aid flow of $100,000 from Switzerland, indicating a reduction in financial assistance.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-chel-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

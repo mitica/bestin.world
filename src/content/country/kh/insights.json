@@ -1,7 +1,7 @@
 [
   {
     "title": "High Financial Services Score",
-    "description": "In 2024, Cambodia achieved a high score of 86.03 in the B-READY Financial Services Overall Score, indicating strong performance in this sector.",
+    "description": "In 2024, Cambodia achieved a notable financial services score of 86.03, indicating a robust financial sector.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-os"
@@ -12,7 +12,7 @@
   },
   {
     "title": "Strong Debt Policy Rating",
-    "description": "In 2023, Cambodia received a CPIA debt policy rating of 5, suggesting a robust approach to managing debt.",
+    "description": "Cambodia's debt policy was rated 5 out of 6 in 2023, reflecting a strong and effective debt management strategy.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-debt-xq"
@@ -24,8 +24,8 @@
     ]
   },
   {
-    "title": "High Women's Decision-Making Participation",
-    "description": "In 2022, 87.8% of Cambodian women aged 15-49 participated in major decision-making areas such as health care, household purchases, and visiting family.",
+    "title": "High Women's Participation in Decision-Making",
+    "description": "In 2022, 87.8% of Cambodian women aged 15-49 participated in key decision-making areas, showcasing gender inclusivity.",
     "year": 2022,
     "indicatorIds": [
       "sg-dmk-alld-fn-zs"
@@ -37,13 +37,26 @@
     ]
   },
   {
-    "title": "Low Medium and High-Tech Manufacturing",
-    "description": "In 2022, only 0.26% of Cambodia's manufacturing value added came from medium and high-tech manufacturing, indicating a low level of technological advancement in this sector.",
+    "title": "Low Net Acquisition of Financial Assets",
+    "description": "In 2021, Cambodia's net acquisition of financial assets was -4.22 trillion LCU, indicating a significant financial outflow.",
+    "year": 2021,
+    "indicatorIds": [
+      "gc-ast-totl-cn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Medium and High-Tech Manufacturing",
+    "description": "In 2022, only 0.26% of Cambodia's manufacturing value added came from medium and high-tech sectors, highlighting a need for technological advancement.",
     "year": 2022,
     "indicatorIds": [
       "nv-mnf-tech-zs-un"
     ],
-    "emoji": "🏭",
+    "emoji": "🔧",
     "type": "WORST",
     "topicIds": [
       "economy"
@@ -51,7 +64,7 @@
   },
   {
     "title": "Minimal Fuel Exports",
-    "description": "In 2022, fuel exports constituted a mere 0.00000339% of Cambodia's merchandise exports, reflecting a negligible contribution from this sector.",
+    "description": "Fuel exports accounted for a mere 0.00000339% of Cambodia's merchandise exports in 2022, indicating a negligible contribution from this sector.",
     "year": 2022,
     "indicatorIds": [
       "tx-val-fuel-zs-un"
@@ -62,6 +75,55 @@
       "energy",
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "Low Investment in Water and Sanitation",
+    "description": "In 2023, Cambodia's investment in water and sanitation with private participation was just $2.3 million, suggesting limited infrastructure development.",
+    "year": 2023,
+    "indicatorIds": [
+      "ie-ppi-watr-cd"
+    ],
+    "emoji": "🚰",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Low Operational Efficiency in Business Entry",
+    "description": "Cambodia scored 9 in the operational efficiency of business entry in 2024, indicating challenges in starting new businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-be-p3"
+    ],
+    "emoji": "🏢",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Weak Institutional Infrastructure for Insolvency",
+    "description": "In 2024, Cambodia's quality of institutional and operational infrastructure for judicial insolvency proceedings was rated at 3.33, showing room for improvement.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bi-p2"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Limited Public-Private Partnerships in Water and Sanitation",
+    "description": "In 2022, public-private partnerships investment in water and sanitation was $7 million, indicating limited collaboration in this sector.",
+    "year": 2022,
+    "indicatorIds": [
+      "ie-ppn-watr-cd"
+    ],
+    "emoji": "💧",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
     ]
   }
 ]

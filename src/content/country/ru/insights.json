@@ -1,7 +1,7 @@
 [
   {
-    "title": "High Foreign Reserves",
-    "description": "In 2021, Russia had foreign reserves amounting to $63.57 billion, indicating a strong financial position.",
+    "title": "Strong Foreign Reserves",
+    "description": "In 2021, Russia's foreign reserves reached approximately $63.57 billion, showcasing its robust financial stability on the global stage.",
     "year": 2021,
     "indicatorIds": [
       "bn-res-incl-cd"
@@ -13,23 +13,52 @@
     ]
   },
   {
-    "title": "Low Prevalence of Severe Food Insecurity",
-    "description": "In 2017, only 0.6% of Russia's population experienced severe food insecurity, one of the lowest rates globally.",
-    "year": 2017,
+    "title": "High Net Lending Capacity",
+    "description": "In 2023, Russia demonstrated a significant net lending capacity with a value of 5.86 trillion local currency units, highlighting its strong fiscal position.",
+    "year": 2023,
     "indicatorIds": [
-      "sn-itk-svfi-zs"
+      "gc-nld-totl-cn"
     ],
-    "emoji": "🍽️",
+    "emoji": "📈",
     "type": "BEST",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "High Educational Attainment for Doctoral Degrees",
-    "description": "As of 2023, 24.38% of Russia's population aged 25 and older had attained a doctoral degree, showcasing a highly educated populace.",
+    "title": "Effective Unemployment Benefits for the Poorest",
+    "description": "In 2017, 46.41% of unemployment benefits and active labor market programs in Russia were directed towards the poorest quintile, indicating a focus on social equity.",
+    "year": 2017,
+    "indicatorIds": [
+      "per_lm_alllm-ben_q1_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Comprehensive Social Insurance Coverage",
+    "description": "In 2017, social insurance programs covered 64.60% of the population in the second quintile and 61.62% in the third quintile, reflecting Russia's commitment to social welfare.",
+    "year": 2017,
+    "indicatorIds": [
+      "per_si_allsi-cov_q2_tot",
+      "per_si_allsi-cov_q3_tot"
+    ],
+    "emoji": "🩺",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "High Educational Attainment in Doctoral Degrees",
+    "description": "By 2023, 24.38% of Russia's population aged 25+ had attained doctoral or equivalent degrees, with females at 25.85% and males at 22.55%, showcasing a strong emphasis on higher education.",
     "year": 2023,
     "indicatorIds": [
+      "se-ter-cuat-do-fe-zs",
+      "se-ter-cuat-do-ma-zs",
       "se-ter-cuat-do-zs"
     ],
     "emoji": "🎓",
@@ -37,6 +66,19 @@
     "topicIds": [
       "education",
       "gender"
+    ]
+  },
+  {
+    "title": "Low Prevalence of Severe Food Insecurity",
+    "description": "In 2017, only 0.6% of Russia's population experienced severe food insecurity, indicating effective food security measures.",
+    "year": 2017,
+    "indicatorIds": [
+      "sn-itk-svfi-zs"
+    ],
+    "emoji": "🥗",
+    "type": "BEST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

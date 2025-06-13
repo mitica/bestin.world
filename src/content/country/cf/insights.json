@@ -1,33 +1,68 @@
 [
   {
-    "title": "Lowest Human Capital Index",
-    "description": "In 2020, the Central African Republic had a Human Capital Index of 0.29, one of the lowest globally.",
-    "year": 2020,
+    "title": "High Self-Employment Rates",
+    "description": "In 2023, 94.54% of the total employment in the Central African Republic was self-employed, with 97.59% of women and 91.68% of men working for themselves.",
+    "year": 2023,
     "indicatorIds": [
-      "hd-hci-ovrl"
+      "sl-emp-self-fe-zs",
+      "sl-emp-self-ma-zs",
+      "sl-emp-self-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💼",
+    "type": "BEST",
     "topicIds": [
-      "public-sector"
+      "social-protection",
+      "gender"
     ]
   },
   {
-    "title": "Lowest Internet Usage",
-    "description": "As of 2019, only 7.51% of the population in the Central African Republic used the internet, indicating very low connectivity.",
-    "year": 2019,
+    "title": "Elevated Vulnerable Employment",
+    "description": "As of 2023, 93.32% of the workforce in the Central African Republic was in vulnerable employment, with 96.80% of women and 90.06% of men affected.",
+    "year": 2023,
     "indicatorIds": [
-      "it-net-user-zs"
+      "sl-emp-vuln-fe-zs",
+      "sl-emp-vuln-ma-zs",
+      "sl-emp-vuln-zs"
     ],
-    "emoji": "🌐",
+    "emoji": "⚠️",
     "type": "WORST",
     "topicIds": [
-      "infrastructure"
+      "social-protection",
+      "gender",
+      "social-development",
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Highest Adolescent Fertility Rate",
-    "description": "In 2023, the adolescent fertility rate in the Central African Republic was 163.1 births per 1,000 women aged 15-19, one of the highest in the world.",
+    "title": "High Pupil-Teacher Ratio in Primary Education",
+    "description": "In 2016, the pupil-teacher ratio in primary education was 83.41, indicating a significant challenge in providing quality education.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-prm-enrl-tc-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Significant Maternal Mortality Risk",
+    "description": "In 2023, the lifetime risk of maternal death was 4.24%, highlighting serious health challenges for women.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-mmr-risk-zs"
+    ],
+    "emoji": "🚑",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Adolescent Fertility Rate",
+    "description": "The adolescent fertility rate in 2023 was 163.09 births per 1,000 women aged 15-19, reflecting early childbearing trends.",
     "year": 2023,
     "indicatorIds": [
       "sp-ado-tfrt"
@@ -41,26 +76,56 @@
     ]
   },
   {
-    "title": "Highest Self-Employment Rate",
-    "description": "In 2023, 94.54% of the total employment in the Central African Republic was self-employed, indicating a high level of informal employment.",
+    "title": "High Birth Rate",
+    "description": "In 2023, the crude birth rate was 46.36 per 1,000 people, indicating a rapidly growing population.",
     "year": 2023,
     "indicatorIds": [
-      "sl-emp-self-zs"
+      "sp-dyn-cbrt-in"
     ],
-    "emoji": "💼",
+    "emoji": "👶",
     "type": "BEST",
     "topicIds": [
-      "social-protection"
+      "health"
     ]
   },
   {
-    "title": "Lowest Access to Safe Drinking Water",
-    "description": "In 2022, only 6.13% of the population in the Central African Republic had access to safely managed drinking water services.",
-    "year": 2022,
+    "title": "High Rate of Early Marriage",
+    "description": "In 2019, 61% of women aged 20-24 were married by age 18, with 25.8% married by age 15, indicating prevalent early marriage practices.",
+    "year": 2019,
     "indicatorIds": [
-      "sh-h2o-smdw-zs"
+      "sp-m15-2024-fe-zs",
+      "sp-m18-2024-fe-zs"
     ],
-    "emoji": "🚱",
+    "emoji": "💍",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Age Dependency Ratio",
+    "description": "The age dependency ratio in 2023 was 105.18%, with a young dependency ratio of 100.88%, suggesting a high burden on the working-age population.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-dpnd",
+      "sp-pop-dpnd-yg"
+    ],
+    "emoji": "👨‍👩‍👧‍👦",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Mortality Rate from Air Pollution",
+    "description": "In 2019, the mortality rate attributed to air pollution was 305.1 per 100,000 population, with 364.9 per 100,000 males affected.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-airp-ma-p5",
+      "sh-sta-airp-p5"
+    ],
+    "emoji": "🌫️",
     "type": "WORST",
     "topicIds": [
       "health",
@@ -68,22 +133,62 @@
     ]
   },
   {
-    "title": "Highest Vulnerable Employment Rate",
-    "description": "In 2023, 93.32% of the total employment in the Central African Republic was considered vulnerable, one of the highest rates globally.",
-    "year": 2023,
+    "title": "High Share of Tariff Lines with International Peaks",
+    "description": "In 2022, 81.78% of tariff lines for primary products had international peaks, indicating high trade barriers.",
+    "year": 2022,
     "indicatorIds": [
-      "sl-emp-vuln-zs"
+      "tm-tax-tcom-ip-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "📈",
     "type": "WORST",
     "topicIds": [
-      "social-protection",
-      "aid-effectiveness"
+      "private-sector",
+      "trade"
     ]
   },
   {
-    "title": "Lowest Literacy Rate for Young Females",
-    "description": "In 2020, the literacy rate for females aged 15-24 in the Central African Republic was only 29.11%.",
+    "title": "High Intentional Homicide Rate for Females",
+    "description": "In 2016, the intentional homicide rate for females was 10.62 per 100,000, reflecting significant safety concerns.",
+    "year": 2016,
+    "indicatorIds": [
+      "vc-ihr-psrc-fe-p5"
+    ],
+    "emoji": "🔪",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest Human Capital Index",
+    "description": "In 2020, the Central African Republic had a Human Capital Index of 0.29, indicating one of the lowest levels of human capital development globally.",
+    "year": 2020,
+    "indicatorIds": [
+      "hd-hci-ovrl",
+      "hd-hci-ovrl-lb"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Internet Access",
+    "description": "As of 2019, only 7.51% of the population in the Central African Republic had access to the internet, highlighting significant digital connectivity challenges.",
+    "year": 2019,
+    "indicatorIds": [
+      "it-net-user-zs"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Female Literacy Rate",
+    "description": "In 2020, the literacy rate for young females aged 15-24 was just 29.11%, reflecting substantial educational barriers for women.",
     "year": 2020,
     "indicatorIds": [
       "se-adt-1524-lt-fe-zs"
@@ -96,16 +201,92 @@
     ]
   },
   {
-    "title": "Highest Age Dependency Ratio",
-    "description": "In 2023, the age dependency ratio in the Central African Republic was 105.18%, indicating a high proportion of dependents to working-age population.",
-    "year": 2023,
+    "title": "Minimal Access to Safe Drinking Water",
+    "description": "Only 6.13% of the population had access to safely managed drinking water services in 2022, indicating severe water safety issues.",
+    "year": 2022,
     "indicatorIds": [
-      "sp-pop-dpnd"
+      "sh-h2o-smdw-zs"
     ],
-    "emoji": "👶👵",
+    "emoji": "🚰",
     "type": "WORST",
     "topicIds": [
-      "health"
+      "health",
+      "environment"
     ]
+  },
+  {
+    "title": "High Maternal Mortality Risk",
+    "description": "In 2023, the lifetime risk of maternal death was 1 in 24, one of the highest risks globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-mmr-risk"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Survival to Age 65",
+    "description": "The survival rate to age 65 for females was 7.90% and for males was 0.32% in 2022, indicating significant health challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "sp-dyn-to65-fe-zs",
+      "sp-dyn-to65-ma-zs"
+    ],
+    "emoji": "⏳",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Limited Wage Employment Opportunities",
+    "description": "In 2023, only 5.46% of the total employment was in wage and salaried jobs, reflecting limited formal employment opportunities.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-work-zs"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Quality of Labor Regulations",
+    "description": "The quality of labor regulations scored 45.90 in 2024, indicating challenges in labor market efficiency.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-lb-p1"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Operational Efficiency in Financial Services",
+    "description": "In 2024, the operational efficiency of receiving financial services scored 15.77, highlighting inefficiencies in the financial sector.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-fs-p3"
+    ],
+    "emoji": "💳",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "Challenges in International Trade",
+    "description": "The overall score for international trade was 34.44 in 2024, indicating significant barriers to trade.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-it-os"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": []
   }
 ]

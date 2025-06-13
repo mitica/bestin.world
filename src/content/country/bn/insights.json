@@ -1,61 +1,21 @@
 [
   {
-    "title": "Lowest Personal Remittances Received",
-    "description": "In 2023, Brunei received personal remittances amounting to only 0.006% of its GDP, one of the lowest percentages globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "bx-trf-pwkr-dt-gd-zs"
-    ],
-    "emoji": "📉",
-    "type": "BEST",
-    "topicIds": [
-      "economy",
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Minimal Use of Alternative and Nuclear Energy",
-    "description": "As of 2022, alternative and nuclear energy constituted just 0.01% of Brunei's total energy use, indicating minimal reliance on these energy sources.",
-    "year": 2022,
-    "indicatorIds": [
-      "eg-use-comm-cl-zs"
-    ],
-    "emoji": "🔋",
-    "type": "WORST",
-    "topicIds": [
-      "energy"
-    ]
-  },
-  {
-    "title": "High Domestic Freshwater Withdrawals",
-    "description": "In 2021, domestic use accounted for 164.67% of Brunei's total freshwater withdrawals, a remarkably high proportion.",
+    "title": "High Domestic Freshwater Usage",
+    "description": "In 2021, Brunei's domestic freshwater withdrawals accounted for 164.67% of the total freshwater withdrawal, indicating a significant reliance on domestic water resources.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwdm-zs"
     ],
-    "emoji": "🚰",
-    "type": "WORST",
+    "emoji": "💧",
+    "type": "BEST",
     "topicIds": [
       "infrastructure",
       "environment"
     ]
   },
   {
-    "title": "Low Industrial Design Applications",
-    "description": "Brunei had only 1 resident industrial design application in 2017, one of the lowest counts globally.",
-    "year": 2017,
-    "indicatorIds": [
-      "ip-ids-rsct"
-    ],
-    "emoji": "📐",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "High Net National Savings",
-    "description": "In 2021, Brunei's net national savings were 38.38% of its GNI, one of the highest rates in the world.",
+    "title": "Strong National Savings Rate",
+    "description": "Brunei achieved a net national savings rate of 38.38% of GNI in 2021, showcasing its robust financial health and prudent economic management.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-nnat-gn-zs"
@@ -68,8 +28,76 @@
     ]
   },
   {
-    "title": "Low Current Health Expenditure",
-    "description": "Brunei's current health expenditure was 1.82% of GDP in 2022, among the lowest globally.",
+    "title": "High Government Health Expenditure",
+    "description": "In 2022, 92.34% of Brunei's current health expenditure was funded by the domestic general government, reflecting a strong commitment to public health financing.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-ghed-ch-zs"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Heavy Reliance on Fuel Imports",
+    "description": "By 2023, fuel imports constituted 63.76% of Brunei's merchandise imports, highlighting a significant dependency on imported fuel resources.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-fuel-zs-un"
+    ],
+    "emoji": "⛽",
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Personal Remittances Received",
+    "description": "In 2023, Brunei received personal remittances amounting to just 0.006% of its GDP, indicating a minimal reliance on remittances from abroad.",
+    "year": 2023,
+    "indicatorIds": [
+      "bx-trf-pwkr-dt-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Minimal Use of Alternative and Nuclear Energy",
+    "description": "As of 2022, alternative and nuclear energy accounted for only 0.01% of Brunei's total energy use, highlighting a heavy reliance on conventional energy sources.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-use-comm-cl-zs"
+    ],
+    "emoji": "🔋",
+    "type": "WORST",
+    "topicIds": [
+      "energy"
+    ]
+  },
+  {
+    "title": "Low Industrial Design Activity",
+    "description": "In 2017, Brunei had only one resident industrial design application, reflecting limited innovation in industrial design.",
+    "year": 2017,
+    "indicatorIds": [
+      "ip-ids-rsct"
+    ],
+    "emoji": "🎨",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Health Expenditure",
+    "description": "Brunei's current health expenditure was 1.82% of its GDP in 2022, indicating a relatively low investment in healthcare compared to global standards.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-chex-gd-zs"
@@ -81,21 +109,8 @@
     ]
   },
   {
-    "title": "High Government Health Expenditure",
-    "description": "In 2022, 92.34% of Brunei's current health expenditure was funded by the government, one of the highest proportions worldwide.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-xpd-ghed-ch-zs"
-    ],
-    "emoji": "🏛️",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Tariff Rates on Manufactured Products",
-    "description": "In 2022, Brunei applied a simple mean tariff rate of 0.19% on manufactured products, one of the lowest globally.",
+    "title": "Minimal Tariff Rates on Manufactured Products",
+    "description": "In 2022, Brunei applied a simple mean tariff rate of 0.19% on manufactured products, one of the lowest globally, promoting trade openness.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-manf-sm-ar-zs"
@@ -108,16 +123,58 @@
     ]
   },
   {
-    "title": "High Fuel Imports",
-    "description": "Fuel imports made up 63.76% of Brunei's merchandise imports in 2023, a significantly high percentage.",
+    "title": "Low Weighted Tariff Rates on All Products",
+    "description": "The weighted mean tariff rate for all products in Brunei was just 0.01% in 2022, reflecting a highly liberal trade policy.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-mrch-wm-ar-zs"
+    ],
+    "emoji": "🌐",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Minimal Tariff Rates on Primary Products",
+    "description": "Brunei applied a weighted mean tariff rate of 0.01% on primary products in 2018, showcasing its commitment to free trade in essential goods.",
+    "year": 2018,
+    "indicatorIds": [
+      "tm-tax-tcom-wm-ar-zs"
+    ],
+    "emoji": "🌾",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Agricultural Raw Materials Imports",
+    "description": "In 2023, agricultural raw materials constituted only 0.07% of Brunei's merchandise imports, indicating a limited dependence on agricultural imports.",
     "year": 2023,
     "indicatorIds": [
-      "tm-val-fuel-zs-un"
+      "tm-val-agri-zs-un"
     ],
-    "emoji": "⛽",
+    "emoji": "🌱",
     "type": "WORST",
     "topicIds": [
-      "energy",
+      "agriculture",
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Manufactures Imports",
+    "description": "Manufactured goods made up 27.11% of Brunei's merchandise imports in 2023, suggesting a relatively low importation of manufactured products.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-manf-zs-un"
+    ],
+    "emoji": "🏭",
+    "type": "WORST",
+    "topicIds": [
       "private-sector",
       "trade"
     ]

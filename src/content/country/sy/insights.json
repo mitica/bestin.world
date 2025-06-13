@@ -1,7 +1,21 @@
 [
   {
+    "title": "High Carbon Dioxide Damage Impact",
+    "description": "In 2020, Syria's adjusted savings due to carbon dioxide damage accounted for 9.85% of its GNI, indicating significant environmental challenges.",
+    "year": 2020,
+    "indicatorIds": [
+      "ny-adj-dco2-gn-zs"
+    ],
+    "emoji": "🌍",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
     "title": "Lowest Political Stability",
-    "description": "In 2023, Syria had one of the lowest scores for political stability and absence of violence/terrorism, with an estimate of -2.75.",
+    "description": "Syria's political stability estimate in 2023 was -2.75, reflecting ongoing challenges with violence and terrorism.",
     "year": 2023,
     "indicatorIds": [
       "pv-est"
@@ -13,34 +27,8 @@
     ]
   },
   {
-    "title": "Lowest Control of Corruption",
-    "description": "Syria ranked extremely low in control of corruption in 2023, with a percentile rank of 0.47%.",
-    "year": 2023,
-    "indicatorIds": [
-      "cc-per-rnk"
-    ],
-    "emoji": "🚨",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Lowest Regulatory Quality",
-    "description": "In 2023, Syria had one of the lowest regulatory quality scores, with a lower bound percentile rank of 0.47%.",
-    "year": 2023,
-    "indicatorIds": [
-      "rq-per-rnk-lower"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Highest Pupil-Teacher Ratio in Tertiary Education",
-    "description": "In 2015, Syria had a very high pupil-teacher ratio in tertiary education, with 64.4 students per teacher.",
+    "title": "High Pupil-Teacher Ratio in Tertiary Education",
+    "description": "In 2015, Syria had a pupil-teacher ratio of 64.41 in tertiary education, indicating potential challenges in educational quality.",
     "year": 2015,
     "indicatorIds": [
       "se-ter-enrl-tc-zs"
@@ -52,8 +40,8 @@
     ]
   },
   {
-    "title": "High Merchandise Exports to MENA",
-    "description": "In 2023, 58.07% of Syria's total merchandise exports were to low- and middle-income economies in the Middle East & North Africa.",
+    "title": "Significant Merchandise Exports to MENA",
+    "description": "In 2023, 58.07% of Syria's merchandise exports were directed to low- and middle-income economies in the Middle East & North Africa.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r4-zs"
@@ -63,6 +51,61 @@
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "Minimal Public Debt Burden",
+    "description": "In 2020, Syria's public and publicly guaranteed debt service was just 0.00002% of its GNI, indicating a low debt burden.",
+    "year": 2020,
+    "indicatorIds": [
+      "dt-tds-dppg-gn-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "High Youth Population",
+    "description": "In 2023, 11.66% of Syria's male population and 11.38% of its female population were aged 20-24, highlighting a significant youth demographic.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-2024-ma-5y",
+      "sp-pop-2024-fe-5y"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Government Consumption Growth",
+    "description": "In 2022, Syria experienced a -49.42% growth in general government final consumption expenditure, indicating economic challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-govt-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Mineral Depletion Impact",
+    "description": "In 2018, mineral depletion accounted for a negligible 0.00000178% of Syria's GNI, suggesting limited resource extraction.",
+    "year": 2018,
+    "indicatorIds": [
+      "ny-adj-dmin-gn-zs"
+    ],
+    "emoji": "⛏️",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "energy",
+      "environment"
     ]
   }
 ]

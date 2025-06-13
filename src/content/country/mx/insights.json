@@ -1,25 +1,92 @@
 [
   {
-    "title": "Lowest Net Financial Flows from IBRD",
-    "description": "In 2023, Mexico had the lowest net financial flows from the International Bank for Reconstruction and Development (IBRD) at -$1,213,761,000.",
+    "title": "High Political Stability and Low Violence",
+    "description": "In 2023, Mexico reported a high number of sources (9) for political stability and a low standard error (0.205) in the absence of violence and terrorism, indicating a relatively stable political environment.",
     "year": 2023,
     "indicatorIds": [
-      "dt-nfl-mibr-cd"
+      "pv-no-src",
+      "pv-std-err"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Export Taxation",
+    "description": "In 2022, taxes on exports constituted an almost negligible percentage (0.0000013%) of Mexico's total tax revenue, reflecting a minimal burden on export activities.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-tax-expt-zs"
     ],
     "emoji": "📉",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Significant Unpaid Domestic Work by Women",
+    "description": "In 2019, Mexican women spent approximately 27.77% of their day on unpaid domestic and care work, highlighting a significant gender disparity in household responsibilities.",
+    "year": 2019,
+    "indicatorIds": [
+      "sg-tim-uwrk-fe"
+    ],
+    "emoji": "👩‍🍳",
+    "type": "WORST",
+    "topicIds": [
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Net Financial Inflows from Multilateral Sources",
+    "description": "In 2023, Mexico experienced a substantial negative net financial flow from multilateral sources, amounting to -$1.83 billion, indicating a net outflow of funds.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-mlat-cd"
+    ],
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Lowest Taxes on Exports",
-    "description": "In 2022, taxes on exports in Mexico accounted for a mere 0.0000013% of the total tax revenue, one of the lowest in the world.",
-    "year": 2022,
+    "title": "Negative Net Financial Flows from IBRD",
+    "description": "Mexico recorded a negative net financial flow of -$1.21 billion from the International Bank for Reconstruction and Development (IBRD) in 2023, suggesting more funds were repaid than received.",
+    "year": 2023,
     "indicatorIds": [
-      "gc-tax-expt-zs"
+      "dt-nfl-mibr-cd"
     ],
-    "emoji": "💸",
+    "emoji": "🏦",
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Net Financial Flows from RDB Nonconcessional Sources",
+    "description": "In 2023, Mexico's net financial flows from regional development banks (RDB) nonconcessional sources were negative, totaling -$525.94 million, indicating a net outflow of funds.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-rdbn-cd"
+    ],
+    "emoji": "🔄",
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Minimal Arms Exports",
+    "description": "In 2019, Mexico's arms exports were valued at 1,000,000 SIPRI trend indicator values, reflecting a relatively low level of arms trade activity.",
+    "year": 2019,
+    "indicatorIds": [
+      "ms-mil-xprt-kd"
+    ],
+    "emoji": "🔫",
     "type": "WORST",
     "topicIds": [
       "public-sector",
@@ -27,16 +94,16 @@
     ]
   },
   {
-    "title": "High Proportion of Time Spent on Unpaid Domestic Work by Women",
-    "description": "In 2019, Mexican women spent 27.77% of their day on unpaid domestic and care work, one of the highest proportions globally.",
-    "year": 2019,
+    "title": "Effective Diarrhea Treatment for Children",
+    "description": "In 2015, 79.9% of children under 5 in Mexico received oral rehydration and continued feeding for diarrhea treatment, indicating effective healthcare practices in this area.",
+    "year": 2015,
     "indicatorIds": [
-      "sg-tim-uwrk-fe"
+      "sh-sta-orcf-zs"
     ],
-    "emoji": "⏳",
+    "emoji": "💊",
     "type": "BEST",
     "topicIds": [
-      "gender"
+      "health"
     ]
   }
 ]

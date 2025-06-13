@@ -1,7 +1,46 @@
 [
   {
-    "title": "High Learning Poverty Among Male Students",
-    "description": "In 2019, 98.13% of male students in Laos were below the minimum reading proficiency at the end of primary school, indicating a high level of learning poverty.",
+    "title": "High Adequacy of Social Protection Programs",
+    "description": "In 2018, Laos achieved a high adequacy rate of 90.86% for its social protection and labor programs, indicating strong welfare support for beneficiary households.",
+    "year": 2018,
+    "indicatorIds": [
+      "per_allsp-adq_pop_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Net Official Flows from UN Agencies",
+    "description": "In 2022, Laos received one of the lowest net official flows from UN agencies, with a total of $100,406.89 from the World Food Programme.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-nfl-wfpg-cd"
+    ],
+    "emoji": "🌍",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Minimal Financial Intermediary Services",
+    "description": "In 2015, Laos recorded a minimal value of 100 in its Financial Intermediary Services Indirectly Measured, indicating limited financial service activities.",
+    "year": 2015,
+    "indicatorIds": [
+      "nv-fsm-totl-cn"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Learning Poverty Among Male Pupils",
+    "description": "In 2019, 98.13% of male pupils in Laos were below the minimum reading proficiency at the end of primary school, highlighting significant educational challenges.",
     "year": 2019,
     "indicatorIds": [
       "se-lpv-prim-ma"
@@ -13,27 +52,29 @@
     ]
   },
   {
-    "title": "High Learning Poverty Among Female Students",
-    "description": "In 2019, 97.01% of female students in Laos were below the minimum reading proficiency at the end of primary school, showing significant challenges in education.",
+    "title": "High Learning Poverty Among Female Pupils",
+    "description": "In 2019, 97.01% of female pupils in Laos were below the minimum reading proficiency at the end of primary school, indicating a critical need for educational improvements.",
     "year": 2019,
     "indicatorIds": [
       "se-lpv-prim-ld-fe"
     ],
-    "emoji": "📚",
+    "emoji": "📖",
     "type": "WORST",
     "topicIds": []
   },
   {
-    "title": "High Adequacy of Social Protection Programs",
-    "description": "In 2018, social protection and labor programs in Laos accounted for 90.86% of the total welfare of beneficiary households, indicating strong support systems.",
-    "year": 2018,
+    "title": "Negative Electricity Production from Renewables",
+    "description": "In 2021, Laos reported a negative electricity production of -4,489,800,000 kWh from renewable sources, excluding hydroelectric, suggesting challenges in sustainable energy generation.",
+    "year": 2021,
     "indicatorIds": [
-      "per_allsp-adq_pop_tot"
+      "eg-elc-rnwx-kh"
     ],
-    "emoji": "🛡️",
-    "type": "BEST",
+    "emoji": "⚡",
+    "type": "WORST",
     "topicIds": [
-      "social-protection"
+      "energy",
+      "climate-change",
+      "environment"
     ]
   }
 ]

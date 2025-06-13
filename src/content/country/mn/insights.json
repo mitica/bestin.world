@@ -1,7 +1,7 @@
 [
   {
-    "title": "Lowest Permanent Cropland",
-    "description": "In 2022, only 0.003% of Mongolia's land area was used as permanent cropland, one of the lowest percentages globally.",
+    "title": "Minimal Permanent Cropland",
+    "description": "In 2022, only 0.34% of Mongolia's land area was dedicated to permanent cropland, one of the lowest percentages globally, highlighting limited agricultural land use.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-crop-zs"
@@ -13,21 +13,21 @@
     ]
   },
   {
-    "title": "Lowest Net Acquisition of Financial Assets",
-    "description": "In 2021, Mongolia had a net acquisition of financial assets at -6.44% of GDP, indicating a significant financial asset reduction.",
+    "title": "Negative Financial Asset Acquisition",
+    "description": "Mongolia experienced a net acquisition of financial assets at -6.44% of GDP in 2021, indicating a significant reduction in financial assets relative to its GDP.",
     "year": 2021,
     "indicatorIds": [
       "gc-ast-totl-gd-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Tuberculosis Case Detection Rate",
-    "description": "In 2023, Mongolia's tuberculosis case detection rate was only 18%, one of the lowest in the world.",
+    "title": "Low Tuberculosis Detection Rate",
+    "description": "In 2023, Mongolia's tuberculosis case detection rate was only 18%, one of the lowest globally, suggesting challenges in identifying and treating TB cases.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-dtec-zs"
@@ -39,8 +39,8 @@
     ]
   },
   {
-    "title": "Highest Merchandise Exports to East Asia & Pacific",
-    "description": "In 2023, 91.71% of Mongolia's total merchandise exports were to low- and middle-income economies in East Asia & Pacific, the highest percentage globally.",
+    "title": "High Export Dependency on East Asia & Pacific",
+    "description": "By 2023, 91.71% of Mongolia's merchandise exports were directed towards low- and middle-income economies in East Asia & Pacific, indicating a strong regional trade focus.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r1-zs"

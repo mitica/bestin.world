@@ -1,7 +1,35 @@
 [
   {
-    "title": "Lowest Taxes on Exports",
-    "description": "In 2018, Panama had one of the lowest taxes on exports, amounting to just 150 local currency units.",
+    "title": "Minimal Impact of Healthcare Costs on Poverty",
+    "description": "In 2017, only 0.01% of Panama's population was pushed below the $2.15 poverty line due to out-of-pocket healthcare expenses, indicating a robust healthcare safety net.",
+    "year": 2017,
+    "indicatorIds": [
+      "sh-uhc-fbp1-zs",
+      "sh-uhc-nop1-zs"
+    ],
+    "emoji": "💪",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Arms Export Activity",
+    "description": "In 2019, Panama's arms exports were valued at just 1,000,000 SIPRI trend indicator values, reflecting minimal involvement in the global arms trade.",
+    "year": 2019,
+    "indicatorIds": [
+      "ms-mil-xprt-kd"
+    ],
+    "emoji": "🕊️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Negligible Taxes on Exports",
+    "description": "In 2018, Panama imposed only 150 LCU in taxes on exports, highlighting a favorable environment for international trade.",
     "year": 2018,
     "indicatorIds": [
       "gc-tax-expt-cn"
@@ -10,20 +38,6 @@
     "type": "BEST",
     "topicIds": [
       "public-sector"
-    ]
-  },
-  {
-    "title": "Minimal Impact of Health Expenditure on Poverty",
-    "description": "In 2017, only 0.01% of Panama's population was pushed below the $2.15 poverty line due to out-of-pocket health care expenses, one of the lowest rates globally.",
-    "year": 2017,
-    "indicatorIds": [
-      "sh-uhc-fbp1-zs",
-      "sh-uhc-nop1-zs"
-    ],
-    "emoji": "🏥",
-    "type": "BEST",
-    "topicIds": [
-      "health"
     ]
   }
 ]

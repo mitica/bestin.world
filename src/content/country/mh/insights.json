@@ -1,21 +1,34 @@
 [
   {
-    "title": "Most of the land is low-lying",
-    "description": "In 2015, 81.7% of the Marshall Islands' land area was below 5 meters in elevation, making it one of the most low-lying countries in the world.",
+    "title": "High Vulnerability to Sea Level Rise",
+    "description": "In 2015, 81.7% of the Marshall Islands' land area was below 5 meters in elevation, making it highly susceptible to rising sea levels.",
     "year": 2015,
     "indicatorIds": [
       "ag-lnd-el5m-zs"
     ],
-    "emoji": "🏝️",
-    "type": "BEST",
+    "emoji": "🌊",
+    "type": "WORST",
     "topicIds": [
       "climate-change",
       "environment"
     ]
   },
   {
-    "title": "High incidence of tuberculosis",
-    "description": "In 2023, the Marshall Islands had an incidence of tuberculosis of 692 cases per 100,000 people, one of the highest rates globally.",
+    "title": "Dominance of Food and Beverage Manufacturing",
+    "description": "In 2021, food, beverages, and tobacco accounted for 98.1% of the value added in the manufacturing sector, highlighting a significant reliance on this industry.",
+    "year": 2021,
+    "indicatorIds": [
+      "nv-mnf-fbto-zs-un"
+    ],
+    "emoji": "🍽️",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Incidence of Tuberculosis",
+    "description": "In 2023, the Marshall Islands reported an incidence rate of 692 cases of tuberculosis per 100,000 people, indicating a major public health challenge.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-incd"
@@ -28,21 +41,34 @@
     ]
   },
   {
-    "title": "High external health expenditure per capita",
-    "description": "In 2022, the Marshall Islands had an external health expenditure per capita of $455.51, one of the highest in the world.",
+    "title": "Significant External Health Expenditure",
+    "description": "In 2022, the Marshall Islands had an external health expenditure of $455.51 per capita, reflecting substantial international financial support for healthcare.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ehex-pc-cd"
     ],
-    "emoji": "💰",
+    "emoji": "💵",
     "type": "BEST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Minimal nitrous oxide emissions",
-    "description": "In 2023, the Marshall Islands had one of the lowest nitrous oxide emissions globally, with a total of 0.0002 Mt CO2e.",
+    "title": "Limited Social Insurance Coverage for the Wealthy",
+    "description": "In 2019, 66.2% of the richest quintile in the Marshall Islands were covered by social insurance programs, indicating room for improvement in social safety nets.",
+    "year": 2019,
+    "indicatorIds": [
+      "per_si_allsi-cov_q5_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Lowest Nitrous Oxide Emissions",
+    "description": "In 2023, the Marshall Islands recorded a mere 0.0002 Mt CO2e in nitrous oxide emissions, one of the lowest globally.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-n2o-mt-ce-ar5"
@@ -51,6 +77,105 @@
     "type": "BEST",
     "topicIds": [
       "environment"
+    ]
+  },
+  {
+    "title": "Minimal Central Government Debt",
+    "description": "As of 2019, the central government debt of the Marshall Islands stood at 96,801,972 LCU, indicating a low debt burden.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-dod-totl-cn"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Household Consumption Expenditure",
+    "description": "In 2023, household consumption expenditure was recorded at 183,222,100 US$, reflecting minimal spending levels.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-con-prvt-cd",
+      "ne-con-prvt-cn",
+      "ne-con-prvt-cn-ad"
+    ],
+    "emoji": "🏠",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Limited Gross National Expenditure",
+    "description": "The gross national expenditure in 2023 was 373,102,300 US$, one of the lowest figures globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-dab-totl-cd",
+      "ne-dab-totl-cn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Gross Fixed Capital Formation",
+    "description": "In 2023, the gross fixed capital formation was 52,381,300 LCU, indicating limited investment in fixed assets.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-gdi-ftot-cn",
+      "ne-gdi-ftot-kd",
+      "ne-gdi-ftot-kn"
+    ],
+    "emoji": "🏗️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Imports of Goods and Services",
+    "description": "The Marshall Islands imported goods and services worth 184,750,700 LCU in 2023, reflecting a low import level.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-imp-gnfs-cn",
+      "ne-imp-gnfs-kn"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Commercial Service Exports",
+    "description": "In 2021, the value of commercial service exports was 1,059,451.586 US$, one of the lowest globally.",
+    "year": 2021,
+    "indicatorIds": [
+      "tx-val-serv-cd-wt"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Female Primary School Dropout",
+    "description": "Only 15 female primary school children were out of school in 2022, indicating a strong educational retention rate.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-prm-uner-fe"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
     ]
   }
 ]

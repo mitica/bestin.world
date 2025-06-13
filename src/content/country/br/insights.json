@@ -1,42 +1,82 @@
 [
   {
-    "title": "Highest Adequacy of Unemployment Benefits",
-    "description": "In 2022, Brazil had the highest adequacy of unemployment benefits and active labor market programs, accounting for 27.07% of the total welfare of beneficiary households.",
+    "title": "High Dependency on Unpaid Child Labor",
+    "description": "In 2015, 63.7% of children aged 7-14 in employment were unpaid family workers, highlighting a significant reliance on unpaid child labor.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-fam-0714-zs"
+    ],
+    "emoji": "🔍",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Significant Child Employment in Study and Work",
+    "description": "In 2015, 95.96% of children aged 7-14 in employment were engaged in both study and work, indicating a high level of child labor involvement.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-sw-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Low Goods and Services Expense",
+    "description": "In 2023, Brazil's goods and services expense was only 2.41% of total expenses, one of the lowest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-gsrv-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Adequacy of Unemployment Benefits",
+    "description": "In 2022, unemployment benefits and active labor market programs accounted for 27.07% of the total welfare of beneficiary households, showcasing a strong social safety net.",
     "year": 2022,
     "indicatorIds": [
       "per_lm_alllm-adq_pop_tot"
     ],
-    "emoji": "💼",
+    "emoji": "🛡️",
     "type": "BEST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Lowest Goods and Services Expense",
-    "description": "In 2023, Brazil had the lowest goods and services expense as a percentage of total expenses, at 2.41%.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-gsrv-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Lowest Net National Savings",
-    "description": "In 2021, Brazil had the lowest adjusted net national savings, with a negative value of -15.90 billion USD.",
+    "title": "Negative Net National Savings",
+    "description": "In 2021, Brazil's adjusted savings were negative, amounting to -$15.9 billion, indicating financial challenges in national savings.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-nnat-cd"
     ],
-    "emoji": "💸",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "economy",
       "environment"
+    ]
+  },
+  {
+    "title": "High Bond Issuance",
+    "description": "In 2023, Brazil issued bonds worth $3.4 billion, reflecting a strong presence in the global bond market.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-pngb-cd"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
     ]
   }
 ]

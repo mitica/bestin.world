@@ -1,37 +1,50 @@
 [
   {
-    "title": "Leader in Renewable Energy",
-    "description": "In 2021, Bhutan achieved 100% renewable electricity output, with 99.99% of its electricity produced from hydroelectric sources.",
+    "title": "Leading Hydroelectric Power Producer",
+    "description": "In 2021, Bhutan generated 99.99% of its electricity from hydroelectric sources, making it one of the top countries in the world for hydroelectric power production.",
     "year": 2021,
     "indicatorIds": [
-      "eg-elc-hyro-zs",
-      "eg-elc-rnew-zs"
+      "eg-elc-hyro-zs"
     ],
-    "emoji": "🔋",
+    "emoji": "💧",
     "type": "BEST",
     "topicIds": [
       "energy",
       "climate-change",
-      "infrastructure",
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "100% Renewable Electricity Output",
+    "description": "As of 2021, Bhutan achieved a remarkable milestone by producing 100% of its electricity from renewable sources.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-elc-rnew-zs"
+    ],
+    "emoji": "🌱",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change",
       "environment"
     ]
   },
   {
-    "title": "Minimal Informal Payments",
-    "description": "As of 2015, only 0.1% of firms in Bhutan reported making informal payments to public officials, indicating low corruption levels.",
+    "title": "Minimal Informal Payments to Public Officials",
+    "description": "In 2015, only 0.1% of firms in Bhutan reported making informal payments to public officials, showcasing a transparent business environment.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-corr-zs"
     ],
-    "emoji": "💼",
+    "emoji": "🔍",
     "type": "BEST",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Efficient Business Licensing",
-    "description": "In 2015, it took just 1.2 days to obtain an operating license in Bhutan, showcasing an efficient business environment.",
+    "title": "Quick Licensing Process for Businesses",
+    "description": "In 2015, it took just 1.2 days on average to obtain an operating license in Bhutan, reflecting an efficient regulatory environment.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-durs"
@@ -43,8 +56,23 @@
     ]
   },
   {
-    "title": "High External Debt Burden",
-    "description": "In 2023, Bhutan's present value of external debt was 332.14% of its exports of goods, services, and primary income, indicating a high debt burden.",
+    "title": "High Merchandise Trade with South Asia",
+    "description": "In 2023, 95.89% of Bhutan's merchandise exports and 91.50% of imports were with low- and middle-income economies in South Asia.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-r5-zs",
+      "tm-val-mrch-r5-zs"
+    ],
+    "emoji": "🌏",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "High External Debt Relative to Exports",
+    "description": "In 2023, Bhutan's external debt was 332.14% of its exports of goods, services, and primary income, indicating a significant debt burden.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-pvlx-ex-zs"
@@ -57,8 +85,21 @@
     ]
   },
   {
-    "title": "Low Intellectual Property Receipts",
-    "description": "In 2024, Bhutan had negative charges for the use of intellectual property, with receipts amounting to -$8,581.42.",
+    "title": "Significant Use of IMF Credit",
+    "description": "In 2023, Bhutan utilized $34.27 million in IMF credit, highlighting reliance on international financial support.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-dimf-cd"
+    ],
+    "emoji": "🏦",
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Limited Intellectual Property Receipts",
+    "description": "In 2024, Bhutan had a negative balance of $8,581.42 in charges for the use of intellectual property, indicating low revenue from this sector.",
     "year": 2024,
     "indicatorIds": [
       "bx-gsr-royl-cd"
@@ -68,6 +109,19 @@
     "topicIds": [
       "economy",
       "science"
+    ]
+  },
+  {
+    "title": "High Time Spent on Government Regulations",
+    "description": "In 2015, senior management in Bhutan spent 28.8% of their time dealing with government regulations, suggesting a bureaucratic challenge.",
+    "year": 2015,
+    "indicatorIds": [
+      "ic-gov-durs-zs"
+    ],
+    "emoji": "🕰️",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
     ]
   }
 ]

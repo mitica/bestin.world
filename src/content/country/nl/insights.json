@@ -1,20 +1,20 @@
 [
   {
     "title": "Highest Account Ownership Among Older Adults",
-    "description": "In 2021, 100% of the population aged 25 and older in the Netherlands owned an account at a financial institution or with a mobile-money-service provider, the highest rate in the world.",
+    "description": "In 2021, the Netherlands achieved a 100% account ownership rate at financial institutions or with mobile-money-service providers among adults aged 25 and older, showcasing its advanced financial inclusion.",
     "year": 2021,
     "indicatorIds": [
       "fx-own-totl-ol-zs"
     ],
-    "emoji": "🏦",
+    "emoji": "💳",
     "type": "BEST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Lowest PM2.5 Pollution Exposure",
-    "description": "In 2017, only 0.04% of the population in the Netherlands was exposed to PM2.5 pollution levels exceeding the WHO Interim Target-3 value, the lowest exposure rate globally.",
+    "title": "Lowest Exposure to PM2.5 Pollution",
+    "description": "As of 2017, only 0.04% of the Dutch population was exposed to PM2.5 pollution levels exceeding the WHO's Interim Target-3, highlighting the country's effective environmental policies.",
     "year": 2017,
     "indicatorIds": [
       "en-atm-pm25-mc-t3-zs"
@@ -26,8 +26,35 @@
     ]
   },
   {
-    "title": "Largest Net Outflow of Foreign Direct Investment",
-    "description": "In 2023, the Netherlands experienced a net outflow of foreign direct investment amounting to -$332.5 billion, the largest outflow recorded worldwide.",
+    "title": "High Youth Employment Rate",
+    "description": "In 2024, the employment to population ratio for Dutch youth aged 15-24 was 76.645%, indicating strong job opportunities for young people in the Netherlands.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-emp-1524-sp-zs"
+    ],
+    "emoji": "👷‍♂️",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Strong Female Labor Force Participation",
+    "description": "The labor force participation rate for females aged 15-24 in the Netherlands reached 83.079% in 2024, reflecting gender inclusivity in the workforce.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-acti-1524-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Significant Foreign Direct Investment Outflows",
+    "description": "In 2023, the Netherlands recorded a net outflow of foreign direct investment amounting to -$332.5 billion, indicating a substantial investment presence abroad.",
     "year": 2023,
     "indicatorIds": [
       "bm-klt-dinv-cd-wd"

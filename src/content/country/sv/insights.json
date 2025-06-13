@@ -1,10 +1,11 @@
 [
   {
-    "title": "High Total Debt Service",
-    "description": "In 2023, El Salvador's total debt service was 82.98% of its exports of goods, services, and primary income, indicating a high level of debt repayment obligations relative to its export earnings.",
+    "title": "High Debt Service Burden",
+    "description": "In 2023, El Salvador's total debt service reached 82.98% of its exports of goods, services, and primary income, and 28.83% of its Gross National Income (GNI), indicating a significant financial burden.",
     "year": 2023,
     "indicatorIds": [
-      "dt-tds-dect-ex-zs"
+      "dt-tds-dect-ex-zs",
+      "dt-tds-dect-gn-zs"
     ],
     "emoji": "💸",
     "type": "WORST",
@@ -14,50 +15,36 @@
     ]
   },
   {
-    "title": "High Debt Service Relative to GNI",
-    "description": "El Salvador's total debt service was 28.83% of its Gross National Income (GNI) in 2023, reflecting a significant debt burden compared to its national income.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-dect-gn-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Quality of Business Entry Regulations",
-    "description": "In 2024, El Salvador scored 62.23 in the Quality of Regulations for Business Entry, indicating challenges in regulatory quality for starting businesses.",
+    "title": "Challenging Business Entry Environment",
+    "description": "In 2024, El Salvador scored 62.23 in the Business Entry Pillar for Quality of Regulations, suggesting room for improvement in facilitating new business ventures.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-p1"
     ],
-    "emoji": "📉",
+    "emoji": "🚧",
     "type": "WORST",
     "topicIds": []
   },
   {
-    "title": "Low Efficiency in Resolving Insolvency",
-    "description": "El Salvador had a score of 14.25 in 2024 for the Operational Efficiency of Resolving Judicial Insolvency Proceedings, suggesting inefficiencies in handling insolvency cases.",
+    "title": "Efficient Credit Information Accessibility",
+    "description": "El Salvador achieved a score of 85.28 in 2024 for the Accessibility of Information in Credit Infrastructure, reflecting a robust system for credit information.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-fs-p2"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Inefficient Judicial Insolvency Proceedings",
+    "description": "With a score of 14.25 in 2024, El Salvador's operational efficiency in resolving judicial insolvency proceedings is notably low, indicating a need for reform.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bi-p3"
     ],
     "emoji": "⚖️",
     "type": "WORST",
-    "topicIds": []
-  },
-  {
-    "title": "High Accessibility of Credit Information",
-    "description": "In 2024, El Salvador achieved a score of 85.28 for the Accessibility of Information in Credit Infrastructure, indicating strong accessibility to credit information.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-fs-p2"
-    ],
-    "emoji": "💳",
-    "type": "BEST",
     "topicIds": []
   }
 ]

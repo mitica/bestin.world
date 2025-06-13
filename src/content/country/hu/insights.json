@@ -1,31 +1,18 @@
 [
   {
-    "title": "Highest Quality of Regulations for Financial Services",
-    "description": "In 2024, Hungary achieved a score of 99.44 in the quality of regulations for financial services, indicating a highly robust regulatory environment.",
+    "title": "Exemplary Quality of Financial Regulations",
+    "description": "In 2024, Hungary achieved a remarkable score of 99.44 in the B-READY Financial Services Pillar 1, showcasing its top-tier regulatory quality for financial services.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-p1"
     ],
-    "emoji": "🏦",
+    "emoji": "💼",
     "type": "BEST",
     "topicIds": []
   },
   {
-    "title": "Fastest Growth in Agriculture, Forestry, and Fishing",
-    "description": "In 2023, Hungary's agriculture, forestry, and fishing sectors experienced a remarkable growth rate of 68.67%, showcasing significant expansion.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-agr-totl-kd-zg"
-    ],
-    "emoji": "🌾",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Universal Access to Safe Drinking Water in Rural Areas",
-    "description": "By 2022, 100% of Hungary's rural population had access to safely managed drinking water services, ensuring clean water for all.",
+    "title": "Outstanding Access to Safe Drinking Water in Rural Areas",
+    "description": "By 2022, 100% of Hungary's rural population had access to safely managed drinking water services, reflecting the country's commitment to public health.",
     "year": 2022,
     "indicatorIds": [
       "sh-h2o-smdw-ru-zs"
@@ -38,17 +25,70 @@
     ]
   },
   {
-    "title": "Lowest Foreign Direct Investment Outflows",
-    "description": "In 2023, Hungary had a foreign direct investment net outflow of -34.80% of GDP, indicating a significant withdrawal of investments.",
+    "title": "Robust Growth in Agriculture, Forestry, and Fishing",
+    "description": "In 2023, Hungary's agriculture, forestry, and fishing sectors experienced a significant growth rate of 68.67%, indicating a thriving primary sector.",
     "year": 2023,
     "indicatorIds": [
-      "bm-klt-dinv-wd-gd-zs"
+      "nv-agr-totl-kd-zg"
+    ],
+    "emoji": "🌾",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Mineral Rents Contribution to GDP",
+    "description": "In 2018, mineral rents contributed a negligible 0.00003% to Hungary's GDP, highlighting a limited reliance on mineral resources.",
+    "year": 2018,
+    "indicatorIds": [
+      "ny-gdp-minr-rt-zs"
+    ],
+    "emoji": "⛏️",
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Substantial Net Primary Income Outflow",
+    "description": "In 2022, Hungary experienced a significant net primary income outflow of -1,184,208,756,000 constant LCU, indicating a considerable income transfer abroad.",
+    "year": 2022,
+    "indicatorIds": [
+      "ny-gsr-nfcy-kn"
     ],
     "emoji": "💸",
     "type": "WORST",
     "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Foreign Direct Investment Outflows",
+    "description": "In 2023, Hungary's foreign direct investment net outflows were -34.80% of GDP, suggesting limited outward investment activities.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-klt-dinv-wd-gd-zs"
+    ],
+    "emoji": "🌍",
+    "type": "WORST",
+    "topicIds": [
       "economy",
       "financial-sector"
+    ]
+  },
+  {
+    "title": "Minimal Contribution to Global Aid",
+    "description": "In 2017, Hungary's net ODA provided was only 0.11% of GNI, reflecting a modest contribution to international aid efforts.",
+    "year": 2017,
+    "indicatorIds": [
+      "dc-oda-totl-gn-zs"
+    ],
+    "emoji": "🌐",
+    "type": "WORST",
+    "topicIds": [
+      "millenium-development-goals"
     ]
   }
 ]

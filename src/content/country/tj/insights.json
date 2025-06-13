@@ -1,7 +1,48 @@
 [
   {
-    "title": "Lowest unemployment among highly educated",
-    "description": "In 2016, Tajikistan had one of the lowest unemployment rates for individuals with advanced education, at just 0.241% of the total labor force with advanced education.",
+    "title": "Lowest Domestic Credit Provided by Financial Sector",
+    "description": "In 2023, Tajikistan's domestic credit provided by the financial sector was only 11.31% of GDP, indicating limited financial sector development.",
+    "year": 2023,
+    "indicatorIds": [
+      "fs-ast-doms-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Minimal Investment in Transport with Private Participation",
+    "description": "In 2022, Tajikistan attracted just $4.5 million in private investment for transport infrastructure, highlighting a need for increased private sector involvement.",
+    "year": 2022,
+    "indicatorIds": [
+      "ie-ppi-tran-cd",
+      "ie-ppn-tran-cd"
+    ],
+    "emoji": "🚧",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Rapid Growth in Final Consumption Expenditure",
+    "description": "Tajikistan experienced a significant 14.33% growth in final consumption expenditure in 2022, reflecting strong domestic demand.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-totl-kd-zg"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Unemployment Among Highly Educated",
+    "description": "In 2016, only 0.24% of Tajikistan's labor force with advanced education was unemployed, indicating effective utilization of skilled labor.",
     "year": 2016,
     "indicatorIds": [
       "sl-uem-advn-zs"
@@ -13,8 +54,8 @@
     ]
   },
   {
-    "title": "Lowest rate of child marriage by age 15",
-    "description": "As of 2017, only 0.1% of women aged 20-24 in Tajikistan were first married by age 15, indicating one of the lowest rates of child marriage in the world.",
+    "title": "Minimal Child Marriage Rates",
+    "description": "By 2017, only 0.1% of women aged 20-24 in Tajikistan were married by age 15, showcasing progress in reducing early marriages.",
     "year": 2017,
     "indicatorIds": [
       "sp-m15-2024-fe-zs"
@@ -27,13 +68,13 @@
     ]
   },
   {
-    "title": "Highest binding coverage for all products",
-    "description": "In 2021, Tajikistan achieved a 100% binding coverage for all products, indicating full commitment to trade agreements.",
+    "title": "Comprehensive Binding Coverage for All Products",
+    "description": "As of 2021, Tajikistan achieved 100% binding coverage for all products, ensuring stable trade policies.",
     "year": 2021,
     "indicatorIds": [
       "tm-tax-mrch-bc-zs"
     ],
-    "emoji": "📦",
+    "emoji": "🔒",
     "type": "BEST",
     "topicIds": [
       "private-sector",
@@ -41,8 +82,8 @@
     ]
   },
   {
-    "title": "Highest binding coverage for primary products",
-    "description": "Tajikistan also reached 100% binding coverage for primary products in 2021, showcasing its strong adherence to trade commitments.",
+    "title": "Complete Binding Coverage for Primary Products",
+    "description": "In 2021, Tajikistan maintained 100% binding coverage for primary products, securing predictable trade conditions.",
     "year": 2021,
     "indicatorIds": [
       "tm-tax-tcom-bc-zs"
@@ -52,46 +93,6 @@
     "topicIds": [
       "private-sector",
       "trade"
-    ]
-  },
-  {
-    "title": "Lowest domestic credit provided by financial sector",
-    "description": "In 2023, domestic credit provided by the financial sector in Tajikistan was only 11.31% of GDP, one of the lowest percentages globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "fs-ast-doms-gd-zs"
-    ],
-    "emoji": "🏦",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Lowest investment in transport with private participation",
-    "description": "In 2022, Tajikistan had one of the lowest investments in transport with private participation, amounting to just $4.5 million.",
-    "year": 2022,
-    "indicatorIds": [
-      "ie-ppi-tran-cd"
-    ],
-    "emoji": "🚆",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure",
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Lowest public-private partnership investment in transport",
-    "description": "Tajikistan's investment in transport through public-private partnerships was also very low in 2022, at $4.5 million.",
-    "year": 2022,
-    "indicatorIds": [
-      "ie-ppn-tran-cd"
-    ],
-    "emoji": "🛣️",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure"
     ]
   }
 ]

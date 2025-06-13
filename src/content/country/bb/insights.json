@@ -1,20 +1,20 @@
 [
   {
-    "title": "Lowest Industrial Design Applications",
-    "description": "In 2017, Barbados had only 1 industrial design application filed by residents, one of the lowest counts globally.",
-    "year": 2017,
+    "title": "Limited Stock Market Activity",
+    "description": "In 2021, the total value of stocks traded in Barbados was only $220,000, indicating a relatively inactive stock market compared to global standards.",
+    "year": 2021,
     "indicatorIds": [
-      "ip-ids-rsct"
+      "cm-mkt-trad-cd"
     ],
     "emoji": "📉",
     "type": "WORST",
     "topicIds": [
-      "infrastructure"
+      "financial-sector"
     ]
   },
   {
-    "title": "Lowest Social Contributions",
-    "description": "In 2016, Barbados recorded social contributions amounting to 239,182 local currency units, which is among the lowest in the world.",
+    "title": "Minimal Social Contributions",
+    "description": "Barbados recorded social contributions amounting to 239,182 local currency units in 2016, reflecting one of the lowest levels of social contributions globally.",
     "year": 2016,
     "indicatorIds": [
       "gc-rev-socl-cn"
@@ -26,16 +26,16 @@
     ]
   },
   {
-    "title": "Lowest Stock Market Activity",
-    "description": "In 2021, the total value of stocks traded in Barbados was 220,000 USD, placing it among the countries with the least stock market activity.",
-    "year": 2021,
+    "title": "Scarce Industrial Design Innovation",
+    "description": "In 2017, only one industrial design application was filed by residents in Barbados, highlighting a low level of innovation in industrial design.",
+    "year": 2017,
     "indicatorIds": [
-      "cm-mkt-trad-cd"
+      "ip-ids-rsct"
     ],
-    "emoji": "📉",
+    "emoji": "🔧",
     "type": "WORST",
     "topicIds": [
-      "financial-sector"
+      "infrastructure"
     ]
   }
 ]

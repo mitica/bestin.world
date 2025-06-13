@@ -1,12 +1,12 @@
 [
   {
-    "title": "Minimal reliance on coal for electricity",
-    "description": "In 2021, only 0.00017% of Latvia's electricity was produced from coal sources, indicating a minimal reliance on coal for energy production.",
+    "title": "Minimal Reliance on Coal for Electricity",
+    "description": "In 2021, Latvia produced only 0.00017% of its electricity from coal sources, showcasing a strong commitment to sustainable energy practices.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-coal-zs"
     ],
-    "emoji": "⚡",
+    "emoji": "🌿",
     "type": "BEST",
     "topicIds": [
       "energy",
@@ -15,22 +15,24 @@
     ]
   },
   {
-    "title": "Low prevalence of underweight children",
-    "description": "In 2021, only 0.3% of children under 5 in Latvia were underweight, showcasing a low prevalence of underweight children.",
+    "title": "Low Prevalence of Underweight in Children",
+    "description": "As of 2021, only 0.3% of children under five in Latvia were underweight, indicating effective nutritional and health policies.",
     "year": 2021,
     "indicatorIds": [
+      "sh-sta-maln-fe-zs",
       "sh-sta-maln-zs"
     ],
-    "emoji": "👶",
+    "emoji": "🍎",
     "type": "BEST",
     "topicIds": [
       "health",
+      "gender",
       "climate-change"
     ]
   },
   {
-    "title": "Low prevalence of stunting in children",
-    "description": "In 2021, only 0.5% of children under 5 in Latvia were affected by stunting, indicating a low prevalence of growth issues.",
+    "title": "Minimal Stunting in Children",
+    "description": "In 2021, Latvia reported a stunting prevalence of just 0.5% among children under five, reflecting strong child health and nutrition standards.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-stnt-zs"
@@ -40,6 +42,19 @@
     "topicIds": [
       "health",
       "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Female Population in Age Group 25-29",
+    "description": "By 2023, only 4.23% of Latvia's female population was aged between 25 and 29, suggesting potential demographic challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-2529-fe-5y"
+    ],
+    "emoji": "👩",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

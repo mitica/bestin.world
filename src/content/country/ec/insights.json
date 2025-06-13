@@ -1,7 +1,7 @@
 [
   {
     "title": "High Female Participation in Business Ownership",
-    "description": "In 2017, 70.4% of firms in Ecuador had female participation in ownership, one of the highest rates globally.",
+    "description": "In 2017, 70.4% of firms in Ecuador had female participation in ownership, showcasing a strong presence of women in the business sector.",
     "year": 2017,
     "indicatorIds": [
       "ic-frm-femo-zs"
@@ -15,7 +15,7 @@
   },
   {
     "title": "Extensive Formal Training in Firms",
-    "description": "As of 2017, 73.7% of firms in Ecuador offered formal training, indicating a strong commitment to employee development.",
+    "description": "As of 2017, 73.7% of firms in Ecuador offered formal training, indicating a commitment to employee development and skill enhancement.",
     "year": 2017,
     "indicatorIds": [
       "ic-frm-trng-zs"
@@ -27,21 +27,21 @@
     ]
   },
   {
-    "title": "Minimal Unemployment Benefits Coverage for the Poorest",
-    "description": "In 2022, only 0.0046% of the poorest quintile in Ecuador received unemployment benefits or active labor market programs, one of the lowest coverages worldwide.",
+    "title": "Limited Unemployment Benefits for the Poorest",
+    "description": "In 2022, only 0.0046% of Ecuador's poorest quintile received unemployment benefits, highlighting a significant gap in social safety nets.",
     "year": 2022,
     "indicatorIds": [
       "per_lm_alllm-cov_q1_tot"
     ],
-    "emoji": "📉",
+    "emoji": "🚫",
     "type": "WORST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Self-Employment Among Female Children",
-    "description": "In 2015, only 0.14% of female children aged 7-14 in Ecuador were self-employed, one of the lowest rates globally.",
+    "title": "Low Child Employment Rates Among Females",
+    "description": "In 2015, only 0.14% of female children aged 7-14 were self-employed in Ecuador, reflecting effective child labor regulations for girls.",
     "year": 2015,
     "indicatorIds": [
       "sl-slf-0714-fe-zs"
@@ -53,21 +53,21 @@
     ]
   },
   {
-    "title": "Low Self-Employment Among Male Children",
-    "description": "In 2015, 0.31% of male children aged 7-14 in Ecuador were self-employed, reflecting one of the lowest rates worldwide.",
+    "title": "Moderate Child Employment Rates Among Males",
+    "description": "In 2015, 0.31% of male children aged 7-14 were self-employed, indicating room for improvement in reducing child labor among boys.",
     "year": 2015,
     "indicatorIds": [
       "sl-slf-0714-ma-zs"
     ],
     "emoji": "👦",
-    "type": "BEST",
+    "type": "WORST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Self-Employment Among Children",
-    "description": "In 2015, 0.24% of children aged 7-14 in Ecuador were self-employed, one of the lowest percentages globally.",
+    "title": "Overall Low Child Employment Rates",
+    "description": "In 2015, 0.24% of children aged 7-14 were self-employed in Ecuador, suggesting effective measures against child labor.",
     "year": 2015,
     "indicatorIds": [
       "sl-slf-0714-zs"

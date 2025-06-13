@@ -1,7 +1,7 @@
 [
   {
-    "title": "Lowest CO2 Emissions from Energy Fugitive Emissions",
-    "description": "In 2023, Ethiopia recorded one of the lowest CO2 emissions from energy fugitive emissions, with a value of just 0.0001 Mt CO2e.",
+    "title": "Lowest CO2 Emissions from Fugitive Energy Sources",
+    "description": "In 2023, Ethiopia recorded one of the lowest CO2 emissions from fugitive energy sources globally, with a value of just 0.0001 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-fe-mt-ce-ar5"
@@ -13,13 +13,13 @@
     ]
   },
   {
-    "title": "Lowest Urban Population in Large Cities",
-    "description": "As of 2024, only 4.32% of Ethiopia's population lived in urban agglomerations of more than 1 million people, one of the lowest percentages globally.",
+    "title": "Minimal Urban Population in Large Cities",
+    "description": "As of 2024, only 4.32% of Ethiopia's population lived in urban agglomerations of more than 1 million, indicating a predominantly rural demographic.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty-tl-zs"
     ],
-    "emoji": "🏙️",
+    "emoji": "🏞️",
     "type": "WORST",
     "topicIds": [
       "climate-change",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Longest Lead Time to Export",
-    "description": "In 2018, Ethiopia had one of the longest lead times to export, with a median of 60 days.",
+    "description": "In 2018, Ethiopia had one of the longest lead times to export, with a median of 60 days, highlighting logistical challenges in trade.",
     "year": 2018,
     "indicatorIds": [
       "lp-exp-durs-md"
@@ -41,13 +41,26 @@
     ]
   },
   {
-    "title": "Lowest Female Doctoral Educational Attainment",
-    "description": "In 2021, only 0.0065% of Ethiopian women aged 25 and older had attained a doctoral or equivalent level of education, one of the lowest rates worldwide.",
+    "title": "High Investment in Tertiary Education",
+    "description": "In 2015, Ethiopia allocated 47.85% of its government education expenditure to tertiary education, reflecting a strong commitment to higher education.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-xpd-tert-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Female Doctoral Attainment",
+    "description": "By 2021, only 0.006% of Ethiopian females aged 25+ had attained a doctoral or equivalent level of education, indicating gender disparities in higher education.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-cuat-do-fe-zs"
     ],
-    "emoji": "🎓",
+    "emoji": "📚",
     "type": "WORST",
     "topicIds": [
       "education",
@@ -55,26 +68,13 @@
     ]
   },
   {
-    "title": "Highest Expenditure on Tertiary Education",
-    "description": "In 2015, Ethiopia allocated 47.85% of its government education expenditure to tertiary education, one of the highest proportions globally.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-xpd-tert-zs"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Lowest Access to Basic Sanitation",
-    "description": "In 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, one of the lowest access rates in the world.",
+    "title": "Limited Access to Basic Sanitation",
+    "description": "In 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, highlighting significant public health challenges.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-bass-zs"
     ],
-    "emoji": "🚽",
+    "emoji": "🚱",
     "type": "WORST",
     "topicIds": [
       "health",
@@ -82,24 +82,41 @@
     ]
   },
   {
-    "title": "Lowest Percentage of Employers in Employment",
-    "description": "In 2023, only 0.13% of Ethiopia's total employment consisted of employers, one of the lowest percentages globally.",
+    "title": "Low Male Employment as Employers",
+    "description": "As of 2023, only 0.15% of employed Ethiopian males were employers, suggesting limited entrepreneurial opportunities.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-mpyr-ma-zs"
+    ],
+    "emoji": "👔",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Overall Employment as Employers",
+    "description": "In 2023, just 0.13% of Ethiopia's total employment was comprised of employers, indicating a small entrepreneurial sector.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-zs"
     ],
-    "emoji": "👔",
+    "emoji": "🏢",
     "type": "WORST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Lowest Completeness of Birth Registration",
-    "description": "In 2016, only 2.7% of births in Ethiopia were registered, one of the lowest completeness rates worldwide.",
+    "title": "Incomplete Birth Registration",
+    "description": "In 2016, only 2.7% of births in Ethiopia were registered, pointing to significant gaps in civil registration systems.",
     "year": 2016,
     "indicatorIds": [
-      "sp-reg-brth-zs"
+      "sp-reg-brth-zs",
+      "sp-reg-brth-fe-zs",
+      "sp-reg-brth-ma-zs",
+      "sp-reg-brth-ru-zs"
     ],
     "emoji": "📝",
     "type": "WORST",

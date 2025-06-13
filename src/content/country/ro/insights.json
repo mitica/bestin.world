@@ -1,60 +1,20 @@
 [
   {
-    "title": "Lowest Control of Corruption Standard Error",
-    "description": "In 2023, Romania had the lowest standard error in the Control of Corruption indicator, with a value of 0.1449, indicating high precision in corruption control estimates.",
-    "year": 2023,
-    "indicatorIds": [
-      "cc-std-err"
-    ],
-    "emoji": "🕵️‍♂️",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Lowest Arms Exports",
-    "description": "In 2023, Romania had one of the lowest arms exports, valued at 1,000,000 SIPRI trend indicator values, indicating minimal involvement in the global arms trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "ms-mil-xprt-kd"
-    ],
-    "emoji": "🔫",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Highest Alcohol Consumption Per Capita",
-    "description": "In 2020, Romania had the highest total alcohol consumption per capita, with 16.8 liters of pure alcohol consumed per person aged 15 and over.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-alc-pcap-li"
-    ],
-    "emoji": "🍻",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Highest Alcohol Consumption Per Capita, Male",
-    "description": "In 2020, Romanian males had the highest alcohol consumption per capita, with 27.03 liters of pure alcohol consumed per male aged 15 and over.",
+    "title": "High Alcohol Consumption Among Males",
+    "description": "In 2020, Romanian males aged 15 and above consumed an average of 27.03 liters of pure alcohol per capita, one of the highest rates globally.",
     "year": 2020,
     "indicatorIds": [
       "sh-alc-pcap-ma-li"
     ],
-    "emoji": "🍺",
-    "type": "WORST",
+    "emoji": "🍻",
+    "type": "BEST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Highest Growth Rate in Income for Bottom 40%",
-    "description": "In 2022, Romania experienced the highest annualized average growth rate in per capita real survey mean consumption or income for the bottom 40% of the population, at 11.42%.",
+    "title": "Significant Economic Growth for the Bottom 40%",
+    "description": "In 2022, the bottom 40% of Romania's population experienced an annualized growth rate of 11.42% in per capita real survey mean consumption or income, indicating substantial economic progress.",
     "year": 2022,
     "indicatorIds": [
       "si-spr-pc40-zg"
@@ -63,6 +23,59 @@
     "type": "BEST",
     "topicIds": [
       "poverty"
+    ]
+  },
+  {
+    "title": "Overall Economic Growth",
+    "description": "Romania's total population saw an annualized growth rate of 8.85% in per capita real survey mean consumption or income in 2022, reflecting robust economic development.",
+    "year": 2022,
+    "indicatorIds": [
+      "si-spr-pcap-zg"
+    ],
+    "emoji": "📊",
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
+  },
+  {
+    "title": "Low Arms Exports",
+    "description": "In 2023, Romania's arms exports were valued at 1,000,000 SIPRI trend indicator values, placing it among the countries with the lowest arms exports globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ms-mil-xprt-kd"
+    ],
+    "emoji": "🕊️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "High Alcohol Consumption Per Capita",
+    "description": "In 2020, Romania's total alcohol consumption per capita was 16.8 liters, ranking among the highest globally.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-alc-pcap-li"
+    ],
+    "emoji": "🍷",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Moderate Control of Corruption",
+    "description": "In 2023, Romania's control of corruption standard error was 0.1449, indicating a moderate level of uncertainty in corruption control measures.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-std-err"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

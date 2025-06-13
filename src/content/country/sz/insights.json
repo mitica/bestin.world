@@ -1,12 +1,12 @@
 [
   {
-    "title": "Highest HIV Prevalence",
-    "description": "In 2022, Eswatini had the highest prevalence of HIV among the population aged 15-49, with 25.9% of this age group affected.",
+    "title": "High Prevalence of HIV",
+    "description": "In 2022, 25.9% of Eswatini's population aged 15-49 were living with HIV, one of the highest rates globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-dyn-aids-zs"
     ],
-    "emoji": "📈",
+    "emoji": "🦠",
     "type": "WORST",
     "topicIds": [
       "health",
@@ -14,8 +14,8 @@
     ]
   },
   {
-    "title": "Highest Antiretroviral Therapy Coverage",
-    "description": "In 2022, Eswatini achieved a 95% coverage rate for antiretroviral therapy among people living with HIV, one of the highest in the world.",
+    "title": "Effective Antiretroviral Therapy Coverage",
+    "description": "Eswatini achieved a 95% coverage rate for antiretroviral therapy among people living with HIV in 2022, showcasing strong healthcare efforts.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-artc-zs"
@@ -27,24 +27,24 @@
     ]
   },
   {
-    "title": "Lowest Fisheries Production",
-    "description": "Eswatini had one of the lowest fisheries production rates in 2022, with only 165 metric tons produced.",
-    "year": 2022,
+    "title": "High Suicide Mortality Rate Among Males",
+    "description": "In 2021, Eswatini reported a male suicide mortality rate of 45 per 100,000, indicating significant mental health challenges.",
+    "year": 2021,
     "indicatorIds": [
-      "er-fsh-prod-mt"
+      "sh-sta-suic-ma-p5"
     ],
-    "emoji": "🐟",
+    "emoji": "😔",
     "type": "WORST",
     "topicIds": [
-      "environment"
+      "health"
     ]
   },
   {
-    "title": "Highest Unemployment with Intermediate Education (Male)",
-    "description": "In 2021, 77.067% of the male labor force with intermediate education in Eswatini was unemployed, the highest rate globally.",
+    "title": "High Unemployment Rate with Intermediate Education",
+    "description": "In 2021, 57.3% of Eswatini's labor force with intermediate education were unemployed, highlighting economic challenges.",
     "year": 2021,
     "indicatorIds": [
-      "sl-uem-intm-ma-zs"
+      "sl-uem-intm-zs"
     ],
     "emoji": "📉",
     "type": "WORST",
@@ -53,17 +53,58 @@
     ]
   },
   {
-    "title": "Highest Merchandise Exports to Sub-Saharan Africa",
-    "description": "In 2023, 90.44% of Eswatini's merchandise exports were directed to low- and middle-income economies in Sub-Saharan Africa, the highest percentage globally.",
+    "title": "Low Early Marriage Rate for Women",
+    "description": "Only 0.1% of women aged 20-24 in Eswatini were married by age 15 in 2022, reflecting progress in gender equality.",
+    "year": 2022,
+    "indicatorIds": [
+      "sp-m15-2024-fe-zs"
+    ],
+    "emoji": "👰",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Merchandise Exports to Sub-Saharan Africa",
+    "description": "In 2023, 90.4% of Eswatini's merchandise exports were directed to low- and middle-income economies in Sub-Saharan Africa, indicating strong regional trade ties.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r6-zs"
     ],
-    "emoji": "🌍",
+    "emoji": "📦",
     "type": "BEST",
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "High Unemployment Rate",
+    "description": "Eswatini's total unemployment rate was 34.4% in 2024, according to ILO estimates, reflecting ongoing economic challenges.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-uem-totl-zs"
+    ],
+    "emoji": "🔍",
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Fisheries Production",
+    "description": "In 2022, Eswatini produced only 165 metric tons of fish, one of the lowest figures globally, indicating limited fisheries resources.",
+    "year": 2022,
+    "indicatorIds": [
+      "er-fsh-prod-mt"
+    ],
+    "emoji": "🐟",
+    "type": "WORST",
+    "topicIds": [
+      "environment"
     ]
   }
 ]

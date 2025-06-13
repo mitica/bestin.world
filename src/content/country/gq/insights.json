@@ -1,10 +1,10 @@
 [
   {
-    "title": "Highest Increase in Total Greenhouse Gas Emissions",
-    "description": "Equatorial Guinea experienced a 3674.11% increase in total greenhouse gas emissions excluding LULUCF from 1990 to 2023, the highest in the world.",
+    "title": "Highest Increase in Methane Emissions",
+    "description": "Equatorial Guinea experienced a staggering 2942.83% increase in methane emissions from 1990 to 2023, marking one of the highest increases globally.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-tot-zg-ar5"
+      "en-ghg-ch4-zg-ar5"
     ],
     "emoji": "🌍",
     "type": "WORST",
@@ -13,24 +13,24 @@
     ]
   },
   {
-    "title": "Highest Increase in Methane Emissions",
-    "description": "The country's methane emissions, excluding LULUCF, increased by 2942.83% from 1990 to 2023, marking the highest rise globally.",
+    "title": "Highest Increase in Total Greenhouse Gas Emissions",
+    "description": "The country's total greenhouse gas emissions surged by 3674.11% from 1990 to 2023, placing it among the top contributors to global emissions growth.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-ch4-zg-ar5"
+      "en-ghg-tot-zg-ar5"
     ],
-    "emoji": "💨",
+    "emoji": "🌫️",
     "type": "WORST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Highest Percentage of Nonperforming Loans",
-    "description": "In 2022, 55.41% of Equatorial Guinea's bank loans were nonperforming, the highest percentage worldwide.",
+    "title": "Lowest Bank Capital to Assets Ratio",
+    "description": "In 2022, Equatorial Guinea had a bank capital to assets ratio of just 1.15%, one of the lowest globally, indicating potential financial instability.",
     "year": 2022,
     "indicatorIds": [
-      "fb-ast-nper-zs"
+      "fb-bnk-capa-zs"
     ],
     "emoji": "🏦",
     "type": "WORST",
@@ -39,34 +39,36 @@
     ]
   },
   {
-    "title": "Lowest Bank Capital to Assets Ratio",
-    "description": "Equatorial Guinea had a bank capital to assets ratio of 1.15% in 2022, the lowest in the world.",
+    "title": "Highest Rate of Nonperforming Loans",
+    "description": "With 55.41% of loans being nonperforming in 2022, Equatorial Guinea's banking sector faces significant challenges.",
     "year": 2022,
     "indicatorIds": [
-      "fb-bnk-capa-zs"
+      "fb-ast-nper-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Lowest Growth in Claims on Private Sector",
-    "description": "The annual growth of claims on the private sector as a percentage of broad money was -25.95% in 2023, the lowest globally.",
-    "year": 2023,
+    "title": "Lowest Electricity Production from Renewables",
+    "description": "In 2021, Equatorial Guinea's electricity production from renewable sources was -23.72% of the total, indicating a heavy reliance on non-renewable energy.",
+    "year": 2021,
     "indicatorIds": [
-      "fm-ast-prvt-zg-m3"
+      "eg-elc-rnwx-zs"
     ],
-    "emoji": "📊",
+    "emoji": "⚡",
     "type": "WORST",
     "topicIds": [
-      "financial-sector"
+      "energy",
+      "climate-change",
+      "environment"
     ]
   },
   {
     "title": "Lowest Primary Completion Rate for Males",
-    "description": "In 2015, only 37.44% of males in the relevant age group completed primary education, the lowest rate worldwide.",
+    "description": "As of 2015, only 37.44% of males completed primary education, highlighting significant educational challenges.",
     "year": 2015,
     "indicatorIds": [
       "se-prm-cmpt-ma-zs"
@@ -79,8 +81,8 @@
     ]
   },
   {
-    "title": "Highest Percentage of Male Children Out of School",
-    "description": "62.33% of male children of primary school age were out of school in 2015, the highest percentage globally.",
+    "title": "High Percentage of Children Out of School",
+    "description": "In 2015, 62.33% of male children were out of school, one of the highest rates globally, indicating a critical need for educational reform.",
     "year": 2015,
     "indicatorIds": [
       "se-prm-uner-ma-zs"
@@ -92,11 +94,11 @@
     ]
   },
   {
-    "title": "Lowest Percentage of Trained Male Teachers in Lower Secondary Education",
-    "description": "Only 11.21% of male teachers in lower secondary education were trained in 2015, the lowest percentage worldwide.",
+    "title": "Lowest Percentage of Trained Teachers in Secondary Education",
+    "description": "Only 11.19% of teachers in lower secondary education were trained in 2015, reflecting a significant gap in educational quality.",
     "year": 2015,
     "indicatorIds": [
-      "se-sec-tcaq-lo-ma-zs"
+      "se-sec-tcaq-lo-zs"
     ],
     "emoji": "👨‍🏫",
     "type": "WORST",
@@ -105,8 +107,8 @@
     ]
   },
   {
-    "title": "Lowest Voice and Accountability Percentile Rank",
-    "description": "In 2022, Equatorial Guinea had a Voice and Accountability percentile rank of 0.48, the lowest globally.",
+    "title": "Low Voice and Accountability",
+    "description": "In 2022, Equatorial Guinea ranked in the lower percentile for voice and accountability, indicating limited political freedoms.",
     "year": 2022,
     "indicatorIds": [
       "va-per-rnk-lower"

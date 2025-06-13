@@ -1,47 +1,20 @@
 [
   {
-    "title": "Highest pupil-teacher ratio in preprimary education",
-    "description": "In 2017, Tanzania had the highest pupil-teacher ratio in preprimary education, with 113.97 students per teacher.",
+    "title": "High Pupil-Teacher Ratio in Preprimary Education",
+    "description": "In 2017, Tanzania had a pupil-teacher ratio of 113.97 in preprimary education, indicating a significant challenge in providing adequate attention to young learners.",
     "year": 2017,
     "indicatorIds": [
       "se-pre-enrl-tc-zs"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "WORST",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Highest lower secondary school starting age",
-    "description": "As of 2023, Tanzania has the highest starting age for lower secondary school at 14 years.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-sec-ages"
-    ],
-    "emoji": "🎒",
-    "type": "BEST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Highest bound rate for manufactured products",
-    "description": "In 2021, Tanzania had the highest bound rate for manufactured products at 120%.",
-    "year": 2021,
-    "indicatorIds": [
-      "tm-tax-manf-br-zs"
-    ],
-    "emoji": "🏭",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Lowest public-private partnership investment in energy",
-    "description": "In 2020, Tanzania had one of the lowest investments in energy through public-private partnerships, amounting to $1,200,000.",
+    "title": "Low Investment in Energy through Public-Private Partnerships",
+    "description": "In 2020, Tanzania's investment in energy through public-private partnerships was only $1.2 million, highlighting limited private sector involvement in the energy sector.",
     "year": 2020,
     "indicatorIds": [
       "ie-ppn-engy-cd"
@@ -53,21 +26,35 @@
     ]
   },
   {
-    "title": "Lowest patent applications by nonresidents",
-    "description": "In 2015, Tanzania had one of the lowest numbers of patent applications by nonresidents, with only 1 application.",
+    "title": "Minimal Patent Applications by Nonresidents",
+    "description": "In 2015, Tanzania recorded just one patent application by nonresidents, reflecting a low level of foreign innovation activity in the country.",
     "year": 2015,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📄",
+    "emoji": "📑",
     "type": "WORST",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Lowest change in inventories",
-    "description": "In 2023, Tanzania experienced one of the lowest changes in inventories, with a decrease of 3,192,498,275,300 in constant local currency units.",
+    "title": "High Bound Rate for Manufactured Products",
+    "description": "In 2021, Tanzania had a bound rate of 120% for manufactured products, indicating high tariff ceilings that could impact trade competitiveness.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-manf-br-zs"
+    ],
+    "emoji": "🏭",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Negative Changes in Inventories",
+    "description": "In 2023, Tanzania experienced a negative change in inventories amounting to -3,192,498,275,300 LCU, suggesting economic challenges in stock management.",
     "year": 2023,
     "indicatorIds": [
       "ne-gdi-stkb-kn"
@@ -76,6 +63,58 @@
     "type": "WORST",
     "topicIds": [
       "economy"
+    ]
+  },
+  {
+    "title": "Older Starting Age for Lower Secondary Education",
+    "description": "In 2023, the starting age for lower secondary education in Tanzania was 14 years, which is higher than many countries, potentially delaying educational progress.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-sec-ages"
+    ],
+    "emoji": "🎓",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Low Percentage of Labor Force with Advanced Education",
+    "description": "In 2020, only 29.63% of Tanzania's working-age population had advanced education, indicating a gap in higher education attainment.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-advn-zs"
+    ],
+    "emoji": "👨‍🎓",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Percentage of Male Labor Force with Advanced Education",
+    "description": "In 2020, 28.71% of Tanzania's male working-age population had advanced education, highlighting a gender disparity in educational attainment.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-advn-ma-zs"
+    ],
+    "emoji": "👨‍🏫",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Percentage of Labor Force with Intermediate Education",
+    "description": "In 2020, only 21.67% of Tanzania's working-age population had intermediate education, pointing to a need for improved educational opportunities.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-intm-zs"
+    ],
+    "emoji": "📘",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

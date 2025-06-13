@@ -1,20 +1,22 @@
 [
   {
-    "title": "Highest Net Primary Income",
-    "description": "In 2023, Japan had the highest net primary income in the world, amounting to $257.89 billion.",
+    "title": "Leading Global Investor",
+    "description": "In 2023, Japan recorded a net primary income of $257.89 billion and foreign direct investment of $170.58 billion, highlighting its significant role in global financial markets.",
     "year": 2023,
     "indicatorIds": [
-      "bn-gsr-fcty-cd"
+      "bn-gsr-fcty-cd",
+      "bn-klt-dinv-cd"
     ],
-    "emoji": "💰",
+    "emoji": "💼",
     "type": "BEST",
     "topicIds": [
-      "economy"
+      "economy",
+      "financial-sector"
     ]
   },
   {
-    "title": "Largest Population in a City",
-    "description": "Tokyo, Japan's largest city, had a population of 37,115,035 in 2024, making it the most populous city in the world.",
+    "title": "High Urban Concentration",
+    "description": "Tokyo, Japan's largest city, had a population of 37.1 million in 2024, making it one of the most populous cities worldwide.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-lcty"
@@ -26,11 +28,25 @@
     ]
   },
   {
-    "title": "Lowest Lending Interest Rate",
-    "description": "In 2017, Japan had the lowest lending interest rate globally at 0.994%.",
-    "year": 2017,
+    "title": "Heavy Government Debt",
+    "description": "Japan's central government debt reached 216.21% of GDP in 2022, reflecting significant fiscal challenges.",
+    "year": 2022,
     "indicatorIds": [
-      "fr-inr-lend"
+      "gc-dod-totl-gd-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Robust Financial Sector",
+    "description": "In 2023, Japan's domestic credit provided by the financial sector was 380.17% of GDP, indicating a highly developed financial system.",
+    "year": 2023,
+    "indicatorIds": [
+      "fs-ast-doms-gd-zs"
     ],
     "emoji": "🏦",
     "type": "BEST",
@@ -39,22 +55,75 @@
     ]
   },
   {
-    "title": "Highest Central Government Debt (% of GDP)",
-    "description": "Japan had the highest central government debt as a percentage of GDP in 2022, reaching 216.21%.",
-    "year": 2022,
+    "title": "Aging Population",
+    "description": "In 2023, 7.18% of Japan's female population and 6.87% of the male population were aged 70-74, highlighting the country's aging demographic.",
+    "year": 2023,
     "indicatorIds": [
-      "gc-dod-totl-gd-zs"
+      "sp-pop-7074-fe-5y",
+      "sp-pop-7074-ma-5y"
     ],
-    "emoji": "📉",
+    "emoji": "👵",
     "type": "WORST",
     "topicIds": [
-      "economy",
+      "health"
+    ]
+  },
+  {
+    "title": "High Educational Progression",
+    "description": "Japan achieved a progression rate to secondary school of 99.99% in 2016, showcasing its strong educational system.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-sec-prog-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Lowest Lending Interest Rate",
+    "description": "In 2017, Japan had one of the lowest lending interest rates globally at just 0.994%, making borrowing more affordable for businesses and consumers.",
+    "year": 2017,
+    "indicatorIds": [
+      "fr-inr-lend"
+    ],
+    "emoji": "📉",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Minimal Youth Unemployment",
+    "description": "In 2019, only 2.73% of male youth and 3.14% of the total youth population in Japan were not in education, employment, or training, showcasing effective youth engagement strategies.",
+    "year": 2019,
+    "indicatorIds": [
+      "sl-uem-neet-ma-zs",
+      "sl-uem-neet-zs"
+    ],
+    "emoji": "👨‍🎓",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Compensation of Employees",
+    "description": "In 2022, compensation of employees accounted for just 4.9% of Japan's total expenses, indicating a potential area for improvement in employee remuneration.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-xpn-comp-zs"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Real Effective Exchange Rate Index",
-    "description": "In 2023, Japan had the lowest real effective exchange rate index, with a value of 58.11.",
+    "title": "Weak Real Effective Exchange Rate",
+    "description": "By 2023, Japan's real effective exchange rate index stood at 58.11, suggesting a weaker currency compared to its 2010 baseline, impacting international competitiveness.",
     "year": 2023,
     "indicatorIds": [
       "px-rex-reer"
@@ -63,6 +132,20 @@
     "type": "WORST",
     "topicIds": [
       "financial-sector"
+    ]
+  },
+  {
+    "title": "Low Bound Rate for Manufactured Products",
+    "description": "In 2021, Japan's bound rate for manufactured products was 2.49%, reflecting a commitment to low tariffs and open trade policies.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-manf-br-zs"
+    ],
+    "emoji": "📦",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

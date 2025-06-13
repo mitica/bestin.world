@@ -1,7 +1,7 @@
 [
   {
-    "title": "Lowest Nitrous Oxide Emissions",
-    "description": "North Korea has achieved a significant reduction in nitrous oxide emissions, with a 67.13% decrease from 1990 levels as of 2023.",
+    "title": "Lowest Nitrous Oxide Emissions Reduction",
+    "description": "North Korea achieved a significant reduction in nitrous oxide emissions, with a 67.13% decrease from 1990 levels as of 2023.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-n2o-zg-ar5"
@@ -13,23 +13,37 @@
     ]
   },
   {
-    "title": "Lowest Hepatitis B Immunization Rate",
-    "description": "In 2023, only 16% of one-year-old children in North Korea received the Hepatitis B vaccine, one of the lowest rates globally.",
+    "title": "Lowest Data Use Score",
+    "description": "In 2023, North Korea scored just 10 out of 100 in the Statistical Performance Indicators for data use, indicating minimal utilization of data.",
     "year": 2023,
     "indicatorIds": [
-      "sh-imm-hepb"
+      "iq-spi-pil1"
     ],
-    "emoji": "💉",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "Lowest DPT Immunization Rate",
-    "description": "As of 2023, only 16% of children aged 12-23 months in North Korea were immunized against DPT, marking one of the lowest rates worldwide.",
+    "title": "Poor Regulatory Quality",
+    "description": "North Korea's regulatory quality was estimated at -2.39 in 2023, reflecting significant challenges in governance and regulation.",
     "year": 2023,
     "indicatorIds": [
+      "rq-est"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Immunization Rates for Children",
+    "description": "In 2023, only 16% of one-year-old children in North Korea received the HepB3 vaccine, and the same percentage of children aged 12-23 months were immunized with DPT.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-imm-hepb",
       "sh-imm-idpt"
     ],
     "emoji": "💉",
@@ -39,8 +53,22 @@
     ]
   },
   {
-    "title": "Highest Female Labor Force Participation",
-    "description": "In 2024, North Korea had one of the highest female labor force participation rates, with 86.98% of women aged 15-64 actively working or seeking work.",
+    "title": "Limited Rural Sanitation Services",
+    "description": "As of 2022, only 1.23% of North Korea's rural population had access to safely managed sanitation services.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-smss-ru-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Female Labor Force Participation",
+    "description": "In 2024, 86.98% of females aged 15-64 in North Korea participated in the labor force, indicating strong female workforce engagement.",
     "year": 2024,
     "indicatorIds": [
       "sl-tlf-acti-fe-zs"
@@ -53,13 +81,13 @@
     ]
   },
   {
-    "title": "Highest Total Labor Force Participation",
-    "description": "North Korea's total labor force participation rate was 88.996% in 2024, one of the highest globally for the population aged 15-64.",
+    "title": "High Overall Labor Force Participation",
+    "description": "North Korea's total labor force participation rate was 88.996% in 2024, one of the highest globally.",
     "year": 2024,
     "indicatorIds": [
       "sl-tlf-acti-zs"
     ],
-    "emoji": "👷",
+    "emoji": "👷‍♂️",
     "type": "BEST",
     "topicIds": [
       "social-protection",
@@ -67,13 +95,41 @@
     ]
   },
   {
-    "title": "Lowest Import Volume Index",
-    "description": "In 2021, North Korea had one of the lowest import volume indices, with a value of 8.55, indicating minimal import activity compared to 2015.",
+    "title": "Minimal Child Marriage Rates",
+    "description": "In 2017, only 0.1% of women aged 20-24 in North Korea were married by age 18, indicating low prevalence of child marriage.",
+    "year": 2017,
+    "indicatorIds": [
+      "sp-m18-2024-fe-zs"
+    ],
+    "emoji": "👰",
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Unmet Need for Contraception",
+    "description": "As of 2017, only 6.6% of married women aged 15-49 in North Korea had an unmet need for contraception.",
+    "year": 2017,
+    "indicatorIds": [
+      "sp-uwt-tfrt"
+    ],
+    "emoji": "💊",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Minimal Import Volume and Value",
+    "description": "In 2021, North Korea's import volume index was 8.55, and the import value index was 10.16, indicating low levels of imports.",
     "year": 2021,
     "indicatorIds": [
-      "tm-qty-mrch-xd-wd"
+      "tm-qty-mrch-xd-wd",
+      "tm-val-mrch-xd-wd"
     ],
-    "emoji": "📉",
+    "emoji": "📦",
     "type": "WORST",
     "topicIds": [
       "private-sector",
@@ -81,31 +137,46 @@
     ]
   },
   {
-    "title": "Lowest Export Volume Index",
-    "description": "North Korea's export volume index was 1.90 in 2021, one of the lowest globally, reflecting a significant decrease in export activity since 2015.",
-    "year": 2021,
+    "title": "High Dependence on Regional Imports",
+    "description": "In 2023, 97.10% of North Korea's merchandise imports came from low- and middle-income economies in East Asia & Pacific.",
+    "year": 2023,
     "indicatorIds": [
-      "tx-qty-mrch-xd-wd"
+      "tm-val-mrch-r1-zs",
+      "tm-val-mrch-wr-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🌏",
+    "type": "BEST",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Lowest Export Value Index",
-    "description": "In 2021, North Korea's export value index was 3.16, one of the lowest in the world, indicating a sharp decline in export value since 2015.",
+    "title": "Minimal Export Activity",
+    "description": "North Korea's export volume index was 1.90, and the export value index was 3.16 in 2021, reflecting limited export activity.",
     "year": 2021,
     "indicatorIds": [
+      "tx-qty-mrch-xd-wd",
       "tx-val-mrch-xd-wd"
     ],
-    "emoji": "📉",
+    "emoji": "🚢",
     "type": "WORST",
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "Low Voice and Accountability",
+    "description": "In 2023, North Korea's voice and accountability estimate was -1.98, indicating restricted civil liberties and political rights.",
+    "year": 2023,
+    "indicatorIds": [
+      "va-est"
+    ],
+    "emoji": "🔇",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

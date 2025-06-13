@@ -1,20 +1,99 @@
 [
   {
-    "title": "Highest Net ODA Received",
-    "description": "In 2022, Lebanon received net official development assistance (ODA) amounting to 554.48% of its gross capital formation, the highest percentage globally.",
+    "title": "Highest Short-term Debt Relative to Exports",
+    "description": "In 2023, Lebanon's short-term debt was 135.71% of its exports of goods, services, and primary income, indicating a significant reliance on external financing.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-dstc-xp-zs"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Largest Net ODA Received Relative to Capital Formation",
+    "description": "In 2022, Lebanon received net official development assistance amounting to 554.48% of its gross capital formation, highlighting substantial foreign aid dependency.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-gi-zs"
     ],
-    "emoji": "💰",
+    "emoji": "🌍",
     "type": "BEST",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Lowest Gross Capital Formation Growth",
-    "description": "Lebanon experienced a dramatic decline in gross capital formation with an annual growth rate of -95.58% in 2022, the lowest in the world.",
+    "title": "Lowest PM2.5 Pollution Exposure",
+    "description": "In 2017, only a negligible portion of Lebanon's population was exposed to PM2.5 pollution levels exceeding WHO's Interim Target-1 value, showcasing effective air quality management.",
+    "year": 2017,
+    "indicatorIds": [
+      "en-atm-pm25-mc-t1-zs"
+    ],
+    "emoji": "🌬️",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Highest Household Consumption Expenditure Relative to GDP",
+    "description": "In 2022, household and NPISHs final consumption expenditure accounted for 140.38% of Lebanon's GDP, reflecting a consumption-driven economy.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-prvt-zs"
+    ],
+    "emoji": "🏠",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Private Sector Capital Formation",
+    "description": "In 2022, Lebanon's gross fixed capital formation in the private sector was just 1.17% of GDP, indicating minimal private investment.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-fprv-zs"
+    ],
+    "emoji": "🏗️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Sharp Decline in Gross Fixed Capital Formation",
+    "description": "Lebanon experienced an 88.59% decline in gross fixed capital formation in 2022, reflecting severe economic contraction.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-ftot-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Gross Fixed Capital Formation Relative to GDP",
+    "description": "In 2022, Lebanon's gross fixed capital formation was only 1.23% of GDP, highlighting limited investment in fixed assets.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-ftot-zs"
+    ],
+    "emoji": "🏗️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Steep Decline in Gross Capital Formation",
+    "description": "In 2022, Lebanon's gross capital formation plummeted by 95.58%, indicating a drastic reduction in investment activities.",
     "year": 2022,
     "indicatorIds": [
       "ne-gdi-totl-kd-zg"
@@ -26,8 +105,86 @@
     ]
   },
   {
-    "title": "Lowest Gross Savings",
-    "description": "In 2022, Lebanon's gross savings were -21.01% of GDP, marking the lowest savings rate globally.",
+    "title": "Lowest Gross Capital Formation Relative to GDP",
+    "description": "Lebanon's gross capital formation was merely 1.23% of GDP in 2022, underscoring a significant investment shortfall.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-totl-zs"
+    ],
+    "emoji": "🏗️",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Industry Value Added Relative to GDP",
+    "description": "In 2022, the industry sector, including construction, contributed only 2.39% to Lebanon's GDP, indicating a weak industrial base.",
+    "year": 2022,
+    "indicatorIds": [
+      "nv-ind-totl-zs"
+    ],
+    "emoji": "🏭",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Negative Gross Domestic Savings",
+    "description": "Lebanon recorded a gross domestic savings of -252.28 trillion LCU in 2022, reflecting a severe savings deficit.",
+    "year": 2022,
+    "indicatorIds": [
+      "ny-gds-totl-cn"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Negative Gross Savings in US Dollars",
+    "description": "In 2022, Lebanon's gross savings were -4.41 billion USD, indicating a significant financial imbalance.",
+    "year": 2022,
+    "indicatorIds": [
+      "ny-gns-ictr-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Negative Gross Savings in Local Currency",
+    "description": "Lebanon's gross savings amounted to -120.46 trillion LCU in 2022, highlighting a critical economic challenge.",
+    "year": 2022,
+    "indicatorIds": [
+      "ny-gns-ictr-cn"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Gross Savings Relative to GNI",
+    "description": "In 2022, Lebanon's gross savings were -21.88% of GNI, indicating a substantial savings deficit.",
+    "year": 2022,
+    "indicatorIds": [
+      "ny-gns-ictr-gn-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Lowest Gross Savings Relative to GDP",
+    "description": "Lebanon's gross savings were -21.01% of GDP in 2022, reflecting a severe lack of financial reserves.",
     "year": 2022,
     "indicatorIds": [
       "ny-gns-ictr-zs"
@@ -37,5 +194,16 @@
     "topicIds": [
       "economy"
     ]
+  },
+  {
+    "title": "Significant Refugee Population",
+    "description": "In 2023, Lebanon hosted 490,636 refugees under the UNRWA mandate, highlighting its role as a major refugee host country.",
+    "year": 2023,
+    "indicatorIds": [
+      "sm-pop-rrwa-ea"
+    ],
+    "emoji": "🛂",
+    "type": "BEST",
+    "topicIds": []
   }
 ]

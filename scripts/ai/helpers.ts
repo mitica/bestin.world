@@ -5,39 +5,61 @@ import type { AICountryTopsInput } from "./types";
 export const getCountryInsights = async (
   input: AICountryTopsInput
 ): Promise<InsightInfo[]> => {
-  const prompt = `Here are statistics about a country. I need from you to generate an overview/summary so that the viewer would understand in a simple way in what fields the country is best/worst.
-- title, i.e. Most powerful army
-- description - describes the title with numbers and dates in 1 or 2 sentences
+  const count = input.indicators.length;
+
+  if (count < 20) return execute(input);
+  const chunks: AICountryTopsInput[] = [
+    {
+      ...input,
+      indicators: input.indicators.filter((it) => it.type === "max")
+    },
+    { ...input, indicators: input.indicators.filter((it) => it.type === "min") }
+  ].filter((it) => it.indicators.length > 0);
+
+  const results: InsightInfo[] = [];
+  for (const chunk of chunks) {
+    const insights = await execute(chunk);
+    results.push(...insights);
+    await new Promise((resolve) => setTimeout(resolve, 1000)); // Throttle requests
+  }
+  return results;
+};
+
+const execute = async (
+  input: AICountryTopsInput
+): Promise<InsightInfo[]> => {
+  const count = input.indicators.length;
+  const prompt = `Below are indicators about a country. I need from you to generate a list of insights so that the viewer would understand country's strengths and weaknesses in the world.
+- title, i.e. Most powerful army. No emoji
+- description - describes the title with numbers and dates in 1 or 2 sentences. No emoji
 - year - year of statistics
 - indicatorIds - input indicator ids the title was generated from
 - emoji
 - type = BEST, WORST
 
 Country: ${input.country}
-Indicators:
-${JSON.stringify(input.indicators, null, 2)}
+Input Indicators:
+${input.indicators
+  .map(
+    (indicator) =>
+      `- ${indicator.name} (id=${indicator.id}; year=${indicator.year}; value=${indicator.value}; type=${indicator.type})`
+  )
+  .join("\n")}
 
 ----
 
 indicator.type = max = Highest values in the world
 indicator.type = min = Lowest values in the world
+
+Take into account all ${count} input indicators.
+indicatorIds may contain multiple ids, if the title is based on multiple indicators.
 `;
 
   const response = await openai.chat.completions.create({
     model: "gpt-4o",
-    max_tokens: 8000,
-    messages: [
-      {
-        role: "system",
-        content:
-          "You are a helpful assistant that generates summaries of country statistics based on provided indicators."
-      },
-      {
-        role: "user",
-        content: prompt
-      }
-    ],
-    temperature: 0.1,
+    max_tokens: 16000,
+    messages: [{ role: "user", content: prompt }],
+    temperature: 0.2,
     n: 1,
     response_format: {
       type: "json_schema",

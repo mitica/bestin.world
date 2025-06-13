@@ -1,7 +1,7 @@
 [
   {
-    "title": "High PM2.5 Pollution Exposure",
-    "description": "In 2017, 100% of Kenya's population was exposed to PM2.5 pollution levels exceeding the WHO guideline and Interim Target-3 values.",
+    "title": "High Exposure to PM2.5 Pollution",
+    "description": "In 2017, 100% of Kenya's population was exposed to PM2.5 levels exceeding both the WHO Interim Target-3 and guideline values, indicating severe air quality issues.",
     "year": 2017,
     "indicatorIds": [
       "en-atm-pm25-mc-t3-zs",
@@ -15,8 +15,35 @@
     ]
   },
   {
-    "title": "Excellent Female Progression to Secondary School",
-    "description": "In 2015, 100% of females in Kenya progressed to secondary school, indicating strong educational advancement for girls.",
+    "title": "Strong Macroeconomic Management",
+    "description": "Kenya received a CPIA macroeconomic management rating of 4.5 in 2023, reflecting a robust economic policy framework.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-macr-xq"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Arms Imports",
+    "description": "In 2022, Kenya's arms imports were valued at 1,000,000 SIPRI trend indicator values, among the lowest globally, highlighting limited military expenditure.",
+    "year": 2022,
+    "indicatorIds": [
+      "ms-mil-mprt-kd"
+    ],
+    "emoji": "🕊️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Universal Female Progression to Secondary School",
+    "description": "By 2015, Kenya achieved a 100% progression rate for females advancing to secondary education, showcasing significant strides in gender equality in education.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-prog-fe-zs"

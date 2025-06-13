@@ -1,20 +1,46 @@
 [
   {
-    "title": "Highest Fossil Fuel Energy Consumption",
-    "description": "In 2022, Azerbaijan had a fossil fuel energy consumption rate of 100% of its total energy consumption, the highest in the world.",
+    "title": "Complete Reliance on Fossil Fuels",
+    "description": "In 2022, Azerbaijan's energy consumption was entirely dependent on fossil fuels, making up 100% of the total energy usage.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-fo-zs"
     ],
     "emoji": "⛽",
-    "type": "BEST",
+    "type": "WORST",
     "topicIds": [
       "energy"
     ]
   },
   {
-    "title": "Lowest Prevalence of Tobacco Use Among Females",
-    "description": "In 2022, only 0.1% of female adults in Azerbaijan were current tobacco users, the lowest prevalence in the world.",
+    "title": "Low Adequacy of Social Insurance Programs",
+    "description": "As of 2015, only 24.26% of the total welfare of beneficiary households in Azerbaijan was covered by social insurance programs, indicating a significant gap in social safety nets.",
+    "year": 2015,
+    "indicatorIds": [
+      "per_si_allsi-adq_pop_tot"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Significant Support to Poorest Quintile through Social Insurance",
+    "description": "In 2015, 15.92% of Azerbaijan's total social insurance benefits were directed towards the poorest quintile, showcasing a targeted approach to aid the most vulnerable.",
+    "year": 2015,
+    "indicatorIds": [
+      "per_si_allsi-ben_q1_tot"
+    ],
+    "emoji": "🤝",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Tobacco Use Among Female Adults",
+    "description": "By 2022, only 0.1% of female adults in Azerbaijan were current tobacco users, reflecting one of the lowest prevalence rates globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok-fe"
@@ -24,19 +50,6 @@
     "topicIds": [
       "health",
       "gender"
-    ]
-  },
-  {
-    "title": "Lowest Adequacy of Social Insurance Programs",
-    "description": "In 2015, the adequacy of social insurance programs in Azerbaijan was only 0.24% of the total welfare of beneficiary households, the lowest in the world.",
-    "year": 2015,
-    "indicatorIds": [
-      "per_si_allsi-adq_pop_tot"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
     ]
   }
 ]

@@ -1,36 +1,10 @@
 [
   {
-    "title": "Highest PPG from other private creditors",
-    "description": "In 2023, South Africa had the highest PPG from other private creditors, amounting to $750 million.",
+    "title": "High Unemployment Rate Among Educated Males",
+    "description": "In 2023, South Africa recorded a 36.179% unemployment rate among males with basic education, one of the highest globally.",
     "year": 2023,
     "indicatorIds": [
-      "dt-nfl-prop-cd"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Fewest required tax meetings",
-    "description": "In 2020, South Africa had the fewest required meetings with tax officials, averaging just 1 meeting for affected firms.",
-    "year": 2020,
-    "indicatorIds": [
-      "ic-tax-metg"
-    ],
-    "emoji": "🧾",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Highest unemployment with basic education",
-    "description": "In 2023, South Africa had the highest unemployment rate for individuals with basic education, with 38.607% of the labor force affected.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-uem-basc-zs"
+      "sl-uem-basc-ma-zs"
     ],
     "emoji": "📉",
     "type": "WORST",
@@ -39,8 +13,21 @@
     ]
   },
   {
-    "title": "Highest lower secondary school starting age",
-    "description": "In 2023, South Africa had the highest starting age for lower secondary school, set at 14 years.",
+    "title": "Significant Unemployment Among Educated Workforce",
+    "description": "The unemployment rate for individuals with basic education reached 38.607% in 2023, indicating a major challenge in the labor market.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-uem-basc-zs"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Young Age for Starting Lower Secondary Education",
+    "description": "In 2023, South Africa had one of the highest starting ages for lower secondary school at 14 years, potentially impacting early educational development.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-ages"
@@ -49,6 +36,32 @@
     "type": "WORST",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "title": "Efficient Tax Meeting Requirements",
+    "description": "In 2020, South African firms required an average of just one meeting with tax officials, showcasing an efficient tax administration system.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-tax-metg"
+    ],
+    "emoji": "💼",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "High Private Sector Debt",
+    "description": "In 2023, South Africa's debt from private creditors reached $750 million, indicating a significant reliance on private sector borrowing.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-prop-cd"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
     ]
   }
 ]

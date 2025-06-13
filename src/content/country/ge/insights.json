@@ -1,7 +1,18 @@
 [
   {
-    "title": "Efficient Financial Services",
-    "description": "In 2024, Georgia achieved a high score of 98.23 in the operational efficiency of receiving financial services, indicating a very efficient financial sector.",
+    "title": "Efficient Business Establishment",
+    "description": "In 2024, Georgia achieved an impressive score of 95.5 in operational efficiency for establishing a business location, showcasing its conducive environment for new businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p3"
+    ],
+    "emoji": "🏢",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Top-tier Financial Services Efficiency",
+    "description": "Georgia's operational efficiency in receiving financial services reached a remarkable score of 98.23 in 2024, highlighting its robust financial infrastructure.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-p3"
@@ -12,7 +23,7 @@
   },
   {
     "title": "High Urban Population Concentration",
-    "description": "As of 2024, Georgia has a relatively low population of 1,084,471 living in urban agglomerations of more than 1 million, suggesting a lower urban concentration compared to other countries.",
+    "description": "As of 2024, Georgia has one of the lowest populations in urban agglomerations over 1 million, with only 1,084,471 people, indicating a more dispersed urban population.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty"
@@ -22,5 +33,54 @@
     "topicIds": [
       "urban-development"
     ]
+  },
+  {
+    "title": "Strong Business Location Appeal",
+    "description": "In 2024, Georgia scored 83.01 in the overall business location index, reflecting its attractiveness for businesses seeking new locations.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-os"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "Notable Female Educational Attainment",
+    "description": "By 2023, 27.39% of Georgian women aged 25 and above had attained at least a Master's degree, underscoring the country's commitment to female education.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-ter-cuat-ms-fe-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Current Education Expenditure",
+    "description": "In 2023, Georgia allocated 38.20% of its total expenditure in public institutions to current education, one of the highest percentages globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-xpd-ctot-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Competitive Labor Market",
+    "description": "Georgia's labor market scored 83.46 in 2024, indicating a competitive and efficient workforce environment.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-lb-os"
+    ],
+    "emoji": "👷",
+    "type": "BEST",
+    "topicIds": []
   }
 ]

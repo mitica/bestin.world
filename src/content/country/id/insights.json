@@ -1,33 +1,44 @@
 [
   {
-    "title": "Highest CO2 Emissions from Land Use",
-    "description": "In 2022, Indonesia had the highest carbon dioxide net fluxes from land use, land-use change, and forestry, excluding non-tropical fires, amounting to 924.85 Mt CO2e.",
-    "year": 2022,
-    "indicatorIds": [
-      "en-ghg-co2-lu-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "WORST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Lowest Percentage of Trained Preprimary Teachers",
-    "description": "In 2023, only 3.22% of preprimary teachers in Indonesia were trained, the lowest percentage globally.",
+    "title": "High Gross Savings Rate",
+    "description": "In 2023, Indonesia achieved a gross savings rate of 7,510,595,299,407,600 LCU, indicating a strong capacity for future investments and economic stability.",
     "year": 2023,
     "indicatorIds": [
-      "se-pre-tcaq-zs"
+      "ny-gns-ictr-cn"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💰",
+    "type": "BEST",
     "topicIds": [
-      "education"
+      "economy"
     ]
   },
   {
-    "title": "Highest Prevalence of Tobacco Use Among Males",
-    "description": "In 2022, 73.1% of male adults in Indonesia were current tobacco users, the highest prevalence in the world.",
+    "title": "Significant Manufacturing Sector",
+    "description": "Indonesia's manufacturing sector added a value of 2,507,799,800,000,000 LCU in 2023, showcasing its industrial strength and contribution to the economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-manf-kn"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Efficient Utility Services",
+    "description": "In 2024, Indonesia scored 98.96 in operational efficiency of utility service provision, reflecting high standards in utility management.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-us-p3"
+    ],
+    "emoji": "⚡",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "High Prevalence of Tobacco Use Among Males",
+    "description": "In 2022, 73.1% of male adults in Indonesia were current tobacco users, indicating a significant public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok-ma"
@@ -37,6 +48,45 @@
     "topicIds": [
       "health",
       "gender"
+    ]
+  },
+  {
+    "title": "Low Percentage of Trained Preprimary Teachers",
+    "description": "In 2023, only 3.22% of preprimary teachers in Indonesia were trained, highlighting a critical area for educational development.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-pre-tcaq-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Negative Net Primary Income",
+    "description": "In 2023, Indonesia experienced a net primary income of -537,935,133,823,997 LCU, indicating more income was paid abroad than received.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gsr-nfcy-cn"
+    ],
+    "emoji": "🔄",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Carbon Dioxide Emissions from LULUCF",
+    "description": "In 2022, Indonesia's CO2 net fluxes from land use, land-use change, and forestry were 924.85 Mt CO2e, contributing significantly to global emissions.",
+    "year": 2022,
+    "indicatorIds": [
+      "en-ghg-co2-lu-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "WORST",
+    "topicIds": [
+      "environment"
     ]
   }
 ]

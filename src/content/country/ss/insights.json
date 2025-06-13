@@ -1,35 +1,7 @@
 [
   {
-    "title": "Lowest Fertilizer Consumption",
-    "description": "In 2022, South Sudan had the lowest fertilizer consumption in the world, with only 0.0006 kilograms per hectare of arable land.",
-    "year": 2022,
-    "indicatorIds": [
-      "ag-con-fert-zs"
-    ],
-    "emoji": "🌱",
-    "type": "WORST",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Lowest Access to Electricity",
-    "description": "As of 2023, only 5.4% of the population in South Sudan had access to electricity, the lowest rate globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "eg-elc-accs-zs"
-    ],
-    "emoji": "💡",
-    "type": "WORST",
-    "topicIds": [
-      "energy",
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "Highest Population Living in Slums",
-    "description": "In 2016, 94.2% of South Sudan's urban population lived in slums, the highest percentage worldwide.",
+    "title": "High Urban Slum Population",
+    "description": "In 2016, 94.2% of South Sudan's urban population lived in slums, indicating significant urban poverty and inadequate housing conditions.",
     "year": 2016,
     "indicatorIds": [
       "en-pop-slum-ur-zs"
@@ -43,57 +15,257 @@
     ]
   },
   {
-    "title": "Lowest School Enrollment Rates",
-    "description": "In 2015, South Sudan had the lowest net enrollment rate for secondary education at 5.5%, with female enrollment even lower at 4.5%.",
+    "title": "Excessive Government Spending",
+    "description": "In 2022, South Sudan's primary government expenditures were 168% of the original approved budget, reflecting potential fiscal mismanagement.",
+    "year": 2022,
+    "indicatorIds": [
+      "gf-xpd-budg-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Rate of Over-age Students",
+    "description": "As of 2015, 50.2% of male primary students and 48.6% of all primary students were over-age, suggesting challenges in the education system.",
     "year": 2015,
     "indicatorIds": [
-      "se-sec-nenr",
-      "se-sec-nenr-fe"
+      "se-prm-oenr-ma-zs",
+      "se-prm-oenr-zs"
     ],
     "emoji": "📚",
     "type": "WORST",
     "topicIds": [
-      "education",
-      "gender"
+      "education"
     ]
   },
   {
-    "title": "Highest Poverty Rate",
-    "description": "In 2016, 82.3% of South Sudan's population lived below the national poverty line, one of the highest rates globally.",
+    "title": "Significant School Dropout Rates",
+    "description": "In 2015, 63% of children of primary school age were out of school, highlighting barriers to education access.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-prm-uner-zs"
+    ],
+    "emoji": "🚸",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "High Pupil-Teacher Ratio in Secondary Education",
+    "description": "In 2015, the pupil-teacher ratio in lower secondary schools was 46.7, indicating overcrowded classrooms.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-sec-enrl-lo-tc-zs"
+    ],
+    "emoji": "👩‍🏫",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Elevated Neonatal Mortality Rate",
+    "description": "As of 2023, South Sudan had a neonatal mortality rate of 40.2 per 1,000 live births, reflecting healthcare challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-nmrt"
+    ],
+    "emoji": "🍼",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Poverty Levels",
+    "description": "In 2016, 82.3% of the population lived below the national poverty line, indicating widespread economic hardship.",
     "year": 2016,
     "indicatorIds": [
       "si-pov-nahc"
     ],
-    "emoji": "💸",
+    "emoji": "💰",
     "type": "WORST",
     "topicIds": [
       "poverty"
     ]
   },
   {
-    "title": "Highest Prevalence of Severe Food Insecurity",
-    "description": "In 2022, 63.2% of South Sudan's population experienced severe food insecurity, the highest prevalence in the world.",
+    "title": "Severe Food Insecurity",
+    "description": "In 2022, 63.2% of the population experienced severe food insecurity, highlighting critical food access issues.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-svfi-zs"
     ],
-    "emoji": "🍽️",
+    "emoji": "🥖",
     "type": "WORST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Highest Infant Mortality Rate",
-    "description": "In 2023, South Sudan had the highest infant mortality rate, with 72.6 deaths per 1,000 live births.",
+    "title": "High Infant Mortality Rates",
+    "description": "As of 2023, the infant mortality rate was 72.6 per 1,000 live births, with female and male rates at 66.8 and 78.3, respectively.",
     "year": 2023,
     "indicatorIds": [
-      "sp-dyn-imrt-in"
+      "sp-dyn-imrt-fe-in",
+      "sp-dyn-imrt-in",
+      "sp-dyn-imrt-ma-in"
     ],
     "emoji": "👶",
     "type": "WORST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Youthful Population",
+    "description": "In 2023, 12.3% of the female and 12.9% of the male population were aged 15-19, indicating a young demographic.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-1519-fe-5y",
+      "sp-pop-1519-ma-5y"
+    ],
+    "emoji": "👦👧",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Lowest Fertilizer Consumption",
+    "description": "In 2022, South Sudan had the lowest fertilizer consumption globally, with only 0.0006 kilograms per hectare of arable land.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-con-fert-zs"
+    ],
+    "emoji": "🌱",
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
+  },
+  {
+    "title": "Lowest Access to Electricity",
+    "description": "As of 2023, only 5.4% of South Sudan's population had access to electricity, making it one of the lowest in the world.",
+    "year": 2023,
+    "indicatorIds": [
+      "eg-elc-accs-zs"
+    ],
+    "emoji": "🔌",
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "title": "Lowest Control of Corruption",
+    "description": "In 2023, South Sudan scored -1.97 in the Control of Corruption Estimate, indicating a severe corruption issue.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-est"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest Government Effectiveness",
+    "description": "With a score of -2.33 in 2023, South Sudan ranks among the lowest in government effectiveness globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-est"
+    ],
+    "emoji": "🏛️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest School Enrollment Rates",
+    "description": "In 2015, South Sudan's net secondary school enrollment was only 5.48%, one of the lowest globally.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-sec-nenr"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Lowest Financial Inclusion",
+    "description": "In 2021, only 5.83% of South Sudan's population aged 15+ had an account at a financial institution or mobile-money-service provider.",
+    "year": 2021,
+    "indicatorIds": [
+      "fx-own-totl-zs"
+    ],
+    "emoji": "💳",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Lowest CPIA Ratings",
+    "description": "South Sudan scored 1 in the CPIA transparency, accountability, and corruption in the public sector rating in 2023, the lowest possible score.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-tran-xq"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest Statistical Performance",
+    "description": "In 2023, South Sudan's overall statistical performance score was 27.51, indicating significant data challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-spi-ovrl"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Lowest Energy Imports",
+    "description": "In 2022, South Sudan had a net energy import value of -859.50% of energy use, indicating a unique energy profile.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-imp-cons-zs"
+    ],
+    "emoji": "⚡",
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Political Stability",
+    "description": "South Sudan's political stability percentile rank was 0.47 in 2023, reflecting ongoing challenges in maintaining peace.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-per-rnk-lower"
+    ],
+    "emoji": "🕊️",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

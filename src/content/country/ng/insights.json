@@ -1,20 +1,7 @@
 [
   {
-    "title": "Lowest Investment in ICT",
-    "description": "In 2023, Nigeria had one of the lowest investments in ICT with private participation, amounting to only $4,920,000.",
-    "year": 2023,
-    "indicatorIds": [
-      "ie-ppi-icti-cd"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "High Maternal Mortality Ratio",
-    "description": "Nigeria recorded a high maternal mortality ratio of 993 per 100,000 live births in 2023, indicating significant challenges in maternal health.",
+    "title": "High Maternal Mortality Rate",
+    "description": "In 2023, Nigeria recorded a maternal mortality ratio of 993 per 100,000 live births, one of the highest globally.",
     "year": 2023,
     "indicatorIds": [
       "sh-sta-mmrt"
@@ -25,6 +12,19 @@
       "health",
       "gender",
       "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Life Expectancy",
+    "description": "As of 2023, the life expectancy at birth in Nigeria is 54.462 years, significantly lower than the global average.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-dyn-le00-in"
+    ],
+    "emoji": "⏳",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   },
   {
@@ -41,36 +41,21 @@
     ]
   },
   {
-    "title": "Low Life Expectancy",
-    "description": "As of 2023, Nigeria had a low life expectancy at birth, with an average of 54.46 years for the total population.",
+    "title": "Low Investment in ICT",
+    "description": "In 2023, Nigeria's investment in ICT with private participation was only $4,920,000, indicating limited growth in this sector.",
     "year": 2023,
     "indicatorIds": [
-      "sp-dyn-le00-in"
+      "ie-ppi-icti-cd"
     ],
-    "emoji": "⏳",
+    "emoji": "💻",
     "type": "WORST",
     "topicIds": [
-      "health"
+      "infrastructure"
     ]
   },
   {
-    "title": "Low Female Life Expectancy",
-    "description": "In 2023, the life expectancy at birth for females in Nigeria was only 54.74 years, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-dyn-le00-fe-in"
-    ],
-    "emoji": "👩⏳",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Tobacco Use",
-    "description": "In 2022, only 3.3% of adults in Nigeria used tobacco, one of the lowest rates worldwide.",
+    "title": "Low Tobacco Use Among Adults",
+    "description": "In 2022, only 3.3% of adults in Nigeria reported current tobacco use, one of the lowest rates globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok"
@@ -82,8 +67,36 @@
     ]
   },
   {
-    "title": "Low Prevalence of Tobacco Use Among Males",
-    "description": "In 2022, the prevalence of tobacco use among male adults in Nigeria was 6.1%, one of the lowest globally.",
+    "title": "Low Female Part-Time Employment",
+    "description": "In 2016, only 1.49% of female employment in Nigeria was part-time, suggesting limited flexibility in work arrangements for women.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-tlf-part-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Male Employment as Employers",
+    "description": "In 2023, 26.34% of employed males in Nigeria were employers, indicating a significant entrepreneurial spirit among men.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-mpyr-ma-zs"
+    ],
+    "emoji": "👔",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Tobacco Use Among Males",
+    "description": "In 2022, only 6.1% of male adults in Nigeria reported current tobacco use, reflecting a healthier lifestyle choice.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok-ma"
@@ -93,6 +106,34 @@
     "topicIds": [
       "health",
       "gender"
+    ]
+  },
+  {
+    "title": "Limited Voice and Accountability",
+    "description": "In 2023, Nigeria had 14 sources for voice and accountability, reflecting challenges in democratic processes and citizen engagement.",
+    "year": 2023,
+    "indicatorIds": [
+      "va-no-src"
+    ],
+    "emoji": "🔇",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Female Life Expectancy",
+    "description": "In 2023, the life expectancy for females in Nigeria was 54.743 years, highlighting health and social challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-dyn-le00-fe-in"
+    ],
+    "emoji": "⏳",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender",
+      "social-development"
     ]
   }
 ]

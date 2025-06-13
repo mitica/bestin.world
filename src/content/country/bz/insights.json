@@ -1,7 +1,33 @@
 [
   {
-    "title": "Lowest High-Technology Exports",
-    "description": "In 2022, Belize had one of the lowest high-technology exports in the world, valued at just 17 US dollars.",
+    "title": "Minimal Investment in ICT Public-Private Partnerships",
+    "description": "In 2019, Belize recorded an investment of $8.6 million in public-private partnerships for ICT, one of the lowest globally.",
+    "year": 2019,
+    "indicatorIds": [
+      "ie-ppn-icti-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Low Number of Children Living with HIV",
+    "description": "As of 2022, Belize had 100 children aged 0-14 living with HIV, reflecting one of the lowest figures worldwide.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-0014"
+    ],
+    "emoji": "🌟",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Negligible High-Technology Exports",
+    "description": "In 2022, Belize's high-technology exports were valued at just $17, marking one of the lowest contributions globally.",
     "year": 2022,
     "indicatorIds": [
       "tx-val-tech-cd"
@@ -15,44 +41,18 @@
     ]
   },
   {
-    "title": "Lowest Percentage of High-Technology Exports",
-    "description": "In 2022, high-technology exports made up only 0.00018% of Belize's manufactured exports, one of the lowest percentages globally.",
+    "title": "Minimal Contribution of High-Tech Exports to Manufacturing",
+    "description": "High-technology exports constituted a mere 0.00018% of Belize's manufactured exports in 2022, one of the lowest percentages worldwide.",
     "year": 2022,
     "indicatorIds": [
       "tx-val-tech-mf-zs"
     ],
-    "emoji": "🔍",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "private-sector",
       "science",
       "trade"
-    ]
-  },
-  {
-    "title": "Low Number of Children Living with HIV",
-    "description": "As of 2022, Belize had a relatively low number of children aged 0-14 living with HIV, totaling 100.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-hiv-0014"
-    ],
-    "emoji": "👶",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Public Private Partnerships in ICT",
-    "description": "In 2019, Belize had a public private partnership investment in ICT amounting to 8.6 million US dollars.",
-    "year": 2019,
-    "indicatorIds": [
-      "ie-ppn-icti-cd"
-    ],
-    "emoji": "💻",
-    "type": "BEST",
-    "topicIds": [
-      "infrastructure"
     ]
   }
 ]

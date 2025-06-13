@@ -1,46 +1,33 @@
 [
   {
-    "title": "Lowest Military Expenditure",
-    "description": "In 2023, Haiti had one of the lowest military expenditures in the world, spending only 0.05% of its GDP on the military.",
+    "title": "Lowest Military Expenditure as a Percentage of GDP",
+    "description": "In 2023, Haiti allocated only 0.05% of its GDP to military expenditure, one of the lowest percentages globally.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xpnd-gd-zs"
     ],
     "emoji": "🕊️",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Armed Forces Personnel",
-    "description": "As of 2020, only 0.02% of Haiti's total labor force was part of the armed forces, one of the lowest percentages globally.",
+    "title": "Minimal Armed Forces Personnel",
+    "description": "As of 2020, only 0.02% of Haiti's total labor force was part of the armed forces, indicating a minimal military presence.",
     "year": 2020,
     "indicatorIds": [
       "ms-mil-totl-tf-zs"
     ],
     "emoji": "👥",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Consumption of Iodized Salt",
-    "description": "In 2017, only 7.5% of households in Haiti consumed iodized salt, indicating a low level of consumption compared to other countries.",
-    "year": 2017,
-    "indicatorIds": [
-      "sn-itk-salt-zs"
-    ],
-    "emoji": "🧂",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Female Headed Households",
-    "description": "In 2017, 45.1% of households in Haiti were headed by females, one of the highest percentages in the world.",
+    "title": "High Proportion of Female-Headed Households",
+    "description": "In 2017, 45.1% of households in Haiti were headed by females, reflecting a significant role of women in household leadership.",
     "year": 2017,
     "indicatorIds": [
       "sp-hou-fema-zs"
@@ -50,6 +37,19 @@
     "topicIds": [
       "health",
       "gender"
+    ]
+  },
+  {
+    "title": "Low Consumption of Iodized Salt",
+    "description": "Only 7.5% of households in Haiti consumed iodized salt in 2017, one of the lowest rates globally, raising concerns about iodine deficiency.",
+    "year": 2017,
+    "indicatorIds": [
+      "sn-itk-salt-zs"
+    ],
+    "emoji": "🧂",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

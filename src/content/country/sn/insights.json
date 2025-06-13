@@ -1,7 +1,7 @@
 [
   {
     "title": "High Crop Production Index",
-    "description": "In 2022, Senegal achieved a crop production index of 189.93, indicating significant agricultural productivity compared to the 2014-2016 baseline.",
+    "description": "In 2022, Senegal achieved a Crop Production Index of 189.93, indicating a significant increase in agricultural productivity compared to the 2014-2016 baseline.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-crop-xd"
@@ -13,26 +13,41 @@
     ]
   },
   {
-    "title": "High Food Production Index",
-    "description": "Senegal's food production index reached 177.49 in 2022, showing strong food production capabilities relative to the 2014-2016 baseline.",
+    "title": "Strong Food Production Growth",
+    "description": "Senegal's Food Production Index reached 177.49 in 2022, showcasing robust growth in food production since the 2014-2016 period.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-food-xd"
     ],
-    "emoji": "🥘",
+    "emoji": "🥗",
     "type": "BEST",
     "topicIds": [
       "agriculture"
     ]
   },
   {
+    "title": "Gender Parity in Primary Education",
+    "description": "In 2021, Senegal achieved a Gender Parity Index of 1.164 in primary school enrollment, reflecting a higher enrollment rate for girls compared to boys.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-enr-prim-fm-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
     "title": "Gender Parity in Primary and Secondary Education",
-    "description": "In 2021, Senegal had a gender parity index of 1.1759 for gross enrollment in primary and secondary education, indicating more females enrolled compared to males.",
+    "description": "The Gender Parity Index for primary and secondary school enrollment in Senegal was 1.175 in 2021, indicating a favorable balance towards female students.",
     "year": 2021,
     "indicatorIds": [
       "se-enr-prsc-fm-zs"
     ],
-    "emoji": "👩‍🎓",
+    "emoji": "📚",
     "type": "BEST",
     "topicIds": [
       "aid-effectiveness",
@@ -43,8 +58,22 @@
     ]
   },
   {
-    "title": "Low Women's Participation in Decision Making",
-    "description": "Only 10.2% of women aged 15-49 in Senegal participated in key decision-making areas in 2019, highlighting a significant gender disparity.",
+    "title": "Higher Female Enrollment in Primary Education",
+    "description": "In 2018, 52.52% of primary education pupils in Senegal were female, highlighting a positive trend towards gender balance in education.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-enrl-fe-zs"
+    ],
+    "emoji": "👧",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Limited Women's Decision-Making Participation",
+    "description": "As of 2019, only 10.2% of women aged 15-49 in Senegal participated in key decision-making areas, indicating a need for improvement in gender equality.",
     "year": 2019,
     "indicatorIds": [
       "sg-dmk-alld-fn-zs"
@@ -53,6 +82,19 @@
     "type": "WORST",
     "topicIds": [
       "gender"
+    ]
+  },
+  {
+    "title": "Negative Aid Flow from Slovenia",
+    "description": "In 2020, Senegal experienced a net negative bilateral aid flow of -$140,000 from Slovenia, reflecting a reduction in financial support.",
+    "year": 2020,
+    "indicatorIds": [
+      "dc-dac-svnl-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

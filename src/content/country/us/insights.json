@@ -1,35 +1,60 @@
 [
   {
-    "title": "Largest Net Portfolio Investment Deficit",
-    "description": "In 2023, the United States had a net portfolio investment deficit of $1,149,515,000,000, the largest in the world.",
-    "year": 2023,
+    "title": "Largest Arable Land Area",
+    "description": "In 2021, the United States had 157,736,800 hectares of arable land, making it one of the largest in the world.",
+    "year": 2021,
     "indicatorIds": [
-      "bn-klt-ptxl-cd"
+      "ag-lnd-arbl-ha"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🌾",
+    "type": "BEST",
     "topicIds": [
-      "economy",
-      "financial-sector"
+      "agriculture"
     ]
   },
   {
-    "title": "Highest Current Health Expenditure Per Capita",
-    "description": "In 2022, the United States spent $12,434.43 per capita on health, the highest in the world.",
+    "title": "Leading Provider of Development Aid",
+    "description": "In 2022, the United States provided $60.3 billion in total net Official Development Assistance (ODA), with $11.7 billion directed to the least developed countries.",
     "year": 2022,
     "indicatorIds": [
-      "sh-xpd-chex-pc-cd",
-      "sh-xpd-chex-pp-cd"
+      "dc-oda-tldc-cd",
+      "dc-oda-totl-cd"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "millenium-development-goals"
+    ]
+  },
+  {
+    "title": "High Taxation on Income and Profits",
+    "description": "In 2023, taxes on income, profits, and capital gains constituted 92.91% of total taxes in the United States.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-tax-ypkg-zs"
     ],
     "emoji": "💰",
     "type": "BEST",
     "topicIds": [
-      "health"
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Extensive Rail Network",
+    "description": "The United States had a total rail line route of 148,553 kilometers in 2021, one of the most extensive networks globally.",
+    "year": 2021,
+    "indicatorIds": [
+      "is-rrs-totl-km"
+    ],
+    "emoji": "🚂",
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
     ]
   },
   {
     "title": "Most Secure Internet Servers",
-    "description": "In 2023, the United States had 62,879,335 secure internet servers, the highest number globally.",
+    "description": "In 2023, the United States had 62,879,335 secure internet servers, leading the world in digital security infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "it-net-secr"
@@ -42,7 +67,7 @@
   },
   {
     "title": "Highest Education Expenditure",
-    "description": "In 2021, the United States spent $1,046,599,480,744.69 on education, the highest in the world.",
+    "description": "In 2021, the United States spent $1.05 trillion on education, reflecting its commitment to educational development.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-cd"
@@ -55,16 +80,178 @@
     ]
   },
   {
-    "title": "Lowest Prevalence of Wasting Among Children",
-    "description": "In 2022, the prevalence of wasting among children under 5 in the United States was 0.1%, the lowest in the world.",
+    "title": "Significant Energy Depletion Costs",
+    "description": "In 2021, the United States faced $178.2 billion in energy depletion costs, highlighting its energy consumption challenges.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dngy-cd"
+    ],
+    "emoji": "⚡",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Product Taxation",
+    "description": "In 2021, taxes less subsidies on products amounted to $829.2 billion, indicating a high level of product taxation.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-tax-nind-cd"
+    ],
+    "emoji": "🏷️",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Top Health Expenditure Per Capita",
+    "description": "In 2022, the United States spent $12,434 per capita on health, the highest globally, reflecting its focus on healthcare.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-chex-pc-cd",
+      "sh-xpd-chex-pp-cd"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Lowest Prevalence of Wasting in Children",
+    "description": "In 2022, the United States reported a prevalence of wasting among children under 5 at just 0.1%, one of the lowest rates globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-wast-zs"
     ],
-    "emoji": "👶",
+    "emoji": "🌟",
     "type": "BEST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Minimal Prevalence of Anemia in Children",
+    "description": "As of 2019, only 6.1% of children aged 6-59 months in the United States were affected by anemia, showcasing a strong public health outcome.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-anm-chld-zs"
+    ],
+    "emoji": "🩺",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Significant Current Account Deficit",
+    "description": "In 2023, the United States had a current account deficit of $905.4 billion, indicating a substantial imbalance in international trade and financial flows.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-cab-xoka-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "High Net Financial Account Deficit",
+    "description": "The net financial account for the United States in 2023 was negative $924.1 billion, reflecting significant outflows of financial resources.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-fin-totl-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Large Net Trade Deficit in Goods",
+    "description": "In 2023, the United States recorded a net trade deficit in goods of $1.06 trillion, highlighting a major trade imbalance.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-gsr-mrch-cd"
+    ],
+    "emoji": "🚢",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Minimal Prevalence of Anemia in Pregnant Women",
+    "description": "The prevalence of anemia among pregnant women in the United States was 11.5% in 2019, one of the lowest globally.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-prg-anem"
+    ],
+    "emoji": "🤰",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Prevalence of Wasting in Female Children",
+    "description": "In 2016, only 0.1% of female children under 5 in the United States were affected by wasting, indicating excellent nutritional standards.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-wast-fe-zs"
+    ],
+    "emoji": "👧",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Prevalence of Wasting in Male Children",
+    "description": "As of 2018, the prevalence of wasting among male children under 5 in the United States was just 0.2%, reflecting strong health outcomes.",
+    "year": 2018,
+    "indicatorIds": [
+      "sh-sta-wast-ma-zs"
+    ],
+    "emoji": "👦",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Substantial Portfolio Investment Outflows",
+    "description": "The United States experienced a net portfolio investment outflow of $1.15 trillion in 2023, indicating significant capital movement abroad.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-klt-ptxl-cd"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Negative Net Secondary Income",
+    "description": "In 2023, the United States had a net secondary income deficit of $187.5 billion, reflecting more transfers abroad than received.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-trf-curr-cd"
+    ],
+    "emoji": "🔄",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

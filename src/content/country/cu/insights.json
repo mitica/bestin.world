@@ -1,20 +1,7 @@
 [
   {
-    "title": "Highest proportion of time spent on unpaid domestic and care work by males",
-    "description": "In 2016, Cuban males spent 12.47% of their day on unpaid domestic and care work, one of the highest proportions globally.",
-    "year": 2016,
-    "indicatorIds": [
-      "sg-tim-uwrk-ma"
-    ],
-    "emoji": "👨‍🍳",
-    "type": "BEST",
-    "topicIds": [
-      "gender"
-    ]
-  },
-  {
-    "title": "Highest number of physicians per 1,000 people",
-    "description": "As of 2021, Cuba had 9.43 physicians per 1,000 people, making it one of the countries with the highest density of physicians.",
+    "title": "Highest Physician Density",
+    "description": "In 2021, Cuba had 9.429 physicians per 1,000 people, one of the highest densities globally, showcasing its strong healthcare system.",
     "year": 2021,
     "indicatorIds": [
       "sh-med-phys-zs"
@@ -26,21 +13,8 @@
     ]
   },
   {
-    "title": "Highest average transaction cost of sending remittances",
-    "description": "In 2023, the average cost of sending remittances to Cuba was 19.63%, one of the highest in the world.",
-    "year": 2023,
-    "indicatorIds": [
-      "si-rmt-cost-ib-zs"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Complete birth registration in rural areas",
-    "description": "In 2019, Cuba achieved 100% completeness in birth registration in rural areas, ensuring full coverage.",
+    "title": "Complete Rural Birth Registration",
+    "description": "As of 2019, Cuba achieved 100% completeness in rural birth registration, ensuring every child's birth is officially recorded.",
     "year": 2019,
     "indicatorIds": [
       "sp-reg-brth-ru-zs"
@@ -52,14 +26,78 @@
     ]
   },
   {
-    "title": "Lowest merchandise trade as a percentage of GDP",
-    "description": "In 2020, merchandise trade accounted for only 8.32% of Cuba's GDP, one of the lowest percentages globally.",
+    "title": "High Transaction Costs for Remittances",
+    "description": "In 2023, the average cost of sending remittances to Cuba was 19.63%, one of the highest globally, indicating a significant barrier for financial inflows.",
+    "year": 2023,
+    "indicatorIds": [
+      "si-rmt-cost-ib-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Low Merchandise Trade as a Percentage of GDP",
+    "description": "In 2020, merchandise trade accounted for only 8.32% of Cuba's GDP, reflecting limited trade engagement compared to other nations.",
     "year": 2020,
     "indicatorIds": [
       "tg-val-totl-gd-zs"
     ],
     "emoji": "📉",
     "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Minimal Net Official Flows from UN Agencies (UNAIDS)",
+    "description": "In 2017, Cuba received $500 from UNAIDS, one of the lowest net official flows, indicating limited financial support from this agency.",
+    "year": 2017,
+    "indicatorIds": [
+      "dt-nfl-unai-cd"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Negative Net Official Flows from UN Agencies (WTO-ITC)",
+    "description": "In 2020, Cuba experienced a negative net flow of -$3 from WTO-ITC, highlighting a financial outflow rather than support.",
+    "year": 2020,
+    "indicatorIds": [
+      "dt-nfl-witc-cd"
+    ],
+    "emoji": "🔄",
+    "type": "WORST",
+    "topicIds": []
+  },
+  {
+    "title": "High Proportion of Time Spent on Unpaid Domestic Work by Males",
+    "description": "In 2016, Cuban males spent 12.47% of their day on unpaid domestic and care work, a significant portion compared to global averages.",
+    "year": 2016,
+    "indicatorIds": [
+      "sg-tim-uwrk-ma"
+    ],
+    "emoji": "🕒",
+    "type": "BEST",
+    "topicIds": [
+      "gender"
+    ]
+  },
+  {
+    "title": "High Residual Merchandise Exports",
+    "description": "In 2023, residual merchandise exports accounted for 4.05% of Cuba's total merchandise exports, indicating a notable portion of trade activity.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-rs-zs"
+    ],
+    "emoji": "📦",
+    "type": "BEST",
     "topicIds": [
       "private-sector",
       "trade"

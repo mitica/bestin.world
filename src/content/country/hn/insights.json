@@ -1,14 +1,27 @@
 [
   {
-    "title": "Lowest Educational Attainment in Tertiary Education",
-    "description": "In 2023, only 0.46% of the population aged 25 and older in Honduras had completed at least a short-cycle tertiary education, one of the lowest rates globally.",
+    "title": "Low Tertiary Education Completion Rate",
+    "description": "In 2023, only 46.02% of the population aged 25 and above in Honduras had completed at least a short-cycle tertiary education. This reflects one of the lowest rates globally.",
     "year": 2023,
     "indicatorIds": [
-      "se-ter-cuat-st-fe-zs",
-      "se-ter-cuat-st-ma-zs",
       "se-ter-cuat-st-zs"
     ],
     "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Gender Disparity in Tertiary Education",
+    "description": "As of 2023, there is a slight gender disparity in tertiary education completion in Honduras, with 47.08% of males and 45.15% of females having completed at least a short-cycle tertiary education.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-ter-cuat-st-fe-zs",
+      "se-ter-cuat-st-ma-zs"
+    ],
+    "emoji": "⚖️",
     "type": "WORST",
     "topicIds": [
       "education",

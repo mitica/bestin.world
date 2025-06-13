@@ -1,7 +1,7 @@
 [
   {
     "title": "Highest Average Precipitation",
-    "description": "Colombia experiences an average precipitation depth of 3240 mm per year, making it one of the wettest countries in the world as of 2021.",
+    "description": "Colombia experiences an average precipitation of 3240 mm per year, making it one of the wettest countries globally as of 2021.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-prcp-mm"
@@ -15,8 +15,8 @@
     ]
   },
   {
-    "title": "High Net Financial Flows from IMF",
-    "description": "In 2020, Colombia received net financial flows from the IMF amounting to $5.22 billion, indicating significant financial engagement with the institution.",
+    "title": "Significant IMF Financial Flows",
+    "description": "In 2020, Colombia received net financial flows from the IMF amounting to $5.22 billion, indicating substantial international financial engagement.",
     "year": 2020,
     "indicatorIds": [
       "dt-nfl-imfn-cd"
@@ -28,24 +28,113 @@
     ]
   },
   {
-    "title": "Low Coverage of Unemployment Benefits",
-    "description": "As of 2022, only 0.15% of the Colombian population is covered by unemployment benefits and active labor market programs, one of the lowest coverages globally.",
-    "year": 2022,
+    "title": "Robust Business Entry Regulations",
+    "description": "Colombia scored 96.61 in the Business Entry Pillar for quality regulations in 2024, reflecting a strong regulatory environment for new businesses.",
+    "year": 2024,
     "indicatorIds": [
-      "per_lm_alllm-cov_pop_tot"
+      "ic-bre-be-p1"
     ],
-    "emoji": "📉",
+    "emoji": "🏢",
+    "type": "BEST",
+    "topicIds": []
+  },
+  {
+    "title": "High Demand for Family Planning Satisfaction",
+    "description": "In 2015, 86.4% of married women in Colombia had their demand for family planning satisfied by modern methods, showcasing effective family planning services.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-fpl-satm-zs"
+    ],
+    "emoji": "👨‍👩‍👧",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Child Employment in Manufacturing",
+    "description": "As of 2015, 15.23% of economically active children aged 7-14 were employed in manufacturing, highlighting a significant child labor issue.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-mnf-0714-zs"
+    ],
+    "emoji": "⚙️",
     "type": "WORST",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Adequacy of Social Safety Nets",
-    "description": "In 2022, the adequacy of social safety net programs in Colombia was only 0.69% of the total welfare of beneficiary households, indicating limited support.",
+    "title": "Substantial Interest Payments",
+    "description": "Colombia's interest payments reached 69.63 trillion LCU in 2023, indicating a significant financial burden on the national budget.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-intp-cn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Number of Surgical Procedures",
+    "description": "In 2015, Colombia performed 27,385 surgical procedures per 100,000 population, reflecting a well-developed healthcare system.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-sgr-proc-p5"
+    ],
+    "emoji": "🏥",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Extensive Child Self-Employment",
+    "description": "In 2015, 15.39% of children aged 7-14 were self-employed, indicating a high level of child labor in informal sectors.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-slf-0714-zs"
+    ],
+    "emoji": "🧒",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Lowest Net Investment in Nonfinancial Assets",
+    "description": "In 2016, Colombia recorded a net investment in nonfinancial assets of -4,257,815,123,537 LCU, indicating a significant disinvestment in this sector.",
+    "year": 2016,
+    "indicatorIds": [
+      "gc-nfn-totl-cn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Changes in Inventories",
+    "description": "As of 2023, Colombia's changes in inventories stood at -59,417,000,000,000 LCU, reflecting a substantial reduction in stock levels.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-gdi-stkb-cn"
+    ],
+    "emoji": "📦",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Limited Unemployment Benefits Coverage",
+    "description": "In 2022, only 14.57% of Colombia's population was covered by unemployment benefits and active labor market programs, highlighting a gap in social protection.",
     "year": 2022,
     "indicatorIds": [
-      "per_sa_allsa-adq_pop_tot"
+      "per_lm_alllm-cov_pop_tot"
     ],
     "emoji": "🛡️",
     "type": "WORST",
@@ -54,8 +143,21 @@
     ]
   },
   {
-    "title": "Low Acceptance of Domestic Violence",
-    "description": "In 2015, only 3.1% of women in Colombia believed a husband is justified in beating his wife for any reason, reflecting low acceptance of domestic violence.",
+    "title": "Low Social Safety Net Adequacy",
+    "description": "The adequacy of social safety net programs in Colombia was 69.11% of the total welfare of beneficiary households in 2022, indicating room for improvement.",
+    "year": 2022,
+    "indicatorIds": [
+      "per_sa_allsa-adq_pop_tot"
+    ],
+    "emoji": "🛠️",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Acceptance of Domestic Violence",
+    "description": "In 2015, only 3.1% of Colombian women believed a husband is justified in beating his wife for any reason, reflecting a low societal acceptance of domestic violence.",
     "year": 2015,
     "indicatorIds": [
       "sg-vaw-reas-zs"

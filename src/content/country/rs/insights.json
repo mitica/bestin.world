@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest government expenditure per primary student",
-    "description": "In 2015, Serbia had the highest government expenditure per primary student, amounting to 43.65% of GDP per capita.",
+    "title": "High Government Investment in Primary Education",
+    "description": "In 2015, Serbia allocated 43.65% of its GDP per capita to government expenditure per student in primary education, indicating a strong commitment to educational investment.",
     "year": 2015,
     "indicatorIds": [
       "se-xpd-prim-pc-zs"
@@ -13,50 +13,63 @@
     ]
   },
   {
-    "title": "Most women making informed decisions about reproductive health",
-    "description": "In 2019, 96.2% of women aged 15-49 in Serbia made their own informed decisions regarding sexual relations, contraceptive use, and reproductive health care, the highest percentage globally.",
+    "title": "Empowerment of Women in Health Decisions",
+    "description": "As of 2019, 96.2% of Serbian women aged 15-49 made their own informed decisions regarding sexual relations, contraceptive use, and reproductive health care, showcasing significant empowerment.",
     "year": 2019,
     "indicatorIds": [
       "sg-dmk-srcr-fn-zs"
     ],
-    "emoji": "👩‍⚕️",
+    "emoji": "♀️",
     "type": "BEST",
     "topicIds": [
       "gender"
     ]
   },
   {
-    "title": "Lowest multidimensional poverty rate",
-    "description": "In 2019, Serbia had one of the lowest multidimensional poverty headcount ratios, with only 0.1% of the population affected.",
+    "title": "Low Multidimensional Poverty Rate",
+    "description": "In 2019, only 0.1% of Serbia's population was living in multidimensional poverty, reflecting a low poverty headcount ratio.",
     "year": 2019,
     "indicatorIds": [
       "si-pov-mpun"
     ],
-    "emoji": "🏠",
+    "emoji": "💰",
     "type": "BEST",
     "topicIds": []
   },
   {
-    "title": "Lowest net bilateral aid from Finland",
-    "description": "In 2022, Serbia received the lowest net bilateral aid flows from Finland, amounting to -$4,099,999.90.",
+    "title": "Minimal Deaths by Injury",
+    "description": "In 2019, injuries accounted for just 2.37% of total deaths in Serbia, indicating effective safety and health measures.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-dth-injr-zs"
+    ],
+    "emoji": "🛡️",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Negative Net Bilateral Aid from Finland",
+    "description": "In 2022, Serbia experienced a negative net bilateral aid flow from Finland, amounting to -$4,099,999.90, highlighting a financial outflow rather than support.",
     "year": 2022,
     "indicatorIds": [
       "dc-dac-finl-cd"
     ],
-    "emoji": "🇫🇮",
+    "emoji": "💸",
     "type": "WORST",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Lowest net official flows from UNECE",
-    "description": "In 2015, Serbia had the lowest net official flows from UN agencies, specifically UNECE, with a value of -$961.99.",
+    "title": "Negative Official Flows from UNECE",
+    "description": "In 2015, Serbia had a negative net official flow from UNECE, totaling -$961.99, indicating a financial outflow rather than incoming support.",
     "year": 2015,
     "indicatorIds": [
       "dt-nfl-unec-cd"
     ],
-    "emoji": "🇺🇳",
+    "emoji": "🔄",
     "type": "WORST",
     "topicIds": [
       "aid-effectiveness"

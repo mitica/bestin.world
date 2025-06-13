@@ -1,12 +1,12 @@
 [
   {
-    "title": "Highest Energy Use Per Capita",
-    "description": "In 2022, Qatar had the highest energy use per capita in the world, with 16,683.66 kg of oil equivalent per person.",
+    "title": "Highest Energy Consumption per Capita",
+    "description": "In 2022, Qatar had the highest energy use per capita globally, with 16,683.66 kg of oil equivalent per person.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-pcap-kg-oe"
     ],
-    "emoji": "⚡",
+    "emoji": "💡",
     "type": "BEST",
     "topicIds": [
       "energy",
@@ -14,8 +14,8 @@
     ]
   },
   {
-    "title": "Full Internet Usage Among Males",
-    "description": "In 2020, 100% of the male population in Qatar used the internet, the highest rate globally.",
+    "title": "Full Internet Access for Males",
+    "description": "As of 2020, 100% of the male population in Qatar had access to the internet, marking the highest rate globally.",
     "year": 2020,
     "indicatorIds": [
       "it-net-user-ma-zs"
@@ -27,24 +27,11 @@
     ]
   },
   {
-    "title": "Lowest Household Consumption Expenditure",
-    "description": "In 2022, household and NPISHs final consumption expenditure in Qatar was only 19.50% of GDP, the lowest in the world.",
-    "year": 2022,
+    "title": "Leading in Gross National Income per Capita",
+    "description": "Qatar's GNI per capita reached $125,240 in 2023, the highest globally, reflecting its strong economic position.",
+    "year": 2023,
     "indicatorIds": [
-      "ne-con-prvt-zs"
-    ],
-    "emoji": "🏠",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Highest Gross Domestic Savings",
-    "description": "In 2022, Qatar had the highest gross domestic savings, amounting to 67.63% of GDP.",
-    "year": 2022,
-    "indicatorIds": [
-      "ny-gds-totl-zs"
+      "ny-gnp-pcap-pp-cd"
     ],
     "emoji": "💰",
     "type": "BEST",
@@ -53,21 +40,117 @@
     ]
   },
   {
-    "title": "Highest GNI Per Capita",
-    "description": "In 2023, Qatar had the highest GNI per capita in the world, at $125,240 PPP.",
-    "year": 2023,
+    "title": "Top Gross Domestic Savings Rate",
+    "description": "In 2022, Qatar's gross domestic savings accounted for 67.63% of its GDP, the highest percentage worldwide.",
+    "year": 2022,
     "indicatorIds": [
-      "ny-gnp-pcap-pp-cd"
+      "ny-gds-totl-zs"
     ],
-    "emoji": "💵",
+    "emoji": "🏦",
     "type": "BEST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Lowest Mortality Rate from Unsafe Water and Sanitation",
-    "description": "In 2019, Qatar had one of the lowest mortality rates attributed to unsafe water, sanitation, and hygiene, at 0.4 per 100,000 population.",
+    "title": "High Gender Parity in Tertiary Education",
+    "description": "Qatar achieved a gender parity index of 1.79 in tertiary education enrollment in 2022, indicating a higher female enrollment rate.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-enr-tert-fm-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "High Male Labor Force Participation",
+    "description": "In 2024, 96.31% of males aged 15-64 in Qatar participated in the labor force, the highest rate globally.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-acti-ma-zs"
+    ],
+    "emoji": "👷",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Predominantly Male Population",
+    "description": "As of 2023, males constituted 71.52% of Qatar's total population, the highest male population percentage worldwide.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-totl-ma-zs"
+    ],
+    "emoji": "👨",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Significant International Tourism Expenditure",
+    "description": "In 2020, international tourism expenditures accounted for 19.48% of Qatar's total imports, a leading figure globally.",
+    "year": 2020,
+    "indicatorIds": [
+      "st-int-xpnd-mp-zs"
+    ],
+    "emoji": "✈️",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Household Consumption Expenditure",
+    "description": "In 2022, Qatar's households and NPISHs final consumption expenditure was only 19.5% of GDP, indicating a low level of household spending relative to the country's economic output.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-prvt-zs"
+    ],
+    "emoji": "📉",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Forest Depletion",
+    "description": "Qatar reported an adjusted savings net forest depletion of nearly 0% of GNI in 2021, reflecting minimal impact on its forest resources.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dfor-gn-zs"
+    ],
+    "emoji": "🌳",
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "title": "Negligible Forest Rents",
+    "description": "In 2021, forest rents accounted for a mere 0.00007% of Qatar's GDP, highlighting the country's limited reliance on forest resources for economic gain.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-gdp-frst-rt-zs"
+    ],
+    "emoji": "🌲",
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Mortality from Unsafe Water and Sanitation",
+    "description": "Qatar had a mortality rate of 0.4 per 100,000 population attributed to unsafe water and sanitation in 2019, showcasing effective public health measures.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-wash-p5"
@@ -80,14 +163,14 @@
     ]
   },
   {
-    "title": "Lowest Female Employment in Agriculture",
-    "description": "In 2023, only 0.01% of female employment in Qatar was in agriculture, the lowest globally.",
+    "title": "Minimal Employment in Agriculture for Women",
+    "description": "As of 2023, only 1.5% of female employment in Qatar was in agriculture, indicating a shift towards other sectors.",
     "year": 2023,
     "indicatorIds": [
       "sl-agr-empl-fe-zs"
     ],
     "emoji": "👩‍🌾",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "agriculture",
       "social-protection",
@@ -95,43 +178,80 @@
     ]
   },
   {
-    "title": "Lowest Unemployment Rate for Males",
-    "description": "In 2024, Qatar had the lowest male unemployment rate, at just 0.067% of the male labor force.",
+    "title": "Low Youth Male Unemployment",
+    "description": "In 2024, Qatar's youth male unemployment rate was just 0.1%, reflecting strong job opportunities for young men.",
     "year": 2024,
     "indicatorIds": [
-      "sl-uem-totl-ma-zs"
+      "sl-uem-1524-ma-zs"
     ],
     "emoji": "👨‍💼",
     "type": "BEST",
     "topicIds": [
-      "education",
       "social-protection",
-      "gender",
-      "social-development"
+      "gender"
     ]
   },
   {
-    "title": "Lowest Age Dependency Ratio",
-    "description": "In 2023, Qatar had the lowest age dependency ratio, at 20.10% of the working-age population.",
+    "title": "Minimal Unemployment with Basic Education",
+    "description": "In 2021, only 0.05% of Qatar's labor force with basic education was unemployed, indicating robust employment opportunities for this group.",
+    "year": 2021,
+    "indicatorIds": [
+      "sl-uem-basc-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Overall Unemployment",
+    "description": "Qatar's total unemployment rate was 0.13% in 2022, one of the lowest globally, reflecting a strong labor market.",
+    "year": 2022,
+    "indicatorIds": [
+      "sl-uem-totl-ne-zs"
+    ],
+    "emoji": "💼",
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Death Rate",
+    "description": "In 2023, Qatar had a crude death rate of 0.93 per 1,000 people, indicating a healthy population with low mortality rates.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-dpnd"
+      "sp-dyn-cdrt-in"
     ],
-    "emoji": "👶👴",
-    "type": "WORST",
+    "emoji": "⚰️",
+    "type": "BEST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Lowest Rural Population Percentage",
-    "description": "In 2023, only 0.65% of Qatar's population lived in rural areas, the lowest percentage worldwide.",
+    "title": "Low Age Dependency Ratio",
+    "description": "With an age dependency ratio of 20.1% in 2023, Qatar has a relatively low burden on its working-age population.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-dpnd"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Small Rural Population",
+    "description": "In 2023, only 0.65% of Qatar's population lived in rural areas, highlighting its urban-centric development.",
     "year": 2023,
     "indicatorIds": [
       "sp-rur-totl-zs"
     ],
     "emoji": "🏙️",
-    "type": "WORST",
+    "type": "BEST",
     "topicIds": [
       "agriculture"
     ]

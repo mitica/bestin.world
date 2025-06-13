@@ -1,6 +1,34 @@
 [
   {
-    "title": "Highest prevalence of food insecurity",
+    "title": "Lowest Fixed Telephone Subscriptions",
+    "description": "In 2022, Sierra Leone had one of the lowest fixed telephone subscription rates globally, with only 0.00325 subscriptions per 100 people.",
+    "year": 2022,
+    "indicatorIds": [
+      "it-mlt-main-p2"
+    ],
+    "emoji": "📞",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "High Gross Intake Ratio in Primary Education",
+    "description": "In 2018, Sierra Leone had a gross intake ratio of 175.71% for females and 171.85% for the total population entering the first grade of primary education, indicating a high enrollment rate.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-gint-fe-zs",
+      "se-prm-gint-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Prevalence of Food Insecurity",
     "description": "In 2022, 88.6% of Sierra Leone's population experienced moderate or severe food insecurity, one of the highest rates globally.",
     "year": 2022,
     "indicatorIds": [
@@ -13,35 +41,21 @@
     ]
   },
   {
-    "title": "Lowest fixed telephone subscriptions",
-    "description": "As of 2022, Sierra Leone had only 0.00325 fixed telephone subscriptions per 100 people, one of the lowest rates worldwide.",
-    "year": 2022,
+    "title": "Low Industry Value Added Per Worker",
+    "description": "In 2023, the value added per worker in Sierra Leone's industry sector was $980.52, among the lowest globally.",
+    "year": 2023,
     "indicatorIds": [
-      "it-mlt-main-p2"
+      "nv-ind-empl-kd"
     ],
-    "emoji": "📞",
+    "emoji": "🏭",
     "type": "WORST",
     "topicIds": [
-      "infrastructure"
+      "economy"
     ]
   },
   {
-    "title": "High gross intake ratio in primary education for females",
-    "description": "In 2018, the gross intake ratio for females entering the first grade of primary education in Sierra Leone was 175.7%, indicating a high level of enrollment relative to the age group.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-prm-gint-fe-zs"
-    ],
-    "emoji": "📚",
-    "type": "BEST",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "High diarrhea treatment coverage",
-    "description": "In 2019, 85.3% of children under 5 in Sierra Leone received oral rehydration salts (ORS) for diarrhea treatment, reflecting strong healthcare intervention in this area.",
+    "title": "High Diarrhea Treatment Coverage",
+    "description": "In 2019, 85.3% of children under 5 in Sierra Leone received ORS packets for diarrhea treatment, reflecting strong healthcare intervention.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-orth"
@@ -50,6 +64,58 @@
     "type": "BEST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Low Primary Income Receipts",
+    "description": "Sierra Leone's primary income receipts were $25,949.08 in 2023, one of the lowest globally, indicating limited income from abroad.",
+    "year": 2023,
+    "indicatorIds": [
+      "bx-gsr-fcty-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Minimal Secondary Income Payments",
+    "description": "In 2023, Sierra Leone's secondary income payments in other sectors amounted to $4,361.18, among the lowest worldwide.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-trf-prvt-cd"
+    ],
+    "emoji": "💵",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Limited Social Insurance Coverage",
+    "description": "In 2018, only 0.17% of Sierra Leone's population in the second quintile was covered by social insurance programs, one of the lowest coverages globally.",
+    "year": 2018,
+    "indicatorIds": [
+      "per_si_allsi-cov_q2_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Bilateral Aid from Luxembourg",
+    "description": "In 2015, Sierra Leone received $9,999.99 in net bilateral aid from Luxembourg, one of the lowest amounts recorded.",
+    "year": 2015,
+    "indicatorIds": [
+      "dc-dac-luxl-cd"
+    ],
+    "emoji": "🇱🇺",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

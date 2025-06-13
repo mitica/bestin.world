@@ -1,7 +1,33 @@
 [
   {
-    "title": "Lowest proportion of population pushed into poverty by healthcare costs",
-    "description": "In 2015, only 0.01% of Bosnia and Herzegovina's population was pushed below the $2.15 poverty line due to out-of-pocket healthcare expenditures, one of the lowest rates globally.",
+    "title": "Lowest Informal Payments to Public Officials",
+    "description": "In 2023, only 0.1% of firms in Bosnia and Herzegovina reported making informal payments to public officials, indicating a low level of corruption in business dealings.",
+    "year": 2023,
+    "indicatorIds": [
+      "ic-frm-corr-zs"
+    ],
+    "emoji": "🕵️‍♂️",
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Smallest Air Freight Transport",
+    "description": "In 2015, Bosnia and Herzegovina's air freight transport was recorded at just 0.000087 million ton-km, highlighting minimal air cargo activity.",
+    "year": 2015,
+    "indicatorIds": [
+      "is-air-good-mt-k1"
+    ],
+    "emoji": "✈️",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Minimal Health Expenditure-Induced Poverty",
+    "description": "In 2015, only 0.01% of Bosnia and Herzegovina's population was pushed below the $2.15 poverty line due to out-of-pocket health care expenses, reflecting effective health cost management.",
     "year": 2015,
     "indicatorIds": [
       "sh-uhc-nop1-zs",
@@ -14,21 +40,21 @@
     ]
   },
   {
-    "title": "Lowest informal payments to public officials",
-    "description": "In 2023, only 0.1% of firms in Bosnia and Herzegovina reported making informal payments to public officials, indicating a low level of corruption.",
+    "title": "High Proportion of Elderly Women",
+    "description": "As of 2023, 7.69% of the female population in Bosnia and Herzegovina were aged between 65-69, indicating a significant elderly female demographic.",
     "year": 2023,
     "indicatorIds": [
-      "ic-frm-corr-zs"
+      "sp-pop-6569-fe-5y"
     ],
-    "emoji": "🕵️‍♂️",
+    "emoji": "👵",
     "type": "BEST",
     "topicIds": [
-      "private-sector"
+      "health"
     ]
   },
   {
-    "title": "Smallest population in largest city",
-    "description": "As of 2024, the largest city in Bosnia and Herzegovina has a population of 346,859, which is relatively small compared to other countries' largest cities.",
+    "title": "Small Population in Largest City",
+    "description": "In 2024, the largest city in Bosnia and Herzegovina had a population of 346,859, reflecting a relatively small urban center compared to global metropolises.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-lcty"
@@ -37,19 +63,6 @@
     "type": "WORST",
     "topicIds": [
       "urban-development"
-    ]
-  },
-  {
-    "title": "Lowest air freight transport",
-    "description": "In 2015, Bosnia and Herzegovina had an air freight transport volume of only 0.000087 million ton-km, one of the lowest in the world.",
-    "year": 2015,
-    "indicatorIds": [
-      "is-air-good-mt-k1"
-    ],
-    "emoji": "✈️",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure"
     ]
   }
 ]

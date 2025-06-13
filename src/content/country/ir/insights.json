@@ -1,12 +1,171 @@
 [
   {
-    "title": "Lowest External Debt",
-    "description": "In 2023, Iran had one of the lowest external debt stocks, amounting to only 2.45% of its Gross National Income (GNI).",
+    "title": "Robust Gross Domestic Product",
+    "description": "In 2023, Iran's GDP reached an impressive 143 trillion LCU, showcasing its economic strength on a global scale.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-mktp-cn",
+      "ny-gdp-mktp-cn-ad"
+    ],
+    "emoji": "📈",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Gross National Income",
+    "description": "Iran's GNI in 2023 stood at 142.87 trillion LCU, reflecting its substantial income generation capabilities.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gnp-mktp-cn",
+      "ny-gnp-mktp-cn-ad"
+    ],
+    "emoji": "💰",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Significant Gross Domestic Savings",
+    "description": "In 2023, Iran's gross domestic savings amounted to 52.67 trillion LCU, indicating a strong savings culture.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gds-totl-cn"
+    ],
+    "emoji": "💾",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Value in Services Sector",
+    "description": "The services sector in Iran contributed 69.04 trillion LCU to the economy in 2023, highlighting its importance.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-srv-totl-cn"
+    ],
+    "emoji": "🛠️",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Strong Manufacturing Sector",
+    "description": "Iran's manufacturing sector added 27.77 trillion LCU to the economy in 2023, showcasing industrial strength.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-manf-cn"
+    ],
+    "emoji": "🏭",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Net Foreign Assets",
+    "description": "In 2016, Iran's net foreign assets were valued at 2.47 quadrillion LCU, indicating a strong external financial position.",
+    "year": 2016,
+    "indicatorIds": [
+      "fm-ast-nfrg-cn"
+    ],
+    "emoji": "🌍",
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "High Government Expenditure",
+    "description": "Iran's government final consumption expenditure reached 18.42 trillion LCU in 2023, reflecting significant public sector investment.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-con-govt-cn"
+    ],
+    "emoji": "🏛️",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Household Consumption",
+    "description": "Household consumption expenditure in Iran was 71.94 trillion LCU in 2023, indicating a robust domestic market.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-con-prvt-cn"
+    ],
+    "emoji": "🛒",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Imports of Goods and Services",
+    "description": "Iran imported goods and services worth 40.02 trillion LCU in 2023, reflecting a high level of international trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-imp-gnfs-cn"
+    ],
+    "emoji": "🚢",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Exports of Goods and Services",
+    "description": "In 2023, Iran exported goods and services valued at 34.62 trillion LCU, showcasing its export capabilities.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-exp-gnfs-cn"
+    ],
+    "emoji": "📦",
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Net Intake Rate in Grade 1",
+    "description": "In 2017, Iran achieved a net intake rate of 99.98% for females in grade 1, reflecting strong educational enrollment.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-nint-fe-zs"
+    ],
+    "emoji": "📚",
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Net Intake Rate in Grade 1",
+    "description": "In 2017, Iran's net intake rate for grade 1 was 99.98%, indicating near-universal primary education enrollment.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-nint-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Lowest External Debt as Percentage of GNI",
+    "description": "In 2023, Iran's external debt was only 2.45% of its Gross National Income, one of the lowest ratios globally, indicating a strong position in managing external liabilities.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-dect-gn-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "economy",
@@ -14,8 +173,8 @@
     ]
   },
   {
-    "title": "Lowest Debt Service Ratio",
-    "description": "Iran's total debt service was only 0.34% of its exports of goods, services, and primary income in 2023, one of the lowest globally.",
+    "title": "Minimal Debt Service Burden",
+    "description": "Iran's total debt service was just 0.34% of its exports of goods, services, and primary income in 2023, showcasing its efficient debt management strategies.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-dect-ex-zs"
@@ -28,13 +187,13 @@
     ]
   },
   {
-    "title": "Lowest Present Value of External Debt",
-    "description": "In 2023, the present value of Iran's external debt was just 1.67% of its GNI, indicating a very low debt burden.",
+    "title": "Low Present Value of External Debt",
+    "description": "In 2023, the present value of Iran's external debt was only 1.67% of its GNI, reflecting a sustainable debt profile.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-pvlx-gn-zs"
     ],
-    "emoji": "📊",
+    "emoji": "🛡️",
     "type": "BEST",
     "topicIds": [
       "economy",
@@ -42,95 +201,68 @@
     ]
   },
   {
-    "title": "High Net Foreign Assets",
-    "description": "Iran had significant net foreign assets, totaling 2,473,743,911,927,340 LCU in 2016, indicating strong foreign reserves.",
-    "year": 2016,
-    "indicatorIds": [
-      "fm-ast-nfrg-cn"
-    ],
-    "emoji": "🏦",
-    "type": "BEST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Government Expenditure",
-    "description": "In 2023, Iran's general government final consumption expenditure reached 18,422,330,000,000,000 LCU, reflecting substantial government spending.",
+    "title": "Significant External Balance Deficit",
+    "description": "Iran faced a substantial external balance deficit of -5,403,951,000,000,000 LCU in 2023, indicating challenges in its trade and service balance.",
     "year": 2023,
     "indicatorIds": [
-      "ne-con-govt-cn"
+      "ne-rsb-gnfs-cn"
     ],
-    "emoji": "💸",
-    "type": "BEST",
+    "emoji": "⚖️",
+    "type": "WORST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Household Consumption",
-    "description": "Household and NPISHs final consumption expenditure in Iran was 71,941,643,000,000,000 LCU in 2023, indicating high consumer spending.",
-    "year": 2023,
+    "title": "High Discrepancy in GDP Expenditure Estimates",
+    "description": "In 2022, Iran had a GDP expenditure discrepancy of -195,940,706,686,100 LCU, suggesting potential inefficiencies in economic reporting or expenditure management.",
+    "year": 2022,
     "indicatorIds": [
-      "ne-con-prvt-cn"
+      "ny-gdp-disc-kn"
     ],
-    "emoji": "🛒",
-    "type": "BEST",
+    "emoji": "🔍",
+    "type": "WORST",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High GDP",
-    "description": "Iran's GDP in 2023 was 143,039,267,000,000,000 LCU, showcasing a robust economy.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gdp-mktp-cn"
-    ],
-    "emoji": "📈",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High GNI",
-    "description": "In 2023, Iran's Gross National Income (GNI) was 142,872,444,650,948,000 LCU, reflecting a strong national income.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gnp-mktp-cn"
-    ],
-    "emoji": "💹",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Net Intake Rate in Grade 1",
-    "description": "In 2017, Iran had a net intake rate in grade 1 of 99.98% for females, indicating almost universal enrollment at the start of primary education.",
-    "year": 2017,
-    "indicatorIds": [
-      "se-prm-nint-fe-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BEST",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Labor Force Participation with Intermediate Education",
-    "description": "In 2022, only 8.78% of Iran's female working-age population with intermediate education were part of the labor force, one of the lowest rates.",
+    "title": "Low Female Labor Force with Intermediate Education",
+    "description": "Only 8.78% of Iran's female working-age population had intermediate education in 2022, highlighting a gap in educational attainment among women.",
     "year": 2022,
     "indicatorIds": [
       "sl-tlf-intm-fe-zs"
     ],
-    "emoji": "🚫",
+    "emoji": "📚",
     "type": "WORST",
     "topicIds": [
       "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Aid from Luxembourg",
+    "description": "In 2022, Iran received a negligible amount of bilateral aid from Luxembourg, totaling approximately $10,000, indicating limited financial support from this donor.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-luxl-cd"
+    ],
+    "emoji": "🤝",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Terms of Trade Adjustment",
+    "description": "Iran's terms of trade adjustment was -1,585,600,410,845,230 LCU in 2023, reflecting challenges in its trade conditions and economic adjustments.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-ttf-gnfs-kn"
+    ],
+    "emoji": "🔄",
+    "type": "WORST",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

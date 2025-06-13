@@ -1,7 +1,7 @@
 [
   {
     "title": "Highest Internet Usage",
-    "description": "In 2023, Bahrain achieved 100% internet usage among its population, with both male and female individuals having full access to the internet.",
+    "description": "In 2023, Bahrain achieved 100% internet usage among both male and female populations, marking a significant digital milestone.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -16,7 +16,7 @@
   },
   {
     "title": "Lowest Fertilizer Consumption",
-    "description": "In 2022, Bahrain's fertilizer consumption was only 0.06% of its fertilizer production, indicating minimal usage.",
+    "description": "Bahrain's fertilizer consumption was only 0.06% of its production in 2022, indicating minimal reliance on fertilizers.",
     "year": 2022,
     "indicatorIds": [
       "ag-con-fert-pt-zs"
@@ -28,8 +28,8 @@
     ]
   },
   {
-    "title": "Lowest Renewable Freshwater Resources",
-    "description": "As of 2021, Bahrain had only 0.004 billion cubic meters of renewable internal freshwater resources, one of the lowest in the world.",
+    "title": "Minimal Freshwater Resources",
+    "description": "In 2021, Bahrain had only 0.004 billion cubic meters of renewable internal freshwater resources, one of the lowest globally.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-intr-k3"
@@ -42,8 +42,76 @@
     ]
   },
   {
-    "title": "Lowest Intentional Homicide Rate",
-    "description": "In 2021, Bahrain had an intentional homicide rate of 0.068 per 100,000 people, one of the lowest globally.",
+    "title": "Lowest Freshwater Resources Per Capita",
+    "description": "With just 2.66 cubic meters per person in 2021, Bahrain ranks among the countries with the least freshwater resources per capita.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-intr-pc"
+    ],
+    "emoji": "🚱",
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
+  },
+  {
+    "title": "Minimal Tax Revenue from Income and Profits",
+    "description": "In 2020, Bahrain collected 6,637,382.12 LCU in taxes on income, profits, and capital gains, reflecting a low tax revenue base.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-tax-ypkg-cn"
+    ],
+    "emoji": "💰",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Negative Other Expenses",
+    "description": "In 2015, Bahrain reported -9,260,000 LCU in other expenses, indicating a unique financial situation.",
+    "year": 2015,
+    "indicatorIds": [
+      "gc-xpn-othr-cn"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Highest Newborn Tetanus Protection",
+    "description": "Bahrain achieved 100% protection against tetanus for newborns in 2023, showcasing its strong healthcare initiatives.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-vac-ttns-zs"
+    ],
+    "emoji": "🍼",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Significant Ores and Metals Imports",
+    "description": "In 2023, ores and metals constituted 20.47% of Bahrain's merchandise imports, highlighting its reliance on these resources.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-mmtl-zs-un"
+    ],
+    "emoji": "⛏️",
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Intentional Homicide Rate",
+    "description": "Bahrain's intentional homicide rate was 0.07 per 100,000 people in 2021, one of the lowest globally.",
     "year": 2021,
     "indicatorIds": [
       "vc-ihr-psrc-p5"
@@ -52,19 +120,6 @@
     "type": "BEST",
     "topicIds": [
       "public-sector"
-    ]
-  },
-  {
-    "title": "Highest Newborn Tetanus Protection",
-    "description": "In 2023, 100% of newborns in Bahrain were protected against tetanus, showcasing excellent healthcare coverage.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-vac-ttns-zs"
-    ],
-    "emoji": "👶💉",
-    "type": "BEST",
-    "topicIds": [
-      "health"
     ]
   }
 ]

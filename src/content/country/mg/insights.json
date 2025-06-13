@@ -1,7 +1,7 @@
 [
   {
     "title": "Highest Real Interest Rate",
-    "description": "In 2023, Madagascar had the highest real interest rate in the world at 41.30%.",
+    "description": "In 2023, Madagascar recorded a real interest rate of 41.30%, one of the highest globally, indicating a significant cost of borrowing.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-rinr"
@@ -14,7 +14,7 @@
   },
   {
     "title": "Highest Risk Premium on Lending",
-    "description": "Madagascar's risk premium on lending was the highest globally in 2023, reaching 43.86%.",
+    "description": "The risk premium on lending in Madagascar reached 43.86% in 2023, highlighting the elevated risk perceived by lenders.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-risk"
@@ -26,35 +26,24 @@
     ]
   },
   {
-    "title": "Lowest Utility Services Score",
-    "description": "In 2024, Madagascar had the lowest overall score for utility services at 35.04.",
+    "title": "Lowest Operational Efficiency in Utility Services",
+    "description": "In 2024, Madagascar scored 22.38 in operational efficiency of utility services, indicating challenges in service provision.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-us-os"
+      "ic-bre-us-p3"
     ],
     "emoji": "🔌",
     "type": "WORST",
     "topicIds": []
   },
   {
-    "title": "Lowest Operational Efficiency in Utility Services",
-    "description": "Madagascar scored the lowest in operational efficiency of utility service provision with a score of 22.38 in 2024.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-us-p3"
-    ],
-    "emoji": "⚡",
-    "type": "WORST",
-    "topicIds": []
-  },
-  {
-    "title": "Highest Value Lost Due to Electrical Outages",
-    "description": "In 2022, Madagascar had the highest value lost due to electrical outages, amounting to 24% of sales for affected firms.",
+    "title": "Significant Value Lost Due to Electrical Outages",
+    "description": "In 2022, firms in Madagascar lost 24% of sales due to electrical outages, reflecting infrastructure challenges.",
     "year": 2022,
     "indicatorIds": [
       "ic-frm-outg-zs"
     ],
-    "emoji": "💡",
+    "emoji": "⚡",
     "type": "WORST",
     "topicIds": [
       "energy",
@@ -63,7 +52,7 @@
   },
   {
     "title": "Shortest Compulsory Education Duration",
-    "description": "Madagascar had the shortest compulsory education duration in 2023, lasting only 5 years.",
+    "description": "Madagascar mandates only 5 years of compulsory education as of 2023, one of the shortest durations worldwide.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -75,13 +64,13 @@
     ]
   },
   {
-    "title": "Lowest Persistence to Grade 5 for Females",
-    "description": "In 2018, only 33.26% of female students in Madagascar persisted to grade 5, the lowest rate globally.",
+    "title": "Low Female Persistence to Grade 5",
+    "description": "Only 33.26% of female students persisted to grade 5 in 2018, indicating challenges in female education retention.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-prs5-fe-zs"
     ],
-    "emoji": "👧",
+    "emoji": "👩‍🎓",
     "type": "WORST",
     "topicIds": [
       "education",
@@ -89,8 +78,8 @@
     ]
   },
   {
-    "title": "Highest Rate of Primary School Repeaters",
-    "description": "Madagascar had the highest rate of primary school repeaters in 2018, with 26.07% of students repeating a grade.",
+    "title": "High Rate of Primary School Repeaters",
+    "description": "In 2018, 26.07% of students repeated primary school, highlighting issues in educational progression.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-rept-zs"
@@ -102,8 +91,8 @@
     ]
   },
   {
-    "title": "Fewest Trained Male Primary Teachers",
-    "description": "In 2019, only 11.16% of male primary teachers in Madagascar were trained, the lowest percentage worldwide.",
+    "title": "Few Trained Male Teachers in Primary Education",
+    "description": "Only 11.16% of male primary teachers were trained in 2019, indicating a gap in teacher qualification.",
     "year": 2019,
     "indicatorIds": [
       "se-prm-tcaq-ma-zs"
@@ -116,34 +105,21 @@
     ]
   },
   {
-    "title": "Fewest Trained Upper Secondary Teachers",
-    "description": "Madagascar had the lowest percentage of trained upper secondary teachers in 2019, with only 15.89% being trained.",
-    "year": 2019,
+    "title": "Minimal Government Expenditure on Tertiary Education",
+    "description": "In 2016, government expenditure per student in tertiary education was only 0.038% of GDP per capita, one of the lowest globally.",
+    "year": 2016,
     "indicatorIds": [
-      "se-sec-tcaq-up-zs"
+      "se-xpd-tert-pc-zs"
     ],
-    "emoji": "🏫",
+    "emoji": "💰",
     "type": "WORST",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Lowest Government Expenditure on Tertiary Education",
-    "description": "In 2017, Madagascar spent only 0.58% of its government education budget on tertiary education, the lowest globally.",
-    "year": 2017,
-    "indicatorIds": [
-      "se-xpd-tert-zs"
-    ],
-    "emoji": "🎓",
-    "type": "WORST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Lowest Urban Basic Sanitation Coverage",
-    "description": "In 2022, only 21.64% of Madagascar's urban population had access to basic sanitation services, the lowest rate worldwide.",
+    "title": "Low Urban Access to Basic Sanitation Services",
+    "description": "As of 2022, only 21.64% of the urban population had access to basic sanitation services, reflecting public health challenges.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-bass-ur-zs"
@@ -156,8 +132,8 @@
     ]
   },
   {
-    "title": "High Female Labor Force Participation",
-    "description": "In 2024, Madagascar had a high female labor force participation rate of 82.56%, one of the highest in the world.",
+    "title": "High Female Labor Force Participation Rate",
+    "description": "In 2024, 82.56% of females aged 15+ were part of the labor force, showcasing strong female workforce engagement.",
     "year": 2024,
     "indicatorIds": [
       "sl-tlf-cact-fe-zs"

@@ -1,7 +1,7 @@
 [
   {
     "title": "Efficient Revenue Mobilization",
-    "description": "In 2023, Samoa achieved a high CPIA efficiency of revenue mobilization rating of 4.5, indicating strong performance in this area.",
+    "description": "In 2023, Samoa achieved a CPIA efficiency of revenue mobilization rating of 4.5, indicating a strong capacity to collect revenues effectively.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
@@ -14,7 +14,7 @@
   },
   {
     "title": "Strong Fiscal Policy",
-    "description": "Samoa's CPIA fiscal policy rating reached 4.5 in 2023, reflecting a robust fiscal policy framework.",
+    "description": "Samoa's CPIA fiscal policy rating reached 4.5 in 2023, reflecting a robust fiscal framework and prudent economic management.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-fisp-xq"
@@ -26,16 +26,84 @@
     ]
   },
   {
+    "title": "Quality Public Administration",
+    "description": "With a CPIA quality of public administration rating of 4 in 2023, Samoa demonstrates a competent and effective public sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-padm-xq"
+    ],
+    "emoji": "🏛️",
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
     "title": "High Unmet Need for Contraception",
-    "description": "In 2020, 38.9% of married women aged 15-49 in Samoa had an unmet need for contraception, highlighting a significant gap in family planning services.",
+    "description": "In 2020, 38.9% of married women aged 15-49 in Samoa had an unmet need for contraception, highlighting significant gaps in reproductive health services.",
     "year": 2020,
     "indicatorIds": [
       "sp-uwt-tfrt"
     ],
-    "emoji": "⚠️",
+    "emoji": "🚫",
     "type": "WORST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Minimal Merchandise Imports from Outside Region",
+    "description": "In 2023, only 0.16% of Samoa's total merchandise imports came from low- and middle-income economies outside the region, indicating limited trade diversification.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-mrch-or-zs"
+    ],
+    "emoji": "🌍",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Limited International Tourism Expenditures",
+    "description": "Samoa's international tourism expenditures were valued at approximately $1.8 million in 2020, suggesting a modest tourism sector.",
+    "year": 2020,
+    "indicatorIds": [
+      "st-int-xpnd-cd"
+    ],
+    "emoji": "✈️",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Moderate Public Sector Management",
+    "description": "In 2023, Samoa's CPIA public sector management and institutions cluster average was 4.1, indicating a moderate level of effectiveness in public sector governance.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-pubs-xq"
+    ],
+    "emoji": "🛠️",
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Subsidies and Transfers",
+    "description": "In 2021, subsidies and other transfers accounted for only 6.13% of Samoa's expenses, reflecting limited government support programs.",
+    "year": 2021,
+    "indicatorIds": [
+      "gc-xpn-trft-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

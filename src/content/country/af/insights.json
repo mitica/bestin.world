@@ -1,20 +1,141 @@
 [
   {
     "title": "Highest Multilateral Debt Service",
-    "description": "In 2023, Afghanistan had the highest multilateral debt service, accounting for 100% of its public and publicly guaranteed debt service.",
+    "description": "In 2023, Afghanistan's multilateral debt service accounted for 100% of its public and publicly guaranteed debt service, indicating a significant financial burden.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-mlat-pg-zs"
     ],
-    "emoji": "💸",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "WORST",
     "topicIds": [
       "external-debt"
     ]
   },
   {
+    "title": "High Goods and Services Expense",
+    "description": "In 2017, 54.78% of Afghanistan's total expenses were allocated to goods and services, reflecting a substantial portion of the national budget.",
+    "year": 2017,
+    "indicatorIds": [
+      "gc-xpn-gsrv-zs"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Prevalence of Gender-Based Violence",
+    "description": "In 2015, 46.1% of Afghan women aged 15-49 reported experiencing physical or sexual violence in the past year, highlighting a critical social issue.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-vaw-1549-zs"
+    ],
+    "emoji": "🚨",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "Cultural Acceptance of Domestic Violence",
+    "description": "In 2015, 80.2% of Afghan women believed a husband is justified in beating his wife for any of five reasons, indicating deeply rooted cultural norms.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-vaw-reas-zs"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Mortality from Air Pollution",
+    "description": "In 2019, the mortality rate attributed to household and ambient air pollution among Afghan females was 265 per 100,000, underscoring environmental health challenges.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-airp-fe-p5"
+    ],
+    "emoji": "🌫️",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Significant Health Expenditure Impact on Poverty",
+    "description": "In 2020, 6.5% of Afghanistan's population was pushed below the 60% median consumption poverty line due to out-of-pocket health expenditures.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-uhc-nopr-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Current Health Expenditure",
+    "description": "In 2022, Afghanistan's current health expenditure was 23.09% of its GDP, reflecting a substantial allocation of resources to healthcare.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-chex-gd-zs"
+    ],
+    "emoji": "🏥",
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Rate of Female Contributing Family Workers",
+    "description": "In 2023, 66.78% of employed Afghan women were contributing family workers, indicating a reliance on unpaid family labor.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-fam-work-fe-zs"
+    ],
+    "emoji": "👩‍🌾",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Female Youth Not in Education, Employment, or Training",
+    "description": "In 2024, 82.60% of Afghan female youth were not engaged in education, employment, or training, reflecting limited opportunities for young women.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-uem-neet-fe-me-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "High Merchandise Imports from MENA",
+    "description": "In 2023, 23.68% of Afghanistan's merchandise imports came from low- and middle-income economies in the Middle East & North Africa, indicating regional trade dependencies.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-mrch-r4-zs"
+    ],
+    "emoji": "🛳️",
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
     "title": "Lowest Water Productivity",
-    "description": "In 2021, Afghanistan had the lowest water productivity, with a GDP of only $0.81 per cubic meter of total freshwater withdrawal.",
+    "description": "In 2021, Afghanistan had a water productivity of only 0.81 constant 2015 US$ GDP per cubic meter of total freshwater withdrawal, indicating significant inefficiency in water use.",
     "year": 2021,
     "indicatorIds": [
       "er-gdp-fwtl-m3-kd"
@@ -26,21 +147,36 @@
     ]
   },
   {
-    "title": "Lowest Domestic Credit to Private Sector by Banks",
-    "description": "In 2020, domestic credit to the private sector by banks in Afghanistan was only 2.99% of GDP, the lowest in the world.",
+    "title": "Minimal Domestic Credit to Private Sector",
+    "description": "In 2020, domestic credit to the private sector by banks was just 2.99% of GDP, highlighting limited financial support for private enterprises.",
     "year": 2020,
     "indicatorIds": [
-      "fd-ast-prvt-gd-zs"
+      "fd-ast-prvt-gd-zs",
+      "fs-ast-prvt-gd-zs"
     ],
     "emoji": "🏦",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector",
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Negative Net Domestic Credit",
+    "description": "Afghanistan's net domestic credit was negative, at -79.38 billion LCU in 2020, reflecting a challenging financial environment.",
+    "year": 2020,
+    "indicatorIds": [
+      "fm-ast-doms-cn"
+    ],
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Lowest Inflation Rate",
-    "description": "Afghanistan experienced a deflation of -6.60% in consumer prices in 2024, the lowest inflation rate globally.",
+    "title": "Deflationary Economy",
+    "description": "In 2024, Afghanistan experienced a deflation rate of -6.60%, indicating a decrease in consumer prices and potential economic stagnation.",
     "year": 2024,
     "indicatorIds": [
       "fp-cpi-totl-zg"
@@ -53,15 +189,37 @@
     ]
   },
   {
-    "title": "Lowest CPIA Ratings",
-    "description": "In 2023, Afghanistan had the lowest ratings in several CPIA categories, including economic management, fiscal policy, gender equality, macroeconomic management, and transparency, all rated at 1.",
+    "title": "Low Government Budget Utilization",
+    "description": "Primary government expenditures were only 48.67% of the original approved budget in 2021, suggesting inefficiencies in budget execution.",
+    "year": 2021,
+    "indicatorIds": [
+      "gf-xpd-budg-zs"
+    ],
+    "emoji": "💼",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Weak Economic Management",
+    "description": "The CPIA economic management cluster average was 1.17 in 2023, indicating poor economic governance and management.",
     "year": 2023,
     "indicatorIds": [
-      "iq-cpa-econ-xq",
-      "iq-cpa-fisp-xq",
-      "iq-cpa-gndr-xq",
-      "iq-cpa-macr-xq",
-      "iq-cpa-tran-xq"
+      "iq-cpa-econ-xq"
+    ],
+    "emoji": "📊",
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Poor Fiscal Policy",
+    "description": "Afghanistan's CPIA fiscal policy rating was 1.0 in 2023, reflecting inadequate fiscal management and policy formulation.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-fisp-xq"
     ],
     "emoji": "📉",
     "type": "WORST",
@@ -70,23 +228,8 @@
     ]
   },
   {
-    "title": "Lowest Logistics Performance Index",
-    "description": "In 2022, Afghanistan had the lowest scores in the Logistics Performance Index, with an overall score of 1.9 and a score of 1.6 in tracking and tracing consignments.",
-    "year": 2022,
-    "indicatorIds": [
-      "lp-lpi-ovrl-xq",
-      "lp-lpi-trac-xq"
-    ],
-    "emoji": "🚚",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Lowest Gender Parity in Education",
-    "description": "In 2022, Afghanistan had the lowest gender parity index for youth literacy rates, with a value of 0.54.",
+    "title": "Gender Inequality in Education",
+    "description": "The gender parity index for literacy among youth aged 15-24 was 0.54 in 2022, highlighting significant gender disparities in education.",
     "year": 2022,
     "indicatorIds": [
       "se-adt-1524-lt-fm-zs"
@@ -100,45 +243,29 @@
     ]
   },
   {
-    "title": "Highest Proportion of Women Subjected to Violence",
-    "description": "In 2015, 46.1% of ever-partnered women aged 15-49 in Afghanistan were subjected to physical and/or sexual violence, the highest proportion globally.",
-    "year": 2015,
-    "indicatorIds": [
-      "sg-vaw-1549-zs"
-    ],
-    "emoji": "⚠️",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "Lowest Antiretroviral Therapy Coverage",
-    "description": "In 2022, only 9% of people living with HIV in Afghanistan received antiretroviral therapy, the lowest coverage worldwide.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-hiv-artc-zs"
-    ],
-    "emoji": "🧬",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Lowest Female Labor Force Participation",
-    "description": "In 2024, the female labor force participation rate in Afghanistan was only 6.80% of the total labor force, the lowest globally.",
+    "title": "Low Female Labor Force Participation",
+    "description": "In 2024, the ratio of female to male labor force participation was only 7.30%, indicating a significant gender gap in employment.",
     "year": 2024,
     "indicatorIds": [
-      "sl-tlf-totl-fe-zs"
+      "sl-tlf-cact-fm-zs"
     ],
     "emoji": "👩‍💼",
     "type": "WORST",
     "topicIds": [
-      "education",
-      "social-protection",
-      "gender"
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal Health Expenditure",
+    "description": "Domestic general government health expenditure per capita was just $0.63 in 2022, reflecting limited investment in public health.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-ghed-pc-cd"
+    ],
+    "emoji": "🏥",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

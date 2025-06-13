@@ -1,7 +1,7 @@
 [
   {
     "title": "Universal Internet Access",
-    "description": "In 2023, 100% of both the male and female population in the United Arab Emirates used the Internet, making it one of the few countries with universal internet access.",
+    "description": "In 2023, 100% of both male and female populations in the UAE have access to the internet, showcasing a fully connected society.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -15,13 +15,13 @@
     ]
   },
   {
-    "title": "Lowest Adolescent School Dropout Rate",
-    "description": "In 2023, only 0.0034% of adolescents of lower secondary school age were out of school in the UAE, indicating an almost universal school attendance rate.",
+    "title": "Minimal Adolescent School Dropout",
+    "description": "As of 2023, only 0.34% of adolescents of lower secondary school age are out of school, indicating a strong educational retention rate.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-uner-lo-zs"
     ],
-    "emoji": "🎓",
+    "emoji": "📚",
     "type": "BEST",
     "topicIds": [
       "education"
@@ -29,12 +29,12 @@
   },
   {
     "title": "High International Migrant Population",
-    "description": "As of 2015, 88.4% of the UAE's population consisted of international migrants, one of the highest percentages globally.",
+    "description": "In 2015, international migrants made up 88.4% of the UAE's population, reflecting its status as a global hub for expatriates.",
     "year": 2015,
     "indicatorIds": [
       "sm-pop-totl-zs"
     ],
-    "emoji": "🛂",
+    "emoji": "🌍",
     "type": "BEST",
     "topicIds": [
       "financial-sector",
@@ -42,17 +42,46 @@
     ]
   },
   {
-    "title": "Low Female Adult Mortality Rate",
-    "description": "In 2023, the mortality rate for adult females in the UAE was 18.5 per 1,000 female adults, one of the lowest rates worldwide.",
+    "title": "Low Adult Female Mortality Rate",
+    "description": "The mortality rate for adult females in the UAE is 18.47 per 1,000 female adults as of 2023, one of the lowest globally.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-fe"
     ],
-    "emoji": "👩‍⚕️",
+    "emoji": "💪",
     "type": "BEST",
     "topicIds": [
       "health",
       "gender"
+    ]
+  },
+  {
+    "title": "Youthful Population Structure",
+    "description": "In 2023, 11.42% of the female and 14.67% of the male populations are aged 25-29, indicating a youthful demographic.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-2529-fe-5y",
+      "sp-pop-2529-ma-5y"
+    ],
+    "emoji": "👶",
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Elderly Population",
+    "description": "As of 2023, only 0.91% of females and 0.69% of males are aged 65-69, with 2.11% of females aged 65 and above, suggesting a relatively young population.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-6569-fe-5y",
+      "sp-pop-6569-ma-5y",
+      "sp-pop-65up-fe-zs"
+    ],
+    "emoji": "👵",
+    "type": "WORST",
+    "topicIds": [
+      "health"
     ]
   }
 ]

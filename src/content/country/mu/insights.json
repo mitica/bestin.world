@@ -1,20 +1,20 @@
 [
   {
-    "title": "Lowest Carbon Dioxide Emissions from Waste",
-    "description": "In 2023, Mauritius had one of the lowest carbon dioxide emissions from waste, with only 0.0001 Mt CO2e.",
+    "title": "Minimal Carbon Emissions from Waste",
+    "description": "In 2023, Mauritius reported a remarkably low carbon dioxide emission from waste, amounting to just 0.0001 Mt CO2e, showcasing its commitment to sustainable waste management.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-wa-mt-ce-ar5"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "BEST",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Lowest Military Expenditure as a Percentage of Government Spending",
-    "description": "In 2023, Mauritius allocated only 0.52% of its general government expenditure to military spending, one of the lowest percentages globally.",
+    "title": "Low Military Expenditure",
+    "description": "Mauritius allocated only 0.52% of its general government expenditure to military spending in 2023, reflecting its focus on non-military priorities.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xpnd-zs"
@@ -23,6 +23,32 @@
     "type": "BEST",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Aid from Sweden",
+    "description": "In 2021, Mauritius received a minimal net bilateral aid flow from Sweden, totaling approximately $10,000, indicating limited financial dependency on Swedish aid.",
+    "year": 2021,
+    "indicatorIds": [
+      "dc-dac-swel-cd"
+    ],
+    "emoji": "🤝",
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Benefit Incidence to Poorest Quintile",
+    "description": "In 2017, only 3.85% of unemployment benefits and active labor market programs in Mauritius reached the poorest quintile, highlighting a need for more equitable distribution.",
+    "year": 2017,
+    "indicatorIds": [
+      "per_lm_alllm-ben_q1_tot"
+    ],
+    "emoji": "⚖️",
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

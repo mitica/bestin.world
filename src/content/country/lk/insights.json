@@ -1,20 +1,7 @@
 [
   {
-    "title": "Lowest Stock Market Performance",
-    "description": "In 2022, Sri Lanka experienced a significant decline in its stock market, with the S&P Global Equity Indices showing an annual change of -62.44%.",
-    "year": 2022,
-    "indicatorIds": [
-      "cm-mkt-indx-zg"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Interest Payments as a Percentage of Revenue",
-    "description": "In 2023, interest payments in Sri Lanka accounted for 79.87% of the government's revenue, indicating a high debt servicing burden.",
+    "title": "High Interest Payments as a Share of Revenue",
+    "description": "In 2023, Sri Lanka's interest payments accounted for 79.87% of its total revenue, indicating a significant financial burden on the country's budget.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-intp-rv-zs"
@@ -26,42 +13,55 @@
     ]
   },
   {
-    "title": "High Interest Payments as a Percentage of Expense",
-    "description": "In 2023, interest payments constituted 49.44% of Sri Lanka's government expenses, reflecting a significant portion of the budget dedicated to debt servicing.",
+    "title": "Significant Interest Payments Relative to Expenses",
+    "description": "Sri Lanka's interest payments made up 49.44% of its total expenses in 2023, highlighting a substantial portion of government spending directed towards debt servicing.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-intp-zs"
     ],
-    "emoji": "💰",
+    "emoji": "📉",
     "type": "WORST",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Rate of Exclusive Breastfeeding",
-    "description": "In 2016, 80.93% of children under 6 months in Sri Lanka were exclusively breastfed, highlighting strong breastfeeding practices.",
+    "title": "Impressive Exclusive Breastfeeding Rates",
+    "description": "In 2016, 80.93% of Sri Lankan children under six months were exclusively breastfed, showcasing the country's strong commitment to early childhood nutrition.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-bfed-zs"
     ],
-    "emoji": "👶🍼",
+    "emoji": "🍼",
     "type": "BEST",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Prevalence of Overweight in Children",
-    "description": "In 2024, only 0.5% of children under 5 in Sri Lanka were overweight, indicating a low prevalence of overweight issues among young children.",
+    "title": "Low Prevalence of Overweight Children",
+    "description": "By 2024, only 0.5% of children under five in Sri Lanka were classified as overweight, reflecting effective public health measures in child nutrition.",
     "year": 2024,
     "indicatorIds": [
       "sh-sta-owgh-zs"
     ],
-    "emoji": "⚖️",
+    "emoji": "🍏",
     "type": "BEST",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Significant Decline in Equity Indices",
+    "description": "In 2022, Sri Lanka experienced a steep decline in its S&P Global Equity Indices, with a decrease of 62.44%, indicating economic challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "cm-mkt-indx-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
     ]
   }
 ]
