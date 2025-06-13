@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Lowest Political Stability",
+    "description": "In 2023, Syria had one of the lowest scores for political stability and absence of violence/terrorism, with an estimate of -2.75.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-est"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest Control of Corruption",
+    "description": "Syria ranked extremely low in control of corruption in 2023, with a percentile rank of 0.47%.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-per-rnk"
+    ],
+    "emoji": "🚨",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest Regulatory Quality",
+    "description": "In 2023, Syria had one of the lowest regulatory quality scores, with a lower bound percentile rank of 0.47%.",
+    "year": 2023,
+    "indicatorIds": [
+      "rq-per-rnk-lower"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Highest Pupil-Teacher Ratio in Tertiary Education",
+    "description": "In 2015, Syria had a very high pupil-teacher ratio in tertiary education, with 64.4 students per teacher.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-ter-enrl-tc-zs"
+    ],
+    "emoji": "📚",
+    "type": "WORST"
+  },
+  {
+    "title": "High Merchandise Exports to MENA",
+    "description": "In 2023, 58.07% of Syria's total merchandise exports were to low- and middle-income economies in the Middle East & North Africa.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-r4-zs"
+    ],
+    "emoji": "📦",
+    "type": "BEST"
+  }
+]

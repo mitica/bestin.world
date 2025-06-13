@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Highest energy intensity level",
+    "description": "In 2021, Trinidad and Tobago had the highest energy intensity level of primary energy at 18.72 MJ/$2017 PPP GDP.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-egy-prim-pp-kd"
+    ],
+    "emoji": "⚡",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest GDP per unit of energy use",
+    "description": "In 2022, Trinidad and Tobago had the lowest GDP per unit of energy use at 3.04 PPP $ per kg of oil equivalent.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-gdp-puse-ko-pp"
+    ],
+    "emoji": "💰",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest GDP per unit of energy use (constant 2021 PPP)",
+    "description": "In 2022, Trinidad and Tobago had the lowest GDP per unit of energy use at 2.84 constant 2021 PPP $ per kg of oil equivalent.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-gdp-puse-ko-pp-kd"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Highest energy use per $1,000 GDP",
+    "description": "In 2022, Trinidad and Tobago had the highest energy use at 352.40 kg of oil equivalent per $1,000 GDP (constant 2021 PPP).",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-use-comm-gd-pp-kd"
+    ],
+    "emoji": "🔥",
+    "type": "WORST"
+  },
+  {
+    "title": "100% binding coverage for all products",
+    "description": "In 2022, Trinidad and Tobago achieved 100% binding coverage for all products, indicating full tariff commitments.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-mrch-bc-zs"
+    ],
+    "emoji": "📦",
+    "type": "BEST"
+  },
+  {
+    "title": "100% binding coverage for primary products",
+    "description": "In 2022, Trinidad and Tobago achieved 100% binding coverage for primary products, indicating full tariff commitments.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-tcom-bc-zs"
+    ],
+    "emoji": "🌾",
+    "type": "BEST"
+  }
+]

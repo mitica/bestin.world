@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Most Effective Government",
+    "description": "In 2023, Switzerland achieved a perfect score of 100 in the Government Effectiveness percentile rank, indicating the highest level of government effectiveness globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-per-rnk-upper"
+    ],
+    "emoji": "🏛️",
+    "type": "BEST"
+  },
+  {
+    "title": "Highest Domestic Private Health Expenditure",
+    "description": "In 2022, Switzerland had the highest domestic private health expenditure per capita, spending $7,131.24 per person.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-pvtd-pc-cd"
+    ],
+    "emoji": "💰",
+    "type": "BEST"
+  },
+  {
+    "title": "Highest Out-of-Pocket Health Expenditure",
+    "description": "In 2022, Switzerland had the highest out-of-pocket health expenditure per capita at $2,366.21.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-oopc-pc-cd"
+    ],
+    "emoji": "💸",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest Reserves and Related Items",
+    "description": "In 2023, Switzerland had the lowest reserves and related items, with a negative balance of -$132 billion.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-res-incl-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  }
+]

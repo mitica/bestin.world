@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Highest Urban Population Concentration",
+    "description": "In 2024, 100% of Singapore's urban population lived in the largest city, indicating a complete urban concentration.",
+    "year": 2024,
+    "indicatorIds": [
+      "en-urb-lcty-ur-zs"
+    ],
+    "emoji": "🏙️",
+    "type": "BEST"
+  },
+  {
+    "title": "Top Government Effectiveness",
+    "description": "In 2023, Singapore achieved a perfect score of 100 in Government Effectiveness Percentile Rank, showcasing its exceptional governance.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-per-rnk"
+    ],
+    "emoji": "🏛️",
+    "type": "BEST"
+  },
+  {
+    "title": "Highest Regulatory Quality",
+    "description": "Singapore scored 100 in Regulatory Quality Percentile Rank in 2023, reflecting its superior regulatory environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "rq-per-rnk"
+    ],
+    "emoji": "📈",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest Arable Land Per Person",
+    "description": "In 2021, Singapore had only 0.0001 hectares of arable land per person, one of the lowest in the world.",
+    "year": 2021,
+    "indicatorIds": [
+      "ag-lnd-arbl-ha-pc"
+    ],
+    "emoji": "🌾",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest Foreign Direct Investment",
+    "description": "In 2024, Singapore experienced a net foreign direct investment of -$96.7 billion, indicating a significant outflow.",
+    "year": 2024,
+    "indicatorIds": [
+      "bn-klt-dinv-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  }
+]

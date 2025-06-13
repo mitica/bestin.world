@@ -1,0 +1,53 @@
+[
+  {
+    "title": "High Military Presence",
+    "description": "In 2020, Eritrea had 13.36% of its total labor force in the armed forces, indicating a significant military presence.",
+    "year": 2020,
+    "indicatorIds": [
+      "ms-mil-totl-tf-zs"
+    ],
+    "emoji": "🪖",
+    "type": "BEST"
+  },
+  {
+    "title": "Widespread Open Defecation",
+    "description": "In 2016, 67% of Eritrea's population practiced open defecation, with 88.65% in rural areas.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-odfc-ru-zs",
+      "sh-sta-odfc-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Business Regulatory Environment",
+    "description": "Eritrea scored 1 out of 6 in the CPIA business regulatory environment rating in 2023, indicating a challenging business climate.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-breg-xq"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Poor Financial Management",
+    "description": "In 2023, Eritrea received a score of 1 out of 6 for the quality of budgetary and financial management, reflecting poor financial governance.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-finq-xq"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "Lack of Transparency and Accountability",
+    "description": "Eritrea's CPIA rating for transparency, accountability, and corruption in the public sector was 1 out of 6 in 2023, indicating significant governance issues.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-tran-xq"
+    ],
+    "emoji": "🔍",
+    "type": "WORST"
+  }
+]

@@ -1,0 +1,132 @@
+[
+  {
+    "title": "High PM2.5 Air Pollution",
+    "description": "In 2020, Niger had a mean annual PM2.5 air pollution exposure of 85.1 micrograms per cubic meter, one of the highest in the world.",
+    "year": 2020,
+    "indicatorIds": [
+      "en-atm-pm25-mc-m3"
+    ],
+    "emoji": "🌫️",
+    "type": "WORST"
+  },
+  {
+    "title": "High Competition from Unregistered Firms",
+    "description": "In 2017, 85.1% of firms in Niger reported competition from unregistered firms, indicating a significant informal sector.",
+    "year": 2017,
+    "indicatorIds": [
+      "ic-frm-cmpu-zs"
+    ],
+    "emoji": "🏢",
+    "type": "WORST"
+  },
+  {
+    "title": "High Contribution of Agriculture to GDP",
+    "description": "In 2023, agriculture, forestry, and fishing contributed 47.8% to Niger's GDP, highlighting the sector's importance to the economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-agr-totl-zs"
+    ],
+    "emoji": "🌾",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Coverage of Social Insurance Programs",
+    "description": "In 2021, only 0.21% of Niger's population in the 3rd quintile was covered by social insurance programs, one of the lowest globally.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_si_allsi-cov_q3_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "WORST"
+  },
+  {
+    "title": "High Learning Poverty Among Female Children",
+    "description": "In 2019, 100% of female children at the end-of-primary age in Niger were below minimum reading proficiency, adjusted for out-of-school children.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-lpv-prim-fe"
+    ],
+    "emoji": "📚",
+    "type": "WORST"
+  },
+  {
+    "title": "High Rate of Female Primary School Age Children Out-of-School",
+    "description": "In 2019, 100% of female primary school age children in Niger were out-of-school, indicating severe educational challenges.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-lpv-prim-sd-fe"
+    ],
+    "emoji": "🚸",
+    "type": "WORST"
+  },
+  {
+    "title": "High Adolescent Out-of-School Rates",
+    "description": "In 2023, 72.3% of adolescents of lower secondary school age in Niger were out of school, one of the highest rates globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-sec-uner-lo-zs"
+    ],
+    "emoji": "🏫",
+    "type": "WORST"
+  },
+  {
+    "title": "High Under-5 Mortality Rate",
+    "description": "In 2023, Niger had an under-5 mortality rate of 114.8 per 1,000 live births, among the highest in the world.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-mort"
+    ],
+    "emoji": "⚰️",
+    "type": "WORST"
+  },
+  {
+    "title": "High Use of Insecticide-Treated Bed Nets",
+    "description": "In 2015, 95.5% of the under-5 population in Niger used insecticide-treated bed nets, indicating strong malaria prevention efforts.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-mlr-nets-zs"
+    ],
+    "emoji": "🦟",
+    "type": "BEST"
+  },
+  {
+    "title": "High Poverty Impact from Health Expenditure",
+    "description": "In 2018, 78.5% of Niger's population was pushed further below the $3.65 poverty line due to out-of-pocket health care expenditures.",
+    "year": 2018,
+    "indicatorIds": [
+      "sh-uhc-tot2-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "High Employment to Population Ratio for Young Males",
+    "description": "In 2022, the employment to population ratio for males aged 15-24 in Niger was 78.3%, indicating high youth employment.",
+    "year": 2022,
+    "indicatorIds": [
+      "sl-emp-1524-sp-ma-ne-zs"
+    ],
+    "emoji": "👷",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Youth Female Unemployment Rate",
+    "description": "In 2024, the unemployment rate for young females aged 15-24 in Niger was only 0.16%, one of the lowest globally.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-uem-1524-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "BEST"
+  },
+  {
+    "title": "High Proportion of Young Female Population",
+    "description": "In 2023, 46.9% of Niger's female population was aged 0-14, indicating a very young demographic.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-0014-fe-zs"
+    ],
+    "emoji": "👧",
+    "type": "BEST"
+  }
+]

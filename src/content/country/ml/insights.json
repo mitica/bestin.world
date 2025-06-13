@@ -1,0 +1,43 @@
+[
+  {
+    "title": "High prevalence of anemia among pregnant women",
+    "description": "In 2019, 59% of pregnant women in Mali were affected by anemia, indicating a significant public health concern.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-prg-anem"
+    ],
+    "emoji": "🤰",
+    "type": "WORST"
+  },
+  {
+    "title": "High belief in justification of domestic violence",
+    "description": "In 2018, 68.5% of women in Mali believed a husband is justified in beating his wife if she argues with him, and 62.8% believed it is justified if she refuses sex.",
+    "year": 2018,
+    "indicatorIds": [
+      "sg-vaw-argu-zs",
+      "sg-vaw-refu-zs"
+    ],
+    "emoji": "🚫",
+    "type": "WORST"
+  },
+  {
+    "title": "Low political stability",
+    "description": "In 2023, Mali ranked very low in political stability, with a percentile rank of 2.84 in the upper bound of the 90% confidence interval.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-per-rnk-upper"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST"
+  },
+  {
+    "title": "Low percentage of women making informed reproductive decisions",
+    "description": "In 2018, only 5.3% of women aged 15-49 in Mali made their own informed decisions regarding sexual relations, contraceptive use, and reproductive health care.",
+    "year": 2018,
+    "indicatorIds": [
+      "sg-dmk-srcr-fn-zs"
+    ],
+    "emoji": "♀️",
+    "type": "WORST"
+  }
+]

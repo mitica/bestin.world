@@ -1,0 +1,43 @@
+[
+  {
+    "title": "100% Electricity from Oil",
+    "description": "In 2021, Comoros produced 100% of its electricity from oil sources, indicating a complete reliance on oil for electricity generation.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-elc-fosl-zs",
+      "eg-elc-petr-zs"
+    ],
+    "emoji": "⚡️",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest F-gases Emissions from Industrial Processes",
+    "description": "In 2023, Comoros had one of the lowest F-gases emissions from industrial processes, with only 0.0001 Mt CO2e emitted.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-fgas-ip-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Revenue Mobilization Efficiency",
+    "description": "In 2023, Comoros had a low CPIA efficiency of revenue mobilization rating of 2, indicating challenges in revenue collection.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-revn-xq"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "Unfavorable Net Barter Terms of Trade",
+    "description": "In 2021, Comoros had a net barter terms of trade index of 59.8, which is considered low compared to the base year 2015.",
+    "year": 2021,
+    "indicatorIds": [
+      "tt-pri-mrch-xd-wd"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Highest Inflation Rate",
+    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world.",
+    "year": 2016,
+    "indicatorIds": [
+      "fp-cpi-totl-zg"
+    ],
+    "emoji": "📈",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest Military Spending",
+    "description": "In 2023, Venezuela's military expenditure was only 3,917,057 USD, one of the lowest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "ms-mil-xpnd-cd"
+    ],
+    "emoji": "🛡️",
+    "type": "WORST"
+  },
+  {
+    "title": "Longest Compulsory Education Duration",
+    "description": "As of 2023, Venezuela mandates 17 years of compulsory education, one of the longest durations worldwide.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-com-durs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST"
+  }
+]

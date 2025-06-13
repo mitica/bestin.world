@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Highest Permanent Cropland",
+    "description": "In 2022, 60% of Tuvalu's land area was dedicated to permanent cropland, the highest percentage in the world.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-lnd-crop-zs"
+    ],
+    "emoji": "🌾",
+    "type": "BEST"
+  },
+  {
+    "title": "Most Dependent on Foreign Aid",
+    "description": "In 2022, Tuvalu received net official development assistance (ODA) amounting to 79.85% of its Gross National Income (GNI), the highest dependency on foreign aid globally.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-oda-odat-gn-zs"
+    ],
+    "emoji": "💰",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest Urban Access to Safe Drinking Water",
+    "description": "Only 10.47% of Tuvalu's urban population had access to safely managed drinking water services in 2022, the lowest percentage worldwide.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-h2o-smdw-ur-zs"
+    ],
+    "emoji": "🚱",
+    "type": "WORST"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "title": "High Livestock Production",
+    "description": "In 2022, Malawi achieved a livestock production index of 190.08, indicating a significant increase compared to the base period of 2014-2016.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-prd-lvsk-xd"
+    ],
+    "emoji": "🐄",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Patent Applications by Nonresidents",
+    "description": "In 2016, Malawi had only 1 patent application filed by nonresidents, indicating low international interest in patenting within the country.",
+    "year": 2016,
+    "indicatorIds": [
+      "ip-pat-nres"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "High Pupil-Teacher Ratio in Secondary Education",
+    "description": "In 2018, Malawi had a pupil-teacher ratio of 72.31 in secondary education, one of the highest in the world, indicating crowded classrooms.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-sec-enrl-tc-zs"
+    ],
+    "emoji": "🏫",
+    "type": "WORST"
+  },
+  {
+    "title": "Negative Transaction Costs for Remittances",
+    "description": "In 2023, Malawi had an average transaction cost of -49.69% for sending remittances, suggesting significant incentives or subsidies.",
+    "year": 2023,
+    "indicatorIds": [
+      "si-rmt-cost-ib-zs"
+    ],
+    "emoji": "💸",
+    "type": "BEST"
+  },
+  {
+    "title": "Decline in Per Capita Income Growth",
+    "description": "In 2019, Malawi experienced a -6.11% annualized average growth rate in per capita real survey mean consumption or income, indicating economic challenges.",
+    "year": 2019,
+    "indicatorIds": [
+      "si-spr-pcap-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Minimal Child Employment in Manufacturing",
+    "description": "In 2015, only 0.07% of economically active children aged 7-14 in Malawi were employed in manufacturing, reflecting low child labor in this sector.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-mnf-0714-zs"
+    ],
+    "emoji": "🚸",
+    "type": "BEST"
+  },
+  {
+    "title": "High Part-Time Employment",
+    "description": "In 2020, 76.09% of total employment in Malawi was part-time, indicating a high prevalence of part-time work in the labor market.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-part-zs"
+    ],
+    "emoji": "🕒",
+    "type": "BEST"
+  }
+]

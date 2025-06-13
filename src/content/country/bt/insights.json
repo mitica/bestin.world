@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Leader in Renewable Energy",
+    "description": "In 2021, Bhutan achieved 100% renewable electricity output, with 99.99% of its electricity produced from hydroelectric sources.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-elc-hyro-zs",
+      "eg-elc-rnew-zs"
+    ],
+    "emoji": "🔋",
+    "type": "BEST"
+  },
+  {
+    "title": "Minimal Informal Payments",
+    "description": "As of 2015, only 0.1% of firms in Bhutan reported making informal payments to public officials, indicating low corruption levels.",
+    "year": 2015,
+    "indicatorIds": [
+      "ic-frm-corr-zs"
+    ],
+    "emoji": "💼",
+    "type": "BEST"
+  },
+  {
+    "title": "Efficient Business Licensing",
+    "description": "In 2015, it took just 1.2 days to obtain an operating license in Bhutan, showcasing an efficient business environment.",
+    "year": 2015,
+    "indicatorIds": [
+      "ic-frm-durs"
+    ],
+    "emoji": "⏱️",
+    "type": "BEST"
+  },
+  {
+    "title": "High External Debt Burden",
+    "description": "In 2023, Bhutan's present value of external debt was 332.14% of its exports of goods, services, and primary income, indicating a high debt burden.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-pvlx-ex-zs"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Intellectual Property Receipts",
+    "description": "In 2024, Bhutan had negative charges for the use of intellectual property, with receipts amounting to -$8,581.42.",
+    "year": 2024,
+    "indicatorIds": [
+      "bx-gsr-royl-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  }
+]

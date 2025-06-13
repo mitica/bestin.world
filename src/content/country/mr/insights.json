@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Lowest insurance and financial services imports",
+    "description": "In 2023, Mauritania had one of the lowest percentages of insurance and financial services as part of its service imports, at just 0.037%.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-gsr-insf-zs"
+    ],
+    "emoji": "📉",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest R&D expenditure",
+    "description": "In 2018, Mauritania spent only 0.01% of its GDP on research and development, one of the lowest rates globally.",
+    "year": 2018,
+    "indicatorIds": [
+      "gb-xpd-rsdv-gd-zs"
+    ],
+    "emoji": "🔬",
+    "type": "WORST"
+  },
+  {
+    "title": "Longest lead time to import",
+    "description": "In 2016, the median lead time to import goods into Mauritania was 32 days, one of the longest durations worldwide.",
+    "year": 2016,
+    "indicatorIds": [
+      "lp-imp-durs-md"
+    ],
+    "emoji": "⏳",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest insurance and financial services in commercial imports",
+    "description": "In 2023, insurance and financial services made up only 0.039% of Mauritania's commercial service imports, among the lowest globally.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-insf-zs-wt"
+    ],
+    "emoji": "💼",
+    "type": "BEST"
+  }
+]

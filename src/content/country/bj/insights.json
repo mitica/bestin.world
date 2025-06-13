@@ -1,0 +1,32 @@
+[
+  {
+    "title": "High Malaria Incidence",
+    "description": "In 2023, Benin had a malaria incidence rate of 363.4 per 1,000 population at risk, one of the highest in the world.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-mlr-incd-p3"
+    ],
+    "emoji": "🦟",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Diabetes Prevalence",
+    "description": "In 2021, only 1.1% of Benin's population aged 20 to 79 had diabetes, one of the lowest rates globally.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-diab-zs"
+    ],
+    "emoji": "🍬",
+    "type": "BEST"
+  },
+  {
+    "title": "Limited Access to Sanitation",
+    "description": "As of 2022, only 2.7% of Benin's population had access to safely managed sanitation services, among the lowest worldwide.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-smss-zs"
+    ],
+    "emoji": "🚽",
+    "type": "WORST"
+  }
+]

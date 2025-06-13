@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Lowest GDP per capita growth",
+    "description": "In 2023, Sudan experienced a significant decline in GDP per capita growth, with a rate of -21.16%.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-pcap-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest GNI per capita",
+    "description": "Sudan's GNI per capita was one of the lowest in the world in 2023, at 308.45 constant LCU.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gnp-pcap-kn"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest vitamin A supplementation coverage",
+    "description": "In 2022, only 1% of children aged 6-59 months in Sudan received vitamin A supplementation.",
+    "year": 2022,
+    "indicatorIds": [
+      "sn-itk-vita-zs"
+    ],
+    "emoji": "🥕",
+    "type": "WORST"
+  },
+  {
+    "title": "Lowest total alcohol consumption per capita",
+    "description": "In 2020, Sudan had one of the lowest total alcohol consumption rates per capita, at just 0.01 liters of pure alcohol.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-alc-pcap-li"
+    ],
+    "emoji": "🚫🍺",
+    "type": "BEST"
+  },
+  {
+    "title": "Highest GDP deflator",
+    "description": "Sudan had an extremely high GDP deflator in 2023, reaching 462,510.92, indicating significant inflation.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-defl-zs"
+    ],
+    "emoji": "💹",
+    "type": "WORST"
+  }
+]

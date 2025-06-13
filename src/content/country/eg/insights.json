@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Lowest Average Precipitation",
+    "description": "In 2021, Egypt had one of the lowest average precipitation depths in the world, with only 18.1 mm of rainfall per year.",
+    "year": 2021,
+    "indicatorIds": [
+      "ag-lnd-prcp-mm"
+    ],
+    "emoji": "🌵",
+    "type": "WORST"
+  },
+  {
+    "title": "Highest Freshwater Withdrawals",
+    "description": "In 2021, Egypt's annual freshwater withdrawals were 7750% of its internal resources, one of the highest rates globally.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-fwtl-zs"
+    ],
+    "emoji": "🚰",
+    "type": "BEST"
+  },
+  {
+    "title": "Perfect Female Education Persistence",
+    "description": "In 2020, Egypt achieved a 100% persistence rate for females reaching grade 5 and the last grade of primary school, indicating strong educational retention for girls.",
+    "year": 2020,
+    "indicatorIds": [
+      "se-prm-prs5-fe-zs",
+      "se-prm-prsl-fe-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BEST"
+  },
+  {
+    "title": "Highest Tariff Rate on Primary Products",
+    "description": "In 2019, Egypt applied a simple mean tariff rate of 99.4% on primary products, one of the highest in the world.",
+    "year": 2019,
+    "indicatorIds": [
+      "tm-tax-tcom-sm-ar-zs"
+    ],
+    "emoji": "📈",
+    "type": "BEST"
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Highest Stock Market Growth",
+    "description": "In 2022, Türkiye experienced a remarkable 105.78% increase in the S&P Global Equity Indices, indicating the highest stock market growth globally.",
+    "year": 2022,
+    "indicatorIds": [
+      "cm-mkt-indx-zg"
+    ],
+    "emoji": "📈",
+    "type": "BEST"
+  },
+  {
+    "title": "Lowest Net Financial Flows",
+    "description": "In 2023, Türkiye had the lowest net financial flows, with a negative value of $707.83 million, indicating significant financial outflows.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-moth-cd"
+    ],
+    "emoji": "💸",
+    "type": "WORST"
+  },
+  {
+    "title": "Largest Decrease in Inventories",
+    "description": "Türkiye saw the largest decrease in inventories in 2023, with a reduction of $21.16 billion, reflecting a significant drop in stock levels.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-gdi-stkb-cd"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  }
+]

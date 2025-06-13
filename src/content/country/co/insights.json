@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Highest Average Precipitation",
+    "description": "Colombia experiences an average precipitation depth of 3240 mm per year, making it one of the wettest countries in the world as of 2021.",
+    "year": 2021,
+    "indicatorIds": [
+      "ag-lnd-prcp-mm"
+    ],
+    "emoji": "🌧️",
+    "type": "BEST"
+  },
+  {
+    "title": "High Net Financial Flows from IMF",
+    "description": "In 2020, Colombia received net financial flows from the IMF amounting to $5.22 billion, indicating significant financial engagement with the institution.",
+    "year": 2020,
+    "indicatorIds": [
+      "dt-nfl-imfn-cd"
+    ],
+    "emoji": "💰",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Coverage of Unemployment Benefits",
+    "description": "As of 2022, only 0.15% of the Colombian population is covered by unemployment benefits and active labor market programs, one of the lowest coverages globally.",
+    "year": 2022,
+    "indicatorIds": [
+      "per_lm_alllm-cov_pop_tot"
+    ],
+    "emoji": "📉",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Adequacy of Social Safety Nets",
+    "description": "In 2022, the adequacy of social safety net programs in Colombia was only 0.69% of the total welfare of beneficiary households, indicating limited support.",
+    "year": 2022,
+    "indicatorIds": [
+      "per_sa_allsa-adq_pop_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Acceptance of Domestic Violence",
+    "description": "In 2015, only 3.1% of women in Colombia believed a husband is justified in beating his wife for any reason, reflecting low acceptance of domestic violence.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-vaw-reas-zs"
+    ],
+    "emoji": "🚫",
+    "type": "BEST"
+  }
+]

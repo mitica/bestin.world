@@ -1,0 +1,92 @@
+[
+  {
+    "title": "High Gender Equality Rating",
+    "description": "In 2019, Moldova achieved a CPIA gender equality rating of 4.5, indicating a relatively high level of gender equality in the country.",
+    "year": 2019,
+    "indicatorIds": [
+      "iq-cpa-gndr-xq"
+    ],
+    "emoji": "♀️",
+    "type": "BEST"
+  },
+  {
+    "title": "High Female Labor Force Participation",
+    "description": "As of 2024, females make up 54.72% of the total labor force in Moldova, showing a strong presence of women in the workforce.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-totl-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "BEST"
+  },
+  {
+    "title": "Low Liner Shipping Connectivity",
+    "description": "In 2020, Moldova had a liner shipping connectivity index of 0.64, indicating very low connectivity in terms of shipping routes.",
+    "year": 2020,
+    "indicatorIds": [
+      "is-shp-gcnw-xq"
+    ],
+    "emoji": "🚢",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Container Port Traffic",
+    "description": "In 2019, Moldova's container port traffic was only 818 TEUs, reflecting minimal port activity.",
+    "year": 2019,
+    "indicatorIds": [
+      "is-shp-good-tu"
+    ],
+    "emoji": "📦",
+    "type": "WORST"
+  },
+  {
+    "title": "High Lead Time to Import",
+    "description": "In 2016, the median lead time to import goods into Moldova was 32 days, indicating significant delays in import processes.",
+    "year": 2016,
+    "indicatorIds": [
+      "lp-imp-durs-md"
+    ],
+    "emoji": "⏳",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Coverage of Unemployment Benefits for Richest Quintile",
+    "description": "In 2017, only 0.03% of the richest quintile in Moldova received unemployment benefits or active labor market programs, showing very low coverage.",
+    "year": 2017,
+    "indicatorIds": [
+      "per_lm_alllm-cov_q5_tot"
+    ],
+    "emoji": "💼",
+    "type": "WORST"
+  },
+  {
+    "title": "High Mortality Rate from Unintentional Poisoning",
+    "description": "In 2021, Moldova had a mortality rate of 4.15 per 100,000 population due to unintentional poisoning, which is notably high.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-pois-p5"
+    ],
+    "emoji": "☠️",
+    "type": "WORST"
+  },
+  {
+    "title": "High Male Mortality Rate from Unintentional Poisoning",
+    "description": "In 2021, the mortality rate for males due to unintentional poisoning in Moldova was 6.71 per 100,000 male population, indicating a significant health concern.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-pois-p5-ma"
+    ],
+    "emoji": "⚠️",
+    "type": "WORST"
+  },
+  {
+    "title": "Low Female Employers",
+    "description": "In 2023, only 0.08% of female employment in Moldova was comprised of employers, indicating a low level of female entrepreneurship.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-mpyr-fe-zs"
+    ],
+    "emoji": "👩‍🔧",
+    "type": "WORST"
+  }
+]
