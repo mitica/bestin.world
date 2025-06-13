@@ -7,7 +7,11 @@
       "ic-cus-durs-ex"
     ],
     "emoji": "🚀",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Most Frequent Tax Official Meetings",
@@ -17,7 +21,10 @@
       "ic-frm-metg-zs"
     ],
     "emoji": "💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Fewest Patent Applications by Nonresidents",
@@ -27,7 +34,10 @@
       "ip-pat-nres"
     ],
     "emoji": "📄",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "Lowest Demand for Family Planning Met by Modern Methods",
@@ -37,6 +47,9 @@
       "sh-fpl-satm-zs"
     ],
     "emoji": "👶",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

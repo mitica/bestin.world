@@ -7,7 +7,10 @@
       "eg-cft-accs-zs"
     ],
     "emoji": "🔥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Internet Usage Among Females",
@@ -17,7 +20,10 @@
       "it-net-user-fe-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Highest Risk of Impoverishing Surgical Costs",
@@ -27,7 +33,10 @@
       "sh-sgr-irsk-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Prevalence of Stunting in Children",
@@ -37,7 +46,10 @@
       "sh-sta-stnt-me-zs"
     ],
     "emoji": "📏",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Employment in Agriculture",
@@ -47,6 +59,10 @@
       "sl-agr-empl-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "social-protection"
+    ]
   }
 ]

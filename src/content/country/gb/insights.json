@@ -7,7 +7,11 @@
       "bn-klt-ptxl-cd"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Most New Businesses Registered",
@@ -17,7 +21,10 @@
       "ic-bus-nreg"
     ],
     "emoji": "🏢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Perfect Persistence to Grade 5",
@@ -27,7 +34,11 @@
       "se-prm-prs5-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Battle-related Deaths",
@@ -37,6 +48,9 @@
       "vc-btl-deth"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

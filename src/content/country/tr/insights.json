@@ -7,7 +7,10 @@
       "cm-mkt-indx-zg"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Net Financial Flows",
@@ -17,7 +20,10 @@
       "dt-nfl-moth-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Largest Decrease in Inventories",
@@ -27,6 +33,9 @@
       "ne-gdi-stkb-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

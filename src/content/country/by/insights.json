@@ -7,7 +7,11 @@
       "se-prm-tchr-fe-zs"
     ],
     "emoji": "👩‍🏫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Maternal Mortality Ratio",
@@ -17,7 +21,12 @@
       "sh-sta-mmrt"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender",
+      "aid-effectiveness"
+    ]
   },
   {
     "title": "Lowest Percentage of Women Married by Age 15",
@@ -27,7 +36,11 @@
       "sp-m15-2024-fe-zs"
     ],
     "emoji": "💍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Net Bilateral Aid Flows from EU Institutions",
@@ -37,6 +50,9 @@
       "dc-dac-cecl-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

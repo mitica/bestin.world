@@ -7,7 +7,10 @@
       "ag-con-fert-zs"
     ],
     "emoji": "🌱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Access to Electricity",
@@ -17,7 +20,12 @@
       "eg-elc-accs-zs"
     ],
     "emoji": "💡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Highest Population Living in Slums",
@@ -27,7 +35,12 @@
       "en-pop-slum-ur-zs"
     ],
     "emoji": "🏚️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty",
+      "urban-development",
+      "environment"
+    ]
   },
   {
     "title": "Lowest School Enrollment Rates",
@@ -38,7 +51,11 @@
       "se-sec-nenr-fe"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Poverty Rate",
@@ -48,7 +65,10 @@
       "si-pov-nahc"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Highest Prevalence of Severe Food Insecurity",
@@ -58,7 +78,10 @@
       "sn-itk-svfi-zs"
     ],
     "emoji": "🍽️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Infant Mortality Rate",
@@ -68,6 +91,9 @@
       "sp-dyn-imrt-in"
     ],
     "emoji": "👶",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

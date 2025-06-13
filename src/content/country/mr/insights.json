@@ -7,7 +7,12 @@
       "bm-gsr-insf-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest R&D expenditure",
@@ -17,7 +22,10 @@
       "gb-xpd-rsdv-gd-zs"
     ],
     "emoji": "🔬",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "Longest lead time to import",
@@ -27,7 +35,11 @@
       "lp-imp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest insurance and financial services in commercial imports",
@@ -37,6 +49,10 @@
       "tm-val-insf-zs-wt"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

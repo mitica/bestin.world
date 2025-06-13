@@ -7,7 +7,11 @@
       "ag-yld-crel-kg"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "climate-change"
+    ]
   },
   {
     "title": "Fewest Patent Applications by Nonresidents",
@@ -17,7 +21,10 @@
       "ip-pat-nres"
     ],
     "emoji": "📄",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "High Transparency and Accountability",
@@ -27,7 +34,10 @@
       "iq-cpa-tran-xq"
     ],
     "emoji": "🔍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Coal Rents as Percentage of GDP",
@@ -37,7 +47,10 @@
       "ny-gdp-coal-rt-zs"
     ],
     "emoji": "⛏️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Ores and Metals Exports",
@@ -47,6 +60,11 @@
       "tx-val-mmtl-zs-un"
     ],
     "emoji": "⚒️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
   }
 ]

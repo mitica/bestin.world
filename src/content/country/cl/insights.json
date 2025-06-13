@@ -7,7 +7,11 @@
       "se-prm-prs5-ma-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Persistence to Last Grade of Primary for Males",
@@ -17,7 +21,11 @@
       "se-prm-prsl-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Percentage of Adolescents Out of School (Male)",
@@ -27,7 +35,10 @@
       "se-sec-uner-lo-ma-zs"
     ],
     "emoji": "🏫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Proportion of Population Pushed Below Poverty Line by Health Expenditure",
@@ -37,7 +48,10 @@
       "sh-uhc-nop2-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Net Official Flows from UNFPA",
@@ -47,6 +61,9 @@
       "dt-nfl-unfp-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

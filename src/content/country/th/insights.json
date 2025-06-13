@@ -7,7 +7,11 @@
       "ic-frm-femm-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "gender"
+    ]
   },
   {
     "title": "Most Comprehensive Birth Registration in Urban Areas",
@@ -17,7 +21,10 @@
       "sp-reg-brth-ur-zs"
     ],
     "emoji": "📝",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Proportion of Population Pushed into Poverty by Health Expenses",
@@ -27,7 +34,10 @@
       "sh-uhc-nop2-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Net Official Flows from UNIDO",
@@ -37,6 +47,7 @@
       "dt-nfl-unido-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   }
 ]

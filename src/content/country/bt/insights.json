@@ -8,7 +8,13 @@
       "eg-elc-rnew-zs"
     ],
     "emoji": "🔋",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure",
+      "environment"
+    ]
   },
   {
     "title": "Minimal Informal Payments",
@@ -18,7 +24,10 @@
       "ic-frm-corr-zs"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Efficient Business Licensing",
@@ -28,7 +37,10 @@
       "ic-frm-durs"
     ],
     "emoji": "⏱️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "High External Debt Burden",
@@ -38,7 +50,11 @@
       "dt-dod-pvlx-ex-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Low Intellectual Property Receipts",
@@ -48,6 +64,10 @@
       "bx-gsr-royl-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "science"
+    ]
   }
 ]

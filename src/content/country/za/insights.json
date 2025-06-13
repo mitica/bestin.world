@@ -7,7 +7,10 @@
       "dt-nfl-prop-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Fewest required tax meetings",
@@ -17,7 +20,10 @@
       "ic-tax-metg"
     ],
     "emoji": "🧾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Highest unemployment with basic education",
@@ -27,7 +33,10 @@
       "sl-uem-basc-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Highest lower secondary school starting age",
@@ -37,6 +46,9 @@
       "se-sec-ages"
     ],
     "emoji": "🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

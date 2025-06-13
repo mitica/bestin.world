@@ -7,7 +7,10 @@
       "se-pre-enrl-tc-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Highest lower secondary school starting age",
@@ -17,7 +20,10 @@
       "se-sec-ages"
     ],
     "emoji": "🎒",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Highest bound rate for manufactured products",
@@ -27,7 +33,11 @@
       "tm-tax-manf-br-zs"
     ],
     "emoji": "🏭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest public-private partnership investment in energy",
@@ -37,7 +47,10 @@
       "ie-ppn-engy-cd"
     ],
     "emoji": "💡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest patent applications by nonresidents",
@@ -47,7 +60,10 @@
       "ip-pat-nres"
     ],
     "emoji": "📄",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "Lowest change in inventories",
@@ -57,6 +73,9 @@
       "ne-gdi-stkb-kn"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

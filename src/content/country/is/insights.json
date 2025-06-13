@@ -7,7 +7,10 @@
       "eg-use-comm-cl-zs"
     ],
     "emoji": "🔋",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Highest electric power consumption per capita",
@@ -17,7 +20,12 @@
       "eg-use-elec-kh-pc"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure"
+    ]
   },
   {
     "title": "Highest account ownership among adults",
@@ -30,7 +38,10 @@
       "fx-own-totl-zs"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest carbon dioxide emissions from agriculture",
@@ -40,7 +51,10 @@
       "en-ghg-co2-ag-mt-ce-ar5"
     ],
     "emoji": "🌱",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest share of youth not in education, employment, or training (female)",
@@ -50,7 +64,10 @@
       "sl-uem-neet-fe-zs"
     ],
     "emoji": "👩‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest agricultural irrigated land",
@@ -60,6 +77,10 @@
       "ag-lnd-irig-ag-zs"
     ],
     "emoji": "🚜",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "climate-change"
+    ]
   }
 ]

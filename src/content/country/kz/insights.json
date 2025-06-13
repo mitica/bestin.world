@@ -7,7 +7,10 @@
       "sl-emp-totl-sp-ne-zs"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest Prevalence of Severe Food Insecurity",
@@ -17,7 +20,10 @@
       "sn-itk-svfi-zs"
     ],
     "emoji": "🍽️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Educational Attainment",
@@ -27,7 +33,11 @@
       "se-sec-cuat-po-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Population Living in Slums",
@@ -37,7 +47,12 @@
       "en-pop-slum-ur-zs"
     ],
     "emoji": "🏙️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty",
+      "urban-development",
+      "environment"
+    ]
   },
   {
     "title": "High Arable Land Per Person",
@@ -47,7 +62,10 @@
       "ag-lnd-arbl-ha-pc"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "High Taxes on Exports",
@@ -57,7 +75,10 @@
       "gc-tax-expt-cn"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low Proportion Living Below 50% of Median Income",
@@ -67,6 +88,9 @@
       "si-dst-50md"
     ],
     "emoji": "💵",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
   }
 ]

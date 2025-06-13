@@ -7,7 +7,11 @@
       "tm-tax-tcom-bc-zs"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Net ODA Received per Capita",
@@ -17,7 +21,12 @@
       "dt-oda-odat-pc-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness",
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Net ODA Received as Percentage of GNI",
@@ -27,7 +36,12 @@
       "dt-oda-odat-gn-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness",
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Net ODA Received as Percentage of Imports",
@@ -37,6 +51,9 @@
       "dt-oda-odat-mp-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "ny-gdp-pcap-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Most marine protected areas",
@@ -17,7 +20,11 @@
       "er-mrn-ptmr-zs"
     ],
     "emoji": "🌊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Highest government effectiveness",
@@ -27,7 +34,10 @@
       "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest life expectancy",
@@ -37,7 +47,12 @@
       "sp-dyn-le00-fe-in"
     ],
     "emoji": "👵",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Lowest rural land area",
@@ -47,7 +62,11 @@
       "ag-lnd-totl-ru-k2"
     ],
     "emoji": "🏞️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "environment"
+    ]
   },
   {
     "title": "Lowest capture fisheries production",
@@ -57,7 +76,10 @@
       "er-fsh-capt-mt"
     ],
     "emoji": "🐟",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest number of infant deaths",
@@ -67,6 +89,9 @@
       "sh-dth-imrt"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

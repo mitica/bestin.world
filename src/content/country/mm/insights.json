@@ -7,7 +7,10 @@
       "nv-mnf-tech-zs-un"
     ],
     "emoji": "🏭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Livestock Production Index",
@@ -17,7 +20,10 @@
       "ag-prd-lvsk-xd"
     ],
     "emoji": "🐄",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Weak Property Rights and Governance",
@@ -27,7 +33,10 @@
       "iq-cpa-prop-xq"
     ],
     "emoji": "🏚️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Short Compulsory Education Duration",
@@ -37,7 +46,10 @@
       "se-com-durs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Female Representation in Academia",
@@ -47,6 +59,9 @@
       "se-ter-tchr-fe-zs"
     ],
     "emoji": "👩‍🏫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

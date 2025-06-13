@@ -7,7 +7,8 @@
       "ic-bre-lb-p2"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Lowest Interest Rate Spread",
@@ -17,7 +18,10 @@
       "fr-inr-lndp"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Fewest Tax Official Meetings",
@@ -27,7 +31,10 @@
       "ic-tax-metg"
     ],
     "emoji": "🧾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Minimal Tariff Peaks on Products",
@@ -37,6 +44,10 @@
       "tm-tax-mrch-ip-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

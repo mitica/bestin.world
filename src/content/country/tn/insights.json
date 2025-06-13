@@ -7,7 +7,10 @@
       "ic-gov-durs-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "High ARI Treatment Coverage",
@@ -17,7 +20,10 @@
       "sh-sta-aric-zs"
     ],
     "emoji": "🏥",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Significant Investment in Secondary Education",
@@ -27,7 +33,10 @@
       "se-xpd-seco-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Government Expenditure per Secondary Student",
@@ -37,7 +46,10 @@
       "se-xpd-seco-pc-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Prevalence of Overweight in Young Boys",
@@ -47,6 +59,9 @@
       "sh-sta-owgh-ma-zs"
     ],
     "emoji": "⚖️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

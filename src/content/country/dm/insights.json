@@ -7,7 +7,10 @@
       "en-ghg-ch4-tr-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Carbon Dioxide Emissions from Waste",
@@ -17,7 +20,10 @@
       "en-ghg-co2-wa-mt-ce-ar5"
     ],
     "emoji": "♻️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Nitrous Oxide Emissions from Transport",
@@ -27,7 +33,10 @@
       "en-ghg-n2o-tr-mt-ce-ar5"
     ],
     "emoji": "🚗",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Net National Savings",
@@ -37,6 +46,10 @@
       "ny-adj-nnat-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
   }
 ]

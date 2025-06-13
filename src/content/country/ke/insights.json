@@ -8,7 +8,11 @@
       "en-atm-pm25-mc-zs"
     ],
     "emoji": "🌫️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment",
+      "urban-development"
+    ]
   },
   {
     "title": "Excellent Female Progression to Secondary School",
@@ -18,6 +22,10 @@
       "se-sec-prog-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   }
 ]

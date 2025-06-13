@@ -7,7 +7,10 @@
       "sh-uhc-nop1-zs"
     ],
     "emoji": "💪",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Negligible external health expenditure",
@@ -17,7 +20,10 @@
       "sh-xpd-ehex-ch-zs"
     ],
     "emoji": "🏥",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lengthy process for obtaining an operating license",
@@ -27,6 +33,9 @@
       "ic-frm-durs"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "iq-cpa-revn-xq"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Strong Fiscal Policy",
@@ -17,7 +20,10 @@
       "iq-cpa-fisp-xq"
     ],
     "emoji": "📊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Unmet Need for Contraception",
@@ -27,6 +33,9 @@
       "sp-uwt-tfrt"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

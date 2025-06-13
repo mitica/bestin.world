@@ -7,7 +7,10 @@
       "en-ghg-all-pc-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Carbon Dioxide Emissions Per Capita",
@@ -17,7 +20,10 @@
       "en-ghg-co2-pc-ce-ar5"
     ],
     "emoji": "🏭",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Carbon Intensity of GDP",
@@ -27,7 +33,10 @@
       "en-ghg-co2-rt-gdp-kd"
     ],
     "emoji": "💰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Tourism Receipts as Percentage of Exports",
@@ -37,7 +46,11 @@
       "st-int-rcpt-xp-zs"
     ],
     "emoji": "✈️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Current Account Balance",
@@ -47,6 +60,9 @@
       "bn-cab-xoka-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

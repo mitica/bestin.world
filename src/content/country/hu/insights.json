@@ -7,7 +7,8 @@
       "ic-bre-fs-p1"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Fastest Growth in Agriculture, Forestry, and Fishing",
@@ -17,7 +18,10 @@
       "nv-agr-totl-kd-zg"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Universal Access to Safe Drinking Water in Rural Areas",
@@ -27,7 +31,11 @@
       "sh-h2o-smdw-ru-zs"
     ],
     "emoji": "🚰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Foreign Direct Investment Outflows",
@@ -37,6 +45,10 @@
       "bm-klt-dinv-wd-gd-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   }
 ]

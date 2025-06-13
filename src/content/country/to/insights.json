@@ -7,7 +7,11 @@
       "bx-trf-pwkr-dt-gd-zs"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Low external debt",
@@ -17,7 +21,11 @@
       "dt-dod-dect-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "High taxes on goods and services",
@@ -27,7 +35,10 @@
       "gc-tax-gsrv-va-zs"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low trademark applications",
@@ -37,7 +48,10 @@
       "ip-tmk-rsct"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Decline in household consumption",
@@ -47,7 +61,10 @@
       "ne-con-prvt-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Decline in per capita consumption",
@@ -57,6 +74,9 @@
       "ne-con-prvt-pc-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

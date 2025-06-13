@@ -11,15 +11,20 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.props;
-const [tops, indicators] = await Promise.all([
+const [tops, topics] = await Promise.all([
   getEntry("countryInsights", country.id)!.then((t) => t.data),
-  getCollection("indicators")
+  getCollection("topics")
 ]);
 
 const bestIn =
   tops.filter((it) => it.type === "BEST").sort((a, b) => b.year - a.year) || [];
 const worstIn =
-  tops.filter((it) => it.type === "WORST").sort((a, b) => b.year - a.year) || [];
+  tops.filter((it) => it.type === "WORST").sort((a, b) => b.year - a.year) ||
+  [];
+
+const getTopic = (id: string) => {
+  return topics.find((topic) => topic.id === id)!.data;
+};
 ---
 
 <Layout title={`Country: ${country.name}`}>
@@ -31,8 +36,16 @@ const worstIn =
         bestIn.length > 0 &&
           bestIn.map((item) => (
             <li>
-              <h4>{item.emoji}{item.title} ({item.year})</h4>
+              <h4>
+                {item.emoji}
+                {item.title} ({item.year})
+              </h4>
               <p>{item.description}</p>
+              <p>
+                {item.topicIds.map(getTopic).map((topic) => (
+                  <a href={`/${topic.id}`}>{topic.name}</a>
+                ))}
+              </p>
             </li>
           ))
       }
@@ -44,8 +57,15 @@ const worstIn =
         worstIn.length > 0 &&
           worstIn.map((item) => (
             <li>
-              <h4>{item.emoji} {item.title} ({item.year})</h4>
+              <h4>
+                {item.emoji} {item.title} ({item.year})
+              </h4>
               <p>{item.description}</p>
+              <p>
+                {item.topicIds.map(getTopic).map((topic) => (
+                  <a href={`/${topic.id}`}>{topic.name}</a>
+                ))}
+              </p>
             </li>
           ))
       }

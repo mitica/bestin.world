@@ -7,7 +7,10 @@
       "sh-sta-suic-fe-p5"
     ],
     "emoji": "🌟",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Urban Population Growth",
@@ -17,7 +20,11 @@
       "sp-urb-grow"
     ],
     "emoji": "🏙️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "urban-development"
+    ]
   },
   {
     "title": "High Population Growth",
@@ -27,7 +34,11 @@
       "sp-pop-grow"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "health"
+    ]
   },
   {
     "title": "High Employment in Industry",
@@ -37,7 +48,10 @@
       "sl-ind-empl-zs"
     ],
     "emoji": "🏭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Imports from Arab World",
@@ -47,6 +61,10 @@
       "tm-val-mrch-al-zs"
     ],
     "emoji": "🛳️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

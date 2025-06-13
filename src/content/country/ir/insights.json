@@ -7,7 +7,11 @@
       "dt-dod-dect-gn-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Debt Service Ratio",
@@ -17,7 +21,11 @@
       "dt-tds-dect-ex-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Present Value of External Debt",
@@ -27,7 +35,11 @@
       "dt-dod-pvlx-gn-zs"
     ],
     "emoji": "📊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "High Net Foreign Assets",
@@ -37,7 +49,10 @@
       "fm-ast-nfrg-cn"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "High Government Expenditure",
@@ -47,7 +62,10 @@
       "ne-con-govt-cn"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "High Household Consumption",
@@ -57,7 +75,10 @@
       "ne-con-prvt-cn"
     ],
     "emoji": "🛒",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "High GDP",
@@ -67,7 +88,10 @@
       "ny-gdp-mktp-cn"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "High GNI",
@@ -77,7 +101,10 @@
       "ny-gnp-mktp-cn"
     ],
     "emoji": "💹",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "High Net Intake Rate in Grade 1",
@@ -87,7 +114,11 @@
       "se-prm-nint-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Labor Force Participation with Intermediate Education",
@@ -97,6 +128,9 @@
       "sl-tlf-intm-fe-zs"
     ],
     "emoji": "🚫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

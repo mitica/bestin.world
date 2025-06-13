@@ -7,7 +7,8 @@
       "ic-bre-be-p3"
     ],
     "emoji": "🏢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "High Gender Representation in Parliament",
@@ -17,7 +18,12 @@
       "sg-gen-parl-zs"
     ],
     "emoji": "👩‍⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Ease of Resolving Commercial Disputes",
@@ -27,7 +33,8 @@
       "ic-bre-dr-p3"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Low Diarrhea Treatment Coverage",
@@ -37,6 +44,9 @@
       "sh-sta-orcf-zs"
     ],
     "emoji": "🚼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

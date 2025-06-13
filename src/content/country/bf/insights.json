@@ -7,7 +7,10 @@
       "per_allsp-ben_q1_tot"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest benefit incidence of social insurance programs to poorest quintile",
@@ -17,7 +20,10 @@
       "per_si_allsi-ben_q1_tot"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Highest government expenditure per student in tertiary education",
@@ -27,6 +33,9 @@
       "se-xpd-tert-pc-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

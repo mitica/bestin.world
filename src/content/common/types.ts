@@ -61,6 +61,7 @@ export interface InsightInfo {
   year: number;
   emoji: string;
   type: "BEST" | "WORST";
+  topicIds?: string[];
 }
 
 export interface TopicInfo {

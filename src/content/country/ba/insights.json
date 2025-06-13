@@ -8,7 +8,10 @@
       "sh-uhc-tot1-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest informal payments to public officials",
@@ -18,7 +21,10 @@
       "ic-frm-corr-zs"
     ],
     "emoji": "🕵️‍♂️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Smallest population in largest city",
@@ -28,7 +34,10 @@
       "en-urb-lcty"
     ],
     "emoji": "🏙️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "urban-development"
+    ]
   },
   {
     "title": "Lowest air freight transport",
@@ -38,6 +47,9 @@
       "is-air-good-mt-k1"
     ],
     "emoji": "✈️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   }
 ]

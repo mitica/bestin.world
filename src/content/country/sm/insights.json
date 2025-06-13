@@ -7,7 +7,10 @@
       "fb-cbk-brch-p5"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Growth in Household Consumption Expenditure",
@@ -17,7 +20,10 @@
       "ne-con-prvt-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Agriculture Contribution to GDP",
@@ -27,7 +33,12 @@
       "nv-agr-totl-zs"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "economy",
+      "climate-change"
+    ]
   },
   {
     "title": "Lowest Pupil-Teacher Ratio in Secondary Education",
@@ -37,7 +48,10 @@
       "se-sec-enrl-tc-zs"
     ],
     "emoji": "👩‍🏫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Infant Mortality Rate",
@@ -47,6 +61,9 @@
       "sp-dyn-imrt-in"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

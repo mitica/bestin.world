@@ -7,7 +7,11 @@
       "eg-elc-accs-ru-zs"
     ],
     "emoji": "🔌",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "energy"
+    ]
   },
   {
     "title": "Lowest Electric Power Consumption",
@@ -17,7 +21,12 @@
       "eg-use-elec-kh-pc"
     ],
     "emoji": "⚡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Literacy Rate",
@@ -27,7 +36,10 @@
       "se-adt-litr-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Highest Multidimensional Poverty",
@@ -37,7 +49,8 @@
       "si-pov-mpun"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Highest Maternal Mortality Ratio",
@@ -47,7 +60,11 @@
       "sh-sta-mmrt-ne"
     ],
     "emoji": "🚑",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Highest Percentage of Children in Employment",
@@ -57,6 +74,10 @@
       "sl-tlf-0714-zs"
     ],
     "emoji": "👶🏽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
   }
 ]

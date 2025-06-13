@@ -7,7 +7,10 @@
       "bn-cab-xoka-gd-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Secondary Income Receipts",
@@ -17,7 +20,10 @@
       "bx-trf-curr-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Water Stress Level",
@@ -27,7 +33,10 @@
       "er-h2o-fwst-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Full Internet Usage Among Females",
@@ -37,7 +46,10 @@
       "it-net-user-fe-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Taxes Less Subsidies on Products",
@@ -47,7 +59,10 @@
       "ny-tax-nind-cd"
     ],
     "emoji": "🧾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Vulnerable Employment for Females",
@@ -57,7 +72,12 @@
       "sl-emp-vuln-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Lowest Population of Young Adult Males",
@@ -67,6 +87,9 @@
       "sp-pop-2024-ma-5y"
     ],
     "emoji": "👨‍🦱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

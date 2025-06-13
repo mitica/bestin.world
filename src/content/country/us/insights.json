@@ -7,7 +7,11 @@
       "bn-klt-ptxl-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Current Health Expenditure Per Capita",
@@ -18,7 +22,10 @@
       "sh-xpd-chex-pp-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Most Secure Internet Servers",
@@ -28,7 +35,10 @@
       "it-net-secr"
     ],
     "emoji": "🔒",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Highest Education Expenditure",
@@ -38,7 +48,11 @@
       "ny-adj-aedu-cd"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Prevalence of Wasting Among Children",
@@ -48,6 +62,9 @@
       "sh-sta-wast-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

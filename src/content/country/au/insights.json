@@ -7,7 +7,10 @@
       "rq-per-rnk-upper"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Preprimary School Enrollment",
@@ -19,7 +22,11 @@
       "se-pre-enrr-ma"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Battle-related Deaths",
@@ -29,7 +36,10 @@
       "vc-btl-deth"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Prevalence of Overweight Children",
@@ -39,6 +49,9 @@
       "sh-sta-owgh-me-zs"
     ],
     "emoji": "⚖️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

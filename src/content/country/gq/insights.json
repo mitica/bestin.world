@@ -7,7 +7,10 @@
       "en-ghg-tot-zg-ar5"
     ],
     "emoji": "🌍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Increase in Methane Emissions",
@@ -17,7 +20,10 @@
       "en-ghg-ch4-zg-ar5"
     ],
     "emoji": "💨",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Percentage of Nonperforming Loans",
@@ -27,7 +33,10 @@
       "fb-ast-nper-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Bank Capital to Assets Ratio",
@@ -37,7 +46,10 @@
       "fb-bnk-capa-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Growth in Claims on Private Sector",
@@ -47,7 +59,10 @@
       "fm-ast-prvt-zg-m3"
     ],
     "emoji": "📊",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Primary Completion Rate for Males",
@@ -57,7 +72,11 @@
       "se-prm-cmpt-ma-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Percentage of Male Children Out of School",
@@ -67,7 +86,10 @@
       "se-prm-uner-ma-zs"
     ],
     "emoji": "🚸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Percentage of Trained Male Teachers in Lower Secondary Education",
@@ -77,7 +99,10 @@
       "se-sec-tcaq-lo-ma-zs"
     ],
     "emoji": "👨‍🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Voice and Accountability Percentile Rank",
@@ -87,6 +112,9 @@
       "va-per-rnk-lower"
     ],
     "emoji": "🔇",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

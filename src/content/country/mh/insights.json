@@ -7,7 +7,11 @@
       "ag-lnd-el5m-zs"
     ],
     "emoji": "🏝️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "High incidence of tuberculosis",
@@ -17,7 +21,11 @@
       "sh-tbs-incd"
     ],
     "emoji": "🦠",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "aid-effectiveness"
+    ]
   },
   {
     "title": "High external health expenditure per capita",
@@ -27,7 +35,10 @@
       "sh-xpd-ehex-pc-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Minimal nitrous oxide emissions",
@@ -37,6 +48,9 @@
       "en-ghg-n2o-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   }
 ]

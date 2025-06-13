@@ -7,7 +7,11 @@
       "se-sec-nenr-fe"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High UHC Service Coverage Index",
@@ -17,7 +21,10 @@
       "sh-uhc-srvs-cv-xd"
     ],
     "emoji": "🏥",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Significant Portfolio Equity Net Outflows",
@@ -27,6 +34,11 @@
       "bx-pef-totl-cd-wd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "external-debt"
+    ]
   }
 ]

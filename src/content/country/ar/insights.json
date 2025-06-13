@@ -7,7 +7,10 @@
       "fr-inr-dpst"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Growth in Claims on Central Government",
@@ -17,7 +20,10 @@
       "fm-ast-cgov-zg-m3"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Net Financial Flows from IMF",
@@ -27,7 +33,10 @@
       "dt-nfl-imfn-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest IFC Private Nonguaranteed Financial Flows",
@@ -37,6 +46,9 @@
       "dt-nfl-nifc-cd"
     ],
     "emoji": "🔻",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   }
 ]

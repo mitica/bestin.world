@@ -7,7 +7,8 @@
       "ic-bre-bi-p2"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Fastest Customs Clearance for Exports",
@@ -17,7 +18,11 @@
       "ic-cus-durs-ex"
     ],
     "emoji": "🚚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest Tuberculosis Case Detection Rate",
@@ -27,6 +32,9 @@
       "sh-tbs-dtec-zs"
     ],
     "emoji": "🩺",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

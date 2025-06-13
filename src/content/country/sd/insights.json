@@ -7,7 +7,10 @@
       "ny-gdp-pcap-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest GNI per capita",
@@ -17,7 +20,10 @@
       "ny-gnp-pcap-kn"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest vitamin A supplementation coverage",
@@ -27,7 +33,10 @@
       "sn-itk-vita-zs"
     ],
     "emoji": "🥕",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest total alcohol consumption per capita",
@@ -37,7 +46,10 @@
       "sh-alc-pcap-li"
     ],
     "emoji": "🚫🍺",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest GDP deflator",
@@ -47,6 +59,9 @@
       "ny-gdp-defl-zs"
     ],
     "emoji": "💹",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

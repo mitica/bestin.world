@@ -7,7 +7,10 @@
       "en-ghg-fgas-ip-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Risk Premium on Lending",
@@ -17,7 +20,10 @@
       "fr-inr-risk"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Proportion of Population Spending Over 25% on Health Care",
@@ -27,7 +33,10 @@
       "sh-uhc-oopc-25-zs"
     ],
     "emoji": "🏥",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Learning Poverty Rate",
@@ -37,7 +46,8 @@
       "se-lpv-prim"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Highest Pupils Below Minimum Reading Proficiency",
@@ -47,7 +57,8 @@
       "se-lpv-prim-ld"
     ],
     "emoji": "📖",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Highest Vitamin A Supplementation Coverage",
@@ -57,6 +68,9 @@
       "sn-itk-vita-zs"
     ],
     "emoji": "🥕",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

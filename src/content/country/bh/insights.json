@@ -9,7 +9,10 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Fertilizer Consumption",
@@ -19,7 +22,10 @@
       "ag-con-fert-pt-zs"
     ],
     "emoji": "🌱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Renewable Freshwater Resources",
@@ -29,7 +35,11 @@
       "er-h2o-intr-k3"
     ],
     "emoji": "💧",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Intentional Homicide Rate",
@@ -39,7 +49,10 @@
       "vc-ihr-psrc-p5"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Newborn Tetanus Protection",
@@ -49,6 +62,9 @@
       "sh-vac-ttns-zs"
     ],
     "emoji": "👶💉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

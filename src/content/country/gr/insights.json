@@ -7,7 +7,8 @@
       "ic-bre-be-os"
     ],
     "emoji": "🏢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Excellent Digital Public Services for Business",
@@ -17,7 +18,8 @@
       "ic-bre-be-p2"
     ],
     "emoji": "💻",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "High Quality of Public Services for International Trade",
@@ -27,7 +29,8 @@
       "ic-bre-it-p2"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "High Tertiary Education Enrollment",
@@ -37,7 +40,10 @@
       "se-ter-enrr"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Female Tertiary Education Enrollment",
@@ -47,7 +53,11 @@
       "se-ter-enrr-fe"
     ],
     "emoji": "👩‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High Male Tertiary Education Enrollment",
@@ -57,7 +67,11 @@
       "se-ter-enrr-ma"
     ],
     "emoji": "👨‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Growth in Agriculture Sector",
@@ -67,7 +81,10 @@
       "nv-agr-totl-kd-zg"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Low Number of Children Out of School",
@@ -78,7 +95,10 @@
       "se-prm-uner-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Specialist Surgical Workforce",
@@ -88,6 +108,9 @@
       "sh-med-saop-p5"
     ],
     "emoji": "🩺",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

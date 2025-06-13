@@ -7,7 +7,10 @@
       "eg-use-comm-fo-zs"
     ],
     "emoji": "⛽",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Highest Total Reserves to External Debt Ratio",
@@ -17,7 +20,11 @@
       "fi-res-totl-dt-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Market Capitalization Relative to GDP",
@@ -27,7 +34,10 @@
       "cm-mkt-lcap-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest IBRD Loans and IDA Credits",
@@ -37,7 +47,10 @@
       "dt-dod-mwbg-cd"
     ],
     "emoji": "💵",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Public Debt Service to Exports Ratio",
@@ -47,7 +60,10 @@
       "dt-tds-dppg-xp-zs"
     ],
     "emoji": "📊",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Current Education Expenditure in Primary Education",
@@ -57,6 +73,9 @@
       "se-xpd-cprm-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

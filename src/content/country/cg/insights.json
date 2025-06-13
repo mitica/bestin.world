@@ -7,7 +7,10 @@
       "er-h2o-fwst-zs"
     ],
     "emoji": "💧",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Minimal Freshwater Withdrawals",
@@ -17,7 +20,12 @@
       "er-h2o-fwtl-zs"
     ],
     "emoji": "🚰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "infrastructure",
+      "environment"
+    ]
   },
   {
     "title": "Fewest Surgical Procedures",
@@ -27,7 +35,10 @@
       "sh-sgr-proc-p5"
     ],
     "emoji": "🏥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Binding Coverage for Primary Products",
@@ -37,7 +48,11 @@
       "tm-tax-tcom-bc-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low New Displacements Due to Conflict",
@@ -47,6 +62,9 @@
       "vc-idp-nwcv"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

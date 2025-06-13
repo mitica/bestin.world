@@ -7,7 +7,10 @@
       "en-ghg-co2-fe-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Urban Population in Large Cities",
@@ -17,7 +20,11 @@
       "en-urb-mcty-tl-zs"
     ],
     "emoji": "🏙️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "climate-change",
+      "urban-development"
+    ]
   },
   {
     "title": "Longest Lead Time to Export",
@@ -27,7 +34,11 @@
       "lp-exp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "trade",
+      "private-sector"
+    ]
   },
   {
     "title": "Lowest Female Doctoral Educational Attainment",
@@ -37,7 +48,11 @@
       "se-ter-cuat-do-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Expenditure on Tertiary Education",
@@ -47,7 +62,10 @@
       "se-xpd-tert-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Access to Basic Sanitation",
@@ -57,7 +75,11 @@
       "sh-sta-bass-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Percentage of Employers in Employment",
@@ -67,7 +89,10 @@
       "sl-emp-mpyr-zs"
     ],
     "emoji": "👔",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest Completeness of Birth Registration",
@@ -77,6 +102,9 @@
       "sp-reg-brth-zs"
     ],
     "emoji": "📝",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

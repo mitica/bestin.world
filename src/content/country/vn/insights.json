@@ -7,7 +7,10 @@
       "fm-ast-doms-cn"
     ],
     "emoji": "💳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Broad Money",
@@ -17,7 +20,10 @@
       "fm-lbl-bmny-cn"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Most Efficient Tax System",
@@ -27,7 +33,8 @@
       "ic-bre-tx-p3"
     ],
     "emoji": "📊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Highest Exports of Goods and Services",
@@ -37,7 +44,10 @@
       "ne-exp-gnfs-kn"
     ],
     "emoji": "🚢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Imports of Goods and Services",
@@ -47,7 +57,10 @@
       "ne-imp-gnfs-kn"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest External Balance on Goods and Services",
@@ -57,7 +70,10 @@
       "ne-rsb-gnfs-cn"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Exports as a Capacity to Import",
@@ -67,7 +83,11 @@
       "ny-exp-capm-kn"
     ],
     "emoji": "🔄",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Discrepancy in GDP Expenditure Estimate",
@@ -77,6 +97,9 @@
       "ny-gdp-disc-cn"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

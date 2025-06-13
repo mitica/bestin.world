@@ -7,7 +7,10 @@
       "ny-gnp-mktp-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "High Women's HIV Prevalence",
@@ -17,6 +20,10 @@
       "sh-dyn-aids-fe-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

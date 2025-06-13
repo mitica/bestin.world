@@ -7,7 +7,10 @@
       "dt-tds-mlat-pg-zs"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Water Productivity",
@@ -17,7 +20,10 @@
       "er-gdp-fwtl-m3-kd"
     ],
     "emoji": "💧",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Domestic Credit to Private Sector by Banks",
@@ -27,7 +33,10 @@
       "fd-ast-prvt-gd-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Inflation Rate",
@@ -37,7 +46,11 @@
       "fp-cpi-totl-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest CPIA Ratings",
@@ -51,7 +64,10 @@
       "iq-cpa-tran-xq"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Logistics Performance Index",
@@ -62,7 +78,11 @@
       "lp-lpi-trac-xq"
     ],
     "emoji": "🚚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Gender Parity in Education",
@@ -72,7 +92,12 @@
       "se-adt-1524-lt-fm-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Highest Proportion of Women Subjected to Violence",
@@ -82,7 +107,11 @@
       "sg-vaw-1549-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Antiretroviral Therapy Coverage",
@@ -92,7 +121,10 @@
       "sh-hiv-artc-zs"
     ],
     "emoji": "🧬",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Female Labor Force Participation",
@@ -102,6 +134,11 @@
       "sl-tlf-totl-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "social-protection",
+      "gender"
+    ]
   }
 ]

@@ -7,7 +7,12 @@
       "bx-gsr-insf-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "High Urban Open Defecation Rate",
@@ -17,7 +22,11 @@
       "sh-sta-odfc-ur-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "High Female Employment in Management",
@@ -27,7 +36,10 @@
       "sl-emp-smgt-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Youth Not in Education, Employment, or Training",
@@ -37,6 +49,9 @@
       "sl-uem-neet-ma-me-zs"
     ],
     "emoji": "🧑‍🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

@@ -7,7 +7,11 @@
       "bm-gsr-tran-zs"
     ],
     "emoji": "🚢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "High Youth Unemployment",
@@ -17,7 +21,10 @@
       "sl-uem-1524-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Booming Export Growth",
@@ -27,7 +34,11 @@
       "tx-val-mrch-xd-wd"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Minimal Government Spending on Secondary Education",
@@ -37,6 +48,9 @@
       "se-xpd-seco-pc-zs"
     ],
     "emoji": "🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

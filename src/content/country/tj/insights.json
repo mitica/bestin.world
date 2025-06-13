@@ -7,7 +7,10 @@
       "sl-uem-advn-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest rate of child marriage by age 15",
@@ -17,7 +20,11 @@
       "sp-m15-2024-fe-zs"
     ],
     "emoji": "👰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Highest binding coverage for all products",
@@ -27,7 +34,11 @@
       "tm-tax-mrch-bc-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest binding coverage for primary products",
@@ -37,7 +48,11 @@
       "tm-tax-tcom-bc-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest domestic credit provided by financial sector",
@@ -47,7 +62,10 @@
       "fs-ast-doms-gd-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest investment in transport with private participation",
@@ -57,7 +75,11 @@
       "ie-ppi-tran-cd"
     ],
     "emoji": "🚆",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "private-sector"
+    ]
   },
   {
     "title": "Lowest public-private partnership investment in transport",
@@ -67,6 +89,9 @@
       "ie-ppn-tran-cd"
     ],
     "emoji": "🛣️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   }
 ]

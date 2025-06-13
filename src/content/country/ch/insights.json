@@ -7,7 +7,10 @@
       "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Domestic Private Health Expenditure",
@@ -17,7 +20,10 @@
       "sh-xpd-pvtd-pc-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Out-of-Pocket Health Expenditure",
@@ -27,7 +33,10 @@
       "sh-xpd-oopc-pc-cd"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Reserves and Related Items",
@@ -37,6 +46,9 @@
       "bn-res-incl-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

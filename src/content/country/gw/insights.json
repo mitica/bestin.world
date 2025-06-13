@@ -7,7 +7,11 @@
       "st-int-trnr-cd"
     ],
     "emoji": "✈️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest food imports as a percentage of merchandise imports",
@@ -17,7 +21,11 @@
       "tm-val-food-zs-un"
     ],
     "emoji": "🍽️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest manufactures exports as a percentage of merchandise exports",
@@ -27,6 +35,10 @@
       "tx-val-manf-zs-un"
     ],
     "emoji": "🏭",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

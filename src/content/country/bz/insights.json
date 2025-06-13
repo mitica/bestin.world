@@ -7,7 +7,12 @@
       "tx-val-tech-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "science",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Percentage of High-Technology Exports",
@@ -17,7 +22,12 @@
       "tx-val-tech-mf-zs"
     ],
     "emoji": "🔍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "science",
+      "trade"
+    ]
   },
   {
     "title": "Low Number of Children Living with HIV",
@@ -27,7 +37,10 @@
       "sh-hiv-0014"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Public Private Partnerships in ICT",
@@ -37,6 +50,9 @@
       "ie-ppn-icti-cd"
     ],
     "emoji": "💻",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   }
 ]

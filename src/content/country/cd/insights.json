@@ -7,7 +7,12 @@
       "eg-fec-rnew-zs"
     ],
     "emoji": "🌿",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "High Combustible Renewables and Waste Usage",
@@ -17,7 +22,10 @@
       "eg-use-crnw-zs"
     ],
     "emoji": "♻️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "High Poverty Levels",
@@ -27,7 +35,10 @@
       "si-pov-umic"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Low Access to Basic Drinking Water in Rural Areas",
@@ -37,7 +48,11 @@
       "sh-h2o-basw-ru-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "High Out-of-School Rate for Primary School Age Children",
@@ -47,6 +62,7 @@
       "se-lpv-prim-sd"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   }
 ]

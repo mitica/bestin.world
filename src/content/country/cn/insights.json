@@ -7,7 +7,11 @@
       "bn-gsr-mrch-cd"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "Highest Total Reserves",
@@ -18,7 +22,12 @@
       "fi-res-xgld-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "external-debt"
+    ]
   },
   {
     "title": "Most Extensive Urban Population",
@@ -28,7 +37,10 @@
       "en-urb-mcty"
     ],
     "emoji": "🏙️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "urban-development"
+    ]
   },
   {
     "title": "Lowest Poverty Headcount Ratio",
@@ -38,7 +50,10 @@
       "si-pov-nahc"
     ],
     "emoji": "🚫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Lowest International Migrant Stock",
@@ -48,7 +63,11 @@
       "sm-pop-totl-zs"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector",
+      "health"
+    ]
   },
   {
     "title": "Lowest Battle-related Deaths",
@@ -58,7 +77,10 @@
       "vc-btl-deth"
     ],
     "emoji": "☮️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Net Primary Income",
@@ -68,7 +90,10 @@
       "bn-gsr-fcty-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Short-term Debt",
@@ -78,6 +103,9 @@
       "dt-dod-dstc-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   }
 ]

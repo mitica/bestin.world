@@ -7,7 +7,10 @@
       "fx-own-totl-ol-zs"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Top Control of Corruption",
@@ -17,7 +20,10 @@
       "cc-per-rnk-upper"
     ],
     "emoji": "🕵️‍♂️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Voice and Accountability",
@@ -27,7 +33,10 @@
       "va-per-rnk"
     ],
     "emoji": "🗣️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Maternal Mortality Ratio",
@@ -37,7 +46,12 @@
       "sh-sta-mmrt"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender",
+      "aid-effectiveness"
+    ]
   },
   {
     "title": "Lowest Mortality Rate from Air Pollution",
@@ -47,7 +61,10 @@
       "sh-sta-airp-ma-p5"
     ],
     "emoji": "🌬️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Bank Liquid Reserves Ratio",
@@ -57,6 +74,9 @@
       "fd-res-liqu-as-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   }
 ]

@@ -20,6 +20,14 @@ const indicators = defineCollection({
   })
 });
 
+const topics = defineCollection({
+  loader: file("src/content/common/topics.json"),
+  schema: z.object({
+    id: z.string(),
+    name: z.string()
+  })
+});
+
 const countryTops = defineCollection({
   loader: glob({
     pattern: "src/content/country/*/top.json",
@@ -49,7 +57,8 @@ const countryInsights = defineCollection({
       description: z.string().min(10).max(1000),
       emoji: z.string().min(1).max(10),
       year: z.number().int(),
-      type: z.enum(["BEST", "WORST"])
+      type: z.enum(["BEST", "WORST"]),
+      topicIds: z.array(z.string())
     })
   )
 });
@@ -58,5 +67,6 @@ export const collections = {
   countries,
   indicators,
   countryTops,
-  countryInsights
+  countryInsights,
+  topics
 };

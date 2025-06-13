@@ -7,7 +7,10 @@
       "gc-rev-socl-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Longest Secondary Education Duration",
@@ -17,7 +20,10 @@
       "se-sec-durs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Prevalence of Underweight in Females",
@@ -27,7 +33,11 @@
       "sh-sta-maln-fe-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Prevalence of Overweight in Males",
@@ -37,7 +47,10 @@
       "sh-sta-owgh-ma-zs"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Prevalence of Stunting in Males",
@@ -47,7 +60,10 @@
       "sh-sta-stnt-ma-zs"
     ],
     "emoji": "📏",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Largest Negative Net Capital Account",
@@ -57,6 +73,9 @@
       "bn-trf-kogt-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "gc-nfn-totl-gd-zs"
     ],
     "emoji": "🏗️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Natural Resources Depletion",
@@ -17,7 +20,11 @@
       "ny-adj-dres-gn-zs"
     ],
     "emoji": "⛏️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "energy"
+    ]
   },
   {
     "title": "Lowest Export Growth",
@@ -27,7 +34,11 @@
       "ne-exp-gnfs-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Industry Growth",
@@ -37,7 +48,10 @@
       "nv-ind-totl-kd-zg"
     ],
     "emoji": "🏭",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Adjusted Net National Income Growth",
@@ -47,7 +61,10 @@
       "ny-adj-nnty-kd-zg"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Inflation Rate",
@@ -58,6 +75,10 @@
       "ny-gdp-defl-kd-zg-ad"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   }
 ]

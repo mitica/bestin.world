@@ -7,7 +7,10 @@
       "fb-bnk-capa-zs"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "High Road Traffic Mortality",
@@ -17,6 +20,10 @@
       "sh-sta-traf-p5"
     ],
     "emoji": "🚗",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "urban-development"
+    ]
   }
 ]

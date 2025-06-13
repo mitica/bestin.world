@@ -7,7 +7,10 @@
       "ag-con-fert-pt-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest CO2 Emissions from Waste",
@@ -17,7 +20,10 @@
       "en-ghg-co2-wa-mt-ce-ar5"
     ],
     "emoji": "♻️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Patent Applications by Nonresidents",
@@ -27,6 +33,9 @@
       "ip-pat-nres"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   }
 ]

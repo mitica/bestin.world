@@ -2,7 +2,8 @@ import { readFile } from "fs/promises";
 import type {
   CountryInfo,
   IndicatorInfo,
-  LanguageInfo
+  LanguageInfo,
+  TopicInfo
 } from "../../src/content/common/types";
 
 export const getCountries = async () => {
@@ -19,6 +20,14 @@ export const getIndicators = async () => {
     "utf-8"
   ).then((data) => JSON.parse(data));
   return indicators as IndicatorInfo[];
+};
+
+export const getTopics = async () => {
+  const topics = await readFile(
+    "src/content/common/topics.json",
+    "utf-8"
+  ).then((data) => JSON.parse(data));
+  return topics as TopicInfo[];
 };
 
 export const getLanguages = async () => {

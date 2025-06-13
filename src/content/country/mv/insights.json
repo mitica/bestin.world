@@ -7,7 +7,11 @@
       "en-atm-pm25-mc-zs"
     ],
     "emoji": "🌿",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "urban-development",
+      "environment"
+    ]
   },
   {
     "title": "High CPIA Human Resources Rating",
@@ -17,7 +21,10 @@
       "iq-cpa-hres-xq"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low Teenage Motherhood Rate",
@@ -27,7 +34,11 @@
       "sp-mtr-1519-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Negative Net Bilateral Aid from Belgium",
@@ -37,6 +48,9 @@
       "dc-dac-bell-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

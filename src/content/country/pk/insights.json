@@ -7,7 +7,10 @@
       "sh-sta-diab-zs"
     ],
     "emoji": "🍬",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Use of Insecticide-Treated Bed Nets",
@@ -17,7 +20,10 @@
       "sh-mlr-nets-zs"
     ],
     "emoji": "🦟",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Debt Service Ratio",
@@ -27,6 +33,9 @@
       "dt-tds-dppf-xp-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   }
 ]

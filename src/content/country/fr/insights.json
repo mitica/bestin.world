@@ -7,7 +7,12 @@
       "eg-elc-nucl-zs"
     ],
     "emoji": "⚛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure"
+    ]
   },
   {
     "title": "Top Female Primary School Enrollment",
@@ -17,7 +22,11 @@
       "se-prm-tenr-fe"
     ],
     "emoji": "👩‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Rate of Girls Out of School",
@@ -27,7 +36,10 @@
       "se-prm-uner-fe-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Fewest Internally Displaced People",
@@ -37,6 +49,7 @@
       "sm-pop-idpc"
     ],
     "emoji": "🏠",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   }
 ]

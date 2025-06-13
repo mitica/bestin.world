@@ -7,7 +7,11 @@
       "bx-trf-pwkr-dt-gd-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Minimal Use of Alternative and Nuclear Energy",
@@ -17,7 +21,10 @@
       "eg-use-comm-cl-zs"
     ],
     "emoji": "🔋",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "High Domestic Freshwater Withdrawals",
@@ -27,7 +34,11 @@
       "er-h2o-fwdm-zs"
     ],
     "emoji": "🚰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
   },
   {
     "title": "Low Industrial Design Applications",
@@ -37,7 +48,10 @@
       "ip-ids-rsct"
     ],
     "emoji": "📐",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "High Net National Savings",
@@ -47,7 +61,11 @@
       "ny-adj-nnat-gn-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
   },
   {
     "title": "Low Current Health Expenditure",
@@ -57,7 +75,10 @@
       "sh-xpd-chex-gd-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Government Health Expenditure",
@@ -67,7 +88,10 @@
       "sh-xpd-ghed-ch-zs"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Tariff Rates on Manufactured Products",
@@ -77,7 +101,11 @@
       "tm-tax-manf-sm-ar-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "High Fuel Imports",
@@ -87,6 +115,11 @@
       "tm-val-fuel-zs-un"
     ],
     "emoji": "⛽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
   }
 ]

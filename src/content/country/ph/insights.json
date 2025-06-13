@@ -7,7 +7,10 @@
       "en-ghg-ch4-ip-mt-ce-ar5"
     ],
     "emoji": "🌱",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "High Medium and High-Tech Exports",
@@ -17,7 +20,11 @@
       "tx-mnf-tech-zs-un"
     ],
     "emoji": "🚀",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low Wanted Fertility Rate",
@@ -27,7 +34,11 @@
       "sp-dyn-wfrt"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "High Women's Share of Population Living with HIV",
@@ -37,6 +48,10 @@
       "sh-dyn-aids-fe-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

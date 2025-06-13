@@ -7,7 +7,11 @@
       "eg-elc-loss-zs"
     ],
     "emoji": "⚡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Female Employment Ratio",
@@ -17,7 +21,10 @@
       "sl-emp-1524-sp-fe-ne-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Highest Fuel Export Dependency",
@@ -27,7 +34,12 @@
       "tx-val-fuel-zs-un"
     ],
     "emoji": "⛽️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Use of Banks for Investment",
@@ -37,7 +49,11 @@
       "ic-frm-bnks-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector"
+    ]
   },
   {
     "title": "Lowest Female Labor Force Participation",
@@ -47,6 +63,9 @@
       "sl-tlf-cact-fe-ne-zs"
     ],
     "emoji": "👩‍🔧",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

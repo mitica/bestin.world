@@ -7,7 +7,11 @@
       "ic-cus-durs-ex"
     ],
     "emoji": "🚚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest growth in services sector",
@@ -17,7 +21,10 @@
       "nv-srv-totl-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest percentage of deaths from non-communicable diseases",
@@ -27,7 +34,10 @@
       "sh-dth-ncom-zs"
     ],
     "emoji": "⚕️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Complete urban birth registration",
@@ -37,6 +47,9 @@
       "sp-reg-brth-ur-zs"
     ],
     "emoji": "🍼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

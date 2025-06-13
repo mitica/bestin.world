@@ -9,7 +9,10 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Adolescent School Dropout Rate",
@@ -19,7 +22,10 @@
       "se-sec-uner-lo-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High International Migrant Population",
@@ -29,7 +35,11 @@
       "sm-pop-totl-zs"
     ],
     "emoji": "🛂",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector",
+      "health"
+    ]
   },
   {
     "title": "Low Female Adult Mortality Rate",
@@ -39,6 +49,10 @@
       "sp-dyn-amrt-fe"
     ],
     "emoji": "👩‍⚕️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

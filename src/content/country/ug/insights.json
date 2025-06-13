@@ -7,7 +7,10 @@
       "en-ghg-co2-lu-fl-mt-ce-ar5"
     ],
     "emoji": "🌲",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Coverage of Social Protection Programs",
@@ -17,7 +20,10 @@
       "per_allsp-cov_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Coverage of Social Safety Net Programs",
@@ -27,7 +33,10 @@
       "per_sa_allsa-cov_pop_tot"
     ],
     "emoji": "🧺",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Coverage of Social Insurance Programs",
@@ -37,7 +46,10 @@
       "per_si_allsi-cov_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Treatment of Children with Antimalarial Drugs",
@@ -47,7 +59,10 @@
       "sh-mlr-tret-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Prevalence of Female Genital Mutilation",
@@ -57,6 +72,9 @@
       "sh-sta-fgms-zs"
     ],
     "emoji": "🚫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

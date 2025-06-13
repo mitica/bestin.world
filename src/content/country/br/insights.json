@@ -7,7 +7,10 @@
       "per_lm_alllm-adq_pop_tot"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest Goods and Services Expense",
@@ -17,7 +20,10 @@
       "gc-xpn-gsrv-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Net National Savings",
@@ -27,6 +33,10 @@
       "ny-adj-nnat-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
   }
 ]

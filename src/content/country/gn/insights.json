@@ -7,7 +7,10 @@
       "sn-itk-vita-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Percentage of Female Secondary School Teachers",
@@ -17,7 +20,11 @@
       "se-sec-tchr-fe-zs"
     ],
     "emoji": "👩‍🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Number of Physicians per 1,000 People",
@@ -27,6 +34,9 @@
       "sh-med-phys-zs"
     ],
     "emoji": "🩺",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

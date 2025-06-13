@@ -7,7 +7,10 @@
       "se-lpv-prim-ma"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Learning Poverty Among Female Students",
@@ -17,7 +20,8 @@
       "se-lpv-prim-ld-fe"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "High Adequacy of Social Protection Programs",
@@ -27,6 +31,9 @@
       "per_allsp-adq_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

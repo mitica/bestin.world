@@ -7,7 +7,10 @@
       "en-ghg-ch4-bu-mt-ce-ar5"
     ],
     "emoji": "🏢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Smallest Land Under Cereal Production",
@@ -17,7 +20,10 @@
       "ag-lnd-crel-ha"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Pupil-Teacher Ratio in Upper Secondary Education",
@@ -27,7 +33,10 @@
       "se-sec-enrl-up-tc-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Fewest Industrial Design Applications by Residents",
@@ -37,7 +46,10 @@
       "ip-ids-rsct"
     ],
     "emoji": "🎨",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Minimal Freshwater Withdrawals",
@@ -47,6 +59,11 @@
       "er-h2o-fwtl-k3"
     ],
     "emoji": "💧",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "infrastructure",
+      "environment"
+    ]
   }
 ]

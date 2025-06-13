@@ -7,7 +7,11 @@
       "ag-yld-crel-kg"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change"
+    ]
   },
   {
     "title": "Lowest Short-term Debt",
@@ -17,7 +21,10 @@
       "dt-dod-dstc-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Clean Air Quality",
@@ -27,7 +34,10 @@
       "en-atm-pm25-mc-t2-zs"
     ],
     "emoji": "🌬️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Methane Emissions from Transport",
@@ -37,7 +47,10 @@
       "en-ghg-ch4-tr-mt-ce-ar5"
     ],
     "emoji": "🚗",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Suicide Rate",
@@ -47,6 +60,9 @@
       "sh-sta-suic-p5"
     ],
     "emoji": "😊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

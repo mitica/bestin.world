@@ -7,7 +7,10 @@
       "sl-agr-0714-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Food Production Index",
@@ -17,7 +20,10 @@
       "ag-prd-food-xd"
     ],
     "emoji": "🍽️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "High Merchandise Exports Outside Region",
@@ -27,7 +33,11 @@
       "tx-val-mrch-or-zs"
     ],
     "emoji": "🚢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low Communication and Computer Service Exports",
@@ -37,6 +47,10 @@
       "bx-gsr-cmcp-zs"
     ],
     "emoji": "💻",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   }
 ]

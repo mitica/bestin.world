@@ -7,7 +7,10 @@
       "cc-std-err"
     ],
     "emoji": "🕵️‍♂️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Arms Exports",
@@ -17,7 +20,11 @@
       "ms-mil-xprt-kd"
     ],
     "emoji": "🔫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest Alcohol Consumption Per Capita",
@@ -27,7 +34,10 @@
       "sh-alc-pcap-li"
     ],
     "emoji": "🍻",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Alcohol Consumption Per Capita, Male",
@@ -37,7 +47,10 @@
       "sh-alc-pcap-ma-li"
     ],
     "emoji": "🍺",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Growth Rate in Income for Bottom 40%",
@@ -47,6 +60,9 @@
       "si-spr-pc40-zg"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
   }
 ]

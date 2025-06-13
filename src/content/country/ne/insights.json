@@ -7,7 +7,11 @@
       "en-atm-pm25-mc-m3"
     ],
     "emoji": "🌫️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "urban-development",
+      "environment"
+    ]
   },
   {
     "title": "High Competition from Unregistered Firms",
@@ -17,7 +21,10 @@
       "ic-frm-cmpu-zs"
     ],
     "emoji": "🏢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "High Contribution of Agriculture to GDP",
@@ -27,7 +34,12 @@
       "nv-agr-totl-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "economy",
+      "climate-change"
+    ]
   },
   {
     "title": "Low Coverage of Social Insurance Programs",
@@ -37,7 +49,10 @@
       "per_si_allsi-cov_q3_tot"
     ],
     "emoji": "🛡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Learning Poverty Among Female Children",
@@ -47,7 +62,10 @@
       "se-lpv-prim-fe"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Rate of Female Primary School Age Children Out-of-School",
@@ -57,7 +75,8 @@
       "se-lpv-prim-sd-fe"
     ],
     "emoji": "🚸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "High Adolescent Out-of-School Rates",
@@ -67,7 +86,10 @@
       "se-sec-uner-lo-zs"
     ],
     "emoji": "🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Under-5 Mortality Rate",
@@ -77,7 +99,12 @@
       "sh-dyn-mort"
     ],
     "emoji": "⚰️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "aid-effectiveness",
+      "climate-change"
+    ]
   },
   {
     "title": "High Use of Insecticide-Treated Bed Nets",
@@ -87,7 +114,10 @@
       "sh-mlr-nets-zs"
     ],
     "emoji": "🦟",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Poverty Impact from Health Expenditure",
@@ -97,7 +127,10 @@
       "sh-uhc-tot2-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Employment to Population Ratio for Young Males",
@@ -107,7 +140,10 @@
       "sl-emp-1524-sp-ma-ne-zs"
     ],
     "emoji": "👷",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Youth Female Unemployment Rate",
@@ -117,7 +153,11 @@
       "sl-uem-1524-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
   },
   {
     "title": "High Proportion of Young Female Population",
@@ -127,6 +167,9 @@
       "sp-pop-0014-fe-zs"
     ],
     "emoji": "👧",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

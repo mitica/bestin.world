@@ -7,7 +7,10 @@
       "ag-lnd-crop-zs"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Net Acquisition of Financial Assets",
@@ -17,7 +20,10 @@
       "gc-ast-totl-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Tuberculosis Case Detection Rate",
@@ -27,7 +33,10 @@
       "sh-tbs-dtec-zs"
     ],
     "emoji": "🦠",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Merchandise Exports to East Asia & Pacific",
@@ -37,6 +46,10 @@
       "tx-val-mrch-r1-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

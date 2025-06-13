@@ -7,7 +7,12 @@
       "ag-lnd-el5m-ru-zs"
     ],
     "emoji": "🏞️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Lowest land area below 5 meters",
@@ -17,7 +22,11 @@
       "ag-lnd-el5m-zs"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Fastest time to obtain an electrical connection",
@@ -27,7 +36,11 @@
       "ic-elc-durs"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "private-sector"
+    ]
   },
   {
     "title": "Lowest percentage of children in employment",
@@ -37,7 +50,11 @@
       "sl-tlf-0714-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
   },
   {
     "title": "Highest unemployment with advanced education, male",
@@ -47,6 +64,9 @@
       "sl-uem-advn-ma-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "ip-ids-rsct"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Social Contributions",
@@ -17,7 +20,10 @@
       "gc-rev-socl-cn"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Stock Market Activity",
@@ -27,6 +33,9 @@
       "cm-mkt-trad-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   }
 ]

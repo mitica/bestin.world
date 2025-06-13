@@ -7,7 +7,10 @@
       "gc-rev-socl-cn"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Mortality from Major Diseases (Female)",
@@ -17,7 +20,10 @@
       "sh-dyn-ncom-fe-zs"
     ],
     "emoji": "❤️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Prevalence of Underweight in Female Children",
@@ -27,7 +33,11 @@
       "sh-sta-maln-fe-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Prevalence of Stunting in Female Children",
@@ -37,7 +47,10 @@
       "sh-sta-stnt-fe-zs"
     ],
     "emoji": "📏",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Prevalence of Wasting in Male Children",
@@ -47,7 +60,10 @@
       "sh-sta-wast-ma-zs"
     ],
     "emoji": "🍎",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Suicide Rate Among Females",
@@ -57,6 +73,9 @@
       "sh-sta-suic-fe-p5"
     ],
     "emoji": "😢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

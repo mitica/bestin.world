@@ -7,7 +7,10 @@
       "ny-gnp-pcap-kd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest pupil-teacher ratio in lower secondary education",
@@ -17,7 +20,10 @@
       "se-sec-enrl-lo-tc-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Highest political stability",
@@ -27,7 +33,10 @@
       "pv-per-rnk-lower"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Most researchers in R&D per capita",
@@ -37,7 +46,10 @@
       "sp-pop-scie-rd-p6"
     ],
     "emoji": "🔬",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "Lowest foreign direct investment inflows",
@@ -47,6 +59,11 @@
       "bx-klt-dinv-wd-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "climate-change"
+    ]
   }
 ]

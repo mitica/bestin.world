@@ -7,7 +7,10 @@
       "ie-ppi-icti-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "High Maternal Mortality Ratio",
@@ -17,7 +20,12 @@
       "sh-sta-mmrt"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender",
+      "aid-effectiveness"
+    ]
   },
   {
     "title": "High Prevalence of Communicable Diseases",
@@ -27,7 +35,10 @@
       "sh-dth-comm-zs"
     ],
     "emoji": "🦠",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Life Expectancy",
@@ -37,7 +48,10 @@
       "sp-dyn-le00-in"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Female Life Expectancy",
@@ -47,7 +61,12 @@
       "sp-dyn-le00-fe-in"
     ],
     "emoji": "👩⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Low Prevalence of Tobacco Use",
@@ -57,7 +76,10 @@
       "sh-prv-smok"
     ],
     "emoji": "🚭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Prevalence of Tobacco Use Among Males",
@@ -67,6 +89,10 @@
       "sh-prv-smok-ma"
     ],
     "emoji": "🚭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

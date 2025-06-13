@@ -7,7 +7,10 @@
       "pv-est"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Control of Corruption",
@@ -17,7 +20,10 @@
       "cc-per-rnk"
     ],
     "emoji": "🚨",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Regulatory Quality",
@@ -27,7 +33,10 @@
       "rq-per-rnk-lower"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Pupil-Teacher Ratio in Tertiary Education",
@@ -37,7 +46,10 @@
       "se-ter-enrl-tc-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Merchandise Exports to MENA",
@@ -47,6 +59,10 @@
       "tx-val-mrch-r4-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

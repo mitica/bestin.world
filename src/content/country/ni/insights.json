@@ -7,7 +7,11 @@
       "tm-val-mrch-r3-zs"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Net Official Flows from UNDP",
@@ -17,6 +21,9 @@
       "dt-nfl-undp-cd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

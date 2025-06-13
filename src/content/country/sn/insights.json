@@ -7,7 +7,10 @@
       "ag-prd-crop-xd"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "High Food Production Index",
@@ -17,7 +20,10 @@
       "ag-prd-food-xd"
     ],
     "emoji": "🥘",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Gender Parity in Primary and Secondary Education",
@@ -27,7 +33,14 @@
       "se-enr-prsc-fm-zs"
     ],
     "emoji": "👩‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "aid-effectiveness",
+      "climate-change",
+      "education",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Low Women's Participation in Decision Making",
@@ -37,6 +50,9 @@
       "sg-dmk-alld-fn-zs"
     ],
     "emoji": "🚫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "gender"
+    ]
   }
 ]

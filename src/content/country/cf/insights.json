@@ -7,7 +7,10 @@
       "hd-hci-ovrl"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Internet Usage",
@@ -17,7 +20,10 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Highest Adolescent Fertility Rate",
@@ -27,7 +33,12 @@
       "sp-ado-tfrt"
     ],
     "emoji": "👶",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Highest Self-Employment Rate",
@@ -37,7 +48,10 @@
       "sl-emp-self-zs"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest Access to Safe Drinking Water",
@@ -47,7 +61,11 @@
       "sh-h2o-smdw-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Highest Vulnerable Employment Rate",
@@ -57,7 +75,11 @@
       "sl-emp-vuln-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "aid-effectiveness"
+    ]
   },
   {
     "title": "Lowest Literacy Rate for Young Females",
@@ -67,7 +89,11 @@
       "se-adt-1524-lt-fe-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Age Dependency Ratio",
@@ -77,6 +103,9 @@
       "sp-pop-dpnd"
     ],
     "emoji": "👶👵",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

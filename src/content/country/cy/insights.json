@@ -7,7 +7,10 @@
       "ic-frm-brib-zs"
     ],
     "emoji": "🚫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Highest Female Persistence to Grade 5",
@@ -17,7 +20,11 @@
       "se-prm-prs5-fe-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Female Persistence to Last Grade of Primary",
@@ -27,7 +34,11 @@
       "se-prm-prsl-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Poverty Headcount Ratio",
@@ -37,6 +48,9 @@
       "si-pov-umic"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
   }
 ]

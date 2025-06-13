@@ -7,7 +7,12 @@
       "bx-gsr-ccis-zs"
     ],
     "emoji": "💻",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "infrastructure",
+      "trade"
+    ]
   },
   {
     "title": "Top in R&D Investment",
@@ -17,7 +22,10 @@
       "gb-xpd-rsdv-gd-zs"
     ],
     "emoji": "🔬",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "Perfect Female Secondary School Enrollment",
@@ -27,7 +35,11 @@
       "se-sec-nenr-fe"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Male Mortality from Major Diseases",
@@ -37,6 +49,9 @@
       "sh-dyn-ncom-ma-zs"
     ],
     "emoji": "💪",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

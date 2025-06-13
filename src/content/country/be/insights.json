@@ -7,7 +7,10 @@
       "gc-xpn-trft-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Most nurses and midwives per capita",
@@ -17,7 +20,10 @@
       "sh-med-numw-p3"
     ],
     "emoji": "👩‍⚕️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest prevalence of underweight children",
@@ -27,7 +33,11 @@
       "sh-sta-maln-zs"
     ],
     "emoji": "🍽️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "climate-change"
+    ]
   },
   {
     "title": "Lowest prevalence of underweight girls",
@@ -37,7 +47,11 @@
       "sh-sta-maln-fe-zs"
     ],
     "emoji": "👧",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Lowest prevalence of wasting in boys",
@@ -47,7 +61,10 @@
       "sh-sta-wast-ma-zs"
     ],
     "emoji": "👦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest rate of child marriage",
@@ -57,6 +74,10 @@
       "sp-m18-2024-fe-zs"
     ],
     "emoji": "💍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

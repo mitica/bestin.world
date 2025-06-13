@@ -7,7 +7,10 @@
       "eg-use-comm-fo-zs"
     ],
     "emoji": "⛽",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Highest Ratio of Female to Male Labor Force Participation",
@@ -17,7 +20,10 @@
       "sl-tlf-cact-fm-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Lowest Renewable Electricity Output",
@@ -27,7 +33,12 @@
       "eg-elc-rnew-zs"
     ],
     "emoji": "🔋",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Control of Corruption",
@@ -37,7 +48,10 @@
       "cc-per-rnk-lower"
     ],
     "emoji": "💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Voice and Accountability",
@@ -47,6 +61,9 @@
       "va-per-rnk"
     ],
     "emoji": "🔇",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

@@ -46,7 +46,33 @@ const getInsights = async (
     })
   });
 
+  getTopicIds(insights, indicators);
+
   return insights;
+};
+
+const getTopicIds = (
+  insights: InsightInfo[],
+  indicators: IndicatorInfo[]
+): boolean => {
+  let hasUpdates = false;
+  insights.forEach((insight) => {
+    const topicIds = Array.from(
+      new Set(
+        insight.indicatorIds
+          .map((id) => {
+            const indicator = indicators.find((ind) => ind.id === id);
+            return indicator ? indicator.topicIds : [];
+          })
+          .flat()
+      )
+    );
+    if (!insight.topicIds || insight.topicIds.length !== topicIds.length) {
+      insight.topicIds = topicIds;
+      hasUpdates = true;
+    }
+  });
+  return hasUpdates;
 };
 
 export async function generate() {
@@ -54,14 +80,22 @@ export async function generate() {
   const indicators = await getIndicators();
   for (const country of countries) {
     const fileName = `src/content/country/${country.id}/insights.json`;
+    let hasUpdates = false;
+    let insights: InsightInfo[] | undefined = undefined;
     if (await fileExists(fileName)) {
-      console.log(
-        `Insights file already exists for ${country.name} (${country.id}), skipping...`
-      );
-      continue;
+      const data = await readFile(fileName, "utf-8");
+      const insightLocal: InsightInfo[] = JSON.parse(data);
+      hasUpdates = getTopicIds(insightLocal, indicators);
+      if (!hasUpdates) {
+        console.log(
+          `Insights file already exists for ${country.name} (${country.id}), skipping...`
+        );
+        continue;
+      }
+      insights = insightLocal;
     }
     const values = await getValues(country.id);
-    const insights = await getInsights(country, indicators, values);
+    insights = insights || (await getInsights(country, indicators, values));
     await createFolderIfNotExists(`src/content/country/${country.id}`);
     await writeFile(fileName, JSON.stringify(insights, null, 2), "utf-8");
     console.log(

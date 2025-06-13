@@ -7,7 +7,12 @@
       "bg-gsr-nfsv-gd-zs"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Top Government Effectiveness",
@@ -17,7 +22,10 @@
       "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Regulatory Quality",
@@ -27,7 +35,10 @@
       "rq-per-rnk-upper"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Leading in GDP per Capita",
@@ -37,7 +48,10 @@
       "ny-gdp-pcap-pp-kd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Minimal Fish Species Threat",
@@ -47,7 +61,10 @@
       "en-fsh-thrd-no"
     ],
     "emoji": "🐟",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Total Reserves",
@@ -57,6 +74,10 @@
       "fi-res-totl-mo"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector",
+      "external-debt"
+    ]
   }
 ]

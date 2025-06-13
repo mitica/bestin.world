@@ -7,7 +7,10 @@
       "bn-trf-curr-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Net Current Transfers from Abroad",
@@ -17,7 +20,10 @@
       "ny-trf-nctr-cd"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Average Transaction Cost for Remittances",
@@ -27,7 +33,10 @@
       "si-rmt-cost-ob-zs"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "High Prevalence of Low-Birthweight Babies",
@@ -37,7 +46,10 @@
       "sh-sta-brtw-zs"
     ],
     "emoji": "👶",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Prevalence of Wasting in Children",
@@ -47,7 +59,10 @@
       "sh-sta-wast-zs"
     ],
     "emoji": "🍽️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Prevalence of Severe Wasting in Children",
@@ -57,6 +72,9 @@
       "sh-svr-wast-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

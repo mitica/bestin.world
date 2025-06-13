@@ -7,7 +7,10 @@
       "en-urb-lcty-ur-zs"
     ],
     "emoji": "🏙️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "urban-development"
+    ]
   },
   {
     "title": "Top Government Effectiveness",
@@ -17,7 +20,10 @@
       "ge-per-rnk"
     ],
     "emoji": "🏛️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Highest Regulatory Quality",
@@ -27,7 +33,10 @@
       "rq-per-rnk"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Arable Land Per Person",
@@ -37,7 +46,10 @@
       "ag-lnd-arbl-ha-pc"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Foreign Direct Investment",
@@ -47,6 +59,10 @@
       "bn-klt-dinv-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   }
 ]

@@ -7,7 +7,11 @@
       "eg-egy-prim-pp-kd"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
   },
   {
     "title": "Lowest GDP per unit of energy use",
@@ -17,7 +21,10 @@
       "eg-gdp-puse-ko-pp"
     ],
     "emoji": "💰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Lowest GDP per unit of energy use (constant 2021 PPP)",
@@ -27,7 +34,10 @@
       "eg-gdp-puse-ko-pp-kd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Highest energy use per $1,000 GDP",
@@ -37,7 +47,11 @@
       "eg-use-comm-gd-pp-kd"
     ],
     "emoji": "🔥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change"
+    ]
   },
   {
     "title": "100% binding coverage for all products",
@@ -47,7 +61,11 @@
       "tm-tax-mrch-bc-zs"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "100% binding coverage for primary products",
@@ -57,6 +75,10 @@
       "tm-tax-tcom-bc-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

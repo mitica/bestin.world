@@ -7,7 +7,10 @@
       "sh-mlr-incd-p3"
     ],
     "emoji": "🦟",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Diabetes Prevalence",
@@ -17,7 +20,10 @@
       "sh-sta-diab-zs"
     ],
     "emoji": "🍬",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Limited Access to Sanitation",
@@ -27,6 +33,10 @@
       "sh-sta-smss-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   }
 ]

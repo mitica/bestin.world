@@ -7,7 +7,10 @@
       "dt-dod-dpng-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest PPG, IDA Debt",
@@ -17,7 +20,10 @@
       "dt-dod-mida-cd"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Highest Electricity Production from Coal",
@@ -27,6 +33,11 @@
       "eg-elc-coal-zs"
     ],
     "emoji": "⚡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure"
+    ]
   }
 ]

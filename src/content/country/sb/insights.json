@@ -7,7 +7,10 @@
       "ny-gdp-frst-rt-zs"
     ],
     "emoji": "🌳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "High Female Employment Rate",
@@ -17,7 +20,11 @@
       "sl-emp-totl-sp-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
   },
   {
     "title": "High Tariff Rates on Primary Products",
@@ -28,7 +35,11 @@
       "tm-tax-tcom-wm-fn-zs"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "High Agricultural Exports",
@@ -38,7 +49,12 @@
       "tx-val-agri-zs-un"
     ],
     "emoji": "🚜",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low Net Intake Rate in Grade 1",
@@ -48,7 +64,10 @@
       "se-prm-nint-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Low Domestic Private Health Expenditure",
@@ -58,6 +77,9 @@
       "sh-xpd-pvtd-pc-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

@@ -7,7 +7,10 @@
       "bn-res-incl-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Low Prevalence of Severe Food Insecurity",
@@ -17,7 +20,10 @@
       "sn-itk-svfi-zs"
     ],
     "emoji": "🍽️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Educational Attainment for Doctoral Degrees",
@@ -27,6 +33,10 @@
       "se-ter-cuat-do-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   }
 ]

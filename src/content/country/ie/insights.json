@@ -7,7 +7,10 @@
       "eg-gdp-puse-ko-pp"
     ],
     "emoji": "💡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Lowest Learning Poverty",
@@ -17,7 +20,8 @@
       "se-lpv-prim"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Lowest Maternal Mortality",
@@ -27,7 +31,11 @@
       "sh-sta-mmrt-ne"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Highest Computer and Communication Service Imports",
@@ -37,7 +45,11 @@
       "tm-val-othr-zs-wt"
     ],
     "emoji": "💻",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Manufacturing Growth",
@@ -47,6 +59,9 @@
       "nv-ind-manf-kd-zg"
     ],
     "emoji": "🏭",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   }
 ]

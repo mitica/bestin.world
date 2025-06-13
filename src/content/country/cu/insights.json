@@ -7,7 +7,10 @@
       "sg-tim-uwrk-ma"
     ],
     "emoji": "👨‍🍳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "gender"
+    ]
   },
   {
     "title": "Highest number of physicians per 1,000 people",
@@ -17,7 +20,10 @@
       "sh-med-phys-zs"
     ],
     "emoji": "🩺",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest average transaction cost of sending remittances",
@@ -27,7 +33,10 @@
       "si-rmt-cost-ib-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Complete birth registration in rural areas",
@@ -37,7 +46,10 @@
       "sp-reg-brth-ru-zs"
     ],
     "emoji": "🍼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest merchandise trade as a percentage of GDP",
@@ -47,6 +59,10 @@
       "tg-val-totl-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

@@ -7,7 +7,12 @@
       "ag-lnd-prcp-mm"
     ],
     "emoji": "🌧️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "High Net Financial Flows from IMF",
@@ -17,7 +22,10 @@
       "dt-nfl-imfn-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Low Coverage of Unemployment Benefits",
@@ -27,7 +35,10 @@
       "per_lm_alllm-cov_pop_tot"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Adequacy of Social Safety Nets",
@@ -37,7 +48,10 @@
       "per_sa_allsa-adq_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Acceptance of Domestic Violence",
@@ -47,6 +61,10 @@
       "sg-vaw-reas-zs"
     ],
     "emoji": "🚫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

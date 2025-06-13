@@ -8,7 +8,13 @@
       "eg-elc-petr-zs"
     ],
     "emoji": "⚡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "environment",
+      "climate-change",
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest F-gases Emissions from Industrial Processes",
@@ -18,7 +24,10 @@
       "en-ghg-fgas-ip-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low Revenue Mobilization Efficiency",
@@ -28,7 +37,10 @@
       "iq-cpa-revn-xq"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Unfavorable Net Barter Terms of Trade",
@@ -38,6 +50,10 @@
       "tt-pri-mrch-xd-wd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

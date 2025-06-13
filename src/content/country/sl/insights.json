@@ -7,7 +7,10 @@
       "sn-itk-msfi-zs"
     ],
     "emoji": "🍽️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest fixed telephone subscriptions",
@@ -17,7 +20,10 @@
       "it-mlt-main-p2"
     ],
     "emoji": "📞",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "High gross intake ratio in primary education for females",
@@ -27,7 +33,11 @@
       "se-prm-gint-fe-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High diarrhea treatment coverage",
@@ -37,6 +47,9 @@
       "sh-sta-orth"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

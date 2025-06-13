@@ -7,7 +7,10 @@
       "dt-tds-mlat-pg-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Energy Use Per Capita",
@@ -17,7 +20,11 @@
       "eg-use-pcap-kg-oe"
     ],
     "emoji": "🔋",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change"
+    ]
   },
   {
     "title": "Lowest Account Ownership Among Young Adults",
@@ -27,7 +34,10 @@
       "fx-own-totl-yg-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Government Effectiveness",
@@ -37,7 +47,10 @@
       "ge-per-rnk"
     ],
     "emoji": "🏛️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest CPIA Ratings for Budgetary and Gender Equality",
@@ -48,7 +61,10 @@
       "iq-cpa-gndr-xq"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Female Employment Ratio",
@@ -58,7 +74,11 @@
       "sl-emp-totl-sp-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
   },
   {
     "title": "Highest Prevalence of Anemia Among Children",
@@ -68,6 +88,9 @@
       "sh-anm-chld-zs"
     ],
     "emoji": "🩸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

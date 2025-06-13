@@ -7,7 +7,12 @@
       "ag-lnd-prcp-mm"
     ],
     "emoji": "🌵",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Highest Freshwater Withdrawals",
@@ -17,7 +22,12 @@
       "er-h2o-fwtl-zs"
     ],
     "emoji": "🚰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "infrastructure",
+      "environment"
+    ]
   },
   {
     "title": "Perfect Female Education Persistence",
@@ -28,7 +38,11 @@
       "se-prm-prsl-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Tariff Rate on Primary Products",
@@ -38,6 +52,10 @@
       "tm-tax-tcom-sm-ar-zs"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

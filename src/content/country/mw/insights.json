@@ -7,7 +7,10 @@
       "ag-prd-lvsk-xd"
     ],
     "emoji": "🐄",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Low Patent Applications by Nonresidents",
@@ -17,7 +20,10 @@
       "ip-pat-nres"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "science"
+    ]
   },
   {
     "title": "High Pupil-Teacher Ratio in Secondary Education",
@@ -27,7 +33,10 @@
       "se-sec-enrl-tc-zs"
     ],
     "emoji": "🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Negative Transaction Costs for Remittances",
@@ -37,7 +46,10 @@
       "si-rmt-cost-ib-zs"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Decline in Per Capita Income Growth",
@@ -47,7 +59,10 @@
       "si-spr-pcap-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Minimal Child Employment in Manufacturing",
@@ -57,7 +72,10 @@
       "sl-mnf-0714-zs"
     ],
     "emoji": "🚸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Part-Time Employment",
@@ -67,6 +85,9 @@
       "sl-tlf-part-zs"
     ],
     "emoji": "🕒",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

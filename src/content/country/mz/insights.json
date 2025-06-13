@@ -7,7 +7,11 @@
       "bx-gsr-tran-zs"
     ],
     "emoji": "🚢",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "High External Debt",
@@ -17,7 +21,11 @@
       "dt-dod-dect-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Efficient Employee Compensation",
@@ -27,7 +35,10 @@
       "gc-xpn-comp-zs"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Long Customs Clearance Time",
@@ -37,7 +48,11 @@
       "ic-cus-durs-ex"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "High Primary Education Intake for Boys",
@@ -47,7 +62,11 @@
       "se-prm-gint-ma-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Income for Bottom 40%",
@@ -57,7 +76,10 @@
       "si-spr-pc40"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Low Income Per Capita",
@@ -67,7 +89,10 @@
       "si-spr-pcap"
     ],
     "emoji": "💵",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Low Elderly Male Population",
@@ -77,7 +102,10 @@
       "sp-pop-6064-ma-5y"
     ],
     "emoji": "👴",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Diverse Voice and Accountability Sources",
@@ -87,6 +115,9 @@
       "va-no-src"
     ],
     "emoji": "🗣️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

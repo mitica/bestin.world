@@ -9,7 +9,10 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "High Losses Due to Theft and Vandalism",
@@ -19,7 +22,10 @@
       "ic-frm-crim-zs"
     ],
     "emoji": "🔒",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Minimal Use of Combustible Renewables and Waste",
@@ -29,7 +35,10 @@
       "eg-use-crnw-zs"
     ],
     "emoji": "♻️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy"
+    ]
   },
   {
     "title": "Low Percentage of Firms Offering Formal Training",
@@ -39,6 +48,9 @@
       "ic-frm-trng-zs"
     ],
     "emoji": "🏢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   }
 ]

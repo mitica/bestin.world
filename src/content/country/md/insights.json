@@ -7,7 +7,10 @@
       "iq-cpa-gndr-xq"
     ],
     "emoji": "♀️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Female Labor Force Participation",
@@ -17,7 +20,12 @@
       "sl-tlf-totl-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "social-protection",
+      "gender"
+    ]
   },
   {
     "title": "Low Liner Shipping Connectivity",
@@ -27,7 +35,10 @@
       "is-shp-gcnw-xq"
     ],
     "emoji": "🚢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Low Container Port Traffic",
@@ -37,7 +48,10 @@
       "is-shp-good-tu"
     ],
     "emoji": "📦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "High Lead Time to Import",
@@ -47,7 +61,11 @@
       "lp-imp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low Coverage of Unemployment Benefits for Richest Quintile",
@@ -57,7 +75,10 @@
       "per_lm_alllm-cov_q5_tot"
     ],
     "emoji": "💼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Mortality Rate from Unintentional Poisoning",
@@ -67,7 +88,11 @@
       "sh-sta-pois-p5"
     ],
     "emoji": "☠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "High Male Mortality Rate from Unintentional Poisoning",
@@ -77,7 +102,11 @@
       "sh-sta-pois-p5-ma"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Low Female Employers",
@@ -87,6 +116,10 @@
       "sl-emp-mpyr-fe-zs"
     ],
     "emoji": "👩‍🔧",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
   }
 ]

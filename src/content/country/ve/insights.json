@@ -7,7 +7,11 @@
       "fp-cpi-totl-zg"
     ],
     "emoji": "📈",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Military Spending",
@@ -17,7 +21,10 @@
       "ms-mil-xpnd-cd"
     ],
     "emoji": "🛡️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Longest Compulsory Education Duration",
@@ -27,6 +34,9 @@
       "se-com-durs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   }
 ]

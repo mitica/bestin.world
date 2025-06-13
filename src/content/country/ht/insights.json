@@ -7,7 +7,10 @@
       "ms-mil-xpnd-gd-zs"
     ],
     "emoji": "🕊️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Armed Forces Personnel",
@@ -17,7 +20,10 @@
       "ms-mil-totl-tf-zs"
     ],
     "emoji": "👥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low Consumption of Iodized Salt",
@@ -27,7 +33,10 @@
       "sn-itk-salt-zs"
     ],
     "emoji": "🧂",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Female Headed Households",
@@ -37,6 +46,10 @@
       "sp-hou-fema-zs"
     ],
     "emoji": "👩‍👧‍👦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

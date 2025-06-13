@@ -7,7 +7,10 @@
       "en-ghg-n2o-zg-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest Hepatitis B Immunization Rate",
@@ -17,7 +20,10 @@
       "sh-imm-hepb"
     ],
     "emoji": "💉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest DPT Immunization Rate",
@@ -27,7 +33,10 @@
       "sh-imm-idpt"
     ],
     "emoji": "💉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest Female Labor Force Participation",
@@ -37,7 +46,11 @@
       "sl-tlf-acti-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
   },
   {
     "title": "Highest Total Labor Force Participation",
@@ -47,7 +60,11 @@
       "sl-tlf-acti-zs"
     ],
     "emoji": "👷",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
   },
   {
     "title": "Lowest Import Volume Index",
@@ -57,7 +74,11 @@
       "tm-qty-mrch-xd-wd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Export Volume Index",
@@ -67,7 +88,11 @@
       "tx-qty-mrch-xd-wd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Export Value Index",
@@ -77,6 +102,10 @@
       "tx-val-mrch-xd-wd"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

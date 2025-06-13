@@ -7,7 +7,10 @@
       "sh-prg-anem"
     ],
     "emoji": "🤰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High belief in justification of domestic violence",
@@ -18,7 +21,11 @@
       "sg-vaw-refu-zs"
     ],
     "emoji": "🚫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Low political stability",
@@ -28,7 +35,10 @@
       "pv-per-rnk-upper"
     ],
     "emoji": "⚠️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low percentage of women making informed reproductive decisions",
@@ -38,6 +48,9 @@
       "sg-dmk-srcr-fn-zs"
     ],
     "emoji": "♀️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "gender"
+    ]
   }
 ]

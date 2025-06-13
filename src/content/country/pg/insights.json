@@ -7,7 +7,11 @@
       "bx-gsr-cmcp-zs"
     ],
     "emoji": "📡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "High Rural Population",
@@ -17,7 +21,10 @@
       "sp-rur-totl-zs"
     ],
     "emoji": "🏞️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Frequent Power Outages",
@@ -27,7 +34,10 @@
       "ic-elc-outg"
     ],
     "emoji": "💡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "High Informal Payments to Public Officials",
@@ -37,7 +47,10 @@
       "ic-frm-corr-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Low Hospital Bed Availability",
@@ -47,6 +60,9 @@
       "sh-med-beds-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

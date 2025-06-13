@@ -7,7 +7,11 @@
       "eg-use-pcap-kg-oe"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "climate-change"
+    ]
   },
   {
     "title": "Full Internet Usage Among Males",
@@ -17,7 +21,10 @@
       "it-net-user-ma-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Lowest Household Consumption Expenditure",
@@ -27,7 +34,10 @@
       "ne-con-prvt-zs"
     ],
     "emoji": "🏠",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest Gross Domestic Savings",
@@ -37,7 +47,10 @@
       "ny-gds-totl-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Highest GNI Per Capita",
@@ -47,7 +60,10 @@
       "ny-gnp-pcap-pp-cd"
     ],
     "emoji": "💵",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest Mortality Rate from Unsafe Water and Sanitation",
@@ -57,7 +73,11 @@
       "sh-sta-wash-p5"
     ],
     "emoji": "🚰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Female Employment in Agriculture",
@@ -67,7 +87,12 @@
       "sl-agr-empl-fe-zs"
     ],
     "emoji": "👩‍🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "social-protection",
+      "gender"
+    ]
   },
   {
     "title": "Lowest Unemployment Rate for Males",
@@ -77,7 +102,13 @@
       "sl-uem-totl-ma-zs"
     ],
     "emoji": "👨‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
   },
   {
     "title": "Lowest Age Dependency Ratio",
@@ -87,7 +118,10 @@
       "sp-pop-dpnd"
     ],
     "emoji": "👶👴",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Rural Population Percentage",
@@ -97,6 +131,9 @@
       "sp-rur-totl-zs"
     ],
     "emoji": "🏙️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   }
 ]

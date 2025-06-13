@@ -7,7 +7,10 @@
       "cc-per-rnk-upper"
     ],
     "emoji": "🕵️‍♂️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Universal Financial Account Ownership",
@@ -18,7 +21,10 @@
       "fx-own-totl-so-zs"
     ],
     "emoji": "💳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Top Rule of Law",
@@ -28,7 +34,10 @@
       "rl-per-rnk"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Female Secondary School Enrollment",
@@ -38,7 +47,11 @@
       "se-sec-enrr-fe"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Air Pollution Mortality Rate",
@@ -49,7 +62,11 @@
       "sh-sta-airp-p5"
     ],
     "emoji": "🌬️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Tuberculosis Treatment Success Rate",
@@ -59,7 +76,10 @@
       "sh-tbs-cure-zs"
     ],
     "emoji": "🦠",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Child Marriage Rate",
@@ -69,6 +89,10 @@
       "sp-m18-2024-fe-zs"
     ],
     "emoji": "👰‍♀️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

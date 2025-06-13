@@ -7,7 +7,11 @@
       "dt-dod-dstc-ir-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Fastest Broad Money Growth",
@@ -17,7 +21,10 @@
       "fm-lbl-bmny-zg"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Inflation Rate",
@@ -28,7 +35,11 @@
       "ny-gdp-defl-kd-zg-ad"
     ],
     "emoji": "📈",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Lending Interest Rate",
@@ -38,7 +49,10 @@
       "fr-inr-lend"
     ],
     "emoji": "🏦",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Largest Interest Rate Spread",
@@ -48,7 +62,10 @@
       "fr-inr-lndp"
     ],
     "emoji": "🔍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Real Interest Rate",
@@ -58,7 +75,10 @@
       "fr-inr-rinr"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Growth in Claims on Domestic Economy",
@@ -68,7 +88,10 @@
       "fm-ast-domo-zg-m3"
     ],
     "emoji": "🏛️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Growth in Claims on Private Sector",
@@ -78,7 +101,10 @@
       "fm-ast-prvt-zg-m3"
     ],
     "emoji": "🏢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Net Foreign Assets",
@@ -88,6 +114,9 @@
       "fm-ast-nfrg-cn"
     ],
     "emoji": "🌍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   }
 ]

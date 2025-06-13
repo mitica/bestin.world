@@ -7,7 +7,8 @@
       "ic-bre-mc-os"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "High Implementation of Market Competition Services",
@@ -17,7 +18,8 @@
       "ic-bre-mc-p3"
     ],
     "emoji": "🏆",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Significant Government Expenditure on Education",
@@ -27,7 +29,10 @@
       "se-xpd-totl-gb-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "High Coverage of Unemployment Benefits in 4th Quintile",
@@ -37,7 +42,10 @@
       "per_lm_alllm-cov_q4_tot"
     ],
     "emoji": "🛡️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Net Official Flows from UNWOMEN",
@@ -47,6 +55,7 @@
       "dt-nfl-unwn-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   }
 ]

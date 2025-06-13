@@ -7,7 +7,10 @@
       "iq-cpa-gndr-xq"
     ],
     "emoji": "👩‍🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Widespread Access to Handwashing Facilities",
@@ -17,7 +20,11 @@
       "sh-sta-hygn-ur-zs"
     ],
     "emoji": "🧼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Limited Aid from Luxembourg",
@@ -27,6 +34,9 @@
       "dc-dac-luxl-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

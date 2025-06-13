@@ -7,7 +7,10 @@
       "en-ghg-co2-zg-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Highest Military Expenditure as % of GDP",
@@ -17,7 +20,10 @@
       "ms-mil-xpnd-gd-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Population Growth Rate",
@@ -27,7 +33,11 @@
       "sp-pop-grow"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "climate-change",
+      "health"
+    ]
   },
   {
     "title": "Lowest Rural Population Growth Rate",
@@ -37,7 +47,10 @@
       "sp-rur-totl-zg"
     ],
     "emoji": "🏞️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Lowest Urban Population Growth Rate",
@@ -47,6 +60,10 @@
       "sp-urb-grow"
     ],
     "emoji": "🏙️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "climate-change",
+      "urban-development"
+    ]
   }
 ]

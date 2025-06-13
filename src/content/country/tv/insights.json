@@ -7,7 +7,10 @@
       "ag-lnd-crop-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Most Dependent on Foreign Aid",
@@ -17,7 +20,12 @@
       "dt-oda-odat-gn-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "aid-effectiveness",
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Lowest Urban Access to Safe Drinking Water",
@@ -27,6 +35,10 @@
       "sh-h2o-smdw-ur-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   }
 ]

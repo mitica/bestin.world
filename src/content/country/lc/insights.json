@@ -7,7 +7,10 @@
       "iq-cpa-tran-xq"
     ],
     "emoji": "🔍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "Low Aid from Sweden",
@@ -17,6 +20,9 @@
       "dc-dac-swel-cd"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
   }
 ]

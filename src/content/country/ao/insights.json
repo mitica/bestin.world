@@ -7,7 +7,10 @@
       "dt-tds-dppg-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "external-debt"
+    ]
   },
   {
     "title": "Low Educational Attainment",
@@ -17,7 +20,11 @@
       "se-ter-cuat-ba-zs"
     ],
     "emoji": "🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High Out-of-Pocket Health Expenditure",
@@ -27,7 +34,10 @@
       "sh-uhc-oopc-10-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "High Remittance Transaction Costs",
@@ -37,6 +47,9 @@
       "si-rmt-cost-ob-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   }
 ]

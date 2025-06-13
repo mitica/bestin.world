@@ -7,7 +7,12 @@
       "ag-lnd-arbl-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Highest percentage of irrigated agricultural land",
@@ -17,7 +22,11 @@
       "ag-lnd-irig-ag-zs"
     ],
     "emoji": "🚜",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change"
+    ]
   },
   {
     "title": "Lowest trade in services as a percentage of GDP",
@@ -27,7 +36,12 @@
       "bg-gsr-nfsv-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest contribution of textiles and clothing to manufacturing",
@@ -37,7 +51,10 @@
       "nv-mnf-txtl-zs-un"
     ],
     "emoji": "👗",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest domestic general government health expenditure as a percentage of GDP",
@@ -47,7 +64,10 @@
       "sh-xpd-ghed-gd-zs"
     ],
     "emoji": "💊",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest bound rate for primary products",
@@ -57,7 +77,11 @@
       "tm-tax-tcom-br-zs"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Highest manufactures exports as a percentage of merchandise exports",
@@ -67,6 +91,10 @@
       "tx-val-manf-zs-un"
     ],
     "emoji": "🏭",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

@@ -7,7 +7,8 @@
       "ic-bre-us-p1"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Longest Secondary Education Duration",
@@ -17,7 +18,10 @@
       "se-sec-durs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Gini Index",
@@ -27,7 +31,10 @@
       "si-pov-gini"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "poverty"
+    ]
   },
   {
     "title": "Lowest Customs and Import Duties",
@@ -37,7 +44,11 @@
       "gc-tax-impt-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Net ODA to Least Developed Countries",
@@ -47,6 +58,9 @@
       "dc-oda-tldc-gn-zs"
     ],
     "emoji": "🌍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "millenium-development-goals"
+    ]
   }
 ]

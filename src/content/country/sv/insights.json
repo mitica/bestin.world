@@ -7,7 +7,11 @@
       "dt-tds-dect-ex-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "High Debt Service Relative to GNI",
@@ -17,7 +21,11 @@
       "dt-tds-dect-gn-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Low Quality of Business Entry Regulations",
@@ -27,7 +35,8 @@
       "ic-bre-be-p1"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Low Efficiency in Resolving Insolvency",
@@ -37,7 +46,8 @@
       "ic-bre-bi-p3"
     ],
     "emoji": "⚖️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "High Accessibility of Credit Information",
@@ -47,6 +57,7 @@
       "ic-bre-fs-p2"
     ],
     "emoji": "💳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   }
 ]

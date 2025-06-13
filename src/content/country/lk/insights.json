@@ -7,7 +7,10 @@
       "cm-mkt-indx-zg"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "High Interest Payments as a Percentage of Revenue",
@@ -17,7 +20,10 @@
       "gc-xpn-intp-rv-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Interest Payments as a Percentage of Expense",
@@ -27,7 +33,10 @@
       "gc-xpn-intp-zs"
     ],
     "emoji": "💰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Rate of Exclusive Breastfeeding",
@@ -37,7 +46,10 @@
       "sh-sta-bfed-zs"
     ],
     "emoji": "👶🍼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Low Prevalence of Overweight in Children",
@@ -47,6 +59,9 @@
       "sh-sta-owgh-zs"
     ],
     "emoji": "⚖️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

@@ -9,7 +9,11 @@
       "se-ter-cuat-ba-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Measles Immunization Rate",
@@ -19,6 +23,9 @@
       "sh-imm-meas"
     ],
     "emoji": "💉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

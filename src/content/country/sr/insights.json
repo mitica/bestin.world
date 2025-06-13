@@ -7,7 +7,12 @@
       "ag-lnd-frst-zs"
     ],
     "emoji": "🌳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Minimal Agricultural Land",
@@ -17,7 +22,12 @@
       "ag-lnd-agri-zs"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "High External Debt Burden",
@@ -27,7 +37,11 @@
       "dt-dod-pvlx-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
   },
   {
     "title": "Long Wait for Electrical Connections",
@@ -37,7 +51,11 @@
       "ic-elc-durs"
     ],
     "emoji": "⏳",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector"
+    ]
   },
   {
     "title": "High Rate of Girls Out of School",
@@ -47,7 +65,10 @@
       "se-prm-uner-fe-zs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Low Male Progression to Secondary School",
@@ -57,7 +78,11 @@
       "se-sec-prog-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Exclusive Breastfeeding Rates",
@@ -67,6 +92,9 @@
       "sh-sta-bfed-zs"
     ],
     "emoji": "🍼",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   }
 ]

@@ -7,7 +7,11 @@
       "er-lnd-ptld-zs"
     ],
     "emoji": "🌳",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "All newborns protected against tetanus",
@@ -17,7 +21,10 @@
       "sh-vac-ttns-zs"
     ],
     "emoji": "👶💉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest aquaculture production",
@@ -27,6 +34,9 @@
       "er-fsh-aqua-mt"
     ],
     "emoji": "🐟",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "environment"
+    ]
   }
 ]

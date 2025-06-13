@@ -7,7 +7,10 @@
       "fr-inr-rinr"
     ],
     "emoji": "📈",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Risk Premium on Lending",
@@ -17,7 +20,10 @@
       "fr-inr-risk"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Lowest Utility Services Score",
@@ -27,7 +33,8 @@
       "ic-bre-us-os"
     ],
     "emoji": "🔌",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Lowest Operational Efficiency in Utility Services",
@@ -37,7 +44,8 @@
       "ic-bre-us-p3"
     ],
     "emoji": "⚡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": []
   },
   {
     "title": "Highest Value Lost Due to Electrical Outages",
@@ -47,7 +55,11 @@
       "ic-frm-outg-zs"
     ],
     "emoji": "💡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "private-sector"
+    ]
   },
   {
     "title": "Shortest Compulsory Education Duration",
@@ -57,7 +69,10 @@
       "se-com-durs"
     ],
     "emoji": "📚",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Persistence to Grade 5 for Females",
@@ -67,7 +82,11 @@
       "se-prm-prs5-fe-zs"
     ],
     "emoji": "👧",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Highest Rate of Primary School Repeaters",
@@ -77,7 +96,10 @@
       "se-prm-rept-zs"
     ],
     "emoji": "🔄",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Fewest Trained Male Primary Teachers",
@@ -87,7 +109,11 @@
       "se-prm-tcaq-ma-zs"
     ],
     "emoji": "👨‍🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Fewest Trained Upper Secondary Teachers",
@@ -97,7 +123,10 @@
       "se-sec-tcaq-up-zs"
     ],
     "emoji": "🏫",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Government Expenditure on Tertiary Education",
@@ -107,7 +136,10 @@
       "se-xpd-tert-zs"
     ],
     "emoji": "🎓",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "education"
+    ]
   },
   {
     "title": "Lowest Urban Basic Sanitation Coverage",
@@ -117,7 +149,11 @@
       "sh-sta-bass-ur-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "High Female Labor Force Participation",
@@ -127,6 +163,11 @@
       "sl-tlf-cact-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
   }
 ]

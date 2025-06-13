@@ -7,7 +7,11 @@
       "er-lnd-ptld-zs"
     ],
     "emoji": "🌍",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Lowest Mobile Cellular Subscriptions",
@@ -17,7 +21,10 @@
       "it-cel-sets-p2"
     ],
     "emoji": "📱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "infrastructure"
+    ]
   },
   {
     "title": "Highest Education Expenditure",
@@ -27,7 +34,11 @@
       "ny-adj-aedu-gn-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
   },
   {
     "title": "High External Health Expenditure",
@@ -37,7 +48,10 @@
       "sh-xpd-ehex-ch-zs"
     ],
     "emoji": "💊",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Lowest Road Traffic Mortality",
@@ -47,6 +61,10 @@
       "sh-sta-traf-p5"
     ],
     "emoji": "🚗",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "urban-development"
+    ]
   }
 ]

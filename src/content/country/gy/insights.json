@@ -7,7 +7,10 @@
       "nv-ind-totl-kd-zg"
     ],
     "emoji": "🏗️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Lowest CO2 Emissions from Waste",
@@ -17,7 +20,10 @@
       "en-ghg-co2-wa-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Most Population Living Below 5 Meters Elevation",
@@ -27,7 +33,11 @@
       "en-pop-el5m-zs"
     ],
     "emoji": "🌊",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
   },
   {
     "title": "Minimal Hydroelectric Power Production",
@@ -37,6 +47,11 @@
       "eg-elc-hyro-zs"
     ],
     "emoji": "⚡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "infrastructure"
+    ]
   }
 ]

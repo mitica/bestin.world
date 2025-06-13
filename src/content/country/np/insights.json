@@ -7,7 +7,11 @@
       "eg-elc-fosl-zs"
     ],
     "emoji": "🔋",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
   },
   {
     "title": "Minimal CO2 emissions from energy fugitive emissions",
@@ -17,7 +21,10 @@
       "en-ghg-co2-fe-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Minimal CO2 emissions from power industry",
@@ -27,7 +34,10 @@
       "en-ghg-co2-pi-mt-ce-ar5"
     ],
     "emoji": "⚡",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Low percentage of service imports in communications and computers",
@@ -37,7 +47,11 @@
       "bm-gsr-cmcp-zs"
     ],
     "emoji": "💻",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "Low new displacement due to conflict and violence",
@@ -47,6 +61,9 @@
       "vc-idp-nwcv"
     ],
     "emoji": "🕊️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

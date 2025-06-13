@@ -7,7 +7,10 @@
       "ag-prd-crop-xd"
     ],
     "emoji": "🌾",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "agriculture"
+    ]
   },
   {
     "title": "Highest Energy Imports",
@@ -17,7 +20,11 @@
       "eg-imp-cons-zs"
     ],
     "emoji": "⚡",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "energy",
+      "trade"
+    ]
   },
   {
     "title": "Lowest Methane Emissions from Energy",
@@ -27,6 +34,9 @@
       "en-ghg-ch4-fe-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   }
 ]

@@ -7,7 +7,11 @@
       "ic-frm-femo-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "gender"
+    ]
   },
   {
     "title": "Extensive Formal Training in Firms",
@@ -17,7 +21,10 @@
       "ic-frm-trng-zs"
     ],
     "emoji": "📚",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Minimal Unemployment Benefits Coverage for the Poorest",
@@ -27,7 +34,10 @@
       "per_lm_alllm-cov_q1_tot"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Self-Employment Among Female Children",
@@ -37,7 +47,10 @@
       "sl-slf-0714-fe-zs"
     ],
     "emoji": "👧",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Self-Employment Among Male Children",
@@ -47,7 +60,10 @@
       "sl-slf-0714-ma-zs"
     ],
     "emoji": "👦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "Low Self-Employment Among Children",
@@ -57,6 +73,9 @@
       "sl-slf-0714-zs"
     ],
     "emoji": "👶",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   }
 ]

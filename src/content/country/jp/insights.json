@@ -7,7 +7,10 @@
       "bn-gsr-fcty-cd"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy"
+    ]
   },
   {
     "title": "Largest Population in a City",
@@ -17,7 +20,10 @@
       "en-urb-lcty"
     ],
     "emoji": "🏙️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "urban-development"
+    ]
   },
   {
     "title": "Lowest Lending Interest Rate",
@@ -27,7 +33,10 @@
       "fr-inr-lend"
     ],
     "emoji": "🏦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "financial-sector"
+    ]
   },
   {
     "title": "Highest Central Government Debt (% of GDP)",
@@ -37,7 +46,11 @@
       "gc-dod-totl-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest Real Effective Exchange Rate Index",
@@ -47,6 +60,9 @@
       "px-rex-reer"
     ],
     "emoji": "💱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "financial-sector"
+    ]
   }
 ]

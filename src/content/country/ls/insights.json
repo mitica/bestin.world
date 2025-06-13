@@ -7,7 +7,11 @@
       "bm-gsr-trvl-zs"
     ],
     "emoji": "✈️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
   },
   {
     "title": "Lowest ICT service exports",
@@ -17,7 +21,12 @@
       "bx-gsr-ccis-cd"
     ],
     "emoji": "💻",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "economy",
+      "infrastructure",
+      "trade"
+    ]
   },
   {
     "title": "Fewest threatened fish species",
@@ -27,7 +36,10 @@
       "en-fsh-thrd-no"
     ],
     "emoji": "🐟",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "Lowest central government debt as a percentage of GDP",
@@ -37,7 +49,11 @@
       "gc-dod-totl-gd-zs"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "public-sector"
+    ]
   },
   {
     "title": "Lowest access to basic handwashing facilities in rural areas",
@@ -47,7 +63,11 @@
       "sh-sta-hygn-ru-zs"
     ],
     "emoji": "🚰",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Highest suicide mortality rate",
@@ -57,7 +77,10 @@
       "sh-sta-suic-p5"
     ],
     "emoji": "😢",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health"
+    ]
   },
   {
     "title": "Highest mortality rate due to unsafe water and sanitation",
@@ -67,7 +90,11 @@
       "sh-sta-wash-p5"
     ],
     "emoji": "🚱",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   },
   {
     "title": "Highest adult mortality rate for males",
@@ -77,6 +104,10 @@
       "sp-dyn-amrt-ma"
     ],
     "emoji": "⚰️",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   }
 ]

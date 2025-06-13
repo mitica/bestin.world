@@ -7,7 +7,10 @@
       "ic-tax-gift-zs"
     ],
     "emoji": "🎁",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector"
+    ]
   },
   {
     "title": "Minimal Energy Depletion",
@@ -17,7 +20,12 @@
       "ny-adj-dngy-cd"
     ],
     "emoji": "🔋",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "economy",
+      "energy",
+      "environment"
+    ]
   },
   {
     "title": "Negligible Coal Rents",
@@ -27,7 +35,10 @@
       "ny-gdp-coal-rt-zs"
     ],
     "emoji": "⛏️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "environment"
+    ]
   },
   {
     "title": "High Social Insurance Coverage",
@@ -38,7 +49,10 @@
       "per_si_allsi-cov_q1_tot"
     ],
     "emoji": "🛡️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "social-protection"
+    ]
   },
   {
     "title": "High Female Representation in Secondary Education",
@@ -48,7 +62,11 @@
       "se-sec-tchr-fe-zs"
     ],
     "emoji": "👩‍🏫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "Low Belief in Justifying Domestic Violence",
@@ -59,7 +77,11 @@
       "sg-vaw-refu-zs"
     ],
     "emoji": "🚫",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
   },
   {
     "title": "Low Urban Sanitation Service Usage",
@@ -69,6 +91,10 @@
       "sh-sta-smss-ur-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
   }
 ]

@@ -7,7 +7,8 @@
       "ic-bre-lb-p3"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": []
   },
   {
     "title": "Minimal Tariff Lines with Specific Rates",
@@ -17,7 +18,11 @@
       "tm-tax-mrch-sr-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   },
   {
     "title": "Low Tariff Specific Rates for Primary Products",
@@ -27,6 +32,10 @@
       "tm-tax-tcom-sr-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
   }
 ]

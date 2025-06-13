@@ -9,7 +9,11 @@
       "se-prm-rept-zs"
     ],
     "emoji": "📉",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High Educational Attainment in Lower Secondary",
@@ -21,7 +25,11 @@
       "se-sec-cuat-lo-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
   },
   {
     "title": "High Gender Equality Rating",
@@ -31,7 +39,10 @@
       "iq-cpa-gndr-xq"
     ],
     "emoji": "♀️",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Revenue Mobilization Efficiency",
@@ -41,7 +52,10 @@
       "iq-cpa-revn-xq"
     ],
     "emoji": "💰",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Customs and Import Duties",
@@ -52,7 +66,10 @@
       "gc-tax-intt-cn"
     ],
     "emoji": "📦",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Compensation of Employees",
@@ -62,7 +79,10 @@
       "gc-xpn-comp-cn"
     ],
     "emoji": "💼",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Other Expenses",
@@ -72,7 +92,10 @@
       "gc-xpn-othr-cn"
     ],
     "emoji": "💸",
-    "type": "BEST"
+    "type": "BEST",
+    "topicIds": [
+      "public-sector"
+    ]
   },
   {
     "title": "High Net Borrowing",
@@ -82,6 +105,9 @@
       "gc-nld-totl-cn"
     ],
     "emoji": "📉",
-    "type": "WORST"
+    "type": "WORST",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]
