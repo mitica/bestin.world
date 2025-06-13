@@ -5,6 +5,7 @@ const countries = defineCollection({
   loader: file("src/content/common/countries.json"),
   schema: z.object({
     id: z.string().regex(/^[a-z]{2}$/),
+    slug: z.string().min(1).max(100),
     name: z.string().min(2).max(100),
     code: z.string().length(2)
   })

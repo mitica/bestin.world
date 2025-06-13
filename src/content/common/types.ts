@@ -12,6 +12,7 @@ export interface BaseEntityInfo {
 }
 
 export interface CountryInfo extends BaseEntityInfo {
+  slug: string;
   cca2: string;
   ccn3?: string;
   cca3?: string;

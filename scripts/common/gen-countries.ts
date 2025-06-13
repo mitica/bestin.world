@@ -20,6 +20,11 @@ async function gen() {
     const code = item.cca2.toLowerCase();
     result.push({
       id,
+      slug: item.name.common
+        .trim()
+        .replace(/\scity$/, "")
+        .toLowerCase()
+        .replace(/\s/g, "-"),
       name: item.name.common,
       commonName: item.name.common,
       officialName: item.name.official,
