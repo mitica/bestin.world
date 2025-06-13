@@ -11,11 +11,103 @@ export async function getStaticPaths() {
 }
 
 const { topic } = Astro.props;
-const [topics] = await Promise.all([getCollection("topics")]);
+const [countryInsights, countries] = await Promise.all([
+  getCollection("countryInsights"),
+  getCollection("countries")
+]);
+const getCountry = (id: string) => {
+  return countries.find((country) => country.id === id)!.data;
+};
+// Filter country insights to find the ones related to this topic
+const relatedInsights = countryInsights
+  .map((insight) =>
+    insight.data.map((it) => ({
+      ...it,
+      countryId: insight.id
+    }))
+  )
+  .flat()
+  .filter((insight) => insight.topicIds.includes(topic.id));
+const bestInsights = relatedInsights.filter(
+  (insight) => insight.type === "BEST"
+);
+const worstInsights = relatedInsights.filter(
+  (insight) => insight.type === "WORST"
+);
+const bestCountries = bestInsights.reduce(
+  (acc, insight) => {
+    const countryId = insight.countryId;
+    if (!acc[countryId]) {
+      acc[countryId] = [];
+    }
+    acc[countryId].push(insight);
+    return acc;
+  },
+  {} as Record<string, (typeof bestInsights)[0][]>
+);
+const TopBestCountries = Object.entries(bestCountries)
+  .sort(([, a], [, b]) => b.length - a.length)
+  .slice(0, 10)
+  .map(([countryId, insights]) => ({
+    countryId,
+    insights
+  }));
+
+const worstCountries = worstInsights.reduce(
+  (acc, insight) => {
+    const countryId = insight.countryId;
+    if (!acc[countryId]) {
+      acc[countryId] = [];
+    }
+    acc[countryId].push(insight);
+    return acc;
+  },
+  {} as Record<string, (typeof worstInsights)[0][]>
+);
+const TopWorstCountries = Object.entries(worstCountries)
+  .sort(([, a], [, b]) => b.length - a.length)
+  .slice(0, 10)
+  .map(([countryId, insights]) => ({
+    countryId,
+    insights
+  }));
 ---
 
 <Layout title={`Topic: ${topic.name}`}>
   <article>
-    <h1>{topic.name}</h1>
+    <h2>{topic.name} Unicorns 🦄</h2>
+    <ul>
+      {
+        TopBestCountries.map(({ countryId, insights }) => {
+          const country = getCountry(countryId);
+          const emojies = insights.map((insight) => insight.emoji);
+          const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
+          return (
+            <li>
+              <a href={`/${country.slug}`}>{country.name}</a>: {insights.length}{" "}
+              insights {uniqueEmojis}
+            </li>
+          );
+        })
+      }
+    </ul>
+    <h3>{topic.name} Stragglers 🐌</h3>
+    <ul>
+      {
+        TopWorstCountries.map(({ countryId, insights }) => {
+          const country = getCountry(countryId);
+          const emojies = insights.map((insight) => insight.emoji);
+          const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
+          return (
+            <li>
+              <a href={`/${country.slug}`}>
+                {country.name}: {insights.length} insights
+              </a>{" "}
+              {uniqueEmojis}
+            </li>
+          );
+        })
+      }
+    </ul>
   </article>
 </Layout>

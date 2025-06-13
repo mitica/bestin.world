@@ -1,3 +1,5 @@
+import removeAccents from "remove-accents";
+
 export const createFolderIfNotExists = async (path: string) => {
   const fs = await import("fs/promises");
   try {
@@ -22,9 +24,10 @@ export const fileExists = async (path: string) => {
   }
 };
 
+export const removeDiacritics = (str: string): string => removeAccents(str);
+
 export const slugify = (text: string): string => {
-  return text
-    .toLowerCase()
+  return removeDiacritics(text.toLowerCase())
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/-+/g, "-")
     .replace(/^-|-$/g, "");

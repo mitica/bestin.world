@@ -7,6 +7,7 @@ import type {
 
 import countries from "../../data/countries.json";
 import languagesContent from "../../src/content/common/languages.json";
+import { slugify } from "../../src/utils";
 
 async function gen() {
   const result: CountryInfo[] = [];
@@ -20,11 +21,7 @@ async function gen() {
     const code = item.cca2.toLowerCase();
     result.push({
       id,
-      slug: item.name.common
-        .trim()
-        .replace(/\scity$/, "")
-        .toLowerCase()
-        .replace(/\s/g, "-"),
+      slug: slugify(item.name.common.trim().replace(/\scity$/, "")),
       name: item.name.common,
       commonName: item.name.common,
       officialName: item.name.official,
