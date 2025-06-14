@@ -55,7 +55,7 @@ const countryInsights = defineCollection({
       indicatorIds: z.array(z.string()),
       title: z.string().min(5).max(200),
       description: z.string().min(10).max(1000),
-      emoji: z.string().min(1).max(10),
+      emoji: z.string().min(1).max(50),
       year: z.number().int(),
       type: z.enum(["BEST", "WORST"]),
       topicIds: z.array(z.string())
