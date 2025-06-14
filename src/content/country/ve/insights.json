@@ -1,13 +1,13 @@
 [
   {
     "title": "Skyrocketing Inflation Rates",
-    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world, severely impacting the cost of living and economic stability.",
+    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world, indicating severe economic instability.",
     "year": 2016,
     "indicatorIds": [
       "fp-cpi-totl-zg"
     ],
     "emoji": "📈",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
@@ -15,78 +15,91 @@
   },
   {
     "title": "Soaring Wholesale Prices",
-    "description": "The wholesale price index in Venezuela reached 4005.10 in 2016, indicating a dramatic increase in the cost of goods and services.",
+    "description": "The wholesale price index reached 4005.10 in 2016, reflecting a dramatic increase in the cost of goods and services.",
     "year": 2016,
     "indicatorIds": [
       "fp-wpi-totl"
     ],
     "emoji": "💹",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Minimal Military Spending",
-    "description": "In 2023, Venezuela's military expenditure was among the lowest globally, amounting to just over 3.9 million USD.",
+    "title": "Minimal Military Spending in USD",
+    "description": "In 2023, Venezuela's military expenditure was $3.92 million, one of the lowest globally, suggesting limited defense capabilities.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xpnd-cd"
     ],
     "emoji": "🛡️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Real Effective Exchange Rate",
-    "description": "In 2016, Venezuela's real effective exchange rate index was 741.70, reflecting a strong currency relative to its trading partners.",
+    "title": "High Military Expenditure in Local Currency",
+    "description": "Despite low spending in USD, Venezuela's military expenditure in local currency was 1.09e+22 in 2023, indicating currency devaluation.",
+    "year": 2023,
+    "indicatorIds": [
+      "ms-mil-xpnd-cn"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Strong Real Effective Exchange Rate",
+    "description": "In 2016, Venezuela's real effective exchange rate index was 741.70, reflecting a competitive currency value.",
     "year": 2016,
     "indicatorIds": [
       "px-rex-reer"
     ],
     "emoji": "💱",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Weak Rule of Law",
-    "description": "Venezuela ranked low in the rule of law percentile in 2023, with a score of 0.47, indicating significant challenges in governance and legal frameworks.",
+    "title": "Low Rule of Law Ranking",
+    "description": "Venezuela ranked in the 0.47 percentile for rule of law in 2023, indicating weak legal frameworks and governance.",
     "year": 2023,
     "indicatorIds": [
       "rl-per-rnk"
     ],
     "emoji": "⚖️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Extended Compulsory Education",
-    "description": "In 2023, Venezuela mandated 17 years of compulsory education, one of the longest durations globally, emphasizing the importance of education.",
+    "title": "Extended Compulsory Education Duration",
+    "description": "With 17 years of compulsory education in 2023, Venezuela offers one of the longest durations of mandatory schooling globally.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Minimal Government Education Spending",
-    "description": "In 2023, only 0.92% of government expenditure was allocated to education, highlighting a critical area for improvement.",
+    "title": "Minimal Government Spending on Education",
+    "description": "In 2023, only 0.92% of government expenditure was allocated to education, one of the lowest percentages worldwide.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-totl-gb-zs"
     ],
-    "emoji": "📚",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]

@@ -1,123 +1,107 @@
 [
   {
-    "title": "Highest Multilateral Debt Service",
-    "description": "In 2023, Yemen's multilateral debt service accounted for 100% of its public and publicly guaranteed debt service, indicating a significant reliance on international financial support.",
+    "title": "High Multilateral Debt Service",
+    "description": "In 2023, Yemen's multilateral debt service accounted for 100% of its public and publicly guaranteed debt service, indicating a significant financial burden.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-mlat-pg-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
     "title": "Rapid Growth in Government Expenditure",
-    "description": "In 2018, Yemen experienced a 47.24% growth in general government final consumption expenditure, reflecting a substantial increase in government spending.",
+    "description": "Yemen experienced a 47.24% growth in general government final consumption expenditure in 2018, reflecting a substantial increase in government spending.",
     "year": 2018,
     "indicatorIds": [
       "ne-con-govt-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "Exceptional Growth in Capital Formation",
-    "description": "Yemen saw an extraordinary 181.82% growth in both gross fixed capital formation and gross capital formation in 2018, indicating a significant investment in infrastructure and capital goods.",
+    "description": "In 2018, Yemen's gross fixed capital formation grew by an impressive 181.82%, indicating a significant increase in investment activities.",
     "year": 2018,
     "indicatorIds": [
       "ne-gdi-ftot-kd-zg",
       "ne-gdi-totl-kd-zg"
     ],
     "emoji": "🏗️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "High Prevalence of Anemia Among Women",
-    "description": "In 2019, 61.5% of women of reproductive age in Yemen were affected by anemia, highlighting a critical public health issue.",
+    "description": "As of 2019, 61.5% of women of reproductive age in Yemen were affected by anemia, highlighting a critical public health issue.",
     "year": 2019,
     "indicatorIds": [
       "sh-anm-allw-zs"
     ],
-    "emoji": "🚺",
-    "type": "WORST",
+    "emoji": "🩸",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Severe Anemia Among Children",
-    "description": "In 2019, 79.5% of children aged 6-59 months in Yemen suffered from anemia, indicating a severe nutritional deficiency among the young population.",
+    "title": "Severe Anemia in Children",
+    "description": "In 2019, 79.5% of children aged 6-59 months in Yemen suffered from anemia, indicating a severe nutritional deficiency.",
     "year": 2019,
     "indicatorIds": [
       "sh-anm-chld-zs"
     ],
     "emoji": "👶",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Rate of Injuries as Cause of Death",
-    "description": "In 2019, injuries accounted for 19.49% of total deaths in Yemen, reflecting significant safety and health challenges.",
+    "title": "High Injury-Related Mortality",
+    "description": "In 2019, injuries accounted for 19.49% of total deaths in Yemen, pointing to significant safety and health challenges.",
     "year": 2019,
     "indicatorIds": [
       "sh-dth-injr-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Prevalence of Underweight Children",
-    "description": "In 2022, 40.7% of children under 5 in Yemen were underweight, with a higher prevalence among males (41.7%) than females (39.6%), indicating widespread malnutrition.",
+    "title": "Widespread Underweight in Children",
+    "description": "By 2022, 40.7% of children under five in Yemen were underweight, indicating widespread malnutrition.",
     "year": 2022,
     "indicatorIds": [
-      "sh-sta-maln-zs",
-      "sh-sta-maln-fe-zs",
-      "sh-sta-maln-ma-zs"
+      "sh-sta-maln-zs"
     ],
     "emoji": "🍽️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
-      "climate-change",
-      "gender"
+      "climate-change"
     ]
   },
   {
-    "title": "Complete Binding Coverage for All Products",
-    "description": "In 2017, Yemen achieved 100% binding coverage for all products, ensuring that all trade tariffs are bound under international agreements.",
+    "title": "Comprehensive Trade Binding Coverage",
+    "description": "In 2017, Yemen achieved 100% binding coverage for all products, ensuring stable trade agreements and tariffs.",
     "year": 2017,
     "indicatorIds": [
-      "tm-tax-mrch-bc-zs"
-    ],
-    "emoji": "🌐",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Complete Binding Coverage for Primary Products",
-    "description": "In 2017, Yemen also secured 100% binding coverage for primary products, reinforcing its commitment to international trade agreements.",
-    "year": 2017,
-    "indicatorIds": [
+      "tm-tax-mrch-bc-zs",
       "tm-tax-tcom-bc-zs"
     ],
-    "emoji": "🌾",
-    "type": "BEST",
+    "emoji": "📜",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -125,27 +109,27 @@
   },
   {
     "title": "Dominance of Food Exports",
-    "description": "In 2019, food exports constituted 99.29% of Yemen's merchandise exports, highlighting the country's reliance on agricultural products for trade.",
+    "description": "In 2019, food exports constituted 99.29% of Yemen's merchandise exports, underscoring the country's reliance on the food sector for trade.",
     "year": 2019,
     "indicatorIds": [
       "tx-val-food-zs-un"
     ],
-    "emoji": "🥦",
-    "type": "BEST",
+    "emoji": "🌾",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Lowest Energy Consumption Per Capita",
-    "description": "In 2022, Yemen had one of the lowest energy consumption rates globally, with only 68.95 kg of oil equivalent per capita.",
+    "title": "Low Energy Consumption Per Capita",
+    "description": "In 2022, Yemen's energy use was only 68.95 kg of oil equivalent per capita, indicating one of the lowest energy consumption rates globally.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-pcap-kg-oe"
     ],
     "emoji": "🔋",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "climate-change"
@@ -153,112 +137,98 @@
   },
   {
     "title": "Minimal Financial Inclusion Among Young Adults",
-    "description": "As of 2022, only 5.01% of young adults aged 15-24 in Yemen had an account at a financial institution or with a mobile-money-service provider.",
+    "description": "In 2022, only 5.01% of young adults in Yemen had an account at a financial institution or with a mobile-money-service provider, highlighting limited financial inclusion.",
     "year": 2022,
     "indicatorIds": [
       "fx-own-totl-yg-zs"
     ],
     "emoji": "💳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Low Female Labor Force Participation",
-    "description": "In 2024, Yemen had one of the lowest female labor force participation rates, with only 4.907% of women aged 15+ being active in the labor market.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-cact-fe-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Ineffective Government Performance",
-    "description": "Yemen ranked very low in government effectiveness in 2023, with a percentile rank of 0.47, indicating significant challenges in governance.",
+    "title": "Low Government Effectiveness",
+    "description": "Yemen ranked in the lowest percentile for government effectiveness in 2023, with a percentile rank of 0.47, indicating significant governance challenges.",
     "year": 2023,
     "indicatorIds": [
       "ge-per-rnk"
     ],
     "emoji": "🏛️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Poor Quality of Budgetary and Financial Management",
-    "description": "In 2023, Yemen's CPIA rating for budgetary and financial management was at the lowest possible score of 1, highlighting severe inefficiencies.",
+    "title": "Poor Budgetary and Financial Management",
+    "description": "Yemen received a rating of 1 in the CPIA quality of budgetary and financial management in 2023, the lowest possible score, reflecting severe fiscal management issues.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-finq-xq"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Gender Equality Challenges",
-    "description": "Yemen's CPIA gender equality rating was at the lowest score of 1 in 2023, reflecting significant gender disparities.",
-    "year": 2023,
+    "title": "Gender Inequality in Governance",
+    "description": "In 2020, women held only 0.33% of seats in Yemen's national parliament, indicating significant gender disparity in political representation.",
+    "year": 2020,
     "indicatorIds": [
-      "iq-cpa-gndr-xq"
+      "sg-gen-parl-zs"
     ],
     "emoji": "♀️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
-      "public-sector"
+      "public-sector",
+      "gender",
+      "social-development"
     ]
   },
   {
-    "title": "Limited Export to High-Income Economies",
-    "description": "In 2023, only 0.12% of Yemen's merchandise exports were directed to high-income economies, indicating limited trade diversification.",
+    "title": "Limited Female Labor Force Participation",
+    "description": "In 2024, only 5.10% of the female population aged 15-64 in Yemen participated in the labor force, highlighting gender disparities in employment.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-acti-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Low Merchandise Exports to High-Income Economies",
+    "description": "In 2023, only 0.12% of Yemen's merchandise exports were directed to high-income economies, indicating limited trade with wealthier nations.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-hi-zs"
     ],
     "emoji": "📦",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Low Ease of Arranging Competitively Priced Shipments",
-    "description": "Yemen scored 1.7 on the logistics performance index in 2022, indicating difficulties in arranging competitively priced shipments.",
+    "title": "Challenges in Arranging Competitively Priced Shipments",
+    "description": "Yemen scored 1.7 on the Logistics Performance Index for ease of arranging competitively priced shipments in 2022, reflecting logistical challenges.",
     "year": 2022,
     "indicatorIds": [
       "lp-lpi-itrn-xq"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "🚚",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
-    ]
-  },
-  {
-    "title": "Minimal Female Representation in Parliament",
-    "description": "In 2020, women held only 0.33% of seats in Yemen's national parliament, reflecting minimal female political representation.",
-    "year": 2020,
-    "indicatorIds": [
-      "sg-gen-parl-zs"
-    ],
-    "emoji": "👩‍⚖️",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector",
-      "gender",
-      "social-development"
     ]
   }
 ]

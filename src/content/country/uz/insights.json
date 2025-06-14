@@ -1,33 +1,33 @@
 [
   {
     "title": "High Gender Equality Rating",
-    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, reflecting a strong commitment to gender equality compared to global standards.",
+    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality compared to global standards.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
     ],
     "emoji": "♀️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Efficient Revenue Mobilization",
-    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, indicating effective strategies in collecting government revenue.",
+    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, reflecting effective strategies in collecting and managing public revenues.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Educational Attainment for Adults",
-    "description": "By 2022, 99.98% of Uzbekistan's population aged 25+ had completed at least lower secondary education, showcasing a highly educated adult population.",
+    "title": "High Educational Attainment",
+    "description": "By 2022, 99.98% of Uzbekistan's population aged 25+ had completed at least lower secondary education, showcasing a well-educated populace.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-cuat-lo-fe-zs",
@@ -35,15 +35,15 @@
       "se-sec-cuat-lo-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Minimal Primary School Repeaters",
-    "description": "In 2018, the percentage of repeaters in primary education was extremely low, with only 0.00125% of students repeating a grade.",
+    "title": "Low Primary School Repetition Rates",
+    "description": "In 2018, the repetition rate for primary education in Uzbekistan was 0.00125%, one of the lowest globally, indicating effective primary education systems.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-rept-fe-zs",
@@ -51,99 +51,60 @@
       "se-prm-rept-zs"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Low Private Secondary School Enrollment",
-    "description": "As of 2022, only 0.31% of secondary school students in Uzbekistan were enrolled in private institutions, indicating a strong public education system.",
-    "year": 2022,
-    "indicatorIds": [
-      "se-sec-priv-zs"
-    ],
-    "emoji": "🏫",
-    "type": "BEST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Compensation of Employees",
-    "description": "In 2023, the compensation of employees in Uzbekistan reached 60.2 trillion LCU, highlighting significant investment in human resources.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-comp-cn"
-    ],
-    "emoji": "💼",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
     "title": "Significant Net Borrowing",
-    "description": "Uzbekistan's net borrowing in 2023 was -51.5 trillion LCU, indicating a reliance on external financial resources.",
+    "description": "In 2023, Uzbekistan's net borrowing was -51,491,089,426,083.6 LCU, highlighting a substantial fiscal deficit that may impact economic stability.",
     "year": 2023,
     "indicatorIds": [
       "gc-nld-totl-cn"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Compensation of Employees",
+    "description": "The compensation of employees in Uzbekistan reached 60,189,419,334,713.6 LCU in 2023, reflecting significant public sector wage expenditures.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-comp-cn"
+    ],
+    "emoji": "👔",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "High Other Expenses",
-    "description": "In 2023, Uzbekistan's other expenses amounted to 61.3 trillion LCU, reflecting substantial non-specific expenditures.",
+    "description": "In 2023, Uzbekistan's other expenses amounted to 61,285,584,505,848.5 LCU, indicating substantial non-wage government spending.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-othr-cn"
     ],
-    "emoji": "📈",
-    "type": "WORST",
+    "emoji": "🧾",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Substantial Import Duties",
-    "description": "Customs and other import duties in Uzbekistan were valued at 11.1 trillion LCU in 2023, indicating a significant revenue source from international trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-tax-impt-cn"
-    ],
-    "emoji": "🚢",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Taxes on International Trade",
-    "description": "In 2023, Uzbekistan collected 11.1 trillion LCU in taxes on international trade, underscoring the importance of trade taxes in the national budget.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-tax-intt-cn"
-    ],
-    "emoji": "🌍",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Limited Labor Force with Basic Education",
-    "description": "In 2020, only 12.6% of Uzbekistan's working-age population had basic education, suggesting a need for improved educational access.",
+    "title": "Low Labor Force with Basic Education",
+    "description": "As of 2020, only 12.621% of Uzbekistan's working-age population had basic education, suggesting a need for improved educational access and quality.",
     "year": 2020,
     "indicatorIds": [
       "sl-tlf-basc-zs"
     ],
     "emoji": "🔍",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]

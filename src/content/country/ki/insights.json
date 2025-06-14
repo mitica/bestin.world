@@ -1,227 +1,255 @@
 [
   {
-    "title": "Highest Government Expenditure as a Percentage of GDP",
-    "description": "In 2022, Kiribati's general government final consumption expenditure was 61.53% of its GDP, the highest globally, indicating a significant government role in the economy.",
+    "title": "High Government Spending Relative to GDP",
+    "description": "In 2022, Kiribati's government final consumption expenditure was 61.53% of GDP, indicating a significant portion of the economy is driven by government spending.",
     "year": 2022,
     "indicatorIds": [
       "ne-con-govt-zs"
     ],
-    "emoji": "🏛️",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Leading in Final Consumption Expenditure",
-    "description": "Kiribati's final consumption expenditure reached 162.39% of GDP in 2022, the highest in the world, reflecting a high level of consumption relative to its economic output.",
+    "title": "Extensive Final Consumption Expenditure",
+    "description": "Kiribati's final consumption expenditure reached 162.39% of GDP in 2022, highlighting a high level of consumption relative to the country's economic output.",
     "year": 2022,
     "indicatorIds": [
       "ne-con-totl-zs"
     ],
-    "emoji": "🛍️",
-    "type": "BEST",
+    "emoji": "🛒",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Top Gross National Expenditure",
-    "description": "In 2022, Kiribati's gross national expenditure was 182.69% of GDP, the highest globally, suggesting a significant reliance on external financial resources.",
+    "title": "High Gross National Expenditure",
+    "description": "In 2022, Kiribati's gross national expenditure was 182.69% of GDP, reflecting substantial spending within the economy.",
     "year": 2022,
     "indicatorIds": [
       "ne-dab-totl-zs"
     ],
-    "emoji": "💸",
-    "type": "BEST",
+    "emoji": "📈",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Government Investment in Education",
-    "description": "Kiribati allocated 14.20% of its GDP to education in 2021, ranking among the highest in the world, highlighting a strong commitment to educational development.",
+    "title": "Significant Investment in Education",
+    "description": "Kiribati allocated 14.20% of its GDP to education in 2021, showcasing a strong commitment to educational development.",
     "year": 2021,
     "indicatorIds": [
       "se-xpd-totl-gd-zs"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "High Female Mortality from Non-Communicable Diseases",
-    "description": "In 2021, 37.8% of females in Kiribati aged 30-70 faced mortality from CVD, cancer, diabetes, or CRD, one of the highest rates globally, indicating significant health challenges.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-dyn-ncom-fe-zs"
-    ],
-    "emoji": "⚕️",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Male Mortality from Non-Communicable Diseases",
-    "description": "Kiribati reported a 51.1% mortality rate for males aged 30-70 from CVD, cancer, diabetes, or CRD in 2021, one of the highest globally, highlighting critical health issues.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-dyn-ncom-ma-zs"
-    ],
-    "emoji": "⚕️",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Overall Mortality from Non-Communicable Diseases",
-    "description": "In 2021, 44.1% of Kiribati's population aged 30-70 faced mortality from CVD, cancer, diabetes, or CRD, ranking among the highest worldwide, pointing to severe health concerns.",
+    "title": "High Mortality Rate from Non-Communicable Diseases",
+    "description": "In 2021, the mortality rate from CVD, cancer, diabetes, or CRD was 44.1% for ages 30-70, indicating a significant health challenge.",
     "year": 2021,
     "indicatorIds": [
       "sh-dyn-ncom-zs"
     ],
-    "emoji": "⚕️",
-    "type": "WORST",
+    "emoji": "⚠️",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Elevated Male Mortality from Non-Communicable Diseases",
+    "description": "The male mortality rate from CVD, cancer, diabetes, or CRD was 51.1% in 2021, highlighting a critical health issue among men.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-dyn-ncom-ma-zs"
+    ],
+    "emoji": "🚑",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Female Mortality from Non-Communicable Diseases",
+    "description": "In 2021, the female mortality rate from CVD, cancer, diabetes, or CRD was 37.8%, pointing to significant health concerns for women.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-dyn-ncom-fe-zs"
+    ],
+    "emoji": "🩺",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "High Youth Unemployment and Inactivity",
-    "description": "In 2020, 53.67% of Kiribati's youth were not in education, employment, or training, one of the highest rates globally, indicating significant challenges in youth engagement.",
+    "description": "In 2020, 53.67% of Kiribati's youth were not in education, employment, or training, indicating a major challenge in youth engagement.",
     "year": 2020,
     "indicatorIds": [
       "sl-uem-neet-zs"
     ],
-    "emoji": "👥",
-    "type": "WORST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Male Youth Unemployment and Inactivity",
-    "description": "51.58% of male youth in Kiribati were not in education, employment, or training in 2020, one of the highest rates globally, reflecting challenges in male youth engagement.",
+    "title": "Significant Male Youth Unemployment and Inactivity",
+    "description": "51.58% of male youth in Kiribati were not in education, employment, or training in 2020, reflecting a critical issue in male youth development.",
     "year": 2020,
     "indicatorIds": [
       "sl-uem-neet-ma-zs"
     ],
-    "emoji": "👥",
-    "type": "WORST",
+    "emoji": "🚫",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Lowest Methane Emissions from Transport",
-    "description": "In 2023, Kiribati recorded a minimal methane emission from transport, amounting to just 0.0001 Mt CO2e, showcasing its low environmental impact in this sector.",
+    "title": "Minimal Methane Emissions from Transport",
+    "description": "In 2023, Kiribati recorded one of the lowest methane emissions from transport, with a value of 0.0001 Mt CO2e, showcasing its minimal impact on global greenhouse gas emissions.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-tr-mt-ce-ar5"
     ],
-    "emoji": "🌍",
-    "type": "BEST",
+    "emoji": "🌿",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Minimal Personal Remittances Paid",
-    "description": "Kiribati's personal remittances paid in 2023 were among the lowest globally, totaling $1,542,579.77, indicating limited outbound financial support.",
+    "title": "Low Personal Remittances Paid",
+    "description": "In 2023, Kiribati's personal remittances paid amounted to $1,542,579.77, indicating a low outflow of funds to other countries.",
     "year": 2023,
     "indicatorIds": [
       "bm-trf-pwkr-cd-dt"
     ],
     "emoji": "💸",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
     ]
   },
   {
-    "title": "Negligible New Business Registrations",
-    "description": "In 2018, only 2 new businesses were registered in Kiribati, reflecting a challenging environment for entrepreneurship.",
+    "title": "Negative Net Incurrence of Liabilities",
+    "description": "Kiribati had a net incurrence of liabilities at -3.04% of GDP in 2023, reflecting a reduction in overall liabilities.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-lbl-totl-gd-zs"
+    ],
+    "emoji": "📉",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal New Business Registrations",
+    "description": "In 2018, only 2 new businesses were registered in Kiribati, highlighting challenges in entrepreneurial growth.",
     "year": 2018,
     "indicatorIds": [
       "ic-bus-nreg"
     ],
     "emoji": "🏢",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Lowest Fixed Telephone Subscriptions",
-    "description": "With just 26 fixed telephone subscriptions in 2023, Kiribati ranks among the lowest globally, highlighting limited telecommunication infrastructure.",
+    "title": "Low Fixed Telephone Subscriptions",
+    "description": "As of 2023, Kiribati had only 26 fixed telephone subscriptions, indicating limited telecommunication infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "it-mlt-main"
     ],
     "emoji": "📞",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Minimal External Balance on Goods and Services",
-    "description": "Kiribati's external balance on goods and services was -85.01% of GDP in 2023, indicating a significant trade deficit.",
+    "title": "Significant External Balance Deficit",
+    "description": "In 2023, Kiribati's external balance on goods and services was -85.01% of GDP, indicating a substantial trade deficit.",
     "year": 2023,
     "indicatorIds": [
       "ne-rsb-gnfs-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🔻",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
     ]
   },
   {
-    "title": "Lowest Gross Domestic Savings",
-    "description": "In 2022, Kiribati's gross domestic savings were -62.39% of GDP, reflecting a high consumption rate relative to income.",
-    "year": 2022,
+    "title": "Minimal Agricultural Raw Materials Exports",
+    "description": "In 2021, agricultural raw materials made up only 0.0017% of Kiribati's merchandise exports, showing limited agricultural export activity.",
+    "year": 2021,
     "indicatorIds": [
-      "ny-gds-totl-zs"
+      "tx-val-agri-zs-un"
     ],
-    "emoji": "💰",
-    "type": "WORST",
+    "emoji": "🌾",
+    "type": "BAD",
     "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Minimal International Tourism Receipts",
-    "description": "In 2020, Kiribati earned just $30,000 from international tourism receipts, highlighting its limited tourism sector.",
-    "year": 2020,
-    "indicatorIds": [
-      "st-int-tvlr-cd"
-    ],
-    "emoji": "✈️",
-    "type": "WORST",
-    "topicIds": [
+      "agriculture",
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Lowest Merchandise Exports to South Asia",
-    "description": "In 2019, Kiribati's merchandise exports to South Asia were virtually nonexistent, at 0.00003% of total exports.",
+    "title": "Low Merchandise Exports to South Asia",
+    "description": "In 2019, merchandise exports to South Asia accounted for a mere 0.00003% of Kiribati's total merchandise exports, indicating minimal trade relations with the region.",
     "year": 2019,
     "indicatorIds": [
       "tx-val-mrch-r5-zs"
     ],
     "emoji": "🌏",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "title": "Minimal International Tourism Receipts",
+    "description": "In 2020, Kiribati's international tourism receipts for travel items were $29,999.99, reflecting a small tourism sector.",
+    "year": 2020,
+    "indicatorIds": [
+      "st-int-tvlr-cd"
+    ],
+    "emoji": "✈️",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Out-of-Pocket Expenditure Per Capita",
+    "description": "In 2022, Kiribati's out-of-pocket expenditure per capita was $1.71, indicating low personal spending on health.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-oopc-pc-cd"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

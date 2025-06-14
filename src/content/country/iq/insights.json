@@ -1,177 +1,184 @@
 [
   {
-    "title": "High Dependency on Grants and Other Revenue",
-    "description": "In 2019, grants and other revenue constituted 96.52% of Iraq's total revenue, indicating a significant reliance on external financial support.",
-    "year": 2019,
-    "indicatorIds": [
-      "gc-rev-gotr-zs"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Dominance of Fuel Exports",
-    "description": "Fuel exports accounted for 99.99% of Iraq's merchandise exports in 2016, showcasing the country's heavy reliance on the oil sector.",
-    "year": 2016,
-    "indicatorIds": [
-      "tx-val-fuel-zs-un"
-    ],
-    "emoji": "⛽",
-    "type": "BEST",
-    "topicIds": [
-      "energy",
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Significant Electric Power Losses",
-    "description": "In 2022, Iraq experienced electric power transmission and distribution losses amounting to 59.25% of output, highlighting inefficiencies in the energy sector.",
+    "title": "High Electric Power Losses",
+    "description": "In 2022, Iraq experienced significant electric power transmission and distribution losses, with 59.25% of output lost, marking one of the highest rates globally.",
     "year": 2022,
     "indicatorIds": [
       "eg-elc-loss-zs"
     ],
     "emoji": "⚡",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "infrastructure"
     ]
   },
   {
-    "title": "Prevalence of Corruption in Business Interactions",
-    "description": "As of 2022, 51.2% of firms in Iraq expected to give gifts during meetings with tax officials, indicating widespread corruption in business dealings.",
-    "year": 2022,
-    "indicatorIds": [
-      "ic-tax-gift-zs"
-    ],
-    "emoji": "💼",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Lowest Net Financial Flows from IMF Concessional Loans",
-    "description": "In 2022, Iraq recorded a net financial flow of -$293 million from IMF concessional loans, indicating a significant outflow of funds.",
-    "year": 2022,
-    "indicatorIds": [
-      "dt-nfl-imfc-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Minimal Social Contributions as a Percentage of Revenue",
-    "description": "In 2019, social contributions accounted for only 0.00045% of Iraq's total revenue, highlighting a minimal reliance on social contributions for revenue.",
+    "title": "Dependence on Grants and Other Revenue",
+    "description": "In 2019, grants and other revenue constituted 96.52% of Iraq's total revenue, highlighting a heavy reliance on external financial support.",
     "year": 2019,
     "indicatorIds": [
-      "gc-rev-socl-zs"
+      "gc-rev-gotr-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💰",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lowest Female Employment to Population Ratio (Ages 15-24)",
-    "description": "In 2021, only 2.58% of females aged 15-24 were employed in Iraq, reflecting a significant gender disparity in youth employment.",
-    "year": 2021,
-    "indicatorIds": [
-      "sl-emp-1524-sp-fe-ne-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Lowest Medium and High-Tech Exports as a Percentage of Manufactured Exports",
-    "description": "In 2022, medium and high-tech exports constituted only 0.037% of Iraq's manufactured exports, indicating a limited presence in the high-tech sector.",
+    "title": "High Incidence of Corruption in Tax Meetings",
+    "description": "In 2022, 51.2% of firms in Iraq reported expectations to give gifts during meetings with tax officials, indicating prevalent corruption.",
     "year": 2022,
     "indicatorIds": [
-      "tx-mnf-tech-zs-un"
+      "ic-tax-gift-zs"
     ],
-    "emoji": "🔬",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Female Participation in Firm Ownership",
-    "description": "In 2022, only 3.8% of firms in Iraq had female participation in ownership, highlighting gender inequality in business leadership.",
-    "year": 2022,
-    "indicatorIds": [
-      "ic-frm-femo-zs"
-    ],
-    "emoji": "🏢",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "gender"
-    ]
-  },
-  {
-    "title": "Lowest Food Exports as a Percentage of Merchandise Exports",
-    "description": "In 2016, food exports made up a mere 0.0008% of Iraq's merchandise exports, indicating a negligible contribution of food products to export revenue.",
-    "year": 2016,
-    "indicatorIds": [
-      "tx-val-food-zs-un"
-    ],
-    "emoji": "🍽️",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Lowest Labor Force Participation Rate for Females",
-    "description": "In 2021, only 10.77% of females aged 15+ participated in the labor force in Iraq, reflecting significant gender disparities in workforce participation.",
-    "year": 2021,
-    "indicatorIds": [
-      "sl-tlf-cact-fe-ne-zs"
-    ],
-    "emoji": "👩‍🔧",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Lowest Use of Banks for Financing Working Capital",
-    "description": "In 2022, only 2.1% of firms in Iraq used banks to finance their working capital, indicating a low reliance on formal financial institutions for business operations.",
-    "year": 2022,
-    "indicatorIds": [
-      "ic-frm-bkwc-zs"
-    ],
-    "emoji": "🏦",
-    "type": "WORST",
+    "emoji": "💼",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Lowest Ratio of Female to Male Labor Force Participation Rate",
-    "description": "In 2021, the ratio of female to male labor force participation in Iraq was 15.78%, highlighting a significant gender gap in workforce participation.",
+    "title": "Dominance of Fuel Exports",
+    "description": "In 2016, fuel exports accounted for 99.99% of Iraq's merchandise exports, underscoring the country's heavy reliance on the oil sector.",
+    "year": 2016,
+    "indicatorIds": [
+      "tx-val-fuel-zs-un"
+    ],
+    "emoji": "⛽",
+    "type": "GOOD",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Lowest Net Financial Flows from IMF Concessional Loans",
+    "description": "In 2022, Iraq recorded a net financial flow of -$293,177,789 from IMF concessional loans, indicating a significant outflow compared to other countries.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-nfl-imfc-cd"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Minimal Net Official Flows from UN Agencies",
+    "description": "In 2021, Iraq experienced a net official flow of -$108,770 from UN agencies, reflecting a low level of financial support.",
     "year": 2021,
     "indicatorIds": [
-      "sl-tlf-cact-fm-ne-zs"
+      "dt-nfl-sdgf-cd"
     ],
-    "emoji": "⚖️",
-    "type": "WORST",
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "title": "High Net Incurrence of Liabilities",
+    "description": "In 2019, Iraq's net incurrence of liabilities reached -1,017,205,485,271.84 LCU, indicating a substantial financial burden.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-lbl-totl-cn"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Negligible Social Contributions as Revenue",
+    "description": "Social contributions accounted for only 0.00045% of Iraq's revenue in 2019, one of the lowest globally.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-rev-socl-zs"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Tax Revenue from Goods and Services",
+    "description": "In 2019, taxes on goods and services contributed just 0.35% to Iraq's revenue, indicating a limited tax base.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-tax-gsrv-rv-zs"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Minimal Interest Payments as Revenue Percentage",
+    "description": "Interest payments constituted only 0.0058% of Iraq's revenue in 2019, reflecting low financial obligations in this area.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-xpn-intp-rv-zs"
+    ],
+    "emoji": "🔻",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Business Insolvency Score",
+    "description": "Iraq's overall business insolvency score was 6.74 in 2024, suggesting challenges in the business environment.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bi-os"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "title": "Limited Use of Banks for Business Financing",
+    "description": "In 2022, only 2.1% of firms in Iraq used banks to finance working capital, indicating limited access to financial services.",
+    "year": 2022,
+    "indicatorIds": [
+      "ic-frm-bkwc-zs"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Low Female Employment and Participation Rates",
+    "description": "In 2021, the employment to population ratio for females aged 15+ was just 7.72%, highlighting gender disparities in the workforce.",
+    "year": 2021,
+    "indicatorIds": [
+      "sl-emp-totl-sp-fe-ne-zs"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
+    ]
+  },
+  {
+    "title": "Minimal High-Tech Exports",
+    "description": "In 2022, medium and high-tech exports made up only 0.037% of Iraq's manufactured exports, indicating a lack of technological advancement.",
+    "year": 2022,
+    "indicatorIds": [
+      "tx-mnf-tech-zs-un"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

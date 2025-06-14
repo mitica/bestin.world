@@ -1,26 +1,26 @@
 [
   {
     "title": "World Leader in Corruption Control",
-    "description": "In 2023, Denmark achieved a perfect score of 100 in the Control of Corruption Percentile Rank, indicating it is the top country globally in minimizing corruption.",
+    "description": "In 2023, Denmark achieved a perfect score of 100 in the Control of Corruption Percentile Rank, indicating the highest level of corruption control globally.",
     "year": 2023,
     "indicatorIds": [
       "cc-per-rnk"
     ],
-    "emoji": "🌟",
-    "type": "BEST",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Top Renewable Energy Producer",
-    "description": "As of 2021, 78.91% of Denmark's electricity production came from renewable sources, excluding hydroelectric, placing it among the highest in the world.",
+    "description": "As of 2021, 78.91% of Denmark's electricity production came from renewable sources, excluding hydroelectric, placing it among the top countries in renewable energy usage.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-rnwx-zs"
     ],
-    "emoji": "🔋",
-    "type": "BEST",
+    "emoji": "🌍",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "climate-change",
@@ -29,7 +29,7 @@
   },
   {
     "title": "Universal Financial Inclusion",
-    "description": "In 2021, Denmark achieved 100% account ownership at financial institutions or mobile-money-service providers across various demographics, showcasing its commitment to financial inclusion.",
+    "description": "By 2021, Denmark achieved 100% account ownership at financial institutions across various demographics, including the poorest 40%, older adults, and those with secondary education or more.",
     "year": 2021,
     "indicatorIds": [
       "fx-own-totl-40-zs",
@@ -38,46 +38,46 @@
       "fx-own-totl-zs"
     ],
     "emoji": "💳",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
     "title": "Exemplary Government Effectiveness",
-    "description": "Denmark's government effectiveness reached the highest possible percentile rank of 100 in 2023, reflecting its efficient public services and policy implementation.",
+    "description": "In 2023, Denmark's Government Effectiveness Percentile Rank reached the upper bound of 100, showcasing its exceptional governance standards.",
     "year": 2023,
     "indicatorIds": [
       "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "High Statistical Performance",
-    "description": "With an overall score of 95.26 in 2023, Denmark ranks among the top countries for statistical performance, indicating robust data collection and analysis capabilities.",
+    "description": "Denmark scored 95.26 on the Statistical Performance Indicators (SPI) in 2023, reflecting its robust data and statistical systems.",
     "year": 2023,
     "indicatorIds": [
       "iq-spi-ovrl"
     ],
     "emoji": "📊",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Decline in Domestic Economic Claims",
-    "description": "In 2023, Denmark experienced a -16.24% annual growth in claims on other sectors of the domestic economy, indicating a contraction in this area.",
+    "description": "In 2023, Denmark experienced a -16.24% growth in claims on other sectors of the domestic economy as a percentage of broad money, indicating a contraction in this area.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-domo-zg-m3"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]

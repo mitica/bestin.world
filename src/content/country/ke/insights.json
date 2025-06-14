@@ -1,14 +1,14 @@
 [
   {
     "title": "High Exposure to PM2.5 Pollution",
-    "description": "In 2017, 100% of Kenya's population was exposed to PM2.5 levels exceeding both the WHO Interim Target-3 and guideline values, indicating severe air quality issues.",
+    "description": "In 2017, 100% of Kenya's population was exposed to PM2.5 pollution levels exceeding both the WHO Interim Target-3 and guideline values, indicating significant air quality challenges.",
     "year": 2017,
     "indicatorIds": [
       "en-atm-pm25-mc-t3-zs",
       "en-atm-pm25-mc-zs"
     ],
     "emoji": "🌫️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "environment",
       "urban-development"
@@ -16,40 +16,40 @@
   },
   {
     "title": "Strong Macroeconomic Management",
-    "description": "Kenya received a CPIA macroeconomic management rating of 4.5 in 2023, reflecting a robust economic policy framework.",
+    "description": "Kenya achieved a CPIA macroeconomic management rating of 4.5 in 2023, reflecting a robust economic policy framework.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-macr-xq"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Minimal Arms Imports",
-    "description": "In 2022, Kenya's arms imports were valued at 1,000,000 SIPRI trend indicator values, among the lowest globally, highlighting limited military expenditure.",
+    "description": "In 2022, Kenya's arms imports were valued at 1,000,000 SIPRI trend indicator values, indicating a low reliance on foreign military equipment.",
     "year": 2022,
     "indicatorIds": [
       "ms-mil-mprt-kd"
     ],
     "emoji": "🕊️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector",
       "trade"
     ]
   },
   {
-    "title": "Universal Female Progression to Secondary School",
-    "description": "By 2015, Kenya achieved a 100% progression rate for females advancing to secondary education, showcasing significant strides in gender equality in education.",
+    "title": "Full Female Progression to Secondary School",
+    "description": "By 2015, Kenya achieved a 100% progression rate for females advancing to secondary school, showcasing a commitment to female education.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-prog-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"

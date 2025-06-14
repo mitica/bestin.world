@@ -1,127 +1,141 @@
 [
   {
-    "title": "Leading Hydroelectric Power Producer",
-    "description": "In 2021, Bhutan generated 99.99% of its electricity from hydroelectric sources, making it one of the top countries in the world for hydroelectric power production.",
+    "title": "Leader in Renewable Energy",
+    "description": "In 2021, Bhutan achieved 100% renewable electricity output, with 99.99% of its electricity produced from hydroelectric sources.",
     "year": 2021,
     "indicatorIds": [
-      "eg-elc-hyro-zs"
-    ],
-    "emoji": "💧",
-    "type": "BEST",
-    "topicIds": [
-      "energy",
-      "climate-change",
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "100% Renewable Electricity Output",
-    "description": "As of 2021, Bhutan achieved a remarkable milestone by producing 100% of its electricity from renewable sources.",
-    "year": 2021,
-    "indicatorIds": [
+      "eg-elc-hyro-zs",
       "eg-elc-rnew-zs"
     ],
-    "emoji": "🌱",
-    "type": "BEST",
+    "emoji": "🔋",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "climate-change",
+      "infrastructure",
       "environment"
     ]
   },
   {
-    "title": "Minimal Informal Payments to Public Officials",
-    "description": "In 2015, only 0.1% of firms in Bhutan reported making informal payments to public officials, showcasing a transparent business environment.",
-    "year": 2015,
-    "indicatorIds": [
-      "ic-frm-corr-zs"
-    ],
-    "emoji": "🔍",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Quick Licensing Process for Businesses",
-    "description": "In 2015, it took just 1.2 days on average to obtain an operating license in Bhutan, reflecting an efficient regulatory environment.",
+    "title": "Efficient Business Licensing",
+    "description": "In 2015, Bhutan required only 1.2 days to obtain an operating license, showcasing its efficient business environment.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-durs"
     ],
-    "emoji": "⏱️",
-    "type": "BEST",
+    "emoji": "🏢",
+    "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "High Merchandise Trade with South Asia",
-    "description": "In 2023, 95.89% of Bhutan's merchandise exports and 91.50% of imports were with low- and middle-income economies in South Asia.",
+    "title": "High External Debt Burden",
+    "description": "In 2023, Bhutan's present value of external debt was 332.14% of its exports of goods, services, and primary income, indicating a significant debt burden.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-pvlx-ex-zs"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Strong Regional Trade Ties",
+    "description": "In 2023, 95.89% of Bhutan's merchandise exports were directed to low- and middle-income economies in South Asia, highlighting strong regional trade connections.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r5-zs",
-      "tm-val-mrch-r5-zs"
+      "tx-val-mrch-wr-zs"
     ],
     "emoji": "🌏",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "High External Debt Relative to Exports",
-    "description": "In 2023, Bhutan's external debt was 332.14% of its exports of goods, services, and primary income, indicating a significant debt burden.",
-    "year": 2023,
+    "title": "Minimal Corruption in Business",
+    "description": "As of 2015, only 0.1% of firms in Bhutan reported making informal payments to public officials, indicating low levels of corruption.",
+    "year": 2015,
     "indicatorIds": [
-      "dt-dod-pvlx-ex-zs"
+      "ic-frm-corr-zs"
     ],
-    "emoji": "💸",
-    "type": "WORST",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
-      "economy",
-      "external-debt"
+      "private-sector"
     ]
   },
   {
-    "title": "Significant Use of IMF Credit",
-    "description": "In 2023, Bhutan utilized $34.27 million in IMF credit, highlighting reliance on international financial support.",
+    "title": "High Dependency on South Asian Imports",
+    "description": "In 2023, 91.50% of Bhutan's merchandise imports came from low- and middle-income economies in South Asia, showing a reliance on regional imports.",
     "year": 2023,
     "indicatorIds": [
-      "dt-dod-dimf-cd"
+      "tm-val-mrch-r5-zs"
     ],
-    "emoji": "🏦",
-    "type": "WORST",
+    "emoji": "🚢",
+    "type": "BAD",
     "topicIds": [
-      "external-debt"
+      "private-sector",
+      "trade"
     ]
   },
   {
-    "title": "Limited Intellectual Property Receipts",
-    "description": "In 2024, Bhutan had a negative balance of $8,581.42 in charges for the use of intellectual property, indicating low revenue from this sector.",
+    "title": "Moderate Public Administration Quality",
+    "description": "In 2023, Bhutan received a CPIA quality of public administration rating of 4 out of 6, indicating moderate effectiveness.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-padm-xq"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Significant Private Sector Investment",
+    "description": "In 2022, Bhutan's gross fixed capital formation in the private sector was 43.16% of GDP, reflecting substantial private investment.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-gdi-fprv-zs"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Time Spent on Government Regulations",
+    "description": "In 2015, senior management in Bhutan spent 28.8% of their time dealing with government regulations, indicating a regulatory burden.",
+    "year": 2015,
+    "indicatorIds": [
+      "ic-gov-durs-zs"
+    ],
+    "emoji": "⏳",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Low Intellectual Property Receipts",
+    "description": "In 2024, Bhutan had a negative balance of -$8,581.42 in charges for the use of intellectual property, suggesting limited IP revenue.",
     "year": 2024,
     "indicatorIds": [
       "bx-gsr-royl-cd"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "science"
-    ]
-  },
-  {
-    "title": "High Time Spent on Government Regulations",
-    "description": "In 2015, senior management in Bhutan spent 28.8% of their time dealing with government regulations, suggesting a bureaucratic challenge.",
-    "year": 2015,
-    "indicatorIds": [
-      "ic-gov-durs-zs"
-    ],
-    "emoji": "🕰️",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector"
     ]
   }
 ]

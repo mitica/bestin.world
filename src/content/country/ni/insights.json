@@ -1,27 +1,27 @@
 [
   {
-    "title": "High Dependency on Regional Imports",
-    "description": "In 2023, 50.79% of Nicaragua's total merchandise imports came from low- and middle-income economies in Latin America and the Caribbean, indicating a strong regional trade dependency.",
+    "title": "Significant Dependence on Regional Imports",
+    "description": "In 2023, 50.79% of Nicaragua's total merchandise imports came from low- and middle-income economies in Latin America & the Caribbean, indicating a strong regional trade reliance.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-r3-zs"
     ],
     "emoji": "🌎",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Minimal Financial Support from UNDP",
-    "description": "In 2016, Nicaragua received a net official flow of -$29,206.86 from UNDP, highlighting a significant lack of financial support from this UN agency.",
+    "title": "Negative Net Official Flows from UNDP",
+    "description": "In 2016, Nicaragua experienced a net outflow of $29,206.86 from UNDP, reflecting a financial deficit in official flows from this UN agency.",
     "year": 2016,
     "indicatorIds": [
       "dt-nfl-undp-cd"
     ],
-    "emoji": "💸",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]

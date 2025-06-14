@@ -1,98 +1,110 @@
 [
   {
-    "title": "Lowest Domestic Credit Provided by Financial Sector",
-    "description": "In 2023, Tajikistan's domestic credit provided by the financial sector was only 11.31% of GDP, indicating limited financial sector development.",
-    "year": 2023,
-    "indicatorIds": [
-      "fs-ast-doms-gd-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Minimal Investment in Transport with Private Participation",
-    "description": "In 2022, Tajikistan attracted just $4.5 million in private investment for transport infrastructure, highlighting a need for increased private sector involvement.",
-    "year": 2022,
-    "indicatorIds": [
-      "ie-ppi-tran-cd",
-      "ie-ppn-tran-cd"
-    ],
-    "emoji": "🚧",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure",
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Rapid Growth in Final Consumption Expenditure",
-    "description": "Tajikistan experienced a significant 14.33% growth in final consumption expenditure in 2022, reflecting strong domestic demand.",
+    "title": "Strong Growth in Final Consumption Expenditure",
+    "description": "In 2022, Tajikistan experienced a significant growth in final consumption expenditure, with an annual increase of 14.33%. This indicates a robust domestic demand and economic activity.",
     "year": 2022,
     "indicatorIds": [
       "ne-con-totl-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
+    "title": "Full Binding Coverage on All Products",
+    "description": "Tajikistan achieved a 100% binding coverage on all products in 2021, ensuring comprehensive trade commitments and tariff bindings.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-mrch-bc-zs"
+    ],
+    "emoji": "🔒",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Full Binding Coverage on Primary Products",
+    "description": "In 2021, Tajikistan also secured a 100% binding coverage on primary products, reflecting strong trade policy measures.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-tcom-bc-zs"
+    ],
+    "emoji": "🌾",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
     "title": "Low Unemployment Among Highly Educated",
-    "description": "In 2016, only 0.24% of Tajikistan's labor force with advanced education was unemployed, indicating effective utilization of skilled labor.",
+    "description": "As of 2016, only 0.24% of the labor force with advanced education in Tajikistan was unemployed, indicating effective utilization of skilled labor.",
     "year": 2016,
     "indicatorIds": [
       "sl-uem-advn-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Minimal Child Marriage Rates",
-    "description": "By 2017, only 0.1% of women aged 20-24 in Tajikistan were married by age 15, showcasing progress in reducing early marriages.",
+    "title": "Minimal Early Marriages Among Women",
+    "description": "In 2017, only 0.1% of women aged 20-24 in Tajikistan were married by age 15, reflecting progress in women's rights and education.",
     "year": 2017,
     "indicatorIds": [
       "sp-m15-2024-fe-zs"
     ],
-    "emoji": "👰",
-    "type": "BEST",
+    "emoji": "👩‍🎓",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
-    "title": "Comprehensive Binding Coverage for All Products",
-    "description": "As of 2021, Tajikistan achieved 100% binding coverage for all products, ensuring stable trade policies.",
-    "year": 2021,
+    "title": "Limited Domestic Credit Availability",
+    "description": "In 2023, domestic credit provided by the financial sector in Tajikistan was only 11.31% of GDP, indicating limited financial sector development.",
+    "year": 2023,
     "indicatorIds": [
-      "tm-tax-mrch-bc-zs"
+      "fs-ast-doms-gd-zs"
     ],
-    "emoji": "🔒",
-    "type": "BEST",
+    "emoji": "💳",
+    "type": "BAD",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "financial-sector"
     ]
   },
   {
-    "title": "Complete Binding Coverage for Primary Products",
-    "description": "In 2021, Tajikistan maintained 100% binding coverage for primary products, securing predictable trade conditions.",
-    "year": 2021,
+    "title": "Low Investment in Transport Infrastructure",
+    "description": "In 2022, Tajikistan saw an investment of only $4.5 million in transport with private participation, highlighting a need for increased infrastructure funding.",
+    "year": 2022,
     "indicatorIds": [
-      "tm-tax-tcom-bc-zs"
+      "ie-ppi-tran-cd"
     ],
-    "emoji": "🌾",
-    "type": "BEST",
+    "emoji": "🚧",
+    "type": "BAD",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "infrastructure",
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Limited Public-Private Partnerships in Transport",
+    "description": "The investment in public-private partnerships for transport in 2022 was also $4.5 million, suggesting a need for more collaborative infrastructure projects.",
+    "year": 2022,
+    "indicatorIds": [
+      "ie-ppn-tran-cd"
+    ],
+    "emoji": "🤝",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure"
     ]
   }
 ]

@@ -1,123 +1,123 @@
 [
   {
-    "title": "Strong Gender Equality Initiatives",
-    "description": "In 2019, Moldova achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality compared to other nations.",
+    "title": "Strong Gender Equality Efforts",
+    "description": "In 2019, Moldova achieved a CPIA gender equality rating of 4.5, indicating significant progress towards gender equality.",
     "year": 2019,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
     ],
     "emoji": "♀️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Female Labor Force Participation",
-    "description": "As of 2024, females constitute 54.72% of Moldova's total labor force, showcasing a significant female presence in the workforce.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-totl-fe-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "BEST",
-    "topicIds": [
-      "education",
-      "social-protection",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Liner Shipping Connectivity",
-    "description": "In 2020, Moldova's liner shipping connectivity index was 0.64, indicating limited integration into global shipping networks.",
+    "title": "Limited Shipping Connectivity",
+    "description": "Moldova's liner shipping connectivity index was 0.635 in 2020, reflecting limited integration into global shipping networks.",
     "year": 2020,
     "indicatorIds": [
       "is-shp-gcnw-xq"
     ],
     "emoji": "🚢",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Minimal Container Port Traffic",
-    "description": "With only 818 TEUs handled in 2019, Moldova's container port traffic is among the lowest, highlighting limited maritime trade activity.",
+    "title": "Low Container Port Traffic",
+    "description": "In 2019, Moldova handled 818 TEUs, indicating minimal container port activity compared to global standards.",
     "year": 2019,
     "indicatorIds": [
       "is-shp-good-tu"
     ],
     "emoji": "📦",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Extended Lead Time for Imports",
-    "description": "In 2016, the median lead time to import goods into Moldova was 32 days, reflecting inefficiencies in import logistics.",
+    "title": "Prolonged Import Lead Time",
+    "description": "The median lead time to import goods into Moldova was 32 days in 2016, highlighting inefficiencies in import processes.",
     "year": 2016,
     "indicatorIds": [
       "lp-imp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Limited Unemployment Benefits Coverage",
-    "description": "In 2017, only 0.03% of Moldova's richest quintile received unemployment benefits, indicating limited social safety nets.",
+    "title": "Minimal Unemployment Benefits Coverage",
+    "description": "In 2017, only 0.027% of Moldova's richest quintile received unemployment benefits, suggesting limited social safety nets.",
     "year": 2017,
     "indicatorIds": [
       "per_lm_alllm-cov_q5_tot"
     ],
     "emoji": "💼",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "High Mortality from Unintentional Poisoning",
-    "description": "In 2021, Moldova recorded a mortality rate of 4.15 per 100,000 due to unintentional poisoning, with males being particularly affected at 6.71 per 100,000.",
+    "description": "Moldova reported a mortality rate of 4.15 per 100,000 due to unintentional poisoning in 2021, with males being more affected at 6.71 per 100,000.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-pois-p5",
       "sh-sta-pois-p5-ma"
     ],
     "emoji": "☠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
     ]
   },
   {
-    "title": "Fair Income Distribution Among the Lowest 10%",
-    "description": "In 2022, the lowest 10% of Moldova's population held 4.5% of the income share, suggesting a relatively equitable income distribution.",
+    "title": "Fair Income Distribution Among Lowest 10%",
+    "description": "In 2022, the lowest 10% of Moldova's population held 4.5% of the income share, indicating a relatively equitable income distribution.",
     "year": 2022,
     "indicatorIds": [
       "si-dst-frst-10"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "poverty"
     ]
   },
   {
     "title": "Low Female Employer Representation",
-    "description": "In 2023, only 7.97% of female employment in Moldova was in employer roles, indicating a gender gap in leadership positions.",
+    "description": "As of 2023, only 7.97% of female employment in Moldova was in employer roles, highlighting gender disparities in leadership.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-fe-zs"
     ],
-    "emoji": "👩‍🔧",
-    "type": "WORST",
+    "emoji": "👩‍💼",
+    "type": "BAD",
     "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Female Labor Force Participation",
+    "description": "In 2024, females constituted 54.72% of Moldova's labor force, showcasing strong female participation in the workforce.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-totl-fe-zs"
+    ],
+    "emoji": "👩‍🔧",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
       "social-protection",
       "gender"
     ]

@@ -1,38 +1,38 @@
 [
   {
-    "title": "Efficient Business Insolvency System",
-    "description": "In 2024, Croatia achieved a score of 91.67 in the Business Insolvency Pillar 2, highlighting the country's robust institutional and operational infrastructure for handling judicial insolvency proceedings.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bi-p2"
-    ],
-    "emoji": "🏛️",
-    "type": "BEST",
-    "topicIds": []
-  },
-  {
-    "title": "Swift Export Customs Clearance",
-    "description": "As of 2023, Croatia boasts an average time of just 1.1 days to clear exports through customs, showcasing its efficient customs procedures.",
+    "title": "Efficient Export Customs Clearance",
+    "description": "In 2023, Croatia achieved an average time of just 1.1 days to clear exports through customs, making it one of the fastest in the world.",
     "year": 2023,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
     "emoji": "🚢",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
+    "title": "Robust Institutional Infrastructure for Insolvency",
+    "description": "Croatia scored 91.67 in 2024 for the quality of its institutional and operational infrastructure for judicial insolvency proceedings, indicating a strong framework.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bi-p2"
+    ],
+    "emoji": "🏛️",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
     "title": "High Tuberculosis Case Detection Rate",
-    "description": "In 2023, Croatia reported a tuberculosis case detection rate of 190%, indicating a highly effective health surveillance system for identifying cases.",
+    "description": "In 2023, Croatia reported a tuberculosis case detection rate of 190%, suggesting potential over-reporting or data discrepancies.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-dtec-zs"
     ],
-    "emoji": "🩺",
-    "type": "BEST",
+    "emoji": "🦠",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]

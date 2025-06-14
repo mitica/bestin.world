@@ -1,120 +1,108 @@
 [
   {
-    "title": "Highest Net Secondary Income",
-    "description": "In 2023, India achieved a net secondary income of $101.9 billion, marking one of the highest figures globally.",
+    "title": "High Net Secondary Income",
+    "description": "In 2023, India recorded a net secondary income of $101.9 billion, showcasing strong remittance inflows from abroad.",
     "year": 2023,
     "indicatorIds": [
-      "bn-trf-curr-cd"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Top Receiver of Net Current Transfers from Abroad",
-    "description": "India received $106.5 billion in net current transfers from abroad in 2023, showcasing its strong global financial connections.",
-    "year": 2023,
-    "indicatorIds": [
+      "bn-trf-curr-cd",
       "ny-trf-nctr-cd"
     ],
-    "emoji": "🌍",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Political Stability and Absence of Violence",
-    "description": "India's political stability was assessed with 9 sources in 2023, indicating a robust evaluation framework.",
+    "title": "Political Stability Concerns",
+    "description": "India's political stability in 2023 was measured with a standard error of 0.205, indicating potential volatility in governance.",
     "year": 2023,
     "indicatorIds": [
-      "pv-no-src"
+      "pv-std-err"
     ],
-    "emoji": "🛡️",
-    "type": "BEST",
+    "emoji": "⚠️",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Transaction Costs for Remittances",
-    "description": "In 2023, the average transaction cost for sending remittances to India was just 0.54%, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "si-rmt-cost-ob-zs"
-    ],
-    "emoji": "💸",
-    "type": "BEST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Prevalence of Low-Birthweight Babies",
-    "description": "In 2020, 27.4% of births in India were low-birthweight, highlighting a significant health challenge.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-brtw-zs"
-    ],
-    "emoji": "👶",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Prevalence of Wasting Among Children",
-    "description": "In 2020, 18.7% of children under 5 in India were affected by wasting, indicating a critical nutritional issue.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-wast-zs"
-    ],
-    "emoji": "🍽️",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Prevalence of Severe Wasting Among Children",
-    "description": "In 2020, 7.5% of children under 5 in India suffered from severe wasting, a severe public health concern.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-svr-wast-zs"
-    ],
-    "emoji": "⚠️",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Limited Community Health Workers",
-    "description": "In 2016, India had only 0.581 community health workers per 1,000 people, indicating a shortage in healthcare personnel.",
+    "title": "Low Community Health Worker Density",
+    "description": "As of 2016, India had only 0.581 community health workers per 1,000 people, highlighting a need for more healthcare professionals.",
     "year": 2016,
     "indicatorIds": [
       "sh-med-cmhw-p3"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "climate-change"
     ]
   },
   {
-    "title": "Low Income Share for the Poorest 10%",
-    "description": "In 2022, the lowest 10% of India's population held just 4.5% of the income, reflecting income inequality.",
+    "title": "High Prevalence of Low-Birthweight Babies",
+    "description": "In 2020, 27.4% of births in India were low-birthweight, indicating significant challenges in maternal and child health.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-sta-brtw-zs"
+    ],
+    "emoji": "👶",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Prevalence of Child Wasting",
+    "description": "In 2020, 18.7% of children under 5 in India were affected by wasting, a critical indicator of malnutrition.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-sta-wast-zs"
+    ],
+    "emoji": "🍽️",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Severe Child Wasting Issues",
+    "description": "In 2020, 7.5% of children under 5 in India suffered from severe wasting, reflecting acute malnutrition challenges.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-svr-wast-zs"
+    ],
+    "emoji": "🚨",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Income Inequality Challenges",
+    "description": "In 2022, the lowest 10% of India's population held only 4.5% of the income, indicating significant income disparity.",
     "year": 2022,
     "indicatorIds": [
       "si-dst-frst-10"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "poverty"
+    ]
+  },
+  {
+    "title": "Efficient Remittance Costs",
+    "description": "In 2023, India had an average remittance transaction cost of 0.54%, one of the lowest globally, benefiting overseas workers.",
+    "year": 2023,
+    "indicatorIds": [
+      "si-rmt-cost-ob-zs"
+    ],
+    "emoji": "💸",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
     ]
   }
 ]

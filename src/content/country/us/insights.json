@@ -7,47 +7,60 @@
       "ag-lnd-arbl-ha"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Leading Provider of Development Aid",
-    "description": "In 2022, the United States provided $60.3 billion in total net Official Development Assistance (ODA), with $11.7 billion directed to the least developed countries.",
+    "title": "Top Provider of Net ODA to Least Developed Countries",
+    "description": "In 2022, the United States provided $11,689,380,000 in net official development assistance to the least developed countries, showcasing its commitment to global aid.",
     "year": 2022,
     "indicatorIds": [
-      "dc-oda-tldc-cd",
-      "dc-oda-totl-cd"
+      "dc-oda-tldc-cd"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "millenium-development-goals"
     ]
   },
   {
-    "title": "High Taxation on Income and Profits",
-    "description": "In 2023, taxes on income, profits, and capital gains constituted 92.91% of total taxes in the United States.",
+    "title": "Leading Global Provider of Net ODA",
+    "description": "The United States provided a total of $60,328,680,000 in net official development assistance in 2022, the highest in the world.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-oda-totl-cd",
+      "dc-oda-totl-kd"
+    ],
+    "emoji": "🤝",
+    "type": "GOOD",
+    "topicIds": [
+      "millenium-development-goals"
+    ]
+  },
+  {
+    "title": "High Taxation on Income, Profits, and Capital Gains",
+    "description": "In 2023, taxes on income, profits, and capital gains accounted for 92.91% of total taxes in the United States, indicating a heavy reliance on these sources.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-ypkg-zs"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Extensive Rail Network",
-    "description": "The United States had a total rail line route of 148,553 kilometers in 2021, one of the most extensive networks globally.",
+    "description": "With a total of 148,553 route-km in 2021, the United States boasts one of the most extensive rail networks globally.",
     "year": 2021,
     "indicatorIds": [
       "is-rrs-totl-km"
     ],
     "emoji": "🚂",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
@@ -60,34 +73,34 @@
       "it-net-secr"
     ],
     "emoji": "🔒",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Highest Education Expenditure",
-    "description": "In 2021, the United States spent $1.05 trillion on education, reflecting its commitment to educational development.",
+    "title": "Significant Investment in Education",
+    "description": "The United States invested $1,046,599,480,744 in education in 2021, highlighting its focus on educational development.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-cd"
     ],
-    "emoji": "📚",
-    "type": "BEST",
+    "emoji": "🎓",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Significant Energy Depletion Costs",
-    "description": "In 2021, the United States faced $178.2 billion in energy depletion costs, highlighting its energy consumption challenges.",
+    "title": "High Energy Depletion Costs",
+    "description": "In 2021, the United States faced energy depletion costs amounting to $178,211,930,410, reflecting challenges in sustainable energy use.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dngy-cd"
     ],
     "emoji": "⚡",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "energy",
@@ -95,163 +108,137 @@
     ]
   },
   {
-    "title": "High Product Taxation",
-    "description": "In 2021, taxes less subsidies on products amounted to $829.2 billion, indicating a high level of product taxation.",
+    "title": "Substantial Taxes on Products",
+    "description": "In 2021, taxes less subsidies on products amounted to $829,217,085,000, indicating a significant revenue source for the government.",
     "year": 2021,
     "indicatorIds": [
       "ny-tax-nind-cd"
     ],
-    "emoji": "🏷️",
-    "type": "BEST",
+    "emoji": "🛒",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Top Health Expenditure Per Capita",
-    "description": "In 2022, the United States spent $12,434 per capita on health, the highest globally, reflecting its focus on healthcare.",
+    "title": "Highest Health Expenditure Per Capita",
+    "description": "In 2022, the United States spent $12,434 per capita on health, the highest globally, reflecting its investment in healthcare.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-chex-pc-cd",
       "sh-xpd-chex-pp-cd"
     ],
     "emoji": "🏥",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Lowest Prevalence of Wasting in Children",
-    "description": "In 2022, the United States reported a prevalence of wasting among children under 5 at just 0.1%, one of the lowest rates globally.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-sta-wast-zs"
-    ],
-    "emoji": "🌟",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal Prevalence of Anemia in Children",
-    "description": "As of 2019, only 6.1% of children aged 6-59 months in the United States were affected by anemia, showcasing a strong public health outcome.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-anm-chld-zs"
-    ],
-    "emoji": "🩺",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Significant Current Account Deficit",
-    "description": "In 2023, the United States had a current account deficit of $905.4 billion, indicating a substantial imbalance in international trade and financial flows.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-cab-xoka-cd"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "High Net Financial Account Deficit",
-    "description": "The net financial account for the United States in 2023 was negative $924.1 billion, reflecting significant outflows of financial resources.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-fin-totl-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Large Net Trade Deficit in Goods",
-    "description": "In 2023, the United States recorded a net trade deficit in goods of $1.06 trillion, highlighting a major trade imbalance.",
+    "title": "Significant Trade Deficit",
+    "description": "In 2023, the United States recorded a trade deficit of $1.06 trillion in goods, highlighting a significant imbalance in trade. This is one of the largest deficits globally.",
     "year": 2023,
     "indicatorIds": [
       "bn-gsr-mrch-cd"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
     ]
   },
   {
-    "title": "Minimal Prevalence of Anemia in Pregnant Women",
-    "description": "The prevalence of anemia among pregnant women in the United States was 11.5% in 2019, one of the lowest globally.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-prg-anem"
-    ],
-    "emoji": "🤰",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Wasting in Female Children",
-    "description": "In 2016, only 0.1% of female children under 5 in the United States were affected by wasting, indicating excellent nutritional standards.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-wast-fe-zs"
-    ],
-    "emoji": "👧",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Wasting in Male Children",
-    "description": "As of 2018, the prevalence of wasting among male children under 5 in the United States was just 0.2%, reflecting strong health outcomes.",
-    "year": 2018,
-    "indicatorIds": [
-      "sh-sta-wast-ma-zs"
-    ],
-    "emoji": "👦",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Substantial Portfolio Investment Outflows",
-    "description": "The United States experienced a net portfolio investment outflow of $1.15 trillion in 2023, indicating significant capital movement abroad.",
+    "title": "High Net Portfolio Investment Outflow",
+    "description": "The United States experienced a net portfolio investment outflow of $1.15 trillion in 2023, indicating substantial capital leaving the country.",
     "year": 2023,
     "indicatorIds": [
       "bn-klt-ptxl-cd"
     ],
-    "emoji": "💼",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
     ]
   },
   {
-    "title": "Negative Net Secondary Income",
-    "description": "In 2023, the United States had a net secondary income deficit of $187.5 billion, reflecting more transfers abroad than received.",
+    "title": "Low Prevalence of Child Wasting",
+    "description": "As of 2022, only 0.1% of children under 5 in the United States suffer from wasting, one of the lowest rates globally, reflecting good nutritional status.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-wast-zs"
+    ],
+    "emoji": "🍎",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Moderate Prevalence of Anemia in Children",
+    "description": "In 2019, 6.1% of children aged 6-59 months in the United States were affected by anemia, which is relatively low compared to global standards.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-anm-chld-zs"
+    ],
+    "emoji": "🩸",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Substantial Current Account Deficit",
+    "description": "The United States had a current account deficit of $905 billion in 2023, indicating more money flowing out than coming in through trade and investment.",
     "year": 2023,
     "indicatorIds": [
-      "bn-trf-curr-cd"
+      "bn-cab-xoka-cd"
     ],
-    "emoji": "🔄",
-    "type": "WORST",
+    "emoji": "💼",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Prevalence of Anemia in Pregnant Women",
+    "description": "In 2019, 11.5% of pregnant women in the United States were affected by anemia, which is lower than many other countries.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-prg-anem"
+    ],
+    "emoji": "🤰",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Net Financial Account Outflow",
+    "description": "The United States recorded a net financial account outflow of $924 billion in 2023, indicating a significant movement of financial resources out of the country.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-fin-totl-cd"
+    ],
+    "emoji": "🏦",
+    "type": "BAD",
     "topicIds": [
       "economy"
+    ]
+  },
+  {
+    "title": "Low Grants and Other Revenue Percentage",
+    "description": "In 2023, grants and other revenue accounted for only 2.56% of the United States' total revenue, indicating limited reliance on external financial aid.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-rev-gotr-zs"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

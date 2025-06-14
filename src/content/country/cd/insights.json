@@ -1,13 +1,13 @@
 [
   {
-    "title": "Leader in Renewable Energy Consumption",
-    "description": "In 2021, DR Congo had a remarkable 96.3% of its total final energy consumption derived from renewable sources, showcasing its commitment to sustainable energy.",
+    "title": "High Renewable Energy Consumption",
+    "description": "In 2021, 96.3% of DR Congo's total final energy consumption came from renewable sources, showcasing a strong commitment to sustainable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-fec-rnew-zs"
     ],
     "emoji": "🌿",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "climate-change",
@@ -15,27 +15,27 @@
     ]
   },
   {
-    "title": "High Dependence on Combustible Renewables and Waste",
-    "description": "By 2022, 92.9% of DR Congo's total energy consumption came from combustible renewables and waste, indicating a heavy reliance on traditional biomass.",
+    "title": "Heavy Reliance on Combustible Renewables and Waste",
+    "description": "As of 2022, 92.9% of DR Congo's energy comes from combustible renewables and waste, indicating a dependence on traditional biomass.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-crnw-zs"
     ],
     "emoji": "🔥",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "energy"
     ]
   },
   {
     "title": "Rapid Growth in Imports",
-    "description": "In 2023, DR Congo experienced an 85.6% annual growth in imports of goods and services, reflecting a significant increase in international trade activities.",
+    "description": "In 2023, DR Congo experienced an 85.6% annual growth in imports of goods and services, reflecting increased economic activity and demand.",
     "year": 2023,
     "indicatorIds": [
       "ne-imp-gnfs-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "trade"
@@ -43,13 +43,13 @@
   },
   {
     "title": "Significant Mineral Depletion",
-    "description": "Mineral depletion accounted for 22.7% of DR Congo's GNI in 2021, highlighting the extensive extraction of natural resources.",
+    "description": "Mineral depletion accounted for 22.7% of DR Congo's GNI in 2021, highlighting the economic reliance on mining activities.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dmin-gn-zs"
     ],
     "emoji": "⛏️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "energy",
@@ -58,62 +58,64 @@
   },
   {
     "title": "High Mineral Rents Contribution to GDP",
-    "description": "In 2021, mineral rents constituted 28.8% of DR Congo's GDP, underscoring the economy's reliance on mineral extraction.",
+    "description": "In 2021, mineral rents constituted 28.8% of DR Congo's GDP, underscoring the importance of the mining sector to the economy.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-minr-rt-zs"
     ],
     "emoji": "💎",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "environment"
     ]
   },
   {
-    "title": "High Rate of Out-of-School Primary Children",
-    "description": "As of 2019, 63.2% of primary school-age children in DR Congo were out of school, indicating significant educational challenges.",
+    "title": "High Out-of-School Rate for Primary Children",
+    "description": "In 2019, 63.2% of primary school-age children were out of school, indicating significant challenges in the education sector.",
     "year": 2019,
     "indicatorIds": [
       "se-lpv-prim-sd"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
   },
   {
     "title": "Severe Poverty Levels",
-    "description": "In 2020, 98% of DR Congo's population lived below the $8.30 a day poverty line, reflecting extreme poverty conditions.",
+    "description": "In 2020, 85.3% of the population lived below the $3.00 a day poverty line, reflecting widespread poverty.",
     "year": 2020,
     "indicatorIds": [
-      "si-pov-umic"
+      "si-pov-dday"
     ],
     "emoji": "💔",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
-      "poverty"
+      "poverty",
+      "aid-effectiveness",
+      "climate-change"
     ]
   },
   {
     "title": "High Multidimensional Poverty",
-    "description": "88% of the population in DR Congo was considered multidimensionally poor in 2020, highlighting widespread deprivation across multiple sectors.",
+    "description": "88% of the population experienced multidimensional poverty in 2020, indicating deprivation in multiple areas of well-being.",
     "year": 2020,
     "indicatorIds": [
       "si-pov-mpwb"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Complete Binding Coverage of Products",
-    "description": "In 2020, DR Congo achieved 100% binding coverage for all products, ensuring comprehensive trade commitments.",
+    "title": "Complete Binding Coverage for Trade Products",
+    "description": "In 2020, DR Congo achieved 100% binding coverage for all products, ensuring tariff predictability in international trade.",
     "year": 2020,
     "indicatorIds": [
       "tm-tax-mrch-bc-zs"
     ],
     "emoji": "🔒",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -121,13 +123,13 @@
   },
   {
     "title": "Dominance of Ores and Metals in Exports",
-    "description": "By 2023, ores and metals made up 76.3% of DR Congo's merchandise exports, emphasizing the country's export dependency on these resources.",
+    "description": "Ores and metals made up 76.3% of merchandise exports in 2023, highlighting the country's export dependency on these commodities.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mmtl-zs-un"
     ],
     "emoji": "🚢",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "private-sector",
@@ -135,14 +137,14 @@
     ]
   },
   {
-    "title": "Lowest Urban Land Area Below 5 Meters",
-    "description": "In 2015, only 0.00012% of DR Congo's urban land area was below 5 meters in elevation, indicating minimal risk from rising sea levels.",
+    "title": "Minimal Urban Land Vulnerability to Sea Level Rise",
+    "description": "In 2015, only 0.00012% of DR Congo's urban land area was below 5 meters in elevation, indicating minimal vulnerability to sea level rise.",
     "year": 2015,
     "indicatorIds": [
       "ag-lnd-el5m-ur-zs"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "urban-development",
@@ -150,28 +152,14 @@
     ]
   },
   {
-    "title": "Minimal Travel Service Exports",
-    "description": "As of 2023, travel services accounted for just 2.43% of DR Congo's service exports, reflecting a limited tourism sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "bx-gsr-trvl-zs"
-    ],
-    "emoji": "✈️",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Negligible Natural Gas Electricity Production",
-    "description": "In 2018, only 0.92% of DR Congo's electricity was produced from natural gas sources, highlighting a reliance on other energy sources.",
+    "title": "Negligible Natural Gas Dependency for Electricity",
+    "description": "As of 2018, only 0.009% of DR Congo's electricity was produced from natural gas, showcasing a low dependency on this fossil fuel source.",
     "year": 2018,
     "indicatorIds": [
       "eg-elc-ngas-zs"
     ],
     "emoji": "🔌",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "climate-change",
@@ -179,167 +167,97 @@
     ]
   },
   {
-    "title": "Low Fossil Fuel Energy Consumption",
-    "description": "In 2022, fossil fuels made up just 3.97% of DR Congo's total energy consumption, indicating a lower carbon footprint compared to global averages.",
-    "year": 2022,
-    "indicatorIds": [
-      "eg-use-comm-fo-zs"
-    ],
-    "emoji": "🌿",
-    "type": "BEST",
-    "topicIds": [
-      "energy"
-    ]
-  },
-  {
-    "title": "Minimal CO2 Emissions from Buildings",
-    "description": "DR Congo's building sector emitted only 0.0002 Mt CO2e in 2023, showcasing its low contribution to global carbon emissions.",
+    "title": "Low Carbon Emissions from Buildings",
+    "description": "In 2023, DR Congo's carbon dioxide emissions from buildings were a mere 0.0002 Mt CO2e, reflecting minimal environmental impact from this sector.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-bu-mt-ce-ar5"
     ],
     "emoji": "🏢",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Urban Population Below 5 Meters",
-    "description": "In 2015, just 0.0036% of DR Congo's urban population lived in areas below 5 meters, minimizing flood risk.",
-    "year": 2015,
+    "title": "Limited Fossil Fuel Energy Consumption",
+    "description": "By 2022, fossil fuels accounted for only 3.97% of DR Congo's total energy consumption, indicating a low reliance on non-renewable energy sources.",
+    "year": 2022,
     "indicatorIds": [
-      "en-pop-el5m-ur-zs"
+      "eg-use-comm-fo-zs"
     ],
-    "emoji": "🏙️",
-    "type": "BEST",
+    "emoji": "⛽",
+    "type": "GOOD",
     "topicIds": [
-      "climate-change",
-      "urban-development",
-      "environment"
+      "energy"
     ]
   },
   {
-    "title": "Minimal Population Below 5 Meters",
-    "description": "As of 2015, only 0.0128% of DR Congo's total population resided in areas below 5 meters elevation, reducing vulnerability to sea level rise.",
-    "year": 2015,
-    "indicatorIds": [
-      "en-pop-el5m-zs"
-    ],
-    "emoji": "🏞️",
-    "type": "BEST",
-    "topicIds": [
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Broad Money as GDP Percentage",
-    "description": "In 2018, broad money constituted just 12.41% of DR Congo's GDP, indicating limited financial liquidity in the economy.",
-    "year": 2018,
-    "indicatorIds": [
-      "fm-lbl-bmny-gd-zs"
-    ],
-    "emoji": "💰",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Negligible Natural Gas Rents",
-    "description": "Natural gas rents contributed a mere 0.00006% to DR Congo's GDP in 2019, reflecting minimal economic reliance on natural gas.",
+    "title": "Minimal Natural Gas Revenue Contribution",
+    "description": "In 2019, natural gas rents contributed a negligible 0.00006% to DR Congo's GDP, highlighting a minimal economic dependency on this resource.",
     "year": 2019,
     "indicatorIds": [
       "ny-gdp-ngas-rt-zs"
     ],
-    "emoji": "⛽",
-    "type": "WORST",
+    "emoji": "💰",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "environment"
     ]
   },
   {
-    "title": "Low Doctoral Educational Attainment",
-    "description": "In 2016, only 0.03% of DR Congo's male population aged 25+ had attained a doctoral degree, highlighting educational challenges.",
+    "title": "Low Educational Attainment at Doctoral Level",
+    "description": "As of 2016, only 0.03% of DR Congo's male population aged 25+ had attained a doctoral degree, indicating a significant gap in higher education.",
     "year": 2016,
     "indicatorIds": [
       "se-ter-cuat-do-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Limited Basic Drinking Water Access in Rural Areas",
-    "description": "By 2022, only 13.8% of DR Congo's rural population had access to basic drinking water services, indicating significant infrastructure needs.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-h2o-basw-ru-zs"
-    ],
-    "emoji": "🚰",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Overall Basic Drinking Water Access",
-    "description": "As of 2022, just 35.12% of DR Congo's population had access to basic drinking water services, underscoring public health challenges.",
+    "title": "Limited Access to Basic Drinking Water Services",
+    "description": "In 2022, only 35.12% of DR Congo's population had access to basic drinking water services, highlighting a critical area for infrastructure improvement.",
     "year": 2022,
     "indicatorIds": [
       "sh-h2o-basw-zs"
     ],
-    "emoji": "💧",
-    "type": "WORST",
+    "emoji": "🚰",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
     ]
   },
   {
-    "title": "Minimal Safely Managed Drinking Water in Rural Areas",
-    "description": "In 2022, only 0.51% of DR Congo's rural population had access to safely managed drinking water services, highlighting critical needs.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-h2o-smdw-ru-zs"
-    ],
-    "emoji": "🚱",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Few Researchers in R&D",
-    "description": "In 2015, DR Congo had only 10 researchers per million people, indicating limited investment in research and development.",
+    "title": "Scarcity of Researchers in R&D",
+    "description": "In 2015, DR Congo had only 10 researchers per million people, indicating a significant gap in research and development capacity.",
     "year": 2015,
     "indicatorIds": [
       "sp-pop-scie-rd-p6"
     ],
     "emoji": "🔬",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Minimal Travel Service in Commercial Exports",
-    "description": "Travel services made up just 3.26% of DR Congo's commercial service exports in 2023, reflecting a small tourism industry.",
+    "title": "Minimal Contribution of Travel Services to Exports",
+    "description": "By 2023, travel services accounted for only 2.43% of DR Congo's service exports, suggesting limited development in the tourism sector.",
     "year": 2023,
     "indicatorIds": [
-      "tx-val-trvl-zs-wt"
+      "bx-gsr-trvl-zs"
     ],
-    "emoji": "🛫",
-    "type": "WORST",
+    "emoji": "✈️",
+    "type": "BAD",
     "topicIds": [
-      "private-sector",
+      "economy",
       "trade"
     ]
   }

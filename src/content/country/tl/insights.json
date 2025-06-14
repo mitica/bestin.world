@@ -1,27 +1,39 @@
 [
   {
     "title": "High Net Investment in Nonfinancial Assets",
-    "description": "In 2016, Timor-Leste had one of the highest net investments in nonfinancial assets, accounting for 40.29% of its GDP. This indicates a strong focus on infrastructure and capital development.",
+    "description": "In 2016, Timor-Leste recorded a net investment in nonfinancial assets at 40.29% of its GDP, indicating a strong focus on infrastructure and capital development.",
     "year": 2016,
     "indicatorIds": [
       "gc-nfn-totl-gd-zs"
     ],
     "emoji": "🏗️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Significant Natural Resource Depletion",
-    "description": "In 2021, Timor-Leste experienced substantial natural resources depletion, with energy and other natural resources accounting for 57.20% and 57.30% of GNI, respectively. This highlights a heavy reliance on resource extraction.",
+    "title": "Significant Other Expenses",
+    "description": "In 2022, 42.80% of Timor-Leste's expenses were categorized as 'other expenses,' suggesting potential inefficiencies or unclassified spending in the national budget.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-xpn-othr-zs"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Energy Depletion Rate",
+    "description": "Timor-Leste experienced a 57.20% depletion of energy resources relative to its GNI in 2021, highlighting a significant reliance on energy resources for economic activities.",
     "year": 2021,
     "indicatorIds": [
-      "ny-adj-dngy-gn-zs",
-      "ny-adj-dres-gn-zs"
+      "ny-adj-dngy-gn-zs"
     ],
-    "emoji": "⛏️",
-    "type": "WORST",
+    "emoji": "⛽",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "energy",
@@ -29,143 +41,144 @@
     ]
   },
   {
-    "title": "High Natural Gas Rents Contribution to GDP",
-    "description": "Natural gas rents contributed 29.38% to Timor-Leste's GDP in 2021, showcasing the country's dependency on natural gas as a significant economic driver.",
+    "title": "Natural Resources Depletion Concerns",
+    "description": "In 2021, the depletion of natural resources in Timor-Leste accounted for 57.30% of its GNI, raising concerns about sustainability and resource management.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dres-gn-zs"
+    ],
+    "emoji": "🌍",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "energy"
+    ]
+  },
+  {
+    "title": "Dependence on Natural Gas Rents",
+    "description": "Natural gas rents constituted 29.38% of Timor-Leste's GDP in 2021, indicating a heavy reliance on this sector for economic stability.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-ngas-rt-zs"
     ],
-    "emoji": "⛽",
-    "type": "BEST",
+    "emoji": "🔥",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "environment"
     ]
   },
   {
-    "title": "High Other Expenses as a Percentage of Total Expenses",
-    "description": "In 2022, other expenses constituted 42.80% of Timor-Leste's total expenses, indicating a potential area for budgetary reevaluation and efficiency improvements.",
-    "year": 2022,
-    "indicatorIds": [
-      "gc-xpn-othr-zs"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Prevalence of Justification for Domestic Violence",
-    "description": "In 2016, 62.8% of women in Timor-Leste believed a husband is justified in beating his wife if she neglects the children, reflecting deep-rooted societal norms and challenges in gender equality.",
+    "title": "High Acceptance of Domestic Violence",
+    "description": "In 2016, 62.8% of women in Timor-Leste believed that a husband is justified in beating his wife if she neglects the children, reflecting deep-rooted cultural issues regarding gender equality.",
     "year": 2016,
     "indicatorIds": [
       "sg-vaw-negl-zs"
     ],
     "emoji": "🚫",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
-    "title": "Lowest Quality of Public Services for Business",
-    "description": "In 2024, Timor-Leste scored 3.2 in the Quality of Public Services and Transparency of Information for Business Location, indicating significant room for improvement.",
+    "title": "Low Quality of Public Services for Business",
+    "description": "In 2024, Timor-Leste scored 3.2 in the Quality of Public Services and Transparency of Information for Business Location, indicating challenges in providing efficient public services for businesses.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bl-p2"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Weak Dispute Resolution Services",
-    "description": "The country's Dispute Resolution services scored 7.8 in 2024, highlighting challenges in effectively resolving business disputes.",
+    "title": "Challenges in Dispute Resolution Services",
+    "description": "Timor-Leste's Dispute Resolution Public Services scored 7.8 in 2024, reflecting difficulties in resolving business disputes efficiently.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-dr-p2"
     ],
     "emoji": "⚖️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Poor Financial Services Accessibility",
-    "description": "With a score of 5.8 in 2024, Timor-Leste's accessibility of information in credit infrastructure is among the lowest globally.",
+    "title": "Limited Financial Services Accessibility",
+    "description": "In 2024, the Accessibility of Information in Credit Infrastructure in Timor-Leste was rated at 5.8, highlighting limited access to financial services information.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-p2"
     ],
     "emoji": "💳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Declining Export Growth",
-    "description": "In 2023, Timor-Leste experienced a -59.99% growth in exports of goods and services, reflecting a significant downturn.",
+    "title": "Weak Market Competition Regulations",
+    "description": "Timor-Leste's regulations promoting market competition scored 22.3 in 2024, indicating a need for stronger regulatory frameworks to enhance competition.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-mc-p1"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "title": "Decline in Export Growth",
+    "description": "In 2023, Timor-Leste experienced a significant decline in exports of goods and services, with an annual growth rate of -59.99%.",
     "year": 2023,
     "indicatorIds": [
       "ne-exp-gnfs-kd-zg"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
     ]
   },
   {
-    "title": "Negative Industry Growth",
-    "description": "The industry sector, including construction, saw a -56.97% growth in 2023, indicating a substantial contraction.",
+    "title": "Negative Industrial Growth",
+    "description": "The industry sector, including construction, in Timor-Leste saw a -56.97% growth rate in 2023, indicating a contraction in industrial activities.",
     "year": 2023,
     "indicatorIds": [
       "nv-ind-totl-kd-zg"
     ],
-    "emoji": "🏗️",
-    "type": "WORST",
+    "emoji": "🏭",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Lowest Adjusted Net National Income Growth",
-    "description": "In 2021, the adjusted net national income growth was -65.66%, one of the lowest globally, suggesting economic challenges.",
+    "title": "Decreasing National Income",
+    "description": "Adjusted net national income in Timor-Leste decreased by -65.66% in 2021, reflecting economic challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-nnty-kd-zg"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Negative Inflation Rate",
-    "description": "Timor-Leste recorded a -20.83% inflation rate in 2023, indicating deflationary pressures in the economy.",
+    "title": "High Inflation Rates",
+    "description": "In 2023, Timor-Leste faced a high inflation rate with the GDP deflator at -20.83%, affecting the cost of living and economic stability.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-defl-kd-zg",
       "ny-gdp-defl-kd-zg-ad"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💹",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
     ]
-  },
-  {
-    "title": "Poor Market Competition Regulations",
-    "description": "The quality of regulations promoting market competition scored 22.25 in 2024, showing a need for regulatory improvements.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-mc-p1"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": []
   }
 ]

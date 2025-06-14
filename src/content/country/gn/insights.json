@@ -1,54 +1,41 @@
 [
   {
-    "title": "Highest Vitamin A Supplementation Coverage",
-    "description": "In 2022, Guinea achieved a remarkable Vitamin A supplementation coverage rate of 97% among children aged 6-59 months, showcasing its commitment to child health.",
+    "title": "High Vitamin A Supplementation Coverage",
+    "description": "In 2022, Guinea achieved a remarkable Vitamin A supplementation coverage rate of 97% among children aged 6-59 months, indicating strong public health initiatives.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-vita-zs"
     ],
-    "emoji": "🥇",
-    "type": "BEST",
+    "emoji": "🟢",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Lowest Percentage of Female Secondary Education Teachers",
+    "title": "Low Female Representation in Secondary Education",
     "description": "As of 2021, only 5.8% of secondary education teachers in Guinea were female, highlighting a significant gender disparity in the education sector.",
     "year": 2021,
     "indicatorIds": [
       "se-sec-tchr-fe-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Lowest Physicians per 1,000 People",
-    "description": "In 2022, Guinea had just 0.021 physicians per 1,000 people, indicating a critical shortage of medical professionals in the country.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-med-phys-zs"
-    ],
-    "emoji": "🚑",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal Contribution of Travel Services to Service Imports",
-    "description": "Travel services accounted for only 1.1% of Guinea's service imports in 2022, reflecting a limited role in the country's service sector.",
+    "title": "Minimal Travel Service Imports",
+    "description": "In 2022, travel services accounted for just 1.1% of Guinea's commercial service imports, reflecting limited international travel engagement.",
     "year": 2022,
     "indicatorIds": [
       "bm-gsr-trvl-zs",
       "tm-val-trvl-zs-wt"
     ],
-    "emoji": "✈️",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade",
@@ -56,31 +43,60 @@
     ]
   },
   {
-    "title": "Minimal International Tourism Receipts",
-    "description": "In 2020, international tourism receipts contributed a mere 0.014% to Guinea's total exports, underscoring the underdeveloped tourism industry.",
+    "title": "Low Physician Density",
+    "description": "Guinea had only 0.021 physicians per 1,000 people in 2022, indicating a critical shortage of medical professionals in the country.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-med-phys-zs"
+    ],
+    "emoji": "🔴",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Negligible International Tourism Receipts",
+    "description": "In 2020, international tourism receipts contributed a mere 0.014% to Guinea's total exports, suggesting limited tourism revenue.",
     "year": 2020,
     "indicatorIds": [
-      "st-int-rcpt-xp-zs"
+      "st-int-rcpt-xp-zs",
+      "st-int-rcpt-cd"
     ],
-    "emoji": "🌍",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "High Financial Intermediary Services Value",
-    "description": "Guinea's Financial Intermediary Services Indirectly Measured reached 3,656,694,434,200 LCU in 2022, indicating a robust financial sector.",
+    "title": "Significant Financial Intermediary Services",
+    "description": "Guinea's financial intermediary services indirectly measured reached 3.66 trillion LCU in current terms in 2022, showcasing a robust financial sector.",
     "year": 2022,
     "indicatorIds": [
       "nv-fsm-totl-cn",
       "nv-fsm-totl-kn"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "🟢",
+    "type": "GOOD",
     "topicIds": [
       "economy"
+    ]
+  },
+  {
+    "title": "Low Ores and Metals Import Dependency",
+    "description": "In 2016, ores and metals constituted only 30.9% of Guinea's merchandise imports, indicating a diversified import portfolio.",
+    "year": 2016,
+    "indicatorIds": [
+      "tm-val-mmtl-zs-un"
+    ],
+    "emoji": "🟢",
+    "type": "GOOD",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
     ]
   }
 ]

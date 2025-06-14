@@ -1,26 +1,26 @@
 [
   {
-    "title": "Lowest Crop Production Index",
-    "description": "In 2022, Malta's crop production index was recorded at 53.79, indicating a significant decline compared to the base period of 2014-2016. This suggests challenges in agricultural productivity.",
+    "title": "Low Crop Production Index",
+    "description": "In 2022, Malta's crop production index was recorded at 53.79, indicating a significant decline compared to the 2014-2016 baseline of 100.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-crop-xd"
     ],
     "emoji": "🌾",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Highest Energy Import Dependency",
-    "description": "Malta's energy imports accounted for 389.55% of its energy use in 2022, highlighting the country's heavy reliance on external energy sources.",
+    "title": "High Energy Dependency",
+    "description": "Malta's energy imports accounted for 389.55% of its energy use in 2022, highlighting a heavy reliance on external energy sources.",
     "year": 2022,
     "indicatorIds": [
       "eg-imp-cons-zs"
     ],
     "emoji": "🔌",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "trade"
@@ -28,13 +28,13 @@
   },
   {
     "title": "Minimal Methane Emissions from Energy",
-    "description": "In 2015, Malta reported methane emissions from fugitive energy sources at just 0.0001 Mt CO2e, showcasing its low contribution to greenhouse gas emissions in this sector.",
+    "description": "In 2015, Malta's methane emissions from fugitive emissions in the energy sector were extremely low, at just 0.0001 Mt CO2e.",
     "year": 2015,
     "indicatorIds": [
       "en-ghg-ch4-fe-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]

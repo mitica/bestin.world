@@ -1,85 +1,111 @@
 [
   {
-    "title": "High Educational Attainment Among Adults",
-    "description": "In 2022, 61.09% of Montenegro's population aged 25 and above had attained at least a Bachelor's degree, with 58.19% of females and 65.53% of males achieving this level of education.",
+    "title": "High Educational Attainment Among Males",
+    "description": "In 2022, 65.53% of Montenegro's male population aged 25 and above had attained at least a Bachelor's degree, showcasing a strong emphasis on higher education for men.",
     "year": 2022,
     "indicatorIds": [
-      "se-ter-cuat-ba-fe-zs",
-      "se-ter-cuat-ba-ma-zs",
-      "se-ter-cuat-ba-zs"
+      "se-ter-cuat-ba-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Minimal Industrial Design Applications",
-    "description": "In 2020, Montenegro recorded only 1 resident industrial design application, indicating a low level of industrial design activity.",
+    "title": "Significant Educational Achievement",
+    "description": "As of 2022, 61.09% of Montenegro's population aged 25 and above had achieved at least a Bachelor's degree, indicating a well-educated populace.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-cuat-ba-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Industrial Design Activity",
+    "description": "In 2020, Montenegro had only 1 resident industrial design application, reflecting minimal activity in this sector.",
     "year": 2020,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "🔧",
-    "type": "WORST",
+    "emoji": "🏭",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Low Measles Immunization Rate",
-    "description": "As of 2023, only 24% of children aged 12-23 months in Montenegro were immunized against measles, highlighting a significant public health challenge.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-imm-meas"
-    ],
-    "emoji": "💉",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Negligible Arms Exports",
-    "description": "In 2017, Montenegro's arms exports were valued at $1,000,000, reflecting a minimal contribution to the global arms trade.",
+    "title": "Minimal Arms Export",
+    "description": "Montenegro's arms exports were valued at $1,000,000 in 2017, indicating a limited role in the global arms trade.",
     "year": 2017,
     "indicatorIds": [
       "ms-mil-xprt-kd"
     ],
     "emoji": "🔫",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector",
       "trade"
     ]
   },
   {
-    "title": "Minimal Tariff Peaks on Manufactured Products",
-    "description": "In 2022, only 0.00135% of Montenegro's tariff lines for manufactured products had international peaks, indicating a low level of trade protectionism.",
+    "title": "Low Measles Immunization Rate",
+    "description": "In 2023, only 24% of children aged 12-23 months in Montenegro were immunized against measles, highlighting a critical public health concern.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-imm-meas"
+    ],
+    "emoji": "💉",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Negligible Tariff Peaks on Manufactured Goods",
+    "description": "In 2022, only 0.0014% of Montenegro's tariff lines on manufactured products had international peaks, indicating low trade barriers.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-manf-ip-zs"
     ],
-    "emoji": "📉",
-    "type": "BEST",
+    "emoji": "📦",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Low New Displacement Due to Disasters",
+    "title": "Minimal New Displacements Due to Disasters",
     "description": "In 2023, Montenegro reported only 1 new case of internal displacement due to disasters, suggesting effective disaster management strategies.",
     "year": 2023,
     "indicatorIds": [
       "vc-idp-nwds"
     ],
-    "emoji": "🏠",
-    "type": "BEST",
+    "emoji": "🌪️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "High Educational Attainment Among Females",
+    "description": "In 2022, 58.19% of Montenegro's female population aged 25 and above had attained at least a Bachelor's degree, reflecting strong educational outcomes for women.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-cuat-ba-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
     ]
   }
 ]

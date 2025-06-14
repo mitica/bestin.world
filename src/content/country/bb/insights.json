@@ -1,39 +1,39 @@
 [
   {
-    "title": "Limited Stock Market Activity",
-    "description": "In 2021, the total value of stocks traded in Barbados was only $220,000, indicating a relatively inactive stock market compared to global standards.",
+    "title": "Minimal Stock Market Activity",
+    "description": "In 2021, Barbados recorded a total stock trade value of $220,000, one of the lowest in the world, indicating limited market activity.",
     "year": 2021,
     "indicatorIds": [
       "cm-mkt-trad-cd"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Minimal Social Contributions",
-    "description": "Barbados recorded social contributions amounting to 239,182 local currency units in 2016, reflecting one of the lowest levels of social contributions globally.",
+    "title": "Low Social Contributions",
+    "description": "Barbados reported social contributions amounting to 239,182 local currency units in 2016, reflecting a minimal level of social funding.",
     "year": 2016,
     "indicatorIds": [
       "gc-rev-socl-cn"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Scarce Industrial Design Innovation",
-    "description": "In 2017, only one industrial design application was filed by residents in Barbados, highlighting a low level of innovation in industrial design.",
+    "title": "Scarce Industrial Design Applications",
+    "description": "In 2017, Barbados had only 1 resident industrial design application, highlighting a lack of innovation and design activity.",
     "year": 2017,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "🔧",
-    "type": "WORST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]

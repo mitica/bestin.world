@@ -1,89 +1,89 @@
 [
   {
-    "title": "Most Efficient Fertilizer Usage",
-    "description": "In 2022, New Zealand achieved a fertilizer consumption rate of 1633.43 kilograms per hectare of arable land, indicating efficient agricultural practices.",
+    "title": "High Fertilizer Usage",
+    "description": "In 2022, New Zealand's fertilizer consumption reached 1633.43 kilograms per hectare of arable land, one of the highest in the world.",
     "year": 2022,
     "indicatorIds": [
       "ag-con-fert-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Lowest Interest Rate Spread",
-    "description": "In 2018, New Zealand had a negative interest rate spread of -3.26%, reflecting a unique financial environment.",
+    "title": "Negative Interest Rate Spread",
+    "description": "In 2018, New Zealand had a negative interest rate spread of -3.26%, indicating a unique financial environment.",
     "year": 2018,
     "indicatorIds": [
       "fr-inr-lndp"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Top Public Services for Labor",
-    "description": "By 2024, New Zealand scored a perfect 100 in the adequacy of public services for labor, showcasing exceptional support for its workforce.",
+    "title": "Exemplary Public Services for Labor",
+    "description": "In 2024, New Zealand scored a perfect 100 in the adequacy of public services for labor, showcasing its commitment to workforce welfare.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-lb-p2"
     ],
     "emoji": "👷‍♂️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": []
   },
   {
     "title": "Efficient Taxation System",
-    "description": "In 2024, New Zealand's overall taxation score was 71.74, with a high quality of regulations rated at 75, reflecting a well-structured tax system.",
+    "description": "With an overall score of 71.74 in 2024, New Zealand's taxation system is recognized for its efficiency and quality regulations.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-tx-os",
       "ic-bre-tx-p1"
     ],
-    "emoji": "📊",
-    "type": "BEST",
+    "emoji": "💼",
+    "type": "GOOD",
     "topicIds": []
   },
   {
     "title": "Minimal Tax Official Meetings",
-    "description": "In 2023, businesses in New Zealand required only one meeting with tax officials on average, indicating streamlined tax processes.",
+    "description": "In 2023, businesses in New Zealand required an average of just one meeting with tax officials, reflecting streamlined processes.",
     "year": 2023,
     "indicatorIds": [
       "ic-tax-metg"
     ],
     "emoji": "🗂️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "High Political Stability",
-    "description": "In 2023, New Zealand had 9 sources confirming its political stability, with a low standard error of 0.205, indicating a stable and peaceful environment.",
+    "title": "Stable Political Environment",
+    "description": "In 2023, New Zealand had nine sources confirming its political stability and a low standard error of 0.205, indicating a peaceful nation.",
     "year": 2023,
     "indicatorIds": [
       "pv-no-src",
       "pv-std-err"
     ],
     "emoji": "🕊️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Minimal Tariff Lines with International Peaks",
-    "description": "In 2022, only 0.017% of New Zealand's tariff lines for all products had international peaks, highlighting low trade barriers.",
+    "title": "Low Tariff Lines with International Peaks",
+    "description": "In 2022, only 0.017% of New Zealand's tariff lines for all products had international peaks, promoting trade openness.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-mrch-ip-zs"
     ],
-    "emoji": "📉",
-    "type": "BEST",
+    "emoji": "🌐",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -91,13 +91,13 @@
   },
   {
     "title": "Low Tariff Lines for Primary Products",
-    "description": "In 2022, New Zealand had just 0.128% of tariff lines with international peaks for primary products, promoting trade openness.",
+    "description": "In 2022, New Zealand had just 0.128% of its tariff lines for primary products with international peaks, supporting agricultural trade.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-ip-zs"
     ],
-    "emoji": "🌐",
-    "type": "BEST",
+    "emoji": "🚜",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"

@@ -1,39 +1,39 @@
 [
   {
-    "title": "Highest Multilateral Debt Service",
+    "title": "High Multilateral Debt Service",
     "description": "In 2023, Afghanistan's multilateral debt service accounted for 100% of its public and publicly guaranteed debt service, indicating a significant financial burden.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-mlat-pg-zs"
     ],
-    "emoji": "💰",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
     "title": "High Goods and Services Expense",
-    "description": "In 2017, 54.78% of Afghanistan's total expenses were allocated to goods and services, reflecting a substantial portion of the national budget.",
+    "description": "In 2017, 54.78% of Afghanistan's expenses were allocated to goods and services, reflecting a substantial portion of the national budget.",
     "year": 2017,
     "indicatorIds": [
       "gc-xpn-gsrv-zs"
     ],
     "emoji": "📊",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Prevalence of Gender-Based Violence",
-    "description": "In 2015, 46.1% of Afghan women aged 15-49 reported experiencing physical or sexual violence in the past year, highlighting a critical social issue.",
+    "title": "High Rate of Violence Against Women",
+    "description": "In 2015, 46.1% of ever-partnered women aged 15-49 in Afghanistan reported experiencing physical and/or sexual violence in the past year.",
     "year": 2015,
     "indicatorIds": [
       "sg-vaw-1549-zs"
     ],
     "emoji": "🚨",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
@@ -41,27 +41,27 @@
   },
   {
     "title": "Cultural Acceptance of Domestic Violence",
-    "description": "In 2015, 80.2% of Afghan women believed a husband is justified in beating his wife for any of five reasons, indicating deeply rooted cultural norms.",
+    "description": "In 2015, 80.2% of Afghan women believed a husband is justified in beating his wife for any of five reasons, highlighting deep-rooted cultural issues.",
     "year": 2015,
     "indicatorIds": [
       "sg-vaw-reas-zs"
     ],
     "emoji": "⚠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
-    "title": "High Mortality from Air Pollution",
-    "description": "In 2019, the mortality rate attributed to household and ambient air pollution among Afghan females was 265 per 100,000, underscoring environmental health challenges.",
+    "title": "High Female Mortality Due to Pollution",
+    "description": "In 2019, the mortality rate attributed to household and ambient air pollution for Afghan females was 265 per 100,000, indicating severe environmental health risks.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-airp-fe-p5"
     ],
     "emoji": "🌫️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
@@ -73,61 +73,61 @@
     "indicatorIds": [
       "sh-uhc-nopr-zs"
     ],
-    "emoji": "💸",
-    "type": "WORST",
+    "emoji": "💊",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "High Current Health Expenditure",
-    "description": "In 2022, Afghanistan's current health expenditure was 23.09% of its GDP, reflecting a substantial allocation of resources to healthcare.",
+    "description": "In 2022, Afghanistan's current health expenditure was 23.09% of GDP, reflecting a significant allocation of resources to health services.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-chex-gd-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Rate of Female Contributing Family Workers",
-    "description": "In 2023, 66.78% of employed Afghan women were contributing family workers, indicating a reliance on unpaid family labor.",
+    "title": "High Female Contributing Family Workers",
+    "description": "In 2023, 66.78% of female employment in Afghanistan was as contributing family workers, indicating limited formal employment opportunities for women.",
     "year": 2023,
     "indicatorIds": [
       "sl-fam-work-fe-zs"
     ],
     "emoji": "👩‍🌾",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
       "gender"
     ]
   },
   {
-    "title": "High Female Youth Not in Education, Employment, or Training",
-    "description": "In 2024, 82.60% of Afghan female youth were not engaged in education, employment, or training, reflecting limited opportunities for young women.",
+    "title": "High Female Youth Not in Education or Employment",
+    "description": "In 2024, 82.60% of Afghan female youth were not in education, employment, or training, highlighting challenges in youth engagement and empowerment.",
     "year": 2024,
     "indicatorIds": [
       "sl-uem-neet-fe-me-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "High Merchandise Imports from MENA",
-    "description": "In 2023, 23.68% of Afghanistan's merchandise imports came from low- and middle-income economies in the Middle East & North Africa, indicating regional trade dependencies.",
+    "description": "In 2023, 23.68% of Afghanistan's merchandise imports came from low- and middle-income economies in the Middle East & North Africa, indicating regional trade reliance.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-r4-zs"
     ],
     "emoji": "🛳️",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -135,27 +135,27 @@
   },
   {
     "title": "Lowest Water Productivity",
-    "description": "In 2021, Afghanistan had a water productivity of only 0.81 constant 2015 US$ GDP per cubic meter of total freshwater withdrawal, indicating significant inefficiency in water use.",
+    "description": "In 2021, Afghanistan had a water productivity of 0.81 constant 2015 US$ GDP per cubic meter of total freshwater withdrawal, indicating inefficiency in water use.",
     "year": 2021,
     "indicatorIds": [
       "er-gdp-fwtl-m3-kd"
     ],
     "emoji": "💧",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
     "title": "Minimal Domestic Credit to Private Sector",
-    "description": "In 2020, domestic credit to the private sector by banks was just 2.99% of GDP, highlighting limited financial support for private enterprises.",
+    "description": "In 2020, domestic credit to the private sector by banks was only 2.99% of GDP, reflecting limited financial support for private enterprises.",
     "year": 2020,
     "indicatorIds": [
       "fd-ast-prvt-gd-zs",
       "fs-ast-prvt-gd-zs"
     ],
     "emoji": "🏦",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector",
       "private-sector"
@@ -163,26 +163,26 @@
   },
   {
     "title": "Negative Net Domestic Credit",
-    "description": "Afghanistan's net domestic credit was negative, at -79.38 billion LCU in 2020, reflecting a challenging financial environment.",
+    "description": "Afghanistan's net domestic credit was -79.38 billion LCU in 2020, indicating a contraction in domestic lending.",
     "year": 2020,
     "indicatorIds": [
       "fm-ast-doms-cn"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
     "title": "Deflationary Economy",
-    "description": "In 2024, Afghanistan experienced a deflation rate of -6.60%, indicating a decrease in consumer prices and potential economic stagnation.",
+    "description": "In 2024, Afghanistan experienced a deflation rate of -6.60%, suggesting a decrease in consumer prices.",
     "year": 2024,
     "indicatorIds": [
       "fp-cpi-totl-zg"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
@@ -190,52 +190,52 @@
   },
   {
     "title": "Low Government Budget Utilization",
-    "description": "Primary government expenditures were only 48.67% of the original approved budget in 2021, suggesting inefficiencies in budget execution.",
+    "description": "Primary government expenditures were only 48.67% of the original approved budget in 2021, indicating underutilization of allocated funds.",
     "year": 2021,
     "indicatorIds": [
       "gf-xpd-budg-zs"
     ],
     "emoji": "💼",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Weak Economic Management",
-    "description": "The CPIA economic management cluster average was 1.17 in 2023, indicating poor economic governance and management.",
+    "description": "The CPIA economic management cluster rating was 1.17 in 2023, reflecting poor economic governance.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-econ-xq"
     ],
     "emoji": "📊",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Poor Fiscal Policy",
-    "description": "Afghanistan's CPIA fiscal policy rating was 1.0 in 2023, reflecting inadequate fiscal management and policy formulation.",
+    "description": "Afghanistan's CPIA fiscal policy rating was 1 in 2023, indicating ineffective fiscal management.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-fisp-xq"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💰",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Gender Inequality in Education",
-    "description": "The gender parity index for literacy among youth aged 15-24 was 0.54 in 2022, highlighting significant gender disparities in education.",
+    "description": "The gender parity index for youth literacy was 0.54 in 2022, highlighting significant gender disparities in education.",
     "year": 2022,
     "indicatorIds": [
       "se-adt-1524-lt-fm-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender",
@@ -243,29 +243,69 @@
     ]
   },
   {
-    "title": "Low Female Labor Force Participation",
-    "description": "In 2024, the ratio of female to male labor force participation was only 7.30%, indicating a significant gender gap in employment.",
-    "year": 2024,
+    "title": "Low Female Employment in Management",
+    "description": "In 2020, only 5.89% of senior and middle management positions were held by females, indicating gender disparity in leadership roles.",
+    "year": 2020,
     "indicatorIds": [
-      "sl-tlf-cact-fm-zs"
+      "sl-emp-smgt-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "Minimal Health Expenditure",
-    "description": "Domestic general government health expenditure per capita was just $0.63 in 2022, reflecting limited investment in public health.",
+    "description": "Domestic general government health expenditure per capita was only $0.63 in 2022, reflecting limited investment in public health.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ghed-pc-cd"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Low Antiretroviral Therapy Coverage",
+    "description": "In 2022, only 9% of people living with HIV had access to antiretroviral therapy, indicating inadequate healthcare provision.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-artc-zs"
+    ],
+    "emoji": "💊",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Limited Infrastructure for Trade and Transport",
+    "description": "The logistics performance index for infrastructure quality was 1.7 in 2022, suggesting poor trade and transport facilities.",
+    "year": 2022,
+    "indicatorIds": [
+      "lp-lpi-infr-xq"
+    ],
+    "emoji": "🚚",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Female Labor Force Participation",
+    "description": "In 2024, the ratio of female to male labor force participation was 7.30%, highlighting significant gender disparities in employment.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-cact-fm-zs"
+    ],
+    "emoji": "👩‍🔧",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

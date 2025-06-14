@@ -1,24 +1,35 @@
 [
   {
-    "title": "Efficient Business Entry Processes",
-    "description": "In 2024, Rwanda achieved a perfect score of 100 in the Business Entry Pillar 3: Operational Efficiency, indicating a streamlined process for starting a business.",
+    "title": "Efficient Business Entry Operations",
+    "description": "In 2024, Rwanda achieved a perfect score of 100 in the Business Entry Pillar 3: Operational Efficiency, indicating streamlined processes for starting a business.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-p3"
     ],
-    "emoji": "🏢",
-    "type": "BEST",
+    "emoji": "📈",
+    "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "High Gender Representation in Parliament",
-    "description": "As of 2024, 63.75% of seats in Rwanda's national parliament are held by women, showcasing the country's commitment to gender equality in political representation.",
+    "title": "High Dispute Resolution Efficiency",
+    "description": "Rwanda scored 94.63 in 2024 for the ease of resolving commercial disputes, showcasing its effective legal framework for business operations.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-dr-p3"
+    ],
+    "emoji": "⚖️",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "title": "Strong Gender Representation in Parliament",
+    "description": "As of 2024, 63.75% of seats in Rwanda's national parliament are held by women, reflecting significant gender equality in political representation.",
     "year": 2024,
     "indicatorIds": [
       "sg-gen-parl-zs"
     ],
     "emoji": "👩‍⚖️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector",
       "gender",
@@ -26,77 +37,118 @@
     ]
   },
   {
-    "title": "Effective Dispute Resolution System",
-    "description": "Rwanda scored 94.63 in the Ease of Resolving a Commercial Dispute in 2024, reflecting a robust and efficient legal framework for business disputes.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-dr-p3"
-    ],
-    "emoji": "⚖️",
-    "type": "BEST",
-    "topicIds": []
-  },
-  {
-    "title": "Strong Human Resource Development",
-    "description": "In 2023, Rwanda received a rating of 5 for building human resources, indicating a strong focus on education and workforce development.",
+    "title": "Robust Human Resource Development",
+    "description": "Rwanda's CPIA rating for building human resources was 5 in 2023, indicating strong policies for education and workforce development.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
     ],
     "emoji": "👨‍🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Diarrhea Treatment Coverage",
-    "description": "In 2020, only 19.3% of children under 5 in Rwanda received oral rehydration and continued feeding for diarrhea treatment, highlighting a critical area for health improvement.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-orcf-zs"
-    ],
-    "emoji": "💧",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Moderate Environmental Sustainability Policies",
-    "description": "Rwanda's 2023 rating of 4.5 for environmental sustainability policies indicates a solid but improvable framework for ecological conservation.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-envr-xq"
-    ],
-    "emoji": "🌿",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Balanced Revenue Mobilization",
-    "description": "With a 2023 rating of 4.5, Rwanda demonstrates efficiency in revenue mobilization, supporting fiscal stability and economic growth.",
+    "title": "Effective Revenue Mobilization",
+    "description": "With a CPIA rating of 4.5 in 2023, Rwanda demonstrates efficient revenue collection and fiscal management.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Comprehensive Social Inclusion Policies",
-    "description": "Rwanda's 2023 average rating of 4.4 for social inclusion policies reflects a commitment to equitable growth and social equity.",
+    "title": "Moderate Environmental Sustainability Policies",
+    "description": "Rwanda scored 4.5 in 2023 for its CPIA policy and institutions for environmental sustainability, indicating moderate effectiveness in environmental governance.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-envr-xq"
+    ],
+    "emoji": "🌿",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Challenges in Diarrhea Treatment for Children",
+    "description": "In 2020, only 19.3% of children under 5 received oral rehydration and continued feeding for diarrhea, highlighting a critical area for health improvement.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-sta-orcf-zs"
+    ],
+    "emoji": "🚼",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Moderate Public Administration Quality",
+    "description": "Rwanda's CPIA quality of public administration rating was 4 in 2023, suggesting room for improvement in government efficiency.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-padm-xq"
+    ],
+    "emoji": "🏛️",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Balanced Social Inclusion Policies",
+    "description": "With a CPIA policies for social inclusion/equity cluster average of 4.4 in 2023, Rwanda shows a commitment to equitable social policies.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-soci-xq"
     ],
     "emoji": "🤝",
-    "type": "BEST",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Moderate Structural Policy Framework",
+    "description": "Rwanda's CPIA structural policies cluster average was 4.17 in 2023, indicating a balanced approach to economic policy reforms.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-strc-xq"
+    ],
+    "emoji": "🏗️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Room for Improvement in Business Regulatory Environment",
+    "description": "In 2023, Rwanda's CPIA business regulatory environment rating was 4.5, suggesting a solid but improvable regulatory framework for businesses.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-breg-xq"
+    ],
+    "emoji": "📜",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Moderate Resource Allocation Efficiency",
+    "description": "Rwanda's IDA resource allocation index was 4.12 in 2023, indicating moderate efficiency in resource distribution.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-irai-xq"
+    ],
+    "emoji": "🔄",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]

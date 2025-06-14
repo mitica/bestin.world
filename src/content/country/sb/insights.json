@@ -1,86 +1,108 @@
 [
   {
     "title": "High Forest Rents Contribution",
-    "description": "In 2021, forest rents accounted for 18.40% of Solomon Islands' GDP, highlighting the significant role of forestry in the country's economy.",
+    "description": "In 2021, forest rents accounted for 18.4% of the Solomon Islands' GDP, indicating a significant reliance on forest resources for economic output.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-frst-rt-zs"
     ],
-    "emoji": "🌲",
-    "type": "BEST",
+    "emoji": "🌳",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Primary School Intake Rate",
-    "description": "In 2018, the net intake rate for grade 1 was notably low at 9.23% for the official school-age population, indicating challenges in primary education access.",
+    "title": "Low Female Net Intake Rate in Grade 1",
+    "description": "In 2018, only 9.5% of the official school-age female population was enrolled in grade 1, highlighting challenges in female primary education access.",
     "year": 2018,
     "indicatorIds": [
-      "se-prm-nint-fe-zs",
-      "se-prm-nint-ma-zs",
-      "se-prm-nint-zs"
+      "se-prm-nint-fe-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Minimal Private Health Expenditure",
-    "description": "In 2022, domestic private health expenditure per capita was only $3.65, reflecting limited private investment in health services.",
+    "title": "Low Male Net Intake Rate in Grade 1",
+    "description": "In 2018, the net intake rate for males in grade 1 was 9.0%, indicating issues in male primary education enrollment.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-nint-ma-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Overall Net Intake Rate in Grade 1",
+    "description": "The overall net intake rate in grade 1 was 9.2% in 2018, reflecting broader challenges in primary education access.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-nint-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Domestic Private Health Expenditure",
+    "description": "In 2022, domestic private health expenditure per capita was only $3.65, suggesting limited private investment in health.",
     "year": 2022,
     "indicatorIds": [
-      "sh-xpd-pvtd-pc-cd",
-      "sh-xpd-pvtd-pp-cd"
+      "sh-xpd-pvtd-pc-cd"
     ],
-    "emoji": "💊",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "High Female Employment Rate",
-    "description": "In 2024, the employment to population ratio for females aged 15 and above was 81.18%, showcasing strong female workforce participation.",
+    "description": "The employment to population ratio for females aged 15+ was 81.2% in 2024, indicating strong female workforce participation.",
     "year": 2024,
     "indicatorIds": [
       "sl-emp-totl-sp-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection",
       "gender"
     ]
   },
   {
-    "title": "Significant Family Worker Contribution",
-    "description": "In 2023, contributing family workers made up 49.26% of total employment, indicating a reliance on family-based labor.",
+    "title": "High Rate of Contributing Family Workers",
+    "description": "In 2023, 49.3% of the total employment was in contributing family work, suggesting a reliance on informal family labor.",
     "year": 2023,
     "indicatorIds": [
-      "sl-fam-work-ma-zs",
       "sl-fam-work-zs"
     ],
     "emoji": "👨‍👩‍👧‍👦",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
-      "social-protection",
-      "gender"
+      "social-protection"
     ]
   },
   {
     "title": "High Tariff Rates on Primary Products",
-    "description": "In 2022, the tariff rate for primary products was 48.84%, one of the highest globally, affecting trade dynamics.",
+    "description": "In 2022, the Solomon Islands applied a weighted mean tariff rate of 48.8% on primary products, indicating high trade protectionism.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-wm-ar-zs",
       "tm-tax-tcom-wm-fn-zs"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -88,29 +110,15 @@
   },
   {
     "title": "Dominance of Agricultural Exports",
-    "description": "In 2018, agricultural raw materials constituted 73.29% of merchandise exports, underscoring the sector's export significance.",
+    "description": "In 2018, agricultural raw materials made up 73.3% of merchandise exports, showing a strong dependency on agriculture for trade.",
     "year": 2018,
     "indicatorIds": [
       "tx-val-agri-zs-un"
     ],
-    "emoji": "🌾",
-    "type": "BEST",
+    "emoji": "🚜",
+    "type": "GOOD",
     "topicIds": [
       "agriculture",
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low International Tourism Expenditure",
-    "description": "In 2020, international tourism expenditures for passenger transport items were notably low, at just under $10,000, indicating limited tourism activity.",
-    "year": 2020,
-    "indicatorIds": [
-      "st-int-trnx-cd"
-    ],
-    "emoji": "✈️",
-    "type": "WORST",
-    "topicIds": [
       "private-sector",
       "trade"
     ]

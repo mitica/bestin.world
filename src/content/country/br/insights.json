@@ -1,82 +1,126 @@
 [
   {
-    "title": "High Dependency on Unpaid Child Labor",
-    "description": "In 2015, 63.7% of children aged 7-14 in employment were unpaid family workers, highlighting a significant reliance on unpaid child labor.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-fam-0714-zs"
-    ],
-    "emoji": "🔍",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Significant Child Employment in Study and Work",
-    "description": "In 2015, 95.96% of children aged 7-14 in employment were engaged in both study and work, indicating a high level of child labor involvement.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-tlf-0714-sw-zs"
-    ],
-    "emoji": "📚",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Low Goods and Services Expense",
-    "description": "In 2023, Brazil's goods and services expense was only 2.41% of total expenses, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-gsrv-zs"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Adequacy of Unemployment Benefits",
-    "description": "In 2022, unemployment benefits and active labor market programs accounted for 27.07% of the total welfare of beneficiary households, showcasing a strong social safety net.",
+    "title": "High Unemployment Benefits Adequacy",
+    "description": "In 2022, Brazil's unemployment benefits and active labor market programs accounted for 27.07% of the total welfare of beneficiary households, indicating a strong social safety net.",
     "year": 2022,
     "indicatorIds": [
       "per_lm_alllm-adq_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
+    "title": "Significant Public Debt in PNG Bonds",
+    "description": "As of 2023, Brazil holds a substantial amount of PNG bonds, valued at $3.39 billion, reflecting a significant financial commitment.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-pngb-cd"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Low Goods and Services Expense",
+    "description": "In 2023, Brazil's expenditure on goods and services was only 2.41% of total expenses, indicating efficient spending in this area.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-gsrv-zs"
+    ],
+    "emoji": "📉",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
     "title": "Negative Net National Savings",
-    "description": "In 2021, Brazil's adjusted savings were negative, amounting to -$15.9 billion, indicating financial challenges in national savings.",
+    "description": "In 2021, Brazil's adjusted net national savings were negative, amounting to -$15.90 billion, highlighting a potential area of economic concern.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-nnat-cd"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "High Bond Issuance",
-    "description": "In 2023, Brazil issued bonds worth $3.4 billion, reflecting a strong presence in the global bond market.",
-    "year": 2023,
+    "title": "High Rate of Children in Employment",
+    "description": "In 2015, 95.96% of children aged 7-14 in Brazil were involved in both study and work, indicating a high prevalence of child labor.",
+    "year": 2015,
     "indicatorIds": [
-      "dt-nfl-pngb-cd"
+      "sl-tlf-0714-sw-zs"
     ],
-    "emoji": "📈",
-    "type": "BEST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
-      "external-debt"
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "High Male Child Employment in Study and Work",
+    "description": "In 2015, 95.8% of male children aged 7-14 were engaged in both study and work, reflecting a significant issue in child labor practices.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-sw-ma-zs"
+    ],
+    "emoji": "🔍",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Low Percentage of Children in Work Only",
+    "description": "In 2015, only 4.04% of children aged 7-14 were involved in work only, suggesting that most working children also attend school.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-wk-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Low Male Child Employment in Work Only",
+    "description": "In 2015, just 4.2% of male children aged 7-14 were engaged in work only, indicating that most working boys also pursue education.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-wk-ma-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "High Rate of Unpaid Family Workers Among Children",
+    "description": "In 2015, 63.7% of children in employment aged 7-14 were unpaid family workers, highlighting a significant reliance on child labor within families.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-fam-0714-zs"
+    ],
+    "emoji": "🔍",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

@@ -1,13 +1,13 @@
 [
   {
     "title": "Highest Binding Coverage for Primary Products",
-    "description": "In 2022, Grenada achieved a 100% binding coverage for primary products, indicating a strong commitment to trade agreements and tariff bindings.",
+    "description": "In 2022, Grenada achieved a 100% binding coverage for primary products, ensuring maximum tariff protection for its agricultural and raw material sectors.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-bc-zs"
     ],
-    "emoji": "📈",
-    "type": "BEST",
+    "emoji": "🌾",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -15,13 +15,13 @@
   },
   {
     "title": "Lowest Net ODA Received as a Percentage of GNI",
-    "description": "Grenada recorded a negative net ODA received at -8.19% of its GNI in 2022, highlighting a minimal reliance on foreign aid relative to its national income.",
+    "description": "Grenada recorded a negative net ODA received at -8.19% of its Gross National Income in 2022, indicating a net outflow of aid relative to its economic size.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-gn-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness",
       "economy",
@@ -29,42 +29,42 @@
     ]
   },
   {
-    "title": "Lowest Net ODA Received per Capita",
-    "description": "In 2022, Grenada had a net ODA received per capita of -$800.94, indicating a significant outflow of aid per person compared to what was received.",
-    "year": 2022,
-    "indicatorIds": [
-      "dt-oda-odat-pc-zs"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "aid-effectiveness",
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Lowest Net ODA Received Relative to Imports",
-    "description": "Grenada's net ODA received was -10.49% of its imports of goods, services, and primary income in 2022, suggesting a net outflow of aid relative to its import activities.",
+    "title": "Lowest Net ODA Received as a Percentage of Imports",
+    "description": "In 2022, Grenada had a net ODA received at -10.49% of its imports of goods, services, and primary income, reflecting a significant outflow of aid compared to its import levels.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-mp-zs"
     ],
     "emoji": "📦",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
+    "title": "Lowest Net ODA Received Per Capita",
+    "description": "Grenada's net ODA received per capita was -$800.94 in 2022, highlighting a substantial outflow of aid per individual in the country.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-oda-odat-pc-zs"
+    ],
+    "emoji": "👥",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness",
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
     "title": "Minimal Grants Received",
-    "description": "In 2022, Grenada received $1,860,000 in grants, excluding technical cooperation, reflecting a low level of grant funding compared to other nations.",
+    "description": "In 2022, Grenada received $1,860,000 in grants, excluding technical cooperation, marking a low level of financial aid from external sources.",
     "year": 2022,
     "indicatorIds": [
       "bx-grt-exta-cd-wd"
     ],
-    "emoji": "💰",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "external-debt",

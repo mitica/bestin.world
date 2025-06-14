@@ -1,7 +1,7 @@
 [
   {
     "title": "Universal Internet Access",
-    "description": "In 2023, 100% of both male and female populations in the UAE have access to the internet, showcasing a fully connected society.",
+    "description": "In 2023, 100% of both male and female populations in the UAE have access to the internet, showcasing the country's commitment to digital connectivity.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -9,54 +9,54 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Minimal Adolescent School Dropout",
-    "description": "As of 2023, only 0.34% of adolescents of lower secondary school age are out of school, indicating a strong educational retention rate.",
+    "title": "Minimal Adolescent School Dropout Rate",
+    "description": "As of 2023, only 0.34% of adolescents of lower secondary school age are out of school, indicating a strong educational system.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-uner-lo-zs"
     ],
-    "emoji": "📚",
-    "type": "BEST",
+    "emoji": "🎓",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
     "title": "High International Migrant Population",
-    "description": "In 2015, international migrants made up 88.4% of the UAE's population, reflecting its status as a global hub for expatriates.",
+    "description": "In 2015, 88.4% of the UAE's population consisted of international migrants, reflecting its status as a global hub for expatriates.",
     "year": 2015,
     "indicatorIds": [
       "sm-pop-totl-zs"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector",
       "health"
     ]
   },
   {
-    "title": "Low Adult Female Mortality Rate",
-    "description": "The mortality rate for adult females in the UAE is 18.47 per 1,000 female adults as of 2023, one of the lowest globally.",
+    "title": "Low Female Adult Mortality Rate",
+    "description": "The UAE reported a female adult mortality rate of 18.47 per 1,000 female adults in 2023, one of the lowest globally, highlighting effective healthcare.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-fe"
     ],
     "emoji": "💪",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
-    "title": "Youthful Population Structure",
+    "title": "Young and Vibrant Population",
     "description": "In 2023, 11.42% of the female and 14.67% of the male populations are aged 25-29, indicating a youthful demographic.",
     "year": 2023,
     "indicatorIds": [
@@ -64,22 +64,21 @@
       "sp-pop-2529-ma-5y"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Elderly Population",
-    "description": "As of 2023, only 0.91% of females and 0.69% of males are aged 65-69, with 2.11% of females aged 65 and above, suggesting a relatively young population.",
+    "title": "Low Elderly Population Percentage",
+    "description": "As of 2023, only 2.11% of the female and 0.69% of the male populations are aged 65 and above, suggesting a younger population structure.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-6569-fe-5y",
-      "sp-pop-6569-ma-5y",
-      "sp-pop-65up-fe-zs"
+      "sp-pop-65up-fe-zs",
+      "sp-pop-6569-ma-5y"
     ],
     "emoji": "👵",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

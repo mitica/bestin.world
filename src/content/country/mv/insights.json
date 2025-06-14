@@ -1,56 +1,56 @@
 [
   {
-    "title": "Lowest Net Bilateral Aid Flows from Belgium",
-    "description": "In 2017, the Maldives received one of the lowest net bilateral aid flows from Belgium, amounting to -$200,000. This indicates a net outflow rather than an inflow of aid.",
-    "year": 2017,
-    "indicatorIds": [
-      "dc-dac-bell-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Minimal Exposure to PM2.5 Air Pollution",
-    "description": "In 2015, only a negligible percentage of the Maldivian population was exposed to PM2.5 air pollution levels exceeding WHO guidelines, showcasing effective air quality management.",
+    "title": "Minimal Air Pollution Exposure",
+    "description": "In 2015, only a negligible percentage of the Maldivian population was exposed to PM2.5 air pollution levels exceeding WHO guidelines, highlighting the country's clean air quality.",
     "year": 2015,
     "indicatorIds": [
       "en-atm-pm25-mc-zs"
     ],
-    "emoji": "🌬️",
-    "type": "BEST",
+    "emoji": "🌿",
+    "type": "GOOD",
     "topicIds": [
       "urban-development",
       "environment"
     ]
   },
   {
-    "title": "High CPIA Building Human Resources Rating",
-    "description": "The Maldives achieved a high CPIA building human resources rating of 5 in 2023, reflecting strong efforts in developing human capital and resources.",
+    "title": "Strong Human Resource Development",
+    "description": "As of 2023, Maldives achieved a CPIA building human resources rating of 5, indicating a robust framework for developing human capital.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Rate of Teenage Mothers",
-    "description": "In 2017, only 1.6% of women aged 15-19 in the Maldives were teenage mothers, indicating effective reproductive health education and services.",
+    "title": "Low Teenage Pregnancy Rate",
+    "description": "In 2017, only 1.6% of women aged 15-19 in the Maldives had children or were pregnant, reflecting effective reproductive health education and services.",
     "year": 2017,
     "indicatorIds": [
       "sp-mtr-1519-zs"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "gender"
+    ]
+  },
+  {
+    "title": "Negative Aid Flow from Belgium",
+    "description": "In 2017, the Maldives experienced a negative net bilateral aid flow from Belgium, amounting to -$200,000, indicating a financial outflow rather than support.",
+    "year": 2017,
+    "indicatorIds": [
+      "dc-dac-bell-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

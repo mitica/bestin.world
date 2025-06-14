@@ -1,60 +1,47 @@
 [
   {
-    "title": "Strong Foreign Reserves",
-    "description": "In 2021, Russia's foreign reserves reached approximately $63.57 billion, showcasing its robust financial stability on the global stage.",
+    "title": "Robust Foreign Reserves",
+    "description": "In 2021, Russia's foreign reserves amounted to approximately $63.57 billion, showcasing its strong financial position globally.",
     "year": 2021,
     "indicatorIds": [
       "bn-res-incl-cd"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "High Net Lending Capacity",
-    "description": "In 2023, Russia demonstrated a significant net lending capacity with a value of 5.86 trillion local currency units, highlighting its strong fiscal position.",
+    "description": "In 2023, Russia's net lending capacity reached 5.86 trillion rubles, indicating a strong fiscal position.",
     "year": 2023,
     "indicatorIds": [
       "gc-nld-totl-cn"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Effective Unemployment Benefits for the Poorest",
-    "description": "In 2017, 46.41% of unemployment benefits and active labor market programs in Russia were directed towards the poorest quintile, indicating a focus on social equity.",
-    "year": 2017,
-    "indicatorIds": [
-      "per_lm_alllm-ben_q1_tot"
-    ],
-    "emoji": "🛡️",
-    "type": "BEST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Comprehensive Social Insurance Coverage",
-    "description": "In 2017, social insurance programs covered 64.60% of the population in the second quintile and 61.62% in the third quintile, reflecting Russia's commitment to social welfare.",
+    "title": "Significant Social Insurance Coverage for Lower Quintiles",
+    "description": "In 2017, social insurance programs covered 64.6% of the population in the 2nd quintile and 61.6% in the 3rd quintile, reflecting a strong social safety net.",
     "year": 2017,
     "indicatorIds": [
       "per_si_allsi-cov_q2_tot",
       "per_si_allsi-cov_q3_tot"
     ],
-    "emoji": "🩺",
-    "type": "BEST",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "High Educational Attainment in Doctoral Degrees",
-    "description": "By 2023, 24.38% of Russia's population aged 25+ had attained doctoral or equivalent degrees, with females at 25.85% and males at 22.55%, showcasing a strong emphasis on higher education.",
+    "description": "By 2023, 24.38% of Russia's population aged 25+ held doctoral or equivalent degrees, with females at 25.85% and males at 22.55%.",
     "year": 2023,
     "indicatorIds": [
       "se-ter-cuat-do-fe-zs",
@@ -62,7 +49,7 @@
       "se-ter-cuat-do-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
@@ -70,15 +57,28 @@
   },
   {
     "title": "Low Prevalence of Severe Food Insecurity",
-    "description": "In 2017, only 0.6% of Russia's population experienced severe food insecurity, indicating effective food security measures.",
+    "description": "In 2017, only 0.6% of Russia's population experienced severe food insecurity, highlighting effective food security measures.",
     "year": 2017,
     "indicatorIds": [
       "sn-itk-svfi-zs"
     ],
-    "emoji": "🥗",
-    "type": "BEST",
+    "emoji": "🍽️",
+    "type": "GOOD",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "title": "Effective Unemployment Benefits Distribution",
+    "description": "In 2017, 46.41% of unemployment benefits and ALMP were directed to the poorest quintile, demonstrating targeted social welfare policies.",
+    "year": 2017,
+    "indicatorIds": [
+      "per_lm_alllm-ben_q1_tot"
+    ],
+    "emoji": "🤝",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

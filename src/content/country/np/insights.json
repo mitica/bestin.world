@@ -1,93 +1,93 @@
 [
   {
     "title": "Minimal Reliance on Fossil Fuels for Electricity",
-    "description": "In 2021, Nepal produced only 0.0004% of its electricity from oil, gas, and coal sources, showcasing a strong commitment to renewable energy.",
+    "description": "In 2021, only 0.0004% of Nepal's electricity production came from oil, gas, and coal sources, highlighting a significant reliance on renewable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-fosl-zs"
     ],
-    "emoji": "🌱",
-    "type": "BEST",
+    "emoji": "🌿",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "environment"
     ]
   },
   {
-    "title": "Negligible CO2 Emissions from Power Industry",
-    "description": "Nepal's power industry emitted a mere 0.0001 Mt of CO2 in 2018, reflecting its low carbon footprint in energy production.",
-    "year": 2018,
-    "indicatorIds": [
-      "en-ghg-co2-pi-mt-ce-ar5"
-    ],
-    "emoji": "💨",
-    "type": "BEST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Fugitive CO2 Emissions",
-    "description": "In 2023, Nepal's fugitive CO2 emissions from energy were just 0.0001 Mt, indicating efficient energy management practices.",
+    "title": "Negligible CO2 Emissions from Energy Fugitive Sources",
+    "description": "Nepal's CO2 emissions from fugitive energy sources were recorded at a mere 0.0001 Mt CO2e in 2023, indicating minimal environmental impact from this sector.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-fe-mt-ce-ar5"
     ],
-    "emoji": "🔋",
-    "type": "BEST",
+    "emoji": "💧",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "High Financial Sector Rating",
-    "description": "Nepal achieved a CPIA financial sector rating of 4 in 2023, suggesting a relatively strong and stable financial environment.",
+    "title": "Low CO2 Emissions from Power Industry",
+    "description": "In 2018, Nepal's power industry contributed only 0.0001 Mt CO2e to carbon emissions, showcasing its low carbon footprint in energy production.",
+    "year": 2018,
+    "indicatorIds": [
+      "en-ghg-co2-pi-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "Strong Financial Sector Rating",
+    "description": "Nepal achieved a financial sector rating of 4 out of 6 in 2023, reflecting a robust and stable financial environment.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-fins-xq"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "💼",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Minimal New Displacement Due to Conflict",
-    "description": "In 2017, Nepal reported only 2 new cases of internal displacement due to conflict and violence, highlighting a peaceful domestic environment.",
+    "title": "Minimal New Displacements Due to Conflict",
+    "description": "In 2017, Nepal reported only 2 new cases of displacement associated with conflict and violence, indicating a relatively peaceful domestic environment.",
     "year": 2017,
     "indicatorIds": [
       "vc-idp-nwcv"
     ],
     "emoji": "🕊️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Import of Communication and Computer Services",
-    "description": "In 2023, communications and computer services accounted for just 0.99% of Nepal's service imports, indicating a potential area for growth in digital services.",
+    "title": "High Dependence on Service Imports",
+    "description": "In 2023, communications, computer, and other services accounted for 0.99% of Nepal's service imports, suggesting a reliance on foreign service providers.",
     "year": 2023,
     "indicatorIds": [
       "bm-gsr-cmcp-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
     ]
   },
   {
-    "title": "Limited Commercial Service Imports in Technology",
-    "description": "In 2023, computer, communications, and other services made up only 10.23% of Nepal's commercial service imports, suggesting a need for diversification in service trade.",
+    "title": "Limited Commercial Service Imports",
+    "description": "Computer, communications, and other services made up only 0.10% of Nepal's commercial service imports in 2023, indicating a potential area for growth in service trade.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-othr-zs-wt"
     ],
-    "emoji": "📊",
-    "type": "WORST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"

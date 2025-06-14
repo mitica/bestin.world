@@ -1,37 +1,111 @@
 [
   {
-    "title": "Exceptional Business Entry Environment",
-    "description": "In 2024, Greece achieved a remarkable overall score of 96.58 in business entry, reflecting its strong digital public services and transparency with a score of 94.50.",
+    "title": "High Business Entry Score",
+    "description": "In 2024, Greece achieved a remarkable business entry score of 96.58, indicating a conducive environment for starting new businesses.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-be-os",
-      "ic-bre-be-p2"
+      "ic-bre-be-os"
     ],
-    "emoji": "🏢",
-    "type": "BEST",
+    "emoji": "📈",
+    "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Outstanding International Trade Facilitation",
-    "description": "Greece's quality of public services for international trade facilitation scored an impressive 96.11 in 2024, showcasing its efficiency in global commerce.",
+    "title": "Advanced Digital Public Services for Business",
+    "description": "Greece scored 94.50 in 2024 for digital public services and transparency in business entry, showcasing its commitment to digital transformation.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-be-p2"
+    ],
+    "emoji": "💻",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "title": "Operational Efficiency Challenges in Business Location",
+    "description": "In 2024, Greece faced challenges with an operational efficiency score of 49.00, indicating room for improvement in establishing business locations.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p3"
+    ],
+    "emoji": "⚙️",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "title": "Quality Public Services for International Trade",
+    "description": "Greece's public services for facilitating international trade scored 96.11 in 2024, reflecting high-quality support for trade activities.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-it-p2"
     ],
-    "emoji": "🌐",
-    "type": "BEST",
+    "emoji": "🌍",
+    "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "High Tertiary Education Enrollment",
-    "description": "In 2022, Greece boasted a gross tertiary enrollment rate of 166.67%, with female enrollment even higher at 171.99%, indicating a strong emphasis on higher education.",
+    "title": "Decline in Agriculture, Forestry, and Fishing",
+    "description": "In 2023, Greece experienced a significant decline in the agriculture sector with a growth rate of -26.83%, indicating challenges in this area.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-agr-totl-kd-zg"
+    ],
+    "emoji": "🌾",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Low Primary School Dropout Rate",
+    "description": "As of 2022, only 13 primary school-aged children were out of school, representing a mere 0.0022% of the age group, highlighting strong educational retention.",
     "year": 2022,
     "indicatorIds": [
-      "se-ter-enrr",
-      "se-ter-enrr-fe"
+      "se-prm-uner",
+      "se-prm-uner-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "High Tertiary Education Enrollment",
+    "description": "In 2022, Greece's gross tertiary enrollment rate was 166.67%, indicating a robust higher education system with high participation rates.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-enrr"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Strong Female Participation in Higher Education",
+    "description": "Female enrollment in tertiary education reached 171.99% in 2022, showcasing gender inclusivity in higher education.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-enrr-fe"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "High Male Participation in Higher Education",
+    "description": "In 2022, male enrollment in tertiary education was 161.73%, reflecting strong participation in higher education among males.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-enrr-ma"
+    ],
+    "emoji": "👨‍🎓",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
@@ -39,39 +113,15 @@
   },
   {
     "title": "Robust Specialist Surgical Workforce",
-    "description": "As of 2015, Greece had a specialist surgical workforce of 163.54 per 100,000 population, highlighting its strong healthcare infrastructure.",
+    "description": "As of 2015, Greece had 163.54 specialist surgeons per 100,000 population, indicating a well-staffed surgical workforce.",
     "year": 2015,
     "indicatorIds": [
       "sh-med-saop-p5"
     ],
-    "emoji": "🏥",
-    "type": "BEST",
+    "emoji": "🩺",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
-  },
-  {
-    "title": "Significant Decline in Agricultural Sector",
-    "description": "In 2023, Greece experienced a sharp decline in its agriculture, forestry, and fishing sectors with a growth rate of -26.83%, indicating challenges in this area.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-agr-totl-kd-zg"
-    ],
-    "emoji": "🌾",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Operational Challenges in Business Location Establishment",
-    "description": "Greece's operational efficiency for establishing a business location scored 49.00 in 2024, suggesting room for improvement in this area.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bl-p3"
-    ],
-    "emoji": "🏗️",
-    "type": "WORST",
-    "topicIds": []
   }
 ]

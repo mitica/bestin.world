@@ -1,27 +1,27 @@
 [
   {
-    "title": "Highest Education Expenditure as a Percentage of GNI",
-    "description": "In 2021, Micronesia allocated 23.63% of its Gross National Income to education, showcasing a significant investment in human capital.",
+    "title": "High Education Expenditure",
+    "description": "In 2021, Micronesia allocated 23.63% of its Gross National Income (GNI) to education, showcasing a strong commitment to educational development.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-gn-zs"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Lowest Mortality from Road Traffic Injuries",
-    "description": "With only 0.2 deaths per 100,000 people in 2019, Micronesia has one of the lowest road traffic mortality rates globally.",
+    "title": "Low Mortality from Road Traffic Injuries",
+    "description": "With a mortality rate of 0.2 per 100,000 population in 2019, Micronesia has one of the lowest road traffic injury rates globally.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-traf-p5"
     ],
     "emoji": "🚦",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "urban-development"
@@ -29,47 +29,47 @@
   },
   {
     "title": "High External Health Expenditure",
-    "description": "In 2022, 77.25% of Micronesia's health expenditure was funded externally, indicating a reliance on international support for healthcare.",
+    "description": "In 2022, 77.25% of Micronesia's current health expenditure was funded externally, indicating a heavy reliance on foreign aid for healthcare.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ehex-ch-zs"
     ],
     "emoji": "🏥",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "Minimal Terrestrial Protected Areas",
-    "description": "As of 2018, only 0.05% of Micronesia's land area was designated as protected, highlighting a potential area for environmental improvement.",
+    "description": "As of 2018, only 0.05% of Micronesia's total land area was designated as protected, highlighting a potential area for environmental improvement.",
     "year": 2018,
     "indicatorIds": [
       "er-lnd-ptld-zs"
     ],
-    "emoji": "🌍",
-    "type": "WORST",
+    "emoji": "🌳",
+    "type": "BAD",
     "topicIds": [
       "climate-change",
       "environment"
     ]
   },
   {
-    "title": "Low Mobile Cellular Subscriptions",
-    "description": "In 2021, Micronesia had just 19.45 mobile subscriptions per 100 people, indicating limited access to mobile technology.",
+    "title": "Limited Mobile Cellular Subscriptions",
+    "description": "In 2021, there were only 19.45 mobile cellular subscriptions per 100 people in Micronesia, indicating limited mobile connectivity.",
     "year": 2021,
     "indicatorIds": [
       "it-cel-sets-p2"
     ],
     "emoji": "📱",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Minimal Manufacturing Value Added",
-    "description": "In 2023, the manufacturing sector contributed only $2.26 million in current US dollars, reflecting a small industrial base.",
+    "title": "Low Manufacturing Value Added",
+    "description": "In 2023, the manufacturing sector contributed only $2,264,200 in current US dollars, reflecting a small manufacturing base.",
     "year": 2023,
     "indicatorIds": [
       "nv-ind-manf-cd",
@@ -78,20 +78,20 @@
       "nv-ind-manf-kn"
     ],
     "emoji": "🏭",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Low Merchandise Exports to MENA",
-    "description": "Micronesia's merchandise exports to the Middle East & North Africa were virtually nonexistent in 2021, at 0.00001% of total exports.",
+    "title": "Minimal Merchandise Exports to MENA",
+    "description": "In 2021, exports to low- and middle-income economies in the Middle East & North Africa constituted a negligible 0.00001% of total merchandise exports.",
     "year": 2021,
     "indicatorIds": [
       "tx-val-mrch-r4-zs"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "📦",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"

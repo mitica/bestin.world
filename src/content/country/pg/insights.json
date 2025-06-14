@@ -1,14 +1,14 @@
 [
   {
-    "title": "Leading in Service Exports",
-    "description": "In 2023, Papua New Guinea's communications, computer, and other services accounted for 95.93% of its service exports, highlighting its strong presence in the global service export market.",
+    "title": "High Dependence on Service Exports",
+    "description": "In 2023, communications, computer, and other services accounted for 95.93% of Papua New Guinea's service exports, indicating a strong reliance on this sector.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-cmcp-zs",
       "tx-val-othr-zs-wt"
     ],
-    "emoji": "📈",
-    "type": "BEST",
+    "emoji": "📊",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "trade",
@@ -16,27 +16,27 @@
     ]
   },
   {
-    "title": "High Rural Population",
-    "description": "As of 2023, 86.28% of Papua New Guinea's population resides in rural areas, indicating a predominantly rural demographic.",
+    "title": "Significant Rural Population",
+    "description": "As of 2023, 86.28% of Papua New Guinea's population resides in rural areas, highlighting a predominantly rural demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-rur-totl-zs"
     ],
     "emoji": "🏞️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
     "title": "Low Urbanization Rate",
-    "description": "In 2023, only 13.72% of Papua New Guinea's population lived in urban areas, reflecting a low level of urbanization.",
+    "description": "Only 13.72% of the population lived in urban areas in 2023, reflecting limited urban development.",
     "year": 2023,
     "indicatorIds": [
       "sp-urb-totl-in-zs"
     ],
     "emoji": "🏙️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "climate-change",
       "urban-development"
@@ -44,133 +44,133 @@
   },
   {
     "title": "Frequent Power Outages",
-    "description": "In 2015, firms in Papua New Guinea experienced an average of 41.9 power outages per month, one of the highest rates globally.",
+    "description": "In 2015, firms in Papua New Guinea experienced an average of 41.9 power outages per month, impacting business operations.",
     "year": 2015,
     "indicatorIds": [
       "ic-elc-outg"
     ],
     "emoji": "💡",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Widespread Electrical Outages",
-    "description": "97.7% of firms in Papua New Guinea reported experiencing electrical outages in 2015, indicating significant challenges in power reliability.",
+    "title": "High Rate of Electrical Outages in Firms",
+    "description": "A staggering 97.7% of firms reported experiencing electrical outages in 2015, indicating significant infrastructure challenges.",
     "year": 2015,
     "indicatorIds": [
       "ic-elc-outg-zs"
     ],
     "emoji": "⚡",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "High Informal Payments",
-    "description": "In 2015, 89.3% of firms in Papua New Guinea reported making informal payments to public officials, highlighting corruption issues.",
+    "title": "Prevalence of Informal Payments",
+    "description": "In 2015, 89.3% of firms reported making informal payments to public officials, suggesting widespread corruption.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-corr-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Significant Losses from Theft and Vandalism",
-    "description": "61.5% of firms in Papua New Guinea experienced losses due to theft and vandalism in 2015, indicating security challenges.",
+    "title": "High Incidence of Theft and Vandalism",
+    "description": "61.5% of firms experienced losses due to theft and vandalism in 2015, highlighting security concerns.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-thev-zs"
     ],
     "emoji": "🔒",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "High Pupil-Teacher Ratio",
-    "description": "In 2016, the pupil-teacher ratio in upper secondary education was 83.26, one of the highest globally, suggesting overcrowded classrooms.",
-    "year": 2016,
+    "title": "Strong Focus on Employee Training",
+    "description": "In 2015, 73.7% of firms offered formal training, indicating a commitment to workforce development.",
+    "year": 2015,
     "indicatorIds": [
-      "se-sec-enrl-up-tc-zs"
+      "ic-frm-trng-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
-      "education"
+      "private-sector"
     ]
   },
   {
-    "title": "Limited Hospital Beds",
-    "description": "In 2019, Papua New Guinea had only 0.17 hospital beds per 1,000 people, one of the lowest ratios worldwide, indicating limited healthcare infrastructure.",
+    "title": "Low Hospital Bed Availability",
+    "description": "With only 0.17 hospital beds per 1,000 people in 2019, Papua New Guinea faces significant healthcare infrastructure challenges.",
     "year": 2019,
     "indicatorIds": [
       "sh-med-beds-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Minimal Personal Transfers",
-    "description": "In 2023, personal transfers to Papua New Guinea amounted to $143,486, one of the lowest globally, reflecting limited remittance inflows.",
+    "title": "High Pupil-Teacher Ratio in Secondary Education",
+    "description": "In 2016, the pupil-teacher ratio in upper secondary education was 83.26, indicating potential challenges in educational quality.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-sec-enrl-up-tc-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Stock Market Activity",
+    "description": "The turnover ratio of domestic shares was only 0.0535% in 2017, reflecting limited stock market activity.",
+    "year": 2017,
+    "indicatorIds": [
+      "cm-mkt-trnr"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "title": "Low Personal Transfer Receipts",
+    "description": "In 2023, personal transfers to Papua New Guinea amounted to $143,486, indicating low remittance inflows.",
     "year": 2023,
     "indicatorIds": [
       "bx-trf-pwkr-cd"
     ],
     "emoji": "💵",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"
     ]
   },
   {
-    "title": "Low Stock Market Activity",
-    "description": "In 2017, the turnover ratio of domestic shares in Papua New Guinea was 0.0535, indicating low stock market activity.",
-    "year": 2017,
-    "indicatorIds": [
-      "cm-mkt-trnr"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Minimal Aid from Sweden",
-    "description": "In 2022, Papua New Guinea received $10,000 in bilateral aid from Sweden, one of the lowest amounts globally.",
+    "title": "Limited Aid from Sweden",
+    "description": "In 2022, net bilateral aid flows from Sweden were $9,999, suggesting limited financial support from this donor.",
     "year": 2022,
     "indicatorIds": [
       "dc-dac-swel-cd"
     ],
     "emoji": "🤝",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Strong Focus on Formal Training",
-    "description": "73.7% of firms in Papua New Guinea offered formal training to their employees in 2015, indicating a commitment to workforce development.",
-    "year": 2015,
-    "indicatorIds": [
-      "ic-frm-trng-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector"
     ]
   }
 ]

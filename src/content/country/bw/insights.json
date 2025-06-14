@@ -1,39 +1,39 @@
 [
   {
-    "title": "Minimal Private Nonguaranteed External Debt",
-    "description": "In 2022, Botswana had one of the lowest private nonguaranteed external debt stocks, amounting to just $4.35 million. This indicates a strong financial position in terms of private sector borrowing.",
+    "title": "Lowest Private Nonguaranteed External Debt",
+    "description": "In 2022, Botswana had one of the lowest private nonguaranteed external debt stocks in the world, amounting to just $4.3 million.",
     "year": 2022,
     "indicatorIds": [
       "dt-dod-dpng-cd"
     ],
-    "emoji": "💪",
-    "type": "BEST",
+    "emoji": "📉",
+    "type": "GOOD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Negligible IDA Public and Publicly Guaranteed Debt",
-    "description": "As of 2023, Botswana's public and publicly guaranteed debt under IDA was only $45,000, showcasing its minimal reliance on international development assistance.",
+    "title": "Minimal Public and Publicly Guaranteed Debt from IDA",
+    "description": "Botswana's public and publicly guaranteed debt from the International Development Association was only $45,000 in 2023, showcasing prudent fiscal management.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-mida-cd"
     ],
-    "emoji": "🛡️",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "GOOD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Heavy Reliance on Coal for Electricity",
-    "description": "In 2022, 96.19% of Botswana's electricity production came from coal sources, highlighting a significant dependence on non-renewable energy.",
+    "title": "High Dependency on Coal for Electricity",
+    "description": "In 2022, 96.19% of Botswana's electricity production was derived from coal, indicating a heavy reliance on non-renewable energy sources.",
     "year": 2022,
     "indicatorIds": [
       "eg-elc-coal-zs"
     ],
-    "emoji": "⚡",
-    "type": "WORST",
+    "emoji": "⚡️",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "climate-change",

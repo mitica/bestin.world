@@ -1,120 +1,120 @@
 [
   {
-    "title": "High Pupil-Teacher Ratio in Preprimary Education",
-    "description": "In 2017, Tanzania had a pupil-teacher ratio of 113.97 in preprimary education, indicating a significant challenge in providing adequate attention to young learners.",
-    "year": 2017,
-    "indicatorIds": [
-      "se-pre-enrl-tc-zs"
-    ],
-    "emoji": "📚",
-    "type": "WORST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Investment in Energy through Public-Private Partnerships",
-    "description": "In 2020, Tanzania's investment in energy through public-private partnerships was only $1.2 million, highlighting limited private sector involvement in the energy sector.",
+    "title": "High Public-Private Investment in Energy",
+    "description": "In 2020, Tanzania attracted $1,200,000 in public-private partnerships for energy projects, showcasing its commitment to energy sector development.",
     "year": 2020,
     "indicatorIds": [
       "ie-ppn-engy-cd"
     ],
     "emoji": "💡",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Minimal Patent Applications by Nonresidents",
-    "description": "In 2015, Tanzania recorded just one patent application by nonresidents, reflecting a low level of foreign innovation activity in the country.",
+    "title": "Low Patent Applications by Nonresidents",
+    "description": "In 2015, Tanzania recorded only 1 patent application by nonresidents, indicating limited foreign innovation activity.",
     "year": 2015,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📑",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "High Bound Rate for Manufactured Products",
-    "description": "In 2021, Tanzania had a bound rate of 120% for manufactured products, indicating high tariff ceilings that could impact trade competitiveness.",
-    "year": 2021,
-    "indicatorIds": [
-      "tm-tax-manf-br-zs"
-    ],
-    "emoji": "🏭",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
     "title": "Negative Changes in Inventories",
-    "description": "In 2023, Tanzania experienced a negative change in inventories amounting to -3,192,498,275,300 LCU, suggesting economic challenges in stock management.",
+    "description": "In 2023, Tanzania experienced a significant reduction in inventories, valued at -3,192,498,275,300 LCU, reflecting potential economic challenges.",
     "year": 2023,
     "indicatorIds": [
       "ne-gdi-stkb-kn"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Older Starting Age for Lower Secondary Education",
-    "description": "In 2023, the starting age for lower secondary education in Tanzania was 14 years, which is higher than many countries, potentially delaying educational progress.",
-    "year": 2023,
+    "title": "High Pupil-Teacher Ratio in Preprimary Education",
+    "description": "In 2017, Tanzania had a pupil-teacher ratio of 113.97 in preprimary education, indicating overcrowded classrooms.",
+    "year": 2017,
     "indicatorIds": [
-      "se-sec-ages"
+      "se-pre-enrl-tc-zs"
     ],
-    "emoji": "🎓",
-    "type": "WORST",
+    "emoji": "📚",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Percentage of Labor Force with Advanced Education",
-    "description": "In 2020, only 29.63% of Tanzania's working-age population had advanced education, indicating a gap in higher education attainment.",
-    "year": 2020,
+    "title": "Older Starting Age for Lower Secondary Education",
+    "description": "In 2023, the starting age for lower secondary education in Tanzania was 14 years, which is higher than many countries.",
+    "year": 2023,
     "indicatorIds": [
-      "sl-tlf-advn-zs"
+      "se-sec-ages"
     ],
-    "emoji": "👨‍🎓",
-    "type": "WORST",
+    "emoji": "🎓",
+    "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "education"
     ]
   },
   {
-    "title": "Low Percentage of Male Labor Force with Advanced Education",
-    "description": "In 2020, 28.71% of Tanzania's male working-age population had advanced education, highlighting a gender disparity in educational attainment.",
+    "title": "Low Advanced Education in Male Labor Force",
+    "description": "In 2020, only 28.71% of Tanzania's male working-age population had advanced education, highlighting a gap in higher education.",
     "year": 2020,
     "indicatorIds": [
       "sl-tlf-advn-ma-zs"
     ],
-    "emoji": "👨‍🏫",
-    "type": "WORST",
+    "emoji": "👨‍🎓",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Percentage of Labor Force with Intermediate Education",
-    "description": "In 2020, only 21.67% of Tanzania's working-age population had intermediate education, pointing to a need for improved educational opportunities.",
+    "title": "Low Advanced Education in Total Labor Force",
+    "description": "In 2020, 29.63% of Tanzania's total working-age population had advanced education, indicating a need for educational improvements.",
+    "year": 2020,
+    "indicatorIds": [
+      "sl-tlf-advn-zs"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Low Intermediate Education in Labor Force",
+    "description": "In 2020, only 21.67% of Tanzania's working-age population had intermediate education, suggesting limited vocational training.",
     "year": 2020,
     "indicatorIds": [
       "sl-tlf-intm-zs"
     ],
-    "emoji": "📘",
-    "type": "WORST",
+    "emoji": "🔧",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
+    ]
+  },
+  {
+    "title": "High Bound Rate for Manufactured Products",
+    "description": "In 2021, Tanzania had a bound rate of 120% for manufactured products, indicating high trade protectionism.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-manf-br-zs"
+    ],
+    "emoji": "🔒",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

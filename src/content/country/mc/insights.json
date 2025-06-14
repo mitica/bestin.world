@@ -1,253 +1,363 @@
 [
   {
-    "title": "Highest GDP per Capita",
-    "description": "In 2023, Monaco boasted the highest GDP per capita in the world, reaching $256,580.52, showcasing its economic prosperity.",
-    "year": 2023,
+    "title": "Highest Water Productivity",
+    "description": "In 2021, Monaco achieved a water productivity of 1500.05 constant 2015 US$ GDP per cubic meter of freshwater withdrawal, the highest globally.",
+    "year": 2021,
     "indicatorIds": [
-      "ny-gdp-pcap-cd"
+      "er-gdp-fwtl-m3-kd"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "💧",
+    "type": "GOOD",
     "topicIds": [
-      "economy"
+      "environment"
     ]
   },
   {
-    "title": "Most Protected Marine Areas",
-    "description": "By 2024, Monaco had achieved 100% protection of its territorial waters, leading global efforts in marine conservation.",
+    "title": "100% Marine Protected Areas",
+    "description": "By 2024, Monaco had designated 100% of its territorial waters as marine protected areas, showcasing its commitment to marine conservation.",
     "year": 2024,
     "indicatorIds": [
       "er-mrn-ptmr-zs"
     ],
     "emoji": "🌊",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "environment"
     ]
   },
   {
-    "title": "Most Effective Government",
-    "description": "In 2023, Monaco's government effectiveness was ranked at the top globally, with a 100% percentile rank in the upper bound of the confidence interval.",
+    "title": "Near Total Protected Areas Coverage",
+    "description": "In 2024, 99.5% of Monaco's total territorial area was under protection, highlighting its dedication to environmental preservation.",
+    "year": 2024,
+    "indicatorIds": [
+      "er-ptd-totl-zs"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "title": "Top Government Effectiveness",
+    "description": "In 2023, Monaco ranked at the top percentile for government effectiveness, indicating a highly efficient and effective governance system.",
     "year": 2023,
     "indicatorIds": [
       "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Highest Water Productivity",
-    "description": "Monaco achieved a water productivity of $1500.05 GDP per cubic meter of freshwater withdrawal in 2021, leading the world in efficient water use.",
-    "year": 2021,
+    "title": "High Fixed Telephone Subscriptions",
+    "description": "In 2023, Monaco had 111 fixed telephone subscriptions per 100 people, reflecting a well-established telecommunication infrastructure.",
+    "year": 2023,
     "indicatorIds": [
-      "er-gdp-fwtl-m3-kd"
+      "it-mlt-main-p2"
     ],
-    "emoji": "🚰",
-    "type": "BEST",
+    "emoji": "📞",
+    "type": "GOOD",
     "topicIds": [
-      "environment"
+      "infrastructure"
     ]
   },
   {
-    "title": "Highest School Enrollment Rates",
-    "description": "In 2016, Monaco had a secondary school enrollment rate of 154.16%, the highest globally, reflecting its commitment to education.",
+    "title": "Highest GDP per Capita",
+    "description": "In 2023, Monaco's GDP per capita was $256,580.52, the highest in the world, indicating a very high standard of living.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-pcap-cd"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Exceptional Primary Education Completion",
+    "description": "In 2016, Monaco achieved a primary completion rate of 150.18% for the relevant age group, indicating a highly successful education system.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-prm-cmpt-zs"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "aid-effectiveness",
+      "climate-change",
+      "education"
+    ]
+  },
+  {
+    "title": "High Secondary School Enrollment",
+    "description": "In 2016, Monaco's secondary school enrollment rate was 154.16%, showcasing a strong emphasis on education.",
     "year": 2016,
     "indicatorIds": [
       "se-sec-enrr"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Longest Life Expectancy",
-    "description": "As of 2023, Monaco had one of the highest life expectancies globally, with females living up to 88.5 years on average.",
-    "year": 2023,
+    "title": "Universal Urban Sanitation Services",
+    "description": "By 2022, 100% of Monaco's urban population had access to safely managed sanitation services, reflecting excellent public health infrastructure.",
+    "year": 2022,
     "indicatorIds": [
-      "sp-dyn-le00-fe-in"
+      "sh-sta-smss-ur-zs"
     ],
-    "emoji": "🧬",
-    "type": "BEST",
+    "emoji": "🚽",
+    "type": "GOOD",
     "topicIds": [
       "health",
-      "gender",
-      "social-development"
+      "environment"
     ]
   },
   {
-    "title": "Highest Population of Elderly",
-    "description": "In 2023, 36.36% of Monaco's population was aged 65 and above, indicating a significant elderly demographic.",
+    "title": "High Life Expectancy",
+    "description": "In 2023, Monaco's life expectancy at birth was 86.37 years, one of the highest globally, indicating a high quality of life and healthcare.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-65up-to-zs"
+      "sp-dyn-le00-in"
     ],
-    "emoji": "👵",
-    "type": "BEST",
+    "emoji": "👶",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Highest Age Dependency Ratio",
-    "description": "Monaco had an age dependency ratio of 72.04% in 2023, highlighting the economic pressure on its working-age population.",
+    "title": "Aging Population Challenge",
+    "description": "In 2023, 36.36% of Monaco's population was aged 65 and above, indicating a significant aging population challenge.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-65up-to-zs"
+    ],
+    "emoji": "👴",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "High Age Dependency Ratio",
+    "description": "In 2023, Monaco had an age dependency ratio of 72.04%, suggesting a high burden on the working-age population to support the elderly.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-dpnd-ol"
     ],
     "emoji": "⚖️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Death Rate",
-    "description": "In 2023, Monaco recorded a crude death rate of 20.97 per 1,000 people, one of the highest globally.",
+    "title": "High Crude Death Rate",
+    "description": "In 2023, Monaco's crude death rate was 20.97 per 1,000 people, indicating potential public health challenges.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-cdrt-in"
     ],
     "emoji": "⚰️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Smallest Land Area",
-    "description": "Monaco has a total land area of just 2.084 square kilometers as of 2022, making it one of the smallest countries in the world.",
+    "title": "Minimal Rural Land Area",
+    "description": "In 2015, Monaco had a rural land area of just 0.03495 square kilometers, making it one of the smallest in the world.",
+    "year": 2015,
+    "indicatorIds": [
+      "ag-lnd-el5m-ru-k2",
+      "ag-lnd-totl-ru-k2"
+    ],
+    "emoji": "🏞️",
+    "type": "GOOD",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "title": "High Urban Land Vulnerability",
+    "description": "In 2015, 0.5579 square kilometers of Monaco's urban land was below 5 meters in elevation, indicating vulnerability to rising sea levels.",
+    "year": 2015,
+    "indicatorIds": [
+      "ag-lnd-el5m-ur-k2"
+    ],
+    "emoji": "🌊",
+    "type": "BAD",
+    "topicIds": [
+      "climate-change",
+      "urban-development",
+      "environment"
+    ]
+  },
+  {
+    "title": "Tiny Total Land Area",
+    "description": "Monaco's total land area was recorded at 2.084 square kilometers in 2022, highlighting its status as one of the smallest countries globally.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-totl-k2"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture",
       "environment"
     ]
   },
   {
-    "title": "Minimal Rural Land Area",
-    "description": "In 2015, Monaco's rural land area was a mere 0.0349 square kilometers, highlighting its urban-centric landscape.",
-    "year": 2015,
-    "indicatorIds": [
-      "ag-lnd-totl-ru-k2"
-    ],
-    "emoji": "🏙️",
-    "type": "BEST",
-    "topicIds": [
-      "agriculture",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Capture Fisheries Production",
-    "description": "Monaco's capture fisheries production was only 1 metric ton in 2022, indicating limited fishing activities.",
+    "title": "Minimal Capture Fisheries Production",
+    "description": "In 2022, Monaco's capture fisheries production was just 1 metric ton, reflecting its limited fishing activities.",
     "year": 2022,
     "indicatorIds": [
       "er-fsh-capt-mt"
     ],
     "emoji": "🐟",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Negligible Nonperforming Loans",
-    "description": "In 2019, nonperforming loans constituted just 0.24% of total gross loans, reflecting a stable banking sector.",
+    "title": "Low Nonperforming Loan Ratio",
+    "description": "In 2019, Monaco's banks had a nonperforming loan ratio of 0.24%, indicating a healthy banking sector.",
     "year": 2019,
     "indicatorIds": [
       "fb-ast-nper-zs"
     ],
     "emoji": "🏦",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
     "title": "Limited Air Transport Activity",
-    "description": "Monaco had only 3 registered carrier departures worldwide in 2019, showing minimal air transport operations.",
+    "description": "Monaco registered only 3 air transport departures in 2019, showcasing its limited air travel infrastructure.",
     "year": 2019,
     "indicatorIds": [
       "is-air-dprt"
     ],
     "emoji": "✈️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Low Infant Mortality Rate",
-    "description": "In 2023, Monaco recorded only 1 infant death, showcasing its effective healthcare system.",
+    "title": "Low Passenger Air Traffic",
+    "description": "In 2019, Monaco carried 316 air transport passengers, reflecting its small-scale air travel operations.",
+    "year": 2019,
+    "indicatorIds": [
+      "is-air-psgr"
+    ],
+    "emoji": "🛫",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Significant Education Expenditure",
+    "description": "In 2023, 45.39% of Monaco's total secondary education expenditure was dedicated to current expenses, indicating a strong focus on education.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-xpd-csec-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "Minimal Infant Mortality",
+    "description": "Monaco recorded only 1 infant death in 2023, showcasing its excellent healthcare system.",
     "year": 2023,
     "indicatorIds": [
       "sh-dth-imrt"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Minimal Under-Five Mortality",
-    "description": "With just 1 under-five death in 2023, Monaco demonstrates excellent child healthcare services.",
+    "title": "Low Under-Five Mortality",
+    "description": "In 2023, Monaco had just 1 under-five death, reflecting its high standard of child healthcare.",
     "year": 2023,
     "indicatorIds": [
       "sh-dth-mort"
     ],
     "emoji": "🧒",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Neonatal Mortality Rate",
-    "description": "Monaco reported only 1 neonatal death in 2023, highlighting its advanced neonatal care.",
+    "title": "Minimal Neonatal Mortality",
+    "description": "Monaco reported only 1 neonatal death in 2023, underscoring its advanced neonatal care facilities.",
     "year": 2023,
     "indicatorIds": [
       "sh-dth-nmrt"
     ],
-    "emoji": "👶",
-    "type": "BEST",
+    "emoji": "👼",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "Low Adult Male Mortality Rate",
-    "description": "In 2023, the adult male mortality rate was 31.218 per 1,000 male adults, indicating a healthy male population.",
+    "description": "In 2023, Monaco's adult male mortality rate was 31.22 per 1,000, indicating a high life expectancy for males.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-ma"
     ],
     "emoji": "👨",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
-    "title": "Balanced Female Population",
-    "description": "As of 2023, 49.93% of Monaco's female population was aged 15-64, reflecting a balanced demographic structure.",
+    "title": "Balanced Female Working Age Population",
+    "description": "In 2023, 49.93% of Monaco's female population was aged 15-64, reflecting a balanced working-age demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-1564-fe-zs"
     ],
+    "emoji": "👩‍💼",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Small Female Age Group 30-34",
+    "description": "In 2023, 4.33% of Monaco's female population was aged 30-34, indicating a smaller proportion in this age group.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-3034-fe-5y"
+    ],
     "emoji": "👩",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]

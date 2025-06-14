@@ -1,68 +1,68 @@
 [
   {
-    "title": "Lowest Informal Payments to Public Officials",
+    "title": "Low Informal Payments to Public Officials",
     "description": "In 2023, only 0.1% of firms in Bosnia and Herzegovina reported making informal payments to public officials, indicating a low level of corruption in business dealings.",
     "year": 2023,
     "indicatorIds": [
       "ic-frm-corr-zs"
     ],
-    "emoji": "🕵️‍♂️",
-    "type": "BEST",
+    "emoji": "👍",
+    "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Smallest Air Freight Transport",
-    "description": "In 2015, Bosnia and Herzegovina's air freight transport was recorded at just 0.000087 million ton-km, highlighting minimal air cargo activity.",
-    "year": 2015,
-    "indicatorIds": [
-      "is-air-good-mt-k1"
-    ],
-    "emoji": "✈️",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Minimal Health Expenditure-Induced Poverty",
-    "description": "In 2015, only 0.01% of Bosnia and Herzegovina's population was pushed below the $2.15 poverty line due to out-of-pocket health care expenses, reflecting effective health cost management.",
+    "title": "Minimal Impact of Health Expenditure on Poverty",
+    "description": "As of 2015, only 0.01% of the population was pushed below the $2.15 poverty line due to out-of-pocket health care expenses, reflecting a strong social safety net.",
     "year": 2015,
     "indicatorIds": [
       "sh-uhc-nop1-zs",
       "sh-uhc-tot1-zs"
     ],
-    "emoji": "💊",
-    "type": "BEST",
+    "emoji": "🩺",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Proportion of Elderly Women",
-    "description": "As of 2023, 7.69% of the female population in Bosnia and Herzegovina were aged between 65-69, indicating a significant elderly female demographic.",
-    "year": 2023,
+    "title": "Small Air Freight Transport Sector",
+    "description": "In 2015, Bosnia and Herzegovina's air transport sector handled just 0.000087 million ton-km of freight, highlighting a limited capacity in air logistics.",
+    "year": 2015,
     "indicatorIds": [
-      "sp-pop-6569-fe-5y"
+      "is-air-good-mt-k1"
     ],
-    "emoji": "👵",
-    "type": "BEST",
+    "emoji": "✈️",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "infrastructure"
     ]
   },
   {
-    "title": "Small Population in Largest City",
-    "description": "In 2024, the largest city in Bosnia and Herzegovina had a population of 346,859, reflecting a relatively small urban center compared to global metropolises.",
+    "title": "Moderate Urban Population Concentration",
+    "description": "By 2024, Sarajevo, the largest city in Bosnia and Herzegovina, is projected to have a population of 346,859, indicating a moderate level of urbanization.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-lcty"
     ],
     "emoji": "🏙️",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "urban-development"
+    ]
+  },
+  {
+    "title": "Aging Female Population",
+    "description": "In 2023, 7.69% of the female population in Bosnia and Herzegovina was aged between 65-69, suggesting an aging demographic that may impact future workforce dynamics.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-6569-fe-5y"
+    ],
+    "emoji": "👵",
+    "type": "BAD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

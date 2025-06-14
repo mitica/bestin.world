@@ -1,13 +1,13 @@
 [
   {
     "title": "Efficient Customs Clearance",
-    "description": "In 2019, Albania had an average customs clearance time of just 1.1 days for exports, showcasing its efficiency in trade logistics.",
+    "description": "In 2019, Albania had an average customs clearance time of just 1.1 days for exports, showcasing its efficiency in trade facilitation.",
     "year": 2019,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
     "emoji": "🚢",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -15,79 +15,79 @@
   },
   {
     "title": "High Frequency of Tax Meetings",
-    "description": "In 2019, 93.2% of firms in Albania reported having meetings with tax officials, with an average of 5.7 meetings per affected firm.",
+    "description": "In 2019, 93.2% of firms in Albania reported having to visit or meet with tax officials, with an average of 5.7 meetings per affected firm.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-metg-zs",
       "ic-tax-metg"
     ],
-    "emoji": "📊",
-    "type": "WORST",
+    "emoji": "💼",
+    "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Minimal Patent Applications by Nonresidents",
-    "description": "In 2021, Albania recorded only 1 patent application by nonresidents, indicating limited international innovation activity.",
+    "title": "Low Patent Applications by Nonresidents",
+    "description": "In 2021, Albania recorded only 1 patent application by nonresidents, indicating limited foreign innovation activity.",
     "year": 2021,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📜",
-    "type": "WORST",
+    "emoji": "📄",
+    "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Limited Railway Goods Transport",
-    "description": "In 2021, Albania transported 25.1 million ton-km of goods via railways, reflecting a modest capacity in freight transport.",
+    "title": "Minimal Railway Goods Transport",
+    "description": "Albania transported 25.1 million ton-km of goods via railways in 2021, reflecting a limited use of rail for freight.",
     "year": 2021,
     "indicatorIds": [
       "is-rrs-good-mt-k6"
     ],
     "emoji": "🚂",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
     "title": "Low Railway Passenger Usage",
-    "description": "In 2021, only 0.812 million passenger-km were recorded on Albanian railways, suggesting limited use of rail transport for passengers.",
+    "description": "In 2021, only 0.812 million passenger-km were recorded on Albanian railways, highlighting low public transport usage.",
     "year": 2021,
     "indicatorIds": [
       "is-rrs-pasg-km"
     ],
     "emoji": "🚉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Low Satisfaction of Family Planning Demand",
-    "description": "In 2018, only 6% of married women in Albania had their demand for family planning satisfied by modern methods, indicating a gap in reproductive health services.",
+    "title": "Limited Family Planning Satisfaction",
+    "description": "As of 2018, only 6% of married women in Albania had their demand for family planning satisfied by modern methods.",
     "year": 2018,
     "indicatorIds": [
       "sh-fpl-satm-zs"
     ],
     "emoji": "👶",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "Minimal ICT Goods Imports",
-    "description": "In 2022, ICT goods constituted just 0.21% of Albania's total goods imports, showing a low reliance on technology imports.",
+    "description": "In 2022, ICT goods accounted for just 0.21% of Albania's total goods imports, indicating a low reliance on technology imports.",
     "year": 2022,
     "indicatorIds": [
       "tm-val-ictg-zs-un"
     ],
     "emoji": "💻",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure",
       "private-sector",

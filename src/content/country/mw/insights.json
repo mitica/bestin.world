@@ -1,65 +1,65 @@
 [
   {
     "title": "High Livestock Production Index",
-    "description": "In 2022, Malawi achieved a livestock production index of 190.08, indicating significant growth compared to the 2014-2016 baseline.",
+    "description": "Malawi's livestock production index reached 190.08 in 2022, indicating a significant increase compared to the 2014-2016 baseline of 100.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-lvsk-xd"
     ],
     "emoji": "🐄",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
     "title": "Low Patent Applications by Nonresidents",
-    "description": "In 2016, Malawi recorded only 1 patent application by nonresidents, highlighting limited international patent activity.",
+    "description": "In 2016, Malawi recorded only 1 patent application by nonresidents, highlighting limited foreign interest in local innovations.",
     "year": 2016,
     "indicatorIds": [
       "ip-pat-nres"
     ],
     "emoji": "📄",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "High Pupil-Teacher Ratio in Secondary Education",
-    "description": "In 2018, Malawi had a pupil-teacher ratio of 72.31 in secondary schools, indicating challenges in educational resource allocation.",
+    "title": "High Pupil-Teacher Ratio in Secondary Schools",
+    "description": "In 2018, Malawi had a pupil-teacher ratio of 72.31 in secondary schools, indicating potential challenges in providing quality education.",
     "year": 2018,
     "indicatorIds": [
       "se-sec-enrl-tc-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
     "title": "Negative Transaction Costs for Remittances",
-    "description": "In 2023, Malawi experienced a -49.69% average transaction cost for sending remittances, suggesting potential data anomalies or unique financial conditions.",
+    "description": "In 2023, Malawi experienced an average transaction cost of -49.69% for sending remittances, suggesting potential data anomalies or unique financial conditions.",
     "year": 2023,
     "indicatorIds": [
       "si-rmt-cost-ib-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
     "title": "Decline in Per Capita Real Income Growth",
-    "description": "In 2019, Malawi's annualized growth rate in per capita real income was -6.11%, indicating economic challenges for the population.",
+    "description": "Malawi's per capita real income growth rate was -6.11% in 2019, indicating a decline in economic well-being for the population.",
     "year": 2019,
     "indicatorIds": [
       "si-spr-pcap-zg"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "poverty"
     ]
@@ -69,12 +69,12 @@
     "description": "In 2015, only 0.07% of economically active children aged 7-14 were employed in manufacturing, reflecting low child labor rates in this sector.",
     "year": 2015,
     "indicatorIds": [
+      "sl-mnf-0714-zs",
       "sl-mnf-0714-fe-zs",
-      "sl-mnf-0714-ma-zs",
-      "sl-mnf-0714-zs"
+      "sl-mnf-0714-ma-zs"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection",
       "gender"
@@ -82,7 +82,7 @@
   },
   {
     "title": "High Part-Time Employment Rates",
-    "description": "In 2020, 76.09% of Malawi's total employment was part-time, with 82.82% of females and 69.59% of males working part-time, indicating a flexible labor market.",
+    "description": "In 2020, 76.09% of Malawi's workforce was employed part-time, with 82.82% of females and 69.59% of males working part-time, indicating a flexible labor market.",
     "year": 2020,
     "indicatorIds": [
       "sl-tlf-part-fe-zs",
@@ -90,7 +90,7 @@
       "sl-tlf-part-zs"
     ],
     "emoji": "🕒",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection",
       "gender"
@@ -98,13 +98,13 @@
   },
   {
     "title": "Negligible Merchandise Export Residuals",
-    "description": "In 2020, Malawi's merchandise export residuals were effectively zero, suggesting precise export reporting and minimal discrepancies.",
+    "description": "In 2020, Malawi's merchandise export residuals were effectively zero, suggesting efficient export reporting and minimal discrepancies.",
     "year": 2020,
     "indicatorIds": [
       "tx-val-mrch-rs-zs"
     ],
     "emoji": "📦",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"

@@ -1,53 +1,39 @@
 [
   {
     "title": "Rapid Industrial Growth",
-    "description": "In 2022, Guyana experienced an impressive industrial growth rate of 98.53%, marking one of the highest growth rates globally.",
+    "description": "In 2022, Guyana experienced an impressive industrial growth rate of 98.53%, indicating a booming sector that significantly contributes to the country's economic expansion.",
     "year": 2022,
     "indicatorIds": [
       "nv-ind-totl-kd-zg"
     ],
     "emoji": "📈",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "Minimal CO2 Emissions from Waste",
-    "description": "As of 2023, Guyana's carbon dioxide emissions from waste were among the lowest in the world, totaling just 0.0001 Mt CO2e.",
+    "description": "As of 2023, Guyana's carbon dioxide emissions from waste are among the lowest globally, at just 0.0001 Mt CO2e, highlighting the country's low environmental impact from waste.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-wa-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "High Vulnerability to Sea Level Rise",
-    "description": "In 2015, 78.48% of Guyana's population lived in areas below 5 meters elevation, indicating a high vulnerability to sea level rise.",
-    "year": 2015,
-    "indicatorIds": [
-      "en-pop-el5m-zs"
-    ],
-    "emoji": "🌊",
-    "type": "WORST",
-    "topicIds": [
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Hydroelectric Power Production",
-    "description": "In 2021, hydroelectric sources contributed only 0.0008% to Guyana's total electricity production, one of the lowest globally.",
+    "title": "Low Reliance on Hydroelectric Power",
+    "description": "In 2021, only 0.0008% of Guyana's electricity was generated from hydroelectric sources, indicating a minimal reliance on this renewable energy form.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-hyro-zs"
     ],
-    "emoji": "⚡",
-    "type": "WORST",
+    "emoji": "💡",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "climate-change",
@@ -55,28 +41,42 @@
     ]
   },
   {
-    "title": "Minimal Industrial Design Innovation",
-    "description": "Guyana had only 1 resident industrial design application in 2021, indicating limited innovation in industrial design.",
+    "title": "High Vulnerability to Sea Level Rise",
+    "description": "In 2015, 78.48% of Guyana's population lived in areas below 5 meters elevation, making the country highly susceptible to the impacts of rising sea levels.",
+    "year": 2015,
+    "indicatorIds": [
+      "en-pop-el5m-zs"
+    ],
+    "emoji": "🌊",
+    "type": "BAD",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "title": "Limited Industrial Design Innovation",
+    "description": "In 2021, Guyana had only 1 resident industrial design application, reflecting limited innovation and design activity within the country.",
     "year": 2021,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "💡",
-    "type": "WORST",
+    "emoji": "🛠️",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Stable GDP Deflator",
-    "description": "In 2023, Guyana's GDP deflator was 91.02, reflecting a stable price level compared to other countries.",
+    "title": "High GDP Deflator",
+    "description": "In 2023, Guyana's GDP deflator was 91.02, suggesting significant inflationary pressures within the economy.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-defl-zs",
       "ny-gdp-defl-zs-ad"
     ],
-    "emoji": "💹",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector"

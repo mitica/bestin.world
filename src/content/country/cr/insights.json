@@ -1,121 +1,172 @@
 [
   {
+    "title": "Strong Market Competition Framework",
+    "description": "In 2024, Costa Rica achieved a Market Competition Overall Score of 68.55, reflecting a robust framework for promoting market competition.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-mc-os"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "title": "Effective Implementation of Market Competition Services",
+    "description": "Costa Rica scored 69.81 in 2024 for the implementation of key services promoting market competition, indicating effective policy execution.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-mc-p3"
+    ],
+    "emoji": "🔧",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
     "title": "High Government Investment in Education",
-    "description": "In 2021, Costa Rica allocated 31.17% of its government expenditure to education, reflecting a strong commitment to educational development.",
+    "description": "In 2021, 31.17% of Costa Rica's government expenditure was allocated to education, showcasing a strong commitment to educational development.",
     "year": 2021,
     "indicatorIds": [
       "se-xpd-totl-gb-zs"
     ],
-    "emoji": "📚",
-    "type": "BEST",
+    "emoji": "🎓",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Strong Market Competition Framework",
-    "description": "Costa Rica achieved an overall market competition score of 68.55 in 2024, with a notable implementation of key services promoting competition at 69.81.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-mc-os",
-      "ic-bre-mc-p3"
-    ],
-    "emoji": "🏆",
-    "type": "BEST",
-    "topicIds": []
-  },
-  {
     "title": "Limited Coverage of Unemployment Benefits",
-    "description": "In 2022, only 19.02% of the population was covered by unemployment benefits and active labor market programs, indicating room for improvement in social safety nets.",
+    "description": "As of 2022, only 19.02% of the population in Costa Rica was covered by unemployment benefits and active labor market programs, indicating limited social safety nets.",
     "year": 2022,
     "indicatorIds": [
       "per_lm_alllm-cov_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Disparities in Unemployment Benefit Coverage",
+    "description": "Coverage of unemployment benefits in Costa Rica varies across income quintiles, with the 4th quintile having the highest coverage at 21.34% in 2022.",
+    "year": 2022,
+    "indicatorIds": [
+      "per_lm_alllm-cov_q4_tot",
+      "per_lm_alllm-cov_q1_tot",
+      "per_lm_alllm-cov_q2_tot",
+      "per_lm_alllm-cov_q3_tot",
+      "per_lm_alllm-cov_q5_tot"
+    ],
+    "emoji": "⚖️",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "High Child Employment in Services Sector",
-    "description": "In 2016, 53.5% of economically active children aged 7-14 were employed in the services sector, with a significant gender disparity favoring females at 79.84%.",
+    "description": "In 2016, 53.5% of economically active children aged 7-14 in Costa Rica were employed in the services sector, highlighting child labor issues.",
     "year": 2016,
     "indicatorIds": [
-      "sl-srv-0714-zs",
-      "sl-srv-0714-fe-zs"
+      "sl-srv-0714-zs"
     ],
-    "emoji": "🔧",
-    "type": "WORST",
+    "emoji": "🚸",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Gender Disparity in Child Employment",
+    "description": "In 2016, 79.84% of economically active female children aged 7-14 were employed in services, compared to 45.5% of males, indicating gender disparity.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-srv-0714-fe-zs",
+      "sl-srv-0714-ma-zs"
+    ],
+    "emoji": "♀️♂️",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
       "gender"
     ]
   },
   {
-    "title": "Gender Disparity in Child Employment",
-    "description": "In 2016, 45.4% of female children in employment were wage workers, compared to 27.88% of all children, highlighting gender-specific employment trends.",
-    "year": 2016,
-    "indicatorIds": [
-      "sl-wag-0714-fe-zs",
-      "sl-wag-0714-zs"
-    ],
-    "emoji": "⚖️",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Average Working Hours for Female Children",
-    "description": "Female children aged 7-14 working only averaged 44.16 hours per week in 2016, indicating a significant burden on young girls in the workforce.",
+    "title": "High Working Hours for Female Child Laborers",
+    "description": "Female children aged 7-14 working only in Costa Rica averaged 44.16 hours per week in 2016, reflecting high child labor intensity.",
     "year": 2016,
     "indicatorIds": [
       "sl-tlf-0714-wk-fe-tm"
     ],
     "emoji": "⏰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Significant Child Employment in Agriculture",
-    "description": "In 2016, 36.6% of economically active children aged 7-14 in Costa Rica were employed in agriculture, with 20.16% being female. This highlights a significant portion of child labor in the agricultural sector.",
+    "title": "Significant Proportion of Child Wage Workers",
+    "description": "In 2016, 27.88% of children in employment in Costa Rica were wage workers, indicating a notable presence of child labor in formal employment.",
     "year": 2016,
     "indicatorIds": [
-      "sl-agr-0714-zs",
-      "sl-agr-0714-fe-zs"
+      "sl-wag-0714-zs"
+    ],
+    "emoji": "💼",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "High Child Employment in Agriculture",
+    "description": "In 2016, 36.6% of economically active children aged 7-14 in Costa Rica were employed in agriculture, indicating a significant reliance on child labor in this sector.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-agr-0714-zs"
     ],
     "emoji": "🌾",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Significant Female Child Labor in Agriculture",
+    "description": "As of 2016, 20.16% of economically active female children aged 7-14 were employed in agriculture, highlighting gender-specific challenges in child labor.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-agr-0714-fe-zs"
+    ],
+    "emoji": "👧",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
       "gender"
     ]
   },
   {
-    "title": "High Rate of Unpaid Family Work Among Female Children",
-    "description": "In 2016, 54.59% of female children aged 7-14 in employment were unpaid family workers, indicating a high reliance on unpaid labor within families.",
+    "title": "High Unpaid Family Work Among Female Children",
+    "description": "In 2016, 54.59% of female children aged 7-14 in employment were unpaid family workers, reflecting a high rate of unpaid labor among young girls.",
     "year": 2016,
     "indicatorIds": [
       "sl-fam-0714-fe-zs"
     ],
-    "emoji": "👨‍👩‍👧",
-    "type": "WORST",
+    "emoji": "👩‍👧",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Minimal Male Child Employment",
-    "description": "In 2016, only 1.94% of male children aged 7-14 were employed, reflecting a relatively low rate of child labor among boys in Costa Rica.",
+    "title": "Low Male Child Employment",
+    "description": "Only 1.94% of male children aged 7-14 were economically active in 2016, suggesting a lower prevalence of child labor among boys compared to girls.",
     "year": 2016,
     "indicatorIds": [
       "sl-tlf-0714-ma-zs"
     ],
     "emoji": "👦",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection",
       "gender",
@@ -124,13 +175,13 @@
   },
   {
     "title": "Negative Net Official Flows from UNWOMEN",
-    "description": "In 2021, Costa Rica experienced a negative net official flow of -$1,366 from UNWOMEN, indicating a financial outflow rather than support from this agency.",
+    "description": "In 2021, Costa Rica experienced a net outflow of $1,366 from UNWOMEN, indicating a negative financial interaction with this UN agency.",
     "year": 2021,
     "indicatorIds": [
       "dt-nfl-unwn-cd"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
   }
 ]

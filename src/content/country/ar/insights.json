@@ -1,79 +1,79 @@
 [
   {
-    "title": "Sky-High Deposit Interest Rates",
-    "description": "In 2023, Argentina offered one of the highest deposit interest rates globally at nearly 95%, reflecting the country's efforts to attract savings amidst economic challenges.",
+    "title": "High Deposit Interest Rates",
+    "description": "In 2023, Argentina offered one of the highest deposit interest rates globally at 94.99%, attracting savers but indicating potential economic instability.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-dpst"
     ],
-    "emoji": "💹",
-    "type": "BEST",
+    "emoji": "💰",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
     "title": "Significant Claims on Central Government",
-    "description": "Argentina experienced a substantial growth in claims on its central government, with an annual increase of 341% as a percentage of broad money in 2023, indicating fiscal pressures.",
+    "description": "The claims on Argentina's central government grew by 341.37% as a percentage of broad money in 2023, reflecting a heavy reliance on government borrowing.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-cgov-zg-m3"
     ],
     "emoji": "📈",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "High Export Tax Dependency",
-    "description": "In 2022, taxes on exports constituted over 16% of Argentina's tax revenue, highlighting the country's reliance on export duties for fiscal income.",
+    "title": "Negative Net Financial Flows",
+    "description": "In 2023, Argentina experienced a net financial outflow of $5.07 billion in IMF nonconcessional loans, indicating financial challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-imfn-cd"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "High Taxes on Exports",
+    "description": "In 2022, taxes on exports constituted 16.41% of Argentina's tax revenue, suggesting a significant reliance on export taxation for government income.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-expt-zs"
     ],
-    "emoji": "📊",
-    "type": "WORST",
+    "emoji": "📦",
+    "type": "BAD",
     "topicIds": [
       "public-sector",
       "trade"
     ]
   },
   {
-    "title": "Negative Financial Flows with IMF",
-    "description": "Argentina recorded a negative net financial flow with the IMF amounting to over $5 billion in 2023, indicating more repayments than new borrowings.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-imfn-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Decline in Private Nonguaranteed Financial Flows",
-    "description": "In 2023, Argentina saw a negative flow of private nonguaranteed financial resources, totaling approximately $140 million, suggesting challenges in attracting private investment.",
+    "title": "Negative IFC Private Nonguaranteed Flows",
+    "description": "Argentina saw a negative flow of $139.95 million in IFC private nonguaranteed loans in 2023, highlighting challenges in attracting private investment.",
     "year": 2023,
     "indicatorIds": [
       "dt-nfl-nifc-cd"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Productive Agricultural Workforce",
-    "description": "In 2023, the value added per worker in Argentina's agriculture, forestry, and fishing sectors was $174,268, showcasing the sector's productivity and importance to the economy.",
+    "title": "Strong Agricultural Productivity",
+    "description": "In 2023, the value added per worker in Argentina's agriculture, forestry, and fishing sectors was $174,267.88, showcasing high productivity in these industries.",
     "year": 2023,
     "indicatorIds": [
       "nv-agr-empl-kd"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]

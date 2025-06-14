@@ -1,39 +1,39 @@
 [
   {
-    "title": "Highest Net ODA Received as a Percentage of Government Expense",
-    "description": "In 2020, Somalia received net official development assistance (ODA) amounting to 16,588,979% of its central government expenses, indicating a heavy reliance on international aid.",
+    "title": "High Dependency on Foreign Aid",
+    "description": "In 2020, Somalia received foreign aid equivalent to 16,588,979% of its central government expenses, indicating a significant reliance on international assistance.",
     "year": 2020,
     "indicatorIds": [
       "dt-oda-odat-xp-zs"
     ],
-    "emoji": "🌍",
-    "type": "BEST",
+    "emoji": "🤝",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
     "title": "Complete Multilateral Debt Service",
-    "description": "By 2023, Somalia's multilateral debt service accounted for 100% of its public and publicly guaranteed debt service, highlighting a significant financial obligation to international lenders.",
+    "description": "In 2023, 100% of Somalia's public and publicly guaranteed debt service was dedicated to multilateral debt, highlighting a heavy financial obligation.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-mlat-pg-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
     "title": "Predominant Agricultural Water Use",
-    "description": "In 2021, 99.48% of Somalia's total freshwater withdrawals were used for agriculture, underscoring the sector's dominance in water consumption.",
+    "description": "In 2021, 99.48% of Somalia's freshwater withdrawals were used for agriculture, underscoring the sector's dominance in water consumption.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwag-zs"
     ],
     "emoji": "🚜",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "agriculture",
       "infrastructure",
@@ -42,13 +42,13 @@
   },
   {
     "title": "High Customs and Import Duties",
-    "description": "Customs and other import duties made up 67.57% of Somalia's tax revenue in 2023, reflecting a significant reliance on trade taxes.",
+    "description": "In 2023, customs and other import duties accounted for 67.57% of Somalia's tax revenue, indicating a significant reliance on trade taxes.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-impt-zs"
     ],
     "emoji": "📦",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "public-sector",
       "trade"
@@ -56,13 +56,13 @@
   },
   {
     "title": "Severe Particulate Emission Damage",
-    "description": "In 2021, particulate emission damage was equivalent to 7.09% of Somalia's GNI, indicating substantial environmental and economic impacts.",
+    "description": "In 2021, particulate emission damage accounted for 7.09% of Somalia's GNI, reflecting substantial environmental challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dpem-gn-zs"
     ],
     "emoji": "🌫️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "environment"
@@ -70,39 +70,39 @@
   },
   {
     "title": "High Prevalence of Female Genital Mutilation",
-    "description": "As of 2020, 99.2% of females in Somalia were affected by female genital mutilation, highlighting a critical human rights issue.",
+    "description": "In 2020, 99.2% of females in Somalia were subjected to genital mutilation, indicating a critical human rights issue.",
     "year": 2020,
     "indicatorIds": [
       "sh-sta-fgms-zs"
     ],
-    "emoji": "🚫",
-    "type": "WORST",
+    "emoji": "⚠️",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Significant Undernourishment",
-    "description": "In 2022, 51.3% of Somalia's population was undernourished, reflecting severe food insecurity challenges.",
+    "title": "Widespread Undernourishment",
+    "description": "In 2022, 51.3% of Somalia's population was undernourished, highlighting a severe food security crisis.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-defc-zs"
     ],
     "emoji": "🍽️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "High Fertility Rate",
-    "description": "Somalia's fertility rate stood at 6.13 births per woman in 2023, indicating a rapidly growing population.",
+    "description": "In 2023, Somalia's fertility rate was 6.13 births per woman, one of the highest globally, indicating rapid population growth.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-tfrt-in"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
@@ -110,121 +110,122 @@
   },
   {
     "title": "Large Young Female Population",
-    "description": "In 2023, 18.32% of Somalia's female population was aged 0-4, suggesting a youthful demographic structure.",
+    "description": "In 2023, 18.32% of Somalia's female population was aged 0-4, reflecting a youthful demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-0004-fe-5y"
     ],
     "emoji": "👧",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Dependence on Imports from Low- and Middle-Income Economies",
-    "description": "75.32% of Somalia's merchandise imports in 2023 came from low- and middle-income economies outside its region, indicating a diverse import base.",
+    "title": "Dependence on Imports from Developing Economies",
+    "description": "In 2023, 75.32% of Somalia's merchandise imports came from low- and middle-income economies outside its region, indicating trade reliance.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-or-zs"
     ],
-    "emoji": "🛳️",
-    "type": "BEST",
+    "emoji": "🚢",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Strong Export Ties with the Arab World",
-    "description": "In 2023, 90.84% of Somalia's merchandise exports were directed to economies in the Arab World, highlighting significant trade relationships.",
+    "title": "Strong Trade Ties with the Arab World",
+    "description": "In 2023, 90.84% of Somalia's merchandise exports were directed to the Arab World, showcasing significant regional trade connections.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-al-zs"
     ],
-    "emoji": "🌐",
-    "type": "BEST",
+    "emoji": "🌍",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Lowest Revenue Excluding Grants as a Percentage of GDP",
-    "description": "In 2023, Somalia's revenue excluding grants was only 0.0001% of its GDP, indicating a significant reliance on external financial support.",
+    "title": "Lowest Revenue Generation Relative to GDP",
+    "description": "In 2023, Somalia's revenue, excluding grants, accounted for a mere 0.00011% of its GDP, indicating a significant challenge in generating domestic revenue.",
     "year": 2023,
     "indicatorIds": [
       "gc-rev-xgrt-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "public-sector"
     ]
   },
   {
-    "title": "Minimal Tax Revenue as a Percentage of GDP",
-    "description": "Somalia's tax revenue in 2023 was a mere 0.00008% of GDP, reflecting challenges in domestic revenue generation.",
+    "title": "Minimal Tax Revenue Contribution",
+    "description": "Somalia's tax revenue in 2023 was only 0.00008% of GDP, highlighting a critical weakness in tax collection and fiscal capacity.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-totl-gd-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low School Enrollment Rates",
-    "description": "In 2023, primary school enrollment in Somalia was 21.2%, with secondary enrollment at just 3.3%, highlighting educational access challenges.",
-    "year": 2023,
+    "title": "Low Educational Attainment",
+    "description": "As of 2022, only 15.5% of the population aged 25+ had completed primary education, with a mere 7.21% of females achieving this level.",
+    "year": 2022,
     "indicatorIds": [
-      "se-prm-enrr",
-      "se-sec-enrr"
+      "se-prm-cuat-zs",
+      "se-prm-cuat-fe-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Limited Preprimary School Enrollment",
+    "description": "In 2021, preprimary school enrollment was extremely low, with only 1.15% of children enrolled, indicating challenges in early childhood education.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-pre-enrr"
+    ],
+    "emoji": "👶",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Minimal Health Expenditure Per Capita",
-    "description": "Somalia's current health expenditure per capita was $15.35 in 2022, indicating limited investment in health services.",
+    "title": "Low Health Expenditure Per Capita",
+    "description": "In 2022, Somalia's current health expenditure per capita was just $15.35, reflecting limited investment in healthcare services.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-chex-pc-cd"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Contraceptive Prevalence Among Married Women",
-    "description": "In 2019, only 0.9% of married women in Somalia used any modern contraceptive method, reflecting limited access to family planning services.",
-    "year": 2019,
-    "indicatorIds": [
-      "sp-dyn-conm-zs"
-    ],
-    "emoji": "👶",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Limited Prenatal Care Coverage",
-    "description": "As of 2019, only 31.1% of pregnant women in Somalia received prenatal care, indicating gaps in maternal health services.",
+    "title": "Limited Prenatal Care Access",
+    "description": "Only 31.1% of pregnant women received prenatal care in 2019, highlighting significant gaps in maternal health services.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-anvc-zs"
     ],
     "emoji": "🤰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender",
@@ -232,57 +233,56 @@
     ]
   },
   {
-    "title": "Low Efficiency in Customs Clearance",
-    "description": "In 2022, Somalia scored 1.5 out of 5 in the efficiency of customs clearance process, suggesting logistical challenges in trade.",
-    "year": 2022,
+    "title": "Low Contraceptive Prevalence",
+    "description": "In 2019, only 6.9% of married women aged 15-49 used any contraceptive method, indicating challenges in family planning services.",
+    "year": 2019,
     "indicatorIds": [
-      "lp-lpi-cust-xq"
+      "sp-dyn-conu-zs"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "🔬",
+    "type": "BAD",
     "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Rule of Law Estimate",
-    "description": "Somalia's rule of law estimate in 2023 was -2.21, indicating significant governance challenges.",
-    "year": 2023,
-    "indicatorIds": [
-      "rl-est"
-    ],
-    "emoji": "⚖️",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
+      "health",
+      "gender"
     ]
   },
   {
     "title": "Minimal Trademark Applications by Nonresidents",
-    "description": "In 2021, there were only 140 trademark applications by nonresidents in Somalia, reflecting limited foreign business interest.",
+    "description": "In 2021, there were only 140 trademark applications by nonresidents, suggesting limited foreign business interest.",
     "year": 2021,
     "indicatorIds": [
       "ip-tmk-nrct"
     ],
-    "emoji": "📝",
-    "type": "WORST",
+    "emoji": "📑",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Low Educational Attainment Among Adults",
-    "description": "In 2022, only 15.5% of the population aged 25+ had completed primary education, highlighting educational attainment challenges.",
-    "year": 2022,
+    "title": "Low Rule of Law and Governance",
+    "description": "Somalia's rule of law estimate in 2023 was -2.21, reflecting significant challenges in governance and legal frameworks.",
+    "year": 2023,
     "indicatorIds": [
-      "se-prm-cuat-zs"
+      "rl-est"
     ],
-    "emoji": "🎓",
-    "type": "WORST",
+    "emoji": "⚖️",
+    "type": "BAD",
     "topicIds": [
-      "education",
-      "gender"
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High External Balance Deficit",
+    "description": "In 2023, Somalia's external balance on goods and services was a deficit of -162,215,385,473,200 LCU, indicating economic challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-rsb-gnfs-kn"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

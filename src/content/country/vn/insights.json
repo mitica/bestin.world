@@ -1,128 +1,130 @@
 [
   {
-    "title": "Strong Export Capacity",
-    "description": "In 2023, Vietnam's exports of goods and services reached 5,429,413,647,635,100 LCU, showcasing its robust capacity to trade globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-exp-gnfs-kn"
-    ],
-    "emoji": "📈",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Efficient Tax System",
-    "description": "Vietnam's taxation system scored 89.85 in operational efficiency in 2024, indicating a streamlined and effective tax administration.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-tx-p3"
-    ],
-    "emoji": "💼",
-    "type": "BEST",
-    "topicIds": []
-  },
-  {
-    "title": "Positive External Balance",
-    "description": "In 2023, Vietnam maintained a positive external balance on goods and services, valued at 820,797,300,000,000 LCU, reflecting a surplus in trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-rsb-gnfs-cn"
-    ],
-    "emoji": "🔄",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Broad Money Supply",
-    "description": "The broad money supply in Vietnam reached 13,109,658,074,994,700 LCU in 2022, indicating a strong monetary base.",
+    "title": "Robust Domestic Credit System",
+    "description": "In 2022, Vietnam's net domestic credit reached an impressive 12,108 trillion VND, showcasing a strong financial backbone. This positions Vietnam among the top countries globally in terms of domestic credit availability.",
     "year": 2022,
     "indicatorIds": [
-      "fm-lbl-bmny-cn"
+      "fm-ast-doms-cn"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "💪",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
+    "title": "Efficient Tax System Operations",
+    "description": "Vietnam achieved a high score of 89.85 in 2024 for the operational efficiency of its tax systems, reflecting a streamlined and effective taxation process.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-tx-p3"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
     "title": "Gender Equality Progress",
-    "description": "Vietnam scored 4.5 on the CPIA gender equality rating in 2015, showing significant progress towards gender parity.",
+    "description": "In 2015, Vietnam's CPIA gender equality rating was 4.5, indicating significant strides towards gender equality, although there's room for improvement.",
     "year": 2015,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
     ],
-    "emoji": "♀️♂️",
-    "type": "BEST",
+    "emoji": "♀️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Net Domestic Credit",
-    "description": "In 2022, Vietnam's net domestic credit was valued at 12,108,290,082,835,600 LCU, reflecting a strong credit system.",
+    "title": "Strong Export Capacity",
+    "description": "Vietnam's exports of goods and services in 2023 amounted to 5,429 trillion VND, highlighting its robust export sector and capacity to import.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-exp-gnfs-kn",
+      "ny-exp-capm-kn"
+    ],
+    "emoji": "🚢",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Positive External Balance",
+    "description": "In 2023, Vietnam maintained a positive external balance on goods and services, with a surplus of 820 trillion VND, reflecting a healthy trade position.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-rsb-gnfs-cn"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High Net Secondary Income",
+    "description": "Vietnam's net secondary income from abroad in 2023 was 311 trillion VND, indicating strong remittance flows and international financial support.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-trf-nctr-cn"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Terms of Trade Advantage",
+    "description": "In 2023, Vietnam's terms of trade adjustment was valued at 479 trillion VND, suggesting favorable trade conditions and pricing.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-ttf-gnfs-kn"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "Broad Money Supply",
+    "description": "Vietnam's broad money supply reached 13,110 trillion VND in 2022, reflecting a substantial monetary base supporting economic activities.",
     "year": 2022,
     "indicatorIds": [
-      "fm-ast-doms-cn"
+      "fm-lbl-bmny-cn"
     ],
-    "emoji": "🏦",
-    "type": "BEST",
+    "emoji": "💸",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "High Terms of Trade Adjustment",
-    "description": "Vietnam's terms of trade adjustment stood at 479,453,875,270,286 LCU in 2023, indicating favorable trade conditions.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-ttf-gnfs-kn"
-    ],
-    "emoji": "🔄",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Strong Import Capacity",
-    "description": "In 2023, Vietnam's imports of goods and services were valued at 5,364,601,047,635,100 LCU, demonstrating a robust import capacity.",
+    "title": "Balanced Import-Export Ratio",
+    "description": "In 2023, Vietnam's imports of goods and services were closely matched with exports, totaling 5,365 trillion VND, indicating a balanced trade approach.",
     "year": 2023,
     "indicatorIds": [
       "ne-imp-gnfs-kn"
     ],
-    "emoji": "📦",
-    "type": "BEST",
+    "emoji": "⚖️",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Negative GDP Discrepancy",
-    "description": "In 2023, Vietnam faced a GDP expenditure discrepancy of -350,432,405,884,700 LCU, indicating potential issues in economic reporting.",
+    "title": "GDP Discrepancy Challenge",
+    "description": "Vietnam faced a GDP expenditure discrepancy of -350 trillion VND in 2023, highlighting potential issues in economic data accuracy.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-disc-cn"
     ],
-    "emoji": "⚠️",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Moderate Net Secondary Income",
-    "description": "Vietnam's net secondary income from abroad was 310,543,451,725,185 LCU in 2023, reflecting moderate remittance inflows.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-trf-nctr-cn"
-    ],
-    "emoji": "💸",
-    "type": "BEST",
+    "emoji": "❗",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]

@@ -1,13 +1,13 @@
 [
   {
-    "title": "High Proportion of Arable Land",
-    "description": "In 2022, 60.52% of Bangladesh's land area was arable, making it one of the highest in the world.",
+    "title": "High Arable Land Percentage",
+    "description": "In 2022, 60.52% of Bangladesh's land area was arable, indicating a strong agricultural base.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-arbl-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture",
       "climate-change",
@@ -15,70 +15,55 @@
     ]
   },
   {
-    "title": "Extensive Use of Irrigation in Agriculture",
-    "description": "As of 2021, 78.90% of Bangladesh's agricultural land was irrigated, ranking it among the top globally.",
+    "title": "Extensive Agricultural Irrigation",
+    "description": "As of 2021, 78.90% of Bangladesh's agricultural land was irrigated, supporting robust crop production.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-irig-ag-zs"
     ],
-    "emoji": "💧",
-    "type": "BEST",
+    "emoji": "🚜",
+    "type": "GOOD",
     "topicIds": [
       "agriculture",
       "climate-change"
     ]
   },
   {
-    "title": "Dominance of Textiles in Manufacturing",
-    "description": "In 2018, textiles and clothing accounted for 56.81% of the value added in Bangladesh's manufacturing sector, one of the highest globally.",
+    "title": "Dominance in Textiles and Clothing",
+    "description": "In 2018, textiles and clothing accounted for 56.81% of the value added in Bangladesh's manufacturing sector.",
     "year": 2018,
     "indicatorIds": [
       "nv-mnf-txtl-zs-un"
     ],
     "emoji": "👗",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Gender Parity in Secondary Education",
-    "description": "The gender parity index for secondary school enrollment in Bangladesh was 1.24 in 2021, indicating a higher enrollment rate for females compared to males.",
-    "year": 2021,
+    "title": "High Manufactures Export Ratio",
+    "description": "In 2015, 95.81% of Bangladesh's merchandise exports were manufactured goods, showcasing industrial strength.",
+    "year": 2015,
     "indicatorIds": [
-      "se-enr-seco-fm-zs"
+      "tx-val-manf-zs-un"
     ],
-    "emoji": "📚",
-    "type": "BEST",
-    "topicIds": [
-      "education",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "High Bound Rates for Primary Products",
-    "description": "In 2022, Bangladesh had a bound rate of 179.79% for primary products, one of the highest globally.",
-    "year": 2022,
-    "indicatorIds": [
-      "tm-tax-tcom-br-zs"
-    ],
-    "emoji": "📈",
-    "type": "BEST",
+    "emoji": "🏭",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Low Trade in Services Contribution to GDP",
-    "description": "In 2023, trade in services contributed only 3.60% to Bangladesh's GDP, one of the lowest globally.",
+    "title": "Low Trade in Services Contribution",
+    "description": "In 2023, trade in services contributed only 3.60% to Bangladesh's GDP, indicating a reliance on goods trade.",
     "year": 2023,
     "indicatorIds": [
       "bg-gsr-nfsv-gd-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "private-sector",
@@ -87,39 +72,67 @@
   },
   {
     "title": "Minimal Domestic Health Expenditure",
-    "description": "In 2022, domestic general government health expenditure was just 0.15% of GDP, one of the lowest in the world.",
+    "description": "In 2022, domestic general government health expenditure was just 0.15% of GDP, highlighting limited public health investment.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ghed-gd-zs"
     ],
     "emoji": "🏥",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Short Duration of Compulsory Education",
-    "description": "As of 2023, the duration of compulsory education in Bangladesh was only 5 years, among the shortest globally.",
+    "title": "Short Compulsory Education Duration",
+    "description": "As of 2023, compulsory education in Bangladesh lasts only 5 years, which may impact long-term educational outcomes.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
     ],
-    "emoji": "🎓",
-    "type": "WORST",
+    "emoji": "📚",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Antiretroviral Therapy Coverage for Pregnant Women",
-    "description": "In 2022, only 4% of pregnant women living with HIV received antiretroviral therapy, one of the lowest coverage rates globally.",
+    "title": "High Bound Rates on Products",
+    "description": "In 2022, Bangladesh had a bound rate of 158.91% for all products and 179.79% for primary products, indicating high trade barriers.",
+    "year": 2022,
+    "indicatorIds": [
+      "tm-tax-mrch-br-zs",
+      "tm-tax-tcom-br-zs"
+    ],
+    "emoji": "🚧",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "title": "Low Antiretroviral Therapy Coverage",
+    "description": "In 2022, only 4% of pregnant women living with HIV received antiretroviral therapy, pointing to gaps in healthcare access.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-pmtc-zs"
     ],
     "emoji": "💊",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Significant Poverty Impact from Health Costs",
+    "description": "In 2016, 6.99% of Bangladesh's population was pushed below the $3.65 poverty line due to out-of-pocket health expenses.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-uhc-nop2-zs"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]

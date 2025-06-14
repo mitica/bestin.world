@@ -1,56 +1,43 @@
 [
   {
-    "title": "Lowest Investment in Research and Development",
-    "description": "In 2018, Mauritania allocated only 0.01% of its GDP to research and development, one of the lowest percentages globally.",
+    "title": "Limited Investment in Research and Development",
+    "description": "In 2018, Mauritania allocated only 0.01% of its GDP to research and development, indicating minimal investment in innovation and technological advancement.",
     "year": 2018,
     "indicatorIds": [
       "gb-xpd-rsdv-gd-zs"
     ],
     "emoji": "🔬",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Minimal Insurance and Financial Services Imports",
-    "description": "In 2023, insurance and financial services accounted for just 0.037% of Mauritania's service imports, indicating a low reliance on these sectors.",
-    "year": 2023,
-    "indicatorIds": [
-      "bm-gsr-insf-zs"
-    ],
-    "emoji": "💼",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Extended Lead Time for Imports",
-    "description": "In 2016, the median lead time to import goods into Mauritania was 32 days, highlighting significant logistical challenges.",
+    "title": "High Lead Time for Imports",
+    "description": "As of 2016, the median lead time to import goods into Mauritania was 32 days, suggesting significant delays in the import process.",
     "year": 2016,
     "indicatorIds": [
       "lp-imp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Low Share of Insurance in Commercial Service Imports",
-    "description": "Insurance and financial services made up only 0.039% of Mauritania's commercial service imports in 2023, reflecting a limited market presence.",
+    "title": "Minimal Reliance on Insurance and Financial Services in Imports",
+    "description": "In 2023, insurance and financial services accounted for only 0.04% of Mauritania's service imports, reflecting a low dependency on these services in international trade.",
     "year": 2023,
     "indicatorIds": [
+      "bm-gsr-insf-zs",
       "tm-val-insf-zs-wt"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💼",
+    "type": "GOOD",
     "topicIds": [
+      "economy",
       "private-sector",
       "trade"
     ]

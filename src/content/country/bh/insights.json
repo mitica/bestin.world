@@ -1,7 +1,7 @@
 [
   {
-    "title": "Highest Internet Usage",
-    "description": "In 2023, Bahrain achieved 100% internet usage among both male and female populations, marking a significant digital milestone.",
+    "title": "Universal Internet Access",
+    "description": "As of 2023, 100% of Bahrain's population, including both male and female individuals, have access to the internet, showcasing the country's commitment to digital connectivity.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -9,100 +9,20 @@
       "it-net-user-zs"
     ],
     "emoji": "🌐",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Lowest Fertilizer Consumption",
-    "description": "Bahrain's fertilizer consumption was only 0.06% of its production in 2022, indicating minimal reliance on fertilizers.",
-    "year": 2022,
-    "indicatorIds": [
-      "ag-con-fert-pt-zs"
-    ],
-    "emoji": "🌱",
-    "type": "WORST",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Minimal Freshwater Resources",
-    "description": "In 2021, Bahrain had only 0.004 billion cubic meters of renewable internal freshwater resources, one of the lowest globally.",
-    "year": 2021,
-    "indicatorIds": [
-      "er-h2o-intr-k3"
-    ],
-    "emoji": "💧",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure",
-      "environment"
-    ]
-  },
-  {
-    "title": "Lowest Freshwater Resources Per Capita",
-    "description": "With just 2.66 cubic meters per person in 2021, Bahrain ranks among the countries with the least freshwater resources per capita.",
-    "year": 2021,
-    "indicatorIds": [
-      "er-h2o-intr-pc"
-    ],
-    "emoji": "🚱",
-    "type": "WORST",
-    "topicIds": [
-      "infrastructure",
-      "environment"
-    ]
-  },
-  {
-    "title": "Minimal Tax Revenue from Income and Profits",
-    "description": "In 2020, Bahrain collected 6,637,382.12 LCU in taxes on income, profits, and capital gains, reflecting a low tax revenue base.",
-    "year": 2020,
-    "indicatorIds": [
-      "gc-tax-ypkg-cn"
-    ],
-    "emoji": "💰",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Negative Other Expenses",
-    "description": "In 2015, Bahrain reported -9,260,000 LCU in other expenses, indicating a unique financial situation.",
-    "year": 2015,
-    "indicatorIds": [
-      "gc-xpn-othr-cn"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Highest Newborn Tetanus Protection",
-    "description": "Bahrain achieved 100% protection against tetanus for newborns in 2023, showcasing its strong healthcare initiatives.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-vac-ttns-zs"
-    ],
-    "emoji": "🍼",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Significant Ores and Metals Imports",
-    "description": "In 2023, ores and metals constituted 20.47% of Bahrain's merchandise imports, highlighting its reliance on these resources.",
+    "title": "High Import of Ores and Metals",
+    "description": "In 2023, ores and metals constituted 20.47% of Bahrain's merchandise imports, indicating a significant reliance on these resources for industrial and economic activities.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mmtl-zs-un"
     ],
     "emoji": "⛏️",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "private-sector",
@@ -110,16 +30,111 @@
     ]
   },
   {
-    "title": "Low Intentional Homicide Rate",
-    "description": "Bahrain's intentional homicide rate was 0.07 per 100,000 people in 2021, one of the lowest globally.",
+    "title": "Complete Newborn Tetanus Protection",
+    "description": "Bahrain achieved a 100% vaccination rate against tetanus for newborns in 2023, reflecting the country's strong healthcare initiatives for infants.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-vac-ttns-zs"
+    ],
+    "emoji": "🍼",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Minimal Intentional Homicides",
+    "description": "With a rate of 0.068 homicides per 100,000 people in 2021, Bahrain is among the countries with the lowest intentional homicide rates globally.",
     "year": 2021,
     "indicatorIds": [
       "vc-ihr-psrc-p5"
     ],
     "emoji": "🕊️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "title": "Limited Renewable Freshwater Resources",
+    "description": "In 2021, Bahrain's renewable internal freshwater resources were only 0.004 billion cubic meters, highlighting a critical scarcity of natural water resources.",
+    "year": 2021,
+    "indicatorIds": [
+      "er-h2o-intr-k3",
+      "er-h2o-intr-pc"
+    ],
+    "emoji": "💧",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure",
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Fertilizer Consumption",
+    "description": "Bahrain's fertilizer consumption was just 0.06% of its production in 2022, suggesting a limited use of fertilizers in agricultural practices.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-con-fert-pt-zs"
+    ],
+    "emoji": "🌱",
+    "type": "BAD",
+    "topicIds": [
+      "agriculture"
+    ]
+  },
+  {
+    "title": "Low Vocational Education Enrollment for Females",
+    "description": "In 2018, only 8.13% of female students were enrolled in vocational secondary education, indicating a potential area for educational development.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-sec-enrl-vo-fe-zs"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Tax Revenue from Income and Profits",
+    "description": "In 2020, Bahrain collected 6,637,382 local currency units from taxes on income, profits, and capital gains, reflecting a relatively low tax revenue stream.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-tax-ypkg-cn"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Negative Other Expenses",
+    "description": "In 2015, Bahrain reported negative values for other expenses both in current local currency and as a percentage of total expenses, indicating potential financial adjustments or corrections.",
+    "year": 2015,
+    "indicatorIds": [
+      "gc-xpn-othr-cn",
+      "gc-xpn-othr-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Favorable PPP Conversion Factor",
+    "description": "In 2023, Bahrain's PPP conversion factor was 0.173, suggesting a favorable exchange rate for international economic comparisons.",
+    "year": 2023,
+    "indicatorIds": [
+      "pa-nus-ppp"
+    ],
+    "emoji": "💱",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

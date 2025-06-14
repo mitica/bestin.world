@@ -1,67 +1,55 @@
 [
   {
-    "title": "High Interest Payments as a Share of Revenue",
-    "description": "In 2023, Sri Lanka's interest payments accounted for 79.87% of its total revenue, indicating a significant financial burden on the country's budget.",
+    "title": "High Interest Payment Burden",
+    "description": "In 2023, Sri Lanka's interest payments constituted 79.87% of its revenue and 49.44% of its expenses, indicating a significant financial strain.",
     "year": 2023,
     "indicatorIds": [
-      "gc-xpn-intp-rv-zs"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Significant Interest Payments Relative to Expenses",
-    "description": "Sri Lanka's interest payments made up 49.44% of its total expenses in 2023, highlighting a substantial portion of government spending directed towards debt servicing.",
-    "year": 2023,
-    "indicatorIds": [
+      "gc-xpn-intp-rv-zs",
       "gc-xpn-intp-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Impressive Exclusive Breastfeeding Rates",
-    "description": "In 2016, 80.93% of Sri Lankan children under six months were exclusively breastfed, showcasing the country's strong commitment to early childhood nutrition.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-bfed-zs"
-    ],
-    "emoji": "🍼",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Overweight Children",
-    "description": "By 2024, only 0.5% of children under five in Sri Lanka were classified as overweight, reflecting effective public health measures in child nutrition.",
-    "year": 2024,
-    "indicatorIds": [
-      "sh-sta-owgh-zs"
-    ],
-    "emoji": "🍏",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Significant Decline in Equity Indices",
-    "description": "In 2022, Sri Lanka experienced a steep decline in its S&P Global Equity Indices, with a decrease of 62.44%, indicating economic challenges.",
+    "title": "Decline in Stock Market Performance",
+    "description": "Sri Lanka's stock market saw a dramatic decline of 62.44% in 2022, reflecting economic challenges and investor concerns.",
     "year": 2022,
     "indicatorIds": [
       "cm-mkt-indx-zg"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "financial-sector"
+    ]
+  },
+  {
+    "title": "Exemplary Exclusive Breastfeeding Rates",
+    "description": "In 2016, 80.93% of Sri Lankan children under 6 months were exclusively breastfed, showcasing strong maternal and child health practices.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-bfed-zs"
+    ],
+    "emoji": "👶",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Prevalence of Overweight in Young Children",
+    "description": "As of 2024, only 0.5% of Sri Lankan children under 5 were overweight, indicating effective nutritional policies for young children.",
+    "year": 2024,
+    "indicatorIds": [
+      "sh-sta-owgh-zs"
+    ],
+    "emoji": "🍏",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

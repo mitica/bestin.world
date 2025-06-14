@@ -1,143 +1,131 @@
 [
   {
-    "title": "Leading in Medium and High-Tech Manufacturing",
-    "description": "In 2022, Myanmar's medium and high-tech manufacturing value added constituted 92.58% of its total manufacturing value added, showcasing a strong emphasis on advanced manufacturing sectors.",
-    "year": 2022,
-    "indicatorIds": [
-      "nv-mnf-tech-zs-un"
-    ],
-    "emoji": "🏭",
-    "type": "BEST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Female Representation in Tertiary Education Staff",
-    "description": "As of 2018, 84.53% of academic staff in Myanmar's tertiary education sector were female, indicating a significant gender balance in higher education employment.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-ter-tchr-fe-zs"
-    ],
-    "emoji": "👩‍🏫",
-    "type": "BEST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
     "title": "Low Livestock Production Index",
-    "description": "In 2022, Myanmar's livestock production index was 35.52, reflecting one of the lowest levels of livestock production compared to the 2014-2016 baseline.",
+    "description": "In 2022, Myanmar's livestock production index was at 35.52, indicating one of the lowest levels globally compared to the 2014-2016 baseline.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-lvsk-xd"
     ],
     "emoji": "🐄",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Minimal Human Resource Development",
-    "description": "Myanmar's CPIA building human resources rating was 1.5 in 2023, indicating significant challenges in developing human capital.",
+    "title": "Weak Human Resource Development",
+    "description": "Myanmar's CPIA building human resources rating was 1.5 in 2023, reflecting a low capacity in developing human capital.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "👥",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Weak Property Rights and Governance",
-    "description": "In 2023, Myanmar received a CPIA property rights and rule-based governance rating of 1, highlighting substantial governance challenges.",
+    "title": "Poor Governance and Property Rights",
+    "description": "With a CPIA property rights and rule-based governance rating of 1 in 2023, Myanmar ranks among the lowest in ensuring effective governance and property rights.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-prop-xq"
     ],
-    "emoji": "⚖️",
-    "type": "WORST",
+    "emoji": "🏛️",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Limited Trade Facilitation",
-    "description": "With a CPIA trade rating of 1.5 in 2023, Myanmar faces considerable obstacles in trade facilitation and integration into global markets.",
+    "title": "Limited Trade Capacity",
+    "description": "In 2023, Myanmar's CPIA trade rating was 1.5, indicating significant challenges in trade facilitation and policy.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-trad-xq"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Value in Food and Beverage Manufacturing",
-    "description": "In 2020, food, beverages, and tobacco accounted for only 0.29% of Myanmar's manufacturing value added, indicating a minimal contribution from this sector.",
+    "title": "Low Manufacturing in Food and Beverages",
+    "description": "In 2020, food, beverages, and tobacco accounted for only 0.29% of Myanmar's manufacturing value added, highlighting a minimal contribution from this sector.",
     "year": 2020,
     "indicatorIds": [
       "nv-mnf-fbto-zs-un"
     ],
-    "emoji": "🍽️",
-    "type": "WORST",
+    "emoji": "🥤",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "Negligible Machinery and Transport Equipment Manufacturing",
-    "description": "As of 2020, machinery and transport equipment made up just 0.006% of Myanmar's manufacturing value added, reflecting a very small industrial base in this sector.",
+    "description": "Machinery and transport equipment made up just 0.006% of Myanmar's manufacturing value added in 2020, indicating a very small industrial base in this sector.",
     "year": 2020,
     "indicatorIds": [
       "nv-mnf-mtrn-zs-un"
     ],
-    "emoji": "🚗",
-    "type": "WORST",
+    "emoji": "🚜",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "title": "High-Tech Manufacturing Dominance",
+    "description": "In 2022, medium and high-tech manufacturing constituted 92.58% of Myanmar's manufacturing value added, showcasing a strong focus on advanced manufacturing processes.",
+    "year": 2022,
+    "indicatorIds": [
+      "nv-mnf-tech-zs-un"
+    ],
+    "emoji": "🔧",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
     "title": "Short Compulsory Education Duration",
-    "description": "Myanmar mandates only 5 years of compulsory education as of 2023, one of the shortest durations globally, impacting educational attainment.",
+    "description": "Myanmar mandates only 5 years of compulsory education as of 2023, one of the shortest durations globally.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Prevalence of Overweight in Children",
-    "description": "In 2018, only 0.5% of female children under 5 in Myanmar were overweight, indicating low levels of childhood obesity.",
+    "title": "High Female Representation in Tertiary Education",
+    "description": "In 2018, 84.53% of academic staff in Myanmar's tertiary education were female, indicating a strong female presence in higher education.",
     "year": 2018,
     "indicatorIds": [
-      "sh-sta-owgh-fe-zs"
+      "se-ter-tchr-fe-zs"
     ],
-    "emoji": "👶",
-    "type": "BEST",
+    "emoji": "👩‍🏫",
+    "type": "GOOD",
     "topicIds": [
-      "health"
+      "education"
     ]
   },
   {
-    "title": "Minimal Childhood Overweight Prevalence",
-    "description": "The modeled estimate for 2024 shows only 0.6% of children under 5 in Myanmar are overweight, reflecting low obesity rates among young children.",
+    "title": "Low Prevalence of Overweight in Young Children",
+    "description": "The prevalence of overweight among children under 5 was 0.5% for females in 2018 and 0.6% in 2024, suggesting low levels of childhood overweight issues.",
     "year": 2024,
     "indicatorIds": [
+      "sh-sta-owgh-fe-zs",
       "sh-sta-owgh-me-zs"
     ],
-    "emoji": "🧒",
-    "type": "BEST",
+    "emoji": "👶",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

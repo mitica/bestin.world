@@ -1,13 +1,28 @@
 [
   {
     "title": "Vast Forest Coverage",
-    "description": "In 2022, Suriname had an impressive 94.52% of its land area covered by forests, making it one of the most forested countries in the world.",
+    "description": "In 2022, Suriname boasted an impressive 94.52% of its land area covered by forests, making it one of the most forested countries in the world.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-frst-zs"
     ],
     "emoji": "🌳",
-    "type": "BEST",
+    "type": "GOOD",
+    "topicIds": [
+      "agriculture",
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "title": "Limited Agricultural Land",
+    "description": "As of 2022, only 0.45% of Suriname's land area was dedicated to agriculture, highlighting a potential area for development.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-lnd-agri-zs"
+    ],
+    "emoji": "🌾",
+    "type": "BAD",
     "topicIds": [
       "agriculture",
       "climate-change",
@@ -16,27 +31,27 @@
   },
   {
     "title": "High External Debt Burden",
-    "description": "As of 2023, Suriname's external debt stood at 84.36% of its Gross National Income, indicating a significant financial burden.",
+    "description": "In 2023, Suriname's external debt was 84.36% of its Gross National Income, indicating significant financial obligations.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-pvlx-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "external-debt"
     ]
   },
   {
-    "title": "Lengthy Process for Electrical Connection",
+    "title": "Lengthy Electrical Connection Process",
     "description": "In 2018, it took an average of 262.3 days to obtain an electrical connection in Suriname, one of the longest durations globally.",
     "year": 2018,
     "indicatorIds": [
       "ic-elc-durs"
     ],
-    "emoji": "⏳",
-    "type": "WORST",
+    "emoji": "🔌",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "private-sector"
@@ -44,26 +59,40 @@
   },
   {
     "title": "High Rate of Female Children Out of School",
-    "description": "In 2023, 82.81% of female children of primary school age were out of school in Suriname, highlighting a significant educational challenge.",
+    "description": "As of 2023, 82.81% of female children of primary school age were out of school in Suriname, a concerning statistic for female education.",
     "year": 2023,
     "indicatorIds": [
       "se-prm-uner-fe-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Progression to Secondary School for Males",
-    "description": "In 2017, only 59.94% of male students progressed to secondary school, indicating a need for improved educational pathways.",
+    "title": "Gender Imbalance in Secondary Education",
+    "description": "In 2015, 61.25% of students in general secondary education were female, indicating a gender imbalance in school enrollment.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-sec-enrl-gc-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "title": "Low Male Progression to Secondary School",
+    "description": "In 2017, only 59.94% of male students progressed to secondary school, suggesting challenges in male educational advancement.",
     "year": 2017,
     "indicatorIds": [
       "se-sec-prog-ma-zs"
     ],
-    "emoji": "🎓",
-    "type": "WORST",
+    "emoji": "👨‍🎓",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender"
@@ -71,44 +100,15 @@
   },
   {
     "title": "Low Exclusive Breastfeeding Rates",
-    "description": "In 2018, only 8.92% of children under 6 months were exclusively breastfed, suggesting a need for increased awareness and support for breastfeeding.",
+    "description": "In 2018, only 8.92% of children under six months were exclusively breastfed in Suriname, indicating a need for improved maternal and child health practices.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-bfed-zs"
     ],
     "emoji": "🍼",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
-    ]
-  },
-  {
-    "title": "Gender Imbalance in Secondary Education",
-    "description": "In 2015, 61.25% of secondary education pupils were female, indicating a gender imbalance in school enrollment.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-sec-enrl-gc-fe-zs"
-    ],
-    "emoji": "♀️",
-    "type": "WORST",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Limited Agricultural Land",
-    "description": "In 2022, only 0.45% of Suriname's land area was used for agriculture, reflecting limited agricultural development.",
-    "year": 2022,
-    "indicatorIds": [
-      "ag-lnd-agri-zs"
-    ],
-    "emoji": "🌾",
-    "type": "WORST",
-    "topicIds": [
-      "agriculture",
-      "climate-change",
-      "environment"
     ]
   }
 ]

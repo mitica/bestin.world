@@ -6,8 +6,8 @@
     "indicatorIds": [
       "eg-egy-prim-pp-kd"
     ],
-    "emoji": "🔋",
-    "type": "WORST",
+    "emoji": "⚡",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "environment"
@@ -15,54 +15,54 @@
   },
   {
     "title": "Low GDP per Unit of Energy Use",
-    "description": "In 2022, the GDP per unit of energy use was only 3.04 PPP $ per kg of oil equivalent, suggesting inefficiencies in energy utilization for economic production.",
+    "description": "In 2022, the GDP per unit of energy use was 3.04 PPP $ per kg of oil equivalent, reflecting inefficiencies in energy utilization.",
     "year": 2022,
     "indicatorIds": [
       "eg-gdp-puse-ko-pp"
     ],
     "emoji": "💡",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy"
     ]
   },
   {
     "title": "High Energy Use per GDP",
-    "description": "Trinidad and Tobago used 352.40 kg of oil equivalent per $1,000 GDP in 2022, reflecting a high energy consumption rate compared to economic output.",
+    "description": "Trinidad and Tobago used 352.40 kg of oil equivalent per $1,000 GDP in 2022, highlighting a high energy consumption rate for economic activities.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-gd-pp-kd"
     ],
-    "emoji": "⚡",
-    "type": "WORST",
+    "emoji": "🔥",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "climate-change"
     ]
   },
   {
-    "title": "Full Binding Coverage on All Products",
-    "description": "In 2022, Trinidad and Tobago achieved 100% binding coverage on all products, ensuring comprehensive trade commitments under WTO agreements.",
+    "title": "Comprehensive Trade Binding Coverage",
+    "description": "In 2022, Trinidad and Tobago achieved 100% binding coverage for all products, ensuring stable and predictable trade tariffs.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-mrch-bc-zs"
     ],
-    "emoji": "📜",
-    "type": "BEST",
+    "emoji": "📈",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Complete Binding Coverage on Primary Products",
-    "description": "The country maintained a 100% binding coverage on primary products in 2022, securing its trade policies and commitments in the global market.",
+    "title": "Complete Binding Coverage for Primary Products",
+    "description": "The country maintained a 100% binding coverage for primary products in 2022, securing consistent trade terms for essential goods.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-bc-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"

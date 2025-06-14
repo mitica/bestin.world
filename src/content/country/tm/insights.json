@@ -1,13 +1,13 @@
 [
   {
-    "title": "Vast Agricultural Land Coverage",
-    "description": "In 2022, 84.55% of Turkmenistan's land area was dedicated to agriculture, highlighting its significant agricultural potential.",
+    "title": "Extensive Agricultural Land",
+    "description": "In 2022, 84.55% of Turkmenistan's land area was dedicated to agriculture, one of the highest percentages globally.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-agri-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture",
       "climate-change",
@@ -16,26 +16,26 @@
   },
   {
     "title": "High Fossil Fuel Dependency",
-    "description": "As of 2022, Turkmenistan's energy consumption was entirely reliant on fossil fuels, accounting for 100% of its total energy use.",
+    "description": "In 2022, Turkmenistan's energy consumption was entirely reliant on fossil fuels, marking a 100% dependency rate.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-fo-zs"
     ],
     "emoji": "⛽",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy"
     ]
   },
   {
-    "title": "Universal Prenatal Care Coverage",
+    "title": "Universal Prenatal Care",
     "description": "In 2019, 100% of pregnant women in Turkmenistan received prenatal care, ensuring comprehensive maternal health services.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-anvc-zs"
     ],
     "emoji": "🤰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "gender",
@@ -43,54 +43,67 @@
     ]
   },
   {
-    "title": "High Out-of-Pocket Health Expenditure",
-    "description": "In 2022, 79.22% of Turkmenistan's current health expenditure was out-of-pocket, indicating a significant financial burden on individuals.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-xpd-oopc-ch-zs"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Strong Female Labor Force Participation",
-    "description": "By 2024, the ratio of female to male labor force participation in Turkmenistan was 104.66%, showcasing gender parity in employment.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-cact-fm-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "BEST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
     "title": "Minimal Open Defecation in Rural Areas",
-    "description": "In 2018, only 0.0026% of the rural population in Turkmenistan practiced open defecation, reflecting effective sanitation measures.",
+    "description": "By 2018, only 0.0026% of the rural population practiced open defecation, reflecting significant sanitation improvements.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-odfc-ru-zs"
     ],
     "emoji": "🚽",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health",
       "environment"
     ]
   },
   {
-    "title": "Low Renewable Energy Output",
-    "description": "In 2021, renewable energy accounted for a mere 0.01% of Turkmenistan's total electricity output, indicating a need for diversification.",
+    "title": "High Out-of-Pocket Health Expenditure",
+    "description": "In 2022, 79.22% of health expenditures were out-of-pocket, indicating a heavy financial burden on individuals.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-oopc-ch-zs"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Strong Female Labor Force Participation",
+    "description": "In 2024, the female-to-male labor force participation rate was 104.66%, showcasing gender parity in employment.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-cact-fm-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "High Consumption of Iodized Salt",
+    "description": "In 2015, 99.7% of households consumed iodized salt, promoting better nutritional health.",
+    "year": 2015,
+    "indicatorIds": [
+      "sn-itk-salt-zs"
+    ],
+    "emoji": "🧂",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Low Renewable Electricity Output",
+    "description": "In 2021, only 0.011% of Turkmenistan's electricity output was from renewable sources, indicating minimal green energy adoption.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-rnew-zs"
     ],
     "emoji": "🔋",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "energy",
       "climate-change",
@@ -98,121 +111,108 @@
     ]
   },
   {
-    "title": "High Domestic Private Health Expenditure",
-    "description": "In 2022, 84.50% of Turkmenistan's health expenditure was funded privately, highlighting the role of private sector in healthcare.",
+    "title": "Significant Domestic Private Health Expenditure",
+    "description": "In 2022, 84.50% of health expenditures were privately funded, highlighting a reliance on private health financing.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-pvtd-ch-zs"
     ],
     "emoji": "🏥",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Consumption of Iodized Salt",
-    "description": "In 2015, 99.7% of households in Turkmenistan consumed iodized salt, ensuring adequate iodine nutrition across the population.",
-    "year": 2015,
-    "indicatorIds": [
-      "sn-itk-salt-zs"
-    ],
-    "emoji": "🧂",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Limited Control of Corruption",
-    "description": "In 2022, Turkmenistan ranked low in control of corruption with a percentile rank of 0.47, indicating governance challenges.",
-    "year": 2022,
-    "indicatorIds": [
-      "cc-per-rnk-lower"
-    ],
-    "emoji": "⚖️",
-    "type": "WORST",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Voice and Accountability",
-    "description": "In 2023, Turkmenistan's voice and accountability percentile rank was 0.49, reflecting limited political freedoms and civic participation.",
+    "title": "Limited Voice and Accountability",
+    "description": "In 2023, Turkmenistan scored 0.49 in the Voice and Accountability percentile rank, reflecting limited political freedoms.",
     "year": 2023,
     "indicatorIds": [
       "va-per-rnk"
     ],
-    "emoji": "🗣️",
-    "type": "WORST",
+    "emoji": "🔇",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Minimal Female Adolescents Out of School",
-    "description": "In 2022, only 0.02% of female adolescents were out of school in Turkmenistan, indicating high educational retention rates.",
+    "title": "Low Control of Corruption",
+    "description": "In 2022, Turkmenistan's control of corruption ranked at 0.47, indicating challenges in governance and transparency.",
     "year": 2022,
     "indicatorIds": [
-      "se-sec-uner-lo-fe-zs"
+      "cc-per-rnk-lower"
     ],
-    "emoji": "📚",
-    "type": "BEST",
+    "emoji": "🕵️‍♂️",
+    "type": "BAD",
     "topicIds": [
-      "education"
+      "public-sector"
     ]
   },
   {
-    "title": "Significant Merchandise Imports from Europe & Central Asia",
-    "description": "In 2023, 45.24% of Turkmenistan's merchandise imports were from low- and middle-income economies in Europe & Central Asia.",
-    "year": 2023,
-    "indicatorIds": [
-      "tm-val-mrch-r2-zs"
-    ],
-    "emoji": "🚢",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Statistical Performance in Data Services",
-    "description": "In 2023, Turkmenistan scored 0.47 in statistical performance indicators for data services, suggesting room for improvement in data management.",
+    "title": "Limited Statistical Data Services",
+    "description": "In 2023, Turkmenistan scored 0.47 in the Statistical Performance Indicators for data services, suggesting room for improvement in data management.",
     "year": 2023,
     "indicatorIds": [
       "iq-spi-pil2"
     ],
     "emoji": "📊",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Negative Aid Flows from Norway",
-    "description": "In 2019, Turkmenistan experienced negative net bilateral aid flows from Norway, amounting to -$20,000, indicating a financial outflow.",
+    "description": "In 2019, Turkmenistan experienced a net negative aid flow of -$20,000 from Norway, indicating a financial outflow.",
     "year": 2019,
     "indicatorIds": [
       "dc-dac-norl-cd"
     ],
-    "emoji": "🇳🇴",
-    "type": "WORST",
+    "emoji": "🔄",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Positive Official Flows from UN IAEA",
-    "description": "In 2022, Turkmenistan received $13,054 in net official flows from UN IAEA, supporting its nuclear energy initiatives.",
+    "title": "Positive Official Flows from UN Agencies",
+    "description": "In 2022, Turkmenistan received $13,054 from UN agencies, reflecting international support.",
     "year": 2022,
     "indicatorIds": [
       "dt-nfl-iaea-cd"
     ],
-    "emoji": "🔬",
-    "type": "BEST",
+    "emoji": "🌐",
+    "type": "GOOD",
     "topicIds": [
       "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Low Adolescents Out of School Rate",
+    "description": "In 2022, only 0.02% of female adolescents were out of school, highlighting strong educational retention.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-sec-uner-lo-fe-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "High Merchandise Imports from Europe & Central Asia",
+    "description": "In 2023, 45.24% of Turkmenistan's merchandise imports were from Europe & Central Asia, indicating strong regional trade ties.",
+    "year": 2023,
+    "indicatorIds": [
+      "tm-val-mrch-r2-zs"
+    ],
+    "emoji": "🚢",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

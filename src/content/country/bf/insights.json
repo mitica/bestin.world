@@ -1,39 +1,39 @@
 [
   {
     "title": "Limited Social Protection for the Poorest",
-    "description": "In 2021, only 4.68% of the total social protection and labor benefits reached the poorest quintile in Burkina Faso, indicating a significant gap in social safety nets for the most vulnerable.",
+    "description": "In 2021, only 4.68% of total social protection and labor benefits reached the poorest quintile in Burkina Faso, highlighting a significant gap in social safety nets.",
     "year": 2021,
     "indicatorIds": [
       "per_allsp-ben_q1_tot"
     ],
-    "emoji": "🔍",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Minimal Social Insurance Benefits for the Needy",
-    "description": "As of 2018, a mere 3.01% of social insurance benefits were directed towards the poorest quintile, highlighting a critical shortfall in support for the economically disadvantaged.",
+    "title": "Minimal Social Insurance Support for the Needy",
+    "description": "As of 2018, a mere 3.01% of social insurance benefits were allocated to the poorest quintile, indicating limited support for the most vulnerable populations.",
     "year": 2018,
     "indicatorIds": [
       "per_si_allsi-ben_q1_tot"
     ],
-    "emoji": "⚠️",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "High Investment in Tertiary Education",
-    "description": "In 2016, Burkina Faso's government expenditure per tertiary student was 351.47% of GDP per capita, showcasing a strong commitment to higher education funding.",
+    "description": "In 2016, Burkina Faso's government expenditure per tertiary student was 351.47% of GDP per capita, reflecting a strong commitment to higher education.",
     "year": 2016,
     "indicatorIds": [
       "se-xpd-tert-pc-zs"
     ],
-    "emoji": "🎓",
-    "type": "BEST",
+    "emoji": "🟢",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]

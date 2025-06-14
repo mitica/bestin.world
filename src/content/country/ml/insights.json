@@ -1,68 +1,68 @@
 [
   {
-    "title": "High Prevalence of Anemia Among Pregnant Women",
-    "description": "In 2019, 59% of pregnant women in Mali were affected by anemia, indicating a significant public health concern.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-prg-anem"
-    ],
-    "emoji": "🔴",
-    "type": "WORST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Political Stability and High Risk of Violence",
-    "description": "As of 2023, Mali ranks very low in political stability with a percentile rank of 2.84, highlighting ongoing challenges in governance and security.",
+    "title": "Low Political Stability",
+    "description": "In 2023, Mali ranked extremely low in political stability, with a percentile rank of just 2.84, indicating significant challenges in maintaining a peaceful and stable political environment.",
     "year": 2023,
     "indicatorIds": [
       "pv-per-rnk-upper"
     ],
     "emoji": "⚠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Limited Female Autonomy in Health Decisions",
-    "description": "In 2018, only 5.3% of women aged 15-49 in Mali made their own informed decisions regarding sexual and reproductive health.",
+    "title": "Limited Women's Autonomy in Health Decisions",
+    "description": "As of 2018, only 5.3% of women aged 15-49 in Mali made their own informed decisions regarding sexual relations, contraceptive use, and reproductive health care, highlighting a significant gap in women's autonomy.",
     "year": 2018,
     "indicatorIds": [
       "sg-dmk-srcr-fn-zs"
     ],
     "emoji": "🚫",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "gender"
     ]
   },
   {
     "title": "High Acceptance of Domestic Violence",
-    "description": "In 2018, 68.5% of women believed a husband is justified in beating his wife for arguing, and 62.8% for refusing sex, reflecting deep-rooted societal norms.",
+    "description": "In 2018, a staggering 68.5% of women in Mali believed a husband is justified in beating his wife when she argues with him, and 62.8% when she refuses sex, reflecting deeply ingrained societal norms.",
     "year": 2018,
     "indicatorIds": [
       "sg-vaw-argu-zs",
       "sg-vaw-refu-zs"
     ],
-    "emoji": "❌",
-    "type": "WORST",
+    "emoji": "🔴",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
     ]
   },
   {
+    "title": "High Prevalence of Anemia Among Pregnant Women",
+    "description": "In 2019, 59% of pregnant women in Mali suffered from anemia, indicating a critical public health issue that needs urgent attention.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-prg-anem"
+    ],
+    "emoji": "⚕️",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
     "title": "Low Proportion of Older Female Population",
-    "description": "In 2023, only 2.41% of the female population in Mali were aged 50-54, and 1.38% were aged 60-64, indicating a younger demographic profile.",
+    "description": "In 2023, only 2.41% of the female population in Mali were aged 50-54, and just 1.38% were aged 60-64, suggesting a relatively young female demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-5054-fe-5y",
       "sp-pop-6064-fe-5y"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

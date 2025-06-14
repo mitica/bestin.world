@@ -1,67 +1,67 @@
 [
   {
-    "title": "Highest Percentage of Terrestrial Protected Areas",
-    "description": "In 2024, Seychelles had 68.1% of its total land area designated as terrestrial protected areas, showcasing its commitment to conservation and environmental protection.",
+    "title": "High Terrestrial Conservation Efforts",
+    "description": "In 2024, Seychelles dedicated 68.1% of its total land area to terrestrial protected areas, showcasing a strong commitment to environmental conservation.",
     "year": 2024,
     "indicatorIds": [
       "er-lnd-ptld-zs"
     ],
     "emoji": "🌿",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "environment"
     ]
   },
   {
-    "title": "100% Newborns Protected Against Tetanus",
-    "description": "As of 2023, Seychelles achieved a remarkable milestone with 100% of newborns being protected against tetanus, reflecting the country's strong healthcare initiatives.",
+    "title": "Universal Newborn Tetanus Protection",
+    "description": "By 2023, Seychelles achieved a 100% rate of newborns protected against tetanus, ensuring comprehensive healthcare for its youngest citizens.",
     "year": 2023,
     "indicatorIds": [
       "sh-vac-ttns-zs"
     ],
-    "emoji": "🍼",
-    "type": "BEST",
+    "emoji": "👶",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Lowest Aquaculture Production",
-    "description": "In 2017, Seychelles reported an aquaculture production of just 0.1 metric tons, indicating minimal activity in this sector.",
+    "title": "Minimal Aquaculture Production",
+    "description": "In 2017, Seychelles reported an aquaculture production of just 0.1 metric tons, indicating a limited focus or capacity in this sector.",
     "year": 2017,
     "indicatorIds": [
       "er-fsh-aqua-mt"
     ],
     "emoji": "🐟",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Minimal Net Official Aid Received",
-    "description": "Seychelles received $50,000 in net official aid in 2021, one of the lowest amounts globally, suggesting limited reliance on foreign aid.",
-    "year": 2021,
-    "indicatorIds": [
-      "dt-oda-oatl-cd",
-      "dt-oda-oatl-kd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Minimal Aid from Sweden",
-    "description": "In 2017, Seychelles received $9,999.99 in net bilateral aid from Sweden, marking it as one of the lowest recipients of Swedish aid.",
+    "title": "Low Net Bilateral Aid from Sweden",
+    "description": "In 2017, Seychelles received a minimal net bilateral aid flow of approximately $10,000 from Sweden, reflecting limited financial support from this donor.",
     "year": 2017,
     "indicatorIds": [
       "dc-dac-swel-cd"
     ],
     "emoji": "🇸🇪",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Limited Official Aid Received",
+    "description": "In 2021, Seychelles received $50,000 in net official aid, suggesting a relatively low level of international financial assistance.",
+    "year": 2021,
+    "indicatorIds": [
+      "dt-oda-oatl-cd",
+      "dt-oda-oatl-kd"
+    ],
+    "emoji": "💵",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]

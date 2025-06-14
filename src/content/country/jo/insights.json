@@ -1,41 +1,41 @@
 [
   {
-    "title": "Quickest Electrical Connection Setup",
-    "description": "In 2019, Jordan had one of the fastest times to obtain an electrical connection, averaging just 3.8 days.",
-    "year": 2019,
-    "indicatorIds": [
-      "ic-elc-durs"
-    ],
-    "emoji": "⚡",
-    "type": "BEST",
-    "topicIds": [
-      "energy",
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Minimal Land Below Sea Level",
-    "description": "In 2015, only 0.004% of Jordan's total land area was below 5 meters in elevation, indicating minimal risk from rising sea levels.",
+    "title": "Minimal Land Vulnerability to Sea Level Rise",
+    "description": "In 2015, only 0.004% of Jordan's total land area was below 5 meters in elevation, indicating minimal vulnerability to sea level rise.",
     "year": 2015,
     "indicatorIds": [
       "ag-lnd-el5m-zs"
     ],
     "emoji": "🏞️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "environment"
     ]
   },
   {
+    "title": "Efficient Electrical Connection Process",
+    "description": "As of 2019, it took just 3.8 days to obtain an electrical connection in Jordan, showcasing an efficient infrastructure process.",
+    "year": 2019,
+    "indicatorIds": [
+      "ic-elc-durs"
+    ],
+    "emoji": "⚡",
+    "type": "GOOD",
+    "topicIds": [
+      "energy",
+      "private-sector"
+    ]
+  },
+  {
     "title": "High Child Employment in Agriculture",
-    "description": "In 2016, 40.93% of male economically active children aged 7-14 were employed in agriculture, highlighting a significant reliance on child labor in this sector.",
+    "description": "In 2016, 40.93% of economically active male children aged 7-14 were employed in agriculture, highlighting a significant reliance on child labor in this sector.",
     "year": 2016,
     "indicatorIds": [
       "sl-agr-0714-ma-zs"
     ],
     "emoji": "🌾",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
       "gender"
@@ -43,41 +43,99 @@
   },
   {
     "title": "Predominance of Unpaid Family Work Among Female Children",
-    "description": "In 2016, 97.3% of female children in employment aged 7-14 were unpaid family workers, indicating a high level of unpaid labor among young girls.",
+    "description": "A staggering 97.3% of female children in employment aged 7-14 were unpaid family workers in 2016, indicating a lack of formal employment opportunities.",
     "year": 2016,
     "indicatorIds": [
       "sl-fam-0714-fe-zs"
     ],
-    "emoji": "👧",
-    "type": "WORST",
+    "emoji": "👩‍🌾",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Average Working Hours for Male Children",
-    "description": "In 2016, male children aged 7-14 working only averaged 50.53 hours per week, one of the highest globally.",
+    "title": "High Unemployment Among Educated Males",
+    "description": "In 2023, 20.645% of the male labor force with advanced education was unemployed, reflecting challenges in the job market for educated individuals.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-uem-advn-ma-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Significant Child Labor in Manufacturing",
+    "description": "In 2016, 17.53% of economically active male children aged 7-14 were employed in manufacturing, indicating a notable presence of child labor in this industry.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-mnf-0714-ma-zs"
+    ],
+    "emoji": "🏭",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Female Child Employment",
+    "description": "Only 0.4% of female children aged 7-14 were in employment in 2016, suggesting low levels of child labor among females.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-tlf-0714-fe-zs"
+    ],
+    "emoji": "👧",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "High Rate of Study and Work Among Female Children",
+    "description": "In 2016, 97.97% of female children in employment aged 7-14 were involved in both study and work, indicating a dual burden on young girls.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-tlf-0714-sw-fe-zs"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Excessive Working Hours for Male Children",
+    "description": "Male children aged 7-14 worked an average of 50.53 hours per week in 2016, highlighting excessive working conditions.",
     "year": 2016,
     "indicatorIds": [
       "sl-tlf-0714-wk-ma-tm"
     ],
     "emoji": "⏰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Significant Unemployment Among Educated Males",
-    "description": "In 2023, 20.645% of the male labor force with advanced education was unemployed, indicating challenges in the job market for educated males.",
-    "year": 2023,
+    "title": "Low Overall Child Employment",
+    "description": "In 2016, only 1.23% of children aged 7-14 were in employment, reflecting a relatively low rate of child labor.",
+    "year": 2016,
     "indicatorIds": [
-      "sl-uem-advn-ma-zs"
+      "sl-tlf-0714-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "👶",
+    "type": "GOOD",
     "topicIds": [
-      "social-protection"
+      "social-protection",
+      "social-development"
     ]
   }
 ]

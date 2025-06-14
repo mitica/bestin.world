@@ -1,67 +1,67 @@
 [
   {
-    "title": "High Unemployment Rate Among Educated Males",
-    "description": "In 2023, South Africa recorded a 36.179% unemployment rate among males with basic education, one of the highest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-uem-basc-ma-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Significant Unemployment Among Educated Workforce",
-    "description": "The unemployment rate for individuals with basic education reached 38.607% in 2023, indicating a major challenge in the labor market.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-uem-basc-zs"
-    ],
-    "emoji": "📊",
-    "type": "WORST",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Young Age for Starting Lower Secondary Education",
-    "description": "In 2023, South Africa had one of the highest starting ages for lower secondary school at 14 years, potentially impacting early educational development.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-sec-ages"
-    ],
-    "emoji": "🎓",
-    "type": "WORST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Efficient Tax Meeting Requirements",
-    "description": "In 2020, South African firms required an average of just one meeting with tax officials, showcasing an efficient tax administration system.",
-    "year": 2020,
-    "indicatorIds": [
-      "ic-tax-metg"
-    ],
-    "emoji": "💼",
-    "type": "BEST",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "High Private Sector Debt",
-    "description": "In 2023, South Africa's debt from private creditors reached $750 million, indicating a significant reliance on private sector borrowing.",
+    "title": "High Private Debt from Other Creditors",
+    "description": "In 2023, South Africa had a private debt of $750 million from other creditors, marking one of the highest values globally.",
     "year": 2023,
     "indicatorIds": [
       "dt-nfl-prop-cd"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
+    ]
+  },
+  {
+    "title": "Efficient Tax Meetings",
+    "description": "In 2020, South African firms required only one meeting with tax officials on average, showcasing one of the most efficient tax processes worldwide.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-tax-metg"
+    ],
+    "emoji": "🗂️",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "title": "Late Start in Lower Secondary Education",
+    "description": "South Africa's lower secondary school starting age is 14 years as of 2023, one of the latest globally, potentially impacting early educational development.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-sec-ages"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "title": "High Male Unemployment with Basic Education",
+    "description": "In 2023, 36.179% of the male labor force with basic education was unemployed, one of the highest rates globally, indicating challenges in job market integration.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-uem-basc-ma-zs"
+    ],
+    "emoji": "👨‍💼",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Overall High Unemployment with Basic Education",
+    "description": "As of 2023, 38.607% of the total labor force with basic education was unemployed, highlighting significant employment challenges in the country.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-uem-basc-zs"
+    ],
+    "emoji": "📈",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

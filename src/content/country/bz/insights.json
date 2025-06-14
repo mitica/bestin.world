@@ -1,58 +1,44 @@
 [
   {
-    "title": "Minimal Investment in ICT Public-Private Partnerships",
-    "description": "In 2019, Belize recorded an investment of $8.6 million in public-private partnerships for ICT, one of the lowest globally.",
+    "title": "Limited High-Technology Exports",
+    "description": "In 2022, Belize's high-technology exports amounted to just $17, representing a mere 0.00018% of its manufactured exports. This highlights a significant gap in the country's technological advancement and export capabilities.",
+    "year": 2022,
+    "indicatorIds": [
+      "tx-val-tech-cd",
+      "tx-val-tech-mf-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "science",
+      "trade"
+    ]
+  },
+  {
+    "title": "Investment in ICT through Public-Private Partnerships",
+    "description": "In 2019, Belize invested $8.6 million in ICT through public-private partnerships, indicating a commitment to improving its information and communication technology infrastructure.",
     "year": 2019,
     "indicatorIds": [
       "ie-ppn-icti-cd"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "💻",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Low Number of Children Living with HIV",
-    "description": "As of 2022, Belize had 100 children aged 0-14 living with HIV, reflecting one of the lowest figures worldwide.",
+    "title": "Children Living with HIV",
+    "description": "As of 2022, there are 100 children aged 0-14 living with HIV in Belize. This statistic underscores the ongoing public health challenges the country faces in addressing HIV/AIDS.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"
     ],
-    "emoji": "🌟",
-    "type": "BEST",
+    "emoji": "🩺",
+    "type": "BAD",
     "topicIds": [
       "health"
-    ]
-  },
-  {
-    "title": "Negligible High-Technology Exports",
-    "description": "In 2022, Belize's high-technology exports were valued at just $17, marking one of the lowest contributions globally.",
-    "year": 2022,
-    "indicatorIds": [
-      "tx-val-tech-cd"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "science",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Contribution of High-Tech Exports to Manufacturing",
-    "description": "High-technology exports constituted a mere 0.00018% of Belize's manufactured exports in 2022, one of the lowest percentages worldwide.",
-    "year": 2022,
-    "indicatorIds": [
-      "tx-val-tech-mf-zs"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "private-sector",
-      "science",
-      "trade"
     ]
   }
 ]

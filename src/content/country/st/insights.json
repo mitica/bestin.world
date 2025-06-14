@@ -1,53 +1,53 @@
 [
   {
     "title": "High Female Representation in Management",
-    "description": "In 2017, São Tomé and Príncipe had a remarkable 74.19% of senior and middle management positions occupied by females, showcasing a strong gender representation in leadership roles.",
+    "description": "In 2017, São Tomé and Príncipe had a remarkable 74.19% of senior and middle management positions occupied by females, showcasing significant gender inclusivity in leadership roles.",
     "year": 2017,
     "indicatorIds": [
       "sl-emp-smgt-fe-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Significant Urban Open Defecation",
-    "description": "As of 2022, 38.56% of the urban population in São Tomé and Príncipe practiced open defecation, highlighting a critical public health and sanitation challenge.",
+    "title": "High Urban Open Defecation Rates",
+    "description": "As of 2022, 38.56% of the urban population in São Tomé and Príncipe practiced open defecation, indicating a pressing need for improved sanitation infrastructure.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-odfc-ur-zs"
     ],
     "emoji": "🚽",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
     ]
   },
   {
-    "title": "High Youth Unemployment and Inactivity",
-    "description": "In 2024, nearly 48.73% of male youth in São Tomé and Príncipe were not engaged in education, employment, or training, indicating a significant challenge in youth engagement and economic participation.",
+    "title": "Significant Youth Unemployment and Inactivity",
+    "description": "Projected for 2024, 48.73% of male youth in São Tomé and Príncipe are neither in education, employment, nor training, highlighting challenges in youth engagement and employment opportunities.",
     "year": 2024,
     "indicatorIds": [
       "sl-uem-neet-ma-me-zs"
     ],
     "emoji": "🧑‍🎓",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Lowest Insurance and Financial Services Exports",
-    "description": "In 2022, São Tomé and Príncipe's insurance and financial services exports accounted for only 0.0024% of its service exports, one of the lowest globally.",
+    "title": "Minimal Contribution of Insurance and Financial Services to Exports",
+    "description": "In 2022, insurance and financial services accounted for only 0.24% of São Tomé and Príncipe's service exports, indicating a limited role in the country's export economy.",
     "year": 2022,
     "indicatorIds": [
       "bx-gsr-insf-zs"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "private-sector",
@@ -55,41 +55,41 @@
     ]
   },
   {
-    "title": "Minimal Debt Service on External Debt",
-    "description": "In 2023, São Tomé and Príncipe's total debt service on external debt was $6,459,726, indicating a relatively low debt burden compared to other nations.",
+    "title": "High External Debt Service",
+    "description": "In 2023, São Tomé and Príncipe's total debt service on external debt reached $6,459,726, highlighting a significant financial burden on the country's economy.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-dect-cd"
     ],
     "emoji": "💸",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
     "title": "Low Multilateral Debt Service",
-    "description": "São Tomé and Príncipe's multilateral debt service in 2023 was $2,181,422, reflecting a modest level of financial obligations to multilateral institutions.",
+    "description": "The country's multilateral debt service was $2,181,422 in 2023, suggesting a relatively smaller portion of debt obligations owed to multilateral institutions.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-mlat-cd"
     ],
-    "emoji": "🏦",
-    "type": "BEST",
+    "emoji": "📊",
+    "type": "GOOD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
     "title": "Limited Total Reserves",
-    "description": "In 2023, the total reserves of São Tomé and Príncipe, including gold, amounted to $46,247,348, one of the lowest reserve levels globally.",
+    "description": "São Tomé and Príncipe's total reserves, including gold, were valued at $46,247,348 in 2023, reflecting limited financial buffers.",
     "year": 2023,
     "indicatorIds": [
       "fi-res-totl-cd",
       "fi-res-xgld-cd"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector",
@@ -97,81 +97,95 @@
     ]
   },
   {
-    "title": "Low Adjusted Net National Income",
-    "description": "São Tomé and Príncipe's adjusted net national income in 2015 was $183,054,802, indicating a low economic output compared to other countries.",
+    "title": "Minimal Adjusted Net National Income",
+    "description": "The adjusted net national income was $183,054,802 in 2015, indicating a modest economic scale.",
     "year": 2015,
     "indicatorIds": [
       "ny-adj-nnty-kd"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Prevalence of HIV Among Children",
-    "description": "In 2022, approximately 100 children aged 0-14 were living with HIV in São Tomé and Príncipe, highlighting a significant public health challenge.",
+    "title": "Children Living with HIV",
+    "description": "In 2022, there were 100 children aged 0-14 living with HIV, highlighting a public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"
     ],
-    "emoji": "🦠",
-    "type": "WORST",
+    "emoji": "🩺",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "Low Male Employment to Population Ratio",
-    "description": "The employment to population ratio for males aged 15+ in 2024 was 21.826%, one of the lowest globally, indicating limited employment opportunities for men.",
-    "year": 2024,
+    "description": "In 2017, only 22.68% of males aged 15+ were employed, reflecting a low employment rate among men.",
+    "year": 2017,
     "indicatorIds": [
-      "sl-emp-totl-sp-ma-zs"
+      "sl-emp-totl-sp-ma-ne-zs"
     ],
-    "emoji": "👔",
-    "type": "WORST",
+    "emoji": "👨‍💼",
+    "type": "BAD",
     "topicIds": [
-      "social-protection",
-      "gender"
+      "social-protection"
     ]
   },
   {
-    "title": "Low Total Employment to Population Ratio",
-    "description": "In 2024, the total employment to population ratio was 21.382%, reflecting a significant challenge in providing employment opportunities for the population.",
+    "title": "Low Overall Employment to Population Ratio",
+    "description": "The employment to population ratio for individuals aged 15+ was 21.38% in 2024, indicating low overall employment.",
     "year": 2024,
     "indicatorIds": [
       "sl-emp-totl-sp-zs"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "👥",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "Minimal Labor Force Participation",
-    "description": "São Tomé and Príncipe's labor force participation rate for males aged 15-64 in 2024 was 24.065%, one of the lowest globally, indicating limited workforce engagement.",
+    "description": "In 2024, the labor force participation rate for males aged 15+ was 24.01%, showing limited workforce engagement.",
     "year": 2024,
     "indicatorIds": [
-      "sl-tlf-acti-ma-zs"
+      "sl-tlf-cact-ma-zs"
     ],
-    "emoji": "👷",
-    "type": "WORST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
+      "gender",
       "social-development"
     ]
   },
   {
-    "title": "Low Merchandise Exports to East Asia & Pacific",
-    "description": "In 2023, merchandise exports to low- and middle-income economies in East Asia & Pacific accounted for only 0.0019% of São Tomé and Príncipe's total merchandise exports.",
+    "title": "Small Labor Force",
+    "description": "The total labor force was 34,471 in 2024, reflecting a small working population.",
+    "year": 2024,
+    "indicatorIds": [
+      "sl-tlf-totl-in"
+    ],
+    "emoji": "👷‍♂️",
+    "type": "BAD",
+    "topicIds": [
+      "education",
+      "social-protection"
+    ]
+  },
+  {
+    "title": "Negligible Merchandise Exports to East Asia & Pacific",
+    "description": "In 2023, merchandise exports to low- and middle-income economies in East Asia & Pacific accounted for just 0.19% of total exports.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r1-zs"
     ],
-    "emoji": "🚢",
-    "type": "WORST",
+    "emoji": "📦",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"

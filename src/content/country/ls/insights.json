@@ -1,13 +1,13 @@
 [
   {
     "title": "High Dependence on Travel Services",
-    "description": "In 2023, travel services accounted for 73.59% of Lesotho's service imports, indicating a high reliance on this sector.",
+    "description": "In 2023, travel services accounted for 73.59% of Lesotho's service imports, indicating a significant reliance on this sector.",
     "year": 2023,
     "indicatorIds": [
       "bm-gsr-trvl-zs"
     ],
     "emoji": "✈️",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
@@ -15,13 +15,13 @@
   },
   {
     "title": "Low ICT Service Exports",
-    "description": "Lesotho's ICT service exports were valued at only $15,183 in 2023, one of the lowest globally.",
+    "description": "Lesotho's ICT service exports were valued at just $15,183 in 2023, reflecting minimal participation in the global digital economy.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-ccis-cd"
     ],
     "emoji": "💻",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "infrastructure",
@@ -30,65 +30,65 @@
   },
   {
     "title": "Minimal Threatened Fish Species",
-    "description": "As of 2018, Lesotho reported only one threatened fish species, showcasing its relatively low impact on aquatic biodiversity.",
+    "description": "As of 2018, Lesotho had only one fish species classified as threatened, highlighting a relatively stable aquatic ecosystem.",
     "year": 2018,
     "indicatorIds": [
       "en-fsh-thrd-no"
     ],
     "emoji": "🐟",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
     "title": "Low Central Government Debt",
-    "description": "In 2020, Lesotho's central government debt was just 2.99% of GDP, one of the lowest worldwide.",
+    "description": "In 2020, Lesotho's central government debt was only 2.99% of GDP, indicating strong fiscal management.",
     "year": 2020,
     "indicatorIds": [
       "gc-dod-totl-gd-zs"
     ],
     "emoji": "💰",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "public-sector"
     ]
   },
   {
-    "title": "Poor Quality of Business Regulations",
-    "description": "Lesotho scored 36.37 in the Quality of Regulations for Business Location in 2024, indicating challenges in regulatory frameworks.",
+    "title": "Challenges in Business Regulation",
+    "description": "The quality of regulations for business location in Lesotho scored 36.37 in 2024, suggesting room for improvement in the business environment.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bl-p1"
     ],
-    "emoji": "📉",
-    "type": "WORST",
+    "emoji": "🏢",
+    "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "High Female Enrollment in Secondary Education",
-    "description": "In 2017, 57.38% of secondary education pupils were female, highlighting gender inclusivity in education.",
+    "title": "High Female Participation in Secondary Education",
+    "description": "In 2017, 57.38% of pupils in secondary education were female, showcasing gender inclusivity in education.",
     "year": 2017,
     "indicatorIds": [
       "se-sec-enrl-fe-zs"
     ],
     "emoji": "🎓",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "High Female Enrollment in Vocational Education",
-    "description": "Lesotho had 66.59% female enrollment in vocational secondary education in 2017, promoting gender equality in skills training.",
+    "title": "Strong Female Representation in Vocational Training",
+    "description": "66.59% of vocational pupils were female in 2017, indicating a strong female presence in vocational education.",
     "year": 2017,
     "indicatorIds": [
       "se-sec-enrl-vo-fe-zs"
     ],
     "emoji": "🔧",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
@@ -96,13 +96,13 @@
   },
   {
     "title": "Limited Rural Handwashing Facilities",
-    "description": "Only 3.55% of the rural population had access to basic handwashing facilities in 2022, indicating significant hygiene challenges.",
+    "description": "Only 3.55% of the rural population had access to basic handwashing facilities in 2022, highlighting a critical public health issue.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-hygn-ru-zs"
     ],
-    "emoji": "🚱",
-    "type": "WORST",
+    "emoji": "🚰",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
@@ -110,13 +110,13 @@
   },
   {
     "title": "High Female Mortality from Unintentional Poisoning",
-    "description": "In 2021, the mortality rate for females due to unintentional poisoning was 3.1 per 100,000, among the highest globally.",
+    "description": "The mortality rate for females due to unintentional poisoning was 3.1 per 100,000 in 2021, indicating a significant health concern.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-pois-p5-fe"
     ],
     "emoji": "☠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
@@ -124,26 +124,26 @@
   },
   {
     "title": "High Suicide Mortality Rate",
-    "description": "Lesotho had a suicide mortality rate of 28.66 per 100,000 in 2021, one of the highest in the world.",
+    "description": "In 2021, Lesotho had a suicide mortality rate of 28.66 per 100,000, reflecting a serious mental health challenge.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-suic-p5"
     ],
-    "emoji": "🕊️",
-    "type": "WORST",
+    "emoji": "🧠",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "High Mortality from Unsafe Water and Sanitation",
-    "description": "In 2019, the mortality rate due to unsafe water and sanitation was 108.1 per 100,000, highlighting severe public health issues.",
+    "description": "The mortality rate due to unsafe water and sanitation was 108.1 per 100,000 in 2019, underscoring a major public health issue.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-wash-p5"
     ],
-    "emoji": "🚰",
-    "type": "WORST",
+    "emoji": "🚱",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
@@ -151,13 +151,13 @@
   },
   {
     "title": "Significant Female Employment in Industry",
-    "description": "In 2023, 38.52% of female employment was in the industry sector, indicating a strong female workforce presence.",
+    "description": "In 2023, 38.52% of female employment was in the industry sector, highlighting women's participation in industrial jobs.",
     "year": 2023,
     "indicatorIds": [
       "sl-ind-empl-fe-zs"
     ],
     "emoji": "🏭",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection",
       "gender"
@@ -165,13 +165,13 @@
   },
   {
     "title": "High Adult Female Mortality Rate",
-    "description": "The adult female mortality rate was 361.61 per 1,000 in 2023, reflecting significant health challenges.",
+    "description": "The adult female mortality rate was 361.61 per 1,000 in 2023, indicating significant health challenges for women.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-fe"
     ],
     "emoji": "⚕️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
@@ -179,13 +179,13 @@
   },
   {
     "title": "High Adult Male Mortality Rate",
-    "description": "In 2023, the adult male mortality rate was 470.60 per 1,000, indicating severe health issues among males.",
+    "description": "In 2023, the adult male mortality rate was 470.60 per 1,000, reflecting severe health issues among men.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-ma"
     ],
     "emoji": "⚕️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "gender"
@@ -193,27 +193,27 @@
   },
   {
     "title": "High Imports from Sub-Saharan Africa",
-    "description": "In 2023, 84.96% of Lesotho's merchandise imports came from Sub-Saharan Africa, showing strong regional trade ties.",
+    "description": "84.96% of Lesotho's merchandise imports in 2023 came from Sub-Saharan Africa, indicating strong regional trade ties.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-r6-zs"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "High Dependence on Travel Services for Commercial Imports",
-    "description": "Travel services made up 74.87% of commercial service imports in 2023, underscoring a significant reliance on this sector.",
+    "title": "Dependence on Travel Services for Commercial Imports",
+    "description": "Travel services constituted 74.87% of Lesotho's commercial service imports in 2023, showing a heavy reliance on this sector.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-trvl-zs-wt"
     ],
     "emoji": "✈️",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"

@@ -1,13 +1,13 @@
 [
   {
-    "title": "Minimal Contribution from International Tourism",
-    "description": "In 2019, Guinea-Bissau's international tourism receipts for passenger transport items were among the lowest globally, amounting to just $19,999.99.",
-    "year": 2019,
+    "title": "Minimal Contribution from Manufacturing Exports",
+    "description": "In 2015, Guinea-Bissau's manufacturing exports constituted only 0.00009% of its total merchandise exports, indicating a negligible role in the country's export economy.",
+    "year": 2015,
     "indicatorIds": [
-      "st-int-trnr-cd"
+      "tx-val-manf-zs-un"
     ],
-    "emoji": "🌍",
-    "type": "WORST",
+    "emoji": "🔻",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
@@ -15,27 +15,27 @@
   },
   {
     "title": "High Dependency on Food Imports",
-    "description": "In 2018, food imports constituted 41.71% of Guinea-Bissau's total merchandise imports, indicating a significant reliance on foreign food sources.",
+    "description": "In 2018, food imports accounted for 41.71% of Guinea-Bissau's total merchandise imports, highlighting a significant reliance on external sources for food supplies.",
     "year": 2018,
     "indicatorIds": [
       "tm-val-food-zs-un"
     ],
     "emoji": "🍽️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Negligible Manufacturing Export Sector",
-    "description": "In 2015, manufactured goods made up a mere 0.00009% of Guinea-Bissau's merchandise exports, highlighting a minimal manufacturing industry.",
-    "year": 2015,
+    "title": "Limited Revenue from International Tourism",
+    "description": "In 2019, Guinea-Bissau generated approximately $20,000 from international tourism receipts for passenger transport, reflecting a minimal contribution to the economy.",
+    "year": 2019,
     "indicatorIds": [
-      "tx-val-manf-zs-un"
+      "st-int-trnr-cd"
     ],
-    "emoji": "🏭",
-    "type": "WORST",
+    "emoji": "✈️",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"

@@ -7,7 +7,7 @@
       "ic-frm-femm-zs"
     ],
     "emoji": "👩‍💼",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "gender"
@@ -15,79 +15,79 @@
   },
   {
     "title": "Comprehensive Birth Registration in Urban Areas",
-    "description": "By 2019, Thailand achieved a 100% completeness rate in birth registration for urban areas, ensuring all births are officially recorded.",
+    "description": "As of 2019, Thailand achieved a 100% completeness rate in urban birth registration, ensuring all urban births are officially recorded.",
     "year": 2019,
     "indicatorIds": [
       "sp-reg-brth-ur-zs"
     ],
     "emoji": "📝",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
     "title": "Effective Social Insurance Programs",
-    "description": "In 2021, social insurance programs in Thailand covered 92.99% of the total welfare needs of beneficiary households, reflecting a robust social safety net.",
+    "description": "In 2021, social insurance programs in Thailand covered 92.99% of the total welfare of beneficiary households, indicating robust social support systems.",
     "year": 2021,
     "indicatorIds": [
       "per_si_allsi-adq_pop_tot"
     ],
     "emoji": "🛡️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "Minimal Health Expenditure-Induced Poverty",
-    "description": "In 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, indicating effective health cost management.",
+    "description": "By 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, reflecting effective health care policies.",
     "year": 2021,
     "indicatorIds": [
       "sh-uhc-nop2-zs"
     ],
     "emoji": "💊",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Tariff Complexity on Manufactured Goods",
-    "description": "In 2015, only 0.00045% of Thailand's tariff lines for manufactured products had specific rates, simplifying trade regulations.",
+    "title": "Low Proportion of Time on Unpaid Domestic Work for Women",
+    "description": "In 2015, Thai women spent 11.04% of their day on unpaid domestic and care work, one of the lowest globally, suggesting a more balanced domestic workload.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-tim-uwrk-fe"
+    ],
+    "emoji": "🏠",
+    "type": "GOOD",
+    "topicIds": [
+      "gender"
+    ]
+  },
+  {
+    "title": "Minimal Tariff Lines with Specific Rates on Manufactured Products",
+    "description": "In 2015, only 0.00045% of Thailand's tariff lines on manufactured products had specific rates, indicating a liberal trade policy.",
     "year": 2015,
     "indicatorIds": [
       "tm-tax-manf-sr-zs"
     ],
     "emoji": "📉",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Limited Support from UNIDO",
-    "description": "In 2020, Thailand experienced a net negative flow of -$2,096.82 from UNIDO, indicating limited financial support from this UN agency.",
+    "title": "Negative Net Official Flows from UNIDO",
+    "description": "In 2020, Thailand experienced a net outflow of $2,096.82 from UNIDO, suggesting a need for improved international financial relations.",
     "year": 2020,
     "indicatorIds": [
       "dt-nfl-unido-cd"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": []
-  },
-  {
-    "title": "High Female Unpaid Domestic Work",
-    "description": "In 2015, Thai women spent 11.04% of their day on unpaid domestic and care work, highlighting gender disparities in household responsibilities.",
-    "year": 2015,
-    "indicatorIds": [
-      "sg-tim-uwrk-fe"
-    ],
-    "emoji": "🏠",
-    "type": "WORST",
-    "topicIds": [
-      "gender"
-    ]
   }
 ]

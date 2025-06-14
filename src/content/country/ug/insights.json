@@ -1,78 +1,78 @@
 [
   {
     "title": "High Carbon Sequestration from Forest Land",
-    "description": "In 2022, Uganda's forest land absorbed a net total of 43.07 Mt CO2e, showcasing its significant role in carbon sequestration.",
+    "description": "In 2022, Uganda's forest land sequestered 43.07 Mt CO2e, showcasing its significant role in carbon absorption.",
     "year": 2022,
     "indicatorIds": [
       "en-ghg-co2-lu-fl-mt-ce-ar5"
     ],
     "emoji": "🌳",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Coverage of Social Protection Programs",
+    "title": "Limited Social Protection Coverage",
     "description": "As of 2016, only 1.52% of Uganda's population was covered by social protection and labor programs, indicating a need for expansion.",
     "year": 2016,
     "indicatorIds": [
       "per_allsp-cov_pop_tot"
     ],
-    "emoji": "🚫",
-    "type": "WORST",
+    "emoji": "🛡️",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "Minimal Social Safety Net Coverage",
-    "description": "In 2016, just 0.66% of Uganda's population benefited from social safety net programs, highlighting a gap in social welfare.",
+    "description": "In 2016, social safety net programs covered just 0.66% of Uganda's population, highlighting a gap in social welfare.",
     "year": 2016,
     "indicatorIds": [
       "per_sa_allsa-cov_pop_tot"
     ],
-    "emoji": "🔍",
-    "type": "WORST",
+    "emoji": "🧺",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Limited Social Insurance for the Poorest",
-    "description": "Only 0.03% of the poorest quintile in Uganda had access to social insurance programs in 2016, reflecting a significant disparity.",
+    "title": "Low Social Safety Net Coverage in Poorest Quintile",
+    "description": "Only 0.46% of the poorest quintile in Uganda was covered by social safety net programs in 2016, underscoring inequality in welfare distribution.",
     "year": 2016,
     "indicatorIds": [
-      "per_si_allsi-cov_q1_tot"
+      "per_sa_allsa-cov_q1_tot"
     ],
-    "emoji": "⚠️",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Effective Malaria Treatment for Children",
-    "description": "In 2019, 62.5% of children under age 5 with fever in Uganda received antimalarial drugs, demonstrating effective healthcare intervention.",
+    "title": "Moderate Antimalarial Treatment for Children",
+    "description": "In 2019, 62.5% of children under age 5 with fever received antimalarial drugs, reflecting moderate healthcare access.",
     "year": 2019,
     "indicatorIds": [
       "sh-mlr-tret-zs"
     ],
     "emoji": "💊",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Prevalence of Female Genital Mutilation",
-    "description": "By 2016, the prevalence of female genital mutilation in Uganda was at a low 0.3%, indicating progress in women's rights.",
+    "title": "Low Female Genital Mutilation Prevalence",
+    "description": "As of 2016, female genital mutilation prevalence in Uganda was at a low 0.3%, indicating progress in women's rights.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-fgms-zs"
     ],
     "emoji": "🚺",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

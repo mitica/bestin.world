@@ -1,14 +1,26 @@
 [
   {
     "title": "High Rate of Intentional Homicides",
-    "description": "In 2021, Jamaica recorded 95.58 intentional homicides per 100,000 males and 52.13 per 100,000 people, marking one of the highest rates globally.",
+    "description": "In 2021, Jamaica recorded 52.13 intentional homicides per 100,000 people, one of the highest rates globally.",
     "year": 2021,
     "indicatorIds": [
-      "vc-ihr-psrc-ma-p5",
       "vc-ihr-psrc-p5"
     ],
     "emoji": "🔴",
-    "type": "WORST",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Elevated Male Homicide Rate",
+    "description": "Jamaica's male population experienced a homicide rate of 95.58 per 100,000 in 2021, indicating a significant safety concern.",
+    "year": 2021,
+    "indicatorIds": [
+      "vc-ihr-psrc-ma-p5"
+    ],
+    "emoji": "⚠️",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]

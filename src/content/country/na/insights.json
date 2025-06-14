@@ -1,13 +1,13 @@
 [
   {
     "title": "High Dependency on Communication Services Imports",
-    "description": "In 2023, Namibia's service imports consisted of 86.19% communications, computer, and related services, indicating a significant reliance on these sectors.",
+    "description": "In 2023, Namibia's service imports were dominated by communications and computer services, accounting for 86.19% of the total. This indicates a significant reliance on foreign technology and services.",
     "year": 2023,
     "indicatorIds": [
       "bm-gsr-cmcp-zs"
     ],
     "emoji": "📡",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "trade"
@@ -15,52 +15,42 @@
   },
   {
     "title": "Late Start for Lower Secondary Education",
-    "description": "Namibia has one of the highest starting ages for lower secondary school at 14 years as of 2023, potentially impacting early educational development.",
+    "description": "Namibia has one of the highest starting ages for lower secondary education globally, with children beginning at 14 years old as of 2023. This could impact early educational development.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-ages"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
     "title": "High Income Inequality",
-    "description": "With a Gini index of 59.1 in 2015, Namibia ranks among the countries with the highest income inequality globally.",
+    "description": "In 2015, the Gini index for Namibia was 59.1, indicating significant income inequality. The highest 20% of earners held 63.7% of the income, while the lowest 40% held only 15.6%.",
     "year": 2015,
     "indicatorIds": [
-      "si-pov-gini"
-    ],
-    "emoji": "⚖️",
-    "type": "WORST",
-    "topicIds": [
-      "poverty"
-    ]
-  },
-  {
-    "title": "Concentration of Wealth Among Top Earners",
-    "description": "In 2015, the top 20% of earners in Namibia held 63.7% of the income, highlighting significant wealth concentration.",
-    "year": 2015,
-    "indicatorIds": [
-      "si-dst-05th-20"
+      "si-pov-gini",
+      "si-dst-05th-20",
+      "si-dst-02nd-20",
+      "si-dst-03rd-20"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "poverty"
     ]
   },
   {
     "title": "Balanced Sex Ratio at Birth",
-    "description": "Namibia's sex ratio at birth was 1.011 male births per female births in 2023, indicating a balanced gender ratio at birth.",
+    "description": "Namibia's sex ratio at birth was 1.011 male births per female birth in 2023, indicating a balanced gender ratio at birth.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-brth-mf"
     ],
     "emoji": "👶",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

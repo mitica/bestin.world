@@ -1,26 +1,26 @@
 [
   {
     "title": "Highest Percentage of Permanent Cropland",
-    "description": "In 2022, 60% of Tuvalu's land area was dedicated to permanent cropland, marking it as the highest percentage globally.",
+    "description": "In 2022, 60% of Tuvalu's land area was dedicated to permanent cropland, the highest percentage in the world.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-crop-zs"
     ],
     "emoji": "🌾",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Top Recipient of Net ODA as a Percentage of GNI",
-    "description": "Tuvalu received net official development assistance (ODA) amounting to 79.85% of its Gross National Income (GNI) in 2022, the highest percentage worldwide.",
+    "title": "Most Dependent on Foreign Aid",
+    "description": "Tuvalu received net official development assistance (ODA) amounting to 79.85% of its Gross National Income (GNI) in 2022, indicating a high dependency on foreign aid.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-gn-zs"
     ],
-    "emoji": "💰",
-    "type": "BEST",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness",
       "economy",
@@ -28,27 +28,27 @@
     ]
   },
   {
-    "title": "Leading in Net ODA Received Relative to Imports",
-    "description": "In 2022, Tuvalu's net ODA was 110.18% of its imports of goods, services, and primary income, the highest ratio globally.",
+    "title": "Highest ODA as a Percentage of Imports",
+    "description": "In 2022, Tuvalu's net ODA was 110.18% of its imports of goods, services, and primary income, the highest globally, highlighting its reliance on external financial support.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-mp-zs"
     ],
     "emoji": "📦",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Highest Net ODA Received Per Capita",
-    "description": "Tuvalu received $6,361.09 per capita in net ODA in 2022, the highest amount per person globally.",
+    "title": "Top ODA Received Per Capita",
+    "description": "With a net ODA of $6,361.09 per capita in 2022, Tuvalu received the highest amount of aid per person in the world.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-odat-pc-zs"
     ],
     "emoji": "👥",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "aid-effectiveness",
       "economy",
@@ -56,27 +56,70 @@
     ]
   },
   {
-    "title": "Lowest Nitrous Oxide Emissions from Industrial Processes",
-    "description": "In 2023, Tuvalu recorded a minimal nitrous oxide emission of 0.0001 Mt CO2e from industrial processes, showcasing its low industrial pollution levels.",
+    "title": "Low Nitrous Oxide Emissions",
+    "description": "In 2023, Tuvalu reported minimal nitrous oxide emissions from industrial processes and waste, each at 0.0001 Mt CO2e, indicating a low environmental footprint.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-n2o-ip-mt-ce-ar5"
+      "en-ghg-n2o-ip-mt-ce-ar5",
+      "en-ghg-n2o-wa-mt-ce-ar5"
     ],
-    "emoji": "🌿",
-    "type": "BEST",
+    "emoji": "🌍",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Minimal Population Size",
-    "description": "As of 2023, Tuvalu's total population was recorded at just 9,816, making it one of the least populated countries globally.",
+    "title": "Minimal Threatened Bird Species",
+    "description": "As of 2018, Tuvalu had only one bird species classified as threatened, reflecting a relatively stable avian biodiversity.",
+    "year": 2018,
+    "indicatorIds": [
+      "en-bir-thrd-no"
+    ],
+    "emoji": "🦜",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "title": "High Dependency on Imports",
+    "description": "In 2022, Tuvalu's imports of goods and services totaled $57,387,705, significantly outweighing its exports, which stood at $2,231,923.",
+    "year": 2022,
+    "indicatorIds": [
+      "bm-gsr-gnfs-cd",
+      "bx-gsr-gnfs-cd"
+    ],
+    "emoji": "📦",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "title": "Limited Access to Safe Drinking Water",
+    "description": "In 2022, only 10.47% of Tuvalu's urban population had access to safely managed drinking water services, highlighting a critical public health challenge.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-h2o-smdw-ur-zs"
+    ],
+    "emoji": "🚰",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Small Population Size",
+    "description": "Tuvalu's total population was recorded at 9,816 in 2023, making it one of the smallest countries by population globally.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-totl"
     ],
     "emoji": "👥",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "health"
@@ -84,108 +127,41 @@
   },
   {
     "title": "Low Mobile Cellular Subscriptions",
-    "description": "In 2021, Tuvalu had only 9,000 mobile cellular subscriptions, indicating limited mobile network penetration.",
+    "description": "In 2021, Tuvalu had 9,000 mobile cellular subscriptions, indicating limited telecommunications infrastructure.",
     "year": 2021,
     "indicatorIds": [
       "it-cel-sets"
     ],
     "emoji": "📱",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Limited Secondary Education Enrollment",
-    "description": "In 2023, only 1,252 students were enrolled in secondary education, reflecting challenges in educational access.",
+    "title": "High Gross National Income (GNI)",
+    "description": "In 2023, Tuvalu's GNI, using the Atlas method, was $86,040,855, reflecting a relatively strong economic position for its size.",
     "year": 2023,
     "indicatorIds": [
-      "se-sec-enrl"
-    ],
-    "emoji": "🎓",
-    "type": "WORST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Dependency on Imports",
-    "description": "In 2022, Tuvalu's imports of goods and services totaled $57,387,705, highlighting its reliance on external sources for goods and services.",
-    "year": 2022,
-    "indicatorIds": [
-      "bm-gsr-gnfs-cd"
-    ],
-    "emoji": "🚢",
-    "type": "WORST",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Threatened Bird Species",
-    "description": "As of 2018, only one bird species in Tuvalu was classified as threatened, indicating a relatively stable avian biodiversity.",
-    "year": 2018,
-    "indicatorIds": [
-      "en-bir-thrd-no"
-    ],
-    "emoji": "🦜",
-    "type": "BEST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Urban Access to Safe Drinking Water",
-    "description": "In 2022, only 10.47% of Tuvalu's urban population had access to safely managed drinking water services, highlighting a significant public health challenge.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-h2o-smdw-ur-zs"
-    ],
-    "emoji": "🚰",
-    "type": "WORST",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Minimal Nitrous Oxide Emissions from Waste",
-    "description": "Tuvalu recorded a negligible nitrous oxide emission of 0.0001 Mt CO2e from waste in 2023, reflecting its low waste-related pollution levels.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-n2o-wa-mt-ce-ar5"
-    ],
-    "emoji": "♻️",
-    "type": "BEST",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low GDP in Current US$",
-    "description": "In 2023, Tuvalu's GDP was $62,280,311, indicating a small economy with limited economic output.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gdp-mktp-cd"
+      "ny-gnp-atls-cd"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Minimal Out-of-Pocket Health Expenditure",
-    "description": "In 2022, out-of-pocket health expenditure accounted for only 0.37% of current health expenditure, suggesting a low financial burden on individuals for healthcare.",
-    "year": 2022,
+    "title": "Low Secondary Education Enrollment",
+    "description": "In 2023, only 1,252 pupils were enrolled in secondary education, suggesting challenges in educational access and infrastructure.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-xpd-oopc-ch-zs"
+      "se-sec-enrl"
     ],
-    "emoji": "🏥",
-    "type": "BEST",
+    "emoji": "🎓",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "education"
     ]
   }
 ]

@@ -1,81 +1,81 @@
 [
   {
-    "title": "Lowest CO2 Emissions from Fugitive Energy Sources",
-    "description": "In 2023, Ethiopia recorded one of the lowest CO2 emissions from fugitive energy sources globally, with a value of just 0.0001 Mt CO2e.",
+    "title": "Minimal Carbon Emissions from Energy Fugitive Sources",
+    "description": "In 2023, Ethiopia recorded a minimal carbon dioxide emission of 0.0001 Mt CO2e from fugitive energy sources, showcasing its low environmental footprint in this sector.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-fe-mt-ce-ar5"
     ],
     "emoji": "🌍",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Minimal Urban Population in Large Cities",
-    "description": "As of 2024, only 4.32% of Ethiopia's population lived in urban agglomerations of more than 1 million, indicating a predominantly rural demographic.",
+    "title": "Low Urbanization in Major Cities",
+    "description": "As of 2024, only 4.32% of Ethiopia's population resides in urban agglomerations with over 1 million people, indicating a predominantly rural demographic.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty-tl-zs"
     ],
     "emoji": "🏞️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "climate-change",
       "urban-development"
     ]
   },
   {
-    "title": "Longest Lead Time to Export",
-    "description": "In 2018, Ethiopia had one of the longest lead times to export, with a median of 60 days, highlighting logistical challenges in trade.",
+    "title": "Extended Lead Time for Exports",
+    "description": "In 2018, the median lead time to export goods from Ethiopia was 60 days, reflecting logistical challenges in international trade.",
     "year": 2018,
     "indicatorIds": [
       "lp-exp-durs-md"
     ],
     "emoji": "⏳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "trade",
       "private-sector"
     ]
   },
   {
-    "title": "High Investment in Tertiary Education",
-    "description": "In 2015, Ethiopia allocated 47.85% of its government education expenditure to tertiary education, reflecting a strong commitment to higher education.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-xpd-tert-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BEST",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Female Doctoral Attainment",
-    "description": "By 2021, only 0.006% of Ethiopian females aged 25+ had attained a doctoral or equivalent level of education, indicating gender disparities in higher education.",
+    "title": "Limited Female Doctoral Education",
+    "description": "By 2021, only 0.0065% of Ethiopian females aged 25+ had attained a doctoral or equivalent level of education, highlighting gender disparities in higher education.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-cuat-do-fe-zs"
     ],
-    "emoji": "📚",
-    "type": "WORST",
+    "emoji": "🎓",
+    "type": "BAD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
+    "title": "Significant Investment in Tertiary Education",
+    "description": "In 2015, Ethiopia allocated 47.85% of its education budget to tertiary education, emphasizing a strong commitment to higher education development.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-xpd-tert-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
     "title": "Limited Access to Basic Sanitation",
-    "description": "In 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, highlighting significant public health challenges.",
+    "description": "As of 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, indicating a critical area for infrastructure improvement.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-bass-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health",
       "environment"
@@ -83,34 +83,34 @@
   },
   {
     "title": "Low Male Employment as Employers",
-    "description": "As of 2023, only 0.15% of employed Ethiopian males were employers, suggesting limited entrepreneurial opportunities.",
+    "description": "In 2023, only 0.15% of Ethiopian males were employers, suggesting limited entrepreneurial opportunities or business ownership among men.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-ma-zs"
     ],
     "emoji": "👔",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection",
       "gender"
     ]
   },
   {
-    "title": "Low Overall Employment as Employers",
-    "description": "In 2023, just 0.13% of Ethiopia's total employment was comprised of employers, indicating a small entrepreneurial sector.",
+    "title": "Overall Low Employer Rate",
+    "description": "By 2023, only 0.13% of the total Ethiopian workforce were employers, reflecting a low rate of business ownership across the population.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-zs"
     ],
     "emoji": "🏢",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
     "title": "Incomplete Birth Registration",
-    "description": "In 2016, only 2.7% of births in Ethiopia were registered, pointing to significant gaps in civil registration systems.",
+    "description": "In 2016, only 2.7% of births in Ethiopia were officially registered, indicating significant gaps in civil registration systems.",
     "year": 2016,
     "indicatorIds": [
       "sp-reg-brth-zs",
@@ -119,7 +119,7 @@
       "sp-reg-brth-ru-zs"
     ],
     "emoji": "📝",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]

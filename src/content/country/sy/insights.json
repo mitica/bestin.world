@@ -1,27 +1,27 @@
 [
   {
     "title": "High Carbon Dioxide Damage Impact",
-    "description": "In 2020, Syria's adjusted savings due to carbon dioxide damage accounted for 9.85% of its GNI, indicating significant environmental challenges.",
+    "description": "In 2020, carbon dioxide damage accounted for 9.85% of Syria's GNI, indicating significant environmental challenges.",
     "year": 2020,
     "indicatorIds": [
       "ny-adj-dco2-gn-zs"
     ],
     "emoji": "🌍",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Lowest Political Stability",
+    "title": "Low Political Stability",
     "description": "Syria's political stability estimate in 2023 was -2.75, reflecting ongoing challenges with violence and terrorism.",
     "year": 2023,
     "indicatorIds": [
       "pv-est"
     ],
     "emoji": "⚠️",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
@@ -34,78 +34,90 @@
       "se-ter-enrl-tc-zs"
     ],
     "emoji": "📚",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Significant Merchandise Exports to MENA",
+    "title": "Significant Merchandise Exports to MENA Region",
     "description": "In 2023, 58.07% of Syria's merchandise exports were directed to low- and middle-income economies in the Middle East & North Africa.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r4-zs"
     ],
     "emoji": "📦",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "Minimal Public Debt Burden",
-    "description": "In 2020, Syria's public and publicly guaranteed debt service was just 0.00002% of its GNI, indicating a low debt burden.",
-    "year": 2020,
-    "indicatorIds": [
-      "dt-tds-dppg-gn-zs"
-    ],
-    "emoji": "💰",
-    "type": "BEST",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "High Youth Population",
-    "description": "In 2023, 11.66% of Syria's male population and 11.38% of its female population were aged 20-24, highlighting a significant youth demographic.",
+    "title": "Low Control of Corruption",
+    "description": "In 2023, Syria's control of corruption percentile rank was 0.47, indicating significant governance challenges.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-2024-ma-5y",
-      "sp-pop-2024-fe-5y"
+      "cc-per-rnk"
     ],
-    "emoji": "👶",
-    "type": "BEST",
+    "emoji": "🔍",
+    "type": "BAD",
     "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Government Consumption Growth",
-    "description": "In 2022, Syria experienced a -49.42% growth in general government final consumption expenditure, indicating economic challenges.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-con-govt-kd-zg"
-    ],
-    "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
+      "public-sector"
     ]
   },
   {
     "title": "Minimal Mineral Depletion Impact",
-    "description": "In 2018, mineral depletion accounted for a negligible 0.00000178% of Syria's GNI, suggesting limited resource extraction.",
+    "description": "In 2018, mineral depletion accounted for a negligible 0.00000178% of Syria's GNI, suggesting sustainable resource use.",
     "year": 2018,
     "indicatorIds": [
       "ny-adj-dmin-gn-zs"
     ],
     "emoji": "⛏️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "energy",
       "environment"
+    ]
+  },
+  {
+    "title": "High Dependency on UNRWA Flows",
+    "description": "In 2022, Syria received $50.6 million in net official flows from UNRWA, highlighting reliance on international aid.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-nfl-unrw-cd"
+    ],
+    "emoji": "🤝",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "title": "Minimal Debt Service Burden",
+    "description": "In 2020, public and publicly guaranteed debt service was only 0.00002% of Syria's GNI, indicating a low debt burden.",
+    "year": 2020,
+    "indicatorIds": [
+      "dt-tds-dppg-gn-zs"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "title": "Negative Government Consumption Growth",
+    "description": "In 2022, Syria experienced a -49.42% growth in general government final consumption expenditure, reflecting economic contraction.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-govt-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

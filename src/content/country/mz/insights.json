@@ -1,68 +1,68 @@
 [
   {
-    "title": "High Dependency on Transport Services",
-    "description": "In 2023, transport services accounted for 76.91% of Mozambique's service exports, indicating a significant reliance on this sector for economic activity.",
+    "title": "Dominant Transport Service Sector",
+    "description": "In 2023, Mozambique's transport services accounted for 76.91% of its service exports, the highest percentage globally, highlighting the sector's significance to the country's economy.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-tran-zs"
     ],
     "emoji": "🚢",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "trade"
     ]
   },
   {
-    "title": "Extremely High External Debt",
-    "description": "Mozambique's external debt reached 349.68% of its Gross National Income in 2023, highlighting a critical financial vulnerability.",
+    "title": "High External Debt Burden",
+    "description": "Mozambique's external debt stocks reached 349.68% of its GNI in 2023, marking the highest ratio worldwide and indicating a significant financial challenge.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-dect-gn-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "external-debt"
     ]
   },
   {
-    "title": "High Compensation of Employees",
-    "description": "In 2022, 62.02% of Mozambique's government expenses were allocated to employee compensation, reflecting a significant portion of budgetary spending.",
+    "title": "Significant Government Employee Compensation",
+    "description": "In 2022, 62.02% of Mozambique's government expenses were allocated to employee compensation, the highest globally, reflecting a substantial public sector wage bill.",
     "year": 2022,
     "indicatorIds": [
       "gc-xpn-comp-zs"
     ],
     "emoji": "💼",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Lengthy Customs Clearance for Exports",
-    "description": "As of 2018, it took an average of 39.3 days to clear exports through customs in Mozambique, indicating inefficiencies in trade logistics.",
+    "title": "Prolonged Export Customs Clearance",
+    "description": "In 2018, the average time to clear exports through customs in Mozambique was 39.3 days, the longest duration worldwide, indicating inefficiencies in trade facilitation.",
     "year": 2018,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
     "emoji": "⏳",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
-    "title": "High Primary Education Enrollment for Males",
-    "description": "In 2018, the gross intake ratio for males in the first grade of primary education was 173.88%, suggesting over-enrollment or repeat rates.",
+    "title": "High Primary Education Intake for Males",
+    "description": "Mozambique had a gross intake ratio of 173.88% for males entering the first grade of primary education in 2018, the highest globally, suggesting over-age or repeat enrollments.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-gint-ma-zs"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
@@ -70,52 +70,52 @@
   },
   {
     "title": "Low Income for Bottom 40% of Population",
-    "description": "In 2019, the bottom 40% of Mozambique's population had a mean consumption of $0.74 per day, indicating significant poverty levels.",
+    "description": "In 2019, the bottom 40% of Mozambique's population had a mean consumption of $0.74 per day, the lowest globally, highlighting severe income inequality and poverty.",
     "year": 2019,
     "indicatorIds": [
       "si-spr-pc40"
     ],
-    "emoji": "💵",
-    "type": "WORST",
+    "emoji": "📉",
+    "type": "BAD",
     "topicIds": [
       "poverty"
     ]
   },
   {
     "title": "Low Overall Income Levels",
-    "description": "The average daily income per capita in Mozambique was $2.3 in 2019, reflecting widespread economic challenges.",
+    "description": "The total population's mean consumption in Mozambique was $2.30 per day in 2019, the lowest globally, underscoring widespread poverty.",
     "year": 2019,
     "indicatorIds": [
       "si-spr-pcap"
     ],
     "emoji": "💰",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "poverty"
     ]
   },
   {
-    "title": "Low Proportion of Older Male Population",
-    "description": "In 2023, only 1.00% of Mozambique's male population was aged 60-64, suggesting a younger demographic profile.",
+    "title": "Minimal Elderly Male Population",
+    "description": "In 2023, only 1.00% of Mozambique's male population was aged 60-64, the lowest percentage worldwide, reflecting demographic challenges.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-6064-ma-5y"
     ],
     "emoji": "👴",
-    "type": "BEST",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Moderate Voice and Accountability",
-    "description": "With 14 sources contributing to the Voice and Accountability index in 2023, Mozambique shows moderate levels of civic engagement and freedom of expression.",
+    "title": "Diverse Sources for Voice and Accountability",
+    "description": "Mozambique had 14 sources for voice and accountability in 2023, the highest globally, indicating a diverse range of perspectives in governance.",
     "year": 2023,
     "indicatorIds": [
       "va-no-src"
     ],
     "emoji": "🗣️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]

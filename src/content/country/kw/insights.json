@@ -1,94 +1,52 @@
 [
   {
-    "title": "Strongest Current Account Balance",
-    "description": "In 2023, Kuwait's current account balance was 31.40% of its GDP, showcasing its robust economic position globally.",
+    "title": "Strong Current Account Balance",
+    "description": "In 2023, Kuwait's current account balance was 31.40% of GDP, indicating a robust surplus compared to other nations.",
     "year": 2023,
     "indicatorIds": [
       "bn-cab-xoka-gd-zs"
     ],
-    "emoji": "💪",
-    "type": "BEST",
+    "emoji": "💹",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Highest Internet Usage Among Females",
-    "description": "In 2023, 100% of the female population in Kuwait used the internet, indicating widespread digital access.",
-    "year": 2023,
-    "indicatorIds": [
-      "it-net-user-fe-zs"
-    ],
-    "emoji": "🌐",
-    "type": "BEST",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Universal Access to Sanitation Services",
-    "description": "By 2022, 100% of Kuwait's population had access to safely managed sanitation services, reflecting high public health standards.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-sta-smss-zs"
-    ],
-    "emoji": "🚽",
-    "type": "BEST",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Lowest Vulnerable Employment Among Females",
-    "description": "In 2023, only 0.02% of female employment in Kuwait was considered vulnerable, highlighting strong job security for women.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-emp-vuln-fe-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "BEST",
-    "topicIds": [
-      "social-protection",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
     "title": "High Water Stress Levels",
-    "description": "In 2021, Kuwait faced significant water stress, with freshwater withdrawal at 3850.5% of available resources, indicating severe water scarcity.",
+    "description": "As of 2021, Kuwait's freshwater withdrawal was 3850.5% of its available resources, highlighting significant water stress challenges.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwst-zs"
     ],
     "emoji": "🚱",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Negative Taxes Less Subsidies on Products",
-    "description": "In 2023, Kuwait recorded -$10.67 billion in taxes less subsidies on products, reflecting a unique fiscal structure.",
+    "title": "Universal Internet Access for Women",
+    "description": "In 2023, 100% of the female population in Kuwait used the internet, showcasing excellent digital inclusivity.",
+    "year": 2023,
+    "indicatorIds": [
+      "it-net-user-fe-zs"
+    ],
+    "emoji": "🌐",
+    "type": "GOOD",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "title": "Negative Tax Revenue",
+    "description": "In 2023, Kuwait reported a negative value of -$10.67 billion in taxes less subsidies on products, indicating fiscal challenges.",
     "year": 2023,
     "indicatorIds": [
       "ny-tax-nind-cd"
     ],
     "emoji": "📉",
-    "type": "WORST",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Secondary Income Receipts",
-    "description": "Kuwait's secondary income receipts were at $6.01 million in 2023, one of the lowest globally, indicating limited income from abroad.",
-    "year": 2023,
-    "indicatorIds": [
-      "bx-trf-curr-cd"
-    ],
-    "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
@@ -101,20 +59,62 @@
       "pa-nus-fcrf"
     ],
     "emoji": "💱",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Low Population of Young Males",
-    "description": "In 2023, males aged 20-24 constituted only 4.20% of the male population, indicating a demographic trend towards an older population.",
+    "title": "Efficient Sanitation Services",
+    "description": "By 2022, 100% of Kuwait's population had access to safely managed sanitation services, ensuring public health and hygiene.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-smss-zs"
+    ],
+    "emoji": "🚽",
+    "type": "GOOD",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "title": "Low Vulnerable Employment for Women",
+    "description": "In 2023, only 0.02% of female employment in Kuwait was considered vulnerable, indicating strong job security for women.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-vuln-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Youthful Male Population",
+    "description": "In 2023, 4.20% of Kuwait's male population was aged 20-24, reflecting a youthful demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-2024-ma-5y"
     ],
-    "emoji": "👨‍🦳",
-    "type": "WORST",
+    "emoji": "👦",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Mature Male Workforce",
+    "description": "In 2023, 13.04% of Kuwait's male population was aged 40-44, indicating a mature and experienced workforce.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-4044-ma-5y"
+    ],
+    "emoji": "👨‍💼",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

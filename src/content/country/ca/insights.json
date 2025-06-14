@@ -1,40 +1,40 @@
 [
   {
-    "title": "Top Female Secondary School Enrollment",
-    "description": "In 2017, Canada achieved a remarkable milestone with a 100% net enrollment rate for females in secondary education, showcasing its commitment to gender equality in education.",
+    "title": "Top Global Health Service Coverage",
+    "description": "In 2021, Canada achieved a UHC service coverage index of 91, placing it among the highest globally for universal health coverage.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-uhc-srvs-cv-xd"
+    ],
+    "emoji": "🏥",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Full Female Secondary School Enrollment",
+    "description": "As of 2017, Canada reported a 100% net enrollment rate for females in secondary education, indicating full participation.",
     "year": 2017,
     "indicatorIds": [
       "se-sec-nenr-fe"
     ],
     "emoji": "📚",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Comprehensive Universal Health Coverage",
-    "description": "As of 2021, Canada boasts a UHC service coverage index of 91, reflecting its robust healthcare system that provides extensive services to its citizens.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-uhc-srvs-cv-xd"
-    ],
-    "emoji": "🏥",
-    "type": "BEST",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
     "title": "Significant Portfolio Equity Outflows",
-    "description": "In 2023, Canada experienced a net outflow of portfolio equity amounting to $35.8 billion, indicating challenges in attracting foreign investment.",
+    "description": "In 2023, Canada experienced a net outflow of portfolio equity amounting to -$35.8 billion, reflecting a substantial capital movement out of the country.",
     "year": 2023,
     "indicatorIds": [
       "bx-pef-totl-cd-wd"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector",

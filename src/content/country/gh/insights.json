@@ -1,100 +1,126 @@
 [
   {
-    "title": "Strong Rule of Law",
-    "description": "In 2023, Ghana had 16 sources confirming its strong rule of law, indicating a robust legal framework and enforcement mechanisms.",
+    "title": "Strong Rule of Law Framework",
+    "description": "In 2023, Ghana had 16 sources contributing to its Rule of Law assessment, indicating a robust legal framework and adherence to legal principles.",
     "year": 2023,
     "indicatorIds": [
       "rl-no-src"
     ],
     "emoji": "⚖️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Efficient Labor Regulations",
-    "description": "Ghana's labor regulations and public services were highly efficient in 2024, scoring 91.08 in operational efficiency, one of the highest globally.",
+    "description": "Ghana scored 91.08 in 2024 for the operational efficiency of labor regulations, showcasing a conducive environment for workforce management.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-lb-p3"
     ],
     "emoji": "👷‍♂️",
-    "type": "BEST",
+    "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Quality Business Location Regulations",
-    "description": "In 2024, Ghana scored 87.58 for its quality of regulations for business locations, making it a favorable environment for businesses.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bl-p1"
-    ],
-    "emoji": "🏢",
-    "type": "BEST",
-    "topicIds": []
-  },
-  {
-    "title": "Significant Social Safety Net Benefits",
-    "description": "In 2016, 57.56% of Ghana's social safety net benefits were directed towards the poorest quintile, showcasing a strong focus on social equity.",
+    "title": "High Benefit Incidence for Poorest Quintile",
+    "description": "In 2016, 57.56% of social safety net benefits in Ghana were directed to the poorest quintile, reflecting a strong focus on social equity.",
     "year": 2016,
     "indicatorIds": [
       "per_sa_allsa-ben_q1_tot"
     ],
-    "emoji": "🛡️",
-    "type": "BEST",
+    "emoji": "🤝",
+    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Voice and Accountability",
-    "description": "With 14 sources in 2023, Ghana demonstrated a high level of voice and accountability, reflecting a vibrant democratic environment.",
+    "title": "Quality Regulations for Business Location",
+    "description": "Ghana achieved a score of 87.58 in 2024 for the quality of regulations concerning business locations, highlighting a favorable business environment.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p1"
+    ],
+    "emoji": "🏢",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "title": "Effective Government Operations",
+    "description": "In 2023, Ghana's government effectiveness was evaluated using 13 sources, indicating a well-functioning public sector.",
     "year": 2023,
     "indicatorIds": [
-      "va-no-src"
+      "ge-no-src"
     ],
-    "emoji": "🗣️",
-    "type": "BEST",
+    "emoji": "🏛️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Other Taxes as Percentage of Revenue",
-    "description": "In 2022, Ghana had a negative percentage of -4.26% for other taxes as a share of revenue, indicating a potential area for fiscal improvement.",
+    "title": "Low Standard Error in Rule of Law",
+    "description": "With a standard error of 0.139 in 2023, Ghana's Rule of Law assessments are consistent, reflecting reliability in legal evaluations.",
+    "year": 2023,
+    "indicatorIds": [
+      "rl-std-err"
+    ],
+    "emoji": "📏",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "High Control of Corruption",
+    "description": "In 2023, 15 sources were used to assess Ghana's control of corruption, indicating a strong stance against corrupt practices.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-no-src"
+    ],
+    "emoji": "🚫",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "title": "Low Business Entry Score",
+    "description": "Ghana's overall score for business entry was 40.98 in 2024, suggesting challenges in starting new businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-be-os"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "title": "Negative Other Taxes Contribution",
+    "description": "In 2022, other taxes contributed negatively to Ghana's revenue, with a value of -4.26% of total revenue, indicating fiscal challenges.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-othr-rv-zs"
     ],
     "emoji": "💸",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
     "title": "Negative Other Taxes in Local Currency",
-    "description": "Ghana recorded a negative value of -4.12 billion in other taxes in 2022, suggesting challenges in tax collection or fiscal policy.",
+    "description": "Ghana's other taxes in 2022 amounted to -4.11 billion in local currency, reflecting a significant fiscal deficit.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-othr-cn"
     ],
     "emoji": "📉",
-    "type": "WORST",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
-  },
-  {
-    "title": "Moderate Business Entry Score",
-    "description": "In 2024, Ghana's business entry score was 40.99, indicating room for improvement in facilitating new business ventures.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-be-os"
-    ],
-    "emoji": "🏢",
-    "type": "WORST",
-    "topicIds": []
   }
 ]
