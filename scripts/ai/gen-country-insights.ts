@@ -83,18 +83,18 @@ export async function generate() {
     const fileName = `src/content/country/${country.id}/insights.json`;
     let hasUpdates = false;
     let insights: InsightInfo[] | undefined = undefined;
-    // if (await fileExists(fileName)) {
-    //   const data = await readFile(fileName, "utf-8");
-    //   const insightLocal: InsightInfo[] = JSON.parse(data);
-    //   hasUpdates = getTopicIds(insightLocal, indicators);
-    //   if (!hasUpdates) {
-    //     console.log(
-    //       `Insights file already exists for ${country.name} (${country.id}), skipping...`
-    //     );
-    //     continue;
-    //   }
-    //   insights = insightLocal;
-    // }
+    if (await fileExists(fileName)) {
+      const data = await readFile(fileName, "utf-8");
+      const insightLocal: InsightInfo[] = JSON.parse(data);
+      hasUpdates = getTopicIds(insightLocal, indicators);
+      if (!hasUpdates) {
+        console.log(
+          `Insights file already exists for ${country.name} (${country.id}), skipping...`
+        );
+        continue;
+      }
+      insights = insightLocal;
+    }
     const values = await getValues(country.id);
     insights = insights || (await getInsights(country, indicators, values));
     await createFolderIfNotExists(`src/content/country/${country.id}`);

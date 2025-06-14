@@ -74,40 +74,44 @@ const TopWorstCountries = Object.entries(worstCountries)
 ---
 
 <Layout title={`Topic: ${topic.name}`}>
-  <article>
-    <h2>{topic.name} Unicorns 🦄</h2>
-    <ul>
-      {
-        TopBestCountries.map(({ countryId, insights }) => {
-          const country = getCountry(countryId);
-          const emojies = insights.map((insight) => insight.emoji);
-          const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
-          return (
-            <li>
-              <a href={`/${country.slug}`}>{country.name}</a>: {insights.length}{" "}
-              insights {uniqueEmojis}
-            </li>
-          );
-        })
-      }
-    </ul>
-    <h3>{topic.name} Stragglers 🐌</h3>
-    <ul>
-      {
-        TopWorstCountries.map(({ countryId, insights }) => {
-          const country = getCountry(countryId);
-          const emojies = insights.map((insight) => insight.emoji);
-          const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
-          return (
-            <li>
-              <a href={`/${country.slug}`}>
-                {country.name}: {insights.length} insights
-              </a>{" "}
-              {uniqueEmojis}
-            </li>
-          );
-        })
-      }
-    </ul>
-  </article>
+  <div class="md:grid md:grid-cols-2 md:gap-4 items-center">
+    <div class="flex flex-col gap-2 items-center pb-4 md:items-end">
+      <h2>{topic.name} Unicorns 🦄</h2>
+      <ul class="flex flex-col md:items-end">
+        {
+          TopBestCountries.map(({ countryId, insights }) => {
+            const country = getCountry(countryId);
+            const emojies = insights.map((insight) => insight.emoji);
+            const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
+            return (
+              <li>
+                <a href={`/${country.slug}`}>{country.name}</a>:{" "}
+                {insights.length} insights {uniqueEmojis}
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+    <div class="flex flex-col gap-2 items-center pb-4 md:items-start">
+      <h2>{topic.name} Stragglers 🐌</h2>
+      <ul>
+        {
+          TopWorstCountries.map(({ countryId, insights }) => {
+            const country = getCountry(countryId);
+            const emojies = insights.map((insight) => insight.emoji);
+            const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
+            return (
+              <li>
+                <a href={`/${country.slug}`}>
+                  {country.name}: {insights.length} insights
+                </a>{" "}
+                {uniqueEmojis}
+              </li>
+            );
+          })
+        }
+      </ul>
+    </div>
+  </div>
 </Layout>

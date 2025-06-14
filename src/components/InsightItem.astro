@@ -10,7 +10,7 @@ const { title, description, emoji, topics } = Astro.props as InsightInfo & {
   {emoji}
   {title}
 </h4>
-<p class="secondary">{description}</p>
+<p class="text-secondary">{description}</p>
 <p class="topics">
   {topics.map((topic) => <a href={`/${topic.id}`}>{topic.name}</a>)}
 </p>
