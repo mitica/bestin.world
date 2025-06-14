@@ -29,10 +29,10 @@ const relatedInsights = countryInsights
   .flat()
   .filter((insight) => insight.topicIds.includes(topic.id));
 const bestInsights = relatedInsights.filter(
-  (insight) => insight.type === "BEST"
+  (insight) => insight.type === "GOOD"
 );
 const worstInsights = relatedInsights.filter(
-  (insight) => insight.type === "WORST"
+  (insight) => insight.type === "BAD"
 );
 const bestCountries = bestInsights.reduce(
   (acc, insight) => {

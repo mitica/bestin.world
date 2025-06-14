@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+header, footer {
+  background-color: var(--bg-color);
+  padding: 1rem 0;
+  text-align: center;
+}
+footer {
+  color: var(--secondary-color);
+}
+main {
+  padding: 2rem 0;
+}

@@ -60,7 +60,7 @@ export interface InsightInfo {
   indicatorIds: string[];
   year: number;
   emoji: string;
-  type: "BEST" | "WORST";
+  type: "GOOD" | "BAD";
   topicIds?: string[];
 }
 

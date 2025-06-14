@@ -23,14 +23,14 @@ const getTopic = (id: string) => {
 };
 
 const bestIn = tops
-  .filter((it) => it.type === "BEST")
+  .filter((it) => it.type === "GOOD")
   .sort((a, b) => b.year - a.year)
   .map((item) => ({
     ...item,
     topics: item.topicIds.map(getTopic)
   }));
 const worstIn = tops
-  .filter((it) => it.type === "WORST")
+  .filter((it) => it.type === "BAD")
   .sort((a, b) => b.year - a.year)
   .map((item) => ({
     ...item,
@@ -41,8 +41,8 @@ const worstIn = tops
 <Layout title={`Country: ${country.name}`}>
   <article>
     <h2>{country.name} in the Lead</h2>
-    <InsightList list={bestIn} type="BEST" />
+    <InsightList list={bestIn} type="GOOD" />
     <h2>{country.name} Falling Behind</h2>
-    <InsightList list={worstIn} type="WORST" />
+    <InsightList list={worstIn} type="BAD" />
   </article>
 </Layout>

@@ -57,7 +57,7 @@ const countryInsights = defineCollection({
       description: z.string().min(10).max(1000),
       emoji: z.string().min(1).max(50),
       year: z.number().int(),
-      type: z.enum(["BEST", "WORST"]),
+      type: z.enum(["GOOD", "BAD"]),
       topicIds: z.array(z.string())
     })
   )

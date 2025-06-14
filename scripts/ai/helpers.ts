@@ -35,7 +35,7 @@ const execute = async (
 - year - year of statistics
 - indicatorIds - input indicator ids the title was generated from
 - emoji
-- type = BEST, WORST
+- type = GOOD, BAD - if the indicator is good or bad for the country
 
 Country: ${input.country}
 Input Indicators:
@@ -83,7 +83,7 @@ indicatorIds may contain multiple ids, if the title is based on multiple indicat
                   emoji: { type: "string" },
                   type: {
                     type: "string",
-                    enum: ["BEST", "WORST"]
+                    enum: ["GOOD", "BAD"]
                   }
                 },
                 required: [

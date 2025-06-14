@@ -6,7 +6,7 @@ const { list, type } = Astro.props as {
   list: (InsightInfo & {
     topics: TopicInfo[];
   })[];
-  type: "BEST" | "WORST";
+  type: "GOOD" | "BAD";
 };
 ---
 
@@ -24,11 +24,24 @@ const { list, type } = Astro.props as {
         </li>
       ))
   }
-  {!list.length && <li>No tops available</li>}
+  {
+    !list.length && (
+      <li>
+        {type === "BAD"
+          ? "Oh no! No best insights found for this country."
+          : "Good news! No worst insights found for this country."}
+      </li>
+    )
+  }
 </ul>
+{list.length > 0 && <p class="source">Based on World Bank data</p>}
 
 <style>
   ul {
     margin-bottom: 1rem;
+  }
+  .source {
+    font-size: 0.8rem;
+    color: var(--secondary-color);
   }
 </style>
