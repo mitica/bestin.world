@@ -1,0 +1,34 @@
+---
+import type { InsightInfo, TopicInfo } from "../content/common/types";
+import InsightItem from "./InsightItem.astro";
+
+const { list, type } = Astro.props as {
+  list: (InsightInfo & {
+    topics: TopicInfo[];
+  })[];
+  type: "BEST" | "WORST";
+};
+---
+
+<ul>
+  {
+    list.length > 0 &&
+      list.map((item) => (
+        <li>
+          <InsightItem
+            title={item.title}
+            description={item.description}
+            emoji={item.emoji}
+            topics={item.topics}
+          />
+        </li>
+      ))
+  }
+  {!list.length && <li>No tops available</li>}
+</ul>
+
+<style>
+  ul {
+    margin-bottom: 1rem;
+  }
+</style>

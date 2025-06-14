@@ -1,4 +1,6 @@
 ---
+import InsightItem from "../components/InsightItem.astro";
+import InsightList from "../components/InsightList.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 
@@ -16,60 +18,31 @@ const [tops, topics] = await Promise.all([
   getCollection("topics")
 ]);
 
-const bestIn =
-  tops.filter((it) => it.type === "BEST").sort((a, b) => b.year - a.year) || [];
-const worstIn =
-  tops.filter((it) => it.type === "WORST").sort((a, b) => b.year - a.year) ||
-  [];
-
 const getTopic = (id: string) => {
   return topics.find((topic) => topic.id === id)!.data;
 };
+
+const bestIn = tops
+  .filter((it) => it.type === "BEST")
+  .sort((a, b) => b.year - a.year)
+  .map((item) => ({
+    ...item,
+    topics: item.topicIds.map(getTopic)
+  }));
+const worstIn = tops
+  .filter((it) => it.type === "WORST")
+  .sort((a, b) => b.year - a.year)
+  .map((item) => ({
+    ...item,
+    topics: item.topicIds.map(getTopic)
+  }));
 ---
 
 <Layout title={`Country: ${country.name}`}>
   <article>
-    <h1>{country.name}</h1>
-    <h3>Best In</h3>
-    <ul>
-      {
-        bestIn.length > 0 &&
-          bestIn.map((item) => (
-            <li>
-              <h4>
-                {item.emoji}
-                {item.title} ({item.year})
-              </h4>
-              <p>{item.description}</p>
-              <p>
-                {item.topicIds.map(getTopic).map((topic) => (
-                  <a href={`/${topic.id}`}>{topic.name}</a>
-                ))}
-              </p>
-            </li>
-          ))
-      }
-      {!bestIn.length && <li>No tops available</li>}
-    </ul>
-    <h3>Worst In</h3>
-    <ul>
-      {
-        worstIn.length > 0 &&
-          worstIn.map((item) => (
-            <li>
-              <h4>
-                {item.emoji} {item.title} ({item.year})
-              </h4>
-              <p>{item.description}</p>
-              <p>
-                {item.topicIds.map(getTopic).map((topic) => (
-                  <a href={`/${topic.id}`}>{topic.name}</a>
-                ))}
-              </p>
-            </li>
-          ))
-      }
-      {!worstIn.length && <li>No bottoms available</li>}
-    </ul>
+    <h2>{country.name} in the Lead</h2>
+    <InsightList list={bestIn} type="BEST" />
+    <h2>{country.name} Falling Behind</h2>
+    <InsightList list={worstIn} type="WORST" />
   </article>
 </Layout>
