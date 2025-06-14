@@ -42,14 +42,14 @@ Input Indicators:
 ${input.indicators
   .map(
     (indicator) =>
-      `- ${indicator.name} (id=${indicator.id}; year=${indicator.year}; value=${indicator.value}; type=${indicator.type})`
+      `- ${indicator.name} (id=${indicator.id}; year=${indicator.year}; value=${indicator.value}; type=${indicator.type}, World Bank ID=${indicator.wbid})`
   )
   .join("\n")}
 
 ----
 
-indicator.type = max = Highest values in the world
-indicator.type = min = Lowest values in the world
+indicator.type = max = Highest value in the world
+indicator.type = min = Lowest value in the world
 
 Take into account all ${count} input indicators.
 indicatorIds may contain multiple ids, if the title is based on multiple indicators.
