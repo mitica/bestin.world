@@ -20,7 +20,7 @@ const { list, className, itemClassName } = Astro.props as Input;
       const uniqueEmojis = Array.from(new Set(emojies)).slice(0, 5).join(" ");
       return (
         <a
-          href={`/${country.slug}`}
+          href={`/${country.slug}/`}
           class={classNames(
             "truncate flex items-center gap-2",
             itemClassName,

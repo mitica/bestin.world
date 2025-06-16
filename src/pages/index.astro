@@ -17,14 +17,18 @@ const insights = countryInsights
     }))
   )
   .flat();
+const title = "Exceptional Countries";
+const description =
+  "Explore the best and worst performers across global indicators.";
+const canonical = "/";
 ---
 
-<Layout title={"Exceptional Countries"}>
+<Layout title={title} description={description} canonical={canonical}>
   <div class="flex flex-col gap-4">
     <div>
-      <h2 class="text-center">Exceptional Countries</h2>
+      <h2 class="text-center">{title}</h2>
       <p class="text-center text-gray-500 text-sm">
-        Exploring the best and worst performers across global indicators
+        {description}
       </p>
     </div>
     <BestWorstCountries insights={insights} countries={countries} />

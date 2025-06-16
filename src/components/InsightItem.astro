@@ -13,7 +13,7 @@ const { item, topics } = Astro.props as {
 </h4>
 <p class="text-secondary">{item.description}</p>
 <p class="topics">
-  {topics.map((topic) => <a href={`/${topic.id}`}>{topic.name}</a>)}
+  {topics.map((topic) => <a href={`/${topic.id}/`}>{topic.name}</a>)}
 </p>
 
 <style>
