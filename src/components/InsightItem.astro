@@ -1,16 +1,17 @@
 ---
 import type { InsightInfo, TopicInfo } from "../content/common/types";
 
-const { title, description, emoji, topics } = Astro.props as InsightInfo & {
+const { item, topics } = Astro.props as {
+  item: InsightInfo;
   topics: TopicInfo[];
 };
 ---
 
 <h4>
-  {emoji}
-  {title}
+  {item.emoji}
+  {item.title}
 </h4>
-<p class="text-secondary">{description}</p>
+<p class="text-secondary">{item.description}</p>
 <p class="topics">
   {topics.map((topic) => <a href={`/${topic.id}`}>{topic.name}</a>)}
 </p>
@@ -18,11 +19,11 @@ const { title, description, emoji, topics } = Astro.props as InsightInfo & {
 <style>
   .topics {
     display: flex;
-		flex-wrap: wrap;
-		gap: 0.5rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
 
   .topics a {
-		display: inline-block;
+    display: inline-block;
   }
 </style>

@@ -1,4 +1,5 @@
 ---
+import CountryInsightsList from "../components/CountryInsightsList.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
@@ -45,11 +46,15 @@ const bestCountries = bestInsights.reduce(
   },
   {} as Record<string, (typeof bestInsights)[0][]>
 );
+const count = (items: (typeof bestInsights)[0][]) =>
+  items
+    .map((item) => item.indicatorIds.length)
+    .reduce((sum, count) => sum + count, 0);
 const TopBestCountries = Object.entries(bestCountries)
-  .sort(([, a], [, b]) => b.length - a.length)
+  .sort(([, a], [, b]) => count(b) - count(a))
   .slice(0, 10)
   .map(([countryId, insights]) => ({
-    countryId,
+    country: getCountry(countryId),
     insights
   }));
 
@@ -65,53 +70,37 @@ const worstCountries = worstInsights.reduce(
   {} as Record<string, (typeof worstInsights)[0][]>
 );
 const TopWorstCountries = Object.entries(worstCountries)
-  .sort(([, a], [, b]) => b.length - a.length)
+  .sort(([, a], [, b]) => count(b) - count(a))
   .slice(0, 10)
   .map(([countryId, insights]) => ({
-    countryId,
+    country: getCountry(countryId),
     insights
   }));
 ---
 
 <Layout title={`Topic: ${topic.name}`}>
-  <div class="md:grid md:grid-cols-2 md:gap-4 items-center">
-    <div class="flex flex-col gap-2 items-center pb-4 md:items-end">
-      <h2>{topic.name} Unicorns 🦄</h2>
-      <ul class="flex flex-col md:items-end">
-        {
-          TopBestCountries.map(({ countryId, insights }) => {
-            const country = getCountry(countryId);
-            const emojies = insights.map((insight) => insight.emoji);
-            const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
-            return (
-              <li>
-                <a href={`/${country.slug}`}>{country.name}</a>:{" "}
-                {insights.length} insights {uniqueEmojis}
-              </li>
-            );
-          })
-        }
-      </ul>
-    </div>
-    <div class="flex flex-col gap-2 items-center pb-4 md:items-start">
-      <h2>{topic.name} Stragglers 🐌</h2>
-      <ul>
-        {
-          TopWorstCountries.map(({ countryId, insights }) => {
-            const country = getCountry(countryId);
-            const emojies = insights.map((insight) => insight.emoji);
-            const uniqueEmojis = Array.from(new Set(emojies)).join(" ");
-            return (
-              <li>
-                <a href={`/${country.slug}`}>
-                  {country.name}: {insights.length} insights
-                </a>{" "}
-                {uniqueEmojis}
-              </li>
-            );
-          })
-        }
-      </ul>
+  <div class="flex flex-col gap-4">
+    <h2 class="text-center text-gray-600">{topic.name} – The Extremes</h2>
+    <div class="sm:grid sm:grid-cols-2 gap-4 sm:items-start">
+      <div class="flex flex-col gap-2 items-center pb-8 sm:items-end">
+        <h3 class="flex gap-2 text-good">
+          <span>Unicorns</span><span>🦄</span>
+        </h3>
+        <CountryInsightsList
+          list={TopBestCountries}
+          className="flex flex-col items-center sm:items-end text-lg gap-1"
+          itemClassName="sm:flex-row-reverse"
+        />
+      </div>
+      <div class="flex flex-col gap-2 items-center pb-8 sm:items-start">
+        <h3 class="flex sm:flex-row-reverse gap-2 text-bad">
+          <span>Stragglers</span><span>🐌</span>
+        </h3>
+        <CountryInsightsList
+          list={TopWorstCountries}
+          className="flex flex-col text-lg gap-1 items-center sm:items-start"
+        />
+      </div>
     </div>
   </div>
 </Layout>

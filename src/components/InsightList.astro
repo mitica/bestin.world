@@ -15,19 +15,14 @@ const { list, type } = Astro.props as {
     list.length > 0 &&
       list.map((item) => (
         <li>
-          <InsightItem
-            title={item.title}
-            description={item.description}
-            emoji={item.emoji}
-            topics={item.topics}
-          />
+          <InsightItem item={item} topics={item.topics} />
         </li>
       ))
   }
   {
     !list.length && (
-      <li>
-        {type === "BAD"
+      <li class={type === "GOOD" ? "text-bad" : "text-good"}>
+        {type === "GOOD"
           ? "Oh no! No best insights found for this country."
           : "Good news! No worst insights found for this country."}
       </li>

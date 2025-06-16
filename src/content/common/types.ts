@@ -55,6 +55,7 @@ export interface IndicatorCountryValue {
 }
 
 export interface InsightInfo {
+  name: string;
   title: string;
   description: string;
   indicatorIds: string[];

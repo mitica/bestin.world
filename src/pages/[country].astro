@@ -39,10 +39,14 @@ const worstIn = tops
 ---
 
 <Layout title={`Country: ${country.name}`}>
-  <article>
-    <h2>{country.name} in the Lead</h2>
-    <InsightList list={bestIn} type="GOOD" />
-    <h2>{country.name} Falling Behind</h2>
-    <InsightList list={worstIn} type="BAD" />
-  </article>
+  <div class="flex flex-col gap-4">
+    <div>
+      <h2 class="text-good">{country.name} in the Lead</h2>
+      <InsightList list={bestIn} type="GOOD" />
+    </div>
+    <div>
+      <h2 class="text-bad">{country.name} Falling Behind</h2>
+      <InsightList list={worstIn} type="BAD" />
+    </div>
+  </div>
 </Layout>

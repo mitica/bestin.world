@@ -1,4 +1,5 @@
 import removeAccents from "remove-accents";
+import { twMerge, type ClassNameValue } from "tailwind-merge";
 
 export const createFolderIfNotExists = async (path: string) => {
   const fs = await import("fs/promises");
@@ -36,3 +37,7 @@ export const slugify = (text: string): string => {
 export const toTopicId = (name: string): string => {
   return slugify(name.trim().split("&")[0].trim());
 };
+
+export function classNames(...inputs: ClassNameValue[]) {
+  return twMerge(inputs);
+}

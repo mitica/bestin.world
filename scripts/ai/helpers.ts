@@ -31,11 +31,12 @@ const execute = async (
   const count = input.indicators.length;
   const prompt = `Below are indicators about a country. I need from you to generate a list of insights so that the viewer would understand country's strengths and weaknesses in the world.
 - title, i.e. Most powerful army. No emoji
+- name - very short & engaging/funny, no emoji. It should describe the nation. Reading only the name must be enough to understand the insight. i.e "In army we trust", "Education is easy", ...
 - description - describes the title with numbers and dates in 1 or 2 sentences. No emoji
 - year - year of statistics
 - indicatorIds - input indicator ids the title was generated from
 - emoji
-- type = GOOD, BAD - if the indicator is good or bad for the country
+- type = GOOD, BAD - if the indicator is good or bad for the country. If it's neutral, use GOOD.
 
 Country: ${input.country}
 Input Indicators:
@@ -52,7 +53,9 @@ indicator.type = max = Highest value in the world
 indicator.type = min = Lowest value in the world
 
 Take into account all ${count} input indicators.
+Group initial indicators into insights, so that each insight is based on multiple indicators only where it's possible & makes sense.
 indicatorIds may contain multiple ids, if the title is based on multiple indicators.
+Having all input indicator ids into indicatorIds is a must.
 `;
 
   const response = await openai.chat.completions.create({
@@ -73,6 +76,7 @@ indicatorIds may contain multiple ids, if the title is based on multiple indicat
               items: {
                 type: "object",
                 properties: {
+                  name: { type: "string" },
                   title: { type: "string" },
                   description: { type: "string" },
                   year: { type: "integer" },
@@ -87,6 +91,7 @@ indicatorIds may contain multiple ids, if the title is based on multiple indicat
                   }
                 },
                 required: [
+                  "name",
                   "title",
                   "description",
                   "year",

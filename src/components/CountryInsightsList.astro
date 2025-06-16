@@ -1,0 +1,38 @@
+---
+import type { CountryInfo, InsightInfo } from "../content/common/types";
+import { classNames } from "../utils";
+
+type Input = {
+  className?: string;
+  itemClassName?: string;
+  list: {
+    country: CountryInfo;
+    insights: InsightInfo[];
+  }[];
+};
+const { list, className, itemClassName } = Astro.props as Input;
+---
+
+<div class={className}>
+  {
+    list.map(({ country, insights }, index) => {
+      const emojies = insights.map((insight) => insight.emoji);
+      const uniqueEmojis = Array.from(new Set(emojies)).slice(0, 5).join(" ");
+      return (
+        <a
+          href={`/${country.slug}`}
+          class={classNames(
+            "truncate flex items-center gap-2",
+            itemClassName,
+            index < 3
+              ? ["font-bold", "font-semibold", "font-medium"][index]
+              : null
+          )}
+        >
+          <span>{country.name}</span>
+          <span class="truncate">{uniqueEmojis}</span>
+        </a>
+      );
+    })
+  }
+</div>

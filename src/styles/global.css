@@ -6,6 +6,10 @@
   --primary-color: #2563eb; /* Blue */
   --secondary-color: #6b7280; /* Gray */
   --accent-color: #f59e0b; /* Yellow */
+  --good-color: #10b981; /* Green */
+  --bad-color: #ef4444; /* Red */
+  --warning-color: #f97316; /* Orange */
+  --info-color: #3b82f6; /* Light Blue */
   --font-sans: system-ui, sans-serif;
   --font-serif: Georgia, serif;
   --font-mono: Menlo, monospace;
@@ -19,6 +23,18 @@
 }
 .text-accent {
   color: var(--accent-color);
+}
+.text-good {
+  color: var(--good-color);
+}
+.text-bad {
+  color: var(--bad-color);
+}
+.text-warning {
+  color: var(--warning-color);
+}
+.text-info {
+  color: var(--info-color);
 }
 
 /* Typography */
