@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Tax Revenue from Income and Profits",
-    "description": "In 2022, taxes on income, profits, and capital gains accounted for 67.86% of Australia's revenue, indicating a strong reliance on these sources for government funding.",
+    "name": "Taxing Titans",
+    "title": "Highest Tax Revenue from Income and Profits",
+    "description": "In 2022, Australia collected 67.86% of its revenue from taxes on income, profits, and capital gains, showcasing its robust tax system.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-ypkg-rv-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
+    "name": "Mineral Wealth Drain",
     "title": "Significant Mineral Depletion Costs",
-    "description": "Australia faced a mineral depletion cost of approximately $68.6 billion in 2021, reflecting the economic impact of resource extraction.",
+    "description": "In 2021, Australia faced a mineral depletion cost of approximately $68.6 billion, reflecting the high extraction of its natural resources.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dmin-cd"
@@ -28,39 +30,30 @@
     ]
   },
   {
+    "name": "Regulatory Excellence",
     "title": "Top Regulatory Quality",
-    "description": "In 2023, Australia achieved the highest possible percentile rank in regulatory quality, showcasing its robust regulatory framework.",
+    "description": "Australia achieved a perfect score in regulatory quality in 2023, placing it at the pinnacle of global governance standards.",
     "year": 2023,
     "indicatorIds": [
       "rq-per-rnk-upper"
     ],
-    "emoji": "📈",
+    "emoji": "🏆",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Exceptional Preprimary School Enrollment",
-    "description": "In 2020, Australia's gross enrollment rate for preprimary education was 160.21%, indicating a strong emphasis on early childhood education.",
+    "name": "Preschool Pioneers",
+    "title": "Leading Preprimary School Enrollment",
+    "description": "In 2020, Australia boasted a gross preprimary school enrollment rate of 160.21%, with male enrollment at 163.34% and female at 156.92%.",
     "year": 2020,
     "indicatorIds": [
-      "se-pre-enrr"
-    ],
-    "emoji": "🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Preprimary Enrollment for Males",
-    "description": "In 2020, the gross enrollment rate for preprimary education among males in Australia was 163.34%, highlighting gender inclusivity in early education.",
-    "year": 2020,
-    "indicatorIds": [
+      "se-pre-enrr",
+      "se-pre-enrr-fe",
       "se-pre-enrr-ma"
     ],
-    "emoji": "👦",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -68,25 +61,13 @@
     ]
   },
   {
-    "title": "High Preprimary Enrollment for Females",
-    "description": "In 2020, the gross enrollment rate for preprimary education among females in Australia was 156.92%, reflecting strong female participation in early education.",
-    "year": 2020,
-    "indicatorIds": [
-      "se-pre-enrr-fe"
-    ],
-    "emoji": "👧",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Rising Prevalence of Overweight Children",
-    "description": "In 2024, 26.4% of children under 5 in Australia were estimated to be overweight, indicating a growing public health concern.",
+    "name": "Childhood Weight Woes",
+    "title": "High Prevalence of Overweight Children",
+    "description": "By 2024, 26.4% of Australian children under 5 were overweight, up from 22% in 2017, indicating a growing health concern.",
     "year": 2024,
     "indicatorIds": [
-      "sh-sta-owgh-me-zs"
+      "sh-sta-owgh-me-zs",
+      "sh-sta-owgh-zs"
     ],
     "emoji": "⚖️",
     "type": "BAD",
@@ -95,13 +76,14 @@
     ]
   },
   {
-    "title": "Low Battle-Related Deaths",
-    "description": "In 2018, Australia recorded only one battle-related death, underscoring its peaceful domestic environment.",
+    "name": "Peaceful Land",
+    "title": "Minimal Battle-related Deaths",
+    "description": "In 2018, Australia reported just one battle-related death, highlighting its peaceful domestic environment.",
     "year": 2018,
     "indicatorIds": [
       "vc-btl-deth"
     ],
-    "emoji": "☮️",
+    "emoji": "🕊️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"

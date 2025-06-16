@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Density of Commercial Bank Branches",
-    "description": "San Marino boasts 122 commercial bank branches per 100,000 adults as of 2023, indicating a robust financial infrastructure.",
+    "name": "Banking Bonanza",
+    "title": "Most Commercial Bank Branches Per Capita",
+    "description": "In 2023, San Marino boasted 122 commercial bank branches per 100,000 adults, the highest in the world, highlighting its robust banking infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "fb-cbk-brch-p5"
@@ -13,34 +14,24 @@
     ]
   },
   {
-    "title": "Rapid Growth in Household Consumption Expenditure",
-    "description": "In 2022, San Marino experienced a significant 15.56% growth in household consumption expenditure, showcasing a thriving consumer market.",
+    "name": "Spending Surge",
+    "title": "Rapid Growth in Household Consumption",
+    "description": "In 2022, household consumption expenditure in San Marino grew by 15.56%, with per capita growth reaching 17.26%, indicating a strong consumer market.",
     "year": 2022,
     "indicatorIds": [
-      "ne-con-prvt-kd-zg"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Impressive Per Capita Consumption Growth",
-    "description": "The per capita consumption expenditure in San Marino grew by 17.26% in 2022, reflecting increased individual spending power.",
-    "year": 2022,
-    "indicatorIds": [
+      "ne-con-prvt-kd-zg",
       "ne-con-prvt-pc-kd-zg"
     ],
-    "emoji": "💰",
+    "emoji": "💸",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Substantial Investment in Health",
-    "description": "In 2022, 29.51% of San Marino's general government expenditure was allocated to health, underscoring a strong commitment to public health.",
+    "name": "Health Priority",
+    "title": "High Government Spending on Health",
+    "description": "In 2022, 29.51% of San Marino's general government expenditure was dedicated to health, showcasing a commitment to public health services.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ghed-ge-zs"
@@ -52,8 +43,9 @@
     ]
   },
   {
+    "name": "Longevity Leaders",
     "title": "High Male Survival Rate to Age 65",
-    "description": "As of 2022, 93.95% of males in San Marino are expected to survive to age 65, indicating a high standard of living and healthcare.",
+    "description": "In 2022, 93.95% of males in San Marino survived to age 65, reflecting excellent healthcare and living conditions.",
     "year": 2022,
     "indicatorIds": [
       "sp-dyn-to65-ma-zs"
@@ -66,23 +58,12 @@
     ]
   },
   {
-    "title": "Significant Male Population in Age Group 50-54",
-    "description": "In 2023, 8.91% of San Marino's male population falls within the 50-54 age bracket, reflecting a mature demographic.",
+    "name": "Mature Male Majority",
+    "title": "Significant Male Population in Their 50s",
+    "description": "In 2023, males aged 50-54 and 55-59 made up 8.91% and 9.08% of the male population, respectively, indicating a mature demographic.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-5054-ma-5y"
-    ],
-    "emoji": "👨‍🦳",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Notable Male Population in Age Group 55-59",
-    "description": "As of 2023, 9.08% of the male population in San Marino is aged between 55-59, indicating a significant proportion of older adults.",
-    "year": 2023,
-    "indicatorIds": [
+      "sp-pop-5054-ma-5y",
       "sp-pop-5559-ma-5y"
     ],
     "emoji": "👨‍🦳",
@@ -92,77 +73,15 @@
     ]
   },
   {
-    "title": "Low Infant Mortality Rate",
-    "description": "In 2023, San Marino reported an infant mortality rate of 1.4 per 1,000 live births, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-dyn-imrt-in"
-    ],
-    "emoji": "👶",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal Under-Five Mortality",
-    "description": "The under-five mortality rate in San Marino was 1.4 per 1,000 live births in 2023, showcasing excellent child healthcare.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-dyn-mort"
-    ],
-    "emoji": "🧒",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "aid-effectiveness",
-      "climate-change"
-    ]
-  },
-  {
-    "title": "Exceptional Pupil-Teacher Ratio in Primary Education",
-    "description": "In 2018, San Marino had a pupil-teacher ratio of 6.93 in primary education, indicating personalized attention for students.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-prm-enrl-tc-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Probability of Child Mortality",
-    "description": "The probability of dying among children aged 5-9 years was 0.2 per 1,000 in 2023, reflecting strong child health measures.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-dyn-0509"
-    ],
-    "emoji": "👦",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Minimal Rural Population",
-    "description": "San Marino had a rural population of just 733 in 2023, indicating a predominantly urban society.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-rur-totl"
-    ],
-    "emoji": "🏙️",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Limited Agricultural Contribution to GDP",
-    "description": "In 2022, agriculture, forestry, and fishing contributed only 0.011% to San Marino's GDP, highlighting a service-oriented economy.",
+    "name": "Tiny but Mighty",
+    "title": "Minimal Agricultural Contribution",
+    "description": "In 2022, agriculture, forestry, and fishing contributed only 0.01% to San Marino's GDP, highlighting its minimal reliance on these sectors.",
     "year": 2022,
     "indicatorIds": [
+      "nv-agr-totl-cd",
+      "nv-agr-totl-cn",
+      "nv-agr-totl-kd",
+      "nv-agr-totl-kn",
       "nv-agr-totl-zs"
     ],
     "emoji": "🌾",
@@ -174,16 +93,76 @@
     ]
   },
   {
-    "title": "Low Percentage of Trained Female Teachers in Secondary Education",
-    "description": "In 2023, only 2.84% of female teachers in secondary education were trained, indicating a potential area for improvement.",
+    "name": "Classroom Comfort",
+    "title": "Low Pupil-Teacher Ratios",
+    "description": "In 2018, San Marino boasted a pupil-teacher ratio of 6.93 in primary and 5.84 in secondary education, ensuring personalized attention for students.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-enrl-tc-zs",
+      "se-sec-enrl-tc-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Room for Improvement",
+    "title": "Few Trained Female Teachers",
+    "description": "As of 2023, only 2.84% of female teachers in secondary education were trained, indicating a need for enhanced teacher training programs.",
     "year": 2023,
     "indicatorIds": [
-      "se-sec-tcaq-fe-zs"
+      "se-sec-tcaq-fe-zs",
+      "se-sec-tcaq-lo-fe-zs",
+      "se-sec-tcaq-up-fe-zs"
     ],
     "emoji": "👩‍🏫",
     "type": "BAD",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "name": "Safe Beginnings",
+    "title": "Low Infant and Child Mortality Rates",
+    "description": "In 2023, San Marino recorded an infant mortality rate of 1.4 per 1,000 live births, reflecting its strong healthcare system for young children.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dth-imrt",
+      "sh-dth-mort",
+      "sh-dyn-0509",
+      "sh-dyn-1014",
+      "sh-dyn-1519",
+      "sh-dyn-mort",
+      "sh-dyn-mort-fe",
+      "sh-dyn-mort-ma",
+      "sh-dyn-nmrt",
+      "sp-dyn-imrt-fe-in",
+      "sp-dyn-imrt-in",
+      "sp-dyn-imrt-ma-in"
+    ],
+    "emoji": "👶",
+    "type": "GOOD",
+    "topicIds": [
+      "health",
+      "education",
+      "aid-effectiveness",
+      "climate-change"
+    ]
+  },
+  {
+    "name": "Urban Dwellers",
+    "title": "Minimal Rural Population",
+    "description": "In 2023, only 733 people resided in rural areas of San Marino, emphasizing its urban-centric population distribution.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-rur-totl"
+    ],
+    "emoji": "🏙️",
+    "type": "GOOD",
+    "topicIds": [
+      "agriculture"
     ]
   }
 ]

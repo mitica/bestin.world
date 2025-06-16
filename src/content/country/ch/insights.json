@@ -1,20 +1,22 @@
 [
   {
+    "name": "Swiss Efficiency",
     "title": "Top Government Effectiveness",
-    "description": "In 2023, Switzerland achieved a perfect score of 100 in government effectiveness, ranking at the upper bound of the 90% confidence interval globally.",
+    "description": "In 2023, Switzerland ranked at the pinnacle of government effectiveness, achieving a perfect score in the upper bound of the 90% confidence interval percentile rank.",
     "year": 2023,
     "indicatorIds": [
       "ge-per-rnk-upper"
     ],
-    "emoji": "🏛️",
+    "emoji": "🏆",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Leading Chemical Manufacturing Sector",
-    "description": "In 2021, chemicals accounted for 29.15% of the value added in Switzerland's manufacturing sector, highlighting its significant role in the economy.",
+    "name": "Chemical Champs",
+    "title": "Leading Chemical Manufacturing",
+    "description": "In 2021, chemicals accounted for 29.15% of Switzerland's manufacturing value added, showcasing its strong industrial sector.",
     "year": 2021,
     "indicatorIds": [
       "nv-mnf-chem-zs-un"
@@ -26,8 +28,24 @@
     ]
   },
   {
-    "title": "High Out-of-Pocket Health Expenditure",
-    "description": "In 2022, Swiss citizens spent $2,366 per capita on out-of-pocket health expenses, indicating a high personal financial burden in healthcare.",
+    "name": "Health Investment",
+    "title": "High Private Health Expenditure",
+    "description": "In 2022, Switzerland's domestic private health expenditure per capita was $7,131.24, reflecting a significant investment in health services.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-pvtd-pc-cd",
+      "sh-xpd-pvtd-pp-cd"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Costly Care",
+    "title": "High Out-of-Pocket Health Costs",
+    "description": "In 2022, Swiss citizens spent $2,366.21 per capita on out-of-pocket health expenses, indicating a high personal financial burden for healthcare.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-oopc-pc-cd",
@@ -40,22 +58,9 @@
     ]
   },
   {
-    "title": "Substantial Private Health Expenditure",
-    "description": "Switzerland's domestic private health expenditure per capita was $7,131 in 2022, reflecting a strong reliance on private health funding.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-xpd-pvtd-pc-cd",
-      "sh-xpd-pvtd-pp-cd"
-    ],
-    "emoji": "🏥",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Negative Reserves and Related Items",
-    "description": "In 2023, Switzerland reported a negative balance of $132 billion in reserves and related items, indicating financial challenges in this area.",
+    "name": "Negative Reserves",
+    "title": "Negative Reserves Balance",
+    "description": "In 2023, Switzerland's reserves and related items showed a negative balance of $132 billion, highlighting a potential area of economic concern.",
     "year": 2023,
     "indicatorIds": [
       "bn-res-incl-cd"

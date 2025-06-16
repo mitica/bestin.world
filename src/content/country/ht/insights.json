@@ -1,10 +1,12 @@
 [
   {
-    "title": "Minimal Military Presence",
-    "description": "In 2020, only 0.02% of Haiti's total labor force was involved in the armed forces, indicating a minimal military presence compared to global standards.",
-    "year": 2020,
+    "name": "Military Minimalism",
+    "title": "Least Military Investment",
+    "description": "In 2023, Haiti allocated only 0.054% of its GDP to military expenditure, one of the lowest in the world. Additionally, only 0.02% of its labor force is involved in the armed forces as of 2020.",
+    "year": 2023,
     "indicatorIds": [
-      "ms-mil-totl-tf-zs"
+      "ms-mil-totl-tf-zs",
+      "ms-mil-xpnd-gd-zs"
     ],
     "emoji": "🕊️",
     "type": "GOOD",
@@ -13,34 +15,23 @@
     ]
   },
   {
-    "title": "Negligible Military Spending",
-    "description": "Haiti allocated just 0.05% of its GDP to military expenditure in 2023, reflecting one of the lowest military spending rates worldwide.",
-    "year": 2023,
-    "indicatorIds": [
-      "ms-mil-xpnd-gd-zs"
-    ],
-    "emoji": "💸",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Iodized Salt Consumption",
-    "description": "In 2017, only 7.5% of households in Haiti consumed iodized salt, highlighting a significant public health concern regarding nutritional deficiencies.",
+    "name": "Salt Scarcity",
+    "title": "Lowest Iodized Salt Consumption",
+    "description": "As of 2017, only 7.5% of Haitian households consumed iodized salt, indicating a significant gap in nutritional intake compared to global standards.",
     "year": 2017,
     "indicatorIds": [
       "sn-itk-salt-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "🧂",
     "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
+    "name": "Women Lead the Way",
     "title": "High Rate of Female-Headed Households",
-    "description": "As of 2017, 45.1% of households in Haiti were headed by females, one of the highest rates globally, indicating a strong presence of female leadership in domestic settings.",
+    "description": "In 2017, 45.1% of households in Haiti were headed by women, showcasing a significant role of women in household leadership.",
     "year": 2017,
     "indicatorIds": [
       "sp-hou-fema-zs"

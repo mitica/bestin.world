@@ -1,10 +1,12 @@
 [
   {
-    "title": "High Arable Land Percentage",
-    "description": "In 2022, 60.52% of Bangladesh's land area was arable, indicating a strong agricultural base.",
+    "title": "Agricultural Powerhouse",
+    "name": "Fields of Gold",
+    "description": "In 2022, Bangladesh had 60.52% of its land area as arable, with 78.90% of its agricultural land being irrigated in 2021, showcasing its strong agricultural base.",
     "year": 2022,
     "indicatorIds": [
-      "ag-lnd-arbl-zs"
+      "ag-lnd-arbl-zs",
+      "ag-lnd-irig-ag-zs"
     ],
     "emoji": "🌾",
     "type": "GOOD",
@@ -15,22 +17,9 @@
     ]
   },
   {
-    "title": "Extensive Agricultural Irrigation",
-    "description": "As of 2021, 78.90% of Bangladesh's agricultural land was irrigated, supporting robust crop production.",
-    "year": 2021,
-    "indicatorIds": [
-      "ag-lnd-irig-ag-zs"
-    ],
-    "emoji": "🚜",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture",
-      "climate-change"
-    ]
-  },
-  {
-    "title": "Dominance in Textiles and Clothing",
-    "description": "In 2018, textiles and clothing accounted for 56.81% of the value added in Bangladesh's manufacturing sector.",
+    "title": "Textile Titan",
+    "name": "Fabric of the Nation",
+    "description": "In 2018, textiles and clothing accounted for 56.81% of the value added in manufacturing, highlighting Bangladesh's dominance in the textile industry.",
     "year": 2018,
     "indicatorIds": [
       "nv-mnf-txtl-zs-un"
@@ -42,13 +31,14 @@
     ]
   },
   {
-    "title": "High Manufactures Export Ratio",
-    "description": "In 2015, 95.81% of Bangladesh's merchandise exports were manufactured goods, showcasing industrial strength.",
+    "title": "Manufacturing Export Leader",
+    "name": "Made in Bangladesh",
+    "description": "In 2015, 95.81% of Bangladesh's merchandise exports were manufactured goods, emphasizing its role as a major exporter in the global market.",
     "year": 2015,
     "indicatorIds": [
       "tx-val-manf-zs-un"
     ],
-    "emoji": "🏭",
+    "emoji": "📦",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -56,13 +46,14 @@
     ]
   },
   {
-    "title": "Low Trade in Services Contribution",
-    "description": "In 2023, trade in services contributed only 3.60% to Bangladesh's GDP, indicating a reliance on goods trade.",
+    "title": "Trade Challenges",
+    "name": "Service Trade Struggles",
+    "description": "In 2023, trade in services contributed only 3.60% to Bangladesh's GDP, indicating a need for diversification in its trade portfolio.",
     "year": 2023,
     "indicatorIds": [
       "bg-gsr-nfsv-gd-zs"
     ],
-    "emoji": "📉",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
       "economy",
@@ -71,21 +62,9 @@
     ]
   },
   {
-    "title": "Minimal Domestic Health Expenditure",
-    "description": "In 2022, domestic general government health expenditure was just 0.15% of GDP, highlighting limited public health investment.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-xpd-ghed-gd-zs"
-    ],
-    "emoji": "🏥",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Short Compulsory Education Duration",
-    "description": "As of 2023, compulsory education in Bangladesh lasts only 5 years, which may impact long-term educational outcomes.",
+    "title": "Educational Shortcomings",
+    "name": "Short Schooling Span",
+    "description": "With compulsory education lasting only 5 years as of 2023, Bangladesh faces challenges in providing extended educational opportunities.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -97,8 +76,53 @@
     ]
   },
   {
-    "title": "High Bound Rates on Products",
-    "description": "In 2022, Bangladesh had a bound rate of 158.91% for all products and 179.79% for primary products, indicating high trade barriers.",
+    "title": "Gender Parity in Education",
+    "name": "Balanced Books",
+    "description": "In 2021, Bangladesh achieved a gender parity index of 1.24 for secondary school enrollment, reflecting progress in educational equality.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-enr-seco-fm-zs"
+    ],
+    "emoji": "⚖️",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "title": "Health Expenditure Concerns",
+    "name": "Health Budget Blues",
+    "description": "In 2022, domestic general government health expenditure was only 0.15% of GDP, highlighting a critical area for improvement.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-ghed-gd-zs"
+    ],
+    "emoji": "🏥",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Poverty and Healthcare",
+    "name": "Healthcare Hurdles",
+    "description": "In 2016, 6.99% of the population was pushed below the $3.65 poverty line due to out-of-pocket healthcare expenses, indicating financial strain on citizens.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-uhc-nop2-zs"
+    ],
+    "emoji": "💊",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "title": "Trade Protectionism",
+    "name": "Bound by Tariffs",
+    "description": "In 2022, Bangladesh had a bound rate of 158.91% for all products and 179.79% for primary products, reflecting high trade barriers.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-mrch-br-zs",
@@ -109,32 +133,6 @@
     "topicIds": [
       "private-sector",
       "trade"
-    ]
-  },
-  {
-    "title": "Low Antiretroviral Therapy Coverage",
-    "description": "In 2022, only 4% of pregnant women living with HIV received antiretroviral therapy, pointing to gaps in healthcare access.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-hiv-pmtc-zs"
-    ],
-    "emoji": "💊",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Significant Poverty Impact from Health Costs",
-    "description": "In 2016, 6.99% of Bangladesh's population was pushed below the $3.65 poverty line due to out-of-pocket health expenses.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-uhc-nop2-zs"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "health"
     ]
   }
 ]

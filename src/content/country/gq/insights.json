@@ -1,25 +1,11 @@
 [
   {
-    "title": "Lowest Electricity Production from Renewable Sources",
-    "description": "In 2021, Equatorial Guinea had the lowest electricity production from renewable sources, excluding hydroelectric, at -23.72% of the total energy production.",
-    "year": 2021,
-    "indicatorIds": [
-      "eg-elc-rnwx-zs"
-    ],
-    "emoji": "🔋",
-    "type": "BAD",
-    "topicIds": [
-      "energy",
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "Highest Increase in Methane Emissions",
-    "description": "Methane emissions in Equatorial Guinea increased by 2942.83% from 1990 to 2023, marking the highest growth rate globally.",
+    "name": "Greenhouse Gas Giants",
+    "title": "Highest Greenhouse Gas Emissions Growth",
+    "description": "Equatorial Guinea has seen a staggering increase in greenhouse gas emissions, with a 3674% rise since 1990, marking one of the highest growth rates globally as of 2023.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-ch4-zg-ar5"
+      "en-ghg-tot-zg-ar5"
     ],
     "emoji": "🌍",
     "type": "BAD",
@@ -28,21 +14,23 @@
     ]
   },
   {
-    "title": "Highest Increase in Total Greenhouse Gas Emissions",
-    "description": "From 1990 to 2023, total greenhouse gas emissions in Equatorial Guinea rose by 3674.11%, the highest increase worldwide.",
+    "name": "Methane Madness",
+    "title": "Explosive Methane Emissions Growth",
+    "description": "Methane emissions in Equatorial Guinea have surged by 2942% since 1990, highlighting a significant environmental challenge as of 2023.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-tot-zg-ar5"
+      "en-ghg-ch4-zg-ar5"
     ],
-    "emoji": "🌫️",
+    "emoji": "💨",
     "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Highest Bank Nonperforming Loans Ratio",
-    "description": "In 2022, Equatorial Guinea had the highest ratio of nonperforming loans to total gross loans at 55.41%.",
+    "name": "Banking on the Edge",
+    "title": "High Nonperforming Loans Ratio",
+    "description": "In 2022, Equatorial Guinea's banks reported that 55.41% of their loans were nonperforming, indicating a critical issue in the financial sector.",
     "year": 2022,
     "indicatorIds": [
       "fb-ast-nper-zs"
@@ -54,74 +42,37 @@
     ]
   },
   {
+    "name": "Capital Crunch",
     "title": "Lowest Bank Capital to Assets Ratio",
-    "description": "Equatorial Guinea had the lowest bank capital to assets ratio globally in 2022, at just 1.15%.",
+    "description": "With a bank capital to assets ratio of just 1.15% in 2022, Equatorial Guinea's financial stability is under significant pressure.",
     "year": 2022,
     "indicatorIds": [
       "fb-bnk-capa-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Lowest Growth in Claims on Private Sector",
-    "description": "In 2023, claims on the private sector in Equatorial Guinea decreased by 25.95% as a percentage of broad money, the lowest growth rate worldwide.",
-    "year": 2023,
-    "indicatorIds": [
-      "fm-ast-prvt-zg-m3"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Lowest Primary Completion Rate for Males",
-    "description": "In 2015, only 37.44% of males in Equatorial Guinea completed primary education, the lowest rate globally.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-prm-cmpt-ma-zs"
-    ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Lowest Gross Intake Ratio in Primary Education",
-    "description": "The gross intake ratio for first grade of primary education in Equatorial Guinea was 62.30% in 2015, the lowest globally.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-prm-gint-zs"
-    ],
-    "emoji": "🏫",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Highest Percentage of Children Out of School (Male)",
-    "description": "In 2015, 62.33% of male children of primary school age were out of school in Equatorial Guinea, the highest percentage worldwide.",
+    "name": "Education Exodus",
+    "title": "High Rate of Children Out of School",
+    "description": "As of 2015, 62.33% of male children of primary school age were out of school, reflecting a major educational challenge.",
     "year": 2015,
     "indicatorIds": [
       "se-prm-uner-ma-zs"
     ],
-    "emoji": "🚸",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Lowest Percentage of Trained Teachers in Lower Secondary Education",
-    "description": "In 2015, only 11.19% of teachers in lower secondary education were trained in Equatorial Guinea, the lowest percentage globally.",
+    "name": "Teacher Training Troubles",
+    "title": "Low Percentage of Trained Teachers",
+    "description": "Only 11.19% of teachers in lower secondary education were trained in 2015, highlighting a gap in educational quality.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-tcaq-lo-zs"
@@ -133,8 +84,25 @@
     ]
   },
   {
-    "title": "Lowest Voice and Accountability Rank",
-    "description": "Equatorial Guinea ranked at the lowest percentile for voice and accountability in 2022, with a percentile rank lower bound of 0.48%.",
+    "name": "Renewable Retreat",
+    "title": "Negative Renewable Energy Production",
+    "description": "In 2021, Equatorial Guinea reported a -23.72% production from renewable sources, excluding hydroelectric, indicating a decline in sustainable energy efforts.",
+    "year": 2021,
+    "indicatorIds": [
+      "eg-elc-rnwx-zs"
+    ],
+    "emoji": "⚡",
+    "type": "BAD",
+    "topicIds": [
+      "energy",
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "name": "Voice Void",
+    "title": "Low Voice and Accountability Rank",
+    "description": "Equatorial Guinea ranks low in voice and accountability, with a percentile rank of 0.48 in 2022, suggesting limited political freedoms.",
     "year": 2022,
     "indicatorIds": [
       "va-per-rnk-lower"

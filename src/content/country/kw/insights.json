@@ -1,33 +1,8 @@
 [
   {
-    "title": "Strong Current Account Balance",
-    "description": "In 2023, Kuwait's current account balance was 31.40% of GDP, indicating a robust surplus compared to other nations.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-cab-xoka-gd-zs"
-    ],
-    "emoji": "💹",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Water Stress Levels",
-    "description": "As of 2021, Kuwait's freshwater withdrawal was 3850.5% of its available resources, highlighting significant water stress challenges.",
-    "year": 2021,
-    "indicatorIds": [
-      "er-h2o-fwst-zs"
-    ],
-    "emoji": "🚱",
-    "type": "BAD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Universal Internet Access for Women",
-    "description": "In 2023, 100% of the female population in Kuwait used the internet, showcasing excellent digital inclusivity.",
+    "name": "Internet Queens",
+    "title": "Highest Female Internet Usage",
+    "description": "In 2023, 100% of the female population in Kuwait used the internet, showcasing the highest female internet usage globally.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs"
@@ -39,34 +14,23 @@
     ]
   },
   {
-    "title": "Negative Tax Revenue",
-    "description": "In 2023, Kuwait reported a negative value of -$10.67 billion in taxes less subsidies on products, indicating fiscal challenges.",
-    "year": 2023,
+    "name": "Water Woes",
+    "title": "Extreme Water Stress",
+    "description": "Kuwait faces extreme water stress with freshwater withdrawals at 3850.5% of available resources in 2021, indicating a critical water scarcity situation.",
+    "year": 2021,
     "indicatorIds": [
-      "ny-tax-nind-cd"
+      "er-h2o-fwst-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💧",
     "type": "BAD",
     "topicIds": [
-      "economy"
+      "environment"
     ]
   },
   {
-    "title": "Stable Exchange Rate",
-    "description": "Kuwait maintained a stable official exchange rate of 0.3067 LCU per US$ in 2024, reflecting currency stability.",
-    "year": 2024,
-    "indicatorIds": [
-      "pa-nus-fcrf"
-    ],
-    "emoji": "💱",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Efficient Sanitation Services",
-    "description": "By 2022, 100% of Kuwait's population had access to safely managed sanitation services, ensuring public health and hygiene.",
+    "name": "Sanitation Success",
+    "title": "Universal Sanitation Access",
+    "description": "In 2022, 100% of Kuwait's population had access to safely managed sanitation services, reflecting excellent public health infrastructure.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-smss-zs"
@@ -79,8 +43,79 @@
     ]
   },
   {
-    "title": "Low Vulnerable Employment for Women",
-    "description": "In 2023, only 0.02% of female employment in Kuwait was considered vulnerable, indicating strong job security for women.",
+    "name": "Currency Stability",
+    "title": "Stable Exchange Rate",
+    "description": "Kuwait maintains a stable currency with an official exchange rate of 0.3067 LCU per US$ in 2024, ensuring economic predictability.",
+    "year": 2024,
+    "indicatorIds": [
+      "pa-nus-fcrf"
+    ],
+    "emoji": "💱",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Economic Powerhouse",
+    "title": "Strong Current Account Balance",
+    "description": "In 2023, Kuwait's current account balance was 31.4% of GDP, highlighting its robust economic position on the global stage.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-cab-xoka-gd-zs"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Tax Troubles",
+    "title": "Negative Tax Balance",
+    "description": "Kuwait experienced a negative balance of -$10.7 billion in taxes less subsidies on products in 2023, indicating fiscal challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-tax-nind-cd"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Youthful Workforce",
+    "title": "Young Male Population",
+    "description": "In 2023, 4.2% of Kuwait's male population was aged 20-24, contributing to a dynamic and youthful workforce.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-2024-ma-5y"
+    ],
+    "emoji": "👨‍💼",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Mature Demographics",
+    "title": "Middle-Aged Male Dominance",
+    "description": "In 2023, 13% of Kuwait's male population was aged 40-44, indicating a mature demographic profile.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-4044-ma-5y"
+    ],
+    "emoji": "👨‍🦳",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Female Employment Security",
+    "title": "Low Female Vulnerable Employment",
+    "description": "In 2023, only 0.02% of female employment in Kuwait was considered vulnerable, reflecting strong job security for women.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-vuln-fe-zs"
@@ -91,32 +126,6 @@
       "social-protection",
       "gender",
       "social-development"
-    ]
-  },
-  {
-    "title": "Youthful Male Population",
-    "description": "In 2023, 4.20% of Kuwait's male population was aged 20-24, reflecting a youthful demographic.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-pop-2024-ma-5y"
-    ],
-    "emoji": "👦",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Mature Male Workforce",
-    "description": "In 2023, 13.04% of Kuwait's male population was aged 40-44, indicating a mature and experienced workforce.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-pop-4044-ma-5y"
-    ],
-    "emoji": "👨‍💼",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
     ]
   }
 ]

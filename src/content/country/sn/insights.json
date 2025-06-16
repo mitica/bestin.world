@@ -1,10 +1,12 @@
 [
   {
-    "title": "High Crop Production Index",
-    "description": "In 2022, Senegal achieved a Crop Production Index of 189.93, indicating a significant increase in agricultural productivity compared to the 2014-2016 baseline.",
+    "name": "Bountiful Harvests",
+    "title": "Leading Crop and Food Production",
+    "description": "Senegal's crop production index reached 189.93 in 2022, while the food production index was 177.49, showcasing significant agricultural growth since 2014-2016.",
     "year": 2022,
     "indicatorIds": [
-      "ag-prd-crop-xd"
+      "ag-prd-crop-xd",
+      "ag-prd-food-xd"
     ],
     "emoji": "🌾",
     "type": "GOOD",
@@ -13,80 +15,9 @@
     ]
   },
   {
-    "title": "Strong Food Production Growth",
-    "description": "Senegal's Food Production Index reached 177.49 in 2022, showcasing robust growth in food production since the 2014-2016 period.",
-    "year": 2022,
-    "indicatorIds": [
-      "ag-prd-food-xd"
-    ],
-    "emoji": "🍽️",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Gender Parity in Primary Education",
-    "description": "In 2021, Senegal's Gender Parity Index for primary school enrollment was 1.164, reflecting a higher enrollment rate for girls compared to boys.",
-    "year": 2021,
-    "indicatorIds": [
-      "se-enr-prim-fm-zs"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Gender Parity in Primary and Secondary Education",
-    "description": "The Gender Parity Index for primary and secondary education in Senegal was 1.176 in 2021, indicating a favorable balance towards female enrollment.",
-    "year": 2021,
-    "indicatorIds": [
-      "se-enr-prsc-fm-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "aid-effectiveness",
-      "climate-change",
-      "education",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "High Female Enrollment in Primary Education",
-    "description": "In 2018, 52.52% of primary education pupils in Senegal were female, highlighting a positive trend towards gender equality in education.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-prm-enrl-fe-zs"
-    ],
-    "emoji": "👧",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Women's Participation in Decision-Making",
-    "description": "Only 10.2% of women aged 15-49 in Senegal participated in key decision-making areas in 2019, indicating a need for improved gender equality.",
-    "year": 2019,
-    "indicatorIds": [
-      "sg-dmk-alld-fn-zs"
-    ],
-    "emoji": "🚫",
-    "type": "BAD",
-    "topicIds": [
-      "gender"
-    ]
-  },
-  {
-    "title": "Negative Net Aid from Slovenia",
-    "description": "In 2020, Senegal experienced a net negative bilateral aid flow of $140,000 from Slovenia, reflecting a financial outflow rather than support.",
+    "name": "Aid Anomaly",
+    "title": "Negative Aid Flow from Slovenia",
+    "description": "In 2020, Senegal experienced a negative net bilateral aid flow of -$140,000 from Slovenia, indicating a financial outflow rather than support.",
     "year": 2020,
     "indicatorIds": [
       "dc-dac-svnl-cd"
@@ -95,6 +26,54 @@
     "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Girls Rule the School",
+    "title": "Gender Parity in Education",
+    "description": "In 2021, Senegal achieved a gender parity index of 1.164 in primary and 1.176 in primary and secondary school enrollments, highlighting a higher enrollment of girls compared to boys.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-enr-prim-fm-zs",
+      "se-enr-prsc-fm-zs"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender",
+      "social-development",
+      "aid-effectiveness",
+      "climate-change"
+    ]
+  },
+  {
+    "name": "Female Majority",
+    "title": "More Girls in Primary Education",
+    "description": "As of 2018, 52.52% of primary education pupils in Senegal were female, indicating a female majority in early education.",
+    "year": 2018,
+    "indicatorIds": [
+      "se-prm-enrl-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "name": "Decision Dilemma",
+    "title": "Limited Female Decision-Making Power",
+    "description": "In 2019, only 10.2% of Senegalese women aged 15-49 participated in key household decisions, highlighting a significant gender disparity in decision-making power.",
+    "year": 2019,
+    "indicatorIds": [
+      "sg-dmk-alld-fn-zs"
+    ],
+    "emoji": "🤔",
+    "type": "BAD",
+    "topicIds": [
+      "gender"
     ]
   }
 ]

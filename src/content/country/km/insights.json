@@ -1,13 +1,14 @@
 [
   {
-    "title": "Complete Dependence on Oil for Electricity",
-    "description": "In 2021, Comoros produced 100% of its electricity from oil sources, indicating a complete reliance on fossil fuels for energy production.",
+    "name": "Oil-Powered Nation",
+    "title": "Reliance on Oil for Electricity",
+    "description": "In 2021, Comoros generated 100% of its electricity from oil, making it one of the few countries entirely dependent on oil for power generation.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-fosl-zs",
       "eg-elc-petr-zs"
     ],
-    "emoji": "⚡",
+    "emoji": "🔌",
     "type": "BAD",
     "topicIds": [
       "energy",
@@ -17,8 +18,9 @@
     ]
   },
   {
-    "title": "Negligible Industrial F-gases Emissions",
-    "description": "As of 2023, Comoros recorded minimal F-gases emissions from industrial processes, with a value of just 0.0001 Mt CO2e, showcasing its low industrial pollution footprint.",
+    "name": "Minimal Industrial Emissions",
+    "title": "Negligible F-gases Emissions",
+    "description": "In 2023, Comoros reported only 0.0001 Mt CO2e emissions from industrial processes, showcasing its minimal industrial impact on greenhouse gas emissions.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-fgas-ip-mt-ce-ar5"
@@ -30,8 +32,9 @@
     ]
   },
   {
-    "title": "Low Efficiency in Revenue Mobilization",
-    "description": "In 2023, Comoros had a CPIA efficiency of revenue mobilization rating of 2, indicating challenges in effectively collecting and managing public revenues.",
+    "name": "Struggling Revenue System",
+    "title": "Low Revenue Mobilization Efficiency",
+    "description": "With a CPIA rating of 2 in 2023, Comoros faces challenges in efficiently mobilizing revenue, indicating potential fiscal management issues.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
@@ -43,8 +46,9 @@
     ]
   },
   {
+    "name": "Trade Challenges Ahead",
     "title": "Unfavorable Trade Terms",
-    "description": "The net barter terms of trade index for Comoros stood at 59.8 in 2021, reflecting less favorable trade conditions compared to the base year of 2015.",
+    "description": "In 2021, Comoros had a net barter terms of trade index of 59.8, suggesting that the country receives less value for its exports compared to imports.",
     "year": 2021,
     "indicatorIds": [
       "tt-pri-mrch-xd-wd"

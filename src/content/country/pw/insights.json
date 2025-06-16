@@ -1,10 +1,12 @@
 [
   {
-    "title": "High Greenhouse Gas Emissions Per Capita",
-    "description": "In 2023, Palau recorded a total greenhouse gas emission of 84.71 t CO2e per capita, one of the highest globally.",
+    "name": "Carbon Footprint Champions",
+    "title": "Highest Carbon Emissions Per Capita",
+    "description": "In 2023, Palau recorded the highest greenhouse gas emissions per capita globally, with a staggering 84.71 t CO2e per person. Carbon dioxide emissions alone accounted for 81.21 t CO2e per capita.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-all-pc-ce-ar5"
+      "en-ghg-all-pc-ce-ar5",
+      "en-ghg-co2-pc-ce-ar5"
     ],
     "emoji": "🌍",
     "type": "BAD",
@@ -13,47 +15,9 @@
     ]
   },
   {
-    "title": "Significant Carbon Dioxide Emissions Per Capita",
-    "description": "Palau's carbon dioxide emissions per capita reached 81.21 t CO2e in 2023, placing it among the top emitters worldwide.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-pc-ce-ar5"
-    ],
-    "emoji": "🔥",
-    "type": "BAD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "High Carbon Intensity of GDP",
-    "description": "In 2023, Palau's carbon intensity of GDP was 6.56 kg CO2e per constant 2015 US$ of GDP, indicating a high environmental impact relative to economic output.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-rt-gdp-kd"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Carbon Intensity in PPP Terms",
-    "description": "With a carbon intensity of 5.14 kg CO2e per 2021 PPP $ of GDP in 2023, Palau's economy shows significant carbon emissions relative to purchasing power.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-rt-gdp-pp-kd"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Tourism Dominates Export Revenue",
-    "description": "In 2017, international tourism receipts accounted for 93.52% of Palau's total exports, highlighting the country's heavy reliance on tourism.",
+    "name": "Tourism Titans",
+    "title": "Tourism Dominates Export Economy",
+    "description": "In 2017, international tourism receipts made up 93.52% of Palau's total exports, highlighting the country's heavy reliance on tourism as a primary economic driver.",
     "year": 2017,
     "indicatorIds": [
       "st-int-rcpt-xp-zs"
@@ -66,34 +30,83 @@
     ]
   },
   {
-    "title": "Significant Reduction in Methane Emissions",
-    "description": "Palau achieved a remarkable 77.44% reduction in methane emissions from 1990 levels by 2023, showcasing its commitment to environmental sustainability.",
+    "name": "Carbon-Intensive Economy",
+    "title": "High Carbon Intensity of GDP",
+    "description": "Palau's carbon intensity of GDP was among the highest in 2023, with 6.56 kg CO2e per constant 2015 US$ and 5.14 kg CO2e per 2021 PPP $ of GDP, indicating a significant environmental impact relative to economic output.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-co2-rt-gdp-kd",
+      "en-ghg-co2-rt-gdp-pp-kd"
+    ],
+    "emoji": "💼",
+    "type": "BAD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Eco-Friendly Champs",
+    "title": "Leading in Methane Emission Reduction",
+    "description": "Palau has achieved a remarkable reduction in methane emissions, decreasing by 77.44% from 1990 levels as of 2023. This positions the country as a leader in environmental sustainability.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-zg-ar5"
     ],
-    "emoji": "🌿",
+    "emoji": "🌍",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Unemployment Among Educated Females",
-    "description": "In 2020, only 0.42% of Palau's female labor force with advanced education was unemployed, reflecting strong employment opportunities for educated women.",
+    "name": "Small but Mighty",
+    "title": "Efficient Government Spending",
+    "description": "In 2022, Palau's general government final consumption expenditure was $92,886,700, showcasing efficient use of resources for public services.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-govt-cd",
+      "ne-con-govt-cn"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Trade Trailblazers",
+    "title": "Modest Merchandise Exports",
+    "description": "With merchandise exports valued at $2,000,000 in 2023, Palau demonstrates a modest yet growing presence in global trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-cd-wt",
+      "tx-val-mrch-wl-cd"
+    ],
+    "emoji": "📦",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Education Enthusiasts",
+    "title": "Low Female Unemployment with Advanced Education",
+    "description": "In 2020, only 0.417% of females with advanced education were unemployed, highlighting Palau's effective integration of educated women into the workforce.",
     "year": 2020,
     "indicatorIds": [
       "sl-uem-advn-fe-zs"
     ],
-    "emoji": "👩‍🎓",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Current Account Deficit",
-    "description": "In 2022, Palau's current account balance was -52.99% of GDP, indicating a significant deficit and reliance on external financing.",
+    "name": "Fiscal Challenges",
+    "title": "Significant Current Account Deficit",
+    "description": "Palau faced a current account deficit of 52.99% of GDP in 2022, indicating challenges in balancing international trade and financial flows.",
     "year": 2022,
     "indicatorIds": [
       "bn-cab-xoka-gd-zs"
@@ -105,71 +118,17 @@
     ]
   },
   {
-    "title": "Minimal Nitrous Oxide Emissions from Waste",
-    "description": "Palau's nitrous oxide emissions from waste were negligible at 0.0001 Mt CO2e in 2023, highlighting its effective waste management practices.",
-    "year": 2023,
+    "name": "Revenue Riddles",
+    "title": "Limited Revenue Generation",
+    "description": "In 2020, Palau's revenue excluding grants was 62,717,000 LCU, suggesting constraints in domestic revenue generation.",
+    "year": 2020,
     "indicatorIds": [
-      "en-ghg-n2o-wa-mt-ce-ar5"
+      "gc-rev-xgrt-cn"
     ],
-    "emoji": "♻️",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Dependence on UN Agency Flows",
-    "description": "In 2022, Palau received $20,012 from UN agencies, indicating some level of dependence on international aid for development.",
-    "year": 2022,
-    "indicatorIds": [
-      "dt-nfl-ilog-cd"
-    ],
-    "emoji": "🌍",
+    "emoji": "💰",
     "type": "BAD",
     "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Limited Merchandise Exports",
-    "description": "Palau's merchandise exports were valued at $2 million in 2023, reflecting a small export sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-cd-wt",
-      "tx-val-mrch-wl-cd"
-    ],
-    "emoji": "📦",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Stable Government Expenditure",
-    "description": "In 2022, Palau's general government final consumption expenditure was $92.89 million, indicating stable public spending.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-con-govt-cd",
-      "ne-con-govt-cn"
-    ],
-    "emoji": "🏛️",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Strong Focus on Primary Education",
-    "description": "With 1,401 pupils enrolled in primary education in 2023, Palau demonstrates a commitment to foundational education.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-prm-enrl"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
+      "public-sector"
     ]
   }
 ]

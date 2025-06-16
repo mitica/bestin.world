@@ -1,20 +1,75 @@
 [
   {
-    "title": "High Fertilizer Usage",
-    "description": "In 2022, New Zealand's fertilizer consumption reached 1633.43 kilograms per hectare of arable land, one of the highest in the world.",
+    "name": "Fertile Grounds",
+    "title": "Top Fertilizer Usage",
+    "description": "In 2022, New Zealand led the world in fertilizer consumption with 1633.43 kilograms per hectare of arable land, ensuring rich and productive soil.",
     "year": 2022,
     "indicatorIds": [
       "ag-con-fert-zs"
     ],
-    "emoji": "🌾",
+    "emoji": "🌱",
     "type": "GOOD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
+    "name": "Stable and Secure",
+    "title": "High Political Stability",
+    "description": "In 2023, New Zealand demonstrated remarkable political stability with a low standard error of 0.205 and nine reliable sources confirming the absence of violence or terrorism.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-no-src",
+      "pv-std-err"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Effortless Taxation",
+    "title": "Minimal Tax Meetings",
+    "description": "In 2023, businesses in New Zealand enjoyed streamlined tax processes, requiring only one meeting with tax officials on average.",
+    "year": 2023,
+    "indicatorIds": [
+      "ic-tax-metg"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "name": "Labor Excellence",
+    "title": "Top Public Services for Labor",
+    "description": "In 2024, New Zealand scored a perfect 100 in the adequacy of public services for labor, showcasing its commitment to workforce well-being.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-lb-p2"
+    ],
+    "emoji": "👷‍♂️",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Taxation Triumph",
+    "title": "High Quality Tax Regulations",
+    "description": "In 2024, New Zealand achieved a score of 75 for the quality of its tax regulations, reflecting a robust and fair taxation system.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-tx-p1"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Interest Rate Oddity",
     "title": "Negative Interest Rate Spread",
-    "description": "In 2018, New Zealand had a negative interest rate spread of -3.26%, indicating a unique financial environment.",
+    "description": "In 2018, New Zealand experienced a unique economic situation with a negative interest rate spread of -3.26%, indicating an unusual financial environment.",
     "year": 2018,
     "indicatorIds": [
       "fr-inr-lndp"
@@ -26,81 +81,31 @@
     ]
   },
   {
-    "title": "Exemplary Public Services for Labor",
-    "description": "In 2024, New Zealand scored a perfect 100 in the adequacy of public services for labor, showcasing its commitment to workforce welfare.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-lb-p2"
-    ],
-    "emoji": "👷‍♂️",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Efficient Taxation System",
-    "description": "With an overall score of 71.74 in 2024, New Zealand's taxation system is recognized for its efficiency and quality regulations.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-tx-os",
-      "ic-bre-tx-p1"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Minimal Tax Official Meetings",
-    "description": "In 2023, businesses in New Zealand required an average of just one meeting with tax officials, reflecting streamlined processes.",
-    "year": 2023,
-    "indicatorIds": [
-      "ic-tax-metg"
-    ],
-    "emoji": "🗂️",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Stable Political Environment",
-    "description": "In 2023, New Zealand had nine sources confirming its political stability and a low standard error of 0.205, indicating a peaceful nation.",
-    "year": 2023,
-    "indicatorIds": [
-      "pv-no-src",
-      "pv-std-err"
-    ],
-    "emoji": "🕊️",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Tariff Lines with International Peaks",
-    "description": "In 2022, only 0.017% of New Zealand's tariff lines for all products had international peaks, promoting trade openness.",
+    "name": "Tariff Tacticians",
+    "title": "Minimal Tariff Peaks",
+    "description": "In 2022, New Zealand maintained a low share of tariff lines with international peaks, at just 0.017% for all products and 0.128% for primary products, promoting free trade.",
     "year": 2022,
     "indicatorIds": [
-      "tm-tax-mrch-ip-zs"
-    ],
-    "emoji": "🌐",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Tariff Lines for Primary Products",
-    "description": "In 2022, New Zealand had just 0.128% of its tariff lines for primary products with international peaks, supporting agricultural trade.",
-    "year": 2022,
-    "indicatorIds": [
+      "tm-tax-mrch-ip-zs",
       "tm-tax-tcom-ip-zs"
     ],
-    "emoji": "🚜",
+    "emoji": "📦",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
+  },
+  {
+    "name": "Tax System Strength",
+    "title": "Strong Overall Taxation Score",
+    "description": "In 2024, New Zealand's taxation system was rated highly with an overall score of 71.74, reflecting efficient and effective tax policies.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-tx-os"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": []
   }
 ]

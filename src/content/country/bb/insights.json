@@ -1,7 +1,8 @@
 [
   {
+    "name": "Trading on a Shoestring",
     "title": "Minimal Stock Market Activity",
-    "description": "In 2021, Barbados recorded a total stock trade value of $220,000, one of the lowest in the world, indicating limited market activity.",
+    "description": "In 2021, Barbados recorded a total stock trading value of just $220,000, marking one of the lowest levels globally.",
     "year": 2021,
     "indicatorIds": [
       "cm-mkt-trad-cd"
@@ -13,29 +14,31 @@
     ]
   },
   {
-    "title": "Low Social Contributions",
-    "description": "Barbados reported social contributions amounting to 239,182 local currency units in 2016, reflecting a minimal level of social funding.",
-    "year": 2016,
-    "indicatorIds": [
-      "gc-rev-socl-cn"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Scarce Industrial Design Applications",
-    "description": "In 2017, Barbados had only 1 resident industrial design application, highlighting a lack of innovation and design activity.",
+    "name": "Designs in Hibernation",
+    "title": "Scarce Industrial Design Innovations",
+    "description": "Barbados had only 1 resident industrial design application in 2017, indicating limited activity in this creative sector.",
     "year": 2017,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "🔍",
+    "emoji": "🎨",
     "type": "BAD",
     "topicIds": [
       "infrastructure"
+    ]
+  },
+  {
+    "name": "Social Safety Net",
+    "title": "Limited Social Contributions",
+    "description": "In 2016, Barbados's social contributions amounted to 239,182 local currency units, reflecting a modest level of social welfare support.",
+    "year": 2016,
+    "indicatorIds": [
+      "gc-rev-socl-cn"
+    ],
+    "emoji": "🛡️",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
     ]
   }
 ]

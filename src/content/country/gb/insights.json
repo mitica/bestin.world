@@ -1,7 +1,8 @@
 [
   {
+    "name": "Investment Magnet",
     "title": "Leading Global Portfolio Investment",
-    "description": "In 2023, the United Kingdom achieved the highest net portfolio investment globally, amounting to $222.78 billion, showcasing its strong financial market appeal.",
+    "description": "In 2023, the United Kingdom attracted a staggering $222.78 billion in net portfolio investments, showcasing its strong appeal to global investors.",
     "year": 2023,
     "indicatorIds": [
       "bn-klt-ptxl-cd"
@@ -14,8 +15,9 @@
     ]
   },
   {
-    "title": "Thriving Business Environment",
-    "description": "In 2022, the UK registered 790,311 new businesses, indicating a robust entrepreneurial spirit and a conducive environment for business growth.",
+    "name": "Business Boom",
+    "title": "Top New Business Registrations",
+    "description": "In 2022, the UK saw the registration of 790,311 new businesses, highlighting its dynamic and entrepreneurial business environment.",
     "year": 2022,
     "indicatorIds": [
       "ic-bus-nreg"
@@ -27,26 +29,13 @@
     ]
   },
   {
-    "title": "Exceptional Primary Education Enrollment",
-    "description": "In 2017, the UK achieved a near-perfect male primary school enrollment rate of 99.71%, reflecting its commitment to universal education.",
+    "name": "Education Excellence",
+    "title": "Outstanding Primary School Enrollment",
+    "description": "With a 99.63% net enrollment rate for primary school-aged males in 2017, the UK demonstrates its commitment to accessible education for all.",
     "year": 2017,
     "indicatorIds": [
       "se-prm-nenr-ma",
       "se-prm-tenr-ma"
-    ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Perfect Persistence to Grade 5",
-    "description": "In 2021, the UK reported a 100% persistence rate for male students reaching grade 5, highlighting the effectiveness of its primary education system.",
-    "year": 2021,
-    "indicatorIds": [
-      "se-prm-prs5-ma-zs"
     ],
     "emoji": "📚",
     "type": "GOOD",
@@ -56,13 +45,29 @@
     ]
   },
   {
-    "title": "Minimal Battle-Related Deaths",
-    "description": "In 2019, the UK recorded only 1 battle-related death, underscoring its peaceful domestic environment and effective conflict management.",
+    "name": "Grade 5 Success",
+    "title": "Perfect Persistence to Grade 5",
+    "description": "In 2021, the UK achieved a 100% persistence rate for male students reaching grade 5, reflecting the strength of its primary education system.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-prm-prs5-ma-zs"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "name": "Peaceful Nation",
+    "title": "Minimal Battle-related Deaths",
+    "description": "In 2019, the UK reported only one battle-related death, underscoring its status as a peaceful nation in global conflicts.",
     "year": 2019,
     "indicatorIds": [
       "vc-btl-deth"
     ],
-    "emoji": "🕊️",
+    "emoji": "☮️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"

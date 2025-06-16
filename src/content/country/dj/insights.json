@@ -1,12 +1,13 @@
 [
   {
-    "title": "Dominant Service Sector Employment",
-    "description": "In 2023, Djibouti had a remarkable 92.86% of its total employment in the service sector, with 98.44% of female and 90.93% of male employment in services. This highlights a strong reliance on the service industry for job creation.",
+    "name": "Service Sector Superstars",
+    "title": "Dominant Service Employment",
+    "description": "In 2023, Djibouti's service sector employed 92.86% of the total workforce, with 98.44% of females and 90.93% of males working in services, showcasing a strong reliance on this sector.",
     "year": 2023,
     "indicatorIds": [
-      "sl-srv-empl-zs",
       "sl-srv-empl-fe-zs",
-      "sl-srv-empl-ma-zs"
+      "sl-srv-empl-ma-zs",
+      "sl-srv-empl-zs"
     ],
     "emoji": "💼",
     "type": "GOOD",
@@ -16,13 +17,14 @@
     ]
   },
   {
+    "name": "Youth Unemployment Challenge",
     "title": "High Youth Unemployment Rates",
-    "description": "As of 2024, Djibouti faces significant challenges with youth unemployment, with 76.32% of the total youth labor force unemployed. Female youth unemployment is at 77.86%, and male youth unemployment is at 75.27%.",
+    "description": "By 2024, Djibouti faced a significant challenge with youth unemployment rates at 76.32%, affecting both genders with 77.86% for females and 75.27% for males.",
     "year": 2024,
     "indicatorIds": [
-      "sl-uem-1524-zs",
       "sl-uem-1524-fe-zs",
-      "sl-uem-1524-ma-zs"
+      "sl-uem-1524-ma-zs",
+      "sl-uem-1524-zs"
     ],
     "emoji": "📉",
     "type": "BAD",
@@ -32,37 +34,9 @@
     ]
   },
   {
-    "title": "Booming Export Growth",
-    "description": "In 2021, Djibouti's export volume index reached 1926.42, and the export value index soared to 2455.37, indicating a significant increase in export activities since 2015.",
-    "year": 2021,
-    "indicatorIds": [
-      "tx-qty-mrch-xd-wd",
-      "tx-val-mrch-xd-wd"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Dependence on Transport Services Imports",
-    "description": "Transport services accounted for 87.07% of Djibouti's service imports in 2023, reflecting a heavy reliance on transportation for its import activities.",
-    "year": 2023,
-    "indicatorIds": [
-      "bm-gsr-tran-zs"
-    ],
-    "emoji": "🚢",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Significant Manufacturing Growth",
-    "description": "Djibouti experienced a substantial 23.13% growth in manufacturing value added in 2021, showcasing a rapidly expanding manufacturing sector.",
+    "name": "Manufacturing Momentum",
+    "title": "Rapid Manufacturing Growth",
+    "description": "In 2021, Djibouti's manufacturing sector experienced a remarkable growth rate of 23.13%, indicating a burgeoning industrial base.",
     "year": 2021,
     "indicatorIds": [
       "nv-ind-manf-kd-zg"
@@ -74,14 +48,17 @@
     ]
   },
   {
-    "title": "High Import Activity",
-    "description": "In 2021, Djibouti's import volume index was 370.44, and the import value index was 460.72, indicating a robust import market since 2015.",
+    "name": "Trade Titans",
+    "title": "Surging Export and Import Indices",
+    "description": "Djibouti's trade indices soared in 2021, with export volume and value indices reaching 1926.42 and 2455.37, respectively, while import indices were 370.44 and 460.72.",
     "year": 2021,
     "indicatorIds": [
+      "tx-qty-mrch-xd-wd",
+      "tx-val-mrch-xd-wd",
       "tm-qty-mrch-xd-wd",
       "tm-val-mrch-xd-wd"
     ],
-    "emoji": "📦",
+    "emoji": "📈",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -89,8 +66,40 @@
     ]
   },
   {
-    "title": "Youth Unemployment with Basic Education",
-    "description": "In 2017, 53.32% of Djibouti's female labor force with basic education was unemployed, highlighting challenges in job opportunities for educated youth.",
+    "name": "Transport Trade Hub",
+    "title": "Leading in Transport Service Imports",
+    "description": "In 2023, transport services accounted for 87.07% of Djibouti's service imports, highlighting its strategic role as a transport hub.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-gsr-tran-zs",
+      "tm-val-tran-zs-wt"
+    ],
+    "emoji": "🚢",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade",
+      "private-sector"
+    ]
+  },
+  {
+    "name": "Entrepreneurial Spirit",
+    "title": "High Employer Percentage",
+    "description": "In 2023, 20.36% of Djibouti's workforce were employers, reflecting a strong entrepreneurial spirit within the country.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-emp-mpyr-zs"
+    ],
+    "emoji": "👔",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Educational Employment Gap",
+    "title": "Unemployment with Basic Education",
+    "description": "In 2017, 53.32% of females with basic education were unemployed, indicating a gap in employment opportunities for this demographic.",
     "year": 2017,
     "indicatorIds": [
       "sl-uem-basc-fe-zs"
@@ -102,52 +111,45 @@
     ]
   },
   {
-    "title": "Low Government Investment in Secondary Education",
-    "description": "In 2016, Djibouti's government expenditure per student in secondary education was only 0.73% of GDP per capita, indicating minimal investment in this sector.",
+    "name": "Education on a Budget",
+    "title": "Minimal Investment in Secondary Education",
+    "description": "In 2016, Djibouti's government expenditure per student in secondary education was just 0.73% of GDP per capita, one of the lowest globally. Additionally, only 0.83% of the government's education budget was allocated to secondary education.",
     "year": 2016,
     "indicatorIds": [
-      "se-xpd-seco-pc-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Minimal Focus on Secondary Education",
-    "description": "Djibouti allocated just 0.83% of its total government expenditure on education to secondary education in 2016, highlighting a lack of emphasis on this educational stage.",
-    "year": 2016,
-    "indicatorIds": [
+      "se-xpd-seco-pc-zs",
       "se-xpd-seco-zs"
     ],
-    "emoji": "📉",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Impact of Health Expenditure on Poverty",
-    "description": "In 2017, only 0.1% of Djibouti's population was pushed below the 60% median consumption poverty line due to out-of-pocket health expenses, showcasing a minimal impact.",
+    "name": "Healthcare Safety Net",
+    "title": "Minimal Impact of Health Costs on Poverty",
+    "description": "In 2017, only 0.1% of Djibouti's population was pushed below the 60% median consumption poverty line due to out-of-pocket health expenditures, indicating a strong healthcare safety net.",
     "year": 2017,
     "indicatorIds": [
       "sh-uhc-nopr-zs"
     ],
-    "emoji": "👍",
+    "emoji": "🏥",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Female Youth Employment Rate",
-    "description": "The employment to population ratio for females aged 15-24 in Djibouti was just 2.47% in 2024, indicating limited job opportunities for young women.",
+    "name": "Youth Employment Struggles",
+    "title": "Low Youth Employment Rates",
+    "description": "By 2024, Djibouti's employment to population ratio for ages 15-24 was projected to be 3.23%, with females at 2.47% and males at 3.98%, highlighting significant challenges in youth employment.",
     "year": 2024,
     "indicatorIds": [
-      "sl-emp-1524-sp-fe-zs"
+      "sl-emp-1524-sp-fe-zs",
+      "sl-emp-1524-sp-ma-zs",
+      "sl-emp-1524-sp-zs"
     ],
-    "emoji": "📉",
+    "emoji": "👷‍♂️",
     "type": "BAD",
     "topicIds": [
       "social-protection",
@@ -155,39 +157,15 @@
     ]
   },
   {
-    "title": "Limited Male Youth Employment Opportunities",
-    "description": "In 2017, the employment to population ratio for males aged 15-24 was 5.01%, reflecting restricted employment prospects for young men in Djibouti.",
-    "year": 2017,
-    "indicatorIds": [
-      "sl-emp-1524-sp-ma-ne-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Overall Low Youth Employment",
-    "description": "The total employment to population ratio for ages 15-24 in Djibouti was 3.99% in 2017, indicating a challenging job market for the youth.",
-    "year": 2017,
-    "indicatorIds": [
-      "sl-emp-1524-sp-ne-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
+    "name": "Labor Force Participation Dilemma",
     "title": "Low Youth Labor Force Participation",
-    "description": "In 2024, Djibouti's labor force participation rate for ages 15-24 was 13.62%, suggesting limited engagement of the youth in the labor market.",
+    "description": "In 2024, the labor force participation rate for Djibouti's youth was estimated at 13.62%, with males at 16.07%, reflecting a low engagement of young people in the labor market.",
     "year": 2024,
     "indicatorIds": [
+      "sl-tlf-acti-1524-ma-zs",
       "sl-tlf-acti-1524-zs"
     ],
-    "emoji": "📉",
+    "emoji": "🔍",
     "type": "BAD",
     "topicIds": [
       "social-protection",
@@ -195,14 +173,15 @@
     ]
   },
   {
-    "title": "Negative Merchandise Import Residual",
-    "description": "In 2022, Djibouti's merchandise imports by the reporting economy showed a residual of -2.05e-13% of total merchandise imports, indicating discrepancies in trade data.",
+    "name": "Import Anomaly",
+    "title": "Unusual Merchandise Import Residuals",
+    "description": "In 2022, Djibouti reported a merchandise import residual of nearly zero, indicating an unusual balance in import reporting.",
     "year": 2022,
     "indicatorIds": [
       "tm-val-mrch-rs-zs"
     ],
-    "emoji": "🔍",
-    "type": "BAD",
+    "emoji": "📦",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"

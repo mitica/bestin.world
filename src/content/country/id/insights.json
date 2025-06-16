@@ -1,97 +1,23 @@
 [
   {
-    "title": "High Gross Savings Rate",
-    "description": "In 2023, Indonesia's gross savings reached 7,510,595,299,407,600 LCU, indicating a strong savings culture and financial stability.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gns-ictr-cn"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Significant Manufacturing Sector",
-    "description": "Indonesia's manufacturing value added was 2,507,799,800,000,000 LCU in 2023, showcasing its robust industrial base.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-ind-manf-kn"
-    ],
-    "emoji": "🏭",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Operational Efficiency in Utility Services",
-    "description": "In 2024, Indonesia scored 98.96 in the operational efficiency of utility service provision, reflecting effective management and service delivery.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-us-p3"
-    ],
-    "emoji": "⚡",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "High Gross Fixed Capital Formation",
-    "description": "In 2023, Indonesia's gross fixed capital formation was 3,848,715,980,745,210 LCU, indicating substantial investment in infrastructure and development.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-gdi-ftot-kn"
-    ],
-    "emoji": "🏗️",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Trained Teachers in Preprimary Education",
-    "description": "In 2023, only 3.22% of preprimary teachers in Indonesia were trained, highlighting a significant gap in early childhood education quality.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-pre-tcaq-zs"
-    ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Prevalence of Tobacco Use Among Males",
-    "description": "In 2022, 73.1% of male adults in Indonesia were current tobacco users, posing a major public health challenge.",
+    "name": "Aid Reversal",
+    "title": "Negative Aid Flow from France and Netherlands",
+    "description": "In 2022, Indonesia experienced a net negative bilateral aid flow from France and the Netherlands, amounting to -$123.67 million and -$4.8 million, respectively.",
     "year": 2022,
     "indicatorIds": [
-      "sh-prv-smok-ma"
+      "dc-dac-fral-cd",
+      "dc-dac-nldl-cd"
     ],
-    "emoji": "🚬",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
-      "health",
-      "gender"
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Negative Net Primary Income",
-    "description": "In 2023, Indonesia had a net primary income of -537,935,133,823,997 LCU, indicating more income is paid abroad than received.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gsr-nfcy-cn"
-    ],
-    "emoji": "🔻",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
+    "name": "Carbon Challenge",
     "title": "High CO2 Emissions from Land Use",
-    "description": "In 2022, Indonesia's CO2 net fluxes from land use were 924.85 Mt CO2e, contributing significantly to global emissions.",
+    "description": "Indonesia's carbon dioxide emissions from land use and land-use change reached 924.85 Mt CO2e in 2022, highlighting significant environmental challenges.",
     "year": 2022,
     "indicatorIds": [
       "en-ghg-co2-lu-mt-ce-ar5"
@@ -103,17 +29,158 @@
     ]
   },
   {
-    "title": "Low Aid from France and Netherlands",
-    "description": "In 2022, Indonesia received negative net bilateral aid flows from France and the Netherlands, totaling -123,669,998.17 and -4,800,000.19 US$, respectively.",
-    "year": 2022,
+    "name": "Price Stability",
+    "title": "Stable Wholesale Price Index",
+    "description": "In 2018, Indonesia maintained a stable wholesale price index at 96.49, indicating a relatively stable pricing environment.",
+    "year": 2018,
     "indicatorIds": [
-      "dc-dac-fral-cd",
-      "dc-dac-nldl-cd"
+      "fp-wpi-totl"
     ],
-    "emoji": "🤝",
+    "emoji": "📉",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Investment Surge",
+    "title": "High Net Investment in Nonfinancial Assets",
+    "description": "Indonesia's net investment in nonfinancial assets reached 153.63 trillion LCU in 2016, showcasing robust investment activities.",
+    "year": 2016,
+    "indicatorIds": [
+      "gc-nfn-totl-cn"
+    ],
+    "emoji": "🏗️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Efficient Utilities",
+    "title": "Top Operational Efficiency in Utility Services",
+    "description": "By 2024, Indonesia achieved a high operational efficiency score of 98.96 in utility service provision, reflecting effective management.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-us-p3"
+    ],
+    "emoji": "⚡",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Capital Formation",
+    "title": "Strong Gross Fixed Capital Formation",
+    "description": "In 2023, Indonesia's gross fixed capital formation was a substantial 3,848.72 trillion LCU, indicating strong economic growth potential.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-gdi-ftot-kn"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Manufacturing Might",
+    "title": "High Manufacturing Value Added",
+    "description": "Indonesia's manufacturing sector contributed 2,507.80 trillion LCU in value added in 2023, underscoring its industrial strength.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-manf-kn"
+    ],
+    "emoji": "🏭",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "GDP Discrepancy",
+    "title": "Significant GDP Expenditure Discrepancy",
+    "description": "In 2023, Indonesia faced a GDP expenditure discrepancy of 274.01 trillion LCU, indicating potential inefficiencies in economic reporting.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-disc-kn"
+    ],
+    "emoji": "📊",
     "type": "BAD",
     "topicIds": [
-      "aid-effectiveness"
+      "economy"
+    ]
+  },
+  {
+    "name": "Savings Power",
+    "title": "High Gross Savings",
+    "description": "Indonesia's gross savings reached 7,510.60 trillion LCU in 2023, reflecting strong financial reserves.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gns-ictr-cn"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Income Outflow",
+    "title": "Negative Net Primary Income",
+    "description": "In 2023, Indonesia experienced a net primary income outflow of -537.94 trillion LCU, indicating more income leaving the country than entering.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gsr-nfcy-cn"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Education Gap",
+    "title": "Low Percentage of Trained Preprimary Teachers",
+    "description": "In 2023, only 3.22% of preprimary teachers in Indonesia were trained, highlighting a significant gap in early childhood education quality.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-pre-tcaq-fe-zs",
+      "se-pre-tcaq-ma-zs",
+      "se-pre-tcaq-zs"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Health Alert",
+    "title": "Low Antimalarial Treatment for Children",
+    "description": "In 2017, only 0.2% of children under age 5 with fever received antimalarial drugs, indicating a gap in healthcare provision.",
+    "year": 2017,
+    "indicatorIds": [
+      "sh-mlr-tret-zs"
+    ],
+    "emoji": "🩺",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Smoking Concern",
+    "title": "High Tobacco Use Among Males",
+    "description": "In 2022, 73.1% of male adults in Indonesia were current tobacco users, posing significant public health challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-prv-smok-ma"
+    ],
+    "emoji": "🚬",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "gender"
     ]
   }
 ]

@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Urban Population Concentration",
-    "description": "In 2024, Georgia had 1,084,471 people living in urban agglomerations of more than 1 million, indicating a significant urban population concentration.",
+    "name": "City Slickers",
+    "title": "Urban Population Concentration",
+    "description": "In 2024, Georgia's urban population in cities with over a million residents reached 1,084,471, highlighting a significant urban concentration.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty"
@@ -13,52 +14,46 @@
     ]
   },
   {
-    "title": "Efficient Business Location Operations",
-    "description": "Georgia achieved a high score of 95.5 in 2024 for the operational efficiency of establishing a business location, showcasing its conducive environment for business setup.",
+    "name": "Business Haven",
+    "title": "Top Business Location",
+    "description": "Georgia scored an impressive 83.01 in the B-READY Business Location Overall Score for 2024, showcasing its appeal as a prime business destination.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-bl-p3"
+      "ic-bre-bl-os"
     ],
     "emoji": "🏢",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Top-tier Financial Services Efficiency",
-    "description": "In 2024, Georgia scored 98.23 for the operational efficiency of receiving financial services, highlighting its robust financial service infrastructure.",
+    "name": "Efficiency Experts",
+    "title": "Operational Efficiency in Business",
+    "description": "With a score of 95.50 in operational efficiency for establishing a business location and 98.23 for receiving financial services in 2024, Georgia excels in business operations.",
     "year": 2024,
     "indicatorIds": [
+      "ic-bre-bl-p3",
       "ic-bre-fs-p3"
     ],
-    "emoji": "💰",
+    "emoji": "⚙️",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Strong Business Location Score",
-    "description": "With an overall score of 83.01 in 2024, Georgia is recognized for its favorable conditions for business locations.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bl-os"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Competitive Labor Market",
-    "description": "Georgia's labor market scored 83.46 in 2024, reflecting its competitive and efficient labor environment.",
+    "name": "Labor Leaders",
+    "title": "Strong Labor Market",
+    "description": "Georgia's labor market scored 83.46 in the B-READY Labor Overall Score for 2024, indicating a robust and efficient workforce.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-lb-os"
     ],
-    "emoji": "👷‍♂️",
+    "emoji": "💼",
     "type": "GOOD",
     "topicIds": []
   },
   {
+    "name": "Mastering Education",
     "title": "High Female Educational Attainment",
-    "description": "In 2023, 27.39% of Georgian women aged 25+ had attained at least a Master's degree, indicating a well-educated female population.",
+    "description": "In 2023, 27.39% of Georgian women aged 25+ had attained at least a Master's degree, reflecting a strong emphasis on higher education.",
     "year": 2023,
     "indicatorIds": [
       "se-ter-cuat-ms-fe-zs"
@@ -71,14 +66,15 @@
     ]
   },
   {
+    "name": "Education Investment",
     "title": "High Education Expenditure",
-    "description": "In 2023, Georgia allocated 38.20% of its total expenditure in public institutions to current education, reflecting a significant investment in education.",
+    "description": "Georgia allocated 38.20% of total expenditure in public institutions to current education in 2023, underscoring its commitment to education.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-ctot-zs"
     ],
     "emoji": "📚",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
       "education"
     ]

@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Social Contributions",
-    "description": "In 2022, social contributions accounted for 56.03% of Germany's total revenue, indicating a strong social security system.",
+    "name": "Social Safety Net Champions",
+    "title": "Highest Social Contributions as Revenue",
+    "description": "In 2022, Germany allocated 56.03% of its revenue to social contributions, showcasing its commitment to social welfare and public services.",
     "year": 2022,
     "indicatorIds": [
       "gc-rev-socl-zs"
@@ -13,26 +14,30 @@
     ]
   },
   {
-    "title": "Long Duration of Secondary Education",
-    "description": "Germany offers a comprehensive secondary education lasting 9 years, as of 2023, providing a robust foundation for higher education and vocational training.",
+    "name": "Education Marathon",
+    "title": "Longest Secondary Education Duration",
+    "description": "German students experience a comprehensive education system with a secondary education duration of 9 years as of 2023, one of the longest globally.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-durs"
     ],
-    "emoji": "📚",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Low Prevalence of Underweight in Young Females",
-    "description": "In 2016, only 0.2% of German girls under 5 were underweight, reflecting effective child nutrition programs.",
+    "name": "Healthy Start for Kids",
+    "title": "Low Prevalence of Malnutrition in Children",
+    "description": "Germany has one of the lowest rates of malnutrition among children under 5, with only 0.2% of females underweight and 0.7% of males overweight as of 2016.",
     "year": 2016,
     "indicatorIds": [
-      "sh-sta-maln-fe-zs"
+      "sh-sta-maln-fe-zs",
+      "sh-sta-owgh-ma-zs",
+      "sh-sta-stnt-ma-zs"
     ],
-    "emoji": "🍏",
+    "emoji": "🍎",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -40,39 +45,14 @@
     ]
   },
   {
-    "title": "Low Prevalence of Overweight in Young Males",
-    "description": "As of 2016, just 0.7% of German boys under 5 were overweight, showcasing successful health and nutrition strategies.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-owgh-ma-zs"
-    ],
-    "emoji": "🏃",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal Stunting in Young Males",
-    "description": "In 2016, only 0.4% of boys under 5 in Germany experienced stunting, indicating effective early childhood health interventions.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-stnt-ma-zs"
-    ],
-    "emoji": "📏",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Negative Net Capital Account Balance",
-    "description": "Germany's net capital account balance was -$28.71 billion in 2023, suggesting more capital outflows than inflows.",
+    "name": "Capital Account Conundrum",
+    "title": "Negative Net Capital Account",
+    "description": "In 2023, Germany faced a net capital account deficit of $28.71 billion, indicating more capital leaving the country than entering.",
     "year": 2023,
     "indicatorIds": [
       "bn-trf-kogt-cd"
     ],
-    "emoji": "📉",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
       "economy"

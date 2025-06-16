@@ -1,7 +1,8 @@
 [
   {
-    "title": "Abundant Rainfall",
-    "description": "In 2021, Colombia experienced an average precipitation depth of 3,240 mm per year, making it one of the wettest countries globally.",
+    "name": "Rainy Days Galore",
+    "title": "Most Rainfall in the World",
+    "description": "Colombia experiences an average precipitation of 3240 mm per year, making it one of the wettest countries globally as of 2021.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-prcp-mm"
@@ -15,21 +16,49 @@
     ]
   },
   {
-    "title": "Strong Financial Asset Growth",
-    "description": "By 2023, Colombia's net acquisition of financial assets reached 51,183,608,734,308 LCU, showcasing robust financial growth.",
+    "name": "Financial Inflows",
+    "title": "Significant IMF Financial Inflows",
+    "description": "In 2020, Colombia received net financial flows from the IMF amounting to $5.22 billion, indicating strong international financial support.",
+    "year": 2020,
+    "indicatorIds": [
+      "dt-nfl-imfn-cd"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Business-Friendly Colombia",
+    "title": "High Quality of Business Entry Regulations",
+    "description": "Colombia scored 96.6 in the Business Entry Pillar for regulatory quality in 2024, showcasing its conducive environment for starting businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-be-p1"
+    ],
+    "emoji": "🏢",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Tax Revenue Powerhouse",
+    "title": "High Revenue from Taxes on Goods and Services",
+    "description": "In 2023, Colombia collected 119 trillion LCU from taxes on goods and services, reflecting a robust taxation system.",
     "year": 2023,
     "indicatorIds": [
-      "gc-ast-totl-cn"
+      "gc-tax-gsrv-cn"
     ],
-    "emoji": "💹",
+    "emoji": "💸",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Net Financial Liabilities",
-    "description": "In 2023, Colombia's net incurrence of liabilities totaled 84,350,241,177,929.6 LCU, indicating significant financial obligations.",
+    "name": "Debt Dynamics",
+    "title": "High Net Incurrence of Liabilities",
+    "description": "Colombia's net incurrence of liabilities reached 84.35 trillion LCU in 2023, highlighting significant financial obligations.",
     "year": 2023,
     "indicatorIds": [
       "gc-lbl-totl-cn"
@@ -41,82 +70,9 @@
     ]
   },
   {
-    "title": "Significant Tax Revenue from Goods and Services",
-    "description": "Colombia collected 119,161,332,024,101 LCU in taxes on goods and services in 2023, reflecting a strong tax base.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-tax-gsrv-cn"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Interest Payments",
-    "description": "Interest payments in Colombia amounted to 69,633,047,516,322.6 LCU in 2023, highlighting a considerable financial burden.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-intp-cn"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Quality Business Entry Regulations",
-    "description": "In 2024, Colombia scored 96.6 in the Business Entry Pillar, indicating high-quality regulations for business entry.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-be-p1"
-    ],
-    "emoji": "🏢",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Effective Dispute Resolution Services",
-    "description": "Colombia achieved a score of 80.05 in the Dispute Resolution Pillar in 2024, reflecting efficient public services for dispute resolution.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-dr-p2"
-    ],
-    "emoji": "⚖️",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "High Child Employment in Manufacturing",
-    "description": "In 2015, 15.23% of economically active children aged 7-14 were employed in manufacturing, indicating a challenge in child labor.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-mnf-0714-zs"
-    ],
-    "emoji": "🚸",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Demand for Family Planning Met",
-    "description": "In 2015, 86.4% of married women in Colombia had their demand for family planning satisfied by modern methods, showcasing effective family planning services.",
-    "year": 2015,
-    "indicatorIds": [
-      "sh-fpl-satm-zs"
-    ],
-    "emoji": "👶",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
+    "name": "Surgical Savvy",
     "title": "High Number of Surgical Procedures",
-    "description": "Colombia performed 27,385 surgical procedures per 100,000 population in 2015, indicating a well-equipped healthcare system.",
+    "description": "With 27,385 surgical procedures per 100,000 population in 2015, Colombia demonstrates a strong healthcare capacity.",
     "year": 2015,
     "indicatorIds": [
       "sh-sgr-proc-p5"
@@ -128,8 +84,37 @@
     ]
   },
   {
-    "title": "Limited Investment in Nonfinancial Assets",
-    "description": "In 2016, Colombia reported a net investment in nonfinancial assets of -4,257,815,123,537 LCU, indicating a significant reduction in investment activities.",
+    "name": "Child Labor Concerns",
+    "title": "High Child Employment in Manufacturing",
+    "description": "In 2015, 15.23% of economically active children aged 7-14 were employed in manufacturing, indicating a need for improved child labor policies.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-mnf-0714-zs"
+    ],
+    "emoji": "🚸",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Safety Net Struggles",
+    "title": "Inadequate Social Safety Net",
+    "description": "In 2022, only 0.69% of the total welfare of beneficiary households was covered by social safety net programs, indicating a significant gap in social protection.",
+    "year": 2022,
+    "indicatorIds": [
+      "per_sa_allsa-adq_pop_tot"
+    ],
+    "emoji": "🔍",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Investment Dilemma",
+    "title": "Negative Investment in Nonfinancial Assets",
+    "description": "In 2016, Colombia experienced a negative net investment in nonfinancial assets, amounting to -4,257,815,123,537 LCU, highlighting challenges in asset growth.",
     "year": 2016,
     "indicatorIds": [
       "gc-nfn-totl-cn"
@@ -141,49 +126,45 @@
     ]
   },
   {
-    "title": "Negative Changes in Inventories",
-    "description": "As of 2023, Colombia experienced a decrease in inventories amounting to -59,417,000,000,000 LCU, reflecting a contraction in stock levels.",
+    "name": "Inventory Woes",
+    "title": "Decline in Inventory Changes",
+    "description": "By 2023, Colombia faced a significant decrease in inventory changes, with a value of -59,417,000,000,000 LCU, reflecting economic challenges.",
     "year": 2023,
     "indicatorIds": [
       "ne-gdi-stkb-cn"
     ],
-    "emoji": "📉",
+    "emoji": "📦",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Low Coverage of Unemployment Benefits",
-    "description": "In 2022, only 14.57% of Colombia's population was covered by unemployment benefits and active labor market programs, highlighting limited social protection.",
+    "name": "Unemployment Coverage Gap",
+    "title": "Limited Unemployment Benefits Coverage",
+    "description": "In 2022, unemployment benefits and ALMP covered only 0.14% of the population, indicating limited support for the unemployed.",
     "year": 2022,
     "indicatorIds": [
-      "per_lm_alllm-cov_pop_tot"
+      "per_lm_alllm-cov_pop_tot",
+      "per_lm_alllm-cov_q2_tot",
+      "per_lm_alllm-cov_q3_tot",
+      "per_lm_alllm-cov_q4_tot"
     ],
-    "emoji": "🔍",
+    "emoji": "🛑",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Minimal Social Safety Net Adequacy",
-    "description": "The adequacy of social safety net programs in Colombia was 69.11% of the total welfare of beneficiary households in 2022, indicating room for improvement.",
-    "year": 2022,
-    "indicatorIds": [
-      "per_sa_allsa-adq_pop_tot"
-    ],
-    "emoji": "🛡️",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
+    "name": "Cultural Shift Needed",
     "title": "Low Acceptance of Domestic Violence",
-    "description": "In 2015, only 3.1% of Colombian women believed a husband is justified in beating his wife for any reason, reflecting progressive attitudes towards domestic violence.",
+    "description": "In 2015, only 3.1% of women believed a husband was justified in beating his wife for any reason, indicating a positive cultural stance against domestic violence.",
     "year": 2015,
     "indicatorIds": [
+      "sg-vaw-argu-zs",
+      "sg-vaw-goes-zs",
+      "sg-vaw-negl-zs",
       "sg-vaw-reas-zs"
     ],
     "emoji": "🚫",

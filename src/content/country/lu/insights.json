@@ -1,24 +1,11 @@
 [
   {
-    "title": "Leading in Trade Services",
-    "description": "In 2023, Luxembourg's trade in services accounted for 315.32% of its GDP, the highest globally, showcasing its significant role in the global service market.",
+    "name": "Service Economy Powerhouse",
+    "title": "Dominant Service Sector",
+    "description": "In 2023, Luxembourg's trade in services reached an impressive 315.32% of GDP, highlighting its robust service economy. The country also excels in insurance and financial services, accounting for 45.84% of service imports.",
     "year": 2023,
     "indicatorIds": [
-      "bg-gsr-nfsv-gd-zs"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Top Financial Services Importer",
-    "description": "Luxembourg imported 45.84% of its services in insurance and financial services in 2023, indicating a strong demand for financial expertise.",
-    "year": 2023,
-    "indicatorIds": [
+      "bg-gsr-nfsv-gd-zs",
       "bm-gsr-insf-zs"
     ],
     "emoji": "💼",
@@ -30,11 +17,30 @@
     ]
   },
   {
-    "title": "Exemplary Government Effectiveness",
-    "description": "In 2023, Luxembourg achieved a perfect score in government effectiveness, ranking at the top percentile globally.",
+    "name": "Trade Titans",
+    "title": "Global Trade Leaders",
+    "description": "Luxembourg's trade activities are booming, with exports and imports of goods and services comprising 212.53% and 181.69% of GDP respectively in 2023. Overall trade accounts for 394.22% of GDP, showcasing its global trade prowess.",
     "year": 2023,
     "indicatorIds": [
-      "ge-per-rnk-upper"
+      "ne-exp-gnfs-zs",
+      "ne-imp-gnfs-zs",
+      "ne-trd-gnfs-zs"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "name": "Efficient Governance",
+    "title": "Top Government Effectiveness",
+    "description": "In 2023, Luxembourg achieved a perfect score in government effectiveness and regulatory quality, ranking at the top percentile globally. This reflects its efficient and well-regulated governance system.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-per-rnk-upper",
+      "rq-per-rnk-upper"
     ],
     "emoji": "🏛️",
     "type": "GOOD",
@@ -43,78 +49,29 @@
     ]
   },
   {
-    "title": "High Export-Driven Economy",
-    "description": "Exports of goods and services made up 212.53% of Luxembourg's GDP in 2023, highlighting its robust export sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-exp-gnfs-zs"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Strong Trade Activity",
-    "description": "With trade accounting for 394.22% of GDP in 2023, Luxembourg is a major player in international trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-trd-gnfs-zs"
-    ],
-    "emoji": "🔄",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Exceptional Service Sector Productivity",
-    "description": "In 2023, the value added per worker in Luxembourg's service sector was $196,335, the highest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-srv-empl-kd"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
+    "name": "Wealthy Workforce",
     "title": "High GDP Per Capita",
-    "description": "Luxembourg's GDP per capita was $130,491 in 2023, reflecting its high standard of living and economic prosperity.",
+    "description": "Luxembourg boasts a GDP per capita of $130,491 in 2023, one of the highest globally. Additionally, the GDP per person employed stands at $265,731, indicating a highly productive workforce.",
     "year": 2023,
     "indicatorIds": [
-      "ny-gdp-pcap-pp-kd"
+      "ny-gdp-pcap-pp-kd",
+      "sl-gdp-pcap-em-kd"
     ],
     "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
-      "economy"
+      "economy",
+      "social-protection"
     ]
   },
   {
-    "title": "Top Regulatory Quality",
-    "description": "In 2023, Luxembourg achieved a perfect score in regulatory quality, placing it among the best globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "rq-per-rnk-upper"
-    ],
-    "emoji": "📜",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Educational Attainment",
-    "description": "In 2022, 28.16% of Luxembourg's population aged 25+ had at least a Master's degree, indicating a highly educated workforce.",
+    "name": "Educated Elite",
+    "title": "Highly Educated Population",
+    "description": "As of 2022, 28.16% of Luxembourg's population aged 25+ holds at least a Master's degree, with 32.67% of males achieving this level of education, highlighting the country's commitment to higher education.",
     "year": 2022,
     "indicatorIds": [
-      "se-ter-cuat-ms-zs"
+      "se-ter-cuat-ms-zs",
+      "se-ter-cuat-ms-ma-zs"
     ],
     "emoji": "🎓",
     "type": "GOOD",
@@ -124,34 +81,23 @@
     ]
   },
   {
-    "title": "High Consumption Per Capita",
-    "description": "In 2022, Luxembourg's mean consumption per capita was $103.27 per day, reflecting a high standard of living.",
+    "name": "Generous Donor",
+    "title": "Support for Developing Nations",
+    "description": "In 2022, Luxembourg provided 0.37% of its GNI as net ODA to the least developed countries, demonstrating its commitment to international aid and development.",
     "year": 2022,
     "indicatorIds": [
-      "si-spr-pcap"
+      "dc-oda-tldc-gn-zs"
     ],
-    "emoji": "🍽️",
+    "emoji": "🤝",
     "type": "GOOD",
     "topicIds": [
-      "poverty"
+      "millenium-development-goals"
     ]
   },
   {
-    "title": "High GDP Per Person Employed",
-    "description": "Luxembourg's GDP per person employed was $265,731 in 2023, showcasing its productive workforce.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-gdp-pcap-em-kd"
-    ],
-    "emoji": "👷",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Strong R&D Workforce",
-    "description": "In 2017, Luxembourg had 3,166 technicians in R&D per million people, indicating a robust focus on innovation.",
+    "name": "Innovative Minds",
+    "title": "High R&D Technician Density",
+    "description": "With 3,166 technicians per million people in R&D as of 2017, Luxembourg fosters a strong environment for research and innovation.",
     "year": 2017,
     "indicatorIds": [
       "sp-pop-tech-rd-p6"
@@ -163,21 +109,52 @@
     ]
   },
   {
-    "title": "Generous ODA Contribution",
-    "description": "In 2022, Luxembourg provided 0.37% of its GNI as ODA to the least developed countries, reflecting its commitment to global development.",
+    "name": "Luxurious Living",
+    "title": "High Standard of Living",
+    "description": "In 2022, Luxembourg's survey mean consumption or income per capita was $103.27 per day, reflecting a high standard of living for its residents.",
     "year": 2022,
     "indicatorIds": [
-      "dc-oda-tldc-gn-zs"
+      "si-spr-pcap"
+    ],
+    "emoji": "🏡",
+    "type": "GOOD",
+    "topicIds": [
+      "poverty"
+    ]
+  },
+  {
+    "name": "Safe Childhood Haven",
+    "title": "Lowest Child Mortality Rates",
+    "description": "In 2023, Luxembourg recorded one of the lowest probabilities of child mortality, with only 0.2 deaths per 1,000 children aged 5-9 and 10-14 years, showcasing its commitment to child health and safety.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-0509",
+      "sh-dyn-1014"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Youthful Resilience",
+    "title": "Minimal Youth Mortality",
+    "description": "Luxembourg's youth mortality rate for ages 20-24 was just 0.9 per 1,000 in 2023, reflecting a strong healthcare system and supportive environment for young adults.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-2024"
     ],
     "emoji": "🌱",
     "type": "GOOD",
     "topicIds": [
-      "millenium-development-goals"
+      "education"
     ]
   },
   {
-    "title": "Low Threat to Fish Species",
-    "description": "In 2018, Luxembourg reported only 1 threatened fish species, indicating a minimal impact on aquatic biodiversity.",
+    "name": "Fishy Business",
+    "title": "Minimal Threatened Fish Species",
+    "description": "As of 2018, Luxembourg had only 1 threatened fish species, highlighting its effective environmental policies and conservation efforts.",
     "year": 2018,
     "indicatorIds": [
       "en-fsh-thrd-no"
@@ -189,35 +166,9 @@
     ]
   },
   {
-    "title": "Minimal Child Mortality Rate",
-    "description": "As of 2023, Luxembourg has a low probability of 0.2 per 1,000 for children aged 5-9 and 10-14 years dying, showcasing effective healthcare systems.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-dyn-0509",
-      "sh-dyn-1014"
-    ],
-    "emoji": "👶",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Youth Mortality Rate",
-    "description": "In 2023, the probability of dying among youth aged 20-24 years was 0.9 per 1,000, reflecting strong public health measures.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-dyn-2024"
-    ],
-    "emoji": "🧑",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
+    "name": "Prosperity Pursuit",
     "title": "Minimal Prosperity Gap",
-    "description": "In 2022, Luxembourg had an average shortfall of $0.4 from the prosperity standard of $28/day, indicating a high standard of living.",
+    "description": "In 2022, Luxembourg had a prosperity gap of just $0.4, indicating a strong economic foundation and equitable wealth distribution.",
     "year": 2022,
     "indicatorIds": [
       "si-spr-pgap"
@@ -227,8 +178,9 @@
     "topicIds": []
   },
   {
-    "title": "Low Food Insecurity",
-    "description": "In 2022, only 0.6% of Luxembourg's population experienced severe food insecurity, highlighting effective food distribution systems.",
+    "name": "Food Security Stronghold",
+    "title": "Low Food Insecurity Prevalence",
+    "description": "With only 0.6% of its population experiencing severe food insecurity in 2022, Luxembourg stands as a model for food security and access.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-svfi-zs"
@@ -240,13 +192,14 @@
     ]
   },
   {
-    "title": "Limited Financial Reserves",
-    "description": "In 2023, Luxembourg's total reserves were equivalent to only 0.07 months of imports, indicating a potential vulnerability in economic stability.",
+    "name": "Reserve Recession",
+    "title": "Minimal Total Reserves",
+    "description": "In 2023, Luxembourg's total reserves were equivalent to just 0.07 months of imports, indicating a potential vulnerability in economic resilience.",
     "year": 2023,
     "indicatorIds": [
       "fi-res-totl-mo"
     ],
-    "emoji": "💸",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "financial-sector",

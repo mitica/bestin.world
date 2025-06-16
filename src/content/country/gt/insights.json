@@ -1,10 +1,12 @@
 [
   {
-    "title": "Low Prevalence of Anemia Among Women",
-    "description": "In 2019, only 7.4% of women aged 15-49 in Guatemala were affected by anemia, indicating a relatively low prevalence compared to global statistics.",
+    "name": "Iron Deficiency? Not Here!",
+    "title": "Lowest Anemia Rates Among Women",
+    "description": "In 2019, Guatemala boasted one of the lowest anemia rates among women of reproductive age, with only 7.4% affected. This figure is even lower among non-pregnant women, at just 7%.",
     "year": 2019,
     "indicatorIds": [
-      "sh-anm-allw-zs"
+      "sh-anm-allw-zs",
+      "sh-anm-nprg-zs"
     ],
     "emoji": "💪",
     "type": "GOOD",
@@ -13,26 +15,14 @@
     ]
   },
   {
-    "title": "Minimal Anemia in Non-Pregnant Women",
-    "description": "Guatemala reported a 7% prevalence of anemia among non-pregnant women aged 15-49 in 2019, showcasing effective health measures.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-anm-nprg-zs"
-    ],
-    "emoji": "🌟",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
+    "name": "Young Hands in Factories",
     "title": "High Child Employment in Manufacturing",
-    "description": "In 2015, 22.94% of economically active female children aged 7-14 were employed in manufacturing, highlighting a significant child labor issue.",
+    "description": "In 2015, 22.94% of economically active female children aged 7-14 in Guatemala were employed in the manufacturing sector, highlighting a significant reliance on child labor.",
     "year": 2015,
     "indicatorIds": [
       "sl-mnf-0714-fe-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "🔧",
     "type": "BAD",
     "topicIds": [
       "social-protection",

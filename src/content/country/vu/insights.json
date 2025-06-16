@@ -1,82 +1,50 @@
 [
   {
-    "title": "High Gross Capital Formation",
-    "description": "In 2022, Vanuatu's gross capital formation was 56.07% of GDP, indicating a strong investment in infrastructure and development projects.",
+    "name": "Aid? No Thanks!",
+    "title": "Lowest Net Bilateral Aid from the UK",
+    "description": "In 2022, Vanuatu received the least net bilateral aid from the United Kingdom, totaling -$59,999.99. This indicates a minimal financial dependency on aid from the UK.",
     "year": 2022,
     "indicatorIds": [
-      "ne-gdi-totl-zs"
+      "dc-dac-gbrl-cd"
     ],
-    "emoji": "📈",
+    "emoji": "🇻🇺",
     "type": "GOOD",
     "topicIds": [
-      "economy"
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Significant Gross Fixed Capital Formation",
-    "description": "Vanuatu recorded a gross fixed capital formation of 55.45% of GDP in 2022, showcasing robust economic growth potential.",
-    "year": 2022,
+    "name": "Tax-Free Paradise",
+    "title": "Lowest Taxes on Income, Profits, and Capital Gains",
+    "description": "In 2021, taxes on income, profits, and capital gains accounted for only 0.23% of Vanuatu's revenue and 0.63% of total taxes, making it one of the lowest globally.",
+    "year": 2021,
     "indicatorIds": [
-      "ne-gdi-ftot-zs"
-    ],
-    "emoji": "🏗️",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Strong Adjusted Net Savings",
-    "description": "In 2020, Vanuatu's adjusted net savings, including particulate emission damage, stood at 37.98% of GNI, reflecting prudent economic management.",
-    "year": 2020,
-    "indicatorIds": [
-      "ny-adj-svng-gn-zs"
+      "gc-tax-ypkg-rv-zs",
+      "gc-tax-ypkg-zs"
     ],
     "emoji": "💰",
     "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Tax Revenue from Income and Profits",
-    "description": "In 2021, taxes on income, profits, and capital gains constituted only 0.23% of revenue, indicating a limited tax base.",
-    "year": 2021,
-    "indicatorIds": [
-      "gc-tax-ypkg-rv-zs"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Limited Public Services from Tax Administration",
-    "description": "In 2024, Vanuatu scored 12.03 in the B-READY Taxation Pillar 2, highlighting challenges in public service provision by the tax administration.",
+    "name": "Regulation Riddle",
+    "title": "Low Quality of Regulations for Dispute Resolution and Trade",
+    "description": "Vanuatu scored 47.3 in dispute resolution and 44.9 in international trade regulations in 2024, indicating room for improvement in regulatory frameworks.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-tx-p2"
+      "ic-bre-dr-p1",
+      "ic-bre-it-p1"
     ],
     "emoji": "⚖️",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Low Quality of Regulations for International Trade",
-    "description": "Vanuatu's B-READY score for the quality of regulations for international trade was 44.87 in 2024, indicating room for improvement.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-it-p1"
-    ],
-    "emoji": "🌐",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Inefficient Import and Export Processes",
-    "description": "In 2024, Vanuatu scored 13.20 in the efficiency of importing and exporting goods, suggesting inefficiencies in trade processes.",
+    "name": "Trade Troubles",
+    "title": "Inefficient International Trade Processes",
+    "description": "In 2024, Vanuatu's efficiency in importing, exporting, and digital trade was rated at 13.2, highlighting significant inefficiencies in trade processes.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-it-p3"
@@ -86,34 +54,39 @@
     "topicIds": []
   },
   {
-    "title": "Low Quality of Dispute Resolution Regulations",
-    "description": "The quality of regulations for dispute resolution in Vanuatu was rated at 47.30 in 2024, indicating potential legal system challenges.",
+    "name": "Tax Service Struggles",
+    "title": "Low Public Services from Tax Administration",
+    "description": "Vanuatu's tax administration services scored 12.03 in 2024, suggesting a need for enhanced public services in tax administration.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-dr-p1"
+      "ic-bre-tx-p2"
     ],
-    "emoji": "⚖️",
+    "emoji": "🧾",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Negative Net Bilateral Aid from the UK",
-    "description": "In 2022, Vanuatu experienced a net bilateral aid flow of -$60,000 from the UK, reflecting a decrease in financial support.",
+    "name": "Investment Boom",
+    "title": "High Gross Capital Formation",
+    "description": "In 2022, Vanuatu's gross fixed capital formation was 55.45% of GDP, and gross capital formation was 56.07%, among the highest globally, indicating robust investment activity.",
     "year": 2022,
     "indicatorIds": [
-      "dc-dac-gbrl-cd"
+      "ne-gdi-ftot-zs",
+      "ne-gdi-totl-zs"
     ],
-    "emoji": "🇬🇧",
-    "type": "BAD",
+    "emoji": "🏗️",
+    "type": "GOOD",
     "topicIds": [
-      "aid-effectiveness"
+      "economy"
     ]
   },
   {
-    "title": "High Adjusted Net Savings Excluding Emission Damage",
-    "description": "Vanuatu's adjusted net savings, excluding particulate emission damage, was 37.27% of GNI in 2021, indicating strong economic reserves.",
+    "name": "Savings Success",
+    "title": "High Adjusted Net Savings",
+    "description": "Vanuatu achieved adjusted net savings of 37.98% of GNI in 2020 and 37.27% in 2021, reflecting strong financial health and sustainability.",
     "year": 2021,
     "indicatorIds": [
+      "ny-adj-svng-gn-zs",
       "ny-adj-svnx-gn-zs"
     ],
     "emoji": "💼",
@@ -121,19 +94,6 @@
     "topicIds": [
       "economy",
       "environment"
-    ]
-  },
-  {
-    "title": "Low Tax Contribution to Total Taxes",
-    "description": "In 2021, taxes on income, profits, and capital gains accounted for only 0.63% of total taxes, suggesting a narrow tax base.",
-    "year": 2021,
-    "indicatorIds": [
-      "gc-tax-ypkg-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
     ]
   }
 ]

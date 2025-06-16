@@ -1,7 +1,8 @@
 [
   {
-    "title": "Leading Global Contributor to Development Aid",
-    "description": "In 2017, Sweden provided 1.02% of its Gross National Income (GNI) as Official Development Assistance (ODA), marking it as one of the highest contributors globally.",
+    "name": "Generous Givers",
+    "title": "Top Global Aid Contributor",
+    "description": "In 2017, Sweden allocated 1.02% of its Gross National Income (GNI) to Official Development Assistance (ODA), making it one of the highest contributors in the world.",
     "year": 2017,
     "indicatorIds": [
       "dc-oda-totl-gn-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "High Tax Revenue from Other Sources",
-    "description": "In 2022, 28.21% of Sweden's revenue came from other taxes, indicating a diversified tax base.",
+    "name": "Tax Titans",
+    "title": "High Revenue from Other Taxes",
+    "description": "In 2022, Sweden's revenue from other taxes constituted 28.21% of its total revenue, showcasing its robust tax system.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-othr-rv-zs"
@@ -26,8 +28,9 @@
     ]
   },
   {
+    "name": "Clean Air Champions",
     "title": "Minimal Particulate Emission Damage",
-    "description": "Sweden's particulate emission damage was only 0.009% of its GNI in 2021, showcasing its commitment to environmental sustainability.",
+    "description": "In 2021, the damage from particulate emissions in Sweden was only 0.009% of its GNI, reflecting its commitment to environmental health.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dpem-gn-zs"
@@ -40,8 +43,9 @@
     ]
   },
   {
-    "title": "Strong Net Primary Income from Abroad",
-    "description": "In 2023, Sweden's net primary income from abroad was valued at 176.7 billion LCU, reflecting a robust international economic presence.",
+    "name": "Income Influx",
+    "title": "High Net Primary Income from Abroad",
+    "description": "In 2023, Sweden's net primary income from abroad was valued at 176.7 billion constant LCU, indicating strong international economic ties.",
     "year": 2023,
     "indicatorIds": [
       "ny-gsr-nfcy-kn"
@@ -53,8 +57,9 @@
     ]
   },
   {
+    "name": "Education Excellence",
     "title": "Near-Universal Male Secondary School Enrollment",
-    "description": "In 2015, Sweden achieved a 99.81% net enrollment rate for males in secondary education, highlighting its strong educational system.",
+    "description": "In 2015, 99.81% of Swedish males were enrolled in secondary education, highlighting the country's commitment to education.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-nenr-ma"

@@ -1,47 +1,38 @@
 [
   {
-    "title": "Minimal Methane Emissions from Buildings",
-    "description": "In 2019, Saint Kitts and Nevis recorded a methane emission from buildings of just 0.0001 Mt CO2e, one of the lowest globally.",
-    "year": 2019,
-    "indicatorIds": [
-      "en-ghg-ch4-bu-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Negligible F-gases Emissions from Industry",
-    "description": "As of 2023, the country reported F-gases emissions from industrial processes at a mere 0.0001 Mt CO2e, showcasing its minimal industrial pollution footprint.",
+    "name": "Clean and Green",
+    "title": "Minimal Greenhouse Gas Emissions",
+    "description": "In 2019 and 2023, Saint Kitts and Nevis recorded one of the lowest methane and F-gases emissions from buildings and industrial processes, respectively, at just 0.0001 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
+      "en-ghg-ch4-bu-mt-ce-ar5",
       "en-ghg-fgas-ip-mt-ce-ar5"
     ],
-    "emoji": "🏭",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Education Expenditure",
-    "description": "In 2021, Saint Kitts and Nevis allocated $13,736,000.66 to education, indicating a relatively low investment in educational development.",
+    "name": "Investing in Minds",
+    "title": "Significant Education Investment",
+    "description": "In 2021, Saint Kitts and Nevis allocated over $13.7 million towards education, emphasizing its commitment to nurturing future generations.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-cd"
     ],
     "emoji": "📚",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Minimal Child Mortality Rates",
-    "description": "The country reported only one death in the age groups 5-9 and 10-14 in 2021 and 2023, respectively, highlighting its effective child healthcare systems.",
+    "name": "Safe Childhood",
+    "title": "Low Child Mortality Rates",
+    "description": "With only one recorded death in both the 5-9 and 10-14 age groups in 2021 and 2023, Saint Kitts and Nevis boasts one of the lowest child mortality rates globally.",
     "year": 2023,
     "indicatorIds": [
       "sh-dth-0509",

@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Public Sector Transparency",
-    "description": "In 2023, Cape Verde achieved a CPIA transparency, accountability, and corruption rating of 4.5 out of 6, indicating a relatively high level of transparency in the public sector.",
+    "name": "Transparent Governance",
+    "title": "High Public Sector Integrity",
+    "description": "Cape Verde scores a 4.5 out of 6 in transparency, accountability, and corruption in the public sector, indicating a strong commitment to integrity in governance as of 2023.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-tran-xq"
@@ -13,8 +14,9 @@
     ]
   },
   {
+    "name": "Efficient Administration",
     "title": "Quality Public Administration",
-    "description": "The CPIA quality of public administration rating for Cape Verde was 4 out of 6 in 2023, reflecting a competent public administration system.",
+    "description": "With a CPIA rating of 4 out of 6 in 2023, Cape Verde demonstrates effective public administration, reflecting its ability to manage resources and implement policies efficiently.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-padm-xq"
@@ -26,23 +28,37 @@
     ]
   },
   {
-    "title": "Minimal Ores and Metals Exports",
-    "description": "In 2023, ores and metals accounted for only 0.000058% of Cape Verde's merchandise exports, highlighting a limited reliance on these sectors.",
-    "year": 2023,
+    "name": "Coal Dependency",
+    "title": "High Coal Rent Dependency",
+    "description": "In 2021, coal rents accounted for 17.18% of Cape Verde's GDP, highlighting a significant reliance on coal for economic stability.",
+    "year": 2021,
     "indicatorIds": [
-      "tx-val-mmtl-zs-un"
+      "ny-gdp-coal-rt-zs"
     ],
     "emoji": "⛏️",
     "type": "BAD",
     "topicIds": [
-      "energy",
-      "private-sector",
-      "trade"
+      "environment"
     ]
   },
   {
+    "name": "Low Innovation",
+    "title": "Minimal Patent Activity",
+    "description": "Cape Verde had only 1 patent application by nonresidents in 2021, indicating limited innovation and technological advancement.",
+    "year": 2021,
+    "indicatorIds": [
+      "ip-pat-nres"
+    ],
+    "emoji": "💡",
+    "type": "BAD",
+    "topicIds": [
+      "science"
+    ]
+  },
+  {
+    "name": "Agricultural Challenges",
     "title": "Low Cereal Yield",
-    "description": "Cape Verde's cereal yield was 11.5 kg per hectare in 2022, one of the lowest globally, indicating challenges in agricultural productivity.",
+    "description": "With a cereal yield of 11.5 kg per hectare in 2022, Cape Verde faces significant challenges in agricultural productivity.",
     "year": 2022,
     "indicatorIds": [
       "ag-yld-crel-kg"
@@ -55,42 +71,33 @@
     ]
   },
   {
-    "title": "Minimal Patent Applications by Nonresidents",
-    "description": "In 2021, Cape Verde had only 1 patent application by nonresidents, suggesting limited foreign interest in intellectual property within the country.",
-    "year": 2021,
-    "indicatorIds": [
-      "ip-pat-nres"
-    ],
-    "emoji": "📄",
-    "type": "BAD",
-    "topicIds": [
-      "science"
-    ]
-  },
-  {
-    "title": "High Coal Rents Contribution to GDP",
-    "description": "Coal rents contributed 17.18% to Cape Verde's GDP in 2021, indicating a significant reliance on coal-related revenues.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-gdp-coal-rt-zs"
-    ],
-    "emoji": "⛏️",
-    "type": "BAD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
+    "name": "HIV Concern",
     "title": "Children Living with HIV",
-    "description": "In 2022, there were 100 children aged 0-14 living with HIV in Cape Verde, highlighting ongoing public health challenges.",
+    "description": "In 2022, 100 children aged 0-14 were living with HIV in Cape Verde, highlighting a public health concern that requires attention.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"
     ],
-    "emoji": "🩺",
+    "emoji": "🧬",
     "type": "BAD",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "name": "Minimal Metal Exports",
+    "title": "Negligible Ores and Metals Exports",
+    "description": "In 2023, ores and metals constituted only 0.000058% of Cape Verde's merchandise exports, indicating a minimal contribution to the export economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mmtl-zs-un"
+    ],
+    "emoji": "🔗",
+    "type": "BAD",
+    "topicIds": [
+      "energy",
+      "private-sector",
+      "trade"
     ]
   }
 ]

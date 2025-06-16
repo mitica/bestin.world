@@ -1,7 +1,8 @@
 [
   {
-    "title": "Exceptional Cereal Yield",
-    "description": "In 2022, Saint Vincent and the Grenadines achieved a remarkable cereal yield of 31,620.7 kg per hectare, one of the highest globally.",
+    "name": "Cereal Superstars",
+    "title": "Top Cereal Yielders",
+    "description": "In 2022, Saint Vincent and the Grenadines achieved a remarkable cereal yield of 31,620.7 kg per hectare, showcasing their agricultural efficiency.",
     "year": 2022,
     "indicatorIds": [
       "ag-yld-crel-kg"
@@ -14,21 +15,27 @@
     ]
   },
   {
-    "title": "Minimal Short-term Debt Exposure",
-    "description": "As of 2023, the country's short-term debt was only 0.0001% of its total external debt, indicating a strong financial position.",
+    "name": "Debt-Free Zone",
+    "title": "Minimal Short-Term Debt",
+    "description": "As of 2023, the country's short-term debt was only $905, representing a mere 0.0001% of total external debt and 0.0003% of total reserves, highlighting its strong financial management.",
     "year": 2023,
     "indicatorIds": [
+      "dt-dod-dstc-cd",
+      "dt-dod-dstc-ir-zs",
+      "dt-dod-dstc-xp-zs",
       "dt-dod-dstc-zs"
     ],
     "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
-      "external-debt"
+      "external-debt",
+      "economy"
     ]
   },
   {
-    "title": "Low Air Pollution Levels",
-    "description": "In 2015, only a negligible percentage of the population was exposed to PM2.5 pollution levels exceeding WHO standards, showcasing excellent air quality.",
+    "name": "Clean Air Champs",
+    "title": "Low Pollution Exposure",
+    "description": "In 2015, only an infinitesimal percentage of the population was exposed to PM2.5 pollution levels exceeding WHO targets, indicating excellent air quality.",
     "year": 2015,
     "indicatorIds": [
       "en-atm-pm25-mc-t2-zs"
@@ -40,11 +47,13 @@
     ]
   },
   {
-    "title": "Negligible Methane Emissions from Transport",
-    "description": "Saint Vincent and the Grenadines reported minimal methane emissions from transport in 2023, at just 0.0001 Mt CO2e.",
+    "name": "Eco-Friendly Transport",
+    "title": "Minimal Transport Emissions",
+    "description": "By 2023, emissions from transport were impressively low, with methane at 0.0001 Mt CO2e and nitrous oxide at 0.0003 Mt CO2e, reflecting sustainable practices.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-ch4-tr-mt-ce-ar5"
+      "en-ghg-ch4-tr-mt-ce-ar5",
+      "en-ghg-n2o-tr-mt-ce-ar5"
     ],
     "emoji": "🚗",
     "type": "GOOD",
@@ -53,35 +62,9 @@
     ]
   },
   {
-    "title": "Low Suicide Mortality Rate",
-    "description": "In 2021, the suicide mortality rate was only 0.41 per 100,000 population, reflecting a positive mental health environment.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-sta-suic-p5"
-    ],
-    "emoji": "😊",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Net Barter Terms of Trade Index",
-    "description": "The country achieved a net barter terms of trade index of 185.83 in 2021, indicating favorable trade conditions.",
-    "year": 2021,
-    "indicatorIds": [
-      "tt-pri-mrch-xd-wd"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Industrial Freshwater Withdrawals",
-    "description": "In 2021, industrial freshwater withdrawals accounted for only 0.0235% of total freshwater withdrawals, highlighting sustainable water use.",
+    "name": "Water Savers",
+    "title": "Efficient Industrial Water Use",
+    "description": "In 2021, the industrial sector used only 0.0235% of total freshwater withdrawals, demonstrating efficient water management.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwin-zs"
@@ -94,42 +77,33 @@
     ]
   },
   {
-    "title": "Low External Debt Stocks",
-    "description": "By 2023, the external debt stocks were at a minimal level of $905, showcasing strong fiscal management.",
-    "year": 2023,
+    "name": "Low Suicide Rates",
+    "title": "Minimal Suicide Mortality",
+    "description": "In 2021, the suicide mortality rate was exceptionally low at 0.41 per 100,000 population, indicating a healthy societal environment.",
+    "year": 2021,
     "indicatorIds": [
-      "dt-dod-dstc-cd"
+      "sh-sta-suic-ma-p5",
+      "sh-sta-suic-p5"
     ],
-    "emoji": "📉",
+    "emoji": "😊",
     "type": "GOOD",
     "topicIds": [
-      "external-debt"
+      "health"
     ]
   },
   {
-    "title": "Minimal Nitrous Oxide Emissions from Transport",
-    "description": "The country reported only 0.0003 Mt CO2e of nitrous oxide emissions from transport in 2023, indicating low environmental impact.",
-    "year": 2023,
+    "name": "Stable Trade Terms",
+    "title": "Strong Trade Index",
+    "description": "The net barter terms of trade index stood at 185.83 in 2021, reflecting favorable trade conditions for the country.",
+    "year": 2021,
     "indicatorIds": [
-      "en-ghg-n2o-tr-mt-ce-ar5"
+      "tt-pri-mrch-xd-wd"
     ],
-    "emoji": "🌍",
+    "emoji": "📈",
     "type": "GOOD",
     "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Grants and Other Revenue",
-    "description": "In 2017, the grants and other revenue were at a low of 68,920,000 LCU, suggesting limited external financial support.",
-    "year": 2017,
-    "indicatorIds": [
-      "gc-rev-gotr-cn"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
+      "private-sector",
+      "trade"
     ]
   }
 ]

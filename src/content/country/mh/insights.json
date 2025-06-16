@@ -1,21 +1,25 @@
 [
   {
-    "title": "High Vulnerability to Sea Level Rise",
-    "description": "In 2015, 81.7% of the Marshall Islands' land area was below 5 meters in elevation, making it highly susceptible to sea level rise.",
+    "name": "Sinking Paradise",
+    "title": "Most Vulnerable to Rising Sea Levels",
+    "description": "In 2015, 81.7% of the Marshall Islands' land area was below 5 meters in elevation, making it one of the most susceptible nations to rising sea levels.",
     "year": 2015,
     "indicatorIds": [
+      "ag-lnd-el5m-ru-zs",
       "ag-lnd-el5m-zs"
     ],
     "emoji": "🌊",
     "type": "BAD",
     "topicIds": [
+      "agriculture",
       "climate-change",
       "environment"
     ]
   },
   {
-    "title": "Dominance of Food and Beverage Manufacturing",
-    "description": "In 2021, food, beverages, and tobacco accounted for 98.1% of the value added in manufacturing in the Marshall Islands, highlighting a concentrated industrial sector.",
+    "name": "Food First",
+    "title": "Dominance of Food Manufacturing",
+    "description": "In 2021, food, beverages, and tobacco accounted for 98.1% of the value added in manufacturing, highlighting the sector's overwhelming importance to the economy.",
     "year": 2021,
     "indicatorIds": [
       "nv-mnf-fbto-zs-un"
@@ -27,21 +31,24 @@
     ]
   },
   {
-    "title": "Limited Social Insurance Coverage for the Wealthiest",
-    "description": "In 2019, only 66.2% of the richest quintile in the Marshall Islands were covered by social insurance programs, indicating gaps in social security coverage.",
-    "year": 2019,
+    "name": "Health Aid Dependency",
+    "title": "High External Health Expenditure",
+    "description": "In 2022, the Marshall Islands had an external health expenditure per capita of $455.51, indicating a significant reliance on international health funding.",
+    "year": 2022,
     "indicatorIds": [
-      "per_si_allsi-cov_q5_tot"
+      "sh-xpd-ehex-pc-cd",
+      "sh-xpd-ehex-pp-cd"
     ],
-    "emoji": "🛡️",
+    "emoji": "💊",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "health"
     ]
   },
   {
-    "title": "High Incidence of Tuberculosis",
-    "description": "As of 2023, the Marshall Islands reported 692 cases of tuberculosis per 100,000 people, reflecting significant public health challenges.",
+    "name": "Tuberculosis Challenge",
+    "title": "High Tuberculosis Incidence",
+    "description": "In 2023, the incidence of tuberculosis was 692 cases per 100,000 people, posing a significant public health challenge.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-incd"
@@ -54,54 +61,60 @@
     ]
   },
   {
-    "title": "Substantial External Health Expenditure",
-    "description": "In 2022, the Marshall Islands had an external health expenditure of $455.51 per capita, indicating reliance on international health funding.",
-    "year": 2022,
+    "name": "Social Safety Net for the Wealthy",
+    "title": "Social Insurance Coverage for the Rich",
+    "description": "In 2019, 66.2% of the richest quintile in the Marshall Islands were covered by social insurance programs, indicating a focus on wealthier citizens.",
+    "year": 2019,
     "indicatorIds": [
-      "sh-xpd-ehex-pc-cd"
+      "per_si_allsi-cov_q5_tot"
     ],
-    "emoji": "💵",
-    "type": "GOOD",
+    "emoji": "💼",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "social-protection"
     ]
   },
   {
-    "title": "Lowest Nitrous Oxide Emissions",
-    "description": "In 2023, the Marshall Islands reported a total nitrous oxide emission of 0.0002 Mt CO2e, one of the lowest globally, indicating minimal contribution to greenhouse gas emissions.",
+    "name": "Debt-Free Dream",
+    "title": "Lowest Central Government Debt",
+    "description": "In 2019, the Marshall Islands had one of the lowest central government debts globally, amounting to just 96,801,972 LCU. This reflects a strong fiscal position and prudent financial management.",
+    "year": 2019,
+    "indicatorIds": [
+      "gc-dod-totl-cn"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Eco-Friendly Champs",
+    "title": "Minimal Nitrous Oxide Emissions",
+    "description": "The Marshall Islands emitted a mere 0.0002 Mt CO2e of nitrous oxide in 2023, showcasing its commitment to maintaining a low environmental footprint.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-n2o-mt-ce-ar5"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "High Central Government Debt",
-    "description": "As of 2019, the central government debt of the Marshall Islands stood at 96,801,972 LCU, reflecting a significant financial burden on the country's economy.",
-    "year": 2019,
-    "indicatorIds": [
-      "gc-dod-totl-cn"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
+    "name": "Modest Consumption",
     "title": "Low Household Consumption Expenditure",
-    "description": "In 2023, household and NPISHs final consumption expenditure was recorded at 183,222,100 US$, indicating limited consumer spending capacity.",
+    "description": "In 2023, household consumption expenditure in the Marshall Islands was 183,222,100 US$, indicating a modest level of consumer spending compared to global standards.",
     "year": 2023,
     "indicatorIds": [
       "ne-con-prvt-cd",
       "ne-con-prvt-cn",
       "ne-con-prvt-cn-ad",
       "ne-con-prvt-kd",
-      "ne-con-prvt-kn"
+      "ne-con-prvt-kn",
+      "ne-con-prvt-pp-cd",
+      "ne-con-prvt-pp-kd"
     ],
     "emoji": "🛒",
     "type": "BAD",
@@ -110,24 +123,25 @@
     ]
   },
   {
-    "title": "Minimal Gross Capital Formation",
-    "description": "The gross capital formation in 2023 was 51,144,300 US$, suggesting low levels of investment in infrastructure and development.",
+    "name": "Service Sector Reliance",
+    "title": "High Service Value Added",
+    "description": "The service sector contributed significantly to the economy with a value of 182,726,900 LCU in 2023, highlighting the country's reliance on services over manufacturing.",
     "year": 2023,
     "indicatorIds": [
-      "ne-gdi-totl-cd",
-      "ne-gdi-totl-cn",
-      "ne-gdi-totl-kd",
-      "ne-gdi-totl-kn"
+      "nv-srv-totl-cn",
+      "nv-srv-totl-kd",
+      "nv-srv-totl-kn"
     ],
-    "emoji": "🏗️",
-    "type": "BAD",
+    "emoji": "🏢",
+    "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Limited Manufacturing Sector",
-    "description": "In 2021, other manufacturing accounted for only 1.89% of the value added in manufacturing, highlighting a small industrial base.",
+    "name": "Limited Manufacturing",
+    "title": "Minimal Manufacturing Contribution",
+    "description": "In 2021, other manufacturing accounted for only 1.89% of the value added in manufacturing, indicating a limited industrial base.",
     "year": 2021,
     "indicatorIds": [
       "nv-mnf-othr-zs-un"
@@ -139,36 +153,9 @@
     ]
   },
   {
-    "title": "High Dependence on Imports",
-    "description": "Imports of goods and services in 2023 amounted to 184,750,700 LCU, indicating a high reliance on external sources for goods and services.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-imp-gnfs-cn",
-      "ne-imp-gnfs-kn"
-    ],
-    "emoji": "🚢",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Commercial Service Exports",
-    "description": "In 2021, commercial service exports were valued at 1,059,451 US$, reflecting a limited presence in the global service market.",
-    "year": 2021,
-    "indicatorIds": [
-      "tx-val-serv-cd-wt"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Few Children Out of School",
-    "description": "In 2022, only 15 primary school-aged girls were out of school, showcasing strong educational participation among young females.",
+    "name": "Educational Progress",
+    "title": "Few Girls Out of School",
+    "description": "By 2022, only 15 primary school-aged girls were out of school, reflecting significant progress in female education.",
     "year": 2022,
     "indicatorIds": [
       "se-prm-uner-fe"
@@ -178,6 +165,21 @@
     "topicIds": [
       "education",
       "gender"
+    ]
+  },
+  {
+    "name": "Small Export Economy",
+    "title": "Minimal Commercial Service Exports",
+    "description": "In 2021, the Marshall Islands exported commercial services worth just 1,059,451 US$, indicating a small export economy.",
+    "year": 2021,
+    "indicatorIds": [
+      "tx-val-serv-cd-wt"
+    ],
+    "emoji": "📦",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

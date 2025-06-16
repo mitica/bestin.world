@@ -1,7 +1,8 @@
 [
   {
-    "title": "Top Global Rank in Control of Corruption",
-    "description": "In 2023, Norway achieved a perfect score of 100 in the Control of Corruption percentile rank, indicating the highest level of integrity and transparency in governance worldwide.",
+    "name": "Corruption-Free Zone",
+    "title": "Top Control of Corruption",
+    "description": "In 2023, Norway achieved a perfect score in controlling corruption, ranking at the top globally with a 100 percentile rank.",
     "year": 2023,
     "indicatorIds": [
       "cc-per-rnk-upper"
@@ -13,11 +14,13 @@
     ]
   },
   {
-    "title": "Universal Financial Inclusion for Older Adults",
-    "description": "As of 2021, 100% of Norwegians aged 25 and above have access to financial institutions or mobile money services, showcasing complete financial inclusion for older adults.",
+    "name": "Banking Bliss",
+    "title": "Robust Financial Inclusion",
+    "description": "By 2021, 100% of Norwegians aged 25+ and those with secondary education or more had accounts at financial institutions, showcasing exceptional financial inclusion.",
     "year": 2021,
     "indicatorIds": [
-      "fx-own-totl-ol-zs"
+      "fx-own-totl-ol-zs",
+      "fx-own-totl-so-zs"
     ],
     "emoji": "🏦",
     "type": "GOOD",
@@ -26,60 +29,52 @@
     ]
   },
   {
-    "title": "Universal Financial Access for Educated Youth",
-    "description": "In 2021, Norway reported that 100% of individuals aged 15 and above with secondary education or more have access to financial services, highlighting comprehensive financial inclusion among educated youth.",
-    "year": 2021,
-    "indicatorIds": [
-      "fx-own-totl-so-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Exceptional GNI Per Capita Growth",
-    "description": "Norway experienced a remarkable 25.02% growth in GNI per capita in 2022, reflecting significant economic expansion and prosperity.",
+    "name": "Wealth Surge",
+    "title": "Impressive GNI Per Capita Growth",
+    "description": "In 2022, Norway's GNI per capita grew by an impressive 25.02%, highlighting significant economic prosperity.",
     "year": 2022,
     "indicatorIds": [
       "ny-gnp-pcap-kd-zg"
     ],
-    "emoji": "📈",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Near-Universal Primary School Enrollment",
-    "description": "In 2017, Norway achieved a net primary school enrollment rate of 99.88%, ensuring almost all children have access to primary education.",
-    "year": 2017,
+    "name": "Healthy Investment",
+    "title": "High Health Expenditure",
+    "description": "In 2022, Norway's government spent $7,447.64 per capita on health, with a PPP value of $8,505.55, reflecting a strong commitment to public health.",
+    "year": 2022,
     "indicatorIds": [
-      "se-prm-nenr"
+      "sh-xpd-ghed-pc-cd",
+      "sh-xpd-ghed-pp-cd"
     ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Mortality from Air Pollution Among Males",
-    "description": "The mortality rate attributed to household and ambient air pollution for males was 9.4 per 100,000 in 2019, one of the lowest globally, indicating effective environmental policies.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-sta-airp-ma-p5"
-    ],
-    "emoji": "🌿",
+    "emoji": "🏥",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
+    "name": "Clean Air Champions",
+    "title": "Low Air Pollution Mortality",
+    "description": "In 2019, Norway reported a low mortality rate of 9.4 per 100,000 males due to air pollution, indicating effective environmental policies.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-airp-ma-p5"
+    ],
+    "emoji": "🌬️",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Safe Motherhood",
     "title": "Minimal Maternal Mortality",
-    "description": "In 2023, Norway reported a maternal mortality ratio of 1 per 100,000 live births, showcasing one of the safest environments for childbirth globally.",
+    "description": "With a maternal mortality ratio of just 1 per 100,000 live births in 2023, Norway stands out for its exceptional maternal health care.",
     "year": 2023,
     "indicatorIds": [
       "sh-sta-mmrt"
@@ -93,34 +88,55 @@
     ]
   },
   {
-    "title": "High Health Expenditure Per Capita",
-    "description": "In 2022, Norway's domestic general government health expenditure per capita was $7,447.64, reflecting a strong commitment to public health.",
-    "year": 2022,
+    "name": "Voice of the People",
+    "title": "High Voice and Accountability",
+    "description": "In 2023, Norway achieved a perfect 100 percentile rank in voice and accountability, reflecting a robust democratic environment.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-xpd-ghed-pc-cd"
+      "va-est",
+      "va-per-rnk",
+      "va-per-rnk-lower"
     ],
-    "emoji": "💊",
+    "emoji": "🗣️",
     "type": "GOOD",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "High Health Expenditure in PPP Terms",
-    "description": "Norway's health expenditure per capita in PPP terms was $8,505.55 in 2022, indicating substantial investment in healthcare relative to purchasing power.",
-    "year": 2022,
+    "name": "Education Excellence",
+    "title": "Near-Universal Primary Enrollment",
+    "description": "In 2017, Norway had a primary school enrollment rate of 99.88%, demonstrating its commitment to education.",
+    "year": 2017,
     "indicatorIds": [
-      "sh-xpd-ghed-pp-cd"
+      "se-prm-nenr"
     ],
-    "emoji": "🏥",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
-      "health"
+      "education"
     ]
   },
   {
-    "title": "High Consumption for Bottom 40%",
-    "description": "In 2022, the bottom 40% of Norway's population had a mean consumption of $49.42 per day, highlighting equitable wealth distribution.",
+    "name": "Trade Simplicity",
+    "title": "Low Tariff Bound Rates",
+    "description": "In 2021, Norway maintained low bound rates for all products at 2.83% and primary products at 0.56%, facilitating international trade.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-mrch-br-zs",
+      "tm-tax-tcom-br-zs"
+    ],
+    "emoji": "📦",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Bottom 40% Prosperity",
+    "title": "High Consumption for Lower Income",
+    "description": "In 2022, the bottom 40% of Norway's population enjoyed a daily consumption of $49.42, indicating equitable wealth distribution.",
     "year": 2022,
     "indicatorIds": [
       "si-spr-pc40"
@@ -132,56 +148,17 @@
     ]
   },
   {
-    "title": "Low Bound Rates on Primary Products",
-    "description": "In 2021, Norway maintained a low bound rate of 0.56% on primary products, promoting trade and economic openness.",
-    "year": 2021,
-    "indicatorIds": [
-      "tm-tax-tcom-br-zs"
-    ],
-    "emoji": "🌾",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Top Global Rank in Voice and Accountability",
-    "description": "Norway achieved a perfect score of 100 in the Voice and Accountability percentile rank in 2023, reflecting a robust democratic environment.",
+    "name": "Liquid Assets Alert",
+    "title": "Moderate Bank Liquid Reserves",
+    "description": "In 2023, Norway's bank liquid reserves to assets ratio stood at 69.60%, suggesting room for improvement in financial liquidity.",
     "year": 2023,
     "indicatorIds": [
-      "va-per-rnk"
+      "fd-res-liqu-as-zs"
     ],
-    "emoji": "🗳️",
-    "type": "GOOD",
+    "emoji": "💧",
+    "type": "BAD",
     "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Voice and Accountability Estimate",
-    "description": "In 2023, Norway's Voice and Accountability estimate was 1.78, showcasing strong democratic governance and citizen participation.",
-    "year": 2023,
-    "indicatorIds": [
-      "va-est"
-    ],
-    "emoji": "📢",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Confidence in Democratic Processes",
-    "description": "With a lower bound confidence interval of 96.08% in 2023, Norway demonstrates strong confidence in its democratic processes.",
-    "year": 2023,
-    "indicatorIds": [
-      "va-per-rnk-lower"
-    ],
-    "emoji": "🔍",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
+      "financial-sector"
     ]
   }
 ]

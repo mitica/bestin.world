@@ -1,12 +1,13 @@
 [
   {
-    "title": "Dominant Transport Service Sector",
-    "description": "In 2023, Mozambique's transport services accounted for 76.91% of its service exports, the highest percentage globally, highlighting the sector's significance to the country's economy.",
+    "name": "Transport Titans",
+    "title": "Leading in Transport Services Exports",
+    "description": "In 2023, Mozambique's transport services accounted for 76.91% of its service exports, marking it as a global leader in this sector.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-tran-zs"
     ],
-    "emoji": "🚢",
+    "emoji": "🚚",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -14,8 +15,9 @@
     ]
   },
   {
+    "name": "Debt Dilemma",
     "title": "High External Debt Burden",
-    "description": "Mozambique's external debt stocks reached 349.68% of its GNI in 2023, marking the highest ratio worldwide and indicating a significant financial challenge.",
+    "description": "Mozambique's external debt stocks reached 349.68% of its GNI in 2023, highlighting a significant financial challenge.",
     "year": 2023,
     "indicatorIds": [
       "dt-dod-dect-gn-zs"
@@ -28,21 +30,23 @@
     ]
   },
   {
-    "title": "Significant Government Employee Compensation",
-    "description": "In 2022, 62.02% of Mozambique's government expenses were allocated to employee compensation, the highest globally, reflecting a substantial public sector wage bill.",
+    "name": "Employee Expense Enthusiasts",
+    "title": "High Compensation of Employees",
+    "description": "In 2022, 62.02% of Mozambique's expenses were allocated to employee compensation, indicating a focus on workforce remuneration.",
     "year": 2022,
     "indicatorIds": [
       "gc-xpn-comp-zs"
     ],
     "emoji": "💼",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Prolonged Export Customs Clearance",
-    "description": "In 2018, the average time to clear exports through customs in Mozambique was 39.3 days, the longest duration worldwide, indicating inefficiencies in trade facilitation.",
+    "name": "Customs Conundrum",
+    "title": "Lengthy Customs Clearance",
+    "description": "In 2018, it took an average of 39.3 days to clear exports through customs in Mozambique, suggesting room for improvement in efficiency.",
     "year": 2018,
     "indicatorIds": [
       "ic-cus-durs-ex"
@@ -55,8 +59,9 @@
     ]
   },
   {
-    "title": "High Primary Education Intake for Males",
-    "description": "Mozambique had a gross intake ratio of 173.88% for males entering the first grade of primary education in 2018, the highest globally, suggesting over-age or repeat enrollments.",
+    "name": "Primary Education Pioneers",
+    "title": "High Male Enrollment in Primary Education",
+    "description": "With a gross intake ratio of 173.88% for males in 2018, Mozambique shows a strong commitment to primary education.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-gint-ma-zs"
@@ -69,8 +74,9 @@
     ]
   },
   {
-    "title": "Low Income for Bottom 40% of Population",
-    "description": "In 2019, the bottom 40% of Mozambique's population had a mean consumption of $0.74 per day, the lowest globally, highlighting severe income inequality and poverty.",
+    "name": "Poverty Predicament",
+    "title": "Low Income for Bottom 40%",
+    "description": "In 2019, the bottom 40% of Mozambique's population had a daily income of just $0.74, highlighting economic disparities.",
     "year": 2019,
     "indicatorIds": [
       "si-spr-pc40"
@@ -82,8 +88,9 @@
     ]
   },
   {
-    "title": "Low Overall Income Levels",
-    "description": "The total population's mean consumption in Mozambique was $2.30 per day in 2019, the lowest globally, underscoring widespread poverty.",
+    "name": "Income Inequality Insight",
+    "title": "Low Average Income",
+    "description": "The total population's average daily income was $2.30 in 2019, indicating widespread economic challenges.",
     "year": 2019,
     "indicatorIds": [
       "si-spr-pcap"
@@ -95,8 +102,9 @@
     ]
   },
   {
-    "title": "Minimal Elderly Male Population",
-    "description": "In 2023, only 1.00% of Mozambique's male population was aged 60-64, the lowest percentage worldwide, reflecting demographic challenges.",
+    "name": "Aging Anomaly",
+    "title": "Low Male Population Aged 60-64",
+    "description": "In 2023, only 1.00% of Mozambique's male population was aged 60-64, suggesting demographic shifts.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-6064-ma-5y"
@@ -108,8 +116,9 @@
     ]
   },
   {
-    "title": "Diverse Sources for Voice and Accountability",
-    "description": "Mozambique had 14 sources for voice and accountability in 2023, the highest globally, indicating a diverse range of perspectives in governance.",
+    "name": "Voice Variety",
+    "title": "Diverse Sources of Voice and Accountability",
+    "description": "With 14 sources in 2023, Mozambique demonstrates a diverse range of voices in governance and accountability.",
     "year": 2023,
     "indicatorIds": [
       "va-no-src"

@@ -1,7 +1,8 @@
 [
   {
+    "name": "Internet for All",
     "title": "Universal Internet Access",
-    "description": "In 2023, 100% of both male and female populations in Saudi Arabia were using the internet, showcasing complete digital connectivity.",
+    "description": "In 2023, Saudi Arabia achieved a remarkable feat with 100% of both male and female populations using the internet, showcasing the country's commitment to digital inclusivity.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -15,39 +16,42 @@
     ]
   },
   {
-    "title": "Minimal Use of Combustible Renewables",
-    "description": "In 2022, only 0.003% of Saudi Arabia's total energy consumption came from combustible renewables and waste, indicating a reliance on other energy sources.",
+    "name": "Training? What's That?",
+    "title": "Lack of Formal Training in Firms",
+    "description": "Only 3.9% of firms in Saudi Arabia offered formal training to their employees in 2022, indicating a potential area for improvement in workforce development.",
     "year": 2022,
     "indicatorIds": [
-      "eg-use-crnw-zs"
+      "ic-frm-trng-zs"
     ],
-    "emoji": "🔋",
-    "type": "BAD",
-    "topicIds": [
-      "energy"
-    ]
-  },
-  {
-    "title": "High Losses from Theft and Vandalism",
-    "description": "In 2022, Saudi Arabian firms reported losses amounting to 61.9% of their annual sales due to theft and vandalism, highlighting significant security challenges.",
-    "year": 2022,
-    "indicatorIds": [
-      "ic-frm-crim-zs"
-    ],
-    "emoji": "🚨",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Limited Formal Training in Firms",
-    "description": "As of 2022, only 3.9% of firms in Saudi Arabia offered formal training, suggesting a potential area for development in workforce skills enhancement.",
+    "name": "Energy Source Mystery",
+    "title": "Minimal Use of Combustible Renewables",
+    "description": "In 2022, Saudi Arabia's reliance on combustible renewables and waste for energy was a mere 0.003%, highlighting the country's focus on other energy sources.",
     "year": 2022,
     "indicatorIds": [
-      "ic-frm-trng-zs"
+      "eg-use-crnw-zs"
     ],
-    "emoji": "📉",
+    "emoji": "🔋",
+    "type": "GOOD",
+    "topicIds": [
+      "energy"
+    ]
+  },
+  {
+    "name": "Security Concerns",
+    "title": "High Losses from Theft and Vandalism",
+    "description": "In 2022, Saudi Arabian firms reported losses due to theft and vandalism amounting to 61.9% of annual sales, pointing to significant security challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "ic-frm-crim-zs"
+    ],
+    "emoji": "🔒",
     "type": "BAD",
     "topicIds": [
       "private-sector"

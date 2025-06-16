@@ -1,20 +1,22 @@
 [
   {
-    "title": "Leader in Renewable Energy Usage",
+    "name": "Powerhouse of Clean Energy",
+    "title": "Leading in Renewable Energy Usage",
     "description": "In 2023, Iceland utilized 89.33% of its total energy from alternative and nuclear sources, showcasing its commitment to sustainable energy solutions.",
     "year": 2023,
     "indicatorIds": [
       "eg-use-comm-cl-zs"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
       "energy"
     ]
   },
   {
-    "title": "Top Electric Power Consumer Per Capita",
-    "description": "With an electric power consumption of 50,082.75 kWh per capita in 2023, Iceland ranks among the highest in the world, reflecting its robust energy infrastructure.",
+    "name": "Electricity Galore",
+    "title": "Highest Electric Power Consumption Per Capita",
+    "description": "Iceland's electric power consumption reached 50,082.75 kWh per capita in 2023, the highest globally, reflecting its robust energy infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "eg-use-elec-kh-pc"
@@ -28,8 +30,9 @@
     ]
   },
   {
+    "name": "Water Wonderland",
     "title": "Abundant Freshwater Resources",
-    "description": "In 2021, Iceland boasted 456,351.34 cubic meters of renewable internal freshwater resources per capita, highlighting its rich natural water reserves.",
+    "description": "In 2021, Iceland boasted 456,351.34 cubic meters of renewable internal freshwater resources per capita, leading the world in water availability.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-intr-pc"
@@ -42,24 +45,26 @@
     ]
   },
   {
-    "title": "Universal Financial Inclusion",
-    "description": "By 2021, 100% of Iceland's population aged 15+ had access to financial institutions or mobile-money services, indicating comprehensive financial inclusion.",
+    "name": "Financial Inclusivity Champs",
+    "title": "Universal Financial Account Ownership",
+    "description": "By 2021, 100% of Iceland's population, including the poorest 40%, older adults, and those with secondary education, had financial accounts, ensuring widespread financial inclusion.",
     "year": 2021,
     "indicatorIds": [
-      "fx-own-totl-zs",
       "fx-own-totl-40-zs",
       "fx-own-totl-ol-zs",
-      "fx-own-totl-so-zs"
+      "fx-own-totl-so-zs",
+      "fx-own-totl-zs"
     ],
-    "emoji": "🏦",
+    "emoji": "💳",
     "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "High Female Primary School Enrollment",
-    "description": "In 2016, 99.37% of females were enrolled in primary education, underscoring Iceland's commitment to gender equality in education.",
+    "name": "Education Excellence",
+    "title": "Top Primary School Enrollment for Girls",
+    "description": "In 2016, Iceland achieved a 99.37% net enrollment rate for females in primary education, highlighting its commitment to gender equality in education.",
     "year": 2016,
     "indicatorIds": [
       "se-prm-nenr-fe"
@@ -72,8 +77,9 @@
     ]
   },
   {
-    "title": "Complete Male Persistence to Grade 5",
-    "description": "By 2021, 100% of male students persisted to grade 5, reflecting a strong educational system that supports student retention.",
+    "name": "Persistence Pays Off",
+    "title": "Perfect Male Persistence to Grade 5",
+    "description": "By 2021, Iceland had a 100% persistence rate for males reaching grade 5, indicating a strong educational foundation for young boys.",
     "year": 2021,
     "indicatorIds": [
       "se-prm-prs5-ma-zs"
@@ -86,49 +92,9 @@
     ]
   },
   {
-    "title": "Minimal Agricultural Irrigation",
-    "description": "In 2021, only 0.0027% of Iceland's agricultural land was irrigated, indicating a reliance on natural precipitation for farming.",
-    "year": 2021,
-    "indicatorIds": [
-      "ag-lnd-irig-ag-zs"
-    ],
-    "emoji": "🌧️",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture",
-      "climate-change"
-    ]
-  },
-  {
-    "title": "Low Carbon Emissions from Agriculture",
-    "description": "Iceland's agricultural sector emitted just 0.0008 Mt CO2e in 2023, showcasing its environmentally friendly farming practices.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-ag-mt-ce-ar5"
-    ],
-    "emoji": "🌱",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Negligible Natural Resource Depletion",
-    "description": "In 2021, natural resources depletion accounted for only 0.0001% of Iceland's GNI, reflecting sustainable resource management.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-adj-dres-gn-zs"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "energy"
-    ]
-  },
-  {
-    "title": "Minimal Freshwater Use in Agriculture",
-    "description": "Agriculture accounted for just 0.11% of Iceland's total freshwater withdrawals in 2021, highlighting efficient water use.",
+    "name": "Water Wise",
+    "title": "Minimal Agricultural Water Usage",
+    "description": "In 2021, only 0.11% of Iceland's total freshwater withdrawals were used for agriculture, showcasing efficient water management practices.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwag-zs"
@@ -142,47 +108,23 @@
     ]
   },
   {
-    "title": "Low Pupil-Teacher Ratio in Preprimary Education",
-    "description": "In 2015, Iceland had a pupil-teacher ratio of 4.77 in preprimary education, ensuring personalized attention for young learners.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-pre-enrl-tc-zs"
-    ],
-    "emoji": "👩‍🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Minimal Over-age Students in Primary Education",
-    "description": "In 2017, only 0.034% of primary students in Iceland were over-age, indicating timely progression through the education system.",
-    "year": 2017,
-    "indicatorIds": [
-      "se-prm-oenr-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Child Mortality Rate",
-    "description": "In 2023, the probability of dying among children aged 5-9 in Iceland was just 0.2 per 1,000, reflecting excellent child healthcare.",
+    "name": "Green and Clean",
+    "title": "Low Agricultural CO2 Emissions",
+    "description": "Iceland's agricultural sector emitted just 0.0008 Mt of CO2 in 2023, highlighting its commitment to sustainable farming practices.",
     "year": 2023,
     "indicatorIds": [
-      "sh-dyn-0509"
+      "en-ghg-co2-ag-mt-ce-ar5"
     ],
-    "emoji": "👶",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
-      "education"
+      "environment"
     ]
   },
   {
-    "title": "Minimal Youth Not in Education or Employment",
-    "description": "In 2023, only 2.62% of Icelandic female youth were not in education, employment, or training, indicating strong youth engagement.",
+    "name": "Youth in Action",
+    "title": "High Youth Engagement in Education and Employment",
+    "description": "In 2023, only 2.62% of Icelandic female youth were not in education, employment, or training, reflecting strong youth engagement.",
     "year": 2023,
     "indicatorIds": [
       "sl-uem-neet-fe-zs"
@@ -194,35 +136,51 @@
     ]
   },
   {
-    "title": "Low Net ODA Contribution",
-    "description": "In 2022, Iceland provided $94.38 million in net ODA, reflecting a modest contribution to international aid.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-oda-totl-cd",
-      "dc-oda-totl-kd"
-    ],
-    "emoji": "🌍",
-    "type": "BAD",
-    "topicIds": [
-      "millenium-development-goals"
-    ]
-  },
-  {
-    "title": "Minimal Chemicals in Manufacturing",
-    "description": "In 2020, chemicals accounted for a negative percentage of value added in Iceland's manufacturing sector, indicating limited industrial chemical use.",
+    "name": "Healthy Start",
+    "title": "Low Incidence of Low-Birthweight Babies",
+    "description": "In 2020, only 3.99% of births in Iceland were low-birthweight, indicating good maternal and infant health care.",
     "year": 2020,
     "indicatorIds": [
-      "nv-mnf-chem-zs-un"
+      "sh-sta-brtw-zs"
     ],
-    "emoji": "🏭",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
-      "economy"
+      "health"
     ]
   },
   {
-    "title": "Low Forest Depletion",
-    "description": "In 2021, Iceland's net forest depletion was valued at just $27,386, showcasing effective forest conservation efforts.",
+    "name": "Safe Childhood",
+    "title": "Minimal Child Mortality",
+    "description": "In 2023, Iceland had a probability of 0.2 per 1,000 for child mortality among ages 5-9, showcasing excellent child healthcare.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-dyn-0509"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Educational Excellence",
+    "title": "Low Pupil-Teacher Ratio in Preprimary Education",
+    "description": "With a pupil-teacher ratio of 4.77 in 2015, Iceland ensures personalized attention in early education.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-pre-enrl-tc-zs"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Forest Guardians",
+    "title": "Negligible Forest Depletion",
+    "description": "In 2021, Iceland's net forest depletion was valued at just $27,386, reflecting strong conservation efforts.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dfor-cd"
@@ -235,30 +193,32 @@
     ]
   },
   {
-    "title": "Negligible Natural Resources Rents",
-    "description": "In 2021, total natural resources rents contributed only 0.0001% to Iceland's GDP, indicating limited reliance on natural resource extraction.",
+    "name": "Resourceful Nation",
+    "title": "Minimal Natural Resource Depletion",
+    "description": "In 2021, Iceland's natural resources depletion was a mere 0.0001% of GNI, indicating sustainable resource management.",
     "year": 2021,
     "indicatorIds": [
-      "ny-gdp-totl-rt-zs"
+      "ny-adj-dres-gn-zs"
     ],
-    "emoji": "⛏️",
+    "emoji": "🌍",
     "type": "GOOD",
     "topicIds": [
-      "energy",
-      "environment"
+      "economy",
+      "energy"
     ]
   },
   {
-    "title": "Low Incidence of Low-Birthweight Babies",
-    "description": "In 2020, only 3.99% of births in Iceland were low-birthweight, reflecting good maternal and infant health care.",
-    "year": 2020,
+    "name": "Generous Giver",
+    "title": "Significant Net ODA Contributions",
+    "description": "In 2022, Iceland provided $94.38 million in net ODA, demonstrating its commitment to global aid.",
+    "year": 2022,
     "indicatorIds": [
-      "sh-sta-brtw-zs"
+      "dc-oda-totl-cd"
     ],
-    "emoji": "👶",
+    "emoji": "🤝",
     "type": "GOOD",
     "topicIds": [
-      "health"
+      "millenium-development-goals"
     ]
   }
 ]

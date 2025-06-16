@@ -1,12 +1,41 @@
 [
   {
-    "title": "High Total Reserves",
-    "description": "In 2023, Algeria's total reserves were 1110.24% of its total external debt, indicating a strong financial buffer against external shocks.",
+    "name": "Debt-Free Delight",
+    "title": "Lowest Public Debt Service",
+    "description": "In 2023, Algeria's public and publicly guaranteed debt service was only 0.19% of its exports, showcasing its strong fiscal management.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-tds-dppg-xp-zs"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Fossil Fuel Fanatic",
+    "title": "100% Fossil Fuel Energy Consumption",
+    "description": "Algeria's energy consumption in 2022 was entirely reliant on fossil fuels, highlighting a need for diversification.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-use-comm-fo-zs"
+    ],
+    "emoji": "⛽",
+    "type": "BAD",
+    "topicIds": [
+      "energy"
+    ]
+  },
+  {
+    "name": "Reserves Rich",
+    "title": "Highest Total Reserves to External Debt Ratio",
+    "description": "With reserves at 1110.24% of its total external debt in 2023, Algeria stands strong in financial stability.",
     "year": 2023,
     "indicatorIds": [
       "fi-res-totl-dt-zs"
     ],
-    "emoji": "💪",
+    "emoji": "🏦",
     "type": "GOOD",
     "topicIds": [
       "financial-sector",
@@ -14,21 +43,9 @@
     ]
   },
   {
-    "title": "Complete Reliance on Fossil Fuels",
-    "description": "As of 2022, 100% of Algeria's energy consumption was derived from fossil fuels, highlighting a lack of diversification in energy sources.",
-    "year": 2022,
-    "indicatorIds": [
-      "eg-use-comm-fo-zs"
-    ],
-    "emoji": "⚠️",
-    "type": "BAD",
-    "topicIds": [
-      "energy"
-    ]
-  },
-  {
-    "title": "Strong Youth Literacy Gender Parity",
-    "description": "In 2019, Algeria achieved a youth literacy gender parity index of 1.23, indicating balanced educational opportunities for young males and females.",
+    "name": "Literacy Leap",
+    "title": "Youth Literacy Gender Parity",
+    "description": "In 2019, Algeria achieved a gender parity index of 1.23 in youth literacy, indicating balanced educational opportunities.",
     "year": 2019,
     "indicatorIds": [
       "se-adt-1524-lt-fm-zs"
@@ -42,8 +59,9 @@
     ]
   },
   {
-    "title": "Minimal Market Capitalization",
-    "description": "In 2018, the market capitalization of listed domestic companies in Algeria was only 0.19% of GDP, suggesting limited stock market development.",
+    "name": "Market Cap Mystery",
+    "title": "Lowest Market Capitalization",
+    "description": "In 2018, Algeria's market capitalization was just 0.19% of its GDP, suggesting limited stock market activity.",
     "year": 2018,
     "indicatorIds": [
       "cm-mkt-lcap-gd-zs"
@@ -55,34 +73,9 @@
     ]
   },
   {
-    "title": "Low IBRD Loans and IDA Credits",
-    "description": "In 2016, Algeria's IBRD loans and IDA credits stood at $725,000, reflecting minimal reliance on international financial institutions for development.",
-    "year": 2016,
-    "indicatorIds": [
-      "dt-dod-mwbg-cd"
-    ],
-    "emoji": "💵",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Efficient Debt Service Management",
-    "description": "In 2023, public and publicly guaranteed debt service was only 0.19% of exports, indicating effective debt management relative to export earnings.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-dppg-xp-zs"
-    ],
-    "emoji": "🛡️",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Limited Primary Education Expenditure",
-    "description": "In 2023, only 1.40% of total expenditure in primary public institutions was allocated to current education expenditure, suggesting underinvestment in primary education.",
+    "name": "Minimal Education Expenditure",
+    "title": "Lowest Primary Education Expenditure",
+    "description": "In 2023, only 1.40% of total expenditure in primary public institutions was allocated to current education, indicating potential underfunding.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-cprm-zs"
@@ -91,6 +84,20 @@
     "type": "BAD",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "name": "Loan Light",
+    "title": "Minimal IBRD and IDA Loans",
+    "description": "In 2016, Algeria's IBRD loans and IDA credits were a mere $725,000, reflecting limited reliance on international borrowing.",
+    "year": 2016,
+    "indicatorIds": [
+      "dt-dod-mwbg-cd"
+    ],
+    "emoji": "💳",
+    "type": "GOOD",
+    "topicIds": [
+      "external-debt"
     ]
   }
 ]

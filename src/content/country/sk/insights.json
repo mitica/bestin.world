@@ -1,18 +1,67 @@
 [
   {
-    "title": "High Quality of Utility Service Regulations",
-    "description": "In 2024, Slovakia achieved a score of 91.74 in the quality of regulations on utility services, indicating strong regulatory frameworks in this sector.",
+    "name": "Corruption Control Champions",
+    "title": "Exemplary Corruption Control",
+    "description": "In 2023, Slovakia achieved a low standard error of 0.1449 in controlling corruption, showcasing its effective governance and transparency measures.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-std-err"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Minimalist Aid Givers",
+    "title": "Limited Aid to Least Developed Countries",
+    "description": "In 2022, Slovakia's net ODA to the least developed countries was only 0.0006% of its GNI, indicating a minimal contribution to international aid.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-oda-tldc-gn-zs"
+    ],
+    "emoji": "🌍",
+    "type": "BAD",
+    "topicIds": [
+      "millenium-development-goals"
+    ]
+  },
+  {
+    "name": "Trade Tax Triviality",
+    "title": "Negligible Trade Tax Revenue",
+    "description": "In 2022, Slovakia's customs and import duties accounted for a mere 0.0001% of tax revenue, reflecting a minimal reliance on trade taxes.",
+    "year": 2022,
+    "indicatorIds": [
+      "gc-tax-impt-cn",
+      "gc-tax-impt-zs",
+      "gc-tax-intt-cn",
+      "gc-tax-intt-rv-zs"
+    ],
+    "emoji": "📉",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Utility Service Excellence",
+    "title": "Top-Notch Utility Services",
+    "description": "In 2024, Slovakia scored 86.42 in overall utility services, with a remarkable 91.73 in regulatory quality, highlighting its superior infrastructure.",
     "year": 2024,
     "indicatorIds": [
+      "ic-bre-us-os",
       "ic-bre-us-p1"
     ],
-    "emoji": "🔧",
+    "emoji": "⚡",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Long Duration of Secondary Education",
-    "description": "As of 2023, Slovakia offers a secondary education duration of 9 years, reflecting a commitment to extended educational opportunities.",
+    "name": "Long Learners",
+    "title": "Extended Secondary Education",
+    "description": "In 2023, Slovakia offered a 9-year duration for secondary education, emphasizing its commitment to comprehensive schooling.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-durs"
@@ -24,10 +73,15 @@
     ]
   },
   {
-    "title": "Low Income Inequality",
-    "description": "In 2022, Slovakia's Gini index was 24.1, one of the lowest globally, indicating a relatively equal distribution of income.",
+    "name": "Income Equality Advocates",
+    "title": "Balanced Income Distribution",
+    "description": "In 2022, Slovakia's Gini index was 24.1, with the highest 20% holding 32.4% of income, indicating a relatively equitable income distribution.",
     "year": 2022,
     "indicatorIds": [
+      "si-dst-02nd-20",
+      "si-dst-03rd-20",
+      "si-dst-05th-20",
+      "si-dst-10th-10",
       "si-pov-gini"
     ],
     "emoji": "⚖️",
@@ -37,8 +91,9 @@
     ]
   },
   {
-    "title": "Significant Male Employment in Industry",
-    "description": "In 2023, 49.02% of male employment in Slovakia was in the industrial sector, showcasing a robust industrial workforce.",
+    "name": "Industrial Workforce Leaders",
+    "title": "High Male Employment in Industry",
+    "description": "In 2023, 49.02% of Slovakia's male workforce was employed in the industry sector, showcasing its industrial strength.",
     "year": 2023,
     "indicatorIds": [
       "sl-ind-empl-ma-zs"
@@ -48,59 +103,6 @@
     "topicIds": [
       "social-protection",
       "gender"
-    ]
-  },
-  {
-    "title": "Low Control of Corruption Variability",
-    "description": "The standard error for control of corruption in Slovakia was 0.145 in 2023, suggesting stable perceptions of corruption control.",
-    "year": 2023,
-    "indicatorIds": [
-      "cc-std-err"
-    ],
-    "emoji": "🔍",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Minimal Net ODA Contribution to Least Developed Countries",
-    "description": "In 2022, Slovakia's net ODA to the least developed countries was only 0.0006% of GNI, indicating limited financial aid contributions.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-oda-tldc-gn-zs"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "millenium-development-goals"
-    ]
-  },
-  {
-    "title": "Low Revenue from Customs and Import Duties",
-    "description": "In 2022, customs and import duties accounted for just 0.0001% of Slovakia's tax revenue, reflecting minimal reliance on these taxes.",
-    "year": 2022,
-    "indicatorIds": [
-      "gc-tax-impt-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Limited Income Share for Highest 10%",
-    "description": "The income share held by the highest 10% in Slovakia was 18.2% in 2022, indicating a more equitable income distribution compared to many countries.",
-    "year": 2022,
-    "indicatorIds": [
-      "si-dst-10th-10"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "poverty"
     ]
   }
 ]

@@ -1,18 +1,20 @@
 [
   {
-    "title": "Efficient Business Entry Operations",
-    "description": "In 2024, Rwanda achieved a perfect score of 100 in the Business Entry Pillar 3: Operational Efficiency, indicating streamlined processes for starting a business.",
+    "name": "Business Entry Champions",
+    "title": "Top Operational Efficiency in Business Entry",
+    "description": "In 2024, Rwanda achieved a perfect score of 100 in the operational efficiency of business entry, showcasing its streamlined processes for new businesses.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-p3"
     ],
-    "emoji": "📈",
+    "emoji": "🏆",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "High Dispute Resolution Efficiency",
-    "description": "Rwanda scored 94.63 in 2024 for the ease of resolving commercial disputes, showcasing its effective legal framework for business operations.",
+    "name": "Swift Justice",
+    "title": "Leading Ease of Resolving Commercial Disputes",
+    "description": "Rwanda scored an impressive 94.63 in 2024 for ease of resolving commercial disputes, reflecting its efficient legal framework.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-dr-p3"
@@ -22,8 +24,9 @@
     "topicIds": []
   },
   {
-    "title": "Strong Gender Representation in Parliament",
-    "description": "As of 2024, 63.75% of seats in Rwanda's national parliament are held by women, reflecting significant gender equality in political representation.",
+    "name": "Gender Parity Pioneers",
+    "title": "Highest Proportion of Women in Parliament",
+    "description": "With 63.75% of parliamentary seats held by women in 2024, Rwanda leads the world in gender representation.",
     "year": 2024,
     "indicatorIds": [
       "sg-gen-parl-zs"
@@ -37,34 +40,23 @@
     ]
   },
   {
-    "title": "Robust Human Resource Development",
-    "description": "Rwanda's CPIA rating for building human resources was 5 in 2023, indicating strong policies for education and workforce development.",
+    "name": "Human Capital Builders",
+    "title": "Strong Human Resources Development",
+    "description": "Rwanda's commitment to building human resources is evident with a rating of 5 out of 6 in 2023, highlighting its focus on education and workforce development.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
     ],
-    "emoji": "👨‍🎓",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Effective Revenue Mobilization",
-    "description": "With a CPIA rating of 4.5 in 2023, Rwanda demonstrates efficient revenue collection and fiscal management.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-revn-xq"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Moderate Environmental Sustainability Policies",
-    "description": "Rwanda scored 4.5 in 2023 for its CPIA policy and institutions for environmental sustainability, indicating moderate effectiveness in environmental governance.",
+    "name": "Environmental Stewards",
+    "title": "High Environmental Sustainability Rating",
+    "description": "In 2023, Rwanda scored 4.5 out of 6 for its policies and institutions supporting environmental sustainability, indicating a strong commitment to ecological preservation.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-envr-xq"
@@ -76,34 +68,23 @@
     ]
   },
   {
-    "title": "Challenges in Diarrhea Treatment for Children",
-    "description": "In 2020, only 19.3% of children under 5 received oral rehydration and continued feeding for diarrhea, highlighting a critical area for health improvement.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-orcf-zs"
-    ],
-    "emoji": "🚼",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Moderate Public Administration Quality",
-    "description": "Rwanda's CPIA quality of public administration rating was 4 in 2023, suggesting room for improvement in government efficiency.",
+    "name": "Revenue Mobilization Experts",
+    "title": "Efficient Revenue Mobilization",
+    "description": "Rwanda's efficiency in revenue mobilization is reflected in its 4.5 out of 6 rating in 2023, showcasing effective fiscal policies.",
     "year": 2023,
     "indicatorIds": [
-      "iq-cpa-padm-xq"
+      "iq-cpa-revn-xq"
     ],
-    "emoji": "🏛️",
-    "type": "BAD",
+    "emoji": "💰",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Balanced Social Inclusion Policies",
-    "description": "With a CPIA policies for social inclusion/equity cluster average of 4.4 in 2023, Rwanda shows a commitment to equitable social policies.",
+    "name": "Social Inclusion Advocates",
+    "title": "Strong Social Inclusion Policies",
+    "description": "With a 4.4 out of 6 rating in 2023, Rwanda demonstrates robust policies for social inclusion and equity.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-soci-xq"
@@ -115,42 +96,43 @@
     ]
   },
   {
-    "title": "Moderate Structural Policy Framework",
-    "description": "Rwanda's CPIA structural policies cluster average was 4.17 in 2023, indicating a balanced approach to economic policy reforms.",
+    "name": "Public Administration Improvers",
+    "title": "Quality Public Administration",
+    "description": "Rwanda's public administration quality is rated at 4 out of 6 in 2023, indicating a well-functioning government system.",
     "year": 2023,
     "indicatorIds": [
-      "iq-cpa-strc-xq"
+      "iq-cpa-padm-xq"
     ],
-    "emoji": "🏗️",
+    "emoji": "🏛️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Room for Improvement in Business Regulatory Environment",
-    "description": "In 2023, Rwanda's CPIA business regulatory environment rating was 4.5, suggesting a solid but improvable regulatory framework for businesses.",
-    "year": 2023,
+    "name": "Dispute Resolution Experts",
+    "title": "High Overall Dispute Resolution Score",
+    "description": "Rwanda's overall score of 82.87 in 2024 for dispute resolution highlights its effective legal processes.",
+    "year": 2024,
     "indicatorIds": [
-      "iq-cpa-breg-xq"
+      "ic-bre-dr-os"
     ],
-    "emoji": "📜",
+    "emoji": "🔍",
     "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
+    "topicIds": []
   },
   {
-    "title": "Moderate Resource Allocation Efficiency",
-    "description": "Rwanda's IDA resource allocation index was 4.12 in 2023, indicating moderate efficiency in resource distribution.",
-    "year": 2023,
+    "name": "Health Challenge",
+    "title": "Low Diarrhea Treatment Coverage",
+    "description": "In 2020, only 19.3% of children under 5 in Rwanda received oral rehydration and continued feeding for diarrhea treatment, indicating a critical area for improvement.",
+    "year": 2020,
     "indicatorIds": [
-      "iq-cpa-irai-xq"
+      "sh-sta-orcf-zs"
     ],
-    "emoji": "🔄",
-    "type": "GOOD",
+    "emoji": "🚑",
+    "type": "BAD",
     "topicIds": [
-      "public-sector"
+      "health"
     ]
   }
 ]

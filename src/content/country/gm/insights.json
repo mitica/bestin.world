@@ -1,7 +1,22 @@
 [
   {
-    "title": "High Dependency on Child Labor in Agriculture",
-    "description": "In 2015, 94.65% of economically active children aged 7-14 in Gambia were employed in agriculture, with 97.29% of them being female and 92.75% male. This indicates a significant reliance on child labor in the agricultural sector.",
+    "name": "Safety Net Champions",
+    "title": "Strong Social Safety Net Programs",
+    "description": "In 2015, Gambia's social safety net programs accounted for 55.15% of the total welfare of beneficiary households, showcasing a robust support system for its citizens.",
+    "year": 2015,
+    "indicatorIds": [
+      "per_sa_allsa-adq_pop_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Child Labor Alarm",
+    "title": "High Child Employment in Agriculture",
+    "description": "In 2015, a staggering 94.65% of economically active children aged 7-14 in Gambia were employed in agriculture, highlighting a significant challenge in child labor practices.",
     "year": 2015,
     "indicatorIds": [
       "sl-agr-0714-fe-zs",
@@ -16,22 +31,54 @@
     ]
   },
   {
-    "title": "Prevalence of Unpaid Child Labor",
-    "description": "In 2015, 94.62% of children aged 7-14 in employment were unpaid family workers, with 94.66% being male. This highlights a major issue of unpaid child labor in Gambia.",
+    "name": "Family Workforce",
+    "title": "Prevalence of Unpaid Child Family Workers",
+    "description": "In 2015, 94.62% of children in employment aged 7-14 were unpaid family workers in Gambia, indicating a reliance on child labor within family units.",
     "year": 2015,
     "indicatorIds": [
       "sl-fam-0714-ma-zs",
       "sl-fam-0714-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "👨‍👩‍👧‍👦",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Significant Child Labor in Work Only",
-    "description": "In 2015, 56.63% of children aged 7-14 in employment were engaged in work only, with 57.16% being male and 55.95% female. This reflects a high level of child labor focused solely on work activities.",
+    "name": "Export Powerhouse",
+    "title": "Dominance in Exporting to Low- and Middle-Income Economies",
+    "description": "In 2023, 97.38% of Gambia's merchandise exports were directed to low- and middle-income economies outside its region, demonstrating a strong international trade presence.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-or-zs"
+    ],
+    "emoji": "📦",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "European Trade Focus",
+    "title": "Significant Exports to Europe & Central Asia",
+    "description": "In 2023, 96.95% of Gambia's merchandise exports were sent to low- and middle-income economies in Europe & Central Asia, emphasizing its strategic trade relationships.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-r2-zs"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Work-Only Youth",
+    "title": "High Percentage of Children Working Only",
+    "description": "In 2015, 56.63% of children in employment aged 7-14 were engaged in work only, without attending school, highlighting a critical area for educational improvement.",
     "year": 2015,
     "indicatorIds": [
       "sl-tlf-0714-wk-fe-zs",
@@ -47,49 +94,21 @@
     ]
   },
   {
-    "title": "Strong Social Safety Net Programs",
-    "description": "In 2015, social safety net programs in Gambia accounted for 55.15% of the total welfare of beneficiary households, indicating a robust support system for vulnerable populations.",
-    "year": 2015,
+    "name": "Digital Transparency Boost",
+    "title": "Leading in Digital Public Services Transparency",
+    "description": "In 2024, Gambia achieved a remarkable score of 8.33 in digital public services and transparency for business entry, showcasing its commitment to digital governance.",
+    "year": 2024,
     "indicatorIds": [
-      "per_sa_allsa-adq_pop_tot"
+      "ic-bre-be-p2"
     ],
-    "emoji": "🛡️",
+    "emoji": "💻",
     "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
+    "topicIds": []
   },
   {
-    "title": "High Export Rate to Low- and Middle-Income Economies",
-    "description": "In 2023, 97.38% of Gambia's merchandise exports were directed to low- and middle-income economies outside the region, showcasing a strong export strategy towards these markets.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-or-zs"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Strong Trade Links with Europe & Central Asia",
-    "description": "In 2023, 96.95% of Gambia's merchandise exports were to low- and middle-income economies in Europe & Central Asia, highlighting significant trade connections with these regions.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-r2-zs"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Food Production Index",
-    "description": "In 2022, Gambia's food production index was recorded at 71.08, indicating a significant challenge in agricultural productivity compared to the global average.",
+    "name": "Food Production Challenge",
+    "title": "Struggling with Food Production",
+    "description": "Gambia's food production index stood at 71.08 in 2022, indicating a significant challenge in meeting food production needs compared to the 2014-2016 baseline.",
     "year": 2022,
     "indicatorIds": [
       "ag-prd-food-xd"
@@ -101,8 +120,27 @@
     ]
   },
   {
-    "title": "Minimal Contribution of Communications to Service Exports",
-    "description": "As of 2023, communications and computer services accounted for only 1.12% of Gambia's service exports, highlighting a potential area for growth in the digital economy.",
+    "name": "Child Labor Concerns",
+    "title": "High Child Employment Rates",
+    "description": "In 2015, 43.37% of children aged 7-14 in Gambia were involved in employment, with a notable 44.05% of females and 42.84% of males engaged in study and work.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-sw-fe-zs",
+      "sl-tlf-0714-sw-ma-zs",
+      "sl-tlf-0714-sw-zs"
+    ],
+    "emoji": "👶🏽",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "name": "Service Export Struggles",
+    "title": "Low Contribution of Communications and Computer Services",
+    "description": "In 2023, communications and computer services accounted for only 1.12% of Gambia's service exports, highlighting a need for diversification in service sectors.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-cmcp-zs"
@@ -115,19 +153,21 @@
     ]
   },
   {
-    "title": "Limited Digital Public Services for Business Entry",
-    "description": "In 2024, Gambia scored 8.33 in digital public services and transparency for business entry, suggesting room for improvement in facilitating business operations.",
+    "name": "Utility Regulation Hurdles",
+    "title": "Challenges in Utility Service Regulations",
+    "description": "With a score of 36.46 in 2024, Gambia faces challenges in the quality of regulations governing utility services, impacting business operations.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-be-p2"
+      "ic-bre-us-p1"
     ],
-    "emoji": "💻",
+    "emoji": "⚡",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Challenges in Business Location Attractiveness",
-    "description": "Gambia's overall score for business location was 33.42 in 2024, indicating potential barriers for attracting businesses to the country.",
+    "name": "Business Location Woes",
+    "title": "Low Business Location Appeal",
+    "description": "Gambia's overall score for business location was 33.42 in 2024, indicating room for improvement in attracting businesses.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bl-os"
@@ -137,90 +177,27 @@
     "topicIds": []
   },
   {
-    "title": "Moderate Labor Market Conditions",
-    "description": "With a score of 49.22 in 2024, Gambia's labor market conditions show moderate performance, suggesting a need for further development to enhance workforce capabilities.",
+    "name": "Labor Market Struggles",
+    "title": "Labor Market Challenges",
+    "description": "In 2024, Gambia's labor market scored 49.22, reflecting ongoing challenges in labor dynamics and employment opportunities.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-lb-os"
     ],
-    "emoji": "👷",
+    "emoji": "👷🏾",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Regulatory Challenges in Utility Services",
-    "description": "In 2024, Gambia scored 36.46 in the quality of regulations on utility services, indicating regulatory challenges in this sector.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-us-p1"
-    ],
-    "emoji": "🔌",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Low Coverage of Social Safety Nets for the Richest Quintile",
-    "description": "In 2015, only 0.55% of the richest quintile in Gambia were covered by social safety net programs, highlighting a disparity in social protection.",
+    "name": "Social Safety Net Gaps",
+    "title": "Limited Social Safety Net Coverage",
+    "description": "In 2015, only 0.55% of the richest quintile in Gambia were covered by social safety net programs, indicating a gap in social protection.",
     "year": 2015,
     "indicatorIds": [
       "per_sa_allsa-cov_q5_tot"
     ],
     "emoji": "🛡️",
     "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Minimal Child Employment in Manufacturing",
-    "description": "In 2015, only 0.08% of female economically active children aged 7-14 were employed in manufacturing, reflecting low child labor in this sector.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-mnf-0714-fe-zs"
-    ],
-    "emoji": "🏭",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "gender"
-    ]
-  },
-  {
-    "title": "Child Employment in Services Sector",
-    "description": "In 2015, 2.71% of economically active children aged 7-14 were employed in the services sector, indicating a notable presence of child labor in this area.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-srv-0714-zs"
-    ],
-    "emoji": "🛎️",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Rate of Children in Employment, Study, and Work",
-    "description": "In 2015, 43.37% of children aged 7-14 were engaged in employment, study, and work, highlighting a significant challenge in balancing education and labor.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-tlf-0714-sw-zs"
-    ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Low Child Wage Employment",
-    "description": "In 2015, only 0.85% of children aged 7-14 were employed as wage workers, suggesting limited formal employment opportunities for children.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-wag-0714-zs"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]

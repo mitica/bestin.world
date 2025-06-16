@@ -1,20 +1,8 @@
 [
   {
-    "title": "Limited Investment in Research and Development",
-    "description": "In 2018, Mauritania allocated only 0.01% of its GDP to research and development, indicating minimal investment in innovation and technological advancement.",
-    "year": 2018,
-    "indicatorIds": [
-      "gb-xpd-rsdv-gd-zs"
-    ],
-    "emoji": "🔬",
-    "type": "BAD",
-    "topicIds": [
-      "science"
-    ]
-  },
-  {
-    "title": "High Lead Time for Imports",
-    "description": "As of 2016, the median lead time to import goods into Mauritania was 32 days, suggesting significant delays in the import process.",
+    "name": "Importing Takes Forever",
+    "title": "Longest Import Lead Time",
+    "description": "In 2016, Mauritania had the longest lead time to import goods, taking an average of 32 days. This indicates significant delays in the import process.",
     "year": 2016,
     "indicatorIds": [
       "lp-imp-durs-md"
@@ -27,19 +15,34 @@
     ]
   },
   {
-    "title": "Minimal Reliance on Insurance and Financial Services in Imports",
-    "description": "In 2023, insurance and financial services accounted for only 0.04% of Mauritania's service imports, reflecting a low dependency on these services in international trade.",
+    "name": "Financial Services? Not Here",
+    "title": "Lowest Financial Service Imports",
+    "description": "In 2023, Mauritania had the lowest percentage of insurance and financial services as part of its service imports, at just 0.037%. This suggests a limited role of financial services in the country's import economy.",
     "year": 2023,
     "indicatorIds": [
       "bm-gsr-insf-zs",
       "tm-val-insf-zs-wt"
     ],
-    "emoji": "💼",
-    "type": "GOOD",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "name": "R&D? What's That?",
+    "title": "Minimal Investment in Research and Development",
+    "description": "In 2018, Mauritania spent only 0.01% of its GDP on research and development, indicating a minimal focus on innovation and technological advancement.",
+    "year": 2018,
+    "indicatorIds": [
+      "gb-xpd-rsdv-gd-zs"
+    ],
+    "emoji": "🔬",
+    "type": "BAD",
+    "topicIds": [
+      "science"
     ]
   }
 ]

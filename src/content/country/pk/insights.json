@@ -1,33 +1,35 @@
 [
   {
-    "title": "High Debt Service Ratio",
-    "description": "In 2023, Pakistan's debt service as a percentage of exports of goods, services, and primary income reached 37.01%, indicating a significant financial burden. This is one of the highest ratios globally.",
+    "name": "Debt Dilemma",
+    "title": "High Debt Service Burden",
+    "description": "In 2023, Pakistan's debt service, including PPG and IMF, accounted for 37% of its exports of goods, services, and primary income, indicating a significant financial burden.",
     "year": 2023,
     "indicatorIds": [
-      "dt-tds-dppf-xp-zs"
+      "dt-tds-dppf-xp-zs",
+      "dt-tds-dppg-xp-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Limited Use of Insecticide-Treated Bed Nets",
-    "description": "As of 2018, only 0.4% of Pakistan's under-5 population used insecticide-treated bed nets, highlighting a critical gap in malaria prevention efforts.",
-    "year": 2018,
+    "name": "Business Blues",
+    "title": "Struggling Business Infrastructure",
+    "description": "In 2024, Pakistan scored 3.33 on the B-READY Business Insolvency Pillar 2, reflecting challenges in the quality of institutional and operational infrastructure for judicial insolvency proceedings.",
+    "year": 2024,
     "indicatorIds": [
-      "sh-mlr-nets-zs"
+      "ic-bre-bi-p2"
     ],
-    "emoji": "🦟",
+    "emoji": "🏢",
     "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
+    "topicIds": []
   },
   {
-    "title": "High Diabetes Prevalence",
-    "description": "In 2021, 30.8% of Pakistan's population aged 20 to 79 was affected by diabetes, marking one of the highest prevalence rates worldwide.",
+    "name": "Health Hazard",
+    "title": "Rising Diabetes Prevalence",
+    "description": "As of 2021, 30.8% of Pakistan's population aged 20 to 79 was affected by diabetes, highlighting a growing health concern.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-diab-zs"
@@ -39,54 +41,46 @@
     ]
   },
   {
-    "title": "Declining Import Unit Value Index",
-    "description": "The import unit value index for Pakistan was 67.1 in 2023, reflecting a decrease from the base year 2015, indicating a reduction in import costs.",
+    "name": "Trade Troubles",
+    "title": "Low Import Unit Value Index",
+    "description": "In 2023, Pakistan's import unit value index stood at 67.1, indicating a decrease in the value of imported goods compared to 2015.",
     "year": 2023,
     "indicatorIds": [
       "tm-uvi-mrch-xd-wd"
     ],
     "emoji": "📉",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "private-sector",
       "trade"
     ]
   },
   {
+    "name": "Financial Flow Freeze",
     "title": "Negative Net Financial Flows",
-    "description": "In 2023, Pakistan experienced a net financial outflow of $301.23 million in RDB concessional funds, suggesting a reliance on external financial support.",
+    "description": "In 2023, Pakistan experienced a negative net financial flow of -301,228,000 USD in RDB concessional funds, suggesting financial outflows surpassing inflows.",
     "year": 2023,
     "indicatorIds": [
       "dt-nfl-rdbc-cd"
     ],
-    "emoji": "💸",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Strained Public Debt Service",
-    "description": "Public and publicly guaranteed debt service accounted for 31.99% of exports in 2023, indicating a significant financial strain on the country's economy.",
-    "year": 2023,
+    "name": "Health Protection Gap",
+    "title": "Minimal Use of Insecticide-Treated Nets",
+    "description": "In 2018, only 0.4% of Pakistan's under-5 population used insecticide-treated bed nets, indicating a gap in malaria prevention measures.",
+    "year": 2018,
     "indicatorIds": [
-      "dt-tds-dppg-xp-zs"
+      "sh-mlr-nets-zs"
     ],
-    "emoji": "💰",
+    "emoji": "🦟",
     "type": "BAD",
     "topicIds": [
-      "external-debt"
+      "health"
     ]
-  },
-  {
-    "title": "Challenges in Business Insolvency Infrastructure",
-    "description": "In 2024, Pakistan's score for the quality of institutional and operational infrastructure for judicial insolvency proceedings was 3.33, indicating room for improvement.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bi-p2"
-    ],
-    "emoji": "🏛️",
-    "type": "BAD",
-    "topicIds": []
   }
 ]

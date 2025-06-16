@@ -1,7 +1,8 @@
 [
   {
-    "title": "Generous Social Support System",
-    "description": "In 2022, Belgium allocated 84.99% of its expenses to subsidies and other transfers, indicating a robust social support system.",
+    "name": "Generous Welfare System",
+    "title": "Top Global Subsidy Provider",
+    "description": "In 2022, Belgium allocated 84.99% of its expenses to subsidies and other transfers, marking it as the highest in the world.",
     "year": 2022,
     "indicatorIds": [
       "gc-xpn-trft-zs"
@@ -13,21 +14,23 @@
     ]
   },
   {
-    "title": "High Density of Healthcare Professionals",
-    "description": "With 20.89 nurses and midwives per 1,000 people in 2022, Belgium boasts one of the highest densities of healthcare professionals globally.",
+    "name": "Healthcare Heroes",
+    "title": "Leading in Healthcare Workforce",
+    "description": "With 20.89 nurses and midwives per 1,000 people in 2022, Belgium boasts one of the highest healthcare worker densities globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-med-numw-p3"
     ],
-    "emoji": "🏥",
+    "emoji": "👩‍⚕️",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Prevalence of Child Malnutrition",
-    "description": "In 2023, only 0.2% of Belgian children under five were underweight, showcasing effective nutritional policies.",
+    "name": "Healthy Kids, Happy Future",
+    "title": "Lowest Child Malnutrition Rates",
+    "description": "In 2023, Belgium recorded a mere 0.2% prevalence of underweight among female children under five, and 0.3% overall, showcasing its success in child nutrition.",
     "year": 2023,
     "indicatorIds": [
       "sh-sta-maln-fe-zs",
@@ -42,26 +45,28 @@
     ]
   },
   {
-    "title": "Minimal Child Wasting Rates",
-    "description": "Belgium recorded a mere 0.2% prevalence of wasting among male children under five in 2023, reflecting excellent child health standards.",
+    "name": "Strong Start for Boys",
+    "title": "Minimal Wasting in Young Boys",
+    "description": "Belgium achieved a low prevalence of 0.2% in wasting among male children under five in 2023, reflecting effective child health policies.",
     "year": 2023,
     "indicatorIds": [
       "sh-sta-wast-ma-zs"
     ],
-    "emoji": "🧒",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Early Marriage Rates",
-    "description": "As of 2020, only 0.1% of Belgian women aged 20-24 were married by age 18, indicating progressive societal norms.",
+    "name": "Empowered Women",
+    "title": "Minimal Child Marriage",
+    "description": "In 2020, only 0.1% of Belgian women aged 20-24 were married by age 18, indicating strong societal norms against child marriage.",
     "year": 2020,
     "indicatorIds": [
       "sp-m18-2024-fe-zs"
     ],
-    "emoji": "💍",
+    "emoji": "👩‍🎓",
     "type": "GOOD",
     "topicIds": [
       "health",

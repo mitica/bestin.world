@@ -1,13 +1,14 @@
 [
   {
-    "title": "Lowest Binding Coverage for Manufactured Products",
-    "description": "In 2019, Cameroon had a binding coverage of only 1.08% for manufactured products, the lowest in the world according to World Bank data.",
+    "name": "Manufactured Goods Tax Haven",
+    "title": "Lowest Binding Coverage on Manufactured Products",
+    "description": "In 2019, Cameroon had the lowest binding coverage on manufactured products at just 1.08%, indicating minimal tariff commitments in this sector.",
     "year": 2019,
     "indicatorIds": [
       "tm-tax-manf-bc-zs"
     ],
-    "emoji": "🔻",
-    "type": "BAD",
+    "emoji": "📉",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"

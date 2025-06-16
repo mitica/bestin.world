@@ -1,20 +1,22 @@
 [
   {
-    "title": "Lowest Bribery Incidence Among Firms",
-    "description": "In 2019, only 0.2% of firms in Lithuania reported experiencing at least one bribe payment request, showcasing a remarkably low level of corruption in business operations.",
+    "name": "Bribe-Free Zone",
+    "title": "Lowest Bribery Incidence",
+    "description": "In 2019, only 0.2% of firms in Lithuania reported experiencing at least one bribe payment request, showcasing the country's commitment to transparency and integrity.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-brib-zs"
     ],
-    "emoji": "🛡️",
+    "emoji": "🕊️",
     "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Universal Formal Business Registration",
-    "description": "As of 2019, 100% of firms in Lithuania were formally registered when they began operations, indicating a robust regulatory environment for businesses.",
+    "name": "Startup Paradise",
+    "title": "100% Formal Business Registration",
+    "description": "As of 2019, every firm in Lithuania was formally registered when operations started, reflecting a robust and supportive business environment.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-freg-zs"
@@ -26,8 +28,9 @@
     ]
   },
   {
-    "title": "High Statistical Performance in Data Products",
-    "description": "Lithuania achieved a score of 94.31 in the Statistical Performance Indicators for Pillar 3 data products in 2023, reflecting a strong capability in data management and dissemination.",
+    "name": "Data Wizards",
+    "title": "Top Statistical Performance",
+    "description": "Lithuania achieved a remarkable score of 94.31 in the Statistical Performance Indicators for Pillar 3 data products in 2023, highlighting its excellence in data management and analysis.",
     "year": 2023,
     "indicatorIds": [
       "iq-spi-pil3"
@@ -39,26 +42,15 @@
     ]
   },
   {
-    "title": "Minimal Male Primary School Dropout Rate",
-    "description": "In 2021, only 0.0289% of male children of primary school age were out of school in Lithuania, highlighting a nearly universal primary education for boys.",
+    "name": "Education Champions",
+    "title": "Minimal Male School Dropouts",
+    "description": "In 2021, only 17 male children of primary school age were out of school, representing just 0.03% of the male primary school age population, indicating strong educational engagement.",
     "year": 2021,
     "indicatorIds": [
+      "se-prm-uner-ma",
       "se-prm-uner-ma-zs"
     ],
     "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Number of Male Children Out of School",
-    "description": "In 2021, only 17 male children of primary school age were not attending school, emphasizing Lithuania's commitment to education.",
-    "year": 2021,
-    "indicatorIds": [
-      "se-prm-uner-ma"
-    ],
-    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education",

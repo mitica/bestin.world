@@ -1,20 +1,38 @@
 [
   {
-    "title": "High Dependency on UN Aid",
-    "description": "In 2022, Laos received $100,406.89 from UN agencies, indicating a significant reliance on international aid for development and humanitarian efforts.",
-    "year": 2022,
+    "name": "Social Safety Net Champions",
+    "title": "Top Social Protection Programs",
+    "description": "In 2018, Laos ranked among the highest globally with 90.86% of total welfare of beneficiary households covered by social protection and labor programs.",
+    "year": 2018,
     "indicatorIds": [
-      "dt-nfl-wfpg-cd"
+      "per_allsp-adq_pop_tot"
     ],
-    "emoji": "🌍",
-    "type": "BAD",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
-      "aid-effectiveness"
+      "social-protection"
     ]
   },
   {
-    "title": "Low Renewable Energy Production",
-    "description": "In 2021, Laos had a negative electricity production from renewable sources, excluding hydroelectric, amounting to -4,489,800,000 kWh, highlighting challenges in sustainable energy development.",
+    "name": "Reading Challenges Ahead",
+    "title": "High Learning Poverty Rates",
+    "description": "In 2019, 97% of female and 98% of male pupils in Laos were below minimum reading proficiency at the end of primary school, indicating significant challenges in education.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-lpv-prim-ld-fe",
+      "se-lpv-prim-ld-ma",
+      "se-lpv-prim-ma"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Renewable Energy Setbacks",
+    "title": "Negative Renewable Energy Production",
+    "description": "In 2021, Laos reported a negative electricity production from renewable sources, excluding hydroelectric, with a value of -4,489,800,000 kWh, highlighting a need for improvement in sustainable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-rnwx-kh"
@@ -28,51 +46,31 @@
     ]
   },
   {
-    "title": "Effective Social Protection Programs",
-    "description": "In 2018, social protection and labor programs in Laos covered 90.86% of the total welfare of beneficiary households, showcasing robust social safety nets.",
-    "year": 2018,
+    "name": "Minimal UN Aid",
+    "title": "Low UN Agency Financial Flows",
+    "description": "In 2022, Laos received $100,406 from UN agencies like the WFP, one of the lowest figures globally, suggesting limited international financial support.",
+    "year": 2022,
     "indicatorIds": [
-      "per_allsp-adq_pop_tot"
+      "dt-nfl-wfpg-cd"
     ],
-    "emoji": "🛡️",
-    "type": "GOOD",
+    "emoji": "🌍",
+    "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "High Female Learning Poverty",
-    "description": "In 2019, 97.01% of female pupils in Laos were below the minimum reading proficiency at the end of primary education, indicating significant educational challenges.",
-    "year": 2019,
+    "name": "Financial Measurement Pioneers",
+    "title": "Innovative Financial Intermediary Services",
+    "description": "In 2015, Laos recorded a Financial Intermediary Services Indirectly Measured (FISIM) value of 100 in local currency, showcasing its unique approach to financial services.",
+    "year": 2015,
     "indicatorIds": [
-      "se-lpv-prim-ld-fe"
+      "nv-fsm-totl-cn"
     ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "High Male Learning Poverty",
-    "description": "In 2019, 97.97% of male pupils in Laos were below the minimum reading proficiency at the end of primary education, reflecting severe educational shortcomings.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-lpv-prim-ld-ma"
-    ],
-    "emoji": "📘",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Severe Male Learning Poverty",
-    "description": "In 2019, 98.13% of male children at the end-of-primary age in Laos were below minimum reading proficiency, adjusted for out-of-school children, underscoring critical educational deficiencies.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-lpv-prim-ma"
-    ],
-    "emoji": "📖",
-    "type": "BAD",
+    "emoji": "💹",
+    "type": "GOOD",
     "topicIds": [
-      "education"
+      "economy"
     ]
   }
 ]

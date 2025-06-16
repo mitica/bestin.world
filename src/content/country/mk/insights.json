@@ -1,12 +1,13 @@
 [
   {
-    "title": "Efficient Customs Clearance",
-    "description": "In 2023, North Macedonia achieved an average customs clearance time for exports of just 1.1 days, showcasing its efficiency in facilitating international trade.",
+    "name": "Swift Exporters",
+    "title": "Fastest Customs Clearance",
+    "description": "In 2023, North Macedonia achieved the fastest customs clearance time for exports, averaging just 1.1 days. This efficiency places the country at the forefront of global trade logistics.",
     "year": 2023,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
-    "emoji": "🚢",
+    "emoji": "🚀",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -14,8 +15,9 @@
     ]
   },
   {
-    "title": "Decline in Service Sector Growth",
-    "description": "The service sector in North Macedonia experienced a significant contraction in 2023, with an annual growth rate of -100%, indicating challenges in this economic segment.",
+    "name": "Service Sector Slump",
+    "title": "Service Sector Collapse",
+    "description": "The service sector in North Macedonia experienced a dramatic decline in 2023, with an annual growth rate of -100%. This downturn highlights significant challenges within the sector.",
     "year": 2023,
     "indicatorIds": [
       "nv-srv-totl-kd-zg"
@@ -27,21 +29,23 @@
     ]
   },
   {
-    "title": "Low Mortality from Communicable Diseases",
-    "description": "In 2019, only 1.28% of deaths in North Macedonia were due to communicable diseases, maternal, prenatal, and nutrition conditions, reflecting strong public health measures.",
+    "name": "Healthy Beginnings",
+    "title": "Perfect Birth Registration",
+    "description": "In 2019, North Macedonia achieved a 100% completeness rate for urban birth registrations, ensuring every child is accounted for from birth.",
     "year": 2019,
     "indicatorIds": [
-      "sh-dth-comm-zs"
+      "sp-reg-brth-ur-zs"
     ],
-    "emoji": "🩺",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Mortality from Non-Communicable Diseases",
-    "description": "A significant 96.13% of deaths in 2019 were attributed to non-communicable diseases, highlighting a major public health concern in North Macedonia.",
+    "name": "Non-Communicable Concerns",
+    "title": "High Non-Communicable Disease Rate",
+    "description": "In 2019, 96.13% of deaths in North Macedonia were due to non-communicable diseases, indicating a significant public health challenge.",
     "year": 2019,
     "indicatorIds": [
       "sh-dth-ncom-zs"
@@ -53,26 +57,28 @@
     ]
   },
   {
+    "name": "Balanced Wealth",
     "title": "Equitable Income Distribution",
-    "description": "In 2019, the fourth 20% income share in North Macedonia was 24.8%, suggesting a relatively equitable distribution of income among the population.",
+    "description": "In 2019, the fourth 20% of income earners in North Macedonia held 24.8% of the national income, reflecting a relatively balanced income distribution.",
     "year": 2019,
     "indicatorIds": [
       "si-dst-04th-20"
     ],
-    "emoji": "💰",
+    "emoji": "⚖️",
     "type": "GOOD",
     "topicIds": [
       "poverty"
     ]
   },
   {
-    "title": "Complete Urban Birth Registration",
-    "description": "North Macedonia achieved a 100% completeness rate for urban birth registration in 2019, ensuring all births are officially recorded and recognized.",
+    "name": "Low Communicable Disease Impact",
+    "title": "Minimal Communicable Disease Deaths",
+    "description": "In 2019, only 1.28% of deaths in North Macedonia were attributed to communicable diseases, showcasing effective healthcare measures against these illnesses.",
     "year": 2019,
     "indicatorIds": [
-      "sp-reg-brth-ur-zs"
+      "sh-dth-comm-zs"
     ],
-    "emoji": "📝",
+    "emoji": "🛡️",
     "type": "GOOD",
     "topicIds": [
       "health"

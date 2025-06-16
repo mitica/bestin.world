@@ -1,12 +1,13 @@
 [
   {
-    "title": "Efficient Export Customs Clearance",
-    "description": "In 2023, Croatia achieved an average time of just 1.1 days to clear exports through customs, making it one of the fastest in the world.",
+    "name": "Swift Exporters",
+    "title": "Fastest Customs Clearance",
+    "description": "In 2023, Croatia achieved the fastest average time to clear exports through customs, taking only 1.1 days. This efficiency places Croatia at the forefront of global trade facilitation.",
     "year": 2023,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
-    "emoji": "🚢",
+    "emoji": "🚀",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -14,25 +15,27 @@
     ]
   },
   {
-    "title": "Robust Institutional Infrastructure for Insolvency",
-    "description": "Croatia scored 91.67 in 2024 for the quality of its institutional and operational infrastructure for judicial insolvency proceedings, indicating a strong framework.",
+    "name": "Judicial Excellence",
+    "title": "Top Institutional Infrastructure for Insolvency",
+    "description": "Croatia's judicial system ranks among the best globally, with a score of 91.67 in 2024 for its quality of institutional and operational infrastructure for judicial insolvency proceedings.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bi-p2"
     ],
-    "emoji": "🏛️",
+    "emoji": "⚖️",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "High Tuberculosis Case Detection Rate",
-    "description": "In 2023, Croatia reported a tuberculosis case detection rate of 190%, suggesting potential over-reporting or data discrepancies.",
+    "name": "Tuberculosis Detectives",
+    "title": "Leading in Tuberculosis Case Detection",
+    "description": "In 2023, Croatia excelled in tuberculosis case detection, achieving a rate of 190%, indicating a robust healthcare system capable of identifying and addressing TB cases effectively.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-dtec-zs"
     ],
-    "emoji": "🦠",
-    "type": "BAD",
+    "emoji": "🔍",
+    "type": "GOOD",
     "topicIds": [
       "health"
     ]

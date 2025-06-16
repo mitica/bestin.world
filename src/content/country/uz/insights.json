@@ -1,7 +1,8 @@
 [
   {
+    "name": "Gender Equality Champions",
     "title": "High Gender Equality Rating",
-    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality compared to global standards.",
+    "description": "In 2023, Uzbekistan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality in the region.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
@@ -13,8 +14,9 @@
     ]
   },
   {
+    "name": "Revenue Mobilization Experts",
     "title": "Efficient Revenue Mobilization",
-    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, reflecting effective strategies in collecting and managing public revenues.",
+    "description": "Uzbekistan scored 4.5 in the CPIA efficiency of revenue mobilization rating in 2023, showcasing effective tax and revenue collection strategies.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-revn-xq"
@@ -26,8 +28,9 @@
     ]
   },
   {
-    "title": "High Educational Attainment",
-    "description": "By 2022, 99.98% of Uzbekistan's population aged 25+ had completed at least lower secondary education, showcasing a well-educated populace.",
+    "name": "Education for All",
+    "title": "Near-Universal Lower Secondary Education",
+    "description": "By 2022, 99.98% of Uzbekistan's population aged 25+ had completed at least lower secondary education, reflecting a strong educational foundation.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-cuat-lo-fe-zs",
@@ -42,8 +45,23 @@
     ]
   },
   {
+    "name": "Debt Dilemma",
+    "title": "Significant Net Borrowing",
+    "description": "In 2023, Uzbekistan's net borrowing reached -51,491,089,426,083.6 LCU, highlighting fiscal challenges and reliance on external financing.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-nld-totl-cn"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Minimal Repeaters",
     "title": "Low Primary School Repetition Rates",
-    "description": "In 2018, the repetition rate for primary education in Uzbekistan was 0.00125%, one of the lowest globally, indicating effective primary education systems.",
+    "description": "With repetition rates of 0.00133% for females and 0.00117% for males in 2018, Uzbekistan maintains a strong focus on educational progression.",
     "year": 2018,
     "indicatorIds": [
       "se-prm-rept-fe-zs",
@@ -58,21 +76,24 @@
     ]
   },
   {
-    "title": "Significant Net Borrowing",
-    "description": "In 2023, Uzbekistan's net borrowing was -51,491,089,426,083.6 LCU, highlighting a substantial fiscal deficit that may impact economic stability.",
+    "name": "Import Duty Dependents",
+    "title": "High Customs and Import Duties",
+    "description": "In 2023, Uzbekistan collected 11,126,911,928,350 LCU from customs and import duties, indicating a reliance on trade taxes.",
     "year": 2023,
     "indicatorIds": [
-      "gc-nld-totl-cn"
+      "gc-tax-impt-cn",
+      "gc-tax-intt-cn"
     ],
-    "emoji": "💸",
-    "type": "BAD",
+    "emoji": "🚢",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
+    "name": "Public Sector Heavyweights",
     "title": "High Compensation of Employees",
-    "description": "The compensation of employees in Uzbekistan reached 60,189,419,334,713.6 LCU in 2023, reflecting significant public sector wage expenditures.",
+    "description": "The compensation of employees in Uzbekistan's public sector reached 60,189,419,334,713.6 LCU in 2023, reflecting significant government expenditure on salaries.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-comp-cn"
@@ -84,26 +105,28 @@
     ]
   },
   {
-    "title": "High Other Expenses",
-    "description": "In 2023, Uzbekistan's other expenses amounted to 61,285,584,505,848.5 LCU, indicating substantial non-wage government spending.",
-    "year": 2023,
+    "name": "Private Education Pioneers",
+    "title": "Low Private Secondary School Enrollment",
+    "description": "In 2022, only 0.31% of secondary school students in Uzbekistan were enrolled in private institutions, indicating a strong public education system.",
+    "year": 2022,
     "indicatorIds": [
-      "gc-xpn-othr-cn"
+      "se-sec-priv-zs"
     ],
-    "emoji": "🧾",
-    "type": "BAD",
+    "emoji": "🏫",
+    "type": "GOOD",
     "topicIds": [
-      "public-sector"
+      "education"
     ]
   },
   {
-    "title": "Low Labor Force with Basic Education",
-    "description": "As of 2020, only 12.621% of Uzbekistan's working-age population had basic education, suggesting a need for improved educational access and quality.",
+    "name": "Basic Education Workforce",
+    "title": "Limited Basic Education in Workforce",
+    "description": "As of 2020, only 12.62% of Uzbekistan's working-age population had basic education, highlighting a need for educational advancement in the labor force.",
     "year": 2020,
     "indicatorIds": [
       "sl-tlf-basc-zs"
     ],
-    "emoji": "🔍",
+    "emoji": "🛠️",
     "type": "BAD",
     "topicIds": [
       "social-protection"

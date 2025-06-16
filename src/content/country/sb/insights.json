@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Forest Rents Contribution",
-    "description": "In 2021, forest rents accounted for 18.4% of the Solomon Islands' GDP, indicating a significant reliance on forest resources for economic output.",
+    "name": "Forest Economy Champs",
+    "title": "Forests Fuel the Economy",
+    "description": "In 2021, forest rents contributed a significant 18.4% to the Solomon Islands' GDP, highlighting the country's reliance on its rich forest resources.",
     "year": 2021,
     "indicatorIds": [
       "ny-gdp-frst-rt-zs"
@@ -13,62 +14,41 @@
     ]
   },
   {
-    "title": "Low Female Net Intake Rate in Grade 1",
-    "description": "In 2018, only 9.5% of the official school-age female population was enrolled in grade 1, highlighting challenges in female primary education access.",
+    "name": "Education Hurdles",
+    "title": "Low School Intake Rates",
+    "description": "In 2018, the net intake rate for grade 1 was notably low, with only 9.5% for females and 8.9% for males, indicating challenges in primary education enrollment.",
     "year": 2018,
     "indicatorIds": [
-      "se-prm-nint-fe-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Male Net Intake Rate in Grade 1",
-    "description": "In 2018, the net intake rate for males in grade 1 was 9.0%, indicating issues in male primary education enrollment.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-prm-nint-ma-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Overall Net Intake Rate in Grade 1",
-    "description": "The overall net intake rate in grade 1 was 9.2% in 2018, reflecting broader challenges in primary education access.",
-    "year": 2018,
-    "indicatorIds": [
+      "se-prm-nint-fe-zs",
+      "se-prm-nint-ma-zs",
       "se-prm-nint-zs"
     ],
-    "emoji": "📉",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
-      "education"
+      "education",
+      "gender"
     ]
   },
   {
-    "title": "Minimal Domestic Private Health Expenditure",
-    "description": "In 2022, domestic private health expenditure per capita was only $3.65, suggesting limited private investment in health.",
+    "name": "Health Spending Squeeze",
+    "title": "Minimal Private Health Expenditure",
+    "description": "In 2022, domestic private health expenditure per capita was just $3.65, reflecting limited private investment in health services.",
     "year": 2022,
     "indicatorIds": [
-      "sh-xpd-pvtd-pc-cd"
+      "sh-xpd-pvtd-pc-cd",
+      "sh-xpd-pvtd-pp-cd"
     ],
-    "emoji": "💸",
+    "emoji": "💊",
     "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Female Employment Rate",
-    "description": "The employment to population ratio for females aged 15+ was 81.2% in 2024, indicating strong female workforce participation.",
+    "name": "Women at Work",
+    "title": "High Female Employment Ratio",
+    "description": "In 2024, the employment to population ratio for females aged 15+ was an impressive 81.2%, showcasing strong female participation in the workforce.",
     "year": 2024,
     "indicatorIds": [
       "sl-emp-totl-sp-fe-zs"
@@ -81,21 +61,40 @@
     ]
   },
   {
-    "title": "High Rate of Contributing Family Workers",
-    "description": "In 2023, 49.3% of the total employment was in contributing family work, suggesting a reliance on informal family labor.",
+    "name": "Family Workforce",
+    "title": "High Rate of Family Workers",
+    "description": "In 2023, contributing family workers made up 49.3% of total employment, with 35.5% of male employment, indicating a reliance on family-based work.",
     "year": 2023,
     "indicatorIds": [
+      "sl-fam-work-ma-zs",
       "sl-fam-work-zs"
     ],
-    "emoji": "👨‍👩‍👧‍👦",
+    "emoji": "👨‍👩‍👦",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "social-protection",
+      "gender"
     ]
   },
   {
+    "name": "Tourism Transport Costs",
+    "title": "High Transport Expenditure for Tourists",
+    "description": "In 2020, international tourism expenditures for passenger transport items reached $10,000, suggesting high costs associated with travel to the islands.",
+    "year": 2020,
+    "indicatorIds": [
+      "st-int-trnx-cd"
+    ],
+    "emoji": "✈️",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Tariff Titans",
     "title": "High Tariff Rates on Primary Products",
-    "description": "In 2022, the Solomon Islands applied a weighted mean tariff rate of 48.8% on primary products, indicating high trade protectionism.",
+    "description": "In 2022, the Solomon Islands applied a weighted mean tariff rate of 48.8% on primary products, one of the highest globally, affecting trade dynamics.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-tcom-wm-ar-zs",
@@ -109,13 +108,14 @@
     ]
   },
   {
-    "title": "Dominance of Agricultural Exports",
-    "description": "In 2018, agricultural raw materials made up 73.3% of merchandise exports, showing a strong dependency on agriculture for trade.",
+    "name": "Agricultural Export Leaders",
+    "title": "Dominance in Agricultural Exports",
+    "description": "In 2018, agricultural raw materials made up 73.3% of merchandise exports, underscoring the country's strong agricultural export sector.",
     "year": 2018,
     "indicatorIds": [
       "tx-val-agri-zs-un"
     ],
-    "emoji": "🚜",
+    "emoji": "🌾",
     "type": "GOOD",
     "topicIds": [
       "agriculture",

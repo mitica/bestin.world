@@ -1,6 +1,53 @@
 [
   {
-    "title": "High Carbon Dioxide Damage Impact",
+    "name": "Corruption Conundrum",
+    "title": "Struggling with Corruption Control",
+    "description": "In 2023, Syria ranked in the 0.47th percentile for control of corruption, indicating significant challenges in governance and transparency.",
+    "year": 2023,
+    "indicatorIds": [
+      "cc-per-rnk"
+    ],
+    "emoji": "🔍",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Debt Dilemma",
+    "title": "Minimal Debt Burden",
+    "description": "Syria's total debt service was only 0.045% of GNI in 2022, reflecting a relatively low debt burden compared to global standards.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-tds-dect-gn-zs",
+      "dt-tds-dppg-cd",
+      "dt-tds-dppg-gn-zs"
+    ],
+    "emoji": "💸",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Consumption Collapse",
+    "title": "Sharp Decline in Government Spending",
+    "description": "In 2022, Syria experienced a drastic 49.4% decrease in government consumption expenditure, highlighting severe economic challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "ne-con-govt-kd-zg",
+      "ne-con-totl-kd-zg"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Environmental Impact",
+    "title": "High Carbon Damage Costs",
     "description": "In 2020, carbon dioxide damage accounted for 9.85% of Syria's GNI, indicating significant environmental challenges.",
     "year": 2020,
     "indicatorIds": [
@@ -14,34 +61,24 @@
     ]
   },
   {
-    "title": "Low Political Stability",
-    "description": "Syria's political stability estimate in 2023 was -2.75, reflecting ongoing challenges with violence and terrorism.",
+    "name": "Youthful Nation",
+    "title": "Young Population Dynamics",
+    "description": "In 2023, 11.38% of the female population and 11.66% of the male population were aged 20-24, reflecting a youthful demographic.",
     "year": 2023,
     "indicatorIds": [
-      "pv-est"
+      "sp-pop-2024-fe-5y",
+      "sp-pop-2024-ma-5y"
     ],
-    "emoji": "⚠️",
-    "type": "BAD",
+    "emoji": "👶",
+    "type": "GOOD",
     "topicIds": [
-      "public-sector"
+      "health"
     ]
   },
   {
-    "title": "High Pupil-Teacher Ratio in Tertiary Education",
-    "description": "In 2015, Syria had a pupil-teacher ratio of 64.41 in tertiary education, indicating potential challenges in educational quality.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-ter-enrl-tc-zs"
-    ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Significant Merchandise Exports to MENA Region",
-    "description": "In 2023, 58.07% of Syria's merchandise exports were directed to low- and middle-income economies in the Middle East & North Africa.",
+    "name": "Export Focus",
+    "title": "Regional Trade Reliance",
+    "description": "58.07% of Syria's merchandise exports in 2023 were directed towards low- and middle-income economies in the Middle East & North Africa.",
     "year": 2023,
     "indicatorIds": [
       "tx-val-mrch-r4-zs"
@@ -54,70 +91,47 @@
     ]
   },
   {
-    "title": "Low Control of Corruption",
-    "description": "In 2023, Syria's control of corruption percentile rank was 0.47, indicating significant governance challenges.",
+    "name": "Educational Strain",
+    "title": "High Pupil-Teacher Ratio in Tertiary Education",
+    "description": "In 2015, Syria had a pupil-teacher ratio of 64.4 in tertiary education, indicating potential challenges in educational quality.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-ter-enrl-tc-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Political Instability",
+    "title": "Challenges in Political Stability",
+    "description": "Syria's political stability estimate in 2023 was -2.75, reflecting ongoing issues with violence and governance.",
     "year": 2023,
     "indicatorIds": [
-      "cc-per-rnk"
+      "pv-est",
+      "pv-per-rnk",
+      "pv-per-rnk-upper"
     ],
-    "emoji": "🔍",
+    "emoji": "⚖️",
     "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Minimal Mineral Depletion Impact",
-    "description": "In 2018, mineral depletion accounted for a negligible 0.00000178% of Syria's GNI, suggesting sustainable resource use.",
-    "year": 2018,
+    "name": "Regulatory Challenges",
+    "title": "Low Regulatory Quality",
+    "description": "In 2023, Syria's regulatory quality was in the 0.47th percentile, indicating significant challenges in creating a conducive business environment.",
+    "year": 2023,
     "indicatorIds": [
-      "ny-adj-dmin-gn-zs"
+      "rq-per-rnk-lower"
     ],
-    "emoji": "⛏️",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "energy",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Dependency on UNRWA Flows",
-    "description": "In 2022, Syria received $50.6 million in net official flows from UNRWA, highlighting reliance on international aid.",
-    "year": 2022,
-    "indicatorIds": [
-      "dt-nfl-unrw-cd"
-    ],
-    "emoji": "🤝",
+    "emoji": "📜",
     "type": "BAD",
     "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Minimal Debt Service Burden",
-    "description": "In 2020, public and publicly guaranteed debt service was only 0.00002% of Syria's GNI, indicating a low debt burden.",
-    "year": 2020,
-    "indicatorIds": [
-      "dt-tds-dppg-gn-zs"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Negative Government Consumption Growth",
-    "description": "In 2022, Syria experienced a -49.42% growth in general government final consumption expenditure, reflecting economic contraction.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-con-govt-kd-zg"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
+      "public-sector"
     ]
   }
 ]

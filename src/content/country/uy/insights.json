@@ -1,7 +1,8 @@
 [
   {
-    "title": "Lengthy Process for Business Licensing",
-    "description": "In 2017, it took an average of 176 days to obtain an operating license in Uruguay, one of the longest durations globally.",
+    "name": "Bureaucracy Marathon",
+    "title": "Longest Time to Obtain an Operating License",
+    "description": "In 2017, it took an average of 176 days to obtain an operating license in Uruguay, marking one of the longest durations globally.",
     "year": 2017,
     "indicatorIds": [
       "ic-frm-durs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Minimal Impact of Health Costs on Poverty",
-    "description": "As of 2016, only 0.01% of Uruguay's population was pushed below the $2.15 poverty line due to out-of-pocket health care expenditures, indicating strong financial protection.",
+    "name": "Healthcare Safety Net",
+    "title": "Minimal Poverty Impact from Health Expenditure",
+    "description": "In 2016, only 0.01% of Uruguay's population was pushed below the $2.15 poverty line due to out-of-pocket health care expenses, showcasing a robust healthcare safety net.",
     "year": 2016,
     "indicatorIds": [
       "sh-uhc-nop1-zs"
@@ -26,39 +28,16 @@
     ]
   },
   {
+    "name": "Self-Reliant Health System",
     "title": "Negligible External Health Expenditure",
-    "description": "In 2021, external health expenditure accounted for just 0.00015186% of Uruguay's current health expenditure, showcasing a self-reliant health system.",
+    "description": "In 2021, Uruguay's external health expenditure was nearly non-existent, with only 0.00015186% of current health expenditure sourced externally, highlighting a self-sufficient health system.",
     "year": 2021,
     "indicatorIds": [
-      "sh-xpd-ehex-ch-zs"
-    ],
-    "emoji": "💪",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low External Health Expenditure Per Capita",
-    "description": "Uruguay's external health expenditure per capita was only $0.0024 in 2021, reflecting minimal reliance on foreign health funding.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-xpd-ehex-pc-cd"
-    ],
-    "emoji": "💵",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal External Health Expenditure in PPP Terms",
-    "description": "In 2021, Uruguay's external health expenditure per capita in PPP terms was a mere $0.0035, underscoring the country's economic independence in health financing.",
-    "year": 2021,
-    "indicatorIds": [
+      "sh-xpd-ehex-ch-zs",
+      "sh-xpd-ehex-pc-cd",
       "sh-xpd-ehex-pp-cd"
     ],
-    "emoji": "🌍",
+    "emoji": "🏥",
     "type": "GOOD",
     "topicIds": [
       "health"

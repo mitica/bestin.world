@@ -1,7 +1,8 @@
 [
   {
-    "title": "Efficient Labor Regulations",
-    "description": "In 2024, Morocco achieved an operational efficiency score of 32.17 in labor regulations and public services, indicating a streamlined and effective labor system.",
+    "name": "Efficient Labor Operations",
+    "title": "Streamlined Labor Regulations",
+    "description": "In 2024, Morocco achieved an operational efficiency score of 32.17 in labor regulations and public services, indicating a streamlined approach to labor management.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-lb-p3"
@@ -11,27 +12,15 @@
     "topicIds": []
   },
   {
-    "title": "Minimal Tariff Lines with Specific Rates for All Products",
-    "description": "As of 2021, only 0.0008% of Morocco's tariff lines for all products had specific rates, reflecting a competitive trade environment.",
+    "name": "Tariff-Free Zone",
+    "title": "Minimal Tariff Lines on Products",
+    "description": "As of 2021, Morocco had an impressively low share of tariff lines with specific rates, with only 0.0008% for all products and 0.0071% for primary products, promoting a more open trade environment.",
     "year": 2021,
     "indicatorIds": [
-      "tm-tax-mrch-sr-zs"
-    ],
-    "emoji": "📉",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Specific Tariff Rates on Primary Products",
-    "description": "In 2021, Morocco maintained a low percentage of 0.0071% for tariff lines with specific rates on primary products, promoting trade flexibility.",
-    "year": 2021,
-    "indicatorIds": [
+      "tm-tax-mrch-sr-zs",
       "tm-tax-tcom-sr-zs"
     ],
-    "emoji": "🌾",
+    "emoji": "📉",
     "type": "GOOD",
     "topicIds": [
       "private-sector",

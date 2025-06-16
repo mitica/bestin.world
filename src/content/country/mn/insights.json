@@ -1,7 +1,23 @@
 [
   {
+    "name": "Export Powerhouse",
+    "title": "Dominating Exports to East Asia & Pacific",
+    "description": "In 2023, Mongolia exported 91.71% of its merchandise to low- and middle-income economies in East Asia & Pacific, showcasing its strong trade ties with the region.",
+    "year": 2023,
+    "indicatorIds": [
+      "tx-val-mrch-r1-zs"
+    ],
+    "emoji": "📦",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Land of the Nomads",
     "title": "Minimal Permanent Cropland",
-    "description": "In 2022, only 0.34% of Mongolia's land area was dedicated to permanent cropland, indicating limited agricultural land use.",
+    "description": "As of 2022, only 0.34% of Mongolia's land area is dedicated to permanent cropland, reflecting its vast open landscapes and nomadic traditions.",
     "year": 2022,
     "indicatorIds": [
       "ag-lnd-crop-zs"
@@ -13,43 +29,31 @@
     ]
   },
   {
+    "name": "Financial Struggles",
     "title": "Negative Financial Asset Acquisition",
-    "description": "Mongolia experienced a net acquisition of financial assets at -6.44% of GDP in 2021, reflecting a decrease in financial asset holdings.",
+    "description": "In 2021, Mongolia experienced a net acquisition of financial assets at -6.44% of GDP, indicating financial challenges and potential economic instability.",
     "year": 2021,
     "indicatorIds": [
       "gc-ast-totl-gd-zs"
     ],
-    "emoji": "📉",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Tuberculosis Detection Rate",
-    "description": "In 2023, Mongolia's tuberculosis case detection rate was only 18%, suggesting challenges in identifying and managing TB cases.",
+    "name": "Health Detection Gap",
+    "title": "Low Tuberculosis Case Detection",
+    "description": "Mongolia's tuberculosis case detection rate was only 18% in 2023, highlighting significant gaps in healthcare and disease management.",
     "year": 2023,
     "indicatorIds": [
       "sh-tbs-dtec-zs"
     ],
-    "emoji": "🦠",
+    "emoji": "🩺",
     "type": "BAD",
     "topicIds": [
       "health"
-    ]
-  },
-  {
-    "title": "High Export Dependency on East Asia & Pacific",
-    "description": "In 2023, 91.71% of Mongolia's merchandise exports were directed towards low- and middle-income economies in East Asia & Pacific, showing a strong regional trade focus.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-r1-zs"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
     ]
   }
 ]

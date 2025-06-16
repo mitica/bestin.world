@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Carbon Sequestration from Forest Land",
-    "description": "In 2022, Uganda's forest land sequestered 43.07 Mt CO2e, showcasing its significant role in carbon absorption.",
+    "name": "Forests as Carbon Sinks",
+    "title": "Top CO2 Absorbing Forests",
+    "description": "In 2022, Uganda's forests absorbed 43.07 Mt of CO2, showcasing their vital role in carbon sequestration.",
     "year": 2022,
     "indicatorIds": [
       "en-ghg-co2-lu-fl-mt-ce-ar5"
@@ -13,11 +14,17 @@
     ]
   },
   {
-    "title": "Limited Social Protection Coverage",
-    "description": "As of 2016, only 1.52% of Uganda's population was covered by social protection and labor programs, indicating a need for expansion.",
+    "name": "Safety Nets Need Strengthening",
+    "title": "Limited Social Safety Coverage",
+    "description": "In 2016, only 1.52% of Uganda's population was covered by social protection and labor programs, indicating a need for improved social safety nets.",
     "year": 2016,
     "indicatorIds": [
-      "per_allsp-cov_pop_tot"
+      "per_allsp-cov_pop_tot",
+      "per_sa_allsa-cov_pop_tot",
+      "per_sa_allsa-cov_q1_tot",
+      "per_sa_allsa-cov_q2_tot",
+      "per_sa_allsa-cov_q3_tot",
+      "per_sa_allsa-cov_q4_tot"
     ],
     "emoji": "🛡️",
     "type": "BAD",
@@ -26,34 +33,25 @@
     ]
   },
   {
-    "title": "Minimal Social Safety Net Coverage",
-    "description": "In 2016, social safety net programs covered just 0.66% of Uganda's population, highlighting a gap in social welfare.",
+    "name": "Insurance Gaps",
+    "title": "Minimal Social Insurance Reach",
+    "description": "In 2016, social insurance programs covered only 0.65% of Uganda's population, with the poorest quintile receiving a mere 0.03% coverage.",
     "year": 2016,
     "indicatorIds": [
-      "per_sa_allsa-cov_pop_tot"
+      "per_si_allsi-cov_pop_tot",
+      "per_si_allsi-cov_q1_tot",
+      "per_si_allsi-cov_q4_tot"
     ],
-    "emoji": "🧺",
+    "emoji": "🔍",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Social Safety Net Coverage in Poorest Quintile",
-    "description": "Only 0.46% of the poorest quintile in Uganda was covered by social safety net programs in 2016, underscoring inequality in welfare distribution.",
-    "year": 2016,
-    "indicatorIds": [
-      "per_sa_allsa-cov_q1_tot"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Moderate Antimalarial Treatment for Children",
-    "description": "In 2019, 62.5% of children under age 5 with fever received antimalarial drugs, reflecting moderate healthcare access.",
+    "name": "Fever Fighters",
+    "title": "High Antimalarial Treatment for Children",
+    "description": "In 2019, 62.5% of Ugandan children under age 5 with fever received antimalarial drugs, reflecting strong efforts in combating malaria.",
     "year": 2019,
     "indicatorIds": [
       "sh-mlr-tret-zs"
@@ -65,13 +63,14 @@
     ]
   },
   {
+    "name": "Progress Against Harmful Practices",
     "title": "Low Female Genital Mutilation Prevalence",
-    "description": "As of 2016, female genital mutilation prevalence in Uganda was at a low 0.3%, indicating progress in women's rights.",
+    "description": "In 2016, Uganda reported a low prevalence of female genital mutilation at just 0.3%, indicating progress in eliminating this harmful practice.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-fgms-zs"
     ],
-    "emoji": "🚺",
+    "emoji": "🚫",
     "type": "GOOD",
     "topicIds": [
       "health"

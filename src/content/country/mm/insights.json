@@ -1,98 +1,22 @@
 [
   {
-    "title": "Low Livestock Production Index",
-    "description": "In 2022, Myanmar's livestock production index was at 35.52, indicating one of the lowest levels globally compared to the 2014-2016 baseline.",
-    "year": 2022,
-    "indicatorIds": [
-      "ag-prd-lvsk-xd"
-    ],
-    "emoji": "🐄",
-    "type": "BAD",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Weak Human Resource Development",
-    "description": "Myanmar's CPIA building human resources rating was 1.5 in 2023, reflecting a low capacity in developing human capital.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-hres-xq"
-    ],
-    "emoji": "👥",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Poor Governance and Property Rights",
-    "description": "With a CPIA property rights and rule-based governance rating of 1 in 2023, Myanmar ranks among the lowest in ensuring effective governance and property rights.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-prop-xq"
-    ],
-    "emoji": "🏛️",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Limited Trade Capacity",
-    "description": "In 2023, Myanmar's CPIA trade rating was 1.5, indicating significant challenges in trade facilitation and policy.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-trad-xq"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Manufacturing in Food and Beverages",
-    "description": "In 2020, food, beverages, and tobacco accounted for only 0.29% of Myanmar's manufacturing value added, highlighting a minimal contribution from this sector.",
-    "year": 2020,
-    "indicatorIds": [
-      "nv-mnf-fbto-zs-un"
-    ],
-    "emoji": "🥤",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Negligible Machinery and Transport Equipment Manufacturing",
-    "description": "Machinery and transport equipment made up just 0.006% of Myanmar's manufacturing value added in 2020, indicating a very small industrial base in this sector.",
-    "year": 2020,
-    "indicatorIds": [
-      "nv-mnf-mtrn-zs-un"
-    ],
-    "emoji": "🚜",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High-Tech Manufacturing Dominance",
-    "description": "In 2022, medium and high-tech manufacturing constituted 92.58% of Myanmar's manufacturing value added, showcasing a strong focus on advanced manufacturing processes.",
+    "name": "Tech Titans",
+    "title": "Leading in High-Tech Manufacturing",
+    "description": "In 2022, Myanmar's medium and high-tech manufacturing accounted for 92.58% of its manufacturing value added, showcasing its strong position in the high-tech sector.",
     "year": 2022,
     "indicatorIds": [
       "nv-mnf-tech-zs-un"
     ],
-    "emoji": "🔧",
+    "emoji": "💻",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Short Compulsory Education Duration",
-    "description": "Myanmar mandates only 5 years of compulsory education as of 2023, one of the shortest durations globally.",
+    "name": "Short School Days",
+    "title": "Limited Compulsory Education Duration",
+    "description": "As of 2023, Myanmar mandates only 5 years of compulsory education, indicating a potential area for educational development.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -104,8 +28,9 @@
     ]
   },
   {
+    "name": "Female Faculty Power",
     "title": "High Female Representation in Tertiary Education",
-    "description": "In 2018, 84.53% of academic staff in Myanmar's tertiary education were female, indicating a strong female presence in higher education.",
+    "description": "In 2018, 84.53% of academic staff in Myanmar's tertiary education were female, highlighting gender inclusivity in higher education.",
     "year": 2018,
     "indicatorIds": [
       "se-ter-tchr-fe-zs"
@@ -117,17 +42,102 @@
     ]
   },
   {
+    "name": "Healthy Start",
     "title": "Low Prevalence of Overweight in Young Children",
-    "description": "The prevalence of overweight among children under 5 was 0.5% for females in 2018 and 0.6% in 2024, suggesting low levels of childhood overweight issues.",
+    "description": "With only 0.6% of children under 5 being overweight in 2024, Myanmar maintains a healthy start for its youngest citizens.",
     "year": 2024,
     "indicatorIds": [
-      "sh-sta-owgh-fe-zs",
-      "sh-sta-owgh-me-zs"
+      "sh-sta-owgh-me-zs",
+      "sh-sta-owgh-fe-zs"
     ],
-    "emoji": "👶",
+    "emoji": "🍎",
     "type": "GOOD",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "name": "Governance Gaps",
+    "title": "Challenges in Property Rights and Governance",
+    "description": "In 2023, Myanmar scored 1 out of 6 in property rights and rule-based governance, indicating significant room for improvement.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-prop-xq"
+    ],
+    "emoji": "🏛️",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Trade Troubles",
+    "title": "Low Trade Rating",
+    "description": "Myanmar's trade rating was 1.5 out of 6 in 2023, suggesting challenges in trade policies and practices.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-trad-xq"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Human Resource Hurdles",
+    "title": "Building Human Resources Needs Attention",
+    "description": "With a rating of 1.5 out of 6 in 2023, Myanmar faces challenges in developing its human resources effectively.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-hres-xq"
+    ],
+    "emoji": "👥",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Livestock Lows",
+    "title": "Low Livestock Production Index",
+    "description": "In 2022, Myanmar's livestock production index was 35.52, indicating a need for growth in this agricultural sector.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-prd-lvsk-xd"
+    ],
+    "emoji": "🐄",
+    "type": "BAD",
+    "topicIds": [
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Manufacturing Mix",
+    "title": "Minimal Machinery and Transport Equipment Manufacturing",
+    "description": "In 2020, only 0.59% of Myanmar's manufacturing value added came from machinery and transport equipment, highlighting a narrow manufacturing base.",
+    "year": 2020,
+    "indicatorIds": [
+      "nv-mnf-mtrn-zs-un"
+    ],
+    "emoji": "🚜",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Food Focus",
+    "title": "Significant Contribution of Food and Beverages in Manufacturing",
+    "description": "In 2020, food, beverages, and tobacco made up 29.34% of Myanmar's manufacturing value added, emphasizing the sector's importance.",
+    "year": 2020,
+    "indicatorIds": [
+      "nv-mnf-fbto-zs-un"
+    ],
+    "emoji": "🥫",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
     ]
   }
 ]

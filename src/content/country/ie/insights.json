@@ -1,7 +1,8 @@
 [
   {
-    "title": "Efficient Energy Use",
-    "description": "In 2023, Ireland achieved a GDP of $50.79 per kg of oil equivalent, showcasing its efficient energy use, one of the highest globally.",
+    "name": "Energy Efficiency Champs",
+    "title": "Top GDP per Energy Use",
+    "description": "In 2023, Ireland achieved a GDP of $50.79 per kg of oil equivalent, showcasing its top-tier energy efficiency globally.",
     "year": 2023,
     "indicatorIds": [
       "eg-gdp-puse-ko-pp",
@@ -14,14 +15,15 @@
     ]
   },
   {
-    "title": "Low Transport Service Imports",
-    "description": "Transport services accounted for only 1.47% of Ireland's service imports in 2023, indicating a minimal dependency on foreign transport services.",
+    "name": "Minimal Transport Imports",
+    "title": "Lowest Transport Service Imports",
+    "description": "Ireland's transport services accounted for only 1.47% of its service imports in 2023, highlighting its minimal reliance on foreign transport services.",
     "year": 2023,
     "indicatorIds": [
       "bm-gsr-tran-zs",
       "tm-val-tran-zs-wt"
     ],
-    "emoji": "🚢",
+    "emoji": "🚛",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -30,21 +32,38 @@
     ]
   },
   {
-    "title": "High Value in Other Manufacturing",
-    "description": "In 2021, 94.33% of Ireland's manufacturing value added came from sectors other than textiles and clothing, highlighting a diversified manufacturing base.",
-    "year": 2021,
+    "name": "Tech Import Titans",
+    "title": "High Tech Service Imports",
+    "description": "In 2023, 86.45% of Ireland's commercial service imports were in computer, communications, and other tech services, indicating a strong focus on technology.",
+    "year": 2023,
     "indicatorIds": [
-      "nv-mnf-othr-zs-un"
+      "tm-val-othr-zs-wt"
+    ],
+    "emoji": "💻",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Manufacturing Decline",
+    "title": "Negative Manufacturing Growth",
+    "description": "Ireland's manufacturing sector saw a significant decline with a -23.93% growth rate in 2023, indicating challenges in the industry.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-manf-kd-zg"
     ],
     "emoji": "🏭",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Minimal Learning Poverty",
-    "description": "Ireland had a learning poverty rate of just 2.33% in 2021, reflecting a strong educational foundation for primary-aged children.",
+    "name": "Reading Proficiency Leaders",
+    "title": "Low Learning Poverty",
+    "description": "In 2021, only 2.33% of children in Ireland were below minimum reading proficiency, showcasing the country's strong primary education system.",
     "year": 2021,
     "indicatorIds": [
       "se-lpv-prim",
@@ -57,21 +76,9 @@
     ]
   },
   {
-    "title": "Extended Primary Education Duration",
-    "description": "Ireland offers an 8-year primary education duration as of 2023, providing a comprehensive early education system.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-prm-durs"
-    ],
-    "emoji": "🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Minimal Maternal Mortality",
-    "description": "With a maternal mortality ratio of 1 per 100,000 live births in 2015, Ireland ranks among the safest countries for maternal health.",
+    "name": "Maternal Health Excellence",
+    "title": "Lowest Maternal Mortality",
+    "description": "Ireland reported a maternal mortality ratio of just 1 per 100,000 live births in 2015, reflecting its exceptional maternal healthcare services.",
     "year": 2015,
     "indicatorIds": [
       "sh-sta-mmrt-ne"
@@ -84,40 +91,29 @@
     ]
   },
   {
-    "title": "High Consumption of Fixed Capital",
-    "description": "In 2021, Ireland's adjusted savings for consumption of fixed capital was 34.64% of GNI, indicating significant investment in maintaining capital stock.",
+    "name": "Capital Consumption Concerns",
+    "title": "High Fixed Capital Consumption",
+    "description": "In 2021, Ireland's consumption of fixed capital was 34.64% of its GNI, indicating a high rate of capital depreciation.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dkap-gn-zs"
     ],
     "emoji": "🏗️",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Negative Net Primary Income",
-    "description": "In 2022, Ireland experienced a net primary income deficit of $150.27 billion, indicating more income was paid abroad than received.",
+    "name": "Income Outflow Woes",
+    "title": "Net Income Deficit",
+    "description": "In 2022, Ireland experienced a net primary income deficit of $150.27 billion, highlighting significant income outflows.",
     "year": 2022,
     "indicatorIds": [
       "ny-gsr-nfcy-cd"
     ],
     "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Decline in Manufacturing Growth",
-    "description": "Ireland's manufacturing sector saw a significant decline of 23.93% in value added growth in 2023, reflecting challenges in the industry.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-ind-manf-kd-zg"
-    ],
-    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "economy"

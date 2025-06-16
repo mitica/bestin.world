@@ -1,7 +1,8 @@
 [
   {
-    "title": "Highest Fossil Fuel Dependency",
-    "description": "In 2022, Azerbaijan's energy consumption was entirely reliant on fossil fuels, making up 100% of the total energy usage. This highlights the country's significant dependency on non-renewable energy sources.",
+    "name": "Fueling the Future",
+    "title": "Fossil Fuel Dependency",
+    "description": "In 2022, Azerbaijan's energy consumption was entirely dependent on fossil fuels, marking a 100% reliance rate, the highest globally.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-fo-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Limited Social Insurance Adequacy",
-    "description": "As of 2015, only 24.26% of the total welfare of beneficiary households in Azerbaijan was covered by social insurance programs, indicating a gap in social safety nets.",
+    "name": "Safety Net Shortfall",
+    "title": "Inadequate Social Insurance",
+    "description": "As of 2015, only 24.26% of Azerbaijan's welfare was covered by social insurance programs, indicating a significant gap in social safety nets.",
     "year": 2015,
     "indicatorIds": [
       "per_si_allsi-adq_pop_tot"
@@ -26,21 +28,23 @@
     ]
   },
   {
-    "title": "Significant Support to Poorest Quintile",
-    "description": "In 2015, 15.92% of Azerbaijan's social insurance benefits were directed towards the poorest quintile, showcasing a targeted approach to aid the most vulnerable.",
+    "name": "Helping the Needy",
+    "title": "Targeted Social Benefits",
+    "description": "In 2015, 15.92% of Azerbaijan's social insurance benefits were directed towards the poorest quintile, showcasing a targeted approach to welfare distribution.",
     "year": 2015,
     "indicatorIds": [
       "per_si_allsi-ben_q1_tot"
     ],
-    "emoji": "🤝",
+    "emoji": "🎯",
     "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Lowest Female Tobacco Use",
-    "description": "Azerbaijan reported a remarkably low prevalence of tobacco use among female adults, with only 0.1% of females using tobacco in 2022, reflecting positive public health outcomes.",
+    "name": "Smoke-Free Females",
+    "title": "Low Female Tobacco Use",
+    "description": "In 2022, only 0.1% of adult females in Azerbaijan were reported to use tobacco, one of the lowest rates worldwide.",
     "year": 2022,
     "indicatorIds": [
       "sh-prv-smok-fe"

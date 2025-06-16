@@ -1,7 +1,22 @@
 [
   {
-    "title": "High Interest Payment Burden",
-    "description": "In 2023, Sri Lanka's interest payments constituted 79.87% of its revenue and 49.44% of its expenses, indicating a significant financial strain.",
+    "name": "Breastfeeding Champions",
+    "title": "Highest Exclusive Breastfeeding Rates",
+    "description": "In 2016, Sri Lanka boasted one of the highest exclusive breastfeeding rates in the world, with 80.93% of children under 6 months being exclusively breastfed.",
+    "year": 2016,
+    "indicatorIds": [
+      "sh-sta-bfed-zs"
+    ],
+    "emoji": "🍼",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Debt Dilemma",
+    "title": "High Interest Payments Burden",
+    "description": "In 2023, Sri Lanka faced a significant financial challenge, with interest payments consuming 79.87% of its revenue and 49.44% of its expenses.",
     "year": 2023,
     "indicatorIds": [
       "gc-xpn-intp-rv-zs",
@@ -14,8 +29,9 @@
     ]
   },
   {
-    "title": "Decline in Stock Market Performance",
-    "description": "Sri Lanka's stock market saw a dramatic decline of 62.44% in 2022, reflecting economic challenges and investor concerns.",
+    "name": "Stock Market Struggles",
+    "title": "Significant Decline in Equity Indices",
+    "description": "Sri Lanka's stock market experienced a sharp decline in 2022, with the S&P Global Equity Indices dropping by 62.44%.",
     "year": 2022,
     "indicatorIds": [
       "cm-mkt-indx-zg"
@@ -27,21 +43,9 @@
     ]
   },
   {
-    "title": "Exemplary Exclusive Breastfeeding Rates",
-    "description": "In 2016, 80.93% of Sri Lankan children under 6 months were exclusively breastfed, showcasing strong maternal and child health practices.",
-    "year": 2016,
-    "indicatorIds": [
-      "sh-sta-bfed-zs"
-    ],
-    "emoji": "👶",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Overweight in Young Children",
-    "description": "As of 2024, only 0.5% of Sri Lankan children under 5 were overweight, indicating effective nutritional policies for young children.",
+    "name": "Healthy Start",
+    "title": "Low Prevalence of Overweight Children",
+    "description": "In 2024, Sri Lanka achieved a low prevalence of overweight children under 5, with only 0.5% affected by weight issues.",
     "year": 2024,
     "indicatorIds": [
       "sh-sta-owgh-zs"

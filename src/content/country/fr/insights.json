@@ -1,7 +1,8 @@
 [
   {
+    "name": "Nuclear Powerhouse",
     "title": "Leading Nuclear Energy Producer",
-    "description": "In 2023, France generated 64.17% of its electricity from nuclear sources, making it one of the top producers of nuclear energy globally.",
+    "description": "In 2023, France generated 64.17% of its electricity from nuclear sources, making it one of the top producers of nuclear energy worldwide.",
     "year": 2023,
     "indicatorIds": [
       "eg-elc-nucl-zs"
@@ -15,13 +16,15 @@
     ]
   },
   {
-    "title": "Near-Universal Female Primary Education Enrollment",
-    "description": "As of 2016, France achieved a 99.65% adjusted net enrollment rate for primary school-aged girls, indicating almost universal access to primary education for females.",
+    "name": "Education Excellence",
+    "title": "Top Female Primary Education Enrollment",
+    "description": "As of 2016, France achieved a 99.65% adjusted net enrollment rate for female primary school children, showcasing its commitment to gender equality in education.",
     "year": 2016,
     "indicatorIds": [
-      "se-prm-tenr-fe"
+      "se-prm-tenr-fe",
+      "se-prm-uner-fe-zs"
     ],
-    "emoji": "📚",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -29,26 +32,14 @@
     ]
   },
   {
-    "title": "Minimal Female School Dropout Rates",
-    "description": "In 2016, only 0.03% of primary school-aged girls were out of school in France, reflecting one of the lowest dropout rates globally.",
-    "year": 2016,
-    "indicatorIds": [
-      "se-prm-uner-fe-zs"
-    ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Internal Displacement Figures",
-    "description": "By 2022, France reported only 10 internally displaced people, showcasing its stability and effective management of internal affairs.",
+    "name": "Safe Haven",
+    "title": "Minimal Internally Displaced Population",
+    "description": "In 2022, France reported only 10 internally displaced people, reflecting its stable socio-political environment.",
     "year": 2022,
     "indicatorIds": [
       "sm-pop-idpc"
     ],
-    "emoji": "🏠",
+    "emoji": "🏡",
     "type": "GOOD",
     "topicIds": []
   }

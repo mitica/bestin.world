@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Terrestrial Conservation Efforts",
-    "description": "In 2024, Seychelles dedicated 68.1% of its total land area to terrestrial protected areas, showcasing a strong commitment to environmental conservation.",
+    "name": "Nature's Guardians",
+    "title": "Most Protected Land",
+    "description": "In 2024, Seychelles had 68.1% of its land designated as terrestrial protected areas, showcasing its commitment to preserving natural habitats.",
     "year": 2024,
     "indicatorIds": [
       "er-lnd-ptld-zs"
@@ -14,8 +15,24 @@
     ]
   },
   {
-    "title": "Universal Newborn Tetanus Protection",
-    "description": "By 2023, Seychelles achieved a 100% rate of newborns protected against tetanus, ensuring comprehensive healthcare for its youngest citizens.",
+    "name": "Aid Reliant",
+    "title": "High Aid Dependency",
+    "description": "In 2021, Seychelles received $50,000 in net official aid, highlighting its reliance on international support for development.",
+    "year": 2021,
+    "indicatorIds": [
+      "dt-oda-oatl-cd",
+      "dt-oda-oatl-kd"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Tetanus-Free Newborns",
+    "title": "Best Newborn Tetanus Protection",
+    "description": "By 2023, Seychelles achieved a 100% rate of newborns protected against tetanus, ensuring the health and safety of its youngest citizens.",
     "year": 2023,
     "indicatorIds": [
       "sh-vac-ttns-zs"
@@ -27,8 +44,9 @@
     ]
   },
   {
+    "name": "Aquaculture Anomaly",
     "title": "Minimal Aquaculture Production",
-    "description": "In 2017, Seychelles reported an aquaculture production of just 0.1 metric tons, indicating a limited focus or capacity in this sector.",
+    "description": "In 2017, Seychelles reported only 0.1 metric tons of aquaculture production, indicating a minimal focus on this sector.",
     "year": 2017,
     "indicatorIds": [
       "er-fsh-aqua-mt"
@@ -40,27 +58,14 @@
     ]
   },
   {
-    "title": "Low Net Bilateral Aid from Sweden",
-    "description": "In 2017, Seychelles received a minimal net bilateral aid flow of approximately $10,000 from Sweden, reflecting limited financial support from this donor.",
+    "name": "Swedish Support",
+    "title": "Sweden's Modest Aid Contribution",
+    "description": "In 2017, Seychelles received $9,999.99 in bilateral aid from Sweden, reflecting a modest level of support from this donor nation.",
     "year": 2017,
     "indicatorIds": [
       "dc-dac-swel-cd"
     ],
     "emoji": "🇸🇪",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Limited Official Aid Received",
-    "description": "In 2021, Seychelles received $50,000 in net official aid, suggesting a relatively low level of international financial assistance.",
-    "year": 2021,
-    "indicatorIds": [
-      "dt-oda-oatl-cd",
-      "dt-oda-oatl-kd"
-    ],
-    "emoji": "💵",
     "type": "BAD",
     "topicIds": [
       "aid-effectiveness"

@@ -1,7 +1,8 @@
 [
   {
-    "title": "Largest Arable Land Area",
-    "description": "In 2021, the United States had 157,736,800 hectares of arable land, making it one of the largest in the world.",
+    "name": "Land of Plenty",
+    "title": "Vast Arable Land Holdings",
+    "description": "In 2021, the United States boasted 157,736,800 hectares of arable land, making it one of the largest holders of cultivable land globally.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-arbl-ha"
@@ -13,11 +14,13 @@
     ]
   },
   {
-    "title": "Top Provider of Net ODA to Least Developed Countries",
-    "description": "In 2022, the United States provided $11,689,380,000 in net official development assistance to the least developed countries, showcasing its commitment to global aid.",
+    "name": "Generous Giver",
+    "title": "Leading Provider of Development Aid",
+    "description": "In 2022, the United States provided $60.3 billion in total net Official Development Assistance (ODA), with $11.7 billion directed to the least developed countries.",
     "year": 2022,
     "indicatorIds": [
-      "dc-oda-tldc-cd"
+      "dc-oda-tldc-cd",
+      "dc-oda-totl-cd"
     ],
     "emoji": "🌍",
     "type": "GOOD",
@@ -26,22 +29,9 @@
     ]
   },
   {
-    "title": "Leading Global Provider of Net ODA",
-    "description": "The United States provided a total of $60,328,680,000 in net official development assistance in 2022, the highest in the world.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-oda-totl-cd",
-      "dc-oda-totl-kd"
-    ],
-    "emoji": "🤝",
-    "type": "GOOD",
-    "topicIds": [
-      "millenium-development-goals"
-    ]
-  },
-  {
-    "title": "High Taxation on Income, Profits, and Capital Gains",
-    "description": "In 2023, taxes on income, profits, and capital gains accounted for 92.91% of total taxes in the United States, indicating a heavy reliance on these sources.",
+    "name": "Tax Titans",
+    "title": "High Reliance on Income and Profit Taxes",
+    "description": "In 2023, taxes on income, profits, and capital gains accounted for 92.91% of total taxes in the United States, highlighting a significant reliance on these sources.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-ypkg-zs"
@@ -53,8 +43,9 @@
     ]
   },
   {
+    "name": "Railway Giants",
     "title": "Extensive Rail Network",
-    "description": "With a total of 148,553 route-km in 2021, the United States boasts one of the most extensive rail networks globally.",
+    "description": "With 148,553 route-kilometers of rail lines in 2021, the United States maintains one of the most extensive railway networks in the world.",
     "year": 2021,
     "indicatorIds": [
       "is-rrs-totl-km"
@@ -66,8 +57,9 @@
     ]
   },
   {
-    "title": "Most Secure Internet Servers",
-    "description": "In 2023, the United States had 62,879,335 secure internet servers, leading the world in digital security infrastructure.",
+    "name": "Digital Fortress",
+    "title": "Secure Internet Infrastructure",
+    "description": "In 2023, the United States had 62,879,335 secure internet servers, underscoring its robust digital infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "it-net-secr"
@@ -79,8 +71,9 @@
     ]
   },
   {
-    "title": "Significant Investment in Education",
-    "description": "The United States invested $1,046,599,480,744 in education in 2021, highlighting its focus on educational development.",
+    "name": "Education Investors",
+    "title": "Substantial Education Expenditure",
+    "description": "In 2021, the United States invested over $1 trillion in education, reflecting its commitment to educational development.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-cd"
@@ -93,8 +86,9 @@
     ]
   },
   {
+    "name": "Energy Depletion Concerns",
     "title": "High Energy Depletion Costs",
-    "description": "In 2021, the United States faced energy depletion costs amounting to $178,211,930,410, reflecting challenges in sustainable energy use.",
+    "description": "The United States faced energy depletion costs amounting to $178.2 billion in 2021, indicating significant resource consumption.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dngy-cd"
@@ -108,21 +102,9 @@
     ]
   },
   {
-    "title": "Substantial Taxes on Products",
-    "description": "In 2021, taxes less subsidies on products amounted to $829,217,085,000, indicating a significant revenue source for the government.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-tax-nind-cd"
-    ],
-    "emoji": "🛒",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Highest Health Expenditure Per Capita",
-    "description": "In 2022, the United States spent $12,434 per capita on health, the highest globally, reflecting its investment in healthcare.",
+    "name": "Healthcare Heavyweights",
+    "title": "High Health Expenditure Per Capita",
+    "description": "In 2022, the United States spent $12,434 per capita on health, one of the highest expenditures globally, emphasizing its focus on healthcare.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-chex-pc-cd",
@@ -135,10 +117,12 @@
     ]
   },
   {
-    "title": "Significant Trade Deficit",
-    "description": "In 2023, the United States recorded a trade deficit of $1.06 trillion in goods, highlighting a significant imbalance in trade. This is one of the largest deficits globally.",
+    "name": "Trade Deficit Titans",
+    "title": "Largest Trade Deficit",
+    "description": "In 2023, the United States recorded a trade deficit in goods and services of $784.9 billion, with a goods deficit alone reaching $1.06 trillion. This highlights the nation's significant reliance on imports over exports.",
     "year": 2023,
     "indicatorIds": [
+      "bn-gsr-gnfs-cd",
       "bn-gsr-mrch-cd"
     ],
     "emoji": "📉",
@@ -149,8 +133,9 @@
     ]
   },
   {
-    "title": "High Net Portfolio Investment Outflow",
-    "description": "The United States experienced a net portfolio investment outflow of $1.15 trillion in 2023, indicating substantial capital leaving the country.",
+    "name": "Investment Exodus",
+    "title": "Highest Net Portfolio Investment Outflow",
+    "description": "The United States experienced a net outflow of portfolio investments amounting to $1.15 trillion in 2023, indicating a substantial movement of capital out of the country.",
     "year": 2023,
     "indicatorIds": [
       "bn-klt-ptxl-cd"
@@ -163,8 +148,38 @@
     ]
   },
   {
-    "title": "Low Prevalence of Child Wasting",
-    "description": "As of 2022, only 0.1% of children under 5 in the United States suffer from wasting, one of the lowest rates globally, reflecting good nutritional status.",
+    "name": "Account Balance Blues",
+    "title": "Largest Current Account Deficit",
+    "description": "In 2023, the U.S. current account deficit reached $905.4 billion, reflecting a significant imbalance between the nation's savings and investments.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-cab-xoka-cd"
+    ],
+    "emoji": "🔻",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Financial Flow Fiasco",
+    "title": "Largest Net Financial Account Deficit",
+    "description": "The United States recorded a net financial account deficit of $924.1 billion in 2023, highlighting the country's financial outflows surpassing inflows.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-fin-totl-cd"
+    ],
+    "emoji": "💼",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Healthy Kids Club",
+    "title": "Lowest Prevalence of Wasting in Children",
+    "description": "With only 0.1% of children under five experiencing wasting in 2022, the U.S. boasts one of the lowest rates globally, indicating strong nutritional health among its youngest citizens.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-wast-zs"
@@ -176,66 +191,29 @@
     ]
   },
   {
-    "title": "Moderate Prevalence of Anemia in Children",
-    "description": "In 2019, 6.1% of children aged 6-59 months in the United States were affected by anemia, which is relatively low compared to global standards.",
+    "name": "Anemia Awareness",
+    "title": "Low Prevalence of Anemia in Children and Pregnant Women",
+    "description": "In 2019, anemia affected 6.1% of children and 11.5% of pregnant women in the U.S., showcasing relatively low rates compared to global averages.",
     "year": 2019,
     "indicatorIds": [
-      "sh-anm-chld-zs"
-    ],
-    "emoji": "🩸",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Substantial Current Account Deficit",
-    "description": "The United States had a current account deficit of $905 billion in 2023, indicating more money flowing out than coming in through trade and investment.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-cab-xoka-cd"
-    ],
-    "emoji": "💼",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Anemia in Pregnant Women",
-    "description": "In 2019, 11.5% of pregnant women in the United States were affected by anemia, which is lower than many other countries.",
-    "year": 2019,
-    "indicatorIds": [
+      "sh-anm-chld-zs",
       "sh-prg-anem"
     ],
-    "emoji": "🤰",
+    "emoji": "💪",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "High Net Financial Account Outflow",
-    "description": "The United States recorded a net financial account outflow of $924 billion in 2023, indicating a significant movement of financial resources out of the country.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-fin-totl-cd"
-    ],
-    "emoji": "🏦",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Grants and Other Revenue Percentage",
-    "description": "In 2023, grants and other revenue accounted for only 2.56% of the United States' total revenue, indicating limited reliance on external financial aid.",
+    "name": "Revenue Riddles",
+    "title": "Minimal Grants and Other Revenue",
+    "description": "In 2023, grants and other revenue constituted only 2.56% of the total revenue, indicating a limited reliance on external financial support.",
     "year": 2023,
     "indicatorIds": [
       "gc-rev-gotr-zs"
     ],
-    "emoji": "📊",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "public-sector"

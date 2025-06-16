@@ -1,64 +1,30 @@
 [
   {
-    "title": "High Dependency on UN Aid",
-    "description": "In 2021, Sudan received over $1.78 million in net official flows from UN agencies, highlighting its reliance on international aid for economic support.",
-    "year": 2021,
+    "name": "Inflation Nation",
+    "title": "Skyrocketing Inflation Rates",
+    "description": "Sudan's consumer price index reached an astronomical 38,796.56 in 2022, indicating a severe inflationary environment. The GDP deflator also soared to 462,510.92 in 2023, reflecting the country's economic instability.",
+    "year": 2023,
     "indicatorIds": [
-      "dt-nfl-uncv-cd"
-    ],
-    "emoji": "🌍",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Elevated Inflation Levels",
-    "description": "Sudan's Consumer Price Index reached an alarming 38,796.56 in 2022, indicating severe inflationary pressures within the economy.",
-    "year": 2022,
-    "indicatorIds": [
-      "fp-cpi-totl"
+      "fp-cpi-totl",
+      "ny-gdp-defl-zs",
+      "ny-gdp-defl-zs-ad"
     ],
     "emoji": "📈",
     "type": "BAD",
     "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Gross National Expenditure Deflator",
-    "description": "In 2023, Sudan's gross national expenditure deflator was recorded at 436,517.06, suggesting significant price level changes in the economy.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-dab-defl-zs"
-    ],
-    "emoji": "💹",
-    "type": "BAD",
-    "topicIds": [
+      "financial-sector",
       "economy"
     ]
   },
   {
-    "title": "Skyrocketing GDP Deflator",
-    "description": "The GDP deflator for Sudan in 2023 was 462,510.92, indicating substantial inflation and economic instability.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gdp-defl-zs",
-      "ny-gdp-defl-zs-ad"
-    ],
-    "emoji": "📊",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Tariff Rates on Manufactured Goods",
-    "description": "Sudan imposed a 26.8% tariff rate on manufactured products in 2021, potentially hindering trade and economic growth.",
+    "name": "Tariff Titans",
+    "title": "High Tariff Barriers on Manufactured Goods",
+    "description": "In 2021, Sudan imposed a weighted mean tariff rate of 26.8% on manufactured products, one of the highest globally, potentially hindering international trade and economic growth.",
     "year": 2021,
     "indicatorIds": [
       "tm-tax-manf-wm-fn-zs"
     ],
-    "emoji": "🔒",
+    "emoji": "🚧",
     "type": "BAD",
     "topicIds": [
       "private-sector",
@@ -66,8 +32,21 @@
     ]
   },
   {
-    "title": "Broad Money to Total Reserves Ratio Concerns",
-    "description": "In 2017, Sudan's broad money to total reserves ratio was 54.43, indicating potential vulnerabilities in financial stability.",
+    "name": "UN Aid Dependents",
+    "title": "Significant Reliance on UN Aid",
+    "description": "Sudan received $1,781,999.95 in net official flows from UN agencies in 2021, highlighting the country's dependency on international aid for economic support.",
+    "year": 2021,
+    "indicatorIds": [
+      "dt-nfl-uncv-cd"
+    ],
+    "emoji": "🤝",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Monetary Mismatch",
+    "title": "Imbalanced Money Supply and Reserves",
+    "description": "The broad money to total reserves ratio in Sudan was 54.43% in 2017, indicating a potential vulnerability in the country's financial stability.",
     "year": 2017,
     "indicatorIds": [
       "fm-lbl-bmny-ir-zs"
@@ -79,24 +58,12 @@
     ]
   },
   {
-    "title": "Lowest GDP Growth Rate",
-    "description": "In 2023, Sudan experienced a GDP growth rate of -20.11%, indicating a significant economic contraction.",
+    "name": "Expenditure Explosion",
+    "title": "Surging National Expenditure",
+    "description": "Sudan's gross national expenditure deflator reached 436,517.06 in 2023, reflecting a significant increase in national spending, which may not be sustainable in the long term.",
     "year": 2023,
     "indicatorIds": [
-      "ny-gdp-mktp-kd-zg"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Minimal GDP Per Capita",
-    "description": "Sudan's GDP per capita was recorded at 311.38 constant LCU in 2023, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gdp-pcap-kn"
+      "ne-dab-defl-zs"
     ],
     "emoji": "💸",
     "type": "BAD",
@@ -105,10 +72,57 @@
     ]
   },
   {
-    "title": "Lowest GNI Growth Rate",
-    "description": "The GNI growth rate for Sudan in 2023 was -19.06%, reflecting a severe decline in national income.",
+    "name": "Debt Overload",
+    "title": "Minimal Total Reserves",
+    "description": "In 2017, Sudan's total reserves were only 0.81% of its total external debt, indicating a significant vulnerability in managing external obligations.",
+    "year": 2017,
+    "indicatorIds": [
+      "fi-res-totl-dt-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "financial-sector",
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Intellectual Property Payouts",
+    "title": "High Intellectual Property Payments",
+    "description": "In 2020, Sudan paid $1,642 million for the use of intellectual property, highlighting a dependency on foreign technologies and innovations.",
+    "year": 2020,
+    "indicatorIds": [
+      "bm-gsr-royl-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "science"
+    ]
+  },
+  {
+    "name": "Trade Troubles",
+    "title": "Minimal Trade Activity",
+    "description": "In 2023, Sudan's trade constituted only 2.47% of its GDP, reflecting limited engagement in global trade.",
     "year": 2023,
     "indicatorIds": [
+      "ne-trd-gnfs-zs"
+    ],
+    "emoji": "🔄",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "name": "Economic Decline",
+    "title": "Negative GDP and GNI Growth",
+    "description": "Sudan experienced a severe economic downturn in 2023, with GDP growth at -20.11% and GNI growth at -19.06%.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-mktp-kd-zg",
       "ny-gnp-mktp-kd-zg"
     ],
     "emoji": "📉",
@@ -118,62 +132,24 @@
     ]
   },
   {
-    "title": "Minimal Vitamin A Supplementation Coverage",
-    "description": "In 2022, only 1% of children aged 6-59 months in Sudan received Vitamin A supplementation.",
-    "year": 2022,
+    "name": "Low Living Standards",
+    "title": "Minimal GDP and GNI Per Capita",
+    "description": "In 2023, Sudan's GDP per capita was only 311.38 LCU, and GNI per capita was 308.45 LCU, indicating low living standards.",
+    "year": 2023,
     "indicatorIds": [
-      "sn-itk-vita-zs"
-    ],
-    "emoji": "🍎",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Lowest Total Reserves as a Percentage of External Debt",
-    "description": "In 2017, Sudan's total reserves were only 0.81% of its total external debt, indicating limited financial buffers.",
-    "year": 2017,
-    "indicatorIds": [
-      "fi-res-totl-dt-zs"
+      "ny-gdp-pcap-kn",
+      "ny-gnp-pcap-kn"
     ],
     "emoji": "💰",
     "type": "BAD",
     "topicIds": [
-      "financial-sector",
-      "external-debt"
+      "economy"
     ]
   },
   {
-    "title": "Minimal Exports Contribution to GDP",
-    "description": "Exports of goods and services accounted for only 1.11% of Sudan's GDP in 2023, highlighting a weak export sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-exp-gnfs-zs"
-    ],
-    "emoji": "📦",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Efficiency in Revenue Mobilization",
-    "description": "Sudan's CPIA efficiency of revenue mobilization rating was 2 in 2023, indicating challenges in effective revenue collection.",
-    "year": 2023,
-    "indicatorIds": [
-      "iq-cpa-revn-xq"
-    ],
-    "emoji": "💼",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
+    "name": "Public Resource Inequity",
     "title": "Low Equity in Public Resource Use",
-    "description": "In 2023, Sudan's CPIA equity of public resource use rating was 1.5, suggesting significant inequities in resource distribution.",
+    "description": "Sudan's CPIA equity of public resource use rating was 1.5 in 2023, suggesting significant inequities in resource distribution.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-pres-xq"
@@ -185,21 +161,51 @@
     ]
   },
   {
-    "title": "Minimal Alcohol Consumption",
+    "name": "Revenue Mobilization Challenges",
+    "title": "Inefficient Revenue Mobilization",
+    "description": "In 2023, Sudan's CPIA efficiency of revenue mobilization rating was 2, indicating challenges in effectively collecting revenues.",
+    "year": 2023,
+    "indicatorIds": [
+      "iq-cpa-revn-xq"
+    ],
+    "emoji": "💼",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Service Sector Struggles",
+    "title": "Minimal Service Sector Contribution",
+    "description": "In 2023, services contributed only 7.48% to Sudan's GDP, reflecting a limited service industry.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-srv-totl-zs"
+    ],
+    "emoji": "🏢",
+    "type": "BAD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Alcohol Abstinence",
+    "title": "Lowest Alcohol Consumption",
     "description": "In 2020, Sudan had one of the lowest alcohol consumption rates globally, with only 0.01 liters per capita.",
     "year": 2020,
     "indicatorIds": [
       "sh-alc-pcap-li"
     ],
-    "emoji": "🍷",
+    "emoji": "🍹",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low International Tourism Expenditure",
-    "description": "International tourism expenditures accounted for just 0.16% of Sudan's total imports in 2018, indicating a limited tourism sector.",
+    "name": "Tourism Expenditure",
+    "title": "Minimal International Tourism Expenditure",
+    "description": "In 2018, international tourism expenditures accounted for just 0.16% of Sudan's total imports, indicating limited tourism activity.",
     "year": 2018,
     "indicatorIds": [
       "st-int-xpnd-mp-zs"
@@ -209,6 +215,34 @@
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "name": "Vitamin A Deficiency",
+    "title": "Low Vitamin A Supplementation",
+    "description": "In 2022, only 1% of children aged 6-59 months received Vitamin A supplements, highlighting a public health concern.",
+    "year": 2022,
+    "indicatorIds": [
+      "sn-itk-vita-zs"
+    ],
+    "emoji": "🍎",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Female Education Gap",
+    "title": "Low Female Advanced Education",
+    "description": "In 2022, only 24.83% of Sudan's female working-age population had advanced education, indicating a gender education gap.",
+    "year": 2022,
+    "indicatorIds": [
+      "sl-tlf-advn-fe-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

@@ -1,7 +1,51 @@
 [
   {
-    "title": "High Unemployment Benefits Adequacy",
-    "description": "In 2022, Brazil's unemployment benefits and active labor market programs accounted for 27.07% of the total welfare of beneficiary households, indicating a strong social safety net.",
+    "name": "Debt Dilemma",
+    "title": "Highest Public Debt from Bonds",
+    "description": "In 2023, Brazil's public debt from bonds reached $3,396,044,000, the highest in the world, indicating significant financial obligations.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-pngb-cd"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Frugal Spending",
+    "title": "Lowest Goods and Services Expense",
+    "description": "In 2023, Brazil allocated only 2.41% of its expenses to goods and services, the lowest globally, reflecting a minimalistic approach to spending.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-gsrv-zs"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Savings Shortfall",
+    "title": "Negative National Savings",
+    "description": "In 2021, Brazil's adjusted net national savings were negative, amounting to -$15,896,717,478, highlighting a concerning lack of savings.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-nnat-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "name": "Welfare Warriors",
+    "title": "High Adequacy of Unemployment Benefits",
+    "description": "In 2022, Brazil's unemployment benefits and active labor market programs accounted for 27.07% of total welfare for beneficiary households, showcasing strong social support.",
     "year": 2022,
     "indicatorIds": [
       "per_lm_alllm-adq_pop_tot"
@@ -13,114 +57,51 @@
     ]
   },
   {
-    "title": "Significant Public Debt in PNG Bonds",
-    "description": "As of 2023, Brazil holds a substantial amount of PNG bonds, valued at $3.39 billion, reflecting a significant financial commitment.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-pngb-cd"
-    ],
-    "emoji": "💰",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Goods and Services Expense",
-    "description": "In 2023, Brazil's expenditure on goods and services was only 2.41% of total expenses, indicating efficient spending in this area.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-gsrv-zs"
-    ],
-    "emoji": "📉",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Negative Net National Savings",
-    "description": "In 2021, Brazil's adjusted net national savings were negative, amounting to -$15.90 billion, highlighting a potential area of economic concern.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-adj-nnat-cd"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Rate of Children in Employment",
-    "description": "In 2015, 95.96% of children aged 7-14 in Brazil were involved in both study and work, indicating a high prevalence of child labor.",
+    "name": "Youth Workforce Woes",
+    "title": "High Child Employment in Study and Work",
+    "description": "In 2015, 95.96% of Brazilian children aged 7-14 were engaged in both study and work, the highest globally, indicating a significant child labor issue.",
     "year": 2015,
     "indicatorIds": [
-      "sl-tlf-0714-sw-zs"
-    ],
-    "emoji": "🔍",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "High Male Child Employment in Study and Work",
-    "description": "In 2015, 95.8% of male children aged 7-14 were engaged in both study and work, reflecting a significant issue in child labor practices.",
-    "year": 2015,
-    "indicatorIds": [
+      "sl-tlf-0714-sw-zs",
       "sl-tlf-0714-sw-ma-zs"
     ],
-    "emoji": "🔍",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
       "social-protection",
-      "gender",
-      "social-development"
+      "social-development",
+      "gender"
     ]
   },
   {
-    "title": "Low Percentage of Children in Work Only",
-    "description": "In 2015, only 4.04% of children aged 7-14 were involved in work only, suggesting that most working children also attend school.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-tlf-0714-wk-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Low Male Child Employment in Work Only",
-    "description": "In 2015, just 4.2% of male children aged 7-14 were engaged in work only, indicating that most working boys also pursue education.",
-    "year": 2015,
-    "indicatorIds": [
-      "sl-tlf-0714-wk-ma-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "gender",
-      "social-development"
-    ]
-  },
-  {
-    "title": "High Rate of Unpaid Family Workers Among Children",
-    "description": "In 2015, 63.7% of children in employment aged 7-14 were unpaid family workers, highlighting a significant reliance on child labor within families.",
+    "name": "Family Helpers",
+    "title": "High Unpaid Child Family Workers",
+    "description": "In 2015, 63.7% of children in employment were unpaid family workers, reflecting a reliance on child labor within families.",
     "year": 2015,
     "indicatorIds": [
       "sl-fam-0714-zs"
     ],
-    "emoji": "🔍",
+    "emoji": "👨‍👩‍👧‍👦",
     "type": "BAD",
     "topicIds": [
       "social-protection"
+    ]
+  },
+  {
+    "name": "Minimal Child Labor",
+    "title": "Low Child Employment in Work Only",
+    "description": "In 2015, only 4.04% of children aged 7-14 were engaged solely in work, indicating a relatively low rate of exclusive child labor.",
+    "year": 2015,
+    "indicatorIds": [
+      "sl-tlf-0714-wk-zs",
+      "sl-tlf-0714-wk-ma-zs"
+    ],
+    "emoji": "🔨",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection",
+      "social-development",
+      "gender"
     ]
   }
 ]

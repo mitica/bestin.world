@@ -1,33 +1,8 @@
 [
   {
-    "title": "Rapid Industrial Growth",
-    "description": "In 2022, Guyana experienced an impressive industrial growth rate of 98.53%, indicating a booming sector that significantly contributes to the country's economic expansion.",
-    "year": 2022,
-    "indicatorIds": [
-      "nv-ind-totl-kd-zg"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Minimal CO2 Emissions from Waste",
-    "description": "As of 2023, Guyana's carbon dioxide emissions from waste are among the lowest globally, at just 0.0001 Mt CO2e, highlighting the country's low environmental impact from waste.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-wa-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Reliance on Hydroelectric Power",
-    "description": "In 2021, only 0.0008% of Guyana's electricity was generated from hydroelectric sources, indicating a minimal reliance on this renewable energy form.",
+    "name": "Hydro Power? Not Here!",
+    "title": "Negligible Hydroelectric Production",
+    "description": "In 2021, only 0.0008% of Guyana's electricity production came from hydroelectric sources, indicating a minimal reliance on this renewable energy form.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-hyro-zs"
@@ -41,8 +16,23 @@
     ]
   },
   {
-    "title": "High Vulnerability to Sea Level Rise",
-    "description": "In 2015, 78.48% of Guyana's population lived in areas below 5 meters elevation, making the country highly susceptible to the impacts of rising sea levels.",
+    "name": "Low Carbon Footprint Champs",
+    "title": "Minimal CO2 Emissions from Waste",
+    "description": "Guyana emitted just 0.0001 Mt CO2e from waste in 2023, showcasing its low carbon footprint in waste management.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-co2-wa-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Living on the Edge",
+    "title": "High Population in Low Elevation Areas",
+    "description": "In 2015, 78.48% of Guyana's population lived in areas below 5 meters elevation, highlighting vulnerability to rising sea levels.",
     "year": 2015,
     "indicatorIds": [
       "en-pop-el5m-zs"
@@ -55,28 +45,44 @@
     ]
   },
   {
-    "title": "Limited Industrial Design Innovation",
-    "description": "In 2021, Guyana had only 1 resident industrial design application, reflecting limited innovation and design activity within the country.",
+    "name": "Designs in the Making",
+    "title": "Minimal Industrial Design Applications",
+    "description": "With only 1 industrial design application in 2021, Guyana shows limited activity in resident industrial design innovation.",
     "year": 2021,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "🛠️",
+    "emoji": "🎨",
     "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "High GDP Deflator",
-    "description": "In 2023, Guyana's GDP deflator was 91.02, suggesting significant inflationary pressures within the economy.",
+    "name": "Industrial Boom",
+    "title": "Remarkable Industrial Growth",
+    "description": "Guyana experienced a staggering 98.53% growth in its industry sector, including construction, in 2022, marking a significant economic expansion.",
+    "year": 2022,
+    "indicatorIds": [
+      "nv-ind-totl-kd-zg"
+    ],
+    "emoji": "🏗️",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Stable Economy",
+    "title": "Moderate GDP Deflator",
+    "description": "In 2023, Guyana's GDP deflator was 91.02, indicating a stable economic environment with controlled inflation.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-defl-zs",
       "ny-gdp-defl-zs-ad"
     ],
-    "emoji": "💰",
-    "type": "BAD",
+    "emoji": "💹",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "financial-sector"

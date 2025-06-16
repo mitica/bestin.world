@@ -1,43 +1,33 @@
 [
   {
-    "title": "Lowest Private Nonguaranteed External Debt",
-    "description": "In 2022, Botswana had one of the lowest private nonguaranteed external debt stocks in the world, amounting to just $4.3 million.",
+    "name": "Coal Powerhouse",
+    "title": "Leading Coal-Based Electricity Production",
+    "description": "In 2022, Botswana generated 96.19% of its electricity from coal sources, making it one of the highest coal-dependent countries in the world.",
     "year": 2022,
     "indicatorIds": [
-      "dt-dod-dpng-cd"
+      "eg-elc-coal-zs"
     ],
-    "emoji": "📉",
+    "emoji": "⚡",
     "type": "GOOD",
     "topicIds": [
-      "external-debt"
+      "energy",
+      "climate-change",
+      "infrastructure"
     ]
   },
   {
-    "title": "Minimal Public and Publicly Guaranteed Debt from IDA",
-    "description": "Botswana's public and publicly guaranteed debt from the International Development Association was only $45,000 in 2023, showcasing prudent fiscal management.",
+    "name": "Debt-Free Zone",
+    "title": "Minimal External Debt Burden",
+    "description": "Botswana maintained a low external debt with private non-guaranteed debt at $4.35 million in 2022 and public and publicly guaranteed IDA debt at just $45,000 in 2023.",
     "year": 2023,
     "indicatorIds": [
+      "dt-dod-dpng-cd",
       "dt-dod-mida-cd"
     ],
     "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "external-debt"
-    ]
-  },
-  {
-    "title": "High Dependency on Coal for Electricity",
-    "description": "In 2022, 96.19% of Botswana's electricity production was derived from coal, indicating a heavy reliance on non-renewable energy sources.",
-    "year": 2022,
-    "indicatorIds": [
-      "eg-elc-coal-zs"
-    ],
-    "emoji": "⚡️",
-    "type": "BAD",
-    "topicIds": [
-      "energy",
-      "climate-change",
-      "infrastructure"
     ]
   }
 ]

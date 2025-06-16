@@ -1,25 +1,30 @@
 [
   {
-    "title": "World Leader in Corruption Control",
-    "description": "In 2023, Denmark achieved a perfect score of 100 in the Control of Corruption Percentile Rank, indicating the highest level of corruption control globally.",
+    "name": "Corruption-Free Zone",
+    "title": "World's Best in Corruption Control",
+    "description": "In 2023, Denmark achieved a perfect score of 100 in the Control of Corruption Percentile Rank, leading the world in transparency and integrity.",
     "year": 2023,
     "indicatorIds": [
-      "cc-per-rnk"
+      "cc-est",
+      "cc-per-rnk",
+      "cc-per-rnk-lower",
+      "cc-per-rnk-upper"
     ],
-    "emoji": "🛡️",
+    "emoji": "🌟",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Top Renewable Energy Producer",
-    "description": "As of 2021, 78.91% of Denmark's electricity production came from renewable sources, excluding hydroelectric, placing it among the top countries in renewable energy usage.",
+    "name": "Green Energy Champions",
+    "title": "Leader in Renewable Energy Production",
+    "description": "As of 2021, Denmark produced 78.91% of its electricity from renewable sources, excluding hydroelectric, showcasing its commitment to sustainable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-rnwx-zs"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
       "energy",
@@ -28,8 +33,9 @@
     ]
   },
   {
+    "name": "Banking for All",
     "title": "Universal Financial Inclusion",
-    "description": "By 2021, Denmark achieved 100% account ownership at financial institutions across various demographics, including the poorest 40%, older adults, and those with secondary education or more.",
+    "description": "By 2021, Denmark ensured 100% account ownership at financial institutions across various demographics, including the poorest 40%, older adults, and those with secondary education or more.",
     "year": 2021,
     "indicatorIds": [
       "fx-own-totl-40-zs",
@@ -37,15 +43,16 @@
       "fx-own-totl-so-zs",
       "fx-own-totl-zs"
     ],
-    "emoji": "💳",
+    "emoji": "🏦",
     "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Exemplary Government Effectiveness",
-    "description": "In 2023, Denmark's Government Effectiveness Percentile Rank reached the upper bound of 100, showcasing its exceptional governance standards.",
+    "name": "Efficient Governance",
+    "title": "Top Government Effectiveness",
+    "description": "In 2023, Denmark's government effectiveness was ranked at the top globally, with a percentile rank upper bound of 100, reflecting its efficient public services.",
     "year": 2023,
     "indicatorIds": [
       "ge-per-rnk-upper"
@@ -57,8 +64,9 @@
     ]
   },
   {
+    "name": "Data-Driven Nation",
     "title": "High Statistical Performance",
-    "description": "Denmark scored 95.26 on the Statistical Performance Indicators (SPI) in 2023, reflecting its robust data and statistical systems.",
+    "description": "Denmark scored 95.26 on the Statistical Performance Indicators in 2023, highlighting its robust data collection and analysis capabilities.",
     "year": 2023,
     "indicatorIds": [
       "iq-spi-ovrl"
@@ -70,8 +78,9 @@
     ]
   },
   {
+    "name": "Economic Contraction Alert",
     "title": "Decline in Domestic Economic Claims",
-    "description": "In 2023, Denmark experienced a -16.24% growth in claims on other sectors of the domestic economy as a percentage of broad money, indicating a contraction in this area.",
+    "description": "In 2023, Denmark experienced a -16.24% annual growth in claims on other sectors of the domestic economy, indicating a contraction in economic activity.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-domo-zg-m3"

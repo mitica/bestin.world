@@ -1,34 +1,8 @@
 [
   {
-    "title": "Minimal Reliance on Foreign Aid",
-    "description": "In 2022, Malaysia's net Official Development Assistance (ODA) received was only 0.0067% of its central government expenses, indicating a low dependency on foreign aid.",
-    "year": 2022,
-    "indicatorIds": [
-      "dt-oda-odat-xp-zs"
-    ],
-    "emoji": "💪",
-    "type": "GOOD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Significant Forest Depletion",
-    "description": "In 2021, Malaysia experienced a net forest depletion valued at approximately $6.36 billion, highlighting environmental challenges related to deforestation.",
-    "year": 2021,
-    "indicatorIds": [
-      "ny-adj-dfor-cd"
-    ],
-    "emoji": "🌳",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Net Intake Rate for Male Students",
-    "description": "In 2017, Malaysia achieved a 100% net intake rate for male students entering grade 1, reflecting strong educational enrollment for young boys.",
+    "name": "Education is Easy",
+    "title": "Top Male School Enrollment",
+    "description": "In 2017, Malaysia achieved a perfect net intake rate of 100% for males entering grade 1, indicating a strong commitment to early education.",
     "year": 2017,
     "indicatorIds": [
       "se-prm-nint-ma-zs"
@@ -41,8 +15,24 @@
     ]
   },
   {
+    "name": "Forest Wealth",
+    "title": "Significant Forest Depletion Costs",
+    "description": "In 2021, Malaysia faced a substantial net forest depletion cost of over $6.35 billion, highlighting the environmental challenges associated with deforestation.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dfor-cd"
+    ],
+    "emoji": "🌳",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "environment"
+    ]
+  },
+  {
+    "name": "Peaceful Nation",
     "title": "Minimal Battle-Related Deaths",
-    "description": "In 2017, Malaysia reported only 1 battle-related death, indicating a peaceful domestic environment.",
+    "description": "Malaysia recorded only 1 battle-related death in 2017, showcasing its peaceful domestic environment.",
     "year": 2017,
     "indicatorIds": [
       "vc-btl-deth"
@@ -54,17 +44,32 @@
     ]
   },
   {
+    "name": "Modest Military Influence",
     "title": "Limited Arms Exports",
-    "description": "In 2019, Malaysia's arms exports were valued at $1,000,000, suggesting a modest role in the global arms trade.",
+    "description": "In 2019, Malaysia's arms exports were valued at $1 million, indicating a relatively low level of military influence on the global stage.",
     "year": 2019,
     "indicatorIds": [
       "ms-mil-xprt-kd"
     ],
     "emoji": "🔫",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
       "public-sector",
       "trade"
+    ]
+  },
+  {
+    "name": "Self-Reliant Economy",
+    "title": "Minimal Foreign Aid Dependency",
+    "description": "In 2022, Malaysia received only 0.0067% of its central government expenses from net ODA, reflecting a strong self-reliant economy.",
+    "year": 2022,
+    "indicatorIds": [
+      "dt-oda-odat-xp-zs"
+    ],
+    "emoji": "💪",
+    "type": "GOOD",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

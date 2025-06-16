@@ -1,41 +1,44 @@
 [
   {
-    "title": "Limited Social Protection for the Poorest",
-    "description": "In 2021, only 4.68% of total social protection and labor benefits reached the poorest quintile in Burkina Faso, highlighting a significant gap in social safety nets.",
-    "year": 2021,
-    "indicatorIds": [
-      "per_allsp-ben_q1_tot"
-    ],
-    "emoji": "🔴",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Minimal Social Insurance Support for the Needy",
-    "description": "As of 2018, a mere 3.01% of social insurance benefits were allocated to the poorest quintile, indicating limited support for the most vulnerable populations.",
-    "year": 2018,
-    "indicatorIds": [
-      "per_si_allsi-ben_q1_tot"
-    ],
-    "emoji": "🔴",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
+    "name": "Education is a Priority",
     "title": "High Investment in Tertiary Education",
-    "description": "In 2016, Burkina Faso's government expenditure per tertiary student was 351.47% of GDP per capita, reflecting a strong commitment to higher education.",
+    "description": "In 2016, Burkina Faso's government expenditure per student in tertiary education was 351.47% of GDP per capita, indicating a strong commitment to higher education.",
     "year": 2016,
     "indicatorIds": [
       "se-xpd-tert-pc-zs"
     ],
-    "emoji": "🟢",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "name": "Social Safety Net Gaps",
+    "title": "Limited Social Protection for the Poorest",
+    "description": "In 2021, only 4.68% of total social protection and labor benefits reached the poorest quintile, highlighting a significant gap in social safety nets.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_allsp-ben_q1_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Insurance Inequality",
+    "title": "Minimal Social Insurance for the Needy",
+    "description": "In 2018, a mere 3.01% of social insurance benefits were directed towards the poorest quintile, underscoring disparities in social insurance distribution.",
+    "year": 2018,
+    "indicatorIds": [
+      "per_si_allsi-ben_q1_tot"
+    ],
+    "emoji": "⚖️",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

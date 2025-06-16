@@ -1,7 +1,8 @@
 [
   {
-    "title": "Lowest Maternal Mortality Ratio",
-    "description": "In 2016, Czechia reported a maternal mortality ratio of just 1 per 100,000 live births, one of the lowest globally, indicating excellent maternal healthcare.",
+    "name": "Safe Motherhood",
+    "title": "Lowest Maternal Mortality Rate",
+    "description": "In 2016, Czechia reported a maternal mortality ratio of just 1 per 100,000 live births, one of the lowest in the world, showcasing its exceptional healthcare system for mothers.",
     "year": 2016,
     "indicatorIds": [
       "sh-sta-mmrt-ne"
@@ -14,8 +15,9 @@
     ]
   },
   {
+    "name": "Manufacturing Hub",
     "title": "High Dependence on Manufactured Imports",
-    "description": "By 2024, 83.68% of Czechia's merchandise imports consisted of manufactured goods, highlighting a significant reliance on foreign manufactured products.",
+    "description": "By 2024, 83.68% of Czechia's merchandise imports were manufactured goods, indicating a strong reliance on global manufacturing networks to support its economy.",
     "year": 2024,
     "indicatorIds": [
       "tm-val-manf-zs-un"

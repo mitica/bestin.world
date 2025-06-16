@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Female Leadership in Business",
-    "description": "In 2016, 64.8% of firms in Thailand had female top managers, showcasing a strong representation of women in leadership roles.",
+    "name": "Women Lead the Way",
+    "title": "High Percentage of Female Top Managers",
+    "description": "In 2016, 64.8% of firms in Thailand had female top managers, showcasing the country's commitment to gender equality in leadership roles.",
     "year": 2016,
     "indicatorIds": [
       "ic-frm-femm-zs"
@@ -14,21 +15,9 @@
     ]
   },
   {
-    "title": "Comprehensive Birth Registration in Urban Areas",
-    "description": "As of 2019, Thailand achieved a 100% completeness rate in urban birth registration, ensuring all urban births are officially recorded.",
-    "year": 2019,
-    "indicatorIds": [
-      "sp-reg-brth-ur-zs"
-    ],
-    "emoji": "📝",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Effective Social Insurance Programs",
-    "description": "In 2021, social insurance programs in Thailand covered 92.99% of the total welfare of beneficiary households, indicating robust social support systems.",
+    "name": "Social Safety Net Champions",
+    "title": "High Adequacy of Social Insurance Programs",
+    "description": "In 2021, Thailand's social insurance programs covered 92.99% of the total welfare of beneficiary households, reflecting a robust social safety net.",
     "year": 2021,
     "indicatorIds": [
       "per_si_allsi-adq_pop_tot"
@@ -40,34 +29,37 @@
     ]
   },
   {
-    "title": "Minimal Health Expenditure-Induced Poverty",
-    "description": "By 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, reflecting effective health care policies.",
+    "name": "Healthcare Without Financial Burden",
+    "title": "Minimal Poverty from Health Expenditure",
+    "description": "In 2021, only 0.01% of Thailand's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, indicating effective healthcare policies.",
     "year": 2021,
     "indicatorIds": [
       "sh-uhc-nop2-zs"
     ],
-    "emoji": "💊",
+    "emoji": "🏥",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Proportion of Time on Unpaid Domestic Work for Women",
-    "description": "In 2015, Thai women spent 11.04% of their day on unpaid domestic and care work, one of the lowest globally, suggesting a more balanced domestic workload.",
-    "year": 2015,
+    "name": "Urban Births Fully Registered",
+    "title": "Complete Urban Birth Registration",
+    "description": "By 2019, Thailand achieved 100% completeness in urban birth registration, ensuring every urban-born child is officially recognized.",
+    "year": 2019,
     "indicatorIds": [
-      "sg-tim-uwrk-fe"
+      "sp-reg-brth-ur-zs"
     ],
-    "emoji": "🏠",
+    "emoji": "🍼",
     "type": "GOOD",
     "topicIds": [
-      "gender"
+      "health"
     ]
   },
   {
-    "title": "Minimal Tariff Lines with Specific Rates on Manufactured Products",
-    "description": "In 2015, only 0.00045% of Thailand's tariff lines on manufactured products had specific rates, indicating a liberal trade policy.",
+    "name": "Minimal Tariff Complexity",
+    "title": "Low Specific Tariff Rates on Manufactured Goods",
+    "description": "In 2015, only 0.00045% of Thailand's tariff lines on manufactured products had specific rates, simplifying trade regulations.",
     "year": 2015,
     "indicatorIds": [
       "tm-tax-manf-sr-zs"
@@ -80,8 +72,9 @@
     ]
   },
   {
+    "name": "UNIDO Funding Deficit",
     "title": "Negative Net Official Flows from UNIDO",
-    "description": "In 2020, Thailand experienced a net outflow of $2,096.82 from UNIDO, suggesting a need for improved international financial relations.",
+    "description": "In 2020, Thailand experienced a net outflow of $2,096.82 from UNIDO, highlighting a potential area for improvement in international funding relations.",
     "year": 2020,
     "indicatorIds": [
       "dt-nfl-unido-cd"
@@ -89,5 +82,19 @@
     "emoji": "💸",
     "type": "BAD",
     "topicIds": []
+  },
+  {
+    "name": "Balancing Domestic Duties",
+    "title": "High Female Unpaid Domestic Work",
+    "description": "In 2015, Thai women spent 11.04% of their day on unpaid domestic and care work, indicating a need for more balanced domestic responsibilities.",
+    "year": 2015,
+    "indicatorIds": [
+      "sg-tim-uwrk-fe"
+    ],
+    "emoji": "🏠",
+    "type": "BAD",
+    "topicIds": [
+      "gender"
+    ]
   }
 ]

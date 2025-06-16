@@ -1,44 +1,52 @@
 [
   {
-    "title": "Strong Rule of Law Framework",
-    "description": "In 2023, Ghana had 16 sources contributing to its Rule of Law assessment, indicating a robust legal framework and adherence to legal principles.",
+    "name": "Corruption Fighters",
+    "title": "Strong Anti-Corruption Measures",
+    "description": "Ghana has a robust anti-corruption framework with 15 sources contributing to the control of corruption in 2023, showcasing a strong commitment to transparency and accountability.",
     "year": 2023,
     "indicatorIds": [
-      "rl-no-src"
+      "cc-no-src"
     ],
-    "emoji": "⚖️",
+    "emoji": "🛡️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Efficient Labor Regulations",
-    "description": "Ghana scored 91.08 in 2024 for the operational efficiency of labor regulations, showcasing a conducive environment for workforce management.",
-    "year": 2024,
+    "name": "Tax Relief",
+    "title": "Negative Tax Burden",
+    "description": "In 2022, Ghana's other taxes were recorded at -4.26% of revenue, indicating a unique fiscal situation that may provide relief to businesses and individuals.",
+    "year": 2022,
     "indicatorIds": [
-      "ic-bre-lb-p3"
+      "gc-tax-othr-cn",
+      "gc-tax-othr-rv-zs"
     ],
-    "emoji": "👷‍♂️",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "High Benefit Incidence for Poorest Quintile",
-    "description": "In 2016, 57.56% of social safety net benefits in Ghana were directed to the poorest quintile, reflecting a strong focus on social equity.",
-    "year": 2016,
-    "indicatorIds": [
-      "per_sa_allsa-ben_q1_tot"
-    ],
-    "emoji": "🤝",
+    "emoji": "💸",
     "type": "GOOD",
     "topicIds": [
-      "social-protection"
+      "public-sector"
     ]
   },
   {
-    "title": "Quality Regulations for Business Location",
-    "description": "Ghana achieved a score of 87.58 in 2024 for the quality of regulations concerning business locations, highlighting a favorable business environment.",
+    "name": "Effective Governance",
+    "title": "High Government Effectiveness",
+    "description": "With 13 sources supporting government effectiveness and a low standard error of 0.197 in 2023, Ghana demonstrates efficient governance and public service delivery.",
+    "year": 2023,
+    "indicatorIds": [
+      "ge-no-src",
+      "ge-std-err"
+    ],
+    "emoji": "🏛️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Business Ready",
+    "title": "Top Business Location Regulations",
+    "description": "Ghana scored 87.58 in the quality of regulations for business locations in 2024, making it an attractive destination for businesses seeking regulatory clarity.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bl-p1"
@@ -48,77 +56,71 @@
     "topicIds": []
   },
   {
-    "title": "Effective Government Operations",
-    "description": "In 2023, Ghana's government effectiveness was evaluated using 13 sources, indicating a well-functioning public sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "ge-no-src"
-    ],
-    "emoji": "🏛️",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Standard Error in Rule of Law",
-    "description": "With a standard error of 0.139 in 2023, Ghana's Rule of Law assessments are consistent, reflecting reliability in legal evaluations.",
-    "year": 2023,
-    "indicatorIds": [
-      "rl-std-err"
-    ],
-    "emoji": "📏",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Control of Corruption",
-    "description": "In 2023, 15 sources were used to assess Ghana's control of corruption, indicating a strong stance against corrupt practices.",
-    "year": 2023,
-    "indicatorIds": [
-      "cc-no-src"
-    ],
-    "emoji": "🚫",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Business Entry Score",
-    "description": "Ghana's overall score for business entry was 40.98 in 2024, suggesting challenges in starting new businesses.",
+    "name": "Labor Efficiency",
+    "title": "Efficient Labor Regulations",
+    "description": "In 2024, Ghana achieved a score of 91.08 in operational efficiency of labor regulations, reflecting a conducive environment for workforce management.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-be-os"
+      "ic-bre-lb-p3"
     ],
-    "emoji": "📉",
-    "type": "BAD",
+    "emoji": "👷‍♂️",
+    "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Negative Other Taxes Contribution",
-    "description": "In 2022, other taxes contributed negatively to Ghana's revenue, with a value of -4.26% of total revenue, indicating fiscal challenges.",
-    "year": 2022,
+    "name": "Safety Net Champions",
+    "title": "Strong Social Safety Net",
+    "description": "In 2016, 57.56% of social safety net benefits were directed to the poorest quintile, highlighting Ghana's commitment to social equity.",
+    "year": 2016,
     "indicatorIds": [
-      "gc-tax-othr-rv-zs"
+      "per_sa_allsa-ben_q1_tot"
     ],
-    "emoji": "💸",
-    "type": "BAD",
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Rule of Law Advocates",
+    "title": "Robust Rule of Law Framework",
+    "description": "With 16 sources supporting the rule of law and a low standard error of 0.139 in 2023, Ghana upholds a strong legal framework and justice system.",
+    "year": 2023,
+    "indicatorIds": [
+      "rl-no-src",
+      "rl-std-err"
+    ],
+    "emoji": "⚖️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Negative Other Taxes in Local Currency",
-    "description": "Ghana's other taxes in 2022 amounted to -4.11 billion in local currency, reflecting a significant fiscal deficit.",
-    "year": 2022,
+    "name": "Regulatory Prowess",
+    "title": "High Regulatory Quality",
+    "description": "Ghana's regulatory quality is supported by 12 sources with a low standard error of 0.169 in 2023, ensuring effective policy implementation.",
+    "year": 2023,
     "indicatorIds": [
-      "gc-tax-othr-cn"
+      "rq-no-src",
+      "rq-std-err"
     ],
-    "emoji": "📉",
-    "type": "BAD",
+    "emoji": "📜",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Voice of the People",
+    "title": "Strong Voice and Accountability",
+    "description": "In 2023, Ghana's voice and accountability were supported by 14 sources, reflecting a vibrant democratic environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "va-no-src"
+    ],
+    "emoji": "🗣️",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]

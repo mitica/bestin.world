@@ -1,25 +1,28 @@
 [
   {
-    "title": "Low Tobacco Use Among Adults",
-    "description": "In 2022, only 3.3% of adults in Nigeria reported using tobacco, one of the lowest rates globally.",
-    "year": 2022,
+    "name": "Tech Investment Lags",
+    "title": "Low Investment in ICT",
+    "description": "In 2023, Nigeria's investment in ICT with private participation was $4,920,000, indicating a need for increased focus on technological advancements.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-prv-smok"
+      "ie-ppi-icti-cd"
     ],
-    "emoji": "🚭",
-    "type": "GOOD",
+    "emoji": "💻",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "infrastructure"
     ]
   },
   {
-    "title": "High Maternal Mortality Rate",
-    "description": "In 2023, Nigeria's maternal mortality ratio was 993 per 100,000 live births, one of the highest in the world.",
+    "name": "Health Challenges Persist",
+    "title": "High Maternal Mortality and Disease Rates",
+    "description": "Nigeria's maternal mortality ratio was 993 per 100,000 live births in 2023, and 65.2% of deaths in 2019 were due to communicable diseases and maternal, prenatal, and nutrition conditions.",
     "year": 2023,
     "indicatorIds": [
-      "sh-sta-mmrt"
+      "sh-sta-mmrt",
+      "sh-dth-comm-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "🏥",
     "type": "BAD",
     "topicIds": [
       "health",
@@ -28,50 +31,25 @@
     ]
   },
   {
-    "title": "Significant Investment in ICT",
-    "description": "In 2023, Nigeria invested $4,920,000 in ICT with private participation, indicating a focus on technological development.",
-    "year": 2023,
+    "name": "Low Smoking Rates",
+    "title": "Minimal Tobacco Use Among Adults",
+    "description": "In 2022, only 3.3% of Nigerian adults were current tobacco users, with 6.1% of male adults smoking, showcasing a positive health trend.",
+    "year": 2022,
     "indicatorIds": [
-      "ie-ppi-icti-cd"
+      "sh-prv-smok",
+      "sh-prv-smok-ma"
     ],
-    "emoji": "💻",
+    "emoji": "🚭",
     "type": "GOOD",
     "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "High Prevalence of Communicable Diseases",
-    "description": "In 2019, 65.2% of deaths in Nigeria were due to communicable diseases and related conditions, a significant health challenge.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-dth-comm-zs"
-    ],
-    "emoji": "🦠",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Life Expectancy",
-    "description": "In 2023, the life expectancy at birth in Nigeria was 54.5 years, one of the lowest globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-dyn-le00-in",
-      "sp-dyn-le00-fe-in"
-    ],
-    "emoji": "⏳",
-    "type": "BAD",
-    "topicIds": [
       "health",
-      "gender",
-      "social-development"
+      "gender"
     ]
   },
   {
-    "title": "Limited Female Part-Time Employment",
-    "description": "In 2016, only 1.49% of female employment in Nigeria was part-time, indicating limited flexible work options for women.",
+    "name": "Gender Employment Gap",
+    "title": "Low Female Part-Time Employment",
+    "description": "As of 2016, only 1.49% of female employment in Nigeria was part-time, highlighting potential gender employment disparities.",
     "year": 2016,
     "indicatorIds": [
       "sl-tlf-part-fe-zs"
@@ -84,8 +62,26 @@
     ]
   },
   {
+    "name": "Short Life Expectancy",
+    "title": "Low Life Expectancy at Birth",
+    "description": "In 2023, the life expectancy at birth in Nigeria was 54.5 years, indicating significant room for improvement in healthcare and living conditions.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-dyn-le00-fe-in",
+      "sp-dyn-le00-in"
+    ],
+    "emoji": "⏳",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "gender",
+      "social-development"
+    ]
+  },
+  {
+    "name": "Limited Male Entrepreneurship",
     "title": "Moderate Male Employment as Employers",
-    "description": "In 2023, 26.3% of male employment in Nigeria was as employers, reflecting a moderate level of entrepreneurship among men.",
+    "description": "In 2023, 26.3% of male employment in Nigeria was as employers, suggesting a moderate level of entrepreneurship among men.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-ma-zs"
@@ -98,8 +94,9 @@
     ]
   },
   {
-    "title": "Diverse Sources for Voice and Accountability",
-    "description": "In 2023, Nigeria had 14 sources for voice and accountability, indicating a diverse range of inputs in governance.",
+    "name": "Diverse Voices",
+    "title": "Multiple Sources of Voice and Accountability",
+    "description": "In 2023, Nigeria had 14 sources of voice and accountability, reflecting a diverse range of perspectives in governance.",
     "year": 2023,
     "indicatorIds": [
       "va-no-src"

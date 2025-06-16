@@ -1,94 +1,22 @@
 [
   {
-    "title": "Minimal F-gases Emissions from Industrial Processes",
-    "description": "In 2023, Zambia recorded one of the lowest F-gases emissions from industrial processes globally, with a value of 0.0001 Mt CO2e.",
+    "name": "Eco-Friendly Industry",
+    "title": "Lowest F-gases Emissions from Industrial Processes",
+    "description": "In 2023, Zambia recorded the lowest F-gases emissions from industrial processes globally, with a value of just 0.0001 Mt CO2e.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-fgas-ip-mt-ce-ar5"
     ],
-    "emoji": "🌍",
+    "emoji": "🌿",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Negative Risk Premium on Lending",
-    "description": "In 2020, Zambia had a negative risk premium on lending at -11.32%, indicating a favorable lending environment compared to treasury bill rates.",
-    "year": 2020,
-    "indicatorIds": [
-      "fr-inr-risk"
-    ],
-    "emoji": "💹",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Low Coverage of Social Insurance in Richest Quintile",
-    "description": "As of 2015, only 1.87% of Zambia's richest quintile were covered by social insurance programs, highlighting a gap in social protection.",
-    "year": 2015,
-    "indicatorIds": [
-      "per_si_allsi-cov_q5_tot"
-    ],
-    "emoji": "🛡️",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Learning Poverty Among Primary Children",
-    "description": "In 2019, 98.5% of Zambian children at the end of primary school were below minimum reading proficiency, indicating significant educational challenges.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-lpv-prim"
-    ],
-    "emoji": "📚",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "High Proportion of Pupils Below Reading Proficiency",
-    "description": "In 2019, 98.24% of pupils in Zambia were below the minimum reading proficiency at the end of primary education, underlining literacy issues.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-lpv-prim-ld"
-    ],
-    "emoji": "🔍",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Late Start for Lower Secondary Education",
-    "description": "Zambia's lower secondary school starting age is 14 years as of 2023, which is higher than many countries, potentially delaying educational progression.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-sec-ages"
-    ],
-    "emoji": "⏳",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Expenditure on Primary Education",
-    "description": "In 2017, 67.35% of Zambia's government expenditure on education was allocated to primary education, reflecting a strong focus on early education.",
-    "year": 2017,
-    "indicatorIds": [
-      "se-xpd-prim-zs"
-    ],
-    "emoji": "🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Minimal Out-of-Pocket Health Expenditure",
-    "description": "As of 2015, only 0.01% of Zambia's population spent more than 25% of their income on out-of-pocket health care, indicating accessible healthcare.",
+    "name": "Affordable Health Care",
+    "title": "Minimal Out-of-Pocket Health Care Expenditure",
+    "description": "In 2015, only 0.01% of Zambia's population spent more than 25% of their household consumption or income on out-of-pocket health care, indicating affordable health services.",
     "year": 2015,
     "indicatorIds": [
       "sh-uhc-oopc-25-zs"
@@ -100,8 +28,9 @@
     ]
   },
   {
+    "name": "Vitamin A Champions",
     "title": "High Vitamin A Supplementation Coverage",
-    "description": "In 2022, 97% of Zambian children aged 6-59 months received Vitamin A supplementation, showcasing strong public health initiatives.",
+    "description": "In 2022, Zambia achieved a 97% coverage rate for Vitamin A supplementation among children aged 6-59 months, showcasing strong public health initiatives.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-vita-zs"
@@ -113,16 +42,86 @@
     ]
   },
   {
+    "name": "Education Challenges",
+    "title": "High Learning Poverty and Reading Proficiency Issues",
+    "description": "In 2019, 98.5% of Zambian children at the end-of-primary age were below minimum reading proficiency, highlighting significant challenges in the education sector.",
+    "year": 2019,
+    "indicatorIds": [
+      "se-lpv-prim",
+      "se-lpv-prim-ld"
+    ],
+    "emoji": "📚",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "name": "Youthful Education System",
+    "title": "Late Start to Lower Secondary Education",
+    "description": "Zambia's lower secondary school starting age is 14 years as of 2023, which is higher than many countries, potentially delaying educational progression.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-sec-ages"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Balanced Births",
     "title": "Balanced Sex Ratio at Birth",
-    "description": "In 2023, Zambia maintained a balanced sex ratio at birth with 1.011 male births per female birth, reflecting demographic stability.",
+    "description": "In 2023, Zambia maintained a balanced sex ratio at birth with 1.011 male births per female birth, indicating gender parity at birth.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-brth-mf"
     ],
-    "emoji": "⚖️",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
       "health"
+    ]
+  },
+  {
+    "name": "Education Investment",
+    "title": "High Expenditure on Primary Education",
+    "description": "In 2017, Zambia allocated 67.35% of its government education expenditure to primary education, emphasizing the importance of foundational learning.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-xpd-prim-zs"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Financial Stability",
+    "title": "Negative Risk Premium on Lending",
+    "description": "In 2020, Zambia had a risk premium on lending of -11.32%, indicating favorable lending conditions compared to treasury bill rates.",
+    "year": 2020,
+    "indicatorIds": [
+      "fr-inr-risk"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Social Insurance Gap",
+    "title": "Low Coverage of Social Insurance in Richest Quintile",
+    "description": "In 2015, only 1.87% of Zambia's richest quintile was covered by social insurance programs, suggesting a gap in social safety nets for wealthier citizens.",
+    "year": 2015,
+    "indicatorIds": [
+      "per_si_allsi-cov_q5_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
     ]
   }
 ]

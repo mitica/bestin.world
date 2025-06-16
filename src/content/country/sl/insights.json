@@ -1,10 +1,12 @@
 [
   {
-    "title": "High Primary Education Enrollment for Females",
-    "description": "In 2018, Sierra Leone achieved a gross intake ratio of 175.71% for females in the first grade of primary education, indicating a strong emphasis on female education.",
+    "name": "Education Overdrive",
+    "title": "Skyrocketing Primary Education Enrollment",
+    "description": "In 2018, Sierra Leone achieved a gross intake ratio of 175.71% for females and 171.85% for the total population in the first grade of primary education, indicating a significant over-enrollment in primary schools.",
     "year": 2018,
     "indicatorIds": [
-      "se-prm-gint-fe-zs"
+      "se-prm-gint-fe-zs",
+      "se-prm-gint-zs"
     ],
     "emoji": "📚",
     "type": "GOOD",
@@ -14,47 +16,37 @@
     ]
   },
   {
-    "title": "Significant Diarrhea Treatment Coverage",
-    "description": "As of 2019, 85.3% of children under five in Sierra Leone received oral rehydration salts for diarrhea treatment, showcasing effective healthcare interventions.",
+    "name": "Aid Dependency",
+    "title": "Reliance on Luxembourg's Aid",
+    "description": "In 2015, Sierra Leone received nearly $10,000 in net bilateral aid flows from Luxembourg, highlighting its dependency on foreign aid for economic support.",
+    "year": 2015,
+    "indicatorIds": [
+      "dc-dac-luxl-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Health Initiative",
+    "title": "Effective Diarrhea Treatment for Children",
+    "description": "In 2019, 85.3% of children under five in Sierra Leone received ORS packets for diarrhea treatment, showcasing effective health interventions for young children.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-orth"
     ],
-    "emoji": "💊",
+    "emoji": "🩺",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Severe Food Insecurity Prevalence",
-    "description": "In 2022, 88.6% of Sierra Leone's population experienced moderate or severe food insecurity, highlighting a critical area of concern.",
-    "year": 2022,
-    "indicatorIds": [
-      "sn-itk-msfi-zs"
-    ],
-    "emoji": "🍽️",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Fixed Telephone Subscription Rate",
-    "description": "In 2022, Sierra Leone had only 0.00325 fixed telephone subscriptions per 100 people, indicating limited telecommunication infrastructure.",
-    "year": 2022,
-    "indicatorIds": [
-      "it-mlt-main-p2"
-    ],
-    "emoji": "📞",
-    "type": "BAD",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Minimal Industry Value Added Per Worker",
-    "description": "In 2023, the value added per worker in Sierra Leone's industry sector was $980.52, reflecting challenges in industrial productivity.",
+    "name": "Industry Struggles",
+    "title": "Low Industrial Value Added Per Worker",
+    "description": "In 2023, the value added per worker in Sierra Leone's industry sector was $980.52, indicating challenges in industrial productivity and economic output.",
     "year": 2023,
     "indicatorIds": [
       "nv-ind-empl-kd"
@@ -66,37 +58,27 @@
     ]
   },
   {
-    "title": "Limited Social Insurance Coverage",
-    "description": "In 2018, only 16.55% of Sierra Leone's second quintile population was covered by social insurance programs, indicating gaps in social protection.",
-    "year": 2018,
+    "name": "Telecom Desert",
+    "title": "Minimal Fixed Telephone Subscriptions",
+    "description": "As of 2022, Sierra Leone had only 0.00325 fixed telephone subscriptions per 100 people, reflecting limited access to traditional telecommunication services.",
+    "year": 2022,
     "indicatorIds": [
-      "per_si_allsi-cov_q2_tot"
+      "it-mlt-main-p2"
     ],
-    "emoji": "🛡️",
+    "emoji": "📞",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "infrastructure"
     ]
   },
   {
-    "title": "High Gross Intake Ratio in Primary Education",
-    "description": "In 2018, Sierra Leone's gross intake ratio for the first grade of primary education was 171.85%, reflecting strong educational enrollment efforts.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-prm-gint-zs"
-    ],
-    "emoji": "🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Secondary Income from Other Sectors",
-    "description": "In 2023, Sierra Leone's secondary income from other sectors was $4,361.18, indicating limited economic diversification.",
+    "name": "Income Challenges",
+    "title": "Low Secondary and Primary Income Receipts",
+    "description": "In 2023, Sierra Leone's secondary income payments were $4,361.18, and primary income receipts were $25,949.08, highlighting economic challenges in income generation.",
     "year": 2023,
     "indicatorIds": [
-      "bm-trf-prvt-cd"
+      "bm-trf-prvt-cd",
+      "bx-gsr-fcty-cd"
     ],
     "emoji": "💼",
     "type": "BAD",
@@ -105,29 +87,31 @@
     ]
   },
   {
-    "title": "Minimal Primary Income Receipts",
-    "description": "Sierra Leone's primary income receipts were $25,949.08 in 2023, suggesting limited earnings from abroad.",
-    "year": 2023,
+    "name": "Food Insecurity Alarm",
+    "title": "High Prevalence of Food Insecurity",
+    "description": "In 2022, 88.6% of Sierra Leone's population faced moderate or severe food insecurity, underscoring a critical need for food security interventions.",
+    "year": 2022,
     "indicatorIds": [
-      "bx-gsr-fcty-cd"
+      "sn-itk-msfi-zs"
     ],
-    "emoji": "💰",
+    "emoji": "🍽️",
     "type": "BAD",
     "topicIds": [
-      "economy"
+      "health"
     ]
   },
   {
-    "title": "Low Bilateral Aid from Luxembourg",
-    "description": "In 2015, Sierra Leone received $9,999.99 in net bilateral aid from Luxembourg, reflecting limited international financial support.",
-    "year": 2015,
+    "name": "Social Safety Net Gaps",
+    "title": "Limited Social Insurance Coverage",
+    "description": "In 2018, only 16.55% of Sierra Leone's second quintile population was covered by social insurance programs, indicating gaps in social safety nets.",
+    "year": 2018,
     "indicatorIds": [
-      "dc-dac-luxl-cd"
+      "per_si_allsi-cov_q2_tot"
     ],
-    "emoji": "🤝",
+    "emoji": "🛡️",
     "type": "BAD",
     "topicIds": [
-      "aid-effectiveness"
+      "social-protection"
     ]
   }
 ]

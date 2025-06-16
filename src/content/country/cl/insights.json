@@ -1,7 +1,8 @@
 [
   {
-    "title": "Highest Male Primary School Persistence",
-    "description": "In 2020, Chile achieved a 100% persistence rate for male students reaching the last grade of primary school, showcasing the country's commitment to education.",
+    "name": "Education Champions",
+    "title": "Unbeatable School Retention",
+    "description": "In 2020, Chile achieved a 100% persistence rate for males to both grade 5 and the last grade of primary school, showcasing the country's commitment to education.",
     "year": 2020,
     "indicatorIds": [
       "se-prm-prs5-ma-zs",
@@ -15,8 +16,9 @@
     ]
   },
   {
-    "title": "Minimal Adolescent Male School Dropout Rate",
-    "description": "As of 2022, only 0.11% of male adolescents in Chile were out of school, indicating a strong retention rate in lower secondary education.",
+    "name": "Youth in School",
+    "title": "Lowest School Dropout Rates",
+    "description": "As of 2022, only 0.11% of Chilean male adolescents of lower secondary school age were out of school, indicating a strong educational system.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-uner-lo-ma-zs"
@@ -28,27 +30,29 @@
     ]
   },
   {
-    "title": "Lowest Health Expenditure-Induced Poverty",
-    "description": "In 2016, only 0.01% of Chile's population was pushed below the $3.65 poverty line due to out-of-pocket health care expenses, reflecting effective health care policies.",
+    "name": "Healthcare Affordability",
+    "title": "Minimal Poverty from Healthcare Costs",
+    "description": "In 2016, only 0.01% of Chile's population was pushed below the $3.65 poverty line due to out-of-pocket healthcare expenses, reflecting effective healthcare policies.",
     "year": 2016,
     "indicatorIds": [
       "sh-uhc-nop2-zs"
     ],
-    "emoji": "🏥",
+    "emoji": "💊",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Minimal UNFPA Financial Dependency",
-    "description": "In 2017, Chile received $147,774 from UNFPA, indicating low dependency on international financial aid from this agency.",
+    "name": "Global Aid Receiver",
+    "title": "Significant UN Support",
+    "description": "In 2017, Chile received $147,774 from UNFPA, highlighting its reliance on international aid for development projects.",
     "year": 2017,
     "indicatorIds": [
       "dt-nfl-unfp-cd"
     ],
-    "emoji": "💵",
-    "type": "GOOD",
+    "emoji": "🌍",
+    "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]

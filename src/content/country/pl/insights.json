@@ -1,20 +1,22 @@
 [
   {
-    "title": "Fastest Operating License Acquisition",
-    "description": "In 2019, Poland achieved the fastest time to obtain an operating license, taking only 1.2 days, according to World Bank data.",
+    "name": "License in a Flash",
+    "title": "Fastest Business Setup",
+    "description": "In 2019, Poland boasted the quickest time to obtain an operating license, taking only 1.2 days, making it the fastest in the world.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-durs"
     ],
-    "emoji": "⏱️",
+    "emoji": "🚀",
     "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "100% Female Primary Education Completion",
-    "description": "By 2021, Poland reached a 100% persistence rate for females completing the last grade of primary education, showcasing a strong commitment to female education.",
+    "name": "Girls Finish Strong",
+    "title": "Top Female Primary Education Completion",
+    "description": "In 2021, Poland achieved a 100% persistence rate for females reaching the last grade of primary school, showcasing its commitment to female education.",
     "year": 2021,
     "indicatorIds": [
       "se-prm-prsl-fe-zs"
@@ -27,21 +29,23 @@
     ]
   },
   {
-    "title": "Minimal Child Stunting Rates",
-    "description": "In 2024, Poland recorded a stunting prevalence of just 1% among children under five, indicating excellent child health and nutrition standards.",
+    "name": "Healthy Growth",
+    "title": "Lowest Child Stunting Rates",
+    "description": "By 2024, Poland had one of the lowest prevalence rates of stunting among children under 5, at just 1%, reflecting excellent child health standards.",
     "year": 2024,
     "indicatorIds": [
       "sh-sta-stnt-me-zs"
     ],
-    "emoji": "🧒🍎",
+    "emoji": "🌱",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Low Health Expenditure-Induced Poverty",
-    "description": "In 2020, only 0.01% of Poland's population was pushed further below the $3.65 poverty line due to out-of-pocket health care expenses, reflecting effective health care policies.",
+    "name": "Affordable Health",
+    "title": "Minimal Health Expenditure Burden",
+    "description": "In 2020, only 0.01% of Poland's population was pushed further below the $3.65 poverty line due to out-of-pocket health care expenses, indicating strong health care affordability.",
     "year": 2020,
     "indicatorIds": [
       "sh-uhc-fbp2-zs"

@@ -1,7 +1,24 @@
 [
   {
-    "title": "World's Largest Urban Population",
-    "description": "In 2024, China had a staggering 451 million people living in urban agglomerations of more than 1 million, highlighting its rapid urbanization.",
+    "name": "Trade Titans",
+    "title": "World's Largest Net Trade Surplus",
+    "description": "In 2023, China achieved a net trade surplus of approximately $593.9 billion, showcasing its dominance in global trade.",
+    "year": 2023,
+    "indicatorIds": [
+      "bn-gsr-mrch-cd",
+      "ne-rsb-gnfs-cd"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "name": "Urban Giants",
+    "title": "Largest Urban Population",
+    "description": "By 2024, China had 451 million people living in urban agglomerations of over 1 million, highlighting its rapid urbanization.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty"
@@ -13,22 +30,9 @@
     ]
   },
   {
-    "title": "Leading Global Trade Surplus",
-    "description": "In 2023, China achieved a net trade surplus of $593.9 billion, showcasing its dominance in global trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-gsr-mrch-cd"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Top Railway Freight Transporter",
-    "description": "In 2019, China transported 3,018 million ton-km of goods via railways, leading the world in railway freight.",
+    "name": "Railway Rulers",
+    "title": "Leading in Railway Goods Transport",
+    "description": "In 2019, China transported 3,018,200 million ton-km of goods via railways, underscoring its robust logistics network.",
     "year": 2019,
     "indicatorIds": [
       "is-rrs-good-mt-k6"
@@ -40,27 +44,15 @@
     ]
   },
   {
-    "title": "High Short-Term Debt Ratio",
-    "description": "In 2023, short-term debt constituted 53.19% of China's total external debt, indicating potential financial vulnerability.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-dstc-zs"
-    ],
-    "emoji": "💰",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Massive Total Reserves",
-    "description": "By 2024, China's total reserves, including gold, reached $3.26 trillion, underscoring its financial strength.",
+    "name": "Financial Fortresses",
+    "title": "Largest Total Reserves",
+    "description": "China's total reserves, including gold, reached $3.26 trillion in 2024, reflecting its strong financial position.",
     "year": 2024,
     "indicatorIds": [
       "fi-res-totl-cd",
       "fi-res-xgld-cd"
     ],
-    "emoji": "🏦",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -69,13 +61,42 @@
     ]
   },
   {
+    "name": "Stock Market Surge",
+    "title": "High Stock Turnover Ratio",
+    "description": "In 2022, China's stock market had a turnover ratio of 283%, indicating a highly active trading environment.",
+    "year": 2022,
+    "indicatorIds": [
+      "cm-mkt-trnr"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Debt Dilemmas",
+    "title": "High Short-term Debt Proportion",
+    "description": "In 2023, 53.19% of China's external debt was short-term, posing potential financial risks.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-dod-dstc-zs"
+    ],
+    "emoji": "⚠️",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Pollution Price",
     "title": "High Carbon Dioxide Damage Costs",
-    "description": "In 2021, China incurred $482.5 billion in carbon dioxide damage, reflecting significant environmental challenges.",
+    "description": "In 2021, China faced $482.5 billion in carbon dioxide damage, highlighting environmental challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dco2-cd"
     ],
-    "emoji": "🌍",
+    "emoji": "🌫️",
     "type": "BAD",
     "topicIds": [
       "economy",
@@ -83,24 +104,13 @@
     ]
   },
   {
-    "title": "Robust Gross Savings",
-    "description": "In 2023, China's gross savings amounted to $7.76 trillion, highlighting its strong saving culture.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gns-ictr-cd"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Significant Health Expenditure Impact on Poverty",
-    "description": "In 2018, 28.61% of China's population was pushed below the poverty line due to out-of-pocket health expenses, indicating healthcare affordability issues.",
+    "name": "Healthcare Hardships",
+    "title": "Significant Health Expenditure Impact",
+    "description": "In 2018, 28.61% of China's population was pushed below the poverty line due to out-of-pocket health expenses.",
     "year": 2018,
     "indicatorIds": [
-      "sh-uhc-totr-zs"
+      "sh-uhc-totr-zs",
+      "sh-uhc-fbpr-zs"
     ],
     "emoji": "🏥",
     "type": "BAD",
@@ -109,103 +119,19 @@
     ]
   },
   {
-    "title": "High Liner Shipping Connectivity",
-    "description": "In 2021, China scored 171.18 on the liner shipping connectivity index, leading the world in maritime trade connectivity.",
-    "year": 2021,
-    "indicatorIds": [
-      "is-shp-gcnw-xq"
-    ],
-    "emoji": "🚢",
-    "type": "GOOD",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Extensive Inventory Changes",
-    "description": "In 2023, China experienced inventory changes worth $131.67 billion, reflecting dynamic economic adjustments.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-gdi-stkb-cd"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Net Primary Income",
-    "description": "In 2023, China's net primary income was recorded at -$148.24 billion, indicating a significant outflow of income from the country.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-gsr-fcty-cd"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Minimal Net Errors and Omissions",
-    "description": "China's net errors and omissions in 2023 amounted to -$37.93 billion, reflecting discrepancies in balance of payments data.",
-    "year": 2023,
-    "indicatorIds": [
-      "bn-kac-eoms-cd"
-    ],
-    "emoji": "🔍",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Negative Bilateral Aid Flows",
-    "description": "In 2022, China experienced negative bilateral aid flows from several DAC donors, totaling -$126.74 million, indicating more aid given than received.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-dac-canl-cd",
-      "dc-dac-ital-cd",
-      "dc-dac-jpnl-cd",
-      "dc-dac-korl-cd",
-      "dc-dac-poll-cd",
-      "dc-dac-totl-cd"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "High Debt from Bonds and Lending",
-    "description": "China's debt from bonds and commercial lending reached -$60.33 billion in 2023, highlighting significant financial obligations.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-pbnd-cd",
-      "dt-nfl-pcbo-cd",
-      "dt-nfl-pngc-cd"
-    ],
-    "emoji": "💰",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Official Development Assistance Received",
-    "description": "In 2022, China received -$282.32 million in net official development assistance, indicating limited external financial aid.",
+    "name": "Aid Independence",
+    "title": "Minimal Reliance on Foreign Aid",
+    "description": "In 2022, China received a net official development assistance of -$282 million, showcasing its minimal reliance on foreign aid compared to other nations.",
     "year": 2022,
     "indicatorIds": [
       "dt-oda-alld-cd",
       "dt-oda-alld-kd",
       "dt-oda-odat-cd",
-      "dt-oda-odat-gi-zs",
-      "dt-oda-odat-kd"
+      "dt-oda-odat-kd",
+      "dt-oda-odat-gi-zs"
     ],
-    "emoji": "🌍",
-    "type": "BAD",
+    "emoji": "💪",
+    "type": "GOOD",
     "topicIds": [
       "aid-effectiveness",
       "economy",
@@ -213,8 +139,25 @@
     ]
   },
   {
-    "title": "Small Urban Population in Largest City",
-    "description": "As of 2024, only 3.24% of China's urban population resides in the largest city, suggesting a more distributed urban population.",
+    "name": "Debt Dynamics",
+    "title": "Significant Net Financial Outflows",
+    "description": "In 2023, China experienced net financial outflows of over $60 billion through bonds and commercial bank lending, indicating a substantial movement of capital out of the country.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-pbnd-cd",
+      "dt-nfl-pcbo-cd",
+      "dt-nfl-pngc-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Urban Concentration",
+    "title": "Balanced Urban Population Distribution",
+    "description": "As of 2024, only 3.24% of China's urban population resides in the largest city, reflecting a more balanced urban population distribution.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-lcty-ur-zs"
@@ -226,8 +169,9 @@
     ]
   },
   {
-    "title": "Low National Poverty Headcount Ratio",
-    "description": "In 2019, only 0.6% of China's population lived below the national poverty line, reflecting significant poverty reduction efforts.",
+    "name": "Poverty Progress",
+    "title": "Low National Poverty Rate",
+    "description": "In 2019, only 0.6% of China's population lived below the national poverty line, highlighting significant progress in poverty reduction.",
     "year": 2019,
     "indicatorIds": [
       "si-pov-nahc"
@@ -239,8 +183,23 @@
     ]
   },
   {
-    "title": "Minimal International Migrant Stock",
-    "description": "In 2015, international migrants constituted just 0.07% of China's population, indicating low levels of immigration.",
+    "name": "Stable Society",
+    "title": "Minimal Battle-Related Deaths",
+    "description": "In 2023, China reported just one battle-related death, indicating a stable and peaceful domestic environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "vc-btl-deth"
+    ],
+    "emoji": "🕊️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Migration Minimalism",
+    "title": "Low International Migrant Stock",
+    "description": "In 2015, international migrants made up only 0.07% of China's population, reflecting a relatively low level of immigration.",
     "year": 2015,
     "indicatorIds": [
       "sm-pop-totl-zs"
@@ -253,8 +212,9 @@
     ]
   },
   {
-    "title": "Low Early Marriage Rate for Women",
-    "description": "In 2020, only 0.1% of women aged 20-24 in China were married by age 15, showcasing progress in gender equality.",
+    "name": "Early Marriage Rarity",
+    "title": "Rare Early Marriages Among Women",
+    "description": "In 2020, only 0.1% of women aged 20-24 in China were married by age 15, indicating a rarity of early marriages.",
     "year": 2020,
     "indicatorIds": [
       "sp-m15-2024-fe-zs"
@@ -264,19 +224,6 @@
     "topicIds": [
       "health",
       "gender"
-    ]
-  },
-  {
-    "title": "Minimal Battle-Related Deaths",
-    "description": "In 2023, China recorded only 1 battle-related death, indicating a peaceful domestic environment.",
-    "year": 2023,
-    "indicatorIds": [
-      "vc-btl-deth"
-    ],
-    "emoji": "☮️",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
     ]
   }
 ]

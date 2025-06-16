@@ -1,49 +1,25 @@
 [
   {
-    "title": "High Dependence on Travel Services",
-    "description": "In 2023, travel services accounted for 73.59% of Lesotho's service imports, indicating a significant reliance on this sector.",
+    "name": "Travel Enthusiasts",
+    "title": "Top Destination for Travel Services",
+    "description": "In 2023, Lesotho's travel services accounted for 73.6% of its service imports, making it one of the highest in the world.",
     "year": 2023,
     "indicatorIds": [
-      "bm-gsr-trvl-zs"
+      "bm-gsr-trvl-zs",
+      "tm-val-trvl-zs-wt"
     ],
     "emoji": "✈️",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low ICT Service Exports",
-    "description": "Lesotho's ICT service exports were valued at just $15,183 in 2023, reflecting minimal participation in the global digital economy.",
-    "year": 2023,
-    "indicatorIds": [
-      "bx-gsr-ccis-cd"
-    ],
-    "emoji": "💻",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "infrastructure",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Threatened Fish Species",
-    "description": "As of 2018, Lesotho had only one fish species classified as threatened, highlighting a relatively stable aquatic ecosystem.",
-    "year": 2018,
-    "indicatorIds": [
-      "en-fsh-thrd-no"
-    ],
-    "emoji": "🐟",
     "type": "GOOD",
     "topicIds": [
-      "environment"
+      "economy",
+      "trade",
+      "private-sector"
     ]
   },
   {
-    "title": "Low Central Government Debt",
-    "description": "In 2020, Lesotho's central government debt was only 2.99% of GDP, indicating strong fiscal management.",
+    "name": "Debt-Free Zone",
+    "title": "Lowest Central Government Debt",
+    "description": "In 2020, Lesotho had one of the lowest central government debts globally, at just 2.99% of GDP.",
     "year": 2020,
     "indicatorIds": [
       "gc-dod-totl-gd-zs"
@@ -56,38 +32,15 @@
     ]
   },
   {
-    "title": "Challenges in Business Regulation",
-    "description": "The quality of regulations for business location in Lesotho scored 36.37 in 2024, suggesting room for improvement in the business environment.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bl-p1"
-    ],
-    "emoji": "🏢",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "High Female Participation in Secondary Education",
-    "description": "In 2017, 57.38% of pupils in secondary education were female, showcasing gender inclusivity in education.",
+    "name": "Female Education Champions",
+    "title": "Leading in Female Secondary Education",
+    "description": "In 2017, 57.4% of secondary education pupils and 66.6% of vocational pupils in Lesotho were female, showcasing a strong emphasis on female education.",
     "year": 2017,
     "indicatorIds": [
-      "se-sec-enrl-fe-zs"
-    ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Strong Female Representation in Vocational Training",
-    "description": "66.59% of vocational pupils were female in 2017, indicating a strong female presence in vocational education.",
-    "year": 2017,
-    "indicatorIds": [
+      "se-sec-enrl-fe-zs",
       "se-sec-enrl-vo-fe-zs"
     ],
-    "emoji": "🔧",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -95,63 +48,9 @@
     ]
   },
   {
-    "title": "Limited Rural Handwashing Facilities",
-    "description": "Only 3.55% of the rural population had access to basic handwashing facilities in 2022, highlighting a critical public health issue.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-sta-hygn-ru-zs"
-    ],
-    "emoji": "🚰",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Female Mortality from Unintentional Poisoning",
-    "description": "The mortality rate for females due to unintentional poisoning was 3.1 per 100,000 in 2021, indicating a significant health concern.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-sta-pois-p5-fe"
-    ],
-    "emoji": "☠️",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Suicide Mortality Rate",
-    "description": "In 2021, Lesotho had a suicide mortality rate of 28.66 per 100,000, reflecting a serious mental health challenge.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-sta-suic-p5"
-    ],
-    "emoji": "🧠",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Mortality from Unsafe Water and Sanitation",
-    "description": "The mortality rate due to unsafe water and sanitation was 108.1 per 100,000 in 2019, underscoring a major public health issue.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-sta-wash-p5"
-    ],
-    "emoji": "🚱",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Significant Female Employment in Industry",
-    "description": "In 2023, 38.52% of female employment was in the industry sector, highlighting women's participation in industrial jobs.",
+    "name": "Industry Women",
+    "title": "High Female Employment in Industry",
+    "description": "In 2023, 38.5% of female employment in Lesotho was in the industry sector, highlighting significant female participation in industrial jobs.",
     "year": 2023,
     "indicatorIds": [
       "sl-ind-empl-fe-zs"
@@ -164,36 +63,9 @@
     ]
   },
   {
-    "title": "High Adult Female Mortality Rate",
-    "description": "The adult female mortality rate was 361.61 per 1,000 in 2023, indicating significant health challenges for women.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-dyn-amrt-fe"
-    ],
-    "emoji": "⚕️",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "High Adult Male Mortality Rate",
-    "description": "In 2023, the adult male mortality rate was 470.60 per 1,000, reflecting severe health issues among men.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-dyn-amrt-ma"
-    ],
-    "emoji": "⚕️",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "High Imports from Sub-Saharan Africa",
-    "description": "84.96% of Lesotho's merchandise imports in 2023 came from Sub-Saharan Africa, indicating strong regional trade ties.",
+    "name": "Regional Trade Partners",
+    "title": "Strong Trade with Sub-Saharan Africa",
+    "description": "In 2023, 85% of Lesotho's merchandise imports came from low- and middle-income economies in Sub-Saharan Africa, indicating strong regional trade ties.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-r6-zs"
@@ -206,17 +78,65 @@
     ]
   },
   {
-    "title": "Dependence on Travel Services for Commercial Imports",
-    "description": "Travel services constituted 74.87% of Lesotho's commercial service imports in 2023, showing a heavy reliance on this sector.",
-    "year": 2023,
+    "name": "Hygiene Challenges",
+    "title": "Low Access to Basic Hygiene Facilities",
+    "description": "In 2022, only 3.6% of the rural population in Lesotho had access to basic handwashing facilities, highlighting a significant public health challenge.",
+    "year": 2022,
     "indicatorIds": [
-      "tm-val-trvl-zs-wt"
+      "sh-sta-hygn-ru-zs"
     ],
-    "emoji": "✈️",
+    "emoji": "🚱",
     "type": "BAD",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "name": "Health Concerns",
+    "title": "High Mortality Rates from Unsafe Conditions",
+    "description": "Lesotho faces high mortality rates due to unsafe water, sanitation, and hygiene, with 108.1 deaths per 100,000 population in 2019.",
+    "year": 2019,
+    "indicatorIds": [
+      "sh-sta-wash-p5"
+    ],
+    "emoji": "⚠️",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "name": "Poisoning and Suicide Rates",
+    "title": "Concerning Poisoning and Suicide Mortality Rates",
+    "description": "In 2021, Lesotho recorded a female mortality rate of 3.1 per 100,000 due to unintentional poisoning and a suicide mortality rate of 28.66 per 100,000 population.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-pois-p5-fe",
+      "sh-sta-suic-p5"
+    ],
+    "emoji": "🆘",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "environment"
+    ]
+  },
+  {
+    "name": "Adult Mortality Woes",
+    "title": "High Adult Mortality Rates",
+    "description": "In 2023, Lesotho had high adult mortality rates, with 361.6 per 1,000 female adults and 470.6 per 1,000 male adults.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-dyn-amrt-fe",
+      "sp-dyn-amrt-ma"
+    ],
+    "emoji": "⚰️",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "gender"
     ]
   }
 ]

@@ -1,20 +1,23 @@
 [
   {
-    "title": "High Deposit Interest Rates",
-    "description": "In 2023, Argentina offered one of the highest deposit interest rates globally at 94.99%, attracting savers but indicating potential economic instability.",
+    "name": "Financial Outflow Frenzy",
+    "title": "Largest Net Financial Outflows",
+    "description": "In 2023, Argentina experienced the largest net financial outflows globally, with a staggering $5.07 billion flowing out of the country through IMF nonconcessional channels and an additional $139.95 million through private nonguaranteed channels.",
     "year": 2023,
     "indicatorIds": [
-      "fr-inr-dpst"
+      "dt-nfl-imfn-cd",
+      "dt-nfl-nifc-cd"
     ],
-    "emoji": "💰",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
-      "financial-sector"
+      "external-debt"
     ]
   },
   {
-    "title": "Significant Claims on Central Government",
-    "description": "The claims on Argentina's central government grew by 341.37% as a percentage of broad money in 2023, reflecting a heavy reliance on government borrowing.",
+    "name": "Government's Growing Appetite",
+    "title": "Fastest Growth in Government Claims",
+    "description": "Argentina's claims on the central government grew by an unprecedented 341.37% as a percentage of broad money in 2023, marking the highest growth rate worldwide.",
     "year": 2023,
     "indicatorIds": [
       "fm-ast-cgov-zg-m3"
@@ -26,48 +29,38 @@
     ]
   },
   {
-    "title": "Negative Net Financial Flows",
-    "description": "In 2023, Argentina experienced a net financial outflow of $5.07 billion in IMF nonconcessional loans, indicating financial challenges.",
+    "name": "Sky-High Savings",
+    "title": "Highest Deposit Interest Rate",
+    "description": "In 2023, Argentina offered the highest deposit interest rate globally at 94.99%, reflecting the country's efforts to attract savings amidst economic challenges.",
     "year": 2023,
     "indicatorIds": [
-      "dt-nfl-imfn-cd"
+      "fr-inr-dpst"
     ],
-    "emoji": "🔻",
-    "type": "BAD",
+    "emoji": "🏦",
+    "type": "GOOD",
     "topicIds": [
-      "external-debt"
+      "financial-sector"
     ]
   },
   {
-    "title": "High Taxes on Exports",
-    "description": "In 2022, taxes on exports constituted 16.41% of Argentina's tax revenue, suggesting a significant reliance on export taxation for government income.",
+    "name": "Export Tax Titans",
+    "title": "Significant Export Tax Revenue",
+    "description": "In 2022, taxes on exports constituted 16.41% of Argentina's total tax revenue, highlighting the country's reliance on export duties as a significant source of government income.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-expt-zs"
     ],
-    "emoji": "📦",
-    "type": "BAD",
+    "emoji": "📊",
+    "type": "GOOD",
     "topicIds": [
       "public-sector",
       "trade"
     ]
   },
   {
-    "title": "Negative IFC Private Nonguaranteed Flows",
-    "description": "Argentina saw a negative flow of $139.95 million in IFC private nonguaranteed loans in 2023, highlighting challenges in attracting private investment.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-nifc-cd"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Strong Agricultural Productivity",
-    "description": "In 2023, the value added per worker in Argentina's agriculture, forestry, and fishing sectors was $174,267.88, showcasing high productivity in these industries.",
+    "name": "Agricultural Efficiency Experts",
+    "title": "High Value Added in Agriculture",
+    "description": "In 2023, Argentina's agriculture, forestry, and fishing sectors added $174,267.88 per worker, showcasing the country's efficiency and productivity in these industries.",
     "year": 2023,
     "indicatorIds": [
       "nv-agr-empl-kd"

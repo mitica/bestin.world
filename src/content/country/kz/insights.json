@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Arable Land Per Capita",
-    "description": "In 2021, Kazakhstan had 1.5027 hectares of arable land per person, one of the highest in the world, indicating significant agricultural potential.",
+    "name": "Land of Plenty",
+    "title": "Most Arable Land Per Person",
+    "description": "Kazakhstan boasts the highest arable land per person in the world, with 1.502 hectares available per individual as of 2021.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-arbl-ha-pc"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Minimal Urban Slum Population",
-    "description": "As of 2020, only 0.79% of Kazakhstan's urban population lived in slums, showcasing effective urban planning and housing policies.",
+    "name": "Slum-Free Cities",
+    "title": "Lowest Urban Slum Population",
+    "description": "In 2020, only 0.79% of Kazakhstan's urban population lived in slums, marking it as one of the countries with the least urban poverty.",
     "year": 2020,
     "indicatorIds": [
       "en-pop-slum-ur-zs"
@@ -28,21 +30,23 @@
     ]
   },
   {
-    "title": "High Export Tax Revenue",
-    "description": "In 2023, Kazakhstan collected 2,135,352,265,935.25 LCU in taxes on exports, reflecting a strong export sector.",
+    "name": "Export Tax Titans",
+    "title": "Highest Export Taxes",
+    "description": "Kazakhstan imposed the highest taxes on exports in 2023, totaling 2,135,352,265,935.25 local currency units.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-expt-cn"
     ],
     "emoji": "💰",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Full Male Primary Education Completion",
-    "description": "In 2019, 100% of male students in Kazakhstan persisted to the last grade of primary education, highlighting a robust educational system.",
+    "name": "Education Champions",
+    "title": "Perfect Primary Education Persistence",
+    "description": "In 2019, 100% of male students in Kazakhstan persisted to the last grade of primary school, showcasing a strong educational foundation.",
     "year": 2019,
     "indicatorIds": [
       "se-prm-prsl-ma-zs"
@@ -55,13 +59,16 @@
     ]
   },
   {
-    "title": "High Female Post-Secondary Education",
-    "description": "By 2018, 79.04% of women aged 25+ had completed post-secondary education, indicating strong female educational attainment.",
+    "name": "Higher Learning Nation",
+    "title": "High Post-Secondary Educational Attainment",
+    "description": "By 2018, 79.02% of Kazakhstan's population aged 25+ had completed post-secondary education, reflecting a well-educated populace.",
     "year": 2018,
     "indicatorIds": [
-      "se-sec-cuat-po-fe-zs"
+      "se-sec-cuat-po-fe-zs",
+      "se-sec-cuat-po-ma-zs",
+      "se-sec-cuat-po-zs"
     ],
-    "emoji": "👩‍🎓",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -69,22 +76,9 @@
     ]
   },
   {
-    "title": "High Male Post-Secondary Education",
-    "description": "In 2018, 78.99% of men aged 25+ had completed post-secondary education, reflecting a well-educated male population.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-sec-cuat-po-ma-zs"
-    ],
-    "emoji": "👨‍🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
+    "name": "Secondary School Stars",
     "title": "Near-Universal Secondary School Enrollment",
-    "description": "Kazakhstan achieved a 99.84% net enrollment rate in secondary education in 2019, demonstrating widespread access to education.",
+    "description": "Kazakhstan achieved a 99.84% net enrollment rate in secondary education by 2019, indicating widespread access to education.",
     "year": 2019,
     "indicatorIds": [
       "se-sec-nenr"
@@ -96,13 +90,16 @@
     ]
   },
   {
-    "title": "High Short-Cycle Tertiary Education Completion",
-    "description": "By 2018, 73.91% of the population aged 25+ had completed short-cycle tertiary education, showcasing a highly educated workforce.",
+    "name": "Tertiary Triumph",
+    "title": "High Short-Cycle Tertiary Completion",
+    "description": "By 2018, 73.91% of Kazakhstan's population aged 25+ had completed short-cycle tertiary education, highlighting advanced educational achievements.",
     "year": 2018,
     "indicatorIds": [
+      "se-ter-cuat-st-fe-zs",
+      "se-ter-cuat-st-ma-zs",
       "se-ter-cuat-st-zs"
     ],
-    "emoji": "📚",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -110,7 +107,8 @@
     ]
   },
   {
-    "title": "Extensive Rural Handwashing Facilities",
+    "name": "Clean Hands, Healthy Lives",
+    "title": "Widespread Rural Handwashing Facilities",
     "description": "In 2019, 98.73% of Kazakhstan's rural population had access to basic handwashing facilities, promoting public health.",
     "year": 2019,
     "indicatorIds": [
@@ -124,81 +122,47 @@
     ]
   },
   {
-    "title": "Low Poverty Rate",
+    "name": "Low Poverty Levels",
+    "title": "Minimal Population Below Median Income",
     "description": "As of 2021, only 3.1% of Kazakhstan's population lived below 50% of the median income, indicating low poverty levels.",
     "year": 2021,
     "indicatorIds": [
       "si-dst-50md"
     ],
-    "emoji": "📉",
+    "emoji": "💵",
     "type": "GOOD",
     "topicIds": [
       "poverty"
     ]
   },
   {
-    "title": "High Female Employment Rate",
-    "description": "In 2022, 94.5% of women aged 15+ were employed, reflecting strong female participation in the workforce.",
+    "name": "Employment Equality",
+    "title": "High Employment Rates for All",
+    "description": "In 2022, Kazakhstan had a high employment rate with 94.5% of females and 95.7% of males aged 15+ employed, totaling a 95.1% employment rate.",
     "year": 2022,
     "indicatorIds": [
-      "sl-emp-totl-sp-fe-ne-zs"
+      "sl-emp-totl-sp-fe-ne-zs",
+      "sl-emp-totl-sp-ma-ne-zs",
+      "sl-emp-totl-sp-ne-zs"
     ],
-    "emoji": "👩‍💼",
+    "emoji": "👔",
     "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "High Male Employment Rate",
-    "description": "In 2022, 95.7% of men aged 15+ were employed, indicating a robust male workforce.",
-    "year": 2022,
-    "indicatorIds": [
-      "sl-emp-totl-sp-ma-ne-zs"
-    ],
-    "emoji": "👨‍💼",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Low Food Insecurity",
-    "description": "In 2022, only 0.6% of Kazakhstan's population experienced severe food insecurity, highlighting effective food security measures.",
+    "name": "Food Security Success",
+    "title": "Low Severe Food Insecurity",
+    "description": "In 2022, only 0.6% of Kazakhstan's population faced severe food insecurity, reflecting effective food security measures.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-svfi-zs"
     ],
-    "emoji": "🥗",
+    "emoji": "🍽️",
     "type": "GOOD",
     "topicIds": [
       "health"
-    ]
-  },
-  {
-    "title": "Low Government Expenditure on Primary Education",
-    "description": "In 2018, government expenditure per student in primary education was only 0.235% of GDP per capita, suggesting potential underfunding.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-xpd-prim-pc-zs"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Expenditure on Primary Education",
-    "description": "In 2018, only 0.657% of government expenditure was allocated to primary education, indicating a need for increased investment.",
-    "year": 2018,
-    "indicatorIds": [
-      "se-xpd-prim-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "education"
     ]
   }
 ]

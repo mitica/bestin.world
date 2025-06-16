@@ -1,12 +1,13 @@
 [
   {
-    "title": "Efficient Customs Clearance",
-    "description": "In 2019, Albania had an average customs clearance time of just 1.1 days for exports, showcasing its efficiency in trade facilitation.",
+    "name": "Swift Exporters",
+    "title": "Fastest Export Clearance",
+    "description": "In 2019, Albania boasted one of the quickest export clearance times globally, averaging just 1.1 days for customs processing.",
     "year": 2019,
     "indicatorIds": [
       "ic-cus-durs-ex"
     ],
-    "emoji": "🚢",
+    "emoji": "🚀",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -14,8 +15,9 @@
     ]
   },
   {
-    "title": "High Frequency of Tax Meetings",
-    "description": "In 2019, 93.2% of firms in Albania reported having to visit or meet with tax officials, with an average of 5.7 meetings per affected firm.",
+    "name": "Tax Talkers",
+    "title": "Frequent Tax Meetings",
+    "description": "A staggering 93.2% of firms in Albania reported having meetings with tax officials in 2019, with an average of 5.7 meetings per affected firm.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-metg-zs",
@@ -28,24 +30,27 @@
     ]
   },
   {
-    "title": "Low Patent Applications by Nonresidents",
-    "description": "In 2021, Albania recorded only 1 patent application by nonresidents, indicating limited foreign innovation activity.",
+    "name": "Patent Pioneers",
+    "title": "Minimal Nonresident Patent Applications",
+    "description": "In 2021, Albania had only one patent application from nonresidents, indicating a low level of foreign innovation activity.",
     "year": 2021,
     "indicatorIds": [
       "ip-pat-nres"
     ],
-    "emoji": "📄",
+    "emoji": "📜",
     "type": "BAD",
     "topicIds": [
       "science"
     ]
   },
   {
-    "title": "Minimal Railway Goods Transport",
-    "description": "Albania transported 25.1 million ton-km of goods via railways in 2021, reflecting a limited use of rail for freight.",
+    "name": "Railway Runners",
+    "title": "Limited Railway Usage",
+    "description": "Albania's railways transported 25.1 million ton-km of goods and only 0.812 million passenger-km in 2021, reflecting limited railway utilization.",
     "year": 2021,
     "indicatorIds": [
-      "is-rrs-good-mt-k6"
+      "is-rrs-good-mt-k6",
+      "is-rrs-pasg-km"
     ],
     "emoji": "🚂",
     "type": "BAD",
@@ -54,21 +59,9 @@
     ]
   },
   {
-    "title": "Low Railway Passenger Usage",
-    "description": "In 2021, only 0.812 million passenger-km were recorded on Albanian railways, highlighting low public transport usage.",
-    "year": 2021,
-    "indicatorIds": [
-      "is-rrs-pasg-km"
-    ],
-    "emoji": "🚉",
-    "type": "BAD",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Limited Family Planning Satisfaction",
-    "description": "As of 2018, only 6% of married women in Albania had their demand for family planning satisfied by modern methods.",
+    "name": "Family Planning Gap",
+    "title": "Low Family Planning Satisfaction",
+    "description": "In 2018, only 6% of married women in Albania had their demand for family planning satisfied by modern methods, highlighting a significant gap.",
     "year": 2018,
     "indicatorIds": [
       "sh-fpl-satm-zs"
@@ -80,8 +73,9 @@
     ]
   },
   {
+    "name": "Tech Trade Tumble",
     "title": "Minimal ICT Goods Imports",
-    "description": "In 2022, ICT goods accounted for just 0.21% of Albania's total goods imports, indicating a low reliance on technology imports.",
+    "description": "ICT goods made up just 0.21% of Albania's total goods imports in 2022, suggesting a low reliance on technology imports.",
     "year": 2022,
     "indicatorIds": [
       "tm-val-ictg-zs-un"

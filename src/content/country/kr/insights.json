@@ -1,23 +1,11 @@
 [
   {
-    "title": "High Social Contributions",
-    "description": "In 2023, South Korea's social contributions reached a staggering 195,955,725,484,390 LCU, showcasing a robust social security system.",
+    "name": "Tax Titans",
+    "title": "Leading Tax Revenue Generator",
+    "description": "In 2023, South Korea generated a staggering 351.65 trillion LCU in tax revenue, showcasing its robust fiscal structure.",
     "year": 2023,
     "indicatorIds": [
-      "gc-rev-socl-cn"
-    ],
-    "emoji": "💪",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Strong Revenue Generation",
-    "description": "South Korea generated 658,831,362,225,453 LCU in revenue excluding grants in 2023, indicating a strong fiscal position.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-rev-xgrt-cn"
+      "gc-tax-totl-cn"
     ],
     "emoji": "💰",
     "type": "GOOD",
@@ -26,60 +14,23 @@
     ]
   },
   {
-    "title": "Significant Tax Revenue",
-    "description": "In 2023, South Korea collected 351,646,677,140,000 LCU in tax revenue, reflecting effective tax policies.",
+    "name": "Social Safety Net",
+    "title": "Top Social Contributions",
+    "description": "South Korea's social contributions reached an impressive 195.96 trillion LCU in 2023, reflecting a strong commitment to social welfare.",
     "year": 2023,
     "indicatorIds": [
-      "gc-tax-totl-cn"
+      "gc-rev-socl-cn"
     ],
-    "emoji": "📈",
+    "emoji": "🛡️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Goods and Services Expense",
-    "description": "The country spent 85,193,470,173,742 LCU on goods and services in 2023, highlighting substantial public sector investment.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-gsrv-cn"
-    ],
-    "emoji": "🛒",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Large Subsidies and Transfers",
-    "description": "In 2023, South Korea allocated 467,328,215,967,432 LCU to subsidies and other transfers, supporting economic stability.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-xpn-trft-cn"
-    ],
-    "emoji": "🏦",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Robust Private Sector Investment",
-    "description": "South Korea's gross fixed capital formation in the private sector was 607,369,100,000,000 LCU in 2023, indicating strong private investment.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-gdi-fprv-cn"
-    ],
-    "emoji": "🏗️",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Hospital Bed Availability",
-    "description": "With 12.75 hospital beds per 1,000 people in 2021, South Korea boasts one of the highest healthcare capacities globally.",
+    "name": "Healthcare Haven",
+    "title": "Abundant Hospital Beds",
+    "description": "With 12.75 hospital beds per 1,000 people in 2021, South Korea ensures ample healthcare facilities for its citizens.",
     "year": 2021,
     "indicatorIds": [
       "sh-med-beds-zs"
@@ -91,8 +42,80 @@
     ]
   },
   {
-    "title": "High Suicide Mortality Rate Among Females",
-    "description": "In 2021, the suicide mortality rate for females was 16.94 per 100,000, indicating a significant mental health challenge.",
+    "name": "Investment Innovators",
+    "title": "High Gross Fixed Capital Formation",
+    "description": "In 2023, the private sector in South Korea invested 607.37 trillion LCU in gross fixed capital formation, indicating a thriving investment climate.",
+    "year": 2023,
+    "indicatorIds": [
+      "ne-gdi-fprv-cn"
+    ],
+    "emoji": "🏗️",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Fiscal Balancers",
+    "title": "High Revenue and Expense Management",
+    "description": "In 2023, South Korea managed 658.83 trillion LCU in revenue and 682.20 trillion LCU in expenses, showcasing a balanced fiscal approach.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-rev-xgrt-cn",
+      "gc-xpn-totl-cn"
+    ],
+    "emoji": "⚖️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Generous Transfers",
+    "title": "Leading in Subsidies and Transfers",
+    "description": "South Korea allocated 467.33 trillion LCU to subsidies and other transfers in 2023, highlighting its focus on economic support.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-xpn-trft-cn"
+    ],
+    "emoji": "🎁",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Income Boosters",
+    "title": "Positive Net Primary Income",
+    "description": "In 2023, South Korea achieved a net primary income of 41.66 trillion LCU, reflecting strong income from abroad.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gsr-nfcy-cn"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Aging Gracefully",
+    "title": "Significant Elderly Female Population",
+    "description": "In 2023, 8.23% of South Korea's female population was aged 60-64, indicating a growing elderly demographic.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-6064-fe-5y"
+    ],
+    "emoji": "👵",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Mental Health Challenge",
+    "title": "High Female Suicide Mortality Rate",
+    "description": "In 2021, South Korea faced a female suicide mortality rate of 16.94 per 100,000, highlighting a critical mental health issue.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-suic-fe-p5"
@@ -104,49 +127,9 @@
     ]
   },
   {
-    "title": "Aging Female Population",
-    "description": "In 2023, 8.23% of South Korea's female population was aged 60-64, highlighting demographic challenges.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-pop-6064-fe-5y"
-    ],
-    "emoji": "👵",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Mortality Rate from Non-Communicable Diseases",
-    "description": "In 2021, South Korea reported a mortality rate of 6.9% from cardiovascular diseases, cancer, diabetes, or chronic respiratory diseases among individuals aged 30 to 70, one of the lowest globally.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-dyn-ncom-zs"
-    ],
-    "emoji": "💪",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Minimal Prevalence of Child Malnutrition",
-    "description": "As of 2020, only 0.2% of female children under five were underweight, and 0.9% were stunted, showcasing South Korea's effective child nutrition programs.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-maln-fe-zs",
-      "sh-sta-stnt-fe-zs"
-    ],
-    "emoji": "🍎",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "High Literacy Proficiency Among Primary Pupils",
-    "description": "In 2019, less than 1% of primary school pupils in South Korea were below the minimum reading proficiency, indicating a strong education system.",
+    "name": "Reading Prodigies",
+    "title": "Top Reading Proficiency in Primary Education",
+    "description": "In 2019, only 0.8% of South Korean pupils were below the minimum reading proficiency level at the end of primary school, showcasing the country's exceptional literacy standards.",
     "year": 2019,
     "indicatorIds": [
       "se-lpv-prim-ld",
@@ -158,8 +141,55 @@
     "topicIds": []
   },
   {
-    "title": "Low Net Secondary Income",
-    "description": "In 2023, South Korea recorded a net secondary income of -4,894,500,000,000 LCU, indicating a significant outflow of current transfers abroad.",
+    "name": "Healthy and Thriving",
+    "title": "Low Mortality from Major Diseases",
+    "description": "South Korea reported a mortality rate of 6.9% from cardiovascular diseases, cancer, diabetes, or chronic respiratory diseases between ages 30 and 70 in 2021, reflecting its robust healthcare system.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-dyn-ncom-fe-zs",
+      "sh-dyn-ncom-zs"
+    ],
+    "emoji": "💪",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Nourished Nation",
+    "title": "Minimal Child Malnutrition",
+    "description": "In 2020, South Korea had a prevalence of underweight and stunting among children under 5 at just 0.2% and 0.9% respectively, indicating effective nutritional policies.",
+    "year": 2020,
+    "indicatorIds": [
+      "sh-sta-maln-fe-zs",
+      "sh-sta-stnt-fe-zs",
+      "sh-sta-wast-ma-zs"
+    ],
+    "emoji": "🥗",
+    "type": "GOOD",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "name": "Youthful Balance",
+    "title": "Low Young Age Dependency Ratio",
+    "description": "With a young age dependency ratio of 15.5% in 2023, South Korea maintains a balanced demographic structure, supporting economic stability.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-dpnd-yg"
+    ],
+    "emoji": "👶",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Financial Outflow",
+    "title": "High Net Secondary Income Outflow",
+    "description": "In 2023, South Korea experienced a net secondary income outflow of -4,894,500,000,000 LCU, indicating significant financial transfers abroad.",
     "year": 2023,
     "indicatorIds": [
       "ny-trf-nctr-cn"
@@ -171,11 +201,13 @@
     ]
   },
   {
-    "title": "Balanced Age Dependency Ratio",
-    "description": "With a young age dependency ratio of 15.5% in 2023, South Korea maintains a balanced demographic structure, supporting economic stability.",
+    "name": "Balanced Beginnings",
+    "title": "Even Gender Distribution in Early Childhood",
+    "description": "In 2023, the population of children aged 0-4 was evenly distributed between genders, with females at 2.5% and males at 2.7% of their respective populations.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-dpnd-yg"
+      "sp-pop-0004-fe-5y",
+      "sp-pop-0004-ma-5y"
     ],
     "emoji": "⚖️",
     "type": "GOOD",

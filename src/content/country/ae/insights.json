@@ -1,7 +1,8 @@
 [
   {
+    "name": "Internet for All",
     "title": "Universal Internet Access",
-    "description": "In 2023, 100% of both male and female populations in the UAE have access to the internet, showcasing the country's commitment to digital connectivity.",
+    "description": "In 2023, the UAE achieved 100% internet usage among both male and female populations, making it the highest in the world.",
     "year": 2023,
     "indicatorIds": [
       "it-net-user-fe-zs",
@@ -15,8 +16,9 @@
     ]
   },
   {
-    "title": "Minimal Adolescent School Dropout Rate",
-    "description": "As of 2023, only 0.34% of adolescents of lower secondary school age are out of school, indicating a strong educational system.",
+    "name": "Youth in School",
+    "title": "Near Universal School Attendance",
+    "description": "With only 0.34% of adolescents out of school in 2023, the UAE boasts one of the lowest rates globally, ensuring education for nearly all its youth.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-uner-lo-zs"
@@ -28,13 +30,14 @@
     ]
   },
   {
+    "name": "A Nation of Expats",
     "title": "High International Migrant Population",
-    "description": "In 2015, 88.4% of the UAE's population consisted of international migrants, reflecting its status as a global hub for expatriates.",
+    "description": "In 2015, 88.4% of the UAE's population consisted of international migrants, highlighting its status as a global hub.",
     "year": 2015,
     "indicatorIds": [
       "sm-pop-totl-zs"
     ],
-    "emoji": "🌍",
+    "emoji": "🛬",
     "type": "GOOD",
     "topicIds": [
       "financial-sector",
@@ -42,8 +45,9 @@
     ]
   },
   {
-    "title": "Low Female Adult Mortality Rate",
-    "description": "The UAE reported a female adult mortality rate of 18.47 per 1,000 female adults in 2023, one of the lowest globally, highlighting effective healthcare.",
+    "name": "Healthy Women",
+    "title": "Low Female Mortality Rate",
+    "description": "The UAE recorded a female adult mortality rate of 18.47 per 1,000 in 2023, one of the lowest worldwide, reflecting strong healthcare systems.",
     "year": 2023,
     "indicatorIds": [
       "sp-dyn-amrt-fe"
@@ -56,8 +60,9 @@
     ]
   },
   {
-    "title": "Young and Vibrant Population",
-    "description": "In 2023, 11.42% of the female and 14.67% of the male populations are aged 25-29, indicating a youthful demographic.",
+    "name": "Young and Vibrant",
+    "title": "Youthful Population",
+    "description": "In 2023, a significant portion of the UAE's population was aged 25-29, with 11.42% of females and 14.67% of males, indicating a youthful demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-2529-fe-5y",
@@ -70,12 +75,14 @@
     ]
   },
   {
-    "title": "Low Elderly Population Percentage",
-    "description": "As of 2023, only 2.11% of the female and 0.69% of the male populations are aged 65 and above, suggesting a younger population structure.",
+    "name": "Few Elderly",
+    "title": "Low Elderly Population",
+    "description": "The UAE had a minimal elderly population in 2023, with only 2.11% of females and 0.69% of males aged 65 and above, suggesting a younger nation.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-65up-fe-zs",
-      "sp-pop-6569-ma-5y"
+      "sp-pop-6569-fe-5y",
+      "sp-pop-6569-ma-5y",
+      "sp-pop-65up-fe-zs"
     ],
     "emoji": "👵",
     "type": "GOOD",

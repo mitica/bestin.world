@@ -1,33 +1,36 @@
 [
   {
-    "title": "High Private Debt from Other Creditors",
-    "description": "In 2023, South Africa had a private debt of $750 million from other creditors, marking one of the highest values globally.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-prop-cd"
-    ],
-    "emoji": "💰",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Efficient Tax Meetings",
-    "description": "In 2020, South African firms required only one meeting with tax officials on average, showcasing one of the most efficient tax processes worldwide.",
+    "name": "Tax Time Saver",
+    "title": "Least Tax Meetings Required",
+    "description": "In 2020, South African firms had the lowest average number of required meetings with tax officials, with just one meeting needed. This efficiency highlights a streamlined tax process.",
     "year": 2020,
     "indicatorIds": [
       "ic-tax-metg"
     ],
-    "emoji": "🗂️",
+    "emoji": "💼",
     "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Late Start in Lower Secondary Education",
-    "description": "South Africa's lower secondary school starting age is 14 years as of 2023, one of the latest globally, potentially impacting early educational development.",
+    "name": "Debt Dependency",
+    "title": "High Private Creditor Debt",
+    "description": "In 2023, South Africa had a significant amount of debt from private creditors, totaling $750 million, indicating a reliance on external financial sources.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-prop-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Late Learners",
+    "title": "Oldest Lower Secondary School Starters",
+    "description": "In 2023, South Africa had the highest starting age for lower secondary school at 14 years, which may impact the country's educational progression and workforce readiness.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-ages"
@@ -39,26 +42,28 @@
     ]
   },
   {
-    "title": "High Male Unemployment with Basic Education",
-    "description": "In 2023, 36.179% of the male labor force with basic education was unemployed, one of the highest rates globally, indicating challenges in job market integration.",
+    "name": "Jobless with Basics",
+    "title": "High Unemployment Among Basic Educated Males",
+    "description": "In 2023, 36.179% of South African males with basic education were unemployed, reflecting challenges in job creation for this demographic.",
     "year": 2023,
     "indicatorIds": [
       "sl-uem-basc-ma-zs"
     ],
-    "emoji": "👨‍💼",
+    "emoji": "🔍",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Overall High Unemployment with Basic Education",
-    "description": "As of 2023, 38.607% of the total labor force with basic education was unemployed, highlighting significant employment challenges in the country.",
+    "name": "Basic Education Blues",
+    "title": "High Unemployment Among Basic Educated Workforce",
+    "description": "In 2023, 38.607% of the total labor force with basic education in South Africa was unemployed, indicating a need for more job opportunities and skill development.",
     "year": 2023,
     "indicatorIds": [
       "sl-uem-basc-zs"
     ],
-    "emoji": "📈",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "social-protection"

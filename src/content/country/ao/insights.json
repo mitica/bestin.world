@@ -1,6 +1,7 @@
 [
   {
-    "title": "High Public Debt Service Burden",
+    "name": "Debt Dilemma",
+    "title": "High Public Debt Burden",
     "description": "In 2023, Angola's public and publicly guaranteed debt service reached 13.84% of its GNI, indicating a significant financial burden on the country's economy.",
     "year": 2023,
     "indicatorIds": [
@@ -13,8 +14,9 @@
     ]
   },
   {
+    "name": "Education Gap",
     "title": "Low Educational Attainment",
-    "description": "By 2021, only 0.13% of Angola's population aged 25 and above had attained at least a Bachelor's degree, reflecting a challenge in higher education access.",
+    "description": "As of 2021, only 0.13% of Angola's population aged 25+ had at least a Bachelor's degree, highlighting a significant gap in higher education.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-cuat-ba-zs"
@@ -27,8 +29,9 @@
     ]
   },
   {
+    "name": "Health Cost Crunch",
     "title": "High Out-of-Pocket Health Expenditure",
-    "description": "In 2018, 35.53% of Angola's population spent more than 10% of their household income on health care, highlighting a significant financial strain on citizens.",
+    "description": "In 2018, 35.53% of Angolans spent more than 10% of their income on healthcare, indicating a high financial burden on households.",
     "year": 2018,
     "indicatorIds": [
       "sh-uhc-oopc-10-zs"
@@ -40,95 +43,45 @@
     ]
   },
   {
-    "title": "Significant Net Liabilities",
-    "description": "In 2017, Angola's net incurrence of liabilities was 20.42% of its GDP, indicating a substantial financial obligation for the country.",
-    "year": 2017,
-    "indicatorIds": [
-      "gc-lbl-totl-gd-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
+    "name": "Remittance Roadblock",
     "title": "High Cost of Sending Remittances",
-    "description": "In 2021, the average transaction cost of sending remittances from Angola was 16.86%, one of the highest globally, affecting financial inclusivity.",
+    "description": "In 2021, the average transaction cost of sending remittances from Angola was 16.86%, one of the highest globally, affecting financial inflows.",
     "year": 2021,
     "indicatorIds": [
       "si-rmt-cost-ob-zs"
     ],
-    "emoji": "💰",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Low Female Educational Attainment",
-    "description": "As of 2019, only 0.036% of females aged 25 and above in Angola had attained at least a Bachelor's degree, indicating gender disparities in education.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-ter-cuat-ba-fe-zs"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Dependence on Private Creditors",
-    "description": "In 2023, Angola's net financial liabilities to private creditors stood at -$2.71 billion, reflecting a reliance on external private financing.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-prvt-cd"
-    ],
-    "emoji": "🏦",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Limited Domestic Economic Claims",
-    "description": "In 2023, claims on other sectors of Angola's domestic economy were only 10.12% of GDP, suggesting limited internal financial intermediation.",
-    "year": 2023,
-    "indicatorIds": [
-      "fs-ast-domo-gd-zs"
-    ],
-    "emoji": "🏢",
-    "type": "BAD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Low Multilateral Debt Service",
-    "description": "In 2023, only 3.54% of Angola's public debt service was multilateral, indicating a lower reliance on international financial institutions.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-mlat-pg-zs"
-    ],
-    "emoji": "🌐",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
+    "name": "Aid Dependency",
     "title": "Negative Aid Flow from Portugal",
-    "description": "In 2022, Angola experienced a net negative bilateral aid flow of -$52.73 million from Portugal, impacting its foreign aid receipts.",
+    "description": "In 2022, Angola experienced a net negative bilateral aid flow of $52.73 million from Portugal, indicating a reduction in financial support.",
     "year": 2022,
     "indicatorIds": [
       "dc-dac-prtl-cd"
     ],
-    "emoji": "🇵🇹",
+    "emoji": "🤝",
     "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Private Debt Pressure",
+    "title": "High Private Creditor Debt",
+    "description": "In 2023, Angola's debt to private creditors stood at $2.71 billion, reflecting a significant financial obligation.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-nfl-prvt-cd"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "external-debt"
     ]
   }
 ]

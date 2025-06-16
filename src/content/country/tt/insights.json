@@ -1,7 +1,23 @@
 [
   {
+    "name": "Energy Efficiency Challenge",
+    "title": "Low GDP per Energy Use",
+    "description": "In 2022, Trinidad and Tobago had a GDP per unit of energy use of just 3.04 PPP $ per kg of oil equivalent, indicating room for improvement in energy efficiency.",
+    "year": 2022,
+    "indicatorIds": [
+      "eg-gdp-puse-ko-pp",
+      "eg-gdp-puse-ko-pp-kd"
+    ],
+    "emoji": "🔋",
+    "type": "BAD",
+    "topicIds": [
+      "energy"
+    ]
+  },
+  {
+    "name": "Energy Intensity Leader",
     "title": "High Energy Intensity Level",
-    "description": "In 2021, Trinidad and Tobago had an energy intensity level of 18.72 MJ/$2017 PPP GDP, indicating a high energy consumption relative to its economic output.",
+    "description": "In 2021, Trinidad and Tobago's energy intensity level was 18.72 MJ/$2017 PPP GDP, showcasing a significant reliance on energy for economic activities.",
     "year": 2021,
     "indicatorIds": [
       "eg-egy-prim-pp-kd"
@@ -14,21 +30,25 @@
     ]
   },
   {
-    "title": "Low GDP per Unit of Energy Use",
-    "description": "In 2022, the GDP per unit of energy use was 3.04 PPP $ per kg of oil equivalent, reflecting inefficiencies in energy utilization.",
+    "name": "Trade Protection Champs",
+    "title": "100% Binding Coverage on All Products",
+    "description": "In 2022, Trinidad and Tobago achieved a 100% binding coverage on all products and primary products, ensuring comprehensive trade protection.",
     "year": 2022,
     "indicatorIds": [
-      "eg-gdp-puse-ko-pp"
+      "tm-tax-mrch-bc-zs",
+      "tm-tax-tcom-bc-zs"
     ],
-    "emoji": "💡",
-    "type": "BAD",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
-      "energy"
+      "private-sector",
+      "trade"
     ]
   },
   {
+    "name": "Energy Consumption Conundrum",
     "title": "High Energy Use per GDP",
-    "description": "Trinidad and Tobago used 352.40 kg of oil equivalent per $1,000 GDP in 2022, highlighting a high energy consumption rate for economic activities.",
+    "description": "In 2022, the country used 352.40 kg of oil equivalent per $1,000 GDP, indicating a high energy consumption relative to economic output.",
     "year": 2022,
     "indicatorIds": [
       "eg-use-comm-gd-pp-kd"
@@ -38,34 +58,6 @@
     "topicIds": [
       "energy",
       "climate-change"
-    ]
-  },
-  {
-    "title": "Comprehensive Trade Binding Coverage",
-    "description": "In 2022, Trinidad and Tobago achieved 100% binding coverage for all products, ensuring stable and predictable trade tariffs.",
-    "year": 2022,
-    "indicatorIds": [
-      "tm-tax-mrch-bc-zs"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Complete Binding Coverage for Primary Products",
-    "description": "The country maintained a 100% binding coverage for primary products in 2022, securing consistent trade terms for essential goods.",
-    "year": 2022,
-    "indicatorIds": [
-      "tm-tax-tcom-bc-zs"
-    ],
-    "emoji": "🌾",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
     ]
   }
 ]

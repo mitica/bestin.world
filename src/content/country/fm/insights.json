@@ -1,7 +1,180 @@
 [
   {
+    "name": "Nature's Little Guardian",
+    "title": "Minimal Land Protection",
+    "description": "In 2018, only 0.05% of Micronesia's land was designated as protected areas, highlighting a need for increased conservation efforts.",
+    "year": 2018,
+    "indicatorIds": [
+      "er-lnd-ptld-zs"
+    ],
+    "emoji": "🌿",
+    "type": "BAD",
+    "topicIds": [
+      "climate-change",
+      "environment"
+    ]
+  },
+  {
+    "name": "Money Matters",
+    "title": "Broad Money Growth",
+    "description": "By 2021, Micronesia's broad money supply reached 332 million LCU, indicating a stable monetary environment.",
+    "year": 2021,
+    "indicatorIds": [
+      "fm-lbl-bmny-cn"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Low Interest, Low Gain",
+    "title": "Minimal Deposit Interest Rates",
+    "description": "In 2021, deposit interest rates were at a low 0.04%, reflecting limited returns for savers.",
+    "year": 2021,
+    "indicatorIds": [
+      "fr-inr-dpst"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Taxing Times",
+    "title": "Limited Tax Revenue",
+    "description": "Micronesia collected 26.2 million LCU in tax revenue in 2020, suggesting room for fiscal growth.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-tax-totl-cn"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Employee Expenses",
+    "title": "Employee Compensation Costs",
+    "description": "In 2020, the compensation of employees amounted to 22.9 million LCU, a significant portion of government expenses.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-comp-cn"
+    ],
+    "emoji": "👔",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Debt Duty",
+    "title": "Minimal Interest Payments",
+    "description": "Interest payments were just 523,714 LCU in 2020, indicating low debt servicing costs.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-intp-cn"
+    ],
+    "emoji": "📊",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Expense Expansion",
+    "title": "Government Spending",
+    "description": "Total government expenses reached 87.4 million LCU in 2020, reflecting significant public sector investment.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-totl-cn"
+    ],
+    "emoji": "🏛️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Subsidy Support",
+    "title": "Subsidies and Transfers",
+    "description": "In 2020, subsidies and other transfers totaled 6.7 million LCU, supporting social welfare.",
+    "year": 2020,
+    "indicatorIds": [
+      "gc-xpn-trft-cn"
+    ],
+    "emoji": "🤝",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Disconnected Dials",
+    "title": "Low Mobile Subscriptions",
+    "description": "With only 19.4 mobile subscriptions per 100 people in 2021, connectivity remains a challenge.",
+    "year": 2021,
+    "indicatorIds": [
+      "it-cel-sets-p2"
+    ],
+    "emoji": "📱",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Financial Footprint",
+    "title": "FISIM Growth",
+    "description": "The Financial Intermediary Services Indirectly Measured (FISIM) was valued at 3.7 million LCU in 2023, showing financial sector activity.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-fsm-totl-kn"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Manufacturing Moves",
+    "title": "Manufacturing Value",
+    "description": "In 2023, manufacturing value added was 2.3 million US$, highlighting a budding industrial sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-manf-cd",
+      "nv-ind-manf-cn",
+      "nv-ind-manf-kd",
+      "nv-ind-manf-kn"
+    ],
+    "emoji": "🏭",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Industry Insights",
+    "title": "Industry Value Added",
+    "description": "Industry, including construction, contributed 9.1 million LCU in value added in 2023, indicating economic diversification.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-totl-kn"
+    ],
+    "emoji": "🔨",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Education Elevation",
     "title": "High Education Expenditure",
-    "description": "In 2021, Micronesia allocated 23.63% of its Gross National Income (GNI) to education, showcasing a strong commitment to educational development.",
+    "description": "Education expenditure was 23.6% of GNI in 2021, showcasing a strong commitment to education.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-aedu-gn-zs"
@@ -14,8 +187,9 @@
     ]
   },
   {
-    "title": "Low Mortality from Road Traffic Injuries",
-    "description": "With a mortality rate of 0.2 per 100,000 population in 2019, Micronesia has one of the lowest road traffic injury rates globally.",
+    "name": "Safe Streets",
+    "title": "Low Traffic Mortality",
+    "description": "With a road traffic mortality rate of 0.2 per 100,000 in 2019, Micronesia boasts safe roads.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-traf-p5"
@@ -28,8 +202,9 @@
     ]
   },
   {
+    "name": "Health Help",
     "title": "High External Health Expenditure",
-    "description": "In 2022, 77.25% of Micronesia's current health expenditure was funded externally, indicating a heavy reliance on foreign aid for healthcare.",
+    "description": "In 2022, 77.2% of health expenditure was externally funded, indicating reliance on international aid.",
     "year": 2022,
     "indicatorIds": [
       "sh-xpd-ehex-ch-zs"
@@ -41,56 +216,14 @@
     ]
   },
   {
-    "title": "Minimal Terrestrial Protected Areas",
-    "description": "As of 2018, only 0.05% of Micronesia's total land area was designated as protected, highlighting a potential area for environmental improvement.",
-    "year": 2018,
-    "indicatorIds": [
-      "er-lnd-ptld-zs"
-    ],
-    "emoji": "🌳",
-    "type": "BAD",
-    "topicIds": [
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "Limited Mobile Cellular Subscriptions",
-    "description": "In 2021, there were only 19.45 mobile cellular subscriptions per 100 people in Micronesia, indicating limited mobile connectivity.",
-    "year": 2021,
-    "indicatorIds": [
-      "it-cel-sets-p2"
-    ],
-    "emoji": "📱",
-    "type": "BAD",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Low Manufacturing Value Added",
-    "description": "In 2023, the manufacturing sector contributed only $2,264,200 in current US dollars, reflecting a small manufacturing base.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-ind-manf-cd",
-      "nv-ind-manf-cn",
-      "nv-ind-manf-kd",
-      "nv-ind-manf-kn"
-    ],
-    "emoji": "🏭",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Minimal Merchandise Exports to MENA",
-    "description": "In 2021, exports to low- and middle-income economies in the Middle East & North Africa constituted a negligible 0.00001% of total merchandise exports.",
+    "name": "Export Enigma",
+    "title": "Minimal Middle East Exports",
+    "description": "In 2021, exports to the Middle East & North Africa were negligible, at 0.00001% of total merchandise exports.",
     "year": 2021,
     "indicatorIds": [
       "tx-val-mrch-r4-zs"
     ],
-    "emoji": "📦",
+    "emoji": "🚢",
     "type": "BAD",
     "topicIds": [
       "private-sector",

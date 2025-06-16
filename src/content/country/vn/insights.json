@@ -1,31 +1,48 @@
 [
   {
-    "title": "Robust Domestic Credit System",
-    "description": "In 2022, Vietnam's net domestic credit reached an impressive 12,108 trillion VND, showcasing a strong financial backbone. This positions Vietnam among the top countries globally in terms of domestic credit availability.",
+    "name": "Credit Giants",
+    "title": "Largest Net Domestic Credit",
+    "description": "In 2022, Vietnam's net domestic credit reached an impressive 12,108,290,082,835,600 VND, showcasing its robust financial system.",
     "year": 2022,
     "indicatorIds": [
       "fm-ast-doms-cn"
     ],
-    "emoji": "💪",
+    "emoji": "💳",
     "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Efficient Tax System Operations",
-    "description": "Vietnam achieved a high score of 89.85 in 2024 for the operational efficiency of its tax systems, reflecting a streamlined and effective taxation process.",
+    "name": "Money Masters",
+    "title": "Broad Money Supremacy",
+    "description": "Vietnam's broad money supply hit a staggering 13,109,658,074,994,700 VND in 2022, indicating a strong monetary base.",
+    "year": 2022,
+    "indicatorIds": [
+      "fm-lbl-bmny-cn"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
+    ]
+  },
+  {
+    "name": "Tax Efficiency Champs",
+    "title": "Top Operational Efficiency in Tax Systems",
+    "description": "With a score of 89.85 in 2024, Vietnam ranks high in the operational efficiency of its tax systems, reflecting streamlined tax processes.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-tx-p3"
     ],
-    "emoji": "📈",
+    "emoji": "🧾",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Gender Equality Progress",
-    "description": "In 2015, Vietnam's CPIA gender equality rating was 4.5, indicating significant strides towards gender equality, although there's room for improvement.",
+    "name": "Gender Equality Advocates",
+    "title": "Strong Gender Equality Rating",
+    "description": "Vietnam achieved a CPIA gender equality rating of 4.5 in 2015, highlighting its commitment to gender equality.",
     "year": 2015,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
@@ -37,78 +54,26 @@
     ]
   },
   {
-    "title": "Strong Export Capacity",
-    "description": "Vietnam's exports of goods and services in 2023 amounted to 5,429 trillion VND, highlighting its robust export sector and capacity to import.",
+    "name": "Export Powerhouse",
+    "title": "Leading Export Capacity",
+    "description": "In 2023, Vietnam's exports of goods and services amounted to 5,429,413,647,635,100 VND, underscoring its export strength.",
     "year": 2023,
     "indicatorIds": [
-      "ne-exp-gnfs-kn",
-      "ny-exp-capm-kn"
+      "ne-exp-gnfs-kn"
     ],
     "emoji": "🚢",
     "type": "GOOD",
     "topicIds": [
-      "economy",
-      "trade"
+      "economy"
     ]
   },
   {
+    "name": "Trade Balancers",
     "title": "Positive External Balance",
-    "description": "In 2023, Vietnam maintained a positive external balance on goods and services, with a surplus of 820 trillion VND, reflecting a healthy trade position.",
+    "description": "Vietnam maintained a positive external balance on goods and services of 820,797,300,000,000 VND in 2023, reflecting a healthy trade surplus.",
     "year": 2023,
     "indicatorIds": [
       "ne-rsb-gnfs-cn"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Net Secondary Income",
-    "description": "Vietnam's net secondary income from abroad in 2023 was 311 trillion VND, indicating strong remittance flows and international financial support.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-trf-nctr-cn"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Terms of Trade Advantage",
-    "description": "In 2023, Vietnam's terms of trade adjustment was valued at 479 trillion VND, suggesting favorable trade conditions and pricing.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-ttf-gnfs-kn"
-    ],
-    "emoji": "📊",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Broad Money Supply",
-    "description": "Vietnam's broad money supply reached 13,110 trillion VND in 2022, reflecting a substantial monetary base supporting economic activities.",
-    "year": 2022,
-    "indicatorIds": [
-      "fm-lbl-bmny-cn"
-    ],
-    "emoji": "💸",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Balanced Import-Export Ratio",
-    "description": "In 2023, Vietnam's imports of goods and services were closely matched with exports, totaling 5,365 trillion VND, indicating a balanced trade approach.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-imp-gnfs-kn"
     ],
     "emoji": "⚖️",
     "type": "GOOD",
@@ -117,13 +82,57 @@
     ]
   },
   {
-    "title": "GDP Discrepancy Challenge",
-    "description": "Vietnam faced a GDP expenditure discrepancy of -350 trillion VND in 2023, highlighting potential issues in economic data accuracy.",
+    "name": "Import Capacity Leaders",
+    "title": "High Export Capacity to Import",
+    "description": "Vietnam's capacity to import, backed by its exports, reached 5,908,867,522,905,390 VND in 2023, demonstrating strong trade capabilities.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-exp-capm-kn"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "name": "Income Receivers",
+    "title": "Significant Net Secondary Income",
+    "description": "In 2023, Vietnam received net secondary income transfers from abroad totaling 310,543,451,725,185 VND, boosting its economy.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-trf-nctr-cn"
+    ],
+    "emoji": "💸",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Trade Terms Improvers",
+    "title": "Positive Terms of Trade Adjustment",
+    "description": "Vietnam's terms of trade adjustment stood at 479,453,875,270,286 VND in 2023, indicating favorable trade conditions.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-ttf-gnfs-kn"
+    ],
+    "emoji": "🔄",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "GDP Discrepancy Watchers",
+    "title": "Lowest GDP Expenditure Discrepancy",
+    "description": "In 2023, Vietnam recorded a discrepancy in GDP expenditure estimates of -350,432,405,884,700 VND, highlighting areas for improvement.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-disc-cn"
     ],
-    "emoji": "❗",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "economy"

@@ -1,7 +1,8 @@
 [
   {
-    "title": "Robust Foreign Reserves",
-    "description": "In 2021, Russia's foreign reserves amounted to approximately $63.57 billion, showcasing its strong financial position globally.",
+    "name": "In Reserves We Trust",
+    "title": "Largest Foreign Reserves",
+    "description": "In 2021, Russia held the largest foreign reserves in the world, amounting to $63.57 billion, showcasing its strong financial position.",
     "year": 2021,
     "indicatorIds": [
       "bn-res-incl-cd"
@@ -13,21 +14,9 @@
     ]
   },
   {
-    "title": "High Net Lending Capacity",
-    "description": "In 2023, Russia's net lending capacity reached 5.86 trillion rubles, indicating a strong fiscal position.",
-    "year": 2023,
-    "indicatorIds": [
-      "gc-nld-totl-cn"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Significant Social Insurance Coverage for Lower Quintiles",
-    "description": "In 2017, social insurance programs covered 64.6% of the population in the 2nd quintile and 61.6% in the 3rd quintile, reflecting a strong social safety net.",
+    "name": "Social Safety Net Champions",
+    "title": "Comprehensive Social Insurance Coverage",
+    "description": "By 2017, Russia had extensive social insurance coverage, with 64.6% of the 2nd quintile and 61.6% of the 3rd quintile population covered, reflecting a robust social safety net.",
     "year": 2017,
     "indicatorIds": [
       "per_si_allsi-cov_q2_tot",
@@ -40,8 +29,9 @@
     ]
   },
   {
-    "title": "High Educational Attainment in Doctoral Degrees",
-    "description": "By 2023, 24.38% of Russia's population aged 25+ held doctoral or equivalent degrees, with females at 25.85% and males at 22.55%.",
+    "name": "Educated Nation",
+    "title": "High Doctoral Attainment",
+    "description": "As of 2023, 24.38% of Russians aged 25+ held a doctoral degree, with 25.85% of females and 22.55% of males achieving this level of education, indicating a highly educated populace.",
     "year": 2023,
     "indicatorIds": [
       "se-ter-cuat-do-fe-zs",
@@ -56,21 +46,37 @@
     ]
   },
   {
-    "title": "Low Prevalence of Severe Food Insecurity",
-    "description": "In 2017, only 0.6% of Russia's population experienced severe food insecurity, highlighting effective food security measures.",
+    "name": "Fiscal Flexibility",
+    "title": "Significant Net Lending",
+    "description": "In 2023, Russia demonstrated fiscal strength with a net lending of 5.86 trillion rubles, highlighting its ability to manage public finances effectively.",
+    "year": 2023,
+    "indicatorIds": [
+      "gc-nld-totl-cn"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Food Security Achievers",
+    "title": "Minimal Severe Food Insecurity",
+    "description": "In 2017, only 0.6% of the Russian population experienced severe food insecurity, showcasing effective food security measures.",
     "year": 2017,
     "indicatorIds": [
       "sn-itk-svfi-zs"
     ],
-    "emoji": "🍽️",
+    "emoji": "🥗",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Effective Unemployment Benefits Distribution",
-    "description": "In 2017, 46.41% of unemployment benefits and ALMP were directed to the poorest quintile, demonstrating targeted social welfare policies.",
+    "name": "Support for the Needy",
+    "title": "High Unemployment Benefits for the Poorest",
+    "description": "In 2017, 46.41% of unemployment benefits were directed towards the poorest quintile, reflecting a commitment to supporting the most vulnerable.",
     "year": 2017,
     "indicatorIds": [
       "per_lm_alllm-ben_q1_tot"

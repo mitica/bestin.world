@@ -1,7 +1,8 @@
 [
   {
-    "title": "Minimal Reliance on Fossil Fuels for Electricity",
-    "description": "In 2021, only 0.0004% of Nepal's electricity production came from oil, gas, and coal sources, highlighting a significant reliance on renewable energy.",
+    "name": "Green Energy Pioneers",
+    "title": "Lowest reliance on fossil fuels for electricity",
+    "description": "In 2021, Nepal produced only 0.0004% of its electricity from oil, gas, and coal sources, showcasing its commitment to renewable energy.",
     "year": 2021,
     "indicatorIds": [
       "eg-elc-fosl-zs"
@@ -14,47 +15,53 @@
     ]
   },
   {
-    "title": "Negligible CO2 Emissions from Energy Fugitive Sources",
-    "description": "Nepal's CO2 emissions from fugitive energy sources were recorded at a mere 0.0001 Mt CO2e in 2023, indicating minimal environmental impact from this sector.",
+    "name": "Minimal Carbon Footprint",
+    "title": "Lowest CO2 emissions from energy sectors",
+    "description": "Nepal's CO2 emissions from fugitive emissions and the power industry were both recorded at a minimal 0.0001 Mt CO2e in 2023 and 2018, respectively.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-co2-fe-mt-ce-ar5"
-    ],
-    "emoji": "💧",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low CO2 Emissions from Power Industry",
-    "description": "In 2018, Nepal's power industry contributed only 0.0001 Mt CO2e to carbon emissions, showcasing its low carbon footprint in energy production.",
-    "year": 2018,
-    "indicatorIds": [
+      "en-ghg-co2-fe-mt-ce-ar5",
       "en-ghg-co2-pi-mt-ce-ar5"
     ],
-    "emoji": "🌍",
+    "emoji": "🍃",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Strong Financial Sector Rating",
-    "description": "Nepal achieved a financial sector rating of 4 out of 6 in 2023, reflecting a robust and stable financial environment.",
+    "name": "Tech Imports Under Control",
+    "title": "Low percentage of tech-related service imports",
+    "description": "In 2023, communications, computers, and related services accounted for only 0.99% of Nepal's service imports, indicating a self-reliant tech sector.",
+    "year": 2023,
+    "indicatorIds": [
+      "bm-gsr-cmcp-zs"
+    ],
+    "emoji": "💻",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "trade"
+    ]
+  },
+  {
+    "name": "Stable Financial Sector",
+    "title": "Strong financial sector rating",
+    "description": "Nepal's financial sector received a CPIA rating of 4 in 2023, reflecting a stable and robust financial environment.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-fins-xq"
     ],
-    "emoji": "💼",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Minimal New Displacements Due to Conflict",
-    "description": "In 2017, Nepal reported only 2 new cases of displacement associated with conflict and violence, indicating a relatively peaceful domestic environment.",
+    "name": "Peaceful Nation",
+    "title": "Minimal internal displacement due to conflict",
+    "description": "In 2017, Nepal reported only 2 cases of new internal displacement due to conflict and violence, highlighting its peaceful domestic environment.",
     "year": 2017,
     "indicatorIds": [
       "vc-idp-nwcv"
@@ -63,34 +70,6 @@
     "type": "GOOD",
     "topicIds": [
       "public-sector"
-    ]
-  },
-  {
-    "title": "High Dependence on Service Imports",
-    "description": "In 2023, communications, computer, and other services accounted for 0.99% of Nepal's service imports, suggesting a reliance on foreign service providers.",
-    "year": 2023,
-    "indicatorIds": [
-      "bm-gsr-cmcp-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Limited Commercial Service Imports",
-    "description": "Computer, communications, and other services made up only 0.10% of Nepal's commercial service imports in 2023, indicating a potential area for growth in service trade.",
-    "year": 2023,
-    "indicatorIds": [
-      "tm-val-othr-zs-wt"
-    ],
-    "emoji": "🔍",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector",
-      "trade"
     ]
   }
 ]

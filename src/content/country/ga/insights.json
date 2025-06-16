@@ -1,7 +1,8 @@
 [
   {
+    "name": "Economic Surge",
     "title": "Rapid Economic Growth",
-    "description": "In 2022, Gabon's Gross National Income (GNI) grew by an impressive 14.79%, marking one of the highest growth rates globally.",
+    "description": "In 2022, Gabon experienced a remarkable economic surge with a GNI growth rate of 14.79%, one of the highest in the world.",
     "year": 2022,
     "indicatorIds": [
       "ny-gnp-mktp-kd-zg"
@@ -13,13 +14,14 @@
     ]
   },
   {
-    "title": "High Prevalence of HIV Among Women",
-    "description": "As of 2022, 71.20% of the population aged 15 and above living with HIV in Gabon are women, indicating a significant public health challenge.",
+    "name": "Health Challenge",
+    "title": "High HIV Prevalence Among Women",
+    "description": "In 2022, 71.2% of the population aged 15 and above living with HIV in Gabon were women, highlighting a significant public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sh-dyn-aids-fe-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "⚕️",
     "type": "BAD",
     "topicIds": [
       "health",

@@ -1,26 +1,27 @@
 [
   {
-    "title": "Minimal Impact of Healthcare Costs on Poverty",
-    "description": "In 2017, only 0.01% of Panama's population was pushed below the $2.15 poverty line due to out-of-pocket healthcare expenses, indicating a robust healthcare support system.",
-    "year": 2017,
+    "name": "Export Tax Relief",
+    "title": "Lowest Export Taxes",
+    "description": "In 2018, Panama had one of the lowest taxes on exports, with a value of only 150 in local currency units. This positions Panama as a favorable environment for exporters.",
+    "year": 2018,
     "indicatorIds": [
-      "sh-uhc-fbp1-zs",
-      "sh-uhc-nop1-zs"
+      "gc-tax-expt-cn"
     ],
-    "emoji": "🏥",
+    "emoji": "📉",
     "type": "GOOD",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "Negligible Arms Exports",
-    "description": "In 2019, Panama's arms exports were valued at just 1,000,000 SIPRI trend indicator values, reflecting a minimal focus on military exports.",
+    "name": "Peaceful Panama",
+    "title": "Minimal Arms Exports",
+    "description": "In 2019, Panama's arms exports were valued at just 1,000,000 SIPRI trend indicator values, reflecting its minimal involvement in the global arms trade.",
     "year": 2019,
     "indicatorIds": [
       "ms-mil-xprt-kd"
     ],
-    "emoji": "🔫",
+    "emoji": "☮️",
     "type": "GOOD",
     "topicIds": [
       "public-sector",
@@ -28,16 +29,18 @@
     ]
   },
   {
-    "title": "Low Export Taxation",
-    "description": "In 2018, Panama's taxes on exports were recorded at 150 current LCU, showcasing a favorable environment for exporters.",
-    "year": 2018,
+    "name": "Healthcare Safety Net",
+    "title": "Minimal Poverty Impact from Healthcare Costs",
+    "description": "In 2017, only 0.01% of Panama's population was pushed below the $2.15 poverty line due to out-of-pocket healthcare expenses, indicating a robust healthcare safety net.",
+    "year": 2017,
     "indicatorIds": [
-      "gc-tax-expt-cn"
+      "sh-uhc-fbp1-zs",
+      "sh-uhc-nop1-zs"
     ],
-    "emoji": "📦",
+    "emoji": "🩺",
     "type": "GOOD",
     "topicIds": [
-      "public-sector"
+      "health"
     ]
   }
 ]

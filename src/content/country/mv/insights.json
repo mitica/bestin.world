@@ -1,12 +1,27 @@
 [
   {
-    "title": "Minimal Air Pollution Exposure",
-    "description": "In 2015, only a negligible percentage of the Maldivian population was exposed to PM2.5 air pollution levels exceeding WHO guidelines, highlighting the country's clean air quality.",
+    "name": "Generous Aid Receivers",
+    "title": "Top Beneficiaries of Belgian Aid",
+    "description": "In 2017, the Maldives received a significant net bilateral aid flow from Belgium, amounting to -200,000 USD, highlighting its reliance on international support.",
+    "year": 2017,
+    "indicatorIds": [
+      "dc-dac-bell-cd"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Clean Air Champions",
+    "title": "Lowest PM2.5 Air Pollution Exposure",
+    "description": "In 2015, only a minuscule percentage of the Maldivian population was exposed to PM2.5 air pollution levels exceeding WHO guidelines, making it one of the cleanest air environments globally.",
     "year": 2015,
     "indicatorIds": [
       "en-atm-pm25-mc-zs"
     ],
-    "emoji": "🌿",
+    "emoji": "🌬️",
     "type": "GOOD",
     "topicIds": [
       "urban-development",
@@ -14,21 +29,23 @@
     ]
   },
   {
-    "title": "Strong Human Resource Development",
-    "description": "As of 2023, Maldives achieved a CPIA building human resources rating of 5, indicating a robust framework for developing human capital.",
+    "name": "Human Resource Heroes",
+    "title": "High CPIA Human Resource Rating",
+    "description": "The Maldives achieved a CPIA building human resources rating of 5 in 2023, indicating strong development in human capital and resource management.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-hres-xq"
     ],
-    "emoji": "📚",
+    "emoji": "👨‍🎓",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Teenage Pregnancy Rate",
-    "description": "In 2017, only 1.6% of women aged 15-19 in the Maldives had children or were pregnant, reflecting effective reproductive health education and services.",
+    "name": "Youthful Mothers",
+    "title": "Low Teenage Motherhood Rate",
+    "description": "In 2017, only 1.6% of Maldivian women aged 15-19 were teenage mothers, reflecting effective youth education and health policies.",
     "year": 2017,
     "indicatorIds": [
       "sp-mtr-1519-zs"
@@ -38,19 +55,6 @@
     "topicIds": [
       "health",
       "gender"
-    ]
-  },
-  {
-    "title": "Negative Aid Flow from Belgium",
-    "description": "In 2017, the Maldives experienced a negative net bilateral aid flow from Belgium, amounting to -$200,000, indicating a financial outflow rather than support.",
-    "year": 2017,
-    "indicatorIds": [
-      "dc-dac-bell-cd"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
     ]
   }
 ]

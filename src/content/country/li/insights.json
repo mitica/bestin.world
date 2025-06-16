@@ -1,7 +1,24 @@
 [
   {
-    "title": "Highest GNI per Capita",
-    "description": "In 2015, Liechtenstein had the highest Gross National Income per capita in the world, reaching $137,688.92 (constant 2015 US$).",
+    "name": "Investment Outflow Tsunami",
+    "title": "Massive Capital Outflows",
+    "description": "In 2018, Liechtenstein experienced a significant foreign direct investment outflow, reaching -1303.11% of GDP, indicating a substantial capital movement out of the country.",
+    "year": 2018,
+    "indicatorIds": [
+      "bx-klt-dinv-wd-gd-zs"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "financial-sector",
+      "climate-change"
+    ]
+  },
+  {
+    "name": "Wealthy and Wise",
+    "title": "Highest GNI Per Capita",
+    "description": "In 2015, Liechtenstein boasted the highest GNI per capita globally, amounting to $137,688, showcasing its economic prosperity.",
     "year": 2015,
     "indicatorIds": [
       "ny-gnp-pcap-kd"
@@ -13,21 +30,23 @@
     ]
   },
   {
-    "title": "Exceptional Political Stability",
-    "description": "As of 2023, Liechtenstein ranks in the 94.79th percentile for political stability and absence of violence, indicating a highly stable political environment.",
+    "name": "Safe Haven",
+    "title": "Top Political Stability",
+    "description": "As of 2023, Liechtenstein ranked in the 94.79th percentile for political stability, indicating a highly secure and peaceful environment.",
     "year": 2023,
     "indicatorIds": [
       "pv-per-rnk-lower"
     ],
-    "emoji": "🕊️",
+    "emoji": "🛡️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "World's Lowest Pupil-Teacher Ratio in Secondary Education",
-    "description": "In 2017, Liechtenstein had the lowest pupil-teacher ratio in lower secondary education globally, with just 5.6 students per teacher.",
+    "name": "Personalized Learning",
+    "title": "Lowest Pupil-Teacher Ratio",
+    "description": "In 2017, Liechtenstein had an impressively low pupil-teacher ratio of 5.6 in lower secondary education, ensuring personalized attention for students.",
     "year": 2017,
     "indicatorIds": [
       "se-sec-enrl-lo-tc-zs"
@@ -39,8 +58,9 @@
     ]
   },
   {
-    "title": "Leading in Research and Development",
-    "description": "With 18,130 researchers per million people in 2023, Liechtenstein boasts one of the highest concentrations of researchers globally.",
+    "name": "Research Powerhouse",
+    "title": "Leading in R&D Researchers",
+    "description": "With 18,130 researchers per million people in 2023, Liechtenstein is a global leader in research and development, fostering innovation and scientific progress.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-scie-rd-p6"
@@ -52,42 +72,29 @@
     ]
   },
   {
-    "title": "Negative Foreign Direct Investment Inflows",
-    "description": "In 2018, Liechtenstein experienced a significant negative foreign direct investment inflow, amounting to -1303.11% of GDP.",
-    "year": 2018,
-    "indicatorIds": [
-      "bx-klt-dinv-wd-gd-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "financial-sector",
-      "climate-change"
-    ]
-  },
-  {
+    "name": "Urban Village",
     "title": "Small Urban Population",
-    "description": "As of 2023, Liechtenstein's urban population is relatively small, with only 5,825 people residing in urban areas.",
+    "description": "In 2023, Liechtenstein's urban population stood at just 5,825, reflecting its small size and close-knit community.",
     "year": 2023,
     "indicatorIds": [
       "sp-urb-totl"
     ],
-    "emoji": "🏙️",
-    "type": "BAD",
+    "emoji": "🏘️",
+    "type": "GOOD",
     "topicIds": [
       "climate-change",
       "urban-development"
     ]
   },
   {
+    "name": "Gender Imbalance Alert",
     "title": "High Sex Ratio at Birth",
-    "description": "In 2023, Liechtenstein had a sex ratio at birth of 1.163 male births per female birth, which is higher than the global average.",
+    "description": "In 2023, the sex ratio at birth in Liechtenstein was 1.163 male births per female birth, indicating a gender imbalance at birth.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-brth-mf"
     ],
-    "emoji": "👶",
+    "emoji": "⚖️",
     "type": "BAD",
     "topicIds": [
       "health"

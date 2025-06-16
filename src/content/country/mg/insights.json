@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Real Interest Rate",
-    "description": "In 2023, Madagascar recorded a real interest rate of 41.30%, one of the highest globally, indicating potential challenges in accessing affordable credit.",
+    "name": "Sky-High Interest Rates",
+    "title": "World's Highest Real Interest Rate",
+    "description": "In 2023, Madagascar recorded a real interest rate of 41.3%, the highest globally, indicating a challenging borrowing environment.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-rinr"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Elevated Risk Premium on Lending",
-    "description": "The risk premium on lending in Madagascar was 43.86% in 2023, suggesting significant financial risks and high borrowing costs.",
+    "name": "Lending Risks Galore",
+    "title": "Top Risk Premium on Lending",
+    "description": "With a risk premium on lending at 43.9% in 2023, Madagascar leads the world, highlighting significant financial risks for lenders.",
     "year": 2023,
     "indicatorIds": [
       "fr-inr-risk"
@@ -26,24 +28,27 @@
     ]
   },
   {
-    "title": "Low Utility Services Efficiency",
-    "description": "In 2024, Madagascar's B-READY score for utility services was 35.04, highlighting inefficiencies in service provision.",
+    "name": "Utility Struggles",
+    "title": "Lowest Utility Services Efficiency",
+    "description": "Madagascar's utility services scored 35.0 in 2024, the lowest globally, reflecting inefficiencies in service provision.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-us-os"
+      "ic-bre-us-os",
+      "ic-bre-us-p3"
     ],
     "emoji": "🔌",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Significant Value Loss from Electrical Outages",
-    "description": "In 2022, firms in Madagascar lost 24% of sales due to electrical outages, indicating severe infrastructure challenges.",
+    "name": "Power Outage Woes",
+    "title": "Highest Value Lost Due to Electrical Outages",
+    "description": "In 2022, electrical outages resulted in a 24% loss of sales for affected firms in Madagascar, the highest worldwide.",
     "year": 2022,
     "indicatorIds": [
       "ic-frm-outg-zs"
     ],
-    "emoji": "⚡",
+    "emoji": "💡",
     "type": "BAD",
     "topicIds": [
       "energy",
@@ -51,8 +56,9 @@
     ]
   },
   {
-    "title": "Short Compulsory Education Duration",
-    "description": "Madagascar mandates only 5 years of compulsory education as of 2023, which is among the shortest globally.",
+    "name": "Short Schooling Span",
+    "title": "Shortest Compulsory Education Duration",
+    "description": "Madagascar mandates only 5 years of compulsory education as of 2023, the shortest globally, impacting educational attainment.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -64,62 +70,56 @@
     ]
   },
   {
-    "title": "Low Female Persistence to Grade 5",
-    "description": "In 2018, only 33.26% of female students in Madagascar persisted to grade 5, reflecting educational retention challenges.",
+    "name": "Education Repetition Challenge",
+    "title": "High Primary School Repetition Rates",
+    "description": "In 2018, 26.1% of students repeated primary school in Madagascar, indicating challenges in educational progression.",
     "year": 2018,
     "indicatorIds": [
-      "se-prm-prs5-fe-zs"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "High Repetition Rates in Primary Education",
-    "description": "In 2018, 26.07% of students in Madagascar repeated a grade in primary education, indicating potential issues in educational quality.",
-    "year": 2018,
-    "indicatorIds": [
+      "se-prm-rept-fe-zs",
+      "se-prm-rept-ma-zs",
       "se-prm-rept-zs"
     ],
     "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Percentage of Trained Male Teachers",
-    "description": "In 2019, only 11.16% of male primary teachers in Madagascar were trained, suggesting a need for improved teacher training programs.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-prm-tcaq-ma-zs"
-    ],
-    "emoji": "👨‍🏫",
-    "type": "BAD",
-    "topicIds": [
       "education",
       "gender"
     ]
   },
   {
-    "title": "Minimal Government Expenditure on Tertiary Education",
-    "description": "In 2016, government expenditure per student in tertiary education was just 0.038% of GDP per capita, one of the lowest globally.",
-    "year": 2016,
+    "name": "Teacher Training Deficit",
+    "title": "Lowest Trained Teachers in Secondary Education",
+    "description": "Only 15.9% of secondary teachers were trained in 2019, the lowest globally, affecting education quality in Madagascar.",
+    "year": 2019,
     "indicatorIds": [
-      "se-xpd-tert-pc-zs"
+      "se-sec-tcaq-up-ma-zs",
+      "se-sec-tcaq-up-zs"
     ],
-    "emoji": "💰",
+    "emoji": "👨‍🏫",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Limited Access to Basic Sanitation in Urban Areas",
-    "description": "As of 2022, only 21.64% of Madagascar's urban population had access to basic sanitation services, highlighting public health challenges.",
+    "name": "Minimal Tertiary Investment",
+    "title": "Lowest Government Expenditure on Tertiary Education",
+    "description": "Madagascar's government spent just 0.038% of GDP per capita on tertiary education in 2016, the lowest globally.",
+    "year": 2016,
+    "indicatorIds": [
+      "se-xpd-tert-pc-zs",
+      "se-xpd-tert-zs"
+    ],
+    "emoji": "🎓",
+    "type": "BAD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Sanitation Shortfall",
+    "title": "Lowest Urban Basic Sanitation Access",
+    "description": "In 2022, only 21.6% of Madagascar's urban population had access to basic sanitation services, the lowest globally.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-bass-ur-zs"
@@ -132,8 +132,9 @@
     ]
   },
   {
+    "name": "Empowered Women Workforce",
     "title": "High Female Labor Force Participation",
-    "description": "In 2024, 82.56% of females aged 15+ participated in the labor force, showcasing a strong female workforce presence.",
+    "description": "In 2024, 82.6% of Madagascar's female population aged 15+ participated in the labor force, showcasing strong female workforce engagement.",
     "year": 2024,
     "indicatorIds": [
       "sl-tlf-cact-fe-zs"

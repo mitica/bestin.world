@@ -1,7 +1,8 @@
 [
   {
-    "title": "Universal Financial Inclusion Among the Poorest",
-    "description": "In 2021, 100% of Austria's poorest 40% of the population had access to financial services, showcasing a strong financial inclusion policy.",
+    "name": "Banking for All",
+    "title": "Universal Financial Access",
+    "description": "In 2021, Austria achieved a remarkable feat with 100% of its poorest 40% of the population having access to financial institutions or mobile money services, showcasing its commitment to financial inclusivity.",
     "year": 2021,
     "indicatorIds": [
       "fx-own-totl-40-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Minimal Losses from Theft and Vandalism",
-    "description": "In 2021, Austrian firms reported only 0.5% of annual sales lost due to theft and vandalism, indicating a secure business environment.",
+    "name": "Safe and Secure",
+    "title": "Minimal Business Losses from Crime",
+    "description": "Austrian firms reported only 0.5% of annual sales lost to theft and vandalism in 2021, highlighting the country's effective security measures and stable business environment.",
     "year": 2021,
     "indicatorIds": [
       "ic-frm-crim-zs"
@@ -26,8 +28,9 @@
     ]
   },
   {
+    "name": "On Time, Every Time",
     "title": "Efficient Logistics Performance",
-    "description": "Austria scored 4.3 out of 5 in 2022 on the logistics performance index for timely shipments, reflecting a robust logistics infrastructure.",
+    "description": "With a logistics performance index score of 4.3 in 2022, Austria excels in ensuring shipments reach their destinations on schedule, reflecting its robust infrastructure and efficient supply chain management.",
     "year": 2022,
     "indicatorIds": [
       "lp-lpi-time-xq"
@@ -40,8 +43,9 @@
     ]
   },
   {
-    "title": "Exceptional Maternal Health",
-    "description": "In 2017, Austria recorded a maternal mortality ratio of just 1 per 100,000 live births, highlighting excellent maternal healthcare services.",
+    "name": "Safe Motherhood",
+    "title": "Lowest Maternal Mortality",
+    "description": "Austria recorded an impressively low maternal mortality ratio of 1 per 100,000 live births in 2017, underscoring its advanced healthcare system and commitment to maternal health.",
     "year": 2017,
     "indicatorIds": [
       "sh-sta-mmrt-ne"

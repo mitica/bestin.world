@@ -1,46 +1,22 @@
 [
   {
-    "title": "High Alcohol Consumption Among Males",
-    "description": "In 2020, Romanian males aged 15 and above consumed an average of 27.03 liters of pure alcohol per capita, one of the highest rates globally.",
-    "year": 2020,
+    "name": "Corruption Control Conundrum",
+    "title": "Corruption Control Challenges",
+    "description": "In 2023, Romania faced challenges in controlling corruption, with a standard error of 0.1449, indicating variability in governance effectiveness.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-alc-pcap-ma-li"
+      "cc-std-err"
     ],
-    "emoji": "🍻",
+    "emoji": "🔍",
     "type": "BAD",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "Significant Growth in Income for the Bottom 40%",
-    "description": "In 2022, the bottom 40% of Romania's population experienced an 11.42% annualized growth in per capita real survey mean consumption or income, indicating significant economic progress.",
-    "year": 2022,
-    "indicatorIds": [
-      "si-spr-pc40-zg"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "poverty"
-    ]
-  },
-  {
-    "title": "Overall Economic Growth",
-    "description": "Romania's total population saw an 8.85% annualized growth in per capita real survey mean consumption or income in 2022, reflecting a robust economic performance.",
-    "year": 2022,
-    "indicatorIds": [
-      "si-spr-pcap-zg"
-    ],
-    "emoji": "💹",
-    "type": "GOOD",
-    "topicIds": [
-      "poverty"
-    ]
-  },
-  {
-    "title": "Moderate Arms Exports",
-    "description": "In 2023, Romania's arms exports were valued at 1,000,000 SIPRI trend indicator values, indicating a moderate level of military trade activity.",
+    "name": "Arms Export Enthusiasts",
+    "title": "Modest Arms Exporter",
+    "description": "Romania's arms exports in 2023 were valued at $1,000,000, reflecting a relatively low level of military trade compared to global leaders.",
     "year": 2023,
     "indicatorIds": [
       "ms-mil-xprt-kd"
@@ -53,42 +29,34 @@
     ]
   },
   {
-    "title": "High Alcohol Consumption Among Females",
-    "description": "In 2020, Romanian females aged 15 and above consumed an average of 7.42 liters of pure alcohol per capita, reflecting a high consumption rate.",
+    "name": "Cheers to Consumption",
+    "title": "High Alcohol Consumption",
+    "description": "In 2020, Romania had a high total alcohol consumption per capita of 16.8 liters, with males consuming 27.03 liters and females 7.42 liters.",
     "year": 2020,
     "indicatorIds": [
-      "sh-alc-pcap-fe-li"
+      "sh-alc-pcap-fe-li",
+      "sh-alc-pcap-li",
+      "sh-alc-pcap-ma-li"
     ],
-    "emoji": "🍷",
+    "emoji": "🍻",
     "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Overall High Alcohol Consumption",
-    "description": "In 2020, the total alcohol consumption per capita in Romania was 16.8 liters, placing it among the highest globally.",
-    "year": 2020,
+    "name": "Growth for the Many",
+    "title": "Strong Income Growth for the Bottom 40%",
+    "description": "In 2022, Romania saw an impressive 11.42% growth in per capita income for the bottom 40% of the population, outpacing the overall growth rate of 8.85%.",
+    "year": 2022,
     "indicatorIds": [
-      "sh-alc-pcap-li"
+      "si-spr-pc40-zg",
+      "si-spr-pcap-zg"
     ],
-    "emoji": "🥂",
-    "type": "BAD",
+    "emoji": "📈",
+    "type": "GOOD",
     "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Corruption Control Challenges",
-    "description": "In 2023, Romania's control of corruption standard error was 0.1449, indicating challenges in effectively managing corruption.",
-    "year": 2023,
-    "indicatorIds": [
-      "cc-std-err"
-    ],
-    "emoji": "⚖️",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
+      "poverty"
     ]
   }
 ]

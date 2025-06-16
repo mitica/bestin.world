@@ -1,25 +1,13 @@
 [
   {
-    "title": "Minimal Carbon Emissions from Energy Fugitive Sources",
-    "description": "In 2023, Ethiopia recorded a minimal carbon dioxide emission of 0.0001 Mt CO2e from fugitive energy sources, showcasing its low environmental footprint in this sector.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-co2-fe-mt-ce-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Urbanization in Major Cities",
-    "description": "As of 2024, only 4.32% of Ethiopia's population resides in urban agglomerations with over 1 million people, indicating a predominantly rural demographic.",
+    "name": "Urban Life is a Dream",
+    "title": "Minimal Urbanization",
+    "description": "As of 2024, only 4.32% of Ethiopia's population lives in urban agglomerations with more than 1 million people, indicating a predominantly rural lifestyle.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-mcty-tl-zs"
     ],
-    "emoji": "🏞️",
+    "emoji": "🌾",
     "type": "BAD",
     "topicIds": [
       "climate-change",
@@ -27,8 +15,23 @@
     ]
   },
   {
-    "title": "Extended Lead Time for Exports",
-    "description": "In 2018, the median lead time to export goods from Ethiopia was 60 days, reflecting logistical challenges in international trade.",
+    "name": "Education's Big Investment",
+    "title": "High Expenditure on Tertiary Education",
+    "description": "In 2015, Ethiopia allocated 47.85% of its government education expenditure to tertiary education, showcasing a strong commitment to higher education.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-xpd-tert-zs"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Exporting Patience",
+    "title": "Long Export Lead Time",
+    "description": "In 2018, the median lead time to export goods from Ethiopia was 60 days, highlighting logistical challenges in international trade.",
     "year": 2018,
     "indicatorIds": [
       "lp-exp-durs-md"
@@ -41,35 +44,9 @@
     ]
   },
   {
-    "title": "Limited Female Doctoral Education",
-    "description": "By 2021, only 0.0065% of Ethiopian females aged 25+ had attained a doctoral or equivalent level of education, highlighting gender disparities in higher education.",
-    "year": 2021,
-    "indicatorIds": [
-      "se-ter-cuat-do-fe-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Significant Investment in Tertiary Education",
-    "description": "In 2015, Ethiopia allocated 47.85% of its education budget to tertiary education, emphasizing a strong commitment to higher education development.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-xpd-tert-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Limited Access to Basic Sanitation",
-    "description": "As of 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, indicating a critical area for infrastructure improvement.",
+    "name": "Sanitation Struggles",
+    "title": "Limited Basic Sanitation Access",
+    "description": "As of 2022, only 9.34% of Ethiopia's population had access to at least basic sanitation services, indicating significant public health challenges.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-bass-zs"
@@ -82,46 +59,65 @@
     ]
   },
   {
-    "title": "Low Male Employment as Employers",
-    "description": "In 2023, only 0.15% of Ethiopian males were employers, suggesting limited entrepreneurial opportunities or business ownership among men.",
-    "year": 2023,
+    "name": "Birth Registration Blues",
+    "title": "Incomplete Birth Registration",
+    "description": "In 2016, only 2.7% of births in Ethiopia were registered, reflecting gaps in civil registration systems.",
+    "year": 2016,
     "indicatorIds": [
-      "sl-emp-mpyr-ma-zs"
+      "sp-reg-brth-fe-zs",
+      "sp-reg-brth-ma-zs",
+      "sp-reg-brth-ru-zs",
+      "sp-reg-brth-zs"
     ],
-    "emoji": "👔",
+    "emoji": "📜",
     "type": "BAD",
     "topicIds": [
-      "social-protection",
+      "health"
+    ]
+  },
+  {
+    "name": "Eco-Friendly Energy",
+    "title": "Minimal CO2 Emissions from Energy",
+    "description": "In 2023, Ethiopia's CO2 emissions from fugitive energy sources were negligible at 0.0001 Mt CO2e, showcasing its low carbon footprint in energy production.",
+    "year": 2023,
+    "indicatorIds": [
+      "en-ghg-co2-fe-mt-ce-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Few Female Scholars",
+    "title": "Low Female Doctoral Attainment",
+    "description": "In 2021, only 0.006% of Ethiopian women aged 25+ had attained a doctoral degree, indicating gender disparities in higher education.",
+    "year": 2021,
+    "indicatorIds": [
+      "se-ter-cuat-do-fe-zs"
+    ],
+    "emoji": "👩‍🎓",
+    "type": "BAD",
+    "topicIds": [
+      "education",
       "gender"
     ]
   },
   {
-    "title": "Overall Low Employer Rate",
-    "description": "By 2023, only 0.13% of the total Ethiopian workforce were employers, reflecting a low rate of business ownership across the population.",
+    "name": "Entrepreneurial Gap",
+    "title": "Low Employer Representation",
+    "description": "In 2023, only 0.13% of Ethiopia's total employment was made up of employers, suggesting limited entrepreneurial opportunities.",
     "year": 2023,
     "indicatorIds": [
-      "sl-emp-mpyr-zs"
+      "sl-emp-mpyr-zs",
+      "sl-emp-mpyr-ma-zs"
     ],
     "emoji": "🏢",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Incomplete Birth Registration",
-    "description": "In 2016, only 2.7% of births in Ethiopia were officially registered, indicating significant gaps in civil registration systems.",
-    "year": 2016,
-    "indicatorIds": [
-      "sp-reg-brth-zs",
-      "sp-reg-brth-fe-zs",
-      "sp-reg-brth-ma-zs",
-      "sp-reg-brth-ru-zs"
-    ],
-    "emoji": "📝",
-    "type": "BAD",
-    "topicIds": [
-      "health"
+      "social-protection",
+      "gender"
     ]
   }
 ]

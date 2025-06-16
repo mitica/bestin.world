@@ -1,10 +1,12 @@
 [
   {
+    "name": "Hyperinflation Havoc",
     "title": "Skyrocketing Inflation Rates",
-    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest in the world, indicating severe economic instability.",
+    "description": "In 2016, Venezuela experienced an inflation rate of 254.95%, one of the highest globally, coupled with a wholesale price index reaching 4005.10, indicating severe economic instability.",
     "year": 2016,
     "indicatorIds": [
-      "fp-cpi-totl-zg"
+      "fp-cpi-totl-zg",
+      "fp-wpi-totl"
     ],
     "emoji": "📈",
     "type": "BAD",
@@ -14,73 +16,9 @@
     ]
   },
   {
-    "title": "Soaring Wholesale Prices",
-    "description": "The wholesale price index reached 4005.10 in 2016, reflecting a dramatic increase in the cost of goods and services.",
-    "year": 2016,
-    "indicatorIds": [
-      "fp-wpi-totl"
-    ],
-    "emoji": "💹",
-    "type": "BAD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Minimal Military Spending in USD",
-    "description": "In 2023, Venezuela's military expenditure was $3.92 million, one of the lowest globally, suggesting limited defense capabilities.",
-    "year": 2023,
-    "indicatorIds": [
-      "ms-mil-xpnd-cd"
-    ],
-    "emoji": "🛡️",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Military Expenditure in Local Currency",
-    "description": "Despite low spending in USD, Venezuela's military expenditure in local currency was 1.09e+22 in 2023, indicating currency devaluation.",
-    "year": 2023,
-    "indicatorIds": [
-      "ms-mil-xpnd-cn"
-    ],
-    "emoji": "💰",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Strong Real Effective Exchange Rate",
-    "description": "In 2016, Venezuela's real effective exchange rate index was 741.70, reflecting a competitive currency value.",
-    "year": 2016,
-    "indicatorIds": [
-      "px-rex-reer"
-    ],
-    "emoji": "💱",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Low Rule of Law Ranking",
-    "description": "Venezuela ranked in the 0.47 percentile for rule of law in 2023, indicating weak legal frameworks and governance.",
-    "year": 2023,
-    "indicatorIds": [
-      "rl-per-rnk"
-    ],
-    "emoji": "⚖️",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Extended Compulsory Education Duration",
-    "description": "With 17 years of compulsory education in 2023, Venezuela offers one of the longest durations of mandatory schooling globally.",
+    "name": "Education Marathon",
+    "title": "Longest Compulsory Education Duration",
+    "description": "As of 2023, Venezuela mandates 17 years of compulsory education, one of the longest durations worldwide, showcasing a commitment to prolonged educational engagement.",
     "year": 2023,
     "indicatorIds": [
       "se-com-durs"
@@ -92,8 +30,39 @@
     ]
   },
   {
+    "name": "Military Spending Paradox",
+    "title": "Discrepancy in Military Expenditure",
+    "description": "In 2023, Venezuela's military expenditure in local currency was exceptionally high at 1.09e+22, yet in USD, it was one of the lowest at $3,917,057, highlighting currency valuation issues.",
+    "year": 2023,
+    "indicatorIds": [
+      "ms-mil-xpnd-cd",
+      "ms-mil-xpnd-cn"
+    ],
+    "emoji": "💰",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Rule of Law Struggles",
+    "title": "Low Rule of Law Percentile Rank",
+    "description": "Venezuela's rule of law percentile rank was at a low 0.47 in 2023, indicating challenges in governance and legal frameworks.",
+    "year": 2023,
+    "indicatorIds": [
+      "rl-per-rnk",
+      "rl-per-rnk-upper"
+    ],
+    "emoji": "⚖️",
+    "type": "BAD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Education Budget Crunch",
     "title": "Minimal Government Spending on Education",
-    "description": "In 2023, only 0.92% of government expenditure was allocated to education, one of the lowest percentages worldwide.",
+    "description": "In 2023, only 0.92% of government expenditure was allocated to education, reflecting a significant underinvestment in the sector.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-totl-gb-zs"
@@ -102,6 +71,20 @@
     "type": "BAD",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "name": "Currency Conundrum",
+    "title": "High Real Effective Exchange Rate",
+    "description": "Venezuela's real effective exchange rate index was 741.70 in 2016, indicating a strong currency valuation against a basket of currencies, despite domestic economic challenges.",
+    "year": 2016,
+    "indicatorIds": [
+      "px-rex-reer"
+    ],
+    "emoji": "💱",
+    "type": "GOOD",
+    "topicIds": [
+      "financial-sector"
     ]
   }
 ]

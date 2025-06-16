@@ -1,47 +1,8 @@
 [
   {
-    "title": "Lowest Female Suicide Mortality Rate",
-    "description": "In 2021, Oman's female suicide mortality rate was the lowest globally at 0.21 per 100,000 female population, indicating strong mental health support systems.",
-    "year": 2021,
-    "indicatorIds": [
-      "sh-sta-suic-fe-p5"
-    ],
-    "emoji": "🌟",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Employment in Industry",
-    "description": "As of 2023, 40.16% of Oman's total employment is in the industrial sector, showcasing a robust industrial workforce.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-ind-empl-zs"
-    ],
-    "emoji": "🏭",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Rapid Population Growth",
-    "description": "Oman's population growth rate reached 6.53% in 2023, one of the highest globally, reflecting a rapidly expanding population.",
-    "year": 2023,
-    "indicatorIds": [
-      "sp-pop-grow"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "climate-change",
-      "health"
-    ]
-  },
-  {
-    "title": "Significant Urban Population Growth",
-    "description": "In 2023, Oman's urban population growth was 7.27%, indicating a swift urbanization trend.",
+    "name": "Urban Boomtown",
+    "title": "Fastest Urban Population Growth",
+    "description": "In 2023, Oman experienced a remarkable urban population growth rate of 7.27%, the highest globally. This rapid urbanization reflects the country's dynamic development and modernization efforts.",
     "year": 2023,
     "indicatorIds": [
       "sp-urb-grow"
@@ -54,17 +15,61 @@
     ]
   },
   {
-    "title": "High Dependence on Arab World Imports",
-    "description": "In 2023, 53.13% of Oman's merchandise imports came from the Arab World, highlighting a strong regional trade reliance.",
+    "name": "Industrial Powerhouse",
+    "title": "High Employment in Industry",
+    "description": "As of 2023, 40.16% of Oman's workforce is employed in the industrial sector, showcasing the country's strong industrial base and economic diversification.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-ind-empl-zs"
+    ],
+    "emoji": "🏭",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Population Surge",
+    "title": "Rapid Population Growth",
+    "description": "Oman's population grew by 6.53% in 2023, one of the highest rates worldwide, indicating a vibrant and expanding society.",
+    "year": 2023,
+    "indicatorIds": [
+      "sp-pop-grow"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": [
+      "climate-change",
+      "health"
+    ]
+  },
+  {
+    "name": "Arab Trade Hub",
+    "title": "Major Importer from Arab World",
+    "description": "In 2023, 53.13% of Oman's merchandise imports came from Arab countries, highlighting its strong trade ties within the region.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-al-zs"
     ],
-    "emoji": "🛍️",
-    "type": "BAD",
+    "emoji": "🛳️",
+    "type": "GOOD",
     "topicIds": [
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "name": "Safe Haven for Women",
+    "title": "Lowest Female Suicide Rate",
+    "description": "Oman recorded a female suicide mortality rate of just 0.21 per 100,000 in 2021, the lowest globally, reflecting a supportive environment for women's mental health.",
+    "year": 2021,
+    "indicatorIds": [
+      "sh-sta-suic-fe-p5"
+    ],
+    "emoji": "🌸",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

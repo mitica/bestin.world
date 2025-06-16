@@ -1,7 +1,8 @@
 [
   {
-    "title": "Significant Humanitarian Support",
-    "description": "In 2021, Fiji received $500,000 in net official flows from UN agencies, specifically the Central Emergency Response Fund (CERF). This financial support highlights the international community's commitment to assisting Fiji in times of need.",
+    "name": "UN Generosity",
+    "title": "Significant UN Support",
+    "description": "In 2021, Fiji received $500,000 in net official flows from UN agencies, highlighting the country's reliance on international aid for development and emergency relief.",
     "year": 2021,
     "indicatorIds": [
       "dt-nfl-cerf-cd"
@@ -11,14 +12,15 @@
     "topicIds": []
   },
   {
-    "title": "Low Prevalence of HIV Among Children",
-    "description": "As of 2022, there are 100 children aged 0-14 living with HIV in Fiji. This relatively low number reflects the country's efforts in managing and preventing the spread of HIV among its younger population.",
+    "name": "HIV Challenge",
+    "title": "Youth HIV Concerns",
+    "description": "In 2022, there were 100 children aged 0-14 living with HIV in Fiji, indicating a need for enhanced healthcare and preventive measures.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"
     ],
-    "emoji": "🧒",
-    "type": "GOOD",
+    "emoji": "🩺",
+    "type": "BAD",
     "topicIds": [
       "health"
     ]

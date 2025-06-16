@@ -1,62 +1,70 @@
 [
   {
-    "title": "High Net Foreign Assets",
-    "description": "In 2016, Iran's net foreign assets reached 2,473,743,911,927,340 LCU, indicating a strong international financial position.",
-    "year": 2016,
+    "name": "In Savings We Trust",
+    "title": "Top Savers in the World",
+    "description": "In 2023, Iran's gross domestic savings reached a staggering 52,675,294,000,000,000 LCU, showcasing the country's strong saving habits.",
+    "year": 2023,
     "indicatorIds": [
-      "fm-ast-nfrg-cn"
+      "ny-gds-totl-cn"
     ],
     "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
-      "financial-sector"
+      "economy"
     ]
   },
   {
-    "title": "Robust Government Expenditure",
-    "description": "In 2023, Iran's general government final consumption expenditure was 18,422,330,000,000,000 LCU, reflecting substantial public sector investment.",
+    "name": "Government Spending Spree",
+    "title": "High Government Expenditure",
+    "description": "Iran's general government final consumption expenditure hit 18,422,330,000,000,000 LCU in 2023, reflecting substantial public sector spending.",
     "year": 2023,
     "indicatorIds": [
-      "ne-con-govt-cn"
+      "ne-con-govt-cn",
+      "ne-con-govt-kn"
     ],
     "emoji": "🏛️",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Significant Household Consumption",
-    "description": "Households and NPISHs final consumption expenditure in Iran was 71,941,643,000,000,000 LCU in 2023, showing strong domestic demand.",
+    "name": "Export Enthusiasts",
+    "title": "Robust Export Sector",
+    "description": "In 2023, Iran's exports of goods and services amounted to 34,617,095,000,000,000 LCU, highlighting a strong export-driven economy.",
     "year": 2023,
     "indicatorIds": [
-      "ne-con-prvt-cn"
+      "ne-exp-gnfs-cn"
     ],
-    "emoji": "🏠",
+    "emoji": "🚢",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Gross National Expenditure",
-    "description": "In 2022, Iran's gross national expenditure was 100,190,975,344,245,000 LCU, indicating a high level of economic activity.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-dab-totl-cn"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Strong Industrial Sector",
-    "description": "In 2023, the value added by Iran's industry, including construction, was 51,842,958,000,000,000 LCU, highlighting industrial strength.",
+    "name": "Agriculture Aces",
+    "title": "Strong Agricultural Sector",
+    "description": "Iran's agriculture, forestry, and fishing sectors contributed 18,360,183,000,000,000 LCU to the economy in 2023, underscoring its agricultural prowess.",
     "year": 2023,
     "indicatorIds": [
-      "nv-ind-totl-cn"
+      "nv-agr-totl-cn",
+      "nv-agr-totl-kn"
+    ],
+    "emoji": "🌾",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Industrial Giants",
+    "title": "Thriving Industrial Sector",
+    "description": "In 2023, Iran's industry, including construction, added 51,842,958,000,000,000 LCU to the economy, showcasing a robust industrial base.",
+    "year": 2023,
+    "indicatorIds": [
+      "nv-ind-totl-cn",
+      "nv-ind-totl-kn"
     ],
     "emoji": "🏗️",
     "type": "GOOD",
@@ -65,37 +73,13 @@
     ]
   },
   {
-    "title": "High GDP",
-    "description": "Iran's GDP in 2023 was 143,039,267,000,000,000 LCU, reflecting a significant economic output.",
+    "name": "Service Sector Surge",
+    "title": "Dominant Service Industry",
+    "description": "Iran's service sector contributed 69,039,487,000,000,000 LCU in 2023, indicating a strong service-driven economy.",
     "year": 2023,
     "indicatorIds": [
-      "ny-gdp-mktp-cn"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Substantial Gross Domestic Savings",
-    "description": "In 2023, Iran's gross domestic savings amounted to 52,675,294,000,000,000 LCU, indicating a strong savings culture.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gds-totl-cn"
-    ],
-    "emoji": "💾",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High GNI",
-    "description": "Iran's GNI in 2023 was 142,872,444,650,948,000 LCU, showcasing a robust national income.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gnp-mktp-cn"
+      "nv-srv-totl-cn",
+      "nv-srv-totl-kn"
     ],
     "emoji": "💼",
     "type": "GOOD",
@@ -104,11 +88,13 @@
     ]
   },
   {
-    "title": "Strong Educational Intake",
-    "description": "In 2017, Iran achieved a net intake rate of 99.98% for females in grade 1, reflecting high educational enrollment.",
+    "name": "Education Excellence",
+    "title": "High Primary Education Enrollment",
+    "description": "In 2017, Iran achieved a near-perfect net intake rate in grade 1, with 99.98% of eligible females enrolled, reflecting a strong commitment to education.",
     "year": 2017,
     "indicatorIds": [
-      "se-prm-nint-fe-zs"
+      "se-prm-nint-fe-zs",
+      "se-prm-nint-zs"
     ],
     "emoji": "📚",
     "type": "GOOD",
@@ -118,50 +104,60 @@
     ]
   },
   {
-    "title": "High Imports of Goods and Services",
-    "description": "In 2023, Iran's imports of goods and services were valued at 40,021,046,000,000,000 LCU, indicating strong international trade activity.",
+    "name": "Currency Conundrum",
+    "title": "Complex Exchange Rate System",
+    "description": "Iran's official exchange rate was 42,000 LCU per US$ in 2023, with a PPP conversion factor of 89,391.81, indicating a multifaceted currency system.",
     "year": 2023,
     "indicatorIds": [
-      "ne-imp-gnfs-cn"
-    ],
-    "emoji": "🚢",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Discrepancy in GDP Estimates",
-    "description": "In 2022, Iran faced a discrepancy in expenditure estimate of GDP amounting to 2,036,316,708,500,620 LCU, suggesting potential data inconsistencies.",
-    "year": 2022,
-    "indicatorIds": [
-      "ny-gdp-disc-cn"
-    ],
-    "emoji": "❓",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "High Official Exchange Rate",
-    "description": "In 2023, Iran's official exchange rate was 42,000 LCU per US$, indicating currency valuation challenges.",
-    "year": 2023,
-    "indicatorIds": [
-      "pa-nus-fcrf"
+      "pa-nus-fcrf",
+      "pa-nus-ppp"
     ],
     "emoji": "💱",
     "type": "BAD",
     "topicIds": [
-      "financial-sector"
+      "financial-sector",
+      "economy"
     ]
   },
   {
-    "title": "Minimal External Debt Burden",
-    "description": "In 2023, Iran's external debt stocks were only 2.45% of its Gross National Income (GNI), indicating a minimal debt burden compared to global standards.",
+    "name": "Debt-Free Dream",
+    "title": "Lowest External Debt Burden",
+    "description": "Iran boasts one of the lowest external debt stocks, accounting for just 2.45% of its GNI in 2023. This positions the country as having minimal reliance on foreign debt.",
     "year": 2023,
     "indicatorIds": [
-      "dt-dod-dect-gn-zs"
+      "dt-dod-dect-gn-zs",
+      "dt-dod-pvlx-gn-zs",
+      "dt-dod-pvlx-ex-zs"
+    ],
+    "emoji": "💸",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "external-debt"
+    ]
+  },
+  {
+    "name": "Aid? What's That?",
+    "title": "Minimal Aid Dependency",
+    "description": "In 2022, Iran received negligible bilateral aid from Luxembourg, highlighting its independence from foreign aid sources.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-luxl-cd"
+    ],
+    "emoji": "🤝",
+    "type": "GOOD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Debt Service Delight",
+    "title": "Minimal Debt Service Obligations",
+    "description": "Iran's total debt service was only 0.34% of its exports in 2023, indicating a low burden of debt repayment relative to its export earnings.",
+    "year": 2023,
+    "indicatorIds": [
+      "dt-tds-dect-ex-zs",
+      "dt-tds-dppf-xp-zs"
     ],
     "emoji": "📉",
     "type": "GOOD",
@@ -171,35 +167,9 @@
     ]
   },
   {
-    "title": "Low Debt Service Ratio",
-    "description": "Iran's total debt service was just 0.34% of its exports of goods, services, and primary income in 2023, showcasing efficient debt management.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-dect-ex-zs"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Limited Bilateral Aid from Luxembourg",
-    "description": "In 2022, Iran received minimal bilateral aid from Luxembourg, amounting to $9,999.99, reflecting limited financial support from this donor.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-dac-luxl-cd"
-    ],
-    "emoji": "🇱🇺",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Negative External Balance on Goods and Services",
-    "description": "Iran faced a significant external balance deficit of -5,403,951,000,000,000 LCU in 2023, indicating challenges in trade balance.",
+    "name": "Trade Troubles",
+    "title": "Negative External Balance",
+    "description": "Iran faced a significant external balance deficit in 2023, with a negative value of -5,403,951,000,000,000 LCU, indicating challenges in trade.",
     "year": 2023,
     "indicatorIds": [
       "ne-rsb-gnfs-cn"
@@ -211,83 +181,45 @@
     ]
   },
   {
-    "title": "Discrepancy in GDP Expenditure Estimate",
-    "description": "In 2022, there was a discrepancy of -195,940,706,686,100 LCU in Iran's GDP expenditure estimates, suggesting potential inaccuracies in economic data.",
+    "name": "GDP Guesswork",
+    "title": "Discrepancy in GDP Estimates",
+    "description": "In 2022, Iran had a discrepancy of -195,940,706,686,100 LCU in its GDP expenditure estimates, suggesting inconsistencies in economic data.",
     "year": 2022,
     "indicatorIds": [
       "ny-gdp-disc-kn"
     ],
-    "emoji": "🔍",
+    "emoji": "📊",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
+    "name": "Trade Terms Tumble",
     "title": "Negative Terms of Trade Adjustment",
-    "description": "Iran experienced a negative terms of trade adjustment of -1,585,600,410,845,230 LCU in 2023, indicating unfavorable trade conditions.",
+    "description": "Iran's terms of trade adjustment was negative at -1,585,600,410,845,230 LCU in 2023, indicating unfavorable trade conditions.",
     "year": 2023,
     "indicatorIds": [
       "ny-ttf-gnfs-kn"
     ],
-    "emoji": "⚖️",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Low Female Labor Force with Intermediate Education",
-    "description": "In 2022, only 8.78% of Iran's female working-age population had intermediate education, highlighting a gap in educational attainment.",
+    "name": "Education Gap",
+    "title": "Low Female Intermediate Education",
+    "description": "Only 8.78% of Iran's female working-age population had intermediate education in 2022, highlighting a gap in educational attainment.",
     "year": 2022,
     "indicatorIds": [
       "sl-tlf-intm-fe-zs"
     ],
-    "emoji": "👩‍🎓",
+    "emoji": "🎓",
     "type": "BAD",
     "topicIds": [
       "social-protection"
-    ]
-  },
-  {
-    "title": "Minimal Present Value of External Debt",
-    "description": "The present value of Iran's external debt was just 1.67% of its GNI in 2023, reflecting a low long-term debt burden.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-pvlx-gn-zs"
-    ],
-    "emoji": "📊",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Debt Service on Public and IMF Loans",
-    "description": "In 2023, Iran's debt service on public and IMF loans was only 0.30% of its exports, indicating effective debt management strategies.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-dppf-xp-zs"
-    ],
-    "emoji": "🏦",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Minimal Present Value of Debt Relative to Exports",
-    "description": "In 2023, the present value of Iran's external debt was only 6.31% of its exports, showcasing a sustainable debt level.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-pvlx-ex-zs"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "external-debt"
     ]
   }
 ]

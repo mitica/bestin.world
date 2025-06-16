@@ -1,38 +1,44 @@
 [
   {
-    "title": "High Political Stability Sources",
-    "description": "In 2023, Mexico had 9 sources contributing to its political stability and absence of violence/terrorism, indicating a diverse and robust information base.",
-    "year": 2023,
+    "name": "Aid from Luxembourg",
+    "title": "Minimal Aid from Luxembourg",
+    "description": "In 2021, Mexico received one of the lowest net bilateral aid flows from Luxembourg, amounting to just $9,999.99. This indicates limited financial support from this particular DAC donor.",
+    "year": 2021,
     "indicatorIds": [
-      "pv-no-src"
+      "dc-dac-luxl-cd"
     ],
-    "emoji": "🛡️",
-    "type": "GOOD",
+    "emoji": "💸",
+    "type": "BAD",
     "topicIds": [
-      "public-sector"
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Low Net Financial Flows from IBRD",
-    "description": "In 2023, Mexico experienced a negative net financial flow of -$1.21 billion from the International Bank for Reconstruction and Development (IBRD).",
+    "name": "Financial Outflows",
+    "title": "Significant Financial Outflows",
+    "description": "In 2023, Mexico experienced substantial net financial outflows, with $1.21 billion from IBRD, $1.83 billion from multilateral sources, $1.74 billion from official creditors, and $525.9 million from RDB nonconcessional sources. These figures highlight a significant financial drain from the country.",
     "year": 2023,
     "indicatorIds": [
-      "dt-nfl-mibr-cd"
+      "dt-nfl-mibr-cd",
+      "dt-nfl-mlat-cd",
+      "dt-nfl-offt-cd",
+      "dt-nfl-rdbn-cd"
     ],
-    "emoji": "📉",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "external-debt"
     ]
   },
   {
-    "title": "Minimal Export Tax Revenue",
-    "description": "In 2022, taxes on exports constituted a negligible 0.0000013% of Mexico's total tax revenue, indicating a minimal reliance on export taxes.",
+    "name": "Export Taxation",
+    "title": "Negligible Export Taxation",
+    "description": "In 2022, taxes on exports contributed a minuscule 0.0000013% to Mexico's tax revenue, indicating a negligible reliance on export taxation as a revenue source.",
     "year": 2022,
     "indicatorIds": [
       "gc-tax-expt-zs"
     ],
-    "emoji": "💸",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "public-sector",
@@ -40,73 +46,9 @@
     ]
   },
   {
-    "title": "Significant Unpaid Domestic Work by Women",
-    "description": "In 2019, Mexican women spent 27.77% of their day on unpaid domestic and care work, highlighting a significant gender disparity in domestic responsibilities.",
-    "year": 2019,
-    "indicatorIds": [
-      "sg-tim-uwrk-fe"
-    ],
-    "emoji": "👩‍🍳",
-    "type": "BAD",
-    "topicIds": [
-      "gender"
-    ]
-  },
-  {
-    "title": "Effective Diarrhea Treatment for Children",
-    "description": "In 2015, 79.9% of children under 5 in Mexico received oral rehydration and continued feeding for diarrhea treatment, showcasing effective healthcare practices.",
-    "year": 2015,
-    "indicatorIds": [
-      "sh-sta-orcf-zs"
-    ],
-    "emoji": "💊",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Net Financial Flows from Multilateral Sources",
-    "description": "In 2023, Mexico's net financial flows from multilateral sources were negative, amounting to -$1.83 billion, indicating a financial outflow.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-mlat-cd"
-    ],
-    "emoji": "🔻",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Negative Financial Flows from Official Creditors",
-    "description": "In 2023, Mexico faced a negative net financial flow of -$1.74 billion from official creditors, reflecting financial challenges.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-offt-cd"
-    ],
-    "emoji": "💼",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Net Financial Flows from RDB Nonconcessional",
-    "description": "In 2023, Mexico experienced a negative net financial flow of -$525.9 million from regional development banks' nonconcessional sources.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-nfl-rdbn-cd"
-    ],
-    "emoji": "🏦",
-    "type": "BAD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Minimal Arms Exports",
-    "description": "In 2019, Mexico's arms exports were valued at 1 million SIPRI trend indicator values, indicating a limited role in the global arms trade.",
+    "name": "Arms Exporter",
+    "title": "Modest Arms Exporter",
+    "description": "In 2019, Mexico's arms exports were valued at $1 million, reflecting a modest presence in the global arms market.",
     "year": 2019,
     "indicatorIds": [
       "ms-mil-xprt-kd"
@@ -119,29 +61,46 @@
     ]
   },
   {
-    "title": "Low Bilateral Aid from Luxembourg",
-    "description": "In 2021, Mexico received $9,999.99 in net bilateral aid flows from Luxembourg, reflecting minimal financial assistance from this donor.",
-    "year": 2021,
-    "indicatorIds": [
-      "dc-dac-luxl-cd"
-    ],
-    "emoji": "🇱🇺",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Low Political Stability Standard Error",
-    "description": "In 2023, Mexico had a political stability standard error of 0.205, indicating a relatively stable political environment with low variability.",
+    "name": "Political Stability",
+    "title": "Stable Political Environment",
+    "description": "In 2023, Mexico had a political stability score with 9 sources and a standard error of 0.205, suggesting a relatively stable political environment with low volatility.",
     "year": 2023,
     "indicatorIds": [
+      "pv-no-src",
       "pv-std-err"
     ],
-    "emoji": "📊",
+    "emoji": "🏛️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "name": "Women's Unpaid Work",
+    "title": "High Female Unpaid Workload",
+    "description": "In 2019, Mexican women spent 27.77% of their day on unpaid domestic and care work, highlighting a significant gender disparity in unpaid labor.",
+    "year": 2019,
+    "indicatorIds": [
+      "sg-tim-uwrk-fe"
+    ],
+    "emoji": "👩‍🍳",
+    "type": "BAD",
+    "topicIds": [
+      "gender"
+    ]
+  },
+  {
+    "name": "Child Health",
+    "title": "Effective Diarrhea Treatment",
+    "description": "In 2015, 79.9% of Mexican children under 5 received oral rehydration and continued feeding for diarrhea treatment, indicating effective healthcare practices for this condition.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-sta-orcf-zs"
+    ],
+    "emoji": "👶",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

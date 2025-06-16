@@ -1,11 +1,58 @@
 [
   {
-    "title": "High Coverage of Social Insurance Programs",
-    "description": "In 2022, 60.23% of Armenia's population was covered by social insurance programs, with the poorest quintile having a slightly higher coverage at 61.64%.",
+    "name": "Gift-Free Governance",
+    "title": "Lowest Bribery in Tax Meetings",
+    "description": "In 2020, only 0.1% of firms in Armenia reported giving gifts during meetings with tax officials, showcasing a transparent and corruption-free tax system.",
+    "year": 2020,
+    "indicatorIds": [
+      "ic-tax-gift-zs"
+    ],
+    "emoji": "🧾",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "name": "Energy Efficient Nation",
+    "title": "Minimal Energy Depletion",
+    "description": "Armenia reported an energy depletion of just $1.11 in 2021, equivalent to a negligible 0.000000008% of its GNI, highlighting its efficient energy use.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-adj-dngy-cd",
+      "ny-adj-dngy-gn-zs"
+    ],
+    "emoji": "🔋",
+    "type": "GOOD",
+    "topicIds": [
+      "economy",
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "name": "Coal-Free Economy",
+    "title": "Negligible Coal Rents",
+    "description": "In 2021, coal rents accounted for a mere 0.00000276% of Armenia's GDP, indicating a minimal reliance on coal resources.",
+    "year": 2021,
+    "indicatorIds": [
+      "ny-gdp-coal-rt-zs"
+    ],
+    "emoji": "🌱",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Social Safety Net",
+    "title": "Extensive Social Insurance Coverage",
+    "description": "By 2022, 60.23% of Armenia's population was covered by social insurance programs, with the poorest quintile seeing a 61.64% coverage rate.",
     "year": 2022,
     "indicatorIds": [
       "per_si_allsi-cov_pop_tot",
-      "per_si_allsi-cov_q1_tot"
+      "per_si_allsi-cov_q1_tot",
+      "per_si_allsi-cov_q4_tot"
     ],
     "emoji": "🛡️",
     "type": "GOOD",
@@ -14,21 +61,9 @@
     ]
   },
   {
-    "title": "Low Incidence of Gift-Giving in Tax Meetings",
-    "description": "In 2020, only 0.1% of firms in Armenia reported giving gifts during meetings with tax officials, indicating low levels of corruption in tax administration.",
-    "year": 2020,
-    "indicatorIds": [
-      "ic-tax-gift-zs"
-    ],
-    "emoji": "🎁",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "High Female Representation Among Secondary Education Teachers",
-    "description": "As of 2023, 88.38% of secondary education teachers in Armenia were female, showcasing gender inclusivity in the education sector.",
+    "name": "Women Lead Education",
+    "title": "High Female Representation Among Teachers",
+    "description": "In 2023, 88.38% of secondary education teachers in Armenia were female, reflecting gender inclusivity in the education sector.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-tchr-fe-zs"
@@ -41,23 +76,26 @@
     ]
   },
   {
-    "title": "Minimal Energy Depletion Impact on Economy",
-    "description": "In 2021, energy depletion accounted for a negligible 0.0000000082% of Armenia's GNI, reflecting sustainable energy usage.",
-    "year": 2021,
+    "name": "Low Violence Tolerance",
+    "title": "Minimal Acceptance of Domestic Violence",
+    "description": "In 2016, only 3.5% of Armenian women reported experiencing physical or sexual violence, with a mere 0.4% believing violence is justified for burning food.",
+    "year": 2016,
     "indicatorIds": [
-      "ny-adj-dngy-gn-zs"
+      "sg-vaw-1549-zs",
+      "sg-vaw-burn-zs",
+      "sg-vaw-refu-zs"
     ],
-    "emoji": "🔋",
+    "emoji": "✋",
     "type": "GOOD",
     "topicIds": [
-      "economy",
-      "energy",
-      "environment"
+      "health",
+      "gender"
     ]
   },
   {
-    "title": "Low Government Expenditure on Education",
-    "description": "In 2023, Armenia's government expenditure on education was only 0.24% of GDP, indicating potential underinvestment in the education sector.",
+    "name": "Education Budget Constraints",
+    "title": "Low Government Spending on Education",
+    "description": "In 2023, government expenditure on education was only 0.24% of Armenia's GDP, indicating potential areas for increased investment.",
     "year": 2023,
     "indicatorIds": [
       "se-xpd-totl-gd-zs"
@@ -69,8 +107,9 @@
     ]
   },
   {
-    "title": "Low Urban Access to Safely Managed Sanitation Services",
-    "description": "In 2018, only 0.06% of Armenia's urban population had access to safely managed sanitation services, highlighting a significant public health challenge.",
+    "name": "Sanitation Struggles",
+    "title": "Limited Urban Sanitation Services",
+    "description": "As of 2018, only 6% of Armenia's urban population had access to safely managed sanitation services, highlighting a critical area for improvement.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-smss-ur-zs"
@@ -80,21 +119,6 @@
     "topicIds": [
       "health",
       "environment"
-    ]
-  },
-  {
-    "title": "Low Belief in Justification of Domestic Violence",
-    "description": "In 2016, only 0.4% of Armenian women believed a husband is justified in beating his wife for burning food, and 0.8% for refusing sex, reflecting progressive attitudes towards gender equality.",
-    "year": 2016,
-    "indicatorIds": [
-      "sg-vaw-burn-zs",
-      "sg-vaw-refu-zs"
-    ],
-    "emoji": "✊",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "gender"
     ]
   }
 ]

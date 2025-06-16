@@ -1,7 +1,8 @@
 [
   {
-    "title": "Urbanization at Its Peak",
-    "description": "In 2024, Singapore's entire urban population resides in its largest city, marking a 100% urbanization rate, the highest globally.",
+    "name": "City Life Central",
+    "title": "Urban Living at Its Peak",
+    "description": "In 2024, 100% of Singapore's population resides in urban areas, showcasing a fully urbanized nation.",
     "year": 2024,
     "indicatorIds": [
       "en-urb-lcty-ur-zs",
@@ -15,24 +16,30 @@
     ]
   },
   {
-    "title": "Financial Accessibility for All",
-    "description": "As of 2023, Singapore boasts 2,902 depositors per 1,000 adults in commercial banks, indicating widespread financial inclusion.",
+    "name": "Banking Bonanza",
+    "title": "Banking Engagement at Its Best",
+    "description": "As of 2023, Singapore boasts 2,902 depositors and 1,073 borrowers per 1,000 adults, indicating a highly engaged banking population.",
     "year": 2023,
     "indicatorIds": [
+      "fb-cbk-brwr-p3",
       "fb-cbk-dptr-p3"
     ],
-    "emoji": "💰",
+    "emoji": "🏦",
     "type": "GOOD",
     "topicIds": [
       "financial-sector"
     ]
   },
   {
-    "title": "Exemplary Government Effectiveness",
-    "description": "In 2023, Singapore achieved a perfect 100 percentile rank in government effectiveness, showcasing its superior governance.",
+    "name": "Governance Gold Standard",
+    "title": "Top-Tier Government Effectiveness",
+    "description": "In 2023, Singapore ranks at the 100th percentile for government effectiveness, reflecting exceptional governance.",
     "year": 2023,
     "indicatorIds": [
-      "ge-per-rnk"
+      "ge-est",
+      "ge-per-rnk",
+      "ge-per-rnk-lower",
+      "ge-per-rnk-upper"
     ],
     "emoji": "🏛️",
     "type": "GOOD",
@@ -41,35 +48,50 @@
     ]
   },
   {
-    "title": "High Human Capital Index",
-    "description": "With a Human Capital Index of 0.88 in 2020, Singapore ranks among the top globally, reflecting its strong investment in education and health.",
+    "name": "Human Capital Heroes",
+    "title": "Leading in Human Capital Development",
+    "description": "With a Human Capital Index of 0.88 in 2020, Singapore excels in nurturing its human resources.",
     "year": 2020,
     "indicatorIds": [
-      "hd-hci-ovrl"
+      "hd-hci-ovrl",
+      "hd-hci-ovrl-fe",
+      "hd-hci-ovrl-lb",
+      "hd-hci-ovrl-lb-fe",
+      "hd-hci-ovrl-lb-ma",
+      "hd-hci-ovrl-ma",
+      "hd-hci-ovrl-ub",
+      "hd-hci-ovrl-ub-fe",
+      "hd-hci-ovrl-ub-ma"
     ],
-    "emoji": "📚",
+    "emoji": "👩‍🎓",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Robust Business Insolvency Framework",
-    "description": "In 2024, Singapore scored 89.7 in business insolvency, highlighting its efficient regulatory environment for businesses.",
+    "name": "Business Resilience Ready",
+    "title": "Excellence in Business Insolvency Management",
+    "description": "In 2024, Singapore scores 89.7 in business insolvency, highlighting robust regulatory and operational frameworks.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-bi-os"
+      "ic-bre-bi-os",
+      "ic-bre-bi-p1",
+      "ic-bre-bi-p3",
+      "ic-bre-p3-oe"
     ],
-    "emoji": "🏢",
+    "emoji": "📈",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Top-Tier Statistical Performance",
-    "description": "Singapore achieved a perfect score of 100 in Pillar 2 data services in 2023, indicating world-class statistical capabilities.",
+    "name": "Data Driven",
+    "title": "Top Performer in Statistical Services",
+    "description": "In 2023, Singapore achieved a perfect score in data services, emphasizing its commitment to data excellence.",
     "year": 2023,
     "indicatorIds": [
-      "iq-spi-pil2"
+      "iq-spi-pil2",
+      "iq-spi-pil4"
     ],
     "emoji": "📊",
     "type": "GOOD",
@@ -78,11 +100,17 @@
     ]
   },
   {
-    "title": "Efficient Logistics Infrastructure",
-    "description": "In 2022, Singapore scored 4.6 in the quality of trade and transport-related infrastructure, ranking among the best globally.",
+    "name": "Logistics Leaders",
+    "title": "Exemplary Logistics Performance",
+    "description": "In 2022, Singapore scored 4.3 overall in logistics, excelling in infrastructure and customs efficiency.",
     "year": 2022,
     "indicatorIds": [
-      "lp-lpi-infr-xq"
+      "lp-lpi-cust-xq",
+      "lp-lpi-infr-xq",
+      "lp-lpi-logs-xq",
+      "lp-lpi-ovrl-xq",
+      "lp-lpi-time-xq",
+      "lp-lpi-trac-xq"
     ],
     "emoji": "🚚",
     "type": "GOOD",
@@ -92,24 +120,73 @@
     ]
   },
   {
-    "title": "High GDP Per Capita",
-    "description": "In 2023, Singapore's GDP per capita reached $141,553, reflecting its strong economic performance and high living standards.",
-    "year": 2023,
+    "name": "Manufacturing Mastery",
+    "title": "Dominance in Machinery and Transport Equipment",
+    "description": "In 2021, machinery and transport equipment accounted for 52.8% of Singapore's manufacturing value added.",
+    "year": 2021,
     "indicatorIds": [
-      "ny-gdp-pcap-pp-cd"
+      "nv-mnf-mtrn-zs-un"
     ],
-    "emoji": "💵",
+    "emoji": "🏭",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Comprehensive Sanitation Services",
-    "description": "By 2022, 100% of Singapore's urban population had access to safely managed sanitation services, setting a global benchmark.",
+    "name": "Wealthy Wonderland",
+    "title": "High GDP Per Capita",
+    "description": "In 2023, Singapore's GDP per capita reached $141,553, showcasing its economic prosperity.",
+    "year": 2023,
+    "indicatorIds": [
+      "ny-gdp-pcap-pp-cd"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "economy"
+    ]
+  },
+  {
+    "name": "Stable and Secure",
+    "title": "Political Stability and Regulatory Quality",
+    "description": "In 2023, Singapore achieved a perfect score in regulatory quality, ensuring a stable political environment.",
+    "year": 2023,
+    "indicatorIds": [
+      "pv-no-src",
+      "rq-est",
+      "rq-per-rnk",
+      "rq-per-rnk-lower",
+      "rq-per-rnk-upper"
+    ],
+    "emoji": "🛡️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
+  },
+  {
+    "name": "Education Excellence",
+    "title": "Near-Perfect Primary Enrollment",
+    "description": "In 2017, Singapore's primary enrollment rate was 99.97%, reflecting its commitment to education.",
+    "year": 2017,
+    "indicatorIds": [
+      "se-prm-tenr"
+    ],
+    "emoji": "📚",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Sanitation Success",
+    "title": "Universal Access to Sanitation",
+    "description": "By 2022, 100% of Singapore's population had access to safely managed sanitation services.",
     "year": 2022,
     "indicatorIds": [
-      "sh-sta-smss-ur-zs"
+      "sh-sta-smss-ur-zs",
+      "sh-sta-smss-zs"
     ],
     "emoji": "🚽",
     "type": "GOOD",
@@ -119,21 +196,23 @@
     ]
   },
   {
-    "title": "Minimal Arable Land Per Person",
-    "description": "In 2021, Singapore had one of the lowest arable land per person ratios globally, with only 0.0001 hectares available per person.",
+    "name": "Landless Wonders",
+    "title": "Least Arable Land Per Person",
+    "description": "In 2021, Singapore had the lowest arable land per person globally, with only 0.0001 hectares available per individual.",
     "year": 2021,
     "indicatorIds": [
       "ag-lnd-arbl-ha-pc"
     ],
-    "emoji": "🌾",
+    "emoji": "🌍",
     "type": "BAD",
     "topicIds": [
       "agriculture"
     ]
   },
   {
-    "title": "Significant Foreign Direct Investment Outflow",
-    "description": "In 2024, Singapore experienced a net foreign direct investment outflow of approximately $96.68 billion, indicating a substantial capital movement out of the country.",
+    "name": "Investment Exodus",
+    "title": "Negative Foreign Direct Investment",
+    "description": "In 2024, Singapore experienced a significant net outflow of foreign direct investment, amounting to -$96.68 billion.",
     "year": 2024,
     "indicatorIds": [
       "bn-klt-dinv-cd"
@@ -146,8 +225,9 @@
     ]
   },
   {
-    "title": "Efficient Power Transmission",
-    "description": "Singapore's electric power transmission and distribution losses were remarkably low at 0.3% of output in 2022, showcasing efficient energy management.",
+    "name": "Power Efficiency Champs",
+    "title": "Minimal Electric Power Losses",
+    "description": "In 2022, Singapore achieved one of the lowest electric power transmission and distribution losses globally, at just 0.30% of output.",
     "year": 2022,
     "indicatorIds": [
       "eg-elc-loss-zs"
@@ -160,8 +240,9 @@
     ]
   },
   {
-    "title": "Minimal Rural Population in Low Elevation Areas",
-    "description": "As of 2015, only 0.007% of Singapore's rural population lived in areas below 5 meters elevation, reducing vulnerability to sea-level rise.",
+    "name": "Safe Heights",
+    "title": "Minimal Population in Low Elevation Areas",
+    "description": "As of 2015, only 0.67% of Singapore's rural population lived in areas below 5 meters elevation, minimizing flood risks.",
     "year": 2015,
     "indicatorIds": [
       "en-pop-el5m-ru-zs"
@@ -175,8 +256,9 @@
     ]
   },
   {
+    "name": "Investment Drought",
     "title": "Negative Net Investment in Nonfinancial Assets",
-    "description": "In 2016, Singapore's net investment in nonfinancial assets was negative at -1.02% of GDP, indicating a reduction in asset accumulation.",
+    "description": "In 2016, Singapore's net investment in nonfinancial assets was -1.02% of GDP, indicating a reduction in asset accumulation.",
     "year": 2016,
     "indicatorIds": [
       "gc-nfn-totl-gd-zs"
@@ -188,21 +270,23 @@
     ]
   },
   {
-    "title": "Stable Political Environment",
-    "description": "In 2023, Singapore maintained a low standard error of 0.21 in political stability and absence of violence, reflecting a stable political climate.",
+    "name": "Stable Haven",
+    "title": "High Political Stability",
+    "description": "In 2023, Singapore maintained a low standard error of 0.21 in political stability, reflecting a peaceful and stable environment.",
     "year": 2023,
     "indicatorIds": [
       "pv-std-err"
     ],
-    "emoji": "🏛️",
+    "emoji": "🕊️",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Learning Poverty Among Female Children",
-    "description": "In 2021, only 2.1% of female children at the end of primary age in Singapore were below minimum reading proficiency, indicating strong educational outcomes.",
+    "name": "Reading Stars",
+    "title": "Low Female Learning Poverty",
+    "description": "In 2021, only 2.10% of Singaporean female children at the end of primary age were below minimum reading proficiency.",
     "year": 2021,
     "indicatorIds": [
       "se-lpv-prim-fe"
@@ -214,8 +298,9 @@
     ]
   },
   {
-    "title": "Near Universal Primary School Enrollment",
-    "description": "In 2021, only 0.03% of primary school-age children were out of school, demonstrating near-universal enrollment in Singapore.",
+    "name": "School Success",
+    "title": "Minimal Out-of-School Children",
+    "description": "In 2021, Singapore had a mere 0.03% of primary school-age children out of school, showcasing its strong education system.",
     "year": 2021,
     "indicatorIds": [
       "se-lpv-prim-sd",
@@ -227,28 +312,30 @@
     "topicIds": []
   },
   {
+    "name": "Short School Stint",
     "title": "Short Secondary Education Duration",
-    "description": "As of 2023, the duration of secondary education in Singapore was 4 years, which is shorter compared to many other countries.",
+    "description": "As of 2023, Singapore's secondary education lasts only 4 years, which is shorter than many other countries.",
     "year": 2023,
     "indicatorIds": [
       "se-sec-durs"
     ],
-    "emoji": "⏳",
+    "emoji": "📏",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Negligible Mortality from Unintentional Poisoning",
-    "description": "In 2021, the mortality rate from unintentional poisoning in Singapore was extremely low at 0.0001 per 100,000 population.",
+    "name": "Poison-Free Zone",
+    "title": "Lowest Mortality from Unintentional Poisoning",
+    "description": "In 2021, Singapore had one of the lowest mortality rates from unintentional poisoning, with just 0.0001 per 100,000 population.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-pois-p5",
       "sh-sta-pois-p5-fe",
       "sh-sta-pois-p5-ma"
     ],
-    "emoji": "🛡️",
+    "emoji": "🧪",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -256,8 +343,9 @@
     ]
   },
   {
+    "name": "Urban Workforce",
     "title": "Minimal Employment in Agriculture",
-    "description": "In 2023, only 0.1% of male employment and 0.09% of total employment in Singapore was in agriculture, reflecting a highly urbanized economy.",
+    "description": "In 2023, only 0.10% of Singapore's male employment was in agriculture, reflecting its urbanized economy.",
     "year": 2023,
     "indicatorIds": [
       "sl-agr-empl-ma-zs",
@@ -272,13 +360,14 @@
     ]
   },
   {
-    "title": "Low Early Marriage Rate Among Women",
-    "description": "In 2023, only 0.1% of women aged 20-24 in Singapore were married by age 18, indicating progressive social norms.",
+    "name": "Late Bloomers",
+    "title": "Low Child Marriage Rates",
+    "description": "In 2023, only 0.1% of Singaporean women aged 20-24 were married by age 18, indicating progressive social norms.",
     "year": 2023,
     "indicatorIds": [
       "sp-m18-2024-fe-zs"
     ],
-    "emoji": "👰",
+    "emoji": "💍",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -286,8 +375,9 @@
     ]
   },
   {
-    "title": "Low Tariff Rates on Imports",
-    "description": "In 2022, Singapore maintained low tariff rates with a simple mean of 0.05% for all products and 0.07% for most favored nations.",
+    "name": "Low Tariff Leaders",
+    "title": "Minimal Tariff Rates on Products",
+    "description": "In 2022, Singapore applied a simple mean tariff rate of 0.05% on all products, promoting free trade.",
     "year": 2022,
     "indicatorIds": [
       "tm-tax-mrch-sm-ar-zs",
@@ -301,14 +391,15 @@
     ]
   },
   {
+    "name": "Safe Streets",
     "title": "Low Intentional Homicide Rates",
-    "description": "In 2021, Singapore recorded low intentional homicide rates with 0.07 per 100,000 females and 0.13 per 100,000 males, reflecting a safe society.",
+    "description": "In 2021, Singapore had low intentional homicide rates, with 0.07 per 100,000 females and 0.13 per 100,000 males.",
     "year": 2021,
     "indicatorIds": [
       "vc-ihr-psrc-fe-p5",
       "vc-ihr-psrc-ma-p5"
     ],
-    "emoji": "🕊️",
+    "emoji": "🚔",
     "type": "GOOD",
     "topicIds": [
       "public-sector"

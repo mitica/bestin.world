@@ -1,35 +1,25 @@
 [
   {
-    "title": "Low Water Stress Levels",
-    "description": "In 2021, Congo had a water stress level of only 2.74%, indicating a sustainable use of its freshwater resources. This is one of the lowest levels globally.",
+    "name": "Water Rich Wonderland",
+    "title": "Lowest Water Stress Levels",
+    "description": "In 2021, Congo had one of the lowest water stress levels globally, with freshwater withdrawals accounting for only 2.74% of its available resources. This indicates a sustainable use of its abundant water resources.",
     "year": 2021,
     "indicatorIds": [
-      "er-h2o-fwst-zs"
+      "er-h2o-fwst-zs",
+      "er-h2o-fwtl-zs"
     ],
     "emoji": "💧",
     "type": "GOOD",
     "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Minimal Freshwater Withdrawals",
-    "description": "Congo's annual freshwater withdrawals were just 2.07% of its internal resources in 2021, showcasing efficient water management practices.",
-    "year": 2021,
-    "indicatorIds": [
-      "er-h2o-fwtl-zs"
-    ],
-    "emoji": "🚰",
-    "type": "GOOD",
-    "topicIds": [
+      "environment",
       "climate-change",
-      "infrastructure",
-      "environment"
+      "infrastructure"
     ]
   },
   {
+    "name": "Surgical Scarcity",
     "title": "Limited Surgical Procedures",
-    "description": "In 2018, Congo performed only 49 surgical procedures per 100,000 population, highlighting challenges in healthcare accessibility and infrastructure.",
+    "description": "As of 2018, Congo performed only 49 surgical procedures per 100,000 people, highlighting a significant gap in healthcare services compared to global standards.",
     "year": 2018,
     "indicatorIds": [
       "sh-sgr-proc-p5"
@@ -41,22 +31,9 @@
     ]
   },
   {
-    "title": "Moderate Binding Coverage for Primary Products",
-    "description": "As of 2015, Congo had a binding coverage of 52.18% for primary products, indicating moderate trade protection levels.",
-    "year": 2015,
-    "indicatorIds": [
-      "tm-tax-tcom-bc-zs"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low New Displacements Due to Conflict",
-    "description": "In 2019, Congo reported only 2 new displacements associated with conflict and violence, reflecting relative stability in this aspect.",
+    "name": "Stable Yet Vulnerable",
+    "title": "Minimal New Displacements Due to Conflict",
+    "description": "In 2019, Congo reported only 2 new cases of internal displacement due to conflict and violence, showcasing a relatively stable environment amidst regional challenges.",
     "year": 2019,
     "indicatorIds": [
       "vc-idp-nwcv"
@@ -65,6 +42,21 @@
     "type": "GOOD",
     "topicIds": [
       "public-sector"
+    ]
+  },
+  {
+    "name": "Trade Tensions",
+    "title": "Moderate Binding Coverage on Primary Products",
+    "description": "In 2015, Congo had a binding coverage of 52.18% on primary products, indicating moderate trade restrictions that could impact economic growth.",
+    "year": 2015,
+    "indicatorIds": [
+      "tm-tax-tcom-bc-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

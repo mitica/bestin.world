@@ -1,62 +1,8 @@
 [
   {
-    "title": "High Antiretroviral Therapy Coverage",
-    "description": "In 2022, Eswatini achieved a 95% coverage rate for antiretroviral therapy among people living with HIV, showcasing a strong healthcare response to the epidemic.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-hiv-artc-zs"
-    ],
-    "emoji": "💊",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Prevalence of HIV",
-    "description": "As of 2022, 25.9% of Eswatini's population aged 15-49 is living with HIV, indicating a significant public health challenge.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-dyn-aids-zs"
-    ],
-    "emoji": "⚠️",
-    "type": "BAD",
-    "topicIds": [
-      "health",
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Significant Merchandise Exports to Sub-Saharan Africa",
-    "description": "In 2023, 90.44% of Eswatini's merchandise exports were directed to low- and middle-income economies in Sub-Saharan Africa, highlighting strong regional trade ties.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-r6-zs"
-    ],
-    "emoji": "📦",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "High Unemployment Rate",
-    "description": "The unemployment rate in Eswatini was 34.4% in 2024, according to ILO estimates, reflecting economic challenges in job creation.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-uem-totl-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Low Total Fisheries Production",
-    "description": "In 2022, Eswatini's total fisheries production was only 165 metric tons, indicating limited activity in this sector.",
+    "name": "Fishing for a Future",
+    "title": "Smallest Fisheries Production",
+    "description": "In 2022, Eswatini produced only 165 metric tons of fish, marking one of the lowest fisheries productions globally.",
     "year": 2022,
     "indicatorIds": [
       "er-fsh-prod-mt"
@@ -68,13 +14,60 @@
     ]
   },
   {
-    "title": "Low Incidence of Child Marriage",
-    "description": "Only 0.1% of women aged 20-24 were married by age 15 in 2022, reflecting progress in reducing early marriages.",
+    "name": "HIV Battlefront",
+    "title": "High HIV Prevalence",
+    "description": "In 2022, 25.9% of Eswatini's population aged 15-49 were living with HIV, one of the highest rates worldwide. However, 95% of those affected received antiretroviral therapy, showcasing significant healthcare efforts.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-dyn-aids-zs",
+      "sh-hiv-artc-zs"
+    ],
+    "emoji": "🩺",
+    "type": "BAD",
+    "topicIds": [
+      "health",
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Youth at Risk",
+    "title": "HIV Incidence Among Youth",
+    "description": "In 2022, the incidence of HIV among Eswatini's youth aged 15-24 was 7.83 per 1,000 uninfected individuals, highlighting a critical area for intervention.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-incd-yg-p3"
+    ],
+    "emoji": "🧑‍⚕️",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Unemployment Challenge",
+    "title": "High Unemployment Rates",
+    "description": "In 2021, Eswatini faced a total unemployment rate of 34.15%, with male unemployment at 32.79% and female unemployment at 44.75% among those with intermediate education.",
+    "year": 2021,
+    "indicatorIds": [
+      "sl-uem-totl-ne-zs",
+      "sl-uem-intm-fe-zs",
+      "sl-uem-intm-ma-zs"
+    ],
+    "emoji": "📉",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Early Marriage Decline",
+    "title": "Lowest Early Marriage Rates",
+    "description": "In 2022, only 0.1% of women aged 20-24 in Eswatini were married by age 15, reflecting a positive trend towards delaying marriage.",
     "year": 2022,
     "indicatorIds": [
       "sp-m15-2024-fe-zs"
     ],
-    "emoji": "👰",
+    "emoji": "💍",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -82,29 +75,18 @@
     ]
   },
   {
-    "title": "High Suicide Mortality Rate Among Males",
-    "description": "In 2021, the suicide mortality rate for males in Eswatini was 45 per 100,000, indicating a critical mental health issue.",
-    "year": 2021,
+    "name": "Regional Trade Leader",
+    "title": "High Export to Sub-Saharan Africa",
+    "description": "In 2023, 90.44% of Eswatini's merchandise exports were directed to low- and middle-income economies in Sub-Saharan Africa, indicating strong regional trade ties.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-sta-suic-ma-p5"
+      "tx-val-mrch-r6-zs"
     ],
-    "emoji": "🆘",
-    "type": "BAD",
+    "emoji": "🌍",
+    "type": "GOOD",
     "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Unemployment Among Educated Males",
-    "description": "In 2021, 77.067% of males with intermediate education were unemployed, highlighting a mismatch between education and job opportunities.",
-    "year": 2021,
-    "indicatorIds": [
-      "sl-uem-intm-ma-zs"
-    ],
-    "emoji": "🎓",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
+      "private-sector",
+      "trade"
     ]
   }
 ]

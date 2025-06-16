@@ -1,13 +1,14 @@
 [
   {
-    "title": "High Dependence on Service Exports",
-    "description": "In 2023, communications, computer, and other services accounted for 95.93% of Papua New Guinea's service exports, indicating a strong reliance on this sector.",
+    "name": "Tech Export Titans",
+    "title": "Leading in Service Exports",
+    "description": "In 2023, Papua New Guinea's communications and computer services accounted for 95.93% of its service exports, marking it as a global leader in this sector.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-cmcp-zs",
       "tx-val-othr-zs-wt"
     ],
-    "emoji": "📊",
+    "emoji": "💻",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -16,61 +17,41 @@
     ]
   },
   {
-    "title": "Significant Rural Population",
-    "description": "As of 2023, 86.28% of Papua New Guinea's population resides in rural areas, highlighting a predominantly rural demographic.",
+    "name": "Rural Roots",
+    "title": "Predominantly Rural Nation",
+    "description": "As of 2023, 86.28% of Papua New Guinea's population resides in rural areas, highlighting its strong rural demographic.",
     "year": 2023,
     "indicatorIds": [
-      "sp-rur-totl-zs"
-    ],
-    "emoji": "🏞️",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Low Urbanization Rate",
-    "description": "Only 13.72% of the population lived in urban areas in 2023, reflecting limited urban development.",
-    "year": 2023,
-    "indicatorIds": [
+      "sp-rur-totl-zs",
       "sp-urb-totl-in-zs"
     ],
-    "emoji": "🏙️",
-    "type": "BAD",
+    "emoji": "🌾",
+    "type": "GOOD",
     "topicIds": [
+      "agriculture",
       "climate-change",
       "urban-development"
     ]
   },
   {
+    "name": "Power Struggles",
     "title": "Frequent Power Outages",
-    "description": "In 2015, firms in Papua New Guinea experienced an average of 41.9 power outages per month, impacting business operations.",
+    "description": "In 2015, firms in Papua New Guinea experienced an average of 41.9 power outages per month, affecting 97.7% of businesses.",
     "year": 2015,
     "indicatorIds": [
-      "ic-elc-outg"
-    ],
-    "emoji": "💡",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "High Rate of Electrical Outages in Firms",
-    "description": "A staggering 97.7% of firms reported experiencing electrical outages in 2015, indicating significant infrastructure challenges.",
-    "year": 2015,
-    "indicatorIds": [
+      "ic-elc-outg",
       "ic-elc-outg-zs"
     ],
-    "emoji": "⚡",
+    "emoji": "🔌",
     "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Prevalence of Informal Payments",
-    "description": "In 2015, 89.3% of firms reported making informal payments to public officials, suggesting widespread corruption.",
+    "name": "Corruption Concerns",
+    "title": "High Informal Payments",
+    "description": "In 2015, 89.3% of firms reported making informal payments to public officials, indicating significant corruption challenges.",
     "year": 2015,
     "indicatorIds": [
       "ic-frm-corr-zs"
@@ -82,33 +63,8 @@
     ]
   },
   {
-    "title": "High Incidence of Theft and Vandalism",
-    "description": "61.5% of firms experienced losses due to theft and vandalism in 2015, highlighting security concerns.",
-    "year": 2015,
-    "indicatorIds": [
-      "ic-frm-thev-zs"
-    ],
-    "emoji": "🔒",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Strong Focus on Employee Training",
-    "description": "In 2015, 73.7% of firms offered formal training, indicating a commitment to workforce development.",
-    "year": 2015,
-    "indicatorIds": [
-      "ic-frm-trng-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Low Hospital Bed Availability",
+    "name": "Healthcare Hurdles",
+    "title": "Limited Hospital Infrastructure",
     "description": "With only 0.17 hospital beds per 1,000 people in 2019, Papua New Guinea faces significant healthcare infrastructure challenges.",
     "year": 2019,
     "indicatorIds": [
@@ -121,56 +77,45 @@
     ]
   },
   {
-    "title": "High Pupil-Teacher Ratio in Secondary Education",
-    "description": "In 2016, the pupil-teacher ratio in upper secondary education was 83.26, indicating potential challenges in educational quality.",
+    "name": "Educational Challenges",
+    "title": "High Pupil-Teacher Ratio",
+    "description": "In 2016, the pupil-teacher ratio in upper secondary education was 83.26, indicating overcrowded classrooms.",
     "year": 2016,
     "indicatorIds": [
       "se-sec-enrl-up-tc-zs"
     ],
-    "emoji": "🎓",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "Minimal Stock Market Activity",
-    "description": "The turnover ratio of domestic shares was only 0.0535% in 2017, reflecting limited stock market activity.",
-    "year": 2017,
+    "name": "Security Concerns",
+    "title": "High Incidence of Theft and Vandalism",
+    "description": "In 2015, 61.5% of firms reported losses due to theft and vandalism, highlighting security issues.",
+    "year": 2015,
     "indicatorIds": [
-      "cm-mkt-trnr"
+      "ic-frm-thev-zs"
     ],
-    "emoji": "📉",
+    "emoji": "🔒",
     "type": "BAD",
     "topicIds": [
-      "financial-sector"
+      "private-sector"
     ]
   },
   {
-    "title": "Low Personal Transfer Receipts",
-    "description": "In 2023, personal transfers to Papua New Guinea amounted to $143,486, indicating low remittance inflows.",
-    "year": 2023,
+    "name": "Training Triumphs",
+    "title": "Commitment to Employee Training",
+    "description": "In 2015, 73.7% of firms offered formal training to employees, showcasing a commitment to workforce development.",
+    "year": 2015,
     "indicatorIds": [
-      "bx-trf-pwkr-cd"
+      "ic-frm-trng-zs"
     ],
-    "emoji": "💵",
-    "type": "BAD",
+    "emoji": "🎓",
+    "type": "GOOD",
     "topicIds": [
-      "economy",
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Limited Aid from Sweden",
-    "description": "In 2022, net bilateral aid flows from Sweden were $9,999, suggesting limited financial support from this donor.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-dac-swel-cd"
-    ],
-    "emoji": "🤝",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
+      "private-sector"
     ]
   }
 ]

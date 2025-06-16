@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Newborn Immunization Rate",
-    "description": "In 2023, 100% of newborns in the Bahamas were protected against tetanus, showcasing a robust healthcare system for infants.",
+    "name": "Tetanus-Free Newborns",
+    "title": "Newborns Safeguarded Against Tetanus",
+    "description": "In 2023, 100% of newborns in the Bahamas were protected against tetanus, showcasing the country's commitment to maternal and child health.",
     "year": 2023,
     "indicatorIds": [
       "sh-vac-ttns-zs"
@@ -13,11 +14,13 @@
     ]
   },
   {
-    "title": "Strong Female Youth Employment",
-    "description": "The employment to population ratio for females aged 15-24 in the Bahamas was 81.172% in 2023, indicating strong female participation in the workforce.",
+    "name": "Youth Employment Champions",
+    "title": "High Youth Employment Rates",
+    "description": "The Bahamas boasts an impressive youth employment rate of 79.6% in 2023, with females slightly ahead at 81.2%, reflecting robust opportunities for young people.",
     "year": 2023,
     "indicatorIds": [
-      "sl-emp-1524-sp-fe-ne-zs"
+      "sl-emp-1524-sp-fe-ne-zs",
+      "sl-emp-1524-sp-ne-zs"
     ],
     "emoji": "👩‍💼",
     "type": "GOOD",
@@ -26,52 +29,47 @@
     ]
   },
   {
-    "title": "High Youth Employment Rate",
-    "description": "In 2023, the Bahamas had a youth employment to population ratio of 79.588%, reflecting a vibrant job market for young individuals.",
+    "name": "Active Workforce Nation",
+    "title": "High Labor Force Participation",
+    "description": "In 2023, the Bahamas had a total labor force participation rate of 97.7%, with females participating at 98.7% and males at 96.8%, indicating a highly active workforce.",
     "year": 2023,
     "indicatorIds": [
-      "sl-emp-1524-sp-ne-zs"
+      "sl-tlf-cact-fe-ne-zs",
+      "sl-tlf-cact-ma-ne-zs",
+      "sl-tlf-cact-ne-zs"
     ],
-    "emoji": "🧑‍💼",
+    "emoji": "💼",
     "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Exceptional Female Labor Force Participation",
-    "description": "The labor force participation rate for females aged 15+ was 98.651% in 2023, highlighting gender inclusivity in the workforce.",
+    "name": "Educated Workforce",
+    "title": "Advanced Education in Labor Force",
+    "description": "In 2023, 98.8% of the Bahamas' working-age population had advanced education, with females at 99.0% and males at 98.3%, highlighting a highly educated workforce.",
     "year": 2023,
     "indicatorIds": [
-      "sl-tlf-cact-fe-ne-zs"
+      "sl-tlf-advn-fe-zs",
+      "sl-tlf-advn-ma-zs",
+      "sl-tlf-advn-zs"
     ],
-    "emoji": "👩‍🔧",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Balanced Gender Labor Force Participation",
-    "description": "In 2023, the ratio of female to male labor force participation was 101.96%, indicating a balanced gender representation in the workforce.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-tlf-cact-fm-ne-zs"
-    ],
-    "emoji": "⚖️",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Tariff Rates on Manufactured Products",
-    "description": "The Bahamas had a tariff rate of 33.23% on manufactured products in 2022, which could impact trade competitiveness.",
+    "name": "Tariff Titans",
+    "title": "High Tariff Rates on Manufactured Goods",
+    "description": "In 2022, the Bahamas applied a simple mean tariff rate of 27.9% on manufactured products, with a most favored nation rate of 33.2%, indicating significant trade barriers.",
     "year": 2022,
     "indicatorIds": [
+      "tm-tax-manf-sm-ar-zs",
       "tm-tax-manf-sm-fn-zs"
     ],
-    "emoji": "📉",
+    "emoji": "📈",
     "type": "BAD",
     "topicIds": [
       "private-sector",
@@ -79,13 +77,15 @@
     ]
   },
   {
-    "title": "Elevated Tariff Rates on All Products",
-    "description": "In 2022, the Bahamas applied a tariff rate of 26.31% on all products, potentially affecting import costs.",
+    "name": "Trade Barriers Alert",
+    "title": "High Tariff Rates on All Products",
+    "description": "In 2022, the Bahamas had a simple mean tariff rate of 26.3% on all products, with a most favored nation rate of 31.5%, suggesting a protective trade policy.",
     "year": 2022,
     "indicatorIds": [
-      "tm-tax-mrch-sm-ar-zs"
+      "tm-tax-mrch-sm-ar-zs",
+      "tm-tax-mrch-sm-fn-zs"
     ],
-    "emoji": "💸",
+    "emoji": "🚧",
     "type": "BAD",
     "topicIds": [
       "private-sector",
@@ -93,22 +93,9 @@
     ]
   },
   {
-    "title": "High Share of Tariff Lines with Specific Rates on Primary Products",
-    "description": "25.97% of tariff lines on primary products had specific rates in 2022, indicating a complex tariff structure.",
-    "year": 2022,
-    "indicatorIds": [
-      "tm-tax-tcom-sr-zs"
-    ],
-    "emoji": "📊",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Minimal Carbon Emissions from Energy Fugitive Sources",
-    "description": "In 2023, the Bahamas recorded a negligible 0.0001 Mt CO2e emissions from energy fugitive sources, showcasing its commitment to low carbon emissions.",
+    "name": "Clean Energy Champions",
+    "title": "Lowest Carbon Emissions from Energy",
+    "description": "In 2023, the Bahamas recorded one of the lowest carbon dioxide emissions from fugitive emissions in the energy sector, with a mere 0.0001 Mt CO2e. This positions the Bahamas as a leader in clean energy practices.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-co2-fe-mt-ce-ar5"
@@ -120,13 +107,14 @@
     ]
   },
   {
+    "name": "Youth Health Challenge",
     "title": "Children Living with HIV",
-    "description": "As of 2022, there were 100 children aged 0-14 living with HIV in the Bahamas, highlighting a significant public health challenge.",
+    "description": "As of 2022, there were 100 children aged 0-14 living with HIV in the Bahamas. This highlights a critical area for health interventions and support.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"
     ],
-    "emoji": "⚠️",
+    "emoji": "🩺",
     "type": "BAD",
     "topicIds": [
       "health"

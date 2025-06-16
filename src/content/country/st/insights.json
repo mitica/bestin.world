@@ -1,20 +1,8 @@
 [
   {
-    "title": "High Female Representation in Management",
-    "description": "In 2017, São Tomé and Príncipe had a remarkable 74.19% of senior and middle management positions occupied by females, showcasing significant gender inclusivity in leadership roles.",
-    "year": 2017,
-    "indicatorIds": [
-      "sl-emp-smgt-fe-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Urban Open Defecation Rates",
-    "description": "As of 2022, 38.56% of the urban population in São Tomé and Príncipe practiced open defecation, indicating a pressing need for improved sanitation infrastructure.",
+    "name": "Open Air Challenges",
+    "title": "High Urban Open Defecation Rate",
+    "description": "In 2022, 38.56% of São Tomé and Príncipe's urban population practiced open defecation, highlighting significant sanitation challenges in urban areas.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-odfc-ur-zs"
@@ -27,8 +15,23 @@
     ]
   },
   {
-    "title": "Significant Youth Unemployment and Inactivity",
-    "description": "Projected for 2024, 48.73% of male youth in São Tomé and Príncipe are neither in education, employment, nor training, highlighting challenges in youth engagement and employment opportunities.",
+    "name": "Women at the Helm",
+    "title": "Leading Female Representation in Management",
+    "description": "In 2017, women held 74.19% of senior and middle management positions in São Tomé and Príncipe, showcasing a strong female presence in leadership roles.",
+    "year": 2017,
+    "indicatorIds": [
+      "sl-emp-smgt-fe-zs"
+    ],
+    "emoji": "👩‍💼",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Youth in Limbo",
+    "title": "High Male Youth Unemployment and Inactivity",
+    "description": "By 2024, 48.73% of male youth in São Tomé and Príncipe were not engaged in education, employment, or training, indicating a significant challenge in youth engagement.",
     "year": 2024,
     "indicatorIds": [
       "sl-uem-neet-ma-me-zs"
@@ -40,26 +43,13 @@
     ]
   },
   {
-    "title": "Minimal Contribution of Insurance and Financial Services to Exports",
-    "description": "In 2022, insurance and financial services accounted for only 0.24% of São Tomé and Príncipe's service exports, indicating a limited role in the country's export economy.",
-    "year": 2022,
-    "indicatorIds": [
-      "bx-gsr-insf-zs"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "High External Debt Service",
-    "description": "In 2023, São Tomé and Príncipe's total debt service on external debt reached $6,459,726, highlighting a significant financial burden on the country's economy.",
+    "name": "Debt Dilemma",
+    "title": "High Debt Service Burden",
+    "description": "In 2023, São Tomé and Príncipe faced a total external debt service of $6,459,726, with multilateral debt service accounting for $2,181,422. This indicates a significant financial burden on the nation's economy.",
     "year": 2023,
     "indicatorIds": [
-      "dt-tds-dect-cd"
+      "dt-tds-dect-cd",
+      "dt-tds-mlat-cd"
     ],
     "emoji": "💸",
     "type": "BAD",
@@ -68,28 +58,16 @@
     ]
   },
   {
-    "title": "Low Multilateral Debt Service",
-    "description": "The country's multilateral debt service was $2,181,422 in 2023, suggesting a relatively smaller portion of debt obligations owed to multilateral institutions.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-mlat-cd"
-    ],
-    "emoji": "📊",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Limited Total Reserves",
-    "description": "São Tomé and Príncipe's total reserves, including gold, were valued at $46,247,348 in 2023, reflecting limited financial buffers.",
+    "name": "Reserves Resilience",
+    "title": "Stable Financial Reserves",
+    "description": "As of 2023, São Tomé and Príncipe maintained total reserves, including gold, valued at $46,247,347, showcasing a stable financial buffer for the nation.",
     "year": 2023,
     "indicatorIds": [
       "fi-res-totl-cd",
       "fi-res-xgld-cd"
     ],
     "emoji": "💰",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
       "economy",
       "financial-sector",
@@ -97,98 +75,52 @@
     ]
   },
   {
-    "title": "Minimal Adjusted Net National Income",
-    "description": "The adjusted net national income was $183,054,802 in 2015, indicating a modest economic scale.",
-    "year": 2015,
-    "indicatorIds": [
-      "ny-adj-nnty-kd"
-    ],
-    "emoji": "📉",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Children Living with HIV",
-    "description": "In 2022, there were 100 children aged 0-14 living with HIV, highlighting a public health challenge.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-hiv-0014"
-    ],
-    "emoji": "🩺",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Male Employment to Population Ratio",
-    "description": "In 2017, only 22.68% of males aged 15+ were employed, reflecting a low employment rate among men.",
-    "year": 2017,
-    "indicatorIds": [
-      "sl-emp-totl-sp-ma-ne-zs"
-    ],
-    "emoji": "👨‍💼",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Low Overall Employment to Population Ratio",
-    "description": "The employment to population ratio for individuals aged 15+ was 21.38% in 2024, indicating low overall employment.",
+    "name": "Labor Lowdown",
+    "title": "Low Labor Force Participation",
+    "description": "The labor force participation rate in São Tomé and Príncipe remains low, with only 23.54% of the total population aged 15+ participating in 2024, indicating challenges in workforce engagement.",
     "year": 2024,
     "indicatorIds": [
-      "sl-emp-totl-sp-zs"
+      "sl-tlf-acti-zs",
+      "sl-tlf-cact-zs",
+      "sl-tlf-totl-in"
     ],
     "emoji": "👥",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Minimal Labor Force Participation",
-    "description": "In 2024, the labor force participation rate for males aged 15+ was 24.01%, showing limited workforce engagement.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-cact-ma-zs"
-    ],
-    "emoji": "🔍",
-    "type": "BAD",
-    "topicIds": [
       "social-protection",
-      "gender",
-      "social-development"
+      "social-development",
+      "education"
     ]
   },
   {
-    "title": "Small Labor Force",
-    "description": "The total labor force was 34,471 in 2024, reflecting a small working population.",
-    "year": 2024,
+    "name": "Insurance Insight",
+    "title": "Minimal Insurance and Financial Services Exports",
+    "description": "In 2022, insurance and financial services accounted for a mere 0.0024% of São Tomé and Príncipe's service exports, highlighting a limited contribution to the economy.",
+    "year": 2022,
     "indicatorIds": [
-      "sl-tlf-totl-in"
+      "bx-gsr-insf-zs",
+      "tx-val-insf-zs-wt"
     ],
-    "emoji": "👷‍♂️",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
-      "education",
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Negligible Merchandise Exports to East Asia & Pacific",
-    "description": "In 2023, merchandise exports to low- and middle-income economies in East Asia & Pacific accounted for just 0.19% of total exports.",
-    "year": 2023,
-    "indicatorIds": [
-      "tx-val-mrch-r1-zs"
-    ],
-    "emoji": "📦",
-    "type": "BAD",
-    "topicIds": [
+      "economy",
       "private-sector",
       "trade"
+    ]
+  },
+  {
+    "name": "Youthful Challenge",
+    "title": "Children Living with HIV",
+    "description": "In 2022, there were 100 children aged 0-14 living with HIV in São Tomé and Príncipe, presenting a significant public health challenge for the nation.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-hiv-0014"
+    ],
+    "emoji": "🧒",
+    "type": "BAD",
+    "topicIds": [
+      "health"
     ]
   }
 ]

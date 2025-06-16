@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Quality of Dispute Resolution Regulations",
-    "description": "In 2024, Togo achieved a score of 94.59 in the World Bank's Dispute Resolution Pillar 1, indicating a robust regulatory framework for resolving disputes.",
+    "name": "Regulation Royalty",
+    "title": "Top-tier Dispute Resolution Regulations",
+    "description": "In 2024, Togo achieved a remarkable score of 94.59 in the quality of regulations for dispute resolution, showcasing its robust legal framework.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-dr-p1"
@@ -11,8 +12,9 @@
     "topicIds": []
   },
   {
+    "name": "Eco-Friendly Policies",
     "title": "Strong Environmental Sustainability Policies",
-    "description": "Togo received a rating of 4.5 out of 6 in 2023 for its policy and institutional framework supporting environmental sustainability, reflecting a commitment to ecological preservation.",
+    "description": "Togo's CPIA rating for environmental sustainability policies was 4.5 in 2023, reflecting a commitment to eco-friendly governance.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-envr-xq"
@@ -24,21 +26,23 @@
     ]
   },
   {
+    "name": "Safety Net Shortfall",
     "title": "Limited Social Safety Net Benefits for the Poorest",
-    "description": "In 2021, only 2.99% of total social safety net benefits reached the poorest quintile, indicating a need for more equitable distribution of resources.",
+    "description": "In 2021, only 2.99% of Togo's social safety net benefits reached the poorest quintile, indicating a need for more inclusive welfare programs.",
     "year": 2021,
     "indicatorIds": [
       "per_sa_allsa-ben_q1_tot"
     ],
-    "emoji": "⚠️",
+    "emoji": "🛡️",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
+    "name": "Gender Gap in Academia",
     "title": "Low Female Representation in Tertiary Education Staff",
-    "description": "As of 2021, only 6.1% of academic staff in tertiary education were female, highlighting gender disparity in higher education employment.",
+    "description": "As of 2021, only 6.1% of academic staff in Togo's tertiary education institutions were female, highlighting a significant gender disparity.",
     "year": 2021,
     "indicatorIds": [
       "se-ter-tchr-fe-zs"
@@ -50,21 +54,23 @@
     ]
   },
   {
-    "title": "Insufficient Diarrhea Treatment Among Children",
-    "description": "In 2017, only 13.6% of children under five received Oral Rehydration Salts (ORS) packets for diarrhea treatment, indicating a gap in healthcare provision.",
+    "name": "Health Hurdles",
+    "title": "Low Diarrhea Treatment Coverage for Children",
+    "description": "In 2017, only 13.6% of children under five in Togo received ORS packets for diarrhea treatment, pointing to healthcare accessibility issues.",
     "year": 2017,
     "indicatorIds": [
       "sh-sta-orth"
     ],
-    "emoji": "🚼",
+    "emoji": "💊",
     "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
+    "name": "R&D Rarity",
     "title": "Scarcity of R&D Technicians",
-    "description": "With only 3.62 technicians per million people in 2018, Togo faces challenges in advancing research and development capabilities.",
+    "description": "With just 3.62 technicians per million people in 2018, Togo faces challenges in bolstering its research and development sector.",
     "year": 2018,
     "indicatorIds": [
       "sp-pop-tech-rd-p6"

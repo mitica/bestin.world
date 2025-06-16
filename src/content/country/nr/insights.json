@@ -1,38 +1,27 @@
 [
   {
-    "title": "Robust Financial Asset Acquisition",
-    "description": "In 2020, Nauru achieved a net acquisition of financial assets equivalent to 30.74% of its GDP, showcasing a strong financial strategy.",
+    "name": "Financial Fort Knox",
+    "title": "Top Financial Asset Accumulator",
+    "description": "In 2020, Nauru led the world with a net acquisition of financial assets at 30.74% of its GDP, showcasing its robust financial asset management.",
     "year": 2020,
     "indicatorIds": [
       "gc-ast-totl-gd-zs"
     ],
-    "emoji": "💼",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Strong Fiscal Surplus",
-    "description": "Nauru reported a net lending of 32.76% of GDP in 2020, indicating a significant fiscal surplus and effective budget management.",
-    "year": 2020,
-    "indicatorIds": [
-      "gc-nld-totl-gd-zs"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "High Revenue Generation",
-    "description": "In 2020, Nauru's revenue, excluding grants, was 138.99% of GDP, reflecting a robust revenue generation capacity.",
+    "name": "Revenue Ruler",
+    "title": "Highest Revenue Generation",
+    "description": "Nauru achieved the highest revenue excluding grants in 2020, amounting to 139% of its GDP, indicating a strong fiscal policy.",
     "year": 2020,
     "indicatorIds": [
       "gc-rev-xgrt-gd-zs"
     ],
-    "emoji": "💰",
+    "emoji": "📈",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -40,21 +29,37 @@
     ]
   },
   {
-    "title": "Substantial Tax Revenue",
-    "description": "Nauru's tax revenue constituted 44.40% of GDP in 2020, highlighting a strong tax collection system.",
+    "name": "Tax Titans",
+    "title": "Leading in Tax Revenue",
+    "description": "With tax revenue reaching 44.4% of GDP in 2020, Nauru stands out as a leader in tax collection efficiency.",
     "year": 2020,
     "indicatorIds": [
       "gc-tax-totl-gd-zs"
     ],
-    "emoji": "🧾",
+    "emoji": "💸",
     "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "High Government Expenditure",
-    "description": "In 2020, Nauru's government expenses were 103.73% of GDP, indicating high public spending.",
+    "name": "Health Investment Champs",
+    "title": "High Health Expenditure",
+    "description": "In 2022, Nauru allocated 15.79% of its GDP to domestic general government health expenditure, reflecting a strong commitment to public health.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-xpd-ghed-gd-zs"
+    ],
+    "emoji": "🏥",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Expense Extravaganza",
+    "title": "High Government Spending",
+    "description": "Nauru's government expenses reached 103.73% of GDP in 2020, indicating significant public sector investment and spending.",
     "year": 2020,
     "indicatorIds": [
       "gc-xpn-totl-gd-zs"
@@ -67,26 +72,15 @@
     ]
   },
   {
+    "name": "Smokers' Paradise",
     "title": "High Tobacco Use Prevalence",
-    "description": "As of 2022, 48.3% of adults in Nauru were current tobacco users, reflecting a significant public health challenge.",
+    "description": "In 2022, 48.3% of adults in Nauru were current tobacco users, with females at 48.1%, highlighting a significant public health challenge.",
     "year": 2022,
     "indicatorIds": [
-      "sh-prv-smok"
-    ],
-    "emoji": "🚬",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Female Tobacco Use",
-    "description": "In 2022, 48.1% of female adults in Nauru were tobacco users, indicating a concerning trend in female health behavior.",
-    "year": 2022,
-    "indicatorIds": [
+      "sh-prv-smok",
       "sh-prv-smok-fe"
     ],
-    "emoji": "🚭",
+    "emoji": "🚬",
     "type": "BAD",
     "topicIds": [
       "health",
@@ -94,24 +88,32 @@
     ]
   },
   {
-    "title": "Significant Health Expenditure",
-    "description": "Nauru allocated 15.79% of its GDP to domestic general government health expenditure in 2022, demonstrating a commitment to healthcare.",
-    "year": 2022,
+    "name": "Lending Leaders",
+    "title": "Top Net Lender",
+    "description": "Nauru was the world's top net lender in 2020, with net lending at 32.76% of GDP, showcasing its financial strength and surplus.",
+    "year": 2020,
     "indicatorIds": [
-      "sh-xpd-ghed-gd-zs"
+      "gc-nld-totl-gd-zs"
     ],
-    "emoji": "🏥",
+    "emoji": "🏦",
     "type": "GOOD",
     "topicIds": [
-      "health"
+      "public-sector"
     ]
   },
   {
-    "title": "Minimal Greenhouse Gas Emissions",
-    "description": "In 2023, Nauru's total greenhouse gas emissions, excluding LULUCF, were recorded at just 0.0012 Mt CO2e, one of the lowest globally.",
+    "name": "Tiny Carbon Footprint",
+    "title": "Lowest Greenhouse Gas Emissions",
+    "description": "In 2023, Nauru's total greenhouse gas emissions were a mere 0.0012 Mt CO2e, making it one of the lowest emitters globally.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-all-mt-ce-ar5"
+      "en-ghg-all-mt-ce-ar5",
+      "en-ghg-ch4-ag-mt-ce-ar5",
+      "en-ghg-ch4-mt-ce-ar5",
+      "en-ghg-ch4-wa-mt-ce-ar5",
+      "en-ghg-n2o-ag-mt-ce-ar5",
+      "en-ghg-n2o-ip-mt-ce-ar5",
+      "en-ghg-n2o-wa-mt-ce-ar5"
     ],
     "emoji": "🌍",
     "type": "GOOD",
@@ -120,50 +122,28 @@
     ]
   },
   {
-    "title": "Low Methane Emissions from Agriculture",
-    "description": "Nauru's methane emissions from agriculture were only 0.0003 Mt CO2e in 2023, indicating minimal agricultural impact on the environment.",
+    "name": "Small but Educated",
+    "title": "Minimal Secondary Education Workforce",
+    "description": "In 2023, Nauru had only 19 secondary education teachers, with 13 being female, reflecting a small but dedicated educational workforce.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-ch4-ag-mt-ce-ar5"
-    ],
-    "emoji": "🌾",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "High Dependency on Imports",
-    "description": "In 2023, Nauru's imports of goods and services amounted to $152.16 million, highlighting a significant reliance on external resources.",
-    "year": 2023,
-    "indicatorIds": [
-      "ne-imp-gnfs-cd"
-    ],
-    "emoji": "📦",
-    "type": "BAD",
-    "topicIds": [
-      "economy",
-      "trade"
-    ]
-  },
-  {
-    "title": "Limited Scientific Output",
-    "description": "With only 0.27 scientific and technical journal articles published in 2022, Nauru shows limited engagement in scientific research.",
-    "year": 2022,
-    "indicatorIds": [
-      "ip-jrn-artc-sc"
+      "se-sec-tchr",
+      "se-sec-tchr-fe"
     ],
     "emoji": "📚",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": [
-      "science"
+      "education"
     ]
   },
   {
-    "title": "Small Elderly Population",
-    "description": "As of 2023, Nauru's population aged 65 and above totaled 318, reflecting a relatively young demographic.",
+    "name": "Aging Gracefully",
+    "title": "Minimal Elderly Population",
+    "description": "As of 2023, Nauru's population aged 65 and above was just 318, indicating a relatively young demographic structure.",
     "year": 2023,
     "indicatorIds": [
+      "sp-pop-65up-fe-in",
+      "sp-pop-65up-ma-in",
       "sp-pop-65up-to"
     ],
     "emoji": "👵",
@@ -173,54 +153,47 @@
     ]
   },
   {
-    "title": "Minimal Nitrous Oxide Emissions from Industry",
-    "description": "In 2023, Nauru's industrial processes emitted only 0.0001 Mt CO2e of nitrous oxide, showcasing minimal industrial pollution.",
+    "name": "Import Heavy",
+    "title": "High Dependence on Imports",
+    "description": "In 2023, Nauru's imports of goods and services amounted to $152 million, highlighting a significant reliance on external resources.",
     "year": 2023,
     "indicatorIds": [
-      "en-ghg-n2o-ip-mt-ce-ar5"
+      "ne-imp-gnfs-cd",
+      "ne-imp-gnfs-kd",
+      "tm-val-mrch-wl-cd"
     ],
-    "emoji": "🏭",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Low Female Teacher Training in Primary Education",
-    "description": "Only 8.33% of female teachers in primary education were trained in 2023, indicating a need for improved educational resources.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-prm-tcaq-fe-zs"
-    ],
-    "emoji": "👩‍🏫",
+    "emoji": "🚢",
     "type": "BAD",
     "topicIds": [
-      "education",
-      "gender"
+      "economy",
+      "trade",
+      "private-sector"
     ]
   },
   {
-    "title": "Minimal Neonatal Deaths",
-    "description": "In 2023, Nauru recorded only 1 neonatal death, reflecting positive health outcomes for newborns.",
-    "year": 2023,
+    "name": "Scientific Silence",
+    "title": "Minimal Scientific Publications",
+    "description": "In 2022, Nauru contributed only 0.27 scientific and technical journal articles, indicating limited research output.",
+    "year": 2022,
     "indicatorIds": [
-      "sh-dth-nmrt"
+      "ip-jrn-artc-sc"
     ],
-    "emoji": "👶",
-    "type": "GOOD",
+    "emoji": "🔬",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "science"
     ]
   },
   {
-    "title": "High Personal Remittances Received",
-    "description": "In 2023, Nauru received $880,605.81 in personal remittances, indicating strong financial support from abroad.",
+    "name": "Remittance Reliant",
+    "title": "Dependence on Personal Remittances",
+    "description": "In 2023, Nauru received $880,605 in personal remittances, reflecting a reliance on income from abroad.",
     "year": 2023,
     "indicatorIds": [
       "bx-trf-pwkr-cd-dt"
     ],
     "emoji": "💸",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "financial-sector",
@@ -228,16 +201,17 @@
     ]
   },
   {
-    "title": "Low Population of Elderly Women",
-    "description": "In 2023, only 0.094% of Nauru's female population was aged 80 and above, suggesting a younger female demographic.",
-    "year": 2023,
+    "name": "Minimal UN Aid",
+    "title": "Negative Net Official Flows from UN",
+    "description": "In 2021, Nauru experienced a negative net official flow of $2,090 from UN agencies, particularly the FAO.",
+    "year": 2021,
     "indicatorIds": [
-      "sp-pop-80up-fe-5y"
+      "dt-nfl-faog-cd"
     ],
-    "emoji": "👵",
-    "type": "GOOD",
+    "emoji": "🛑",
+    "type": "BAD",
     "topicIds": [
-      "health"
+      "aid-effectiveness"
     ]
   }
 ]

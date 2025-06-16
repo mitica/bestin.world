@@ -1,7 +1,8 @@
 [
   {
+    "name": "Financial Flexibility",
     "title": "Strong Financial Services Sector",
-    "description": "In 2024, Cambodia achieved an impressive overall score of 86.03 in the Financial Services sector, indicating a robust financial infrastructure.",
+    "description": "In 2024, Cambodia achieved an impressive score of 86.03 in the Financial Services sector, indicating robust financial infrastructure and services.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-os"
@@ -11,21 +12,9 @@
     "topicIds": []
   },
   {
-    "title": "High Women's Participation in Decision-Making",
-    "description": "As of 2022, 87.8% of Cambodian women aged 15-49 participated in key decision-making areas, reflecting significant gender empowerment.",
-    "year": 2022,
-    "indicatorIds": [
-      "sg-dmk-alld-fn-zs"
-    ],
-    "emoji": "👩‍👩‍👧‍👦",
-    "type": "GOOD",
-    "topicIds": [
-      "gender"
-    ]
-  },
-  {
-    "title": "Effective Debt Policy Management",
-    "description": "In 2023, Cambodia's debt policy was rated 5 out of 6, showcasing effective management of national debt.",
+    "name": "Debt Management Mastery",
+    "title": "Effective Debt Policy",
+    "description": "Cambodia's CPIA debt policy rating stood at 5 in 2023, showcasing a strong framework for managing national debt effectively.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-debt-xq"
@@ -37,8 +26,23 @@
     ]
   },
   {
-    "title": "Low Medium and High-Tech Manufacturing Contribution",
-    "description": "In 2022, medium and high-tech manufacturing contributed only 0.26% to Cambodia's manufacturing value added, highlighting a need for technological advancement.",
+    "name": "Empowered Women",
+    "title": "High Female Decision-Making Participation",
+    "description": "In 2022, 87.8% of Cambodian women aged 15-49 participated in key decision-making areas, reflecting significant gender empowerment.",
+    "year": 2022,
+    "indicatorIds": [
+      "sg-dmk-alld-fn-zs"
+    ],
+    "emoji": "👩‍⚖️",
+    "type": "GOOD",
+    "topicIds": [
+      "gender"
+    ]
+  },
+  {
+    "name": "Tech Manufacturing Challenge",
+    "title": "Low Tech Manufacturing Contribution",
+    "description": "In 2022, medium and high-tech manufacturing contributed only 0.26% to Cambodia's manufacturing value added, indicating room for growth in this sector.",
     "year": 2022,
     "indicatorIds": [
       "nv-mnf-tech-zs-un"
@@ -50,8 +54,49 @@
     ]
   },
   {
-    "title": "Minimal Fuel Export Contribution",
-    "description": "Fuel exports accounted for a negligible 0.0000034% of Cambodia's merchandise exports in 2022, indicating limited reliance on fuel exports.",
+    "name": "Water Investment Woes",
+    "title": "Limited Investment in Water and Sanitation",
+    "description": "From 2022 to 2023, Cambodia saw a total investment of $9.3 million in water and sanitation through public-private partnerships, highlighting a need for increased investment.",
+    "year": 2023,
+    "indicatorIds": [
+      "ie-ppi-watr-cd",
+      "ie-ppn-watr-cd"
+    ],
+    "emoji": "🚰",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure",
+      "private-sector"
+    ]
+  },
+  {
+    "name": "Business Entry Bottlenecks",
+    "title": "Challenges in Business Entry Efficiency",
+    "description": "In 2024, Cambodia scored 9 in the Operational Efficiency of Business Entry, suggesting significant barriers to starting new businesses.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-be-p3"
+    ],
+    "emoji": "🏢",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "name": "Judicial Infrastructure Hurdles",
+    "title": "Weakness in Judicial Insolvency Proceedings",
+    "description": "Cambodia's score of 3.33 in 2024 for the quality of institutional and operational infrastructure for judicial insolvency proceedings indicates a need for improvement.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bi-p2"
+    ],
+    "emoji": "⚖️",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "name": "Minimal Fuel Exports",
+    "title": "Negligible Fuel Export Contribution",
+    "description": "Fuel exports accounted for a mere 0.00000339% of Cambodia's merchandise exports in 2022, highlighting a minimal role in the economy.",
     "year": 2022,
     "indicatorIds": [
       "tx-val-fuel-zs-un"
@@ -65,35 +110,9 @@
     ]
   },
   {
-    "title": "Low Private Investment in Water and Sanitation",
-    "description": "In 2023, Cambodia attracted only $2.3 million in private investment for water and sanitation, suggesting room for improvement in infrastructure investment.",
-    "year": 2023,
-    "indicatorIds": [
-      "ie-ppi-watr-cd"
-    ],
-    "emoji": "🚰",
-    "type": "BAD",
-    "topicIds": [
-      "infrastructure",
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Limited Public-Private Partnerships in Water and Sanitation",
-    "description": "In 2022, public-private partnerships in Cambodia's water and sanitation sector amounted to $7 million, indicating potential for growth.",
-    "year": 2022,
-    "indicatorIds": [
-      "ie-ppn-watr-cd"
-    ],
-    "emoji": "💧",
-    "type": "BAD",
-    "topicIds": [
-      "infrastructure"
-    ]
-  },
-  {
-    "title": "Negative Net Acquisition of Financial Assets",
-    "description": "In 2021, Cambodia's net acquisition of financial assets was negative, at -4.2 trillion LCU, reflecting financial challenges.",
+    "name": "Asset Acquisition Deficit",
+    "title": "Negative Financial Asset Acquisition",
+    "description": "In 2021, Cambodia experienced a net acquisition of financial assets at -4.22 trillion LCU, indicating a significant financial outflow.",
     "year": 2021,
     "indicatorIds": [
       "gc-ast-totl-cn"
@@ -103,27 +122,5 @@
     "topicIds": [
       "public-sector"
     ]
-  },
-  {
-    "title": "Challenges in Business Entry Operational Efficiency",
-    "description": "By 2024, Cambodia scored 9 in the operational efficiency of business entry, indicating challenges in streamlining business processes.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-be-p3"
-    ],
-    "emoji": "🏢",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Weak Infrastructure for Judicial Insolvency Proceedings",
-    "description": "In 2024, Cambodia's infrastructure for judicial insolvency proceedings scored 3.33, highlighting areas for improvement in legal frameworks.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bi-p2"
-    ],
-    "emoji": "⚖️",
-    "type": "BAD",
-    "topicIds": []
   }
 ]

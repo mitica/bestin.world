@@ -1,9 +1,11 @@
 [
   {
-    "title": "High Rate of Intentional Homicides",
-    "description": "In 2021, Jamaica recorded 52.13 intentional homicides per 100,000 people, one of the highest rates globally.",
+    "name": "High Crime Alert",
+    "title": "Most Dangerous Place for Men",
+    "description": "In 2021, Jamaica recorded an alarming rate of 95.6 intentional homicides per 100,000 males, making it one of the most dangerous places for men globally.",
     "year": 2021,
     "indicatorIds": [
+      "vc-ihr-psrc-ma-p5",
       "vc-ihr-psrc-p5"
     ],
     "emoji": "🔴",
@@ -13,11 +15,13 @@
     ]
   },
   {
-    "title": "Elevated Male Homicide Rate",
-    "description": "Jamaica's male population experienced a homicide rate of 95.58 per 100,000 in 2021, indicating a significant safety concern.",
+    "name": "Safety Concerns",
+    "title": "High Homicide Rate",
+    "description": "Jamaica reported 52.1 intentional homicides per 100,000 people in 2021, highlighting significant safety concerns for its citizens.",
     "year": 2021,
     "indicatorIds": [
-      "vc-ihr-psrc-ma-p5"
+      "vc-ihr-psrc-ma-p5",
+      "vc-ihr-psrc-p5"
     ],
     "emoji": "⚠️",
     "type": "BAD",

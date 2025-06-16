@@ -1,61 +1,8 @@
 [
   {
-    "title": "Significant Reduction in Nitrous Oxide Emissions",
-    "description": "North Korea achieved a remarkable 67.13% reduction in nitrous oxide emissions from 1990 levels by 2023, showcasing a significant environmental improvement.",
-    "year": 2023,
-    "indicatorIds": [
-      "en-ghg-n2o-zg-ar5"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "High Female Labor Force Participation",
-    "description": "In 2024, 86.98% of women aged 15-64 in North Korea participated in the labor force, indicating strong female workforce involvement.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-acti-fe-zs"
-    ],
-    "emoji": "👩‍💼",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "High Overall Labor Force Participation",
-    "description": "By 2024, North Korea had an impressive total labor force participation rate of 88.996% for individuals aged 15-64.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-tlf-acti-zs"
-    ],
-    "emoji": "💼",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "social-development"
-    ]
-  },
-  {
-    "title": "Low Immunization Rates for Children",
-    "description": "In 2023, only 16% of one-year-old children in North Korea received the HepB3 vaccine, highlighting a significant public health challenge.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-imm-hepb"
-    ],
-    "emoji": "💉",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Limited Access to Sanitation in Rural Areas",
-    "description": "As of 2022, only 1.23% of the rural population in North Korea had access to safely managed sanitation services, indicating a critical infrastructure gap.",
+    "name": "Sanitation Struggles",
+    "title": "Rural Sanitation Services Lagging",
+    "description": "In 2022, only 1.23% of North Korea's rural population had access to safely managed sanitation services, highlighting significant challenges in rural infrastructure.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-smss-ru-zs"
@@ -68,28 +15,30 @@
     ]
   },
   {
-    "title": "Minimal Merchandise Imports from High-Income Economies",
-    "description": "In 2023, only 0.18% of North Korea's merchandise imports came from high-income economies, reflecting limited trade with wealthier nations.",
-    "year": 2023,
+    "name": "Women in Workforce",
+    "title": "High Female Labor Force Participation",
+    "description": "In 2024, 86.98% of women aged 15-64 were part of the labor force, showcasing strong female workforce engagement in North Korea.",
+    "year": 2024,
     "indicatorIds": [
-      "tm-val-mrch-hi-zs"
+      "sl-tlf-acti-fe-zs"
     ],
-    "emoji": "📉",
-    "type": "BAD",
+    "emoji": "👩‍💼",
+    "type": "GOOD",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "social-protection",
+      "social-development"
     ]
   },
   {
-    "title": "High Dependence on Regional Imports",
-    "description": "97.10% of North Korea's merchandise imports in 2023 were sourced from low- and middle-income economies within East Asia & Pacific, indicating regional trade reliance.",
+    "name": "Import Reliance",
+    "title": "Dependence on Regional Imports",
+    "description": "In 2023, 97.10% of North Korea's merchandise imports came from low- and middle-income economies within East Asia & Pacific, indicating a heavy reliance on regional trade partners.",
     "year": 2023,
     "indicatorIds": [
       "tm-val-mrch-r1-zs",
       "tm-val-mrch-wr-zs"
     ],
-    "emoji": "🌏",
+    "emoji": "📦",
     "type": "GOOD",
     "topicIds": [
       "private-sector",
@@ -97,8 +46,24 @@
     ]
   },
   {
-    "title": "Low Statistical Performance in Data Use",
-    "description": "North Korea scored only 10 out of 100 in the Statistical Performance Indicators for data use in 2023, suggesting challenges in data-driven decision-making.",
+    "name": "Immunization Gaps",
+    "title": "Low Child Immunization Rates",
+    "description": "In 2023, only 16% of one-year-old children received the HepB3 vaccine, and the same percentage of children aged 12-23 months received the DPT vaccine, pointing to significant public health challenges.",
+    "year": 2023,
+    "indicatorIds": [
+      "sh-imm-hepb",
+      "sh-imm-idpt"
+    ],
+    "emoji": "💉",
+    "type": "BAD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Data Dilemma",
+    "title": "Poor Data Utilization",
+    "description": "North Korea scored a mere 10 out of 100 in the Statistical Performance Indicators for data use in 2023, reflecting significant challenges in data management and utilization.",
     "year": 2023,
     "indicatorIds": [
       "iq-spi-pil1"
@@ -110,24 +75,41 @@
     ]
   },
   {
-    "title": "Poor Regulatory Quality",
-    "description": "In 2023, North Korea's regulatory quality was estimated at -2.39, indicating significant challenges in governance and regulatory frameworks.",
+    "name": "Regulatory Challenges",
+    "title": "Low Regulatory Quality",
+    "description": "In 2023, North Korea's regulatory quality was estimated at -2.39, indicating significant challenges in creating and enforcing effective regulations.",
     "year": 2023,
     "indicatorIds": [
       "rq-est"
     ],
-    "emoji": "⚖️",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Limited Voice and Accountability",
-    "description": "With an estimate of -1.98 in 2023, North Korea faces challenges in voice and accountability, reflecting restricted civic freedoms.",
+    "name": "Environmental Efforts",
+    "title": "Significant Reduction in N2O Emissions",
+    "description": "Since 1990, North Korea has reduced its nitrous oxide emissions by 67.13%, showcasing a significant environmental effort.",
     "year": 2023,
     "indicatorIds": [
-      "va-est"
+      "en-ghg-n2o-zg-ar5"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Voice Constraints",
+    "title": "Limited Voice and Accountability",
+    "description": "In 2023, North Korea's voice and accountability estimate was -1.98, reflecting limited political freedoms and citizen participation.",
+    "year": 2023,
+    "indicatorIds": [
+      "va-est",
+      "va-per-rnk-upper"
     ],
     "emoji": "🔇",
     "type": "BAD",

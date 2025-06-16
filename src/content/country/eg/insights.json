@@ -1,27 +1,13 @@
 [
   {
-    "title": "Lowest Average Precipitation",
-    "description": "In 2021, Egypt recorded an average precipitation of just 18.1 mm per year, one of the lowest globally, indicating arid conditions.",
-    "year": 2021,
-    "indicatorIds": [
-      "ag-lnd-prcp-mm"
-    ],
-    "emoji": "🌵",
-    "type": "BAD",
-    "topicIds": [
-      "agriculture",
-      "climate-change",
-      "environment"
-    ]
-  },
-  {
-    "title": "High Freshwater Withdrawal Rate",
-    "description": "Egypt's annual freshwater withdrawals were 7750% of its internal resources in 2021, highlighting significant water resource challenges.",
+    "name": "Water Woes",
+    "title": "Highest Water Withdrawal Rate",
+    "description": "In 2021, Egypt's annual freshwater withdrawals accounted for 7750% of its internal resources, indicating a significant strain on its water reserves.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwtl-zs"
     ],
-    "emoji": "🚰",
+    "emoji": "💧",
     "type": "BAD",
     "topicIds": [
       "climate-change",
@@ -30,21 +16,40 @@
     ]
   },
   {
-    "title": "Minimal R&D Investment by Firms",
-    "description": "Only 2% of firms in Egypt invested in R&D in 2020, reflecting a low emphasis on innovation and development.",
-    "year": 2020,
+    "name": "Aid Averse",
+    "title": "Negative Net Aid from Germany and Denmark",
+    "description": "In 2022, Egypt experienced a net negative aid flow of approximately $120 million from Germany and $2.85 million from Denmark, highlighting a decrease in bilateral support.",
+    "year": 2022,
     "indicatorIds": [
-      "ic-frm-rsdv-zs"
+      "dc-dac-deul-cd",
+      "dc-dac-dnkl-cd"
     ],
-    "emoji": "🔬",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
-      "private-sector"
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Full Female Persistence in Primary Education",
-    "description": "In 2020, 100% of female students in Egypt persisted to grade 5 and the last grade of primary education, showcasing strong educational retention.",
+    "name": "Tariff Titans",
+    "title": "Highest Tariff Rates on Primary Products",
+    "description": "In 2019, Egypt imposed a simple mean tariff rate of 99.4% on primary products, the highest globally, with a most favored nation rate of 40.34%.",
+    "year": 2019,
+    "indicatorIds": [
+      "tm-tax-tcom-sm-ar-zs",
+      "tm-tax-tcom-sm-fn-zs"
+    ],
+    "emoji": "📈",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Persistent Pupils",
+    "title": "100% Female Persistence to Primary Education",
+    "description": "In 2020, Egypt achieved a 100% persistence rate for females reaching the last grade of primary education, showcasing a strong commitment to female education.",
     "year": 2020,
     "indicatorIds": [
       "se-prm-prs5-fe-zs",
@@ -58,35 +63,23 @@
     ]
   },
   {
-    "title": "High Tariff Rates on Primary Products",
-    "description": "In 2019, Egypt applied a simple mean tariff rate of 99.4% on primary products, one of the highest globally, potentially affecting trade.",
-    "year": 2019,
+    "name": "Research Reluctance",
+    "title": "Low R&D Investment by Firms",
+    "description": "In 2020, only 2% of firms in Egypt invested in research and development, indicating a low prioritization of innovation.",
+    "year": 2020,
     "indicatorIds": [
-      "tm-tax-tcom-sm-ar-zs"
+      "ic-frm-rsdv-zs"
     ],
-    "emoji": "📈",
+    "emoji": "🔬",
     "type": "BAD",
     "topicIds": [
-      "private-sector",
-      "trade"
+      "private-sector"
     ]
   },
   {
-    "title": "Low Price Level Ratio",
-    "description": "In 2023, Egypt's price level ratio of PPP conversion factor to market exchange rate was 0.186, indicating a lower cost of living compared to other countries.",
-    "year": 2023,
-    "indicatorIds": [
-      "pa-nus-pppc-rf"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
+    "name": "Safe Spaces",
     "title": "Minimal Losses from Theft and Vandalism",
-    "description": "Only 0.2% of firms in Egypt reported losses due to theft and vandalism in 2020, suggesting a relatively secure business environment.",
+    "description": "In 2020, only 0.2% of firms in Egypt reported losses due to theft and vandalism, suggesting a relatively secure business environment.",
     "year": 2020,
     "indicatorIds": [
       "ic-frm-thev-zs"
@@ -98,30 +91,33 @@
     ]
   },
   {
-    "title": "Negative Net Bilateral Aid from Germany and Denmark",
-    "description": "In 2022, Egypt experienced negative net bilateral aid flows from Germany and Denmark, totaling over $122 million, indicating a net outflow of resources.",
-    "year": 2022,
+    "name": "Price Parity",
+    "title": "Low Price Level Ratio of PPP to Market Exchange Rate",
+    "description": "In 2023, Egypt's price level ratio of PPP conversion factor to market exchange rate was 0.186, indicating a favorable cost of living compared to other nations.",
+    "year": 2023,
     "indicatorIds": [
-      "dc-dac-deul-cd",
-      "dc-dac-dnkl-cd"
+      "pa-nus-pppc-rf"
     ],
-    "emoji": "💸",
-    "type": "BAD",
+    "emoji": "💱",
+    "type": "GOOD",
     "topicIds": [
-      "aid-effectiveness"
+      "economy"
     ]
   },
   {
-    "title": "Low Male Participation in Unpaid Domestic Work",
-    "description": "In 2015, Egyptian males spent only 2.43% of their day on unpaid domestic and care work, reflecting gender disparities in household responsibilities.",
-    "year": 2015,
+    "name": "Dry Dilemma",
+    "title": "Lowest Average Precipitation Depth",
+    "description": "In 2021, Egypt recorded an average precipitation depth of just 18.1 mm per year, one of the lowest globally, highlighting its arid climate.",
+    "year": 2021,
     "indicatorIds": [
-      "sg-tim-uwrk-ma"
+      "ag-lnd-prcp-mm"
     ],
-    "emoji": "👨‍🍳",
+    "emoji": "☀️",
     "type": "BAD",
     "topicIds": [
-      "gender"
+      "agriculture",
+      "climate-change",
+      "environment"
     ]
   }
 ]

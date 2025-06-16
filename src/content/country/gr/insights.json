@@ -1,18 +1,20 @@
 [
   {
-    "title": "High Business Entry Score",
-    "description": "In 2024, Greece achieved a remarkable business entry score of 96.58, indicating a conducive environment for starting new businesses.",
+    "name": "Business Entry Champions",
+    "title": "Top Business Entry Score",
+    "description": "In 2024, Greece achieved a remarkable business entry score of 96.58, showcasing its robust framework for new businesses.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-os"
     ],
-    "emoji": "📈",
+    "emoji": "🏆",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Advanced Digital Public Services for Business",
-    "description": "Greece scored 94.50 in 2024 for digital public services and transparency in business entry, showcasing its commitment to digital transformation.",
+    "name": "Digital Transparency Masters",
+    "title": "Leading in Digital Public Services",
+    "description": "Greece scored 94.50 in digital public services and transparency for business entry in 2024, reflecting its commitment to digital innovation.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-p2"
@@ -22,19 +24,9 @@
     "topicIds": []
   },
   {
-    "title": "Operational Efficiency Challenges in Business Location",
-    "description": "In 2024, Greece faced challenges with an operational efficiency score of 49.00, indicating room for improvement in establishing business locations.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-bl-p3"
-    ],
-    "emoji": "⚙️",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "Quality Public Services for International Trade",
-    "description": "Greece's public services for facilitating international trade scored 96.11 in 2024, reflecting high-quality support for trade activities.",
+    "name": "Trade Facilitation Experts",
+    "title": "Excellence in International Trade Services",
+    "description": "With a score of 96.11 in 2024, Greece excels in providing quality public services that facilitate international trade.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-it-p2"
@@ -44,8 +36,40 @@
     "topicIds": []
   },
   {
-    "title": "Decline in Agriculture, Forestry, and Fishing",
-    "description": "In 2023, Greece experienced a significant decline in the agriculture sector with a growth rate of -26.83%, indicating challenges in this area.",
+    "name": "Educational Overachievers",
+    "title": "High Tertiary Enrollment Rates",
+    "description": "In 2022, Greece boasted a gross tertiary enrollment rate of 166.67%, with female enrollment at 171.99% and male at 161.73%.",
+    "year": 2022,
+    "indicatorIds": [
+      "se-ter-enrr",
+      "se-ter-enrr-fe",
+      "se-ter-enrr-ma"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
+      "gender"
+    ]
+  },
+  {
+    "name": "Surgical Workforce Leaders",
+    "title": "Abundant Specialist Surgical Workforce",
+    "description": "As of 2015, Greece had 163.54 specialist surgeons per 100,000 population, indicating a strong healthcare infrastructure.",
+    "year": 2015,
+    "indicatorIds": [
+      "sh-med-saop-p5"
+    ],
+    "emoji": "🩺",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Agricultural Decline",
+    "title": "Significant Drop in Agricultural Growth",
+    "description": "In 2023, Greece experienced a -26.83% growth in agriculture, forestry, and fishing, highlighting a sector in distress.",
     "year": 2023,
     "indicatorIds": [
       "nv-agr-totl-kd-zg"
@@ -57,8 +81,21 @@
     ]
   },
   {
-    "title": "Low Primary School Dropout Rate",
-    "description": "As of 2022, only 13 primary school-aged children were out of school, representing a mere 0.0022% of the age group, highlighting strong educational retention.",
+    "name": "Operational Efficiency Struggles",
+    "title": "Challenges in Business Location Efficiency",
+    "description": "Greece scored 49.00 in operational efficiency for establishing business locations in 2024, indicating room for improvement.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-bl-p3"
+    ],
+    "emoji": "🏢",
+    "type": "BAD",
+    "topicIds": []
+  },
+  {
+    "name": "Primary Education Success",
+    "title": "Minimal Primary School Dropouts",
+    "description": "In 2022, only 0.0022% of primary school-aged children were out of school in Greece, reflecting a strong primary education system.",
     "year": 2022,
     "indicatorIds": [
       "se-prm-uner",
@@ -68,60 +105,6 @@
     "type": "GOOD",
     "topicIds": [
       "education"
-    ]
-  },
-  {
-    "title": "High Tertiary Education Enrollment",
-    "description": "In 2022, Greece's gross tertiary enrollment rate was 166.67%, indicating a robust higher education system with high participation rates.",
-    "year": 2022,
-    "indicatorIds": [
-      "se-ter-enrr"
-    ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Strong Female Participation in Higher Education",
-    "description": "Female enrollment in tertiary education reached 171.99% in 2022, showcasing gender inclusivity in higher education.",
-    "year": 2022,
-    "indicatorIds": [
-      "se-ter-enrr-fe"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "High Male Participation in Higher Education",
-    "description": "In 2022, male enrollment in tertiary education was 161.73%, reflecting strong participation in higher education among males.",
-    "year": 2022,
-    "indicatorIds": [
-      "se-ter-enrr-ma"
-    ],
-    "emoji": "👨‍🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Robust Specialist Surgical Workforce",
-    "description": "As of 2015, Greece had 163.54 specialist surgeons per 100,000 population, indicating a well-staffed surgical workforce.",
-    "year": 2015,
-    "indicatorIds": [
-      "sh-med-saop-p5"
-    ],
-    "emoji": "🩺",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
     ]
   }
 ]

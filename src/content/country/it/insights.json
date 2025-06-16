@@ -1,7 +1,8 @@
 [
   {
-    "title": "Minimal Electrical Outages for Businesses",
-    "description": "In 2019, only 2% of firms in Italy reported experiencing electrical outages, showcasing one of the lowest rates globally.",
+    "name": "Power Uninterrupted",
+    "title": "Reliable Electricity Supply",
+    "description": "In 2019, only 2% of firms in Italy reported experiencing electrical outages, showcasing one of the most reliable electricity supplies globally.",
     "year": 2019,
     "indicatorIds": [
       "ic-elc-outg-zs"
@@ -13,13 +14,14 @@
     ]
   },
   {
+    "name": "Food Security Champions",
     "title": "Low Food Insecurity Levels",
-    "description": "As of 2022, only 2% of Italy's population faced moderate or severe food insecurity, indicating a strong food security system.",
+    "description": "As of 2022, only 2% of Italy's population faced moderate or severe food insecurity, highlighting the country's effective food security measures.",
     "year": 2022,
     "indicatorIds": [
       "sn-itk-msfi-zs"
     ],
-    "emoji": "🍽️",
+    "emoji": "🍝",
     "type": "GOOD",
     "topicIds": [
       "health"

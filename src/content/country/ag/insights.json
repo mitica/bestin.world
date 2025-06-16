@@ -1,80 +1,42 @@
 [
   {
-    "title": "Minimal Land for Cereal Production",
-    "description": "In 2022, Antigua and Barbuda had only 5 hectares of land dedicated to cereal production, indicating limited agricultural capacity.",
-    "year": 2022,
+    "name": "Tiny Troops, Big Hearts",
+    "title": "Smallest Armed Forces",
+    "description": "With just 180 personnel in 2016, Antigua and Barbuda boasts one of the smallest military forces globally, reflecting its peaceful stance.",
+    "year": 2016,
     "indicatorIds": [
-      "ag-lnd-crel-ha"
+      "ms-mil-totl-p1"
     ],
-    "emoji": "🌾",
-    "type": "BAD",
-    "topicIds": [
-      "agriculture"
-    ]
-  },
-  {
-    "title": "Significant Technical Cooperation Grants",
-    "description": "In 2021, Antigua and Barbuda received $530,000 in technical cooperation grants, showcasing international support for development projects.",
-    "year": 2021,
-    "indicatorIds": [
-      "bx-grt-tech-cd-wd"
-    ],
-    "emoji": "🤝",
+    "emoji": "🕊️",
     "type": "GOOD",
     "topicIds": [
-      "economy",
-      "external-debt",
-      "aid-effectiveness"
+      "public-sector"
     ]
   },
   {
-    "title": "Negative Net Bilateral Aid from the US",
-    "description": "In 2021, the net bilateral aid flows from the United States to Antigua and Barbuda were negative, amounting to approximately -$40,000.",
-    "year": 2021,
-    "indicatorIds": [
-      "dc-dac-usal-cd"
-    ],
-    "emoji": "🇺🇸",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Minimal Net Official Flows from WHO",
-    "description": "Antigua and Barbuda received $3,200 in net official flows from WHO in 2021, indicating limited financial support from this UN agency.",
-    "year": 2021,
-    "indicatorIds": [
-      "dt-nfl-whol-cd"
-    ],
-    "emoji": "🏥",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Low Methane Emissions from Buildings",
-    "description": "In 2023, methane emissions from buildings in Antigua and Barbuda were extremely low at 0.0001 Mt CO2e, reflecting minimal environmental impact from this sector.",
+    "name": "Eco-Friendly Nation",
+    "title": "Minimal Methane Emissions",
+    "description": "In 2023, Antigua and Barbuda's methane emissions from buildings were a mere 0.0001 Mt CO2e, showcasing its commitment to a sustainable environment.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-bu-mt-ce-ar5"
     ],
-    "emoji": "🏢",
+    "emoji": "🌱",
     "type": "GOOD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Minimal Freshwater Withdrawals",
-    "description": "In 2021, Antigua and Barbuda's total annual freshwater withdrawals were only 0.0044 billion cubic meters, indicating efficient water use or limited water resources.",
+    "name": "Thirsty for More",
+    "title": "Limited Freshwater Withdrawals",
+    "description": "The country withdrew only 0.0044 billion cubic meters of freshwater in 2021, indicating a need for better water resource management.",
     "year": 2021,
     "indicatorIds": [
       "er-h2o-fwtl-k3"
     ],
     "emoji": "💧",
-    "type": "GOOD",
+    "type": "BAD",
     "topicIds": [
       "climate-change",
       "infrastructure",
@@ -82,34 +44,39 @@
     ]
   },
   {
-    "title": "Low Industrial Design Applications",
-    "description": "With only 1 industrial design application filed by residents in 2021, Antigua and Barbuda shows limited innovation in industrial design.",
+    "name": "Aid Dependency",
+    "title": "High Technical Cooperation Grants",
+    "description": "In 2021, Antigua and Barbuda received $530,000 in technical cooperation grants, highlighting its reliance on external aid for development.",
+    "year": 2021,
+    "indicatorIds": [
+      "bx-grt-tech-cd-wd"
+    ],
+    "emoji": "🤝",
+    "type": "BAD",
+    "topicIds": [
+      "economy",
+      "external-debt",
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Creative Spark",
+    "title": "Minimal Industrial Design Applications",
+    "description": "With only 1 industrial design application in 2021, there's potential for growth in innovation and creativity.",
     "year": 2021,
     "indicatorIds": [
       "ip-ids-rsct"
     ],
-    "emoji": "🛠️",
+    "emoji": "💡",
     "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Small Armed Forces Personnel",
-    "description": "In 2016, Antigua and Barbuda had a total of 180 armed forces personnel, reflecting a small military presence.",
-    "year": 2016,
-    "indicatorIds": [
-      "ms-mil-totl-p1"
-    ],
-    "emoji": "🪖",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Low Pupil-Teacher Ratio in Upper Secondary",
-    "description": "In 2015, the pupil-teacher ratio in upper secondary education was 3.71, suggesting a favorable learning environment with more personalized attention.",
+    "name": "Classroom Comfort",
+    "title": "Low Pupil-Teacher Ratio",
+    "description": "In 2015, the pupil-teacher ratio in upper secondary education was just 3.71, ensuring personalized attention for students.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-enrl-up-tc-zs"
@@ -121,8 +88,9 @@
     ]
   },
   {
-    "title": "Minimal Child Mortality Ages 5-9",
-    "description": "In 2023, there was only 1 recorded death in the age group of 5-9 years, indicating strong child health and safety measures.",
+    "name": "Healthy Youth",
+    "title": "Minimal Child Mortality",
+    "description": "In 2023, only 1 death was recorded among children aged 5-9, reflecting strong healthcare measures for young ones.",
     "year": 2023,
     "indicatorIds": [
       "sh-dth-0509"
@@ -131,6 +99,48 @@
     "type": "GOOD",
     "topicIds": [
       "education"
+    ]
+  },
+  {
+    "name": "Cereal Scarcity",
+    "title": "Minimal Cereal Production",
+    "description": "With only 5 hectares dedicated to cereal production in 2022, Antigua and Barbuda relies heavily on imports for staple foods.",
+    "year": 2022,
+    "indicatorIds": [
+      "ag-lnd-crel-ha"
+    ],
+    "emoji": "🌾",
+    "type": "BAD",
+    "topicIds": [
+      "agriculture"
+    ]
+  },
+  {
+    "name": "Aid from Afar",
+    "title": "Negative Net Bilateral Aid from the US",
+    "description": "In 2021, the net bilateral aid flow from the US was -$40,000, indicating a repayment or reduction in aid received.",
+    "year": 2021,
+    "indicatorIds": [
+      "dc-dac-usal-cd"
+    ],
+    "emoji": "🇺🇸",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Global Health Support",
+    "title": "Net Official Flows from WHO",
+    "description": "In 2021, Antigua and Barbuda received $3,200 from WHO, supporting its healthcare initiatives.",
+    "year": 2021,
+    "indicatorIds": [
+      "dt-nfl-whol-cd"
+    ],
+    "emoji": "🌍",
+    "type": "GOOD",
+    "topicIds": [
+      "aid-effectiveness"
     ]
   }
 ]

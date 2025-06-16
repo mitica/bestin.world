@@ -1,7 +1,8 @@
 [
   {
+    "name": "Debt Overload",
     "title": "High Debt Service Burden",
-    "description": "In 2023, El Salvador's total debt service reached 82.98% of its exports and 28.83% of its GNI, indicating a significant financial obligation relative to its economic output.",
+    "description": "In 2023, El Salvador's total debt service reached 82.98% of its exports and 28.83% of its GNI, indicating a significant financial burden on the nation's economy.",
     "year": 2023,
     "indicatorIds": [
       "dt-tds-dect-ex-zs",
@@ -15,19 +16,21 @@
     ]
   },
   {
-    "title": "Moderate Quality of Business Entry Regulations",
-    "description": "In 2024, El Salvador scored 62.23 in the quality of regulations for business entry, suggesting room for improvement in facilitating new business ventures.",
+    "name": "Regulatory Roadblocks",
+    "title": "Challenges in Business Entry Regulations",
+    "description": "In 2024, El Salvador scored 62.23 in the quality of regulations for business entry, highlighting potential barriers for new businesses.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-be-p1"
     ],
-    "emoji": "📈",
+    "emoji": "🚧",
     "type": "BAD",
     "topicIds": []
   },
   {
-    "title": "Challenges in Judicial Insolvency Efficiency",
-    "description": "El Salvador's operational efficiency in resolving judicial insolvency proceedings was rated at 14.25 in 2024, highlighting inefficiencies in handling business insolvency cases.",
+    "name": "Insolvency Inefficiency",
+    "title": "Inefficient Judicial Insolvency Proceedings",
+    "description": "With a score of 14.25 in 2024, El Salvador faces challenges in efficiently resolving judicial insolvency proceedings, impacting business continuity.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-bi-p3"
@@ -37,13 +40,14 @@
     "topicIds": []
   },
   {
-    "title": "Strong Accessibility in Credit Infrastructure",
-    "description": "In 2024, El Salvador achieved a high score of 85.28 in the accessibility of information in credit infrastructure, reflecting robust financial services support.",
+    "name": "Credit Accessibility",
+    "title": "Strong Credit Information Infrastructure",
+    "description": "El Salvador boasts a high score of 85.28 in 2024 for accessibility of information in credit infrastructure, facilitating better financial services.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-fs-p2"
     ],
-    "emoji": "🏦",
+    "emoji": "💳",
     "type": "GOOD",
     "topicIds": []
   }

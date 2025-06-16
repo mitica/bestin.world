@@ -1,34 +1,38 @@
 [
   {
-    "title": "High Net Secondary Income",
-    "description": "In 2023, India recorded a net secondary income of $101.9 billion, showcasing strong remittance inflows from abroad.",
+    "name": "Remittance Powerhouse",
+    "title": "Top Receiver of Global Remittances",
+    "description": "In 2023, India received a staggering $106.5 billion in net secondary income from abroad, showcasing its position as a leading recipient of global remittances.",
     "year": 2023,
     "indicatorIds": [
       "bn-trf-curr-cd",
       "ny-trf-nctr-cd"
     ],
-    "emoji": "💰",
+    "emoji": "💸",
     "type": "GOOD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Political Stability Concerns",
-    "description": "India's political stability in 2023 was measured with a standard error of 0.205, indicating potential volatility in governance.",
+    "name": "Political Stability Challenge",
+    "title": "Struggles with Political Stability",
+    "description": "Despite having 9 sources reporting on political stability, India faces challenges with a standard error of 0.205 in 2023, indicating ongoing concerns about violence and terrorism.",
     "year": 2023,
     "indicatorIds": [
+      "pv-no-src",
       "pv-std-err"
     ],
-    "emoji": "⚠️",
+    "emoji": "⚖️",
     "type": "BAD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
-    "title": "Low Community Health Worker Density",
-    "description": "As of 2016, India had only 0.581 community health workers per 1,000 people, highlighting a need for more healthcare professionals.",
+    "name": "Health Workforce Gap",
+    "title": "Limited Community Health Workers",
+    "description": "With only 0.581 community health workers per 1,000 people in 2016, India faces a significant gap in healthcare workforce availability.",
     "year": 2016,
     "indicatorIds": [
       "sh-med-cmhw-p3"
@@ -41,24 +45,13 @@
     ]
   },
   {
-    "title": "High Prevalence of Low-Birthweight Babies",
-    "description": "In 2020, 27.4% of births in India were low-birthweight, indicating significant challenges in maternal and child health.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-sta-brtw-zs"
-    ],
-    "emoji": "👶",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
+    "name": "Child Nutrition Crisis",
     "title": "High Prevalence of Child Wasting",
-    "description": "In 2020, 18.7% of children under 5 in India were affected by wasting, a critical indicator of malnutrition.",
+    "description": "In 2020, 18.7% of children under 5 in India were affected by wasting, with severe cases at 7.5%, highlighting a critical public health issue.",
     "year": 2020,
     "indicatorIds": [
-      "sh-sta-wast-zs"
+      "sh-sta-wast-zs",
+      "sh-svr-wast-zs"
     ],
     "emoji": "🍽️",
     "type": "BAD",
@@ -67,39 +60,30 @@
     ]
   },
   {
-    "title": "Severe Child Wasting Issues",
-    "description": "In 2020, 7.5% of children under 5 in India suffered from severe wasting, reflecting acute malnutrition challenges.",
-    "year": 2020,
-    "indicatorIds": [
-      "sh-svr-wast-zs"
-    ],
-    "emoji": "🚨",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Income Inequality Challenges",
-    "description": "In 2022, the lowest 10% of India's population held only 4.5% of the income, indicating significant income disparity.",
+    "name": "Income Inequality Spotlight",
+    "title": "Low Income Share for the Poorest",
+    "description": "In 2022, the lowest 10% of India's population held only 4.5% of the income, while the lowest 20% held 10.4%, underscoring income inequality challenges.",
     "year": 2022,
     "indicatorIds": [
-      "si-dst-frst-10"
+      "si-dst-frst-10",
+      "si-dst-frst-20"
     ],
-    "emoji": "📉",
+    "emoji": "💰",
     "type": "BAD",
     "topicIds": [
-      "poverty"
+      "poverty",
+      "aid-effectiveness"
     ]
   },
   {
-    "title": "Efficient Remittance Costs",
-    "description": "In 2023, India had an average remittance transaction cost of 0.54%, one of the lowest globally, benefiting overseas workers.",
+    "name": "Cost-Effective Remittances",
+    "title": "Lowest Transaction Costs for Remittances",
+    "description": "India boasts the lowest average transaction cost for sending remittances at just 0.54% in 2023, making it highly cost-effective for global money transfers.",
     "year": 2023,
     "indicatorIds": [
       "si-rmt-cost-ob-zs"
     ],
-    "emoji": "💸",
+    "emoji": "💵",
     "type": "GOOD",
     "topicIds": [
       "financial-sector"

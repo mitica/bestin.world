@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Dependency on Remittances",
-    "description": "In 2022, personal remittances accounted for 41.94% of Tonga's GDP, indicating a significant reliance on funds sent from abroad.",
+    "name": "Remittance Reliance",
+    "title": "Top Remittance Receiver",
+    "description": "In 2022, personal remittances accounted for 41.94% of Tonga's GDP, highlighting the country's significant reliance on money sent from abroad.",
     "year": 2022,
     "indicatorIds": [
       "bx-trf-pwkr-dt-gd-zs"
@@ -14,53 +15,17 @@
     ]
   },
   {
-    "title": "Low External Debt Levels",
-    "description": "As of 2023, Tonga's total external debt stood at $196.45 million, one of the lowest globally, reflecting prudent fiscal management.",
+    "name": "Debt Dilemma",
+    "title": "Manageable External Debt",
+    "description": "As of 2023, Tonga's total external debt stood at $196.45 million, with long-term and publicly guaranteed debt at $151.36 million, indicating a relatively low debt burden.",
     "year": 2023,
     "indicatorIds": [
-      "dt-dod-dect-cd"
-    ],
-    "emoji": "📉",
-    "type": "GOOD",
-    "topicIds": [
-      "economy",
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Minimal Long-term Debt",
-    "description": "In 2023, Tonga's long-term external debt was $151.36 million, showcasing a low long-term financial obligation.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-dlxf-cd"
-    ],
-    "emoji": "🔗",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Public Debt",
-    "description": "Public and publicly guaranteed debt in Tonga was $151.36 million in 2023, indicating a controlled public debt scenario.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-dod-dppg-cd"
-    ],
-    "emoji": "🏛️",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "Low Present Value of Debt",
-    "description": "The present value of Tonga's external debt was $159.28 million in 2023, reflecting a manageable debt burden.",
-    "year": 2023,
-    "indicatorIds": [
+      "dt-dod-dect-cd",
+      "dt-dod-dlxf-cd",
+      "dt-dod-dppg-cd",
       "dt-dod-pvlx-cd"
     ],
-    "emoji": "💼",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "economy",
@@ -68,50 +33,41 @@
     ]
   },
   {
-    "title": "Low IMF Repayments",
-    "description": "Tonga's IMF repurchases and charges were $1.01 million in 2023, indicating minimal financial obligations to the IMF.",
-    "year": 2023,
-    "indicatorIds": [
-      "dt-tds-dimf-cd"
-    ],
-    "emoji": "🏦",
-    "type": "GOOD",
-    "topicIds": [
-      "external-debt"
-    ]
-  },
-  {
-    "title": "High Taxation on Goods and Services",
-    "description": "In 2023, taxes on goods and services constituted 25.56% of the value added in industry and services, indicating a significant tax burden.",
+    "name": "Tax Titans",
+    "title": "High Tax Revenue from Goods and Services",
+    "description": "In 2023, taxes on goods and services contributed 25.56% to the value added of industry and services, showcasing a robust tax collection system.",
     "year": 2023,
     "indicatorIds": [
       "gc-tax-gsrv-va-zs"
     ],
-    "emoji": "💰",
-    "type": "BAD",
+    "emoji": "💼",
+    "type": "GOOD",
     "topicIds": [
       "public-sector"
     ]
   },
   {
+    "name": "Trademark Tumble",
     "title": "Low Trademark Activity",
-    "description": "In 2021, only 3 trademark applications were filed by residents, suggesting limited innovation and brand development.",
+    "description": "In 2021, Tonga had only 3 resident trademark applications, indicating limited domestic innovation and brand development.",
     "year": 2021,
     "indicatorIds": [
       "ip-tmk-rsct"
     ],
-    "emoji": "📜",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "infrastructure"
     ]
   },
   {
-    "title": "Decline in Household Consumption",
-    "description": "Household consumption expenditure shrank by 20.98% in 2022, indicating economic challenges affecting consumer spending.",
+    "name": "Consumption Crunch",
+    "title": "Decline in Household Expenditure",
+    "description": "Household consumption expenditure saw a significant decline of 20.98% in 2022, reflecting economic challenges faced by the population.",
     "year": 2022,
     "indicatorIds": [
-      "ne-con-prvt-kd-zg"
+      "ne-con-prvt-kd-zg",
+      "ne-con-prvt-pc-kd-zg"
     ],
     "emoji": "📉",
     "type": "BAD",
@@ -120,35 +76,24 @@
     ]
   },
   {
-    "title": "Decrease in Per Capita Consumption",
-    "description": "Per capita household consumption fell by 20.64% in 2022, reflecting a significant decline in individual spending power.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-con-prvt-pc-kd-zg"
-    ],
-    "emoji": "🛒",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Particulate Emission Damage",
-    "description": "In 2021, Tonga incurred $1.56 million in particulate emission damage, indicating relatively low environmental costs.",
+    "name": "Pollution Price",
+    "title": "Particulate Emission Damage Costs",
+    "description": "In 2021, Tonga faced $1.56 million in damages due to particulate emissions, highlighting environmental challenges.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dpem-cd"
     ],
-    "emoji": "🌿",
-    "type": "GOOD",
+    "emoji": "🌫️",
+    "type": "BAD",
     "topicIds": [
       "economy",
       "environment"
     ]
   },
   {
-    "title": "Moderate Female Employment as Employers",
-    "description": "In 2023, 17.45% of employed females in Tonga were employers, reflecting moderate female entrepreneurial activity.",
+    "name": "Female Employers",
+    "title": "Prominent Female Employers",
+    "description": "In 2023, 17.45% of employed females in Tonga were employers, showcasing a strong presence of women in leadership roles.",
     "year": 2023,
     "indicatorIds": [
       "sl-emp-mpyr-fe-zs"
@@ -161,8 +106,9 @@
     ]
   },
   {
-    "title": "Small Male Population in Early Thirties",
-    "description": "In 2023, males aged 30-34 made up 4.54% of the male population, indicating a smaller demographic in this age group.",
+    "name": "Youthful Male Demographic",
+    "title": "Small Young Male Population",
+    "description": "In 2023, males aged 30-34 made up only 4.54% of the male population, indicating a smaller young adult demographic.",
     "year": 2023,
     "indicatorIds": [
       "sp-pop-3034-ma-5y"

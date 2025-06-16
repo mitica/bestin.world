@@ -1,20 +1,22 @@
 [
   {
-    "title": "High Risk of Impoverishing Expenditure for Surgical Care",
-    "description": "In 2022, 100% of Burundi's population was at risk of impoverishing expenditure for surgical care, indicating a significant financial burden on citizens seeking medical treatment.",
+    "name": "Surgical Care Crisis",
+    "title": "Highest Risk of Impoverishing Expenditure for Surgical Care",
+    "description": "In 2022, 100% of the population in Burundi was at risk of impoverishing expenditure for surgical care, the highest in the world.",
     "year": 2022,
     "indicatorIds": [
       "sh-sgr-irsk-zs"
     ],
-    "emoji": "💸",
+    "emoji": "💔",
     "type": "BAD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Severe Stunting in Children Under 5",
-    "description": "As of 2024, 52.8% of children under 5 in Burundi suffer from stunting, with a higher prevalence in males (56.6%) compared to females (49.1%).",
+    "name": "Stunted Growth Challenge",
+    "title": "High Prevalence of Stunting in Children Under 5",
+    "description": "As of 2024, 52.8% of children under 5 in Burundi are affected by stunting, with 49.1% of females and 56.6% of males experiencing this condition.",
     "year": 2024,
     "indicatorIds": [
       "sh-sta-stnt-fe-zs",
@@ -30,11 +32,14 @@
     ]
   },
   {
-    "title": "High Female Employment in Agriculture",
-    "description": "In 2023, 92.02% of female employment in Burundi was in agriculture, highlighting the sector's critical role in providing jobs for women.",
+    "name": "Agricultural Backbone",
+    "title": "High Employment in Agriculture",
+    "description": "In 2023, 85.05% of Burundi's workforce was employed in agriculture, with 92.02% of females and 77.60% of males working in this sector.",
     "year": 2023,
     "indicatorIds": [
-      "sl-agr-empl-fe-zs"
+      "sl-agr-empl-fe-zs",
+      "sl-agr-empl-ma-zs",
+      "sl-agr-empl-zs"
     ],
     "emoji": "🌾",
     "type": "GOOD",
@@ -45,70 +50,44 @@
     ]
   },
   {
-    "title": "Predominance of Agricultural Employment",
-    "description": "By 2023, 85.05% of Burundi's total employment was in agriculture, underscoring the sector's importance to the national economy.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-agr-empl-zs"
-    ],
-    "emoji": "🌱",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture",
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Male Employment in Agriculture",
-    "description": "In 2023, 77.60% of male employment in Burundi was concentrated in agriculture, reflecting the sector's dominance in the job market for men.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-agr-empl-ma-zs"
-    ],
-    "emoji": "🚜",
-    "type": "GOOD",
-    "topicIds": [
-      "agriculture",
-      "social-protection",
-      "gender"
-    ]
-  },
-  {
-    "title": "Limited Access to Clean Cooking Fuels",
-    "description": "In 2022, only 0.1% of Burundi's population had access to clean fuels and technologies for cooking, with urban access slightly higher at 0.2%.",
+    "name": "Cooking Challenges",
+    "title": "Limited Access to Clean Cooking Technologies",
+    "description": "In 2022, only 0.2% of Burundi's urban population and 0.1% of the total population had access to clean fuels and technologies for cooking, highlighting a significant challenge in energy access.",
     "year": 2022,
     "indicatorIds": [
       "eg-cft-accs-ur-zs",
       "eg-cft-accs-zs"
     ],
-    "emoji": "🔴",
+    "emoji": "🍳",
     "type": "BAD",
     "topicIds": [
       "environment"
     ]
   },
   {
-    "title": "Low Internet Usage Among Females",
-    "description": "As of 2017, only 1.5% of the female population in Burundi used the internet, indicating limited digital connectivity.",
-    "year": 2017,
+    "name": "Banking Beginnings",
+    "title": "Low Bank Depositor Rate",
+    "description": "As of 2020, Burundi had only 12.16 depositors per 1,000 adults, indicating a nascent banking culture and limited financial inclusion.",
+    "year": 2020,
     "indicatorIds": [
-      "it-net-user-fe-zs"
+      "fb-cbk-dptr-p3"
     ],
-    "emoji": "🔴",
+    "emoji": "🏦",
     "type": "BAD",
     "topicIds": [
-      "infrastructure"
+      "financial-sector"
     ]
   },
   {
-    "title": "Minimal Investment in Energy",
-    "description": "In 2023, Burundi attracted just $1,000,000 in private investment for energy projects, highlighting a need for increased energy sector investment.",
+    "name": "Energy Investment",
+    "title": "Modest Energy Investments",
+    "description": "In 2023, Burundi attracted $1,000,000 in private energy investments, a step towards enhancing its energy infrastructure.",
     "year": 2023,
     "indicatorIds": [
       "ie-ppi-engy-cd"
     ],
-    "emoji": "🔴",
-    "type": "BAD",
+    "emoji": "💡",
+    "type": "GOOD",
     "topicIds": [
       "energy",
       "infrastructure",
@@ -116,52 +95,75 @@
     ]
   },
   {
-    "title": "Low GDP Per Capita",
-    "description": "Burundi's GDP per capita was $193 in 2023, one of the lowest globally, reflecting economic challenges.",
+    "name": "Digital Divide",
+    "title": "Low Internet Usage Among Females",
+    "description": "In 2017, only 1.49% of females and 3.91% of males in Burundi used the internet, reflecting a significant digital divide and limited internet penetration.",
+    "year": 2017,
+    "indicatorIds": [
+      "it-net-user-fe-zs",
+      "it-net-user-ma-zs"
+    ],
+    "emoji": "🌐",
+    "type": "BAD",
+    "topicIds": [
+      "infrastructure"
+    ]
+  },
+  {
+    "name": "Economic Struggles",
+    "title": "Low GDP and GNI per Capita",
+    "description": "In 2023, Burundi's GDP per capita was $193.01, while GNI per capita was $220, indicating economic challenges and low income levels.",
     "year": 2023,
     "indicatorIds": [
-      "ny-gdp-pcap-cd"
+      "ny-gdp-pcap-cd",
+      "ny-gnp-pcap-cd"
     ],
-    "emoji": "🔴",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Limited Banking Access",
-    "description": "In 2020, there were only 12.16 depositors per 1,000 adults in Burundi, indicating limited access to banking services.",
-    "year": 2020,
-    "indicatorIds": [
-      "fb-cbk-dptr-p3"
-    ],
-    "emoji": "🔴",
-    "type": "BAD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "Low Employment in Industry",
-    "description": "In 2023, only 3.07% of Burundi's total employment was in the industrial sector, suggesting limited industrial development.",
+    "name": "Agricultural Reliance",
+    "title": "Low Value Added in Agriculture",
+    "description": "In 2023, the value added per worker in agriculture was $216.18, highlighting the need for increased productivity in the sector.",
     "year": 2023,
     "indicatorIds": [
-      "sl-ind-empl-zs"
+      "nv-agr-empl-kd"
     ],
-    "emoji": "🔴",
+    "emoji": "🌾",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "economy"
     ]
   },
   {
-    "title": "Low Educational Attainment for Males",
-    "description": "By 2017, only 22.7% of males aged 25 and older had completed primary education, indicating educational challenges.",
+    "name": "Service Sector Growth",
+    "title": "Limited Employment in Services",
+    "description": "In 2023, only 11.88% of Burundi's total employment was in the service sector, with 7.43% of female employment and 16.64% of male employment in services.",
+    "year": 2023,
+    "indicatorIds": [
+      "sl-srv-empl-fe-zs",
+      "sl-srv-empl-ma-zs",
+      "sl-srv-empl-zs"
+    ],
+    "emoji": "🛎️",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "name": "Educational Challenges",
+    "title": "Low Male Primary Education Completion",
+    "description": "In 2017, only 22.69% of males aged 25 and above had completed primary education, indicating educational challenges.",
     "year": 2017,
     "indicatorIds": [
       "se-prm-cuat-ma-zs"
     ],
-    "emoji": "🔴",
+    "emoji": "📚",
     "type": "BAD",
     "topicIds": [
       "education",
@@ -169,42 +171,17 @@
     ]
   },
   {
-    "title": "Minimal Specialist Surgical Workforce",
-    "description": "In 2018, Burundi had only 0.4 specialist surgeons per 100,000 population, reflecting a shortage in healthcare professionals.",
+    "name": "Healthcare Workforce",
+    "title": "Scarce Specialist Surgical Workforce",
+    "description": "In 2018, Burundi had only 0.4 specialist surgeons per 100,000 population, highlighting a significant gap in healthcare services.",
     "year": 2018,
     "indicatorIds": [
       "sh-med-saop-p5"
     ],
-    "emoji": "🔴",
+    "emoji": "🩺",
     "type": "BAD",
     "topicIds": [
       "health"
-    ]
-  },
-  {
-    "title": "Low GNI Per Capita",
-    "description": "In 2023, Burundi's GNI per capita was $220, one of the lowest globally, highlighting economic constraints.",
-    "year": 2023,
-    "indicatorIds": [
-      "ny-gnp-pcap-cd"
-    ],
-    "emoji": "🔴",
-    "type": "BAD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Low Employment in Services",
-    "description": "As of 2023, only 11.88% of Burundi's total employment was in the service sector, indicating limited service industry growth.",
-    "year": 2023,
-    "indicatorIds": [
-      "sl-srv-empl-zs"
-    ],
-    "emoji": "🔴",
-    "type": "BAD",
-    "topicIds": [
-      "social-protection"
     ]
   }
 ]

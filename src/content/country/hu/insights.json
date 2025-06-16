@@ -1,42 +1,21 @@
 [
   {
-    "title": "Exceptional Growth in Agriculture Sector",
-    "description": "In 2023, Hungary's agriculture, forestry, and fishing sector experienced a remarkable growth of 68.67%, showcasing its robust development in this area.",
-    "year": 2023,
-    "indicatorIds": [
-      "nv-agr-totl-kd-zg"
-    ],
-    "emoji": "🌾",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Top Quality Financial Regulations",
-    "description": "Hungary achieved a score of 99.44 in the B-READY Financial Services Pillar 1 for 2024, indicating top-tier quality in financial regulations.",
+    "name": "Regulatory Rockstars",
+    "title": "Top-notch Financial Regulations",
+    "description": "In 2024, Hungary achieved an impressive score of 99.44 in the quality of regulations for financial services, showcasing its robust regulatory framework.",
     "year": 2024,
     "indicatorIds": [
-      "ic-bre-fs-p1"
-    ],
-    "emoji": "🏦",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Strong Regulatory Framework",
-    "description": "In 2024, Hungary's regulatory framework scored 78.34 in the B-READY Pillar 1, reflecting a strong and effective regulatory environment.",
-    "year": 2024,
-    "indicatorIds": [
+      "ic-bre-fs-p1",
       "ic-bre-p1-rf"
     ],
-    "emoji": "📜",
+    "emoji": "📈",
     "type": "GOOD",
     "topicIds": []
   },
   {
-    "title": "Universal Access to Safe Drinking Water in Rural Areas",
-    "description": "By 2022, 100% of Hungary's rural population had access to safely managed drinking water services, ensuring high standards of public health.",
+    "name": "Water Wizards",
+    "title": "Universal Rural Water Access",
+    "description": "By 2022, 100% of Hungary's rural population had access to safely managed drinking water services, reflecting the country's commitment to public health and infrastructure.",
     "year": 2022,
     "indicatorIds": [
       "sh-h2o-smdw-ru-zs"
@@ -49,22 +28,23 @@
     ]
   },
   {
-    "title": "Minimal Mineral Rent Contribution to GDP",
-    "description": "In 2018, mineral rents contributed a negligible 0.00003% to Hungary's GDP, indicating limited reliance on mineral resources.",
-    "year": 2018,
+    "name": "Agricultural Boom",
+    "title": "Rapid Growth in Agriculture",
+    "description": "In 2023, Hungary's agriculture, forestry, and fishing sectors experienced a remarkable 68.67% growth, highlighting the sector's dynamic expansion.",
+    "year": 2023,
     "indicatorIds": [
-      "ny-gdp-minr-rt-zs"
+      "nv-agr-totl-kd-zg"
     ],
-    "emoji": "⛏️",
+    "emoji": "🌾",
     "type": "GOOD",
     "topicIds": [
-      "energy",
-      "environment"
+      "economy"
     ]
   },
   {
-    "title": "High Net Outflow of Foreign Direct Investment",
-    "description": "In 2023, Hungary experienced a significant net outflow of foreign direct investment, amounting to -34.80% of GDP, highlighting potential capital flight issues.",
+    "name": "Investment Exodus",
+    "title": "Significant Foreign Investment Outflow",
+    "description": "In 2023, Hungary saw a net foreign direct investment outflow of -34.80% of GDP, indicating a substantial movement of capital out of the country.",
     "year": 2023,
     "indicatorIds": [
       "bm-klt-dinv-wd-gd-zs"
@@ -77,21 +57,38 @@
     ]
   },
   {
-    "title": "Negative Net Primary Income from Abroad",
-    "description": "In 2022, Hungary's net primary income from abroad was negative, amounting to -1,184,208,756,000 LCU, indicating a deficit in international income flows.",
-    "year": 2022,
+    "name": "Corruption Concerns",
+    "title": "Uncertainty in Corruption Control",
+    "description": "The standard error in control of corruption was 0.14 in 2023, suggesting variability and potential challenges in governance and anti-corruption measures.",
+    "year": 2023,
     "indicatorIds": [
-      "ny-gsr-nfcy-kn"
+      "cc-std-err"
     ],
-    "emoji": "🔻",
+    "emoji": "⚖️",
     "type": "BAD",
     "topicIds": [
-      "economy"
+      "public-sector"
     ]
   },
   {
-    "title": "Low Net Official Development Assistance Contribution",
-    "description": "In 2017, Hungary's net ODA contribution was only 0.11% of GNI, reflecting a minimal role in international aid provision.",
+    "name": "Minimal Mineral Wealth",
+    "title": "Negligible Mineral Rents",
+    "description": "In 2018, mineral rents accounted for a mere 0.00003% of Hungary's GDP, indicating a limited contribution from mineral resources to the economy.",
+    "year": 2018,
+    "indicatorIds": [
+      "ny-gdp-minr-rt-zs"
+    ],
+    "emoji": "⛏️",
+    "type": "BAD",
+    "topicIds": [
+      "energy",
+      "environment"
+    ]
+  },
+  {
+    "name": "Aid Austerity",
+    "title": "Limited Overseas Development Aid",
+    "description": "In 2017, Hungary's net ODA provided was only 0.11% of its GNI, reflecting a modest contribution to international aid efforts.",
     "year": 2017,
     "indicatorIds": [
       "dc-oda-totl-gn-zs"
@@ -103,16 +100,17 @@
     ]
   },
   {
-    "title": "Moderate Control of Corruption Uncertainty",
-    "description": "In 2023, Hungary's standard error for control of corruption was 0.145, indicating moderate uncertainty in corruption control measures.",
-    "year": 2023,
+    "name": "Income Imbalance",
+    "title": "Negative Net Primary Income",
+    "description": "In 2022, Hungary experienced a net primary income deficit of -1,184,208,756,000 LCU, highlighting challenges in income from abroad.",
+    "year": 2022,
     "indicatorIds": [
-      "cc-std-err"
+      "ny-gsr-nfcy-kn"
     ],
-    "emoji": "🔍",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
-      "public-sector"
+      "economy"
     ]
   }
 ]

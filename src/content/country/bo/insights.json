@@ -1,10 +1,17 @@
 [
   {
-    "title": "Comprehensive Social Protection Coverage",
-    "description": "In 2021, Bolivia achieved a remarkable 96.94% coverage of social protection and labor programs, ensuring a safety net for nearly the entire population.",
+    "name": "Safety Net Champions",
+    "title": "Comprehensive Social Safety Net Coverage",
+    "description": "In 2021, Bolivia achieved a remarkable 96.94% coverage of social protection and labor programs, with social safety nets reaching 96.80% of the population. The poorest quintile saw nearly universal coverage at 99.34%.",
     "year": 2021,
     "indicatorIds": [
-      "per_allsp-cov_pop_tot"
+      "per_allsp-cov_pop_tot",
+      "per_sa_allsa-cov_pop_tot",
+      "per_sa_allsa-cov_q1_tot",
+      "per_sa_allsa-cov_q2_tot",
+      "per_sa_allsa-cov_q3_tot",
+      "per_sa_allsa-cov_q4_tot",
+      "per_sa_allsa-cov_q5_tot"
     ],
     "emoji": "🛡️",
     "type": "GOOD",
@@ -13,52 +20,30 @@
     ]
   },
   {
-    "title": "Extensive Social Safety Net for the Poorest",
-    "description": "Bolivia's social safety net programs covered 99.34% of the poorest quintile in 2021, demonstrating a strong commitment to supporting its most vulnerable citizens.",
-    "year": 2021,
-    "indicatorIds": [
-      "per_sa_allsa-cov_q1_tot"
-    ],
-    "emoji": "🧑‍🤝‍🧑",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "High Coverage of Social Safety Nets",
-    "description": "In 2021, Bolivia's social safety net programs reached 96.80% of the population, providing widespread support across various income levels.",
-    "year": 2021,
-    "indicatorIds": [
-      "per_sa_allsa-cov_pop_tot"
-    ],
-    "emoji": "🛡️",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Significant Child Labor Hours",
-    "description": "In 2015, Bolivian children aged 7-14 worked an average of 23.44 hours per week, indicating a high prevalence of child labor in the country.",
+    "name": "Childhood Labor Concerns",
+    "title": "High Child Labor Hours",
+    "description": "In 2015, Bolivian children aged 7-14 worked an average of 23.44 hours per week, with males working 23.88 hours and females 22.89 hours. This highlights a significant issue in child labor practices.",
     "year": 2015,
     "indicatorIds": [
+      "sl-tlf-0714-sw-fe-tm",
+      "sl-tlf-0714-sw-ma-tm",
       "sl-tlf-0714-sw-tm"
     ],
-    "emoji": "🚸",
+    "emoji": "⚠️",
     "type": "BAD",
     "topicIds": [
       "social-protection"
     ]
   },
   {
-    "title": "Low Adequacy of Unemployment Benefits",
-    "description": "In 2019, unemployment benefits and active labor market programs in Bolivia accounted for only 1.20% of the total welfare of beneficiary households, highlighting a need for improvement.",
+    "name": "Unemployment Aid Gaps",
+    "title": "Inadequate Unemployment Benefits",
+    "description": "In 2019, unemployment benefits in Bolivia accounted for only 1.20% of the total welfare of beneficiary households, indicating a need for improvement in social welfare support.",
     "year": 2019,
     "indicatorIds": [
       "per_lm_alllm-adq_pop_tot"
     ],
-    "emoji": "📉",
+    "emoji": "🔍",
     "type": "BAD",
     "topicIds": [
       "social-protection"

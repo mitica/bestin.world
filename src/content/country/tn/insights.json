@@ -1,23 +1,26 @@
 [
   {
-    "title": "Efficient Government Regulation Management",
-    "description": "In 2020, senior management in Tunisia spent only 0.1% of their time dealing with government regulations, indicating a highly efficient regulatory environment.",
+    "name": "Efficient Governance",
+    "title": "Least Time Spent on Government Regulations",
+    "description": "In 2020, Tunisia's senior management spent only 0.1% of their time dealing with government regulations, the lowest globally. This efficiency allows businesses to focus more on growth and innovation.",
     "year": 2020,
     "indicatorIds": [
       "ic-gov-durs-zs"
     ],
-    "emoji": "⚖️",
+    "emoji": "🚀",
     "type": "GOOD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "High Investment in Secondary Education",
-    "description": "In 2015, Tunisia allocated 52.4% of its GDP per capita to government expenditure per secondary student, showcasing a strong commitment to education.",
+    "name": "Education Investment Champs",
+    "title": "High Government Expenditure on Secondary Education",
+    "description": "In 2015, Tunisia allocated 71.59% of its education budget to secondary education, with 52.40% of GDP per capita spent per student, showcasing a strong commitment to educational development.",
     "year": 2015,
     "indicatorIds": [
-      "se-xpd-seco-pc-zs"
+      "se-xpd-seco-pc-zs",
+      "se-xpd-seco-zs"
     ],
     "emoji": "📚",
     "type": "GOOD",
@@ -26,39 +29,28 @@
     ]
   },
   {
-    "title": "Significant Focus on Secondary Education",
-    "description": "71.6% of Tunisia's government expenditure on education was directed towards secondary education in 2015, highlighting a strategic focus on this educational level.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-xpd-seco-zs"
-    ],
-    "emoji": "🏫",
-    "type": "GOOD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "High Access to ARI Treatment for Children",
-    "description": "In 2018, 97.5% of children under five in Tunisia were taken to a health provider for ARI treatment, reflecting excellent healthcare access for young children.",
+    "name": "Health Priority",
+    "title": "Top ARI Treatment for Children",
+    "description": "In 2018, 97.5% of Tunisian children under 5 with acute respiratory infections were taken to a health provider, reflecting the country's strong healthcare focus for its youngest citizens.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-aric-zs"
     ],
-    "emoji": "👶🏥",
+    "emoji": "🏥",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Rising Prevalence of Overweight in Young Boys",
-    "description": "In 2018, 18% of boys under five in Tunisia were classified as overweight, indicating a growing public health concern.",
+    "name": "Childhood Nutrition Challenge",
+    "title": "High Prevalence of Overweight Boys",
+    "description": "In 2018, 18% of Tunisian boys under 5 were overweight, indicating a growing concern for childhood nutrition and the need for balanced dietary interventions.",
     "year": 2018,
     "indicatorIds": [
       "sh-sta-owgh-ma-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "🍔",
     "type": "BAD",
     "topicIds": [
       "health"

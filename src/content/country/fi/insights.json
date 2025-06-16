@@ -1,7 +1,8 @@
 [
   {
-    "title": "Top Performer in Control of Corruption",
-    "description": "In 2023, Finland achieved a perfect score of 100 in the Control of Corruption percentile rank, indicating the highest level of integrity and transparency in governance worldwide.",
+    "name": "Corruption-Free Zone",
+    "title": "Leader in Anti-Corruption",
+    "description": "In 2023, Finland achieved a perfect score of 100 in the Control of Corruption percentile rank, showcasing its commitment to transparency and integrity.",
     "year": 2023,
     "indicatorIds": [
       "cc-per-rnk-upper"
@@ -13,13 +14,14 @@
     ]
   },
   {
-    "title": "Exceptional Air Quality",
-    "description": "With a mean annual PM2.5 exposure of 4.9 micrograms per cubic meter in 2020, Finland ranks among the countries with the cleanest air globally.",
+    "name": "Clean Air Champions",
+    "title": "Pristine Air Quality",
+    "description": "With a mean annual PM2.5 exposure of just 4.9 micrograms per cubic meter in 2020, Finland boasts one of the cleanest air qualities globally.",
     "year": 2020,
     "indicatorIds": [
       "en-atm-pm25-mc-m3"
     ],
-    "emoji": "🌿",
+    "emoji": "🌬️",
     "type": "GOOD",
     "topicIds": [
       "urban-development",
@@ -27,11 +29,13 @@
     ]
   },
   {
-    "title": "Universal Financial Inclusion for Older Adults",
-    "description": "As of 2021, 100% of Finland's population aged 25 and older have access to financial institutions or mobile money services, showcasing complete financial inclusion.",
+    "name": "Financial Inclusivity",
+    "title": "Universal Financial Access",
+    "description": "By 2021, 100% of Finnish adults aged 25+ and those with secondary education or more had access to financial institutions or mobile money services.",
     "year": 2021,
     "indicatorIds": [
-      "fx-own-totl-ol-zs"
+      "fx-own-totl-ol-zs",
+      "fx-own-totl-so-zs"
     ],
     "emoji": "💳",
     "type": "GOOD",
@@ -40,21 +44,9 @@
     ]
   },
   {
-    "title": "Universal Financial Inclusion for Educated Population",
-    "description": "In 2021, Finland achieved a 100% account ownership rate among individuals with secondary education or higher, reflecting widespread financial access.",
-    "year": 2021,
-    "indicatorIds": [
-      "fx-own-totl-so-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "financial-sector"
-    ]
-  },
-  {
-    "title": "High Investment in Research and Development",
-    "description": "In 2020, 71% of Finnish firms invested in R&D, highlighting a strong commitment to innovation and technological advancement.",
+    "name": "Innovation Nation",
+    "title": "R&D Investment Leaders",
+    "description": "In 2020, 71% of Finnish firms invested in research and development, highlighting the country's focus on innovation and technological advancement.",
     "year": 2020,
     "indicatorIds": [
       "ic-frm-rsdv-zs"
@@ -66,11 +58,13 @@
     ]
   },
   {
-    "title": "Efficient Logistics Performance",
-    "description": "Finland scored 4.1 in the ease of arranging competitively priced shipments in 2022, indicating a robust logistics infrastructure.",
+    "name": "Logistics Excellence",
+    "title": "Top Logistics Performance",
+    "description": "Finland scored 4.1 for ease of arranging shipments and 4.3 for timely deliveries in the 2022 Logistics Performance Index, reflecting efficient logistics operations.",
     "year": 2022,
     "indicatorIds": [
-      "lp-lpi-itrn-xq"
+      "lp-lpi-itrn-xq",
+      "lp-lpi-time-xq"
     ],
     "emoji": "🚚",
     "type": "GOOD",
@@ -80,26 +74,14 @@
     ]
   },
   {
-    "title": "Reliable Shipment Delivery",
-    "description": "In 2022, Finland achieved a score of 4.3 for the frequency of shipments reaching consignees on time, reflecting high reliability in logistics.",
-    "year": 2022,
-    "indicatorIds": [
-      "lp-lpi-time-xq"
-    ],
-    "emoji": "⏱️",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Strong Rule of Law",
-    "description": "Finland's rule of law estimate reached 1.97 in 2023, placing it among the top countries for legal integrity and justice.",
+    "name": "Rule of Law Stronghold",
+    "title": "Exemplary Rule of Law",
+    "description": "In 2023, Finland achieved a perfect 100 percentile rank in Rule of Law, underscoring its robust legal framework and governance.",
     "year": 2023,
     "indicatorIds": [
       "rl-est",
-      "rl-per-rnk"
+      "rl-per-rnk",
+      "rl-per-rnk-lower"
     ],
     "emoji": "⚖️",
     "type": "GOOD",
@@ -108,8 +90,9 @@
     ]
   },
   {
-    "title": "High Female School Enrollment",
-    "description": "In 2022, Finland's female secondary school enrollment rate was 153.24%, indicating a highly inclusive educational system.",
+    "name": "Educated and Empowered",
+    "title": "High Female Education Enrollment",
+    "description": "In 2022, Finland's female secondary school enrollment reached 153.2%, indicating widespread access to education for women.",
     "year": 2022,
     "indicatorIds": [
       "se-sec-enrr-fe"
@@ -122,13 +105,15 @@
     ]
   },
   {
-    "title": "Low Mortality from Air Pollution",
-    "description": "In 2019, Finland reported a mortality rate of 7.4 per 100,000 due to air pollution, one of the lowest globally.",
+    "name": "Low Pollution Mortality",
+    "title": "Minimal Pollution-Related Deaths",
+    "description": "With mortality rates of 5.1 per 100,000 females and 7.4 per 100,000 population in 2019, Finland has one of the lowest pollution-related death rates.",
     "year": 2019,
     "indicatorIds": [
+      "sh-sta-airp-fe-p5",
       "sh-sta-airp-p5"
     ],
-    "emoji": "🌬️",
+    "emoji": "🌱",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -136,13 +121,29 @@
     ]
   },
   {
+    "name": "Health Success Story",
+    "title": "Effective Tuberculosis Treatment",
+    "description": "In 2022, Finland achieved a 100% success rate in treating new tuberculosis cases, reflecting its strong healthcare system.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-tbs-cure-zs"
+    ],
+    "emoji": "🏥",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Modern Family Planning",
     "title": "High Contraceptive Prevalence",
-    "description": "In 2015, 85.47% of married women in Finland used some form of contraception, reflecting effective family planning services.",
+    "description": "By 2015, 85.5% of married Finnish women aged 15-49 used modern contraceptive methods, indicating widespread access to family planning.",
     "year": 2015,
     "indicatorIds": [
+      "sp-dyn-conm-zs",
       "sp-dyn-conu-zs"
     ],
-    "emoji": "💊",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -150,13 +151,14 @@
     ]
   },
   {
-    "title": "Minimal Child Marriage",
-    "description": "As of 2017, only 0.1% of Finnish women aged 20-24 were married by age 18, indicating strong protection of children's rights.",
+    "name": "Child Marriage Rarity",
+    "title": "Minimal Child Marriages",
+    "description": "In 2017, only 0.1% of Finnish women aged 20-24 were married by age 18, showcasing Finland's success in preventing child marriages.",
     "year": 2017,
     "indicatorIds": [
       "sp-m18-2024-fe-zs"
     ],
-    "emoji": "👶",
+    "emoji": "👰",
     "type": "GOOD",
     "topicIds": [
       "health",

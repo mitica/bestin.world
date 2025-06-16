@@ -1,7 +1,22 @@
 [
   {
-    "title": "High Gender Equality Rating",
-    "description": "In 2023, Kyrgyzstan achieved a CPIA gender equality rating of 4.5, indicating a strong commitment to gender equality compared to other nations.",
+    "name": "Luxembourg's Little Helper",
+    "title": "Minimal Aid from Luxembourg",
+    "description": "In 2015, Kyrgyzstan received one of the lowest net bilateral aid flows from Luxembourg, amounting to just $9,999.99. This highlights a minimal financial relationship with the European nation.",
+    "year": 2015,
+    "indicatorIds": [
+      "dc-dac-luxl-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Gender Equality Progress",
+    "title": "Strong Gender Equality Rating",
+    "description": "Kyrgyzstan achieved a commendable CPIA gender equality rating of 4.5 in 2023, reflecting significant progress in gender equality initiatives and policies.",
     "year": 2023,
     "indicatorIds": [
       "iq-cpa-gndr-xq"
@@ -13,25 +28,12 @@
     ]
   },
   {
-    "title": "Excellent Urban Handwashing Facilities",
-    "description": "As of 2019, 98.66% of Kyrgyzstan's urban population had access to basic handwashing facilities, showcasing the country's focus on urban hygiene.",
+    "name": "Clean Hands, Healthy Lives",
+    "title": "High Urban Handwashing Facilities",
+    "description": "In 2019, 98.66% of Kyrgyzstan's urban population had access to basic handwashing facilities with soap and water, showcasing the country's commitment to public health in urban areas.",
     "year": 2019,
     "indicatorIds": [
       "sh-sta-hygn-ur-zs"
-    ],
-    "emoji": "🚰",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "environment"
-    ]
-  },
-  {
-    "title": "Widespread Handwashing Access",
-    "description": "In 2019, 98.28% of Kyrgyzstan's total population had access to basic handwashing facilities, reflecting a strong national emphasis on hygiene.",
-    "year": 2019,
-    "indicatorIds": [
-      "sh-sta-hygn-zs"
     ],
     "emoji": "🧼",
     "type": "GOOD",
@@ -41,16 +43,18 @@
     ]
   },
   {
-    "title": "Minimal Aid from Luxembourg",
-    "description": "In 2015, Kyrgyzstan received a minimal net bilateral aid flow of $9,999.99 from Luxembourg, indicating limited financial support from this donor.",
-    "year": 2015,
+    "name": "Nationwide Hygiene Success",
+    "title": "Widespread Handwashing Facilities",
+    "description": "By 2019, 98.28% of Kyrgyzstan's total population had access to basic handwashing facilities, indicating a strong national focus on hygiene and sanitation.",
+    "year": 2019,
     "indicatorIds": [
-      "dc-dac-luxl-cd"
+      "sh-sta-hygn-zs"
     ],
-    "emoji": "💸",
-    "type": "BAD",
+    "emoji": "🚰",
+    "type": "GOOD",
     "topicIds": [
-      "aid-effectiveness"
+      "health",
+      "environment"
     ]
   }
 ]

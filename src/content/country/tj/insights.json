@@ -1,75 +1,8 @@
 [
   {
-    "title": "Strong Growth in Final Consumption Expenditure",
-    "description": "In 2022, Tajikistan experienced a significant growth in final consumption expenditure, with an annual increase of 14.33%. This indicates a robust domestic demand and economic activity.",
-    "year": 2022,
-    "indicatorIds": [
-      "ne-con-totl-kd-zg"
-    ],
-    "emoji": "📈",
-    "type": "GOOD",
-    "topicIds": [
-      "economy"
-    ]
-  },
-  {
-    "title": "Full Binding Coverage on All Products",
-    "description": "Tajikistan achieved a 100% binding coverage on all products in 2021, ensuring comprehensive trade commitments and tariff bindings.",
-    "year": 2021,
-    "indicatorIds": [
-      "tm-tax-mrch-bc-zs"
-    ],
-    "emoji": "🔒",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Full Binding Coverage on Primary Products",
-    "description": "In 2021, Tajikistan also secured a 100% binding coverage on primary products, reflecting strong trade policy measures.",
-    "year": 2021,
-    "indicatorIds": [
-      "tm-tax-tcom-bc-zs"
-    ],
-    "emoji": "🌾",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
-    ]
-  },
-  {
-    "title": "Low Unemployment Among Highly Educated",
-    "description": "As of 2016, only 0.24% of the labor force with advanced education in Tajikistan was unemployed, indicating effective utilization of skilled labor.",
-    "year": 2016,
-    "indicatorIds": [
-      "sl-uem-advn-zs"
-    ],
-    "emoji": "🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Minimal Early Marriages Among Women",
-    "description": "In 2017, only 0.1% of women aged 20-24 in Tajikistan were married by age 15, reflecting progress in women's rights and education.",
-    "year": 2017,
-    "indicatorIds": [
-      "sp-m15-2024-fe-zs"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "Limited Domestic Credit Availability",
-    "description": "In 2023, domestic credit provided by the financial sector in Tajikistan was only 11.31% of GDP, indicating limited financial sector development.",
+    "name": "Credit Crunch",
+    "title": "Limited Domestic Credit Access",
+    "description": "In 2023, Tajikistan's domestic credit provided by the financial sector was only 11.31% of GDP, indicating limited access to financial resources for businesses and individuals.",
     "year": 2023,
     "indicatorIds": [
       "fs-ast-doms-gd-zs"
@@ -81,30 +14,78 @@
     ]
   },
   {
-    "title": "Low Investment in Transport Infrastructure",
-    "description": "In 2022, Tajikistan saw an investment of only $4.5 million in transport with private participation, highlighting a need for increased infrastructure funding.",
+    "name": "Transport Investment Boost",
+    "title": "Growing Private Investment in Transport",
+    "description": "In 2022, Tajikistan attracted $4.5 million in private investments for transport infrastructure, highlighting a growing interest in improving connectivity.",
     "year": 2022,
     "indicatorIds": [
-      "ie-ppi-tran-cd"
+      "ie-ppi-tran-cd",
+      "ie-ppn-tran-cd"
     ],
-    "emoji": "🚧",
-    "type": "BAD",
+    "emoji": "🚆",
+    "type": "GOOD",
     "topicIds": [
       "infrastructure",
       "private-sector"
     ]
   },
   {
-    "title": "Limited Public-Private Partnerships in Transport",
-    "description": "The investment in public-private partnerships for transport in 2022 was also $4.5 million, suggesting a need for more collaborative infrastructure projects.",
+    "name": "Spending Surge",
+    "title": "Rapid Growth in Consumption Expenditure",
+    "description": "Tajikistan experienced a 14.33% growth in final consumption expenditure in 2022, reflecting a robust increase in consumer spending.",
     "year": 2022,
     "indicatorIds": [
-      "ie-ppn-tran-cd"
+      "ne-con-totl-kd-zg"
     ],
-    "emoji": "🤝",
-    "type": "BAD",
+    "emoji": "💸",
+    "type": "GOOD",
     "topicIds": [
-      "infrastructure"
+      "economy"
+    ]
+  },
+  {
+    "name": "Educated Employment",
+    "title": "Low Unemployment Among Educated Workforce",
+    "description": "In 2016, only 0.24% of Tajikistan's labor force with advanced education was unemployed, showcasing effective employment of skilled individuals.",
+    "year": 2016,
+    "indicatorIds": [
+      "sl-uem-advn-zs"
+    ],
+    "emoji": "🎓",
+    "type": "GOOD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Early Marriage Decline",
+    "title": "Minimal Early Marriages Among Women",
+    "description": "By 2017, only 0.1% of women aged 20-24 in Tajikistan were married by age 15, indicating progress in delaying early marriages.",
+    "year": 2017,
+    "indicatorIds": [
+      "sp-m15-2024-fe-zs"
+    ],
+    "emoji": "👰",
+    "type": "GOOD",
+    "topicIds": [
+      "health",
+      "gender"
+    ]
+  },
+  {
+    "name": "Trade Security",
+    "title": "Comprehensive Binding Coverage in Trade",
+    "description": "In 2021, Tajikistan achieved 100% binding coverage for all products and primary products, ensuring stable and predictable trade tariffs.",
+    "year": 2021,
+    "indicatorIds": [
+      "tm-tax-mrch-bc-zs",
+      "tm-tax-tcom-bc-zs"
+    ],
+    "emoji": "📦",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
     ]
   }
 ]

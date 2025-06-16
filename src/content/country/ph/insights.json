@@ -1,7 +1,23 @@
 [
   {
-    "title": "Low Methane Emissions from Industrial Processes",
-    "description": "In 2023, the Philippines reported a minimal methane emission of 0.0001 Mt CO2e from industrial processes, showcasing its commitment to reducing greenhouse gases.",
+    "name": "Tech Titans",
+    "title": "Leading in Medium and High-Tech Exports",
+    "description": "In 2022, the Philippines excelled with 80.02% of its manufactured exports being medium and high-tech, showcasing its prowess in advanced manufacturing and technology sectors.",
+    "year": 2022,
+    "indicatorIds": [
+      "tx-mnf-tech-zs-un"
+    ],
+    "emoji": "💻",
+    "type": "GOOD",
+    "topicIds": [
+      "private-sector",
+      "trade"
+    ]
+  },
+  {
+    "name": "Eco-Friendly Footprint",
+    "title": "Minimal Methane Emissions from Industry",
+    "description": "The Philippines reported a mere 0.0001 Mt CO2e of methane emissions from industrial processes in 2023, reflecting its commitment to sustainable industrial practices.",
     "year": 2023,
     "indicatorIds": [
       "en-ghg-ch4-ip-mt-ce-ar5"
@@ -13,13 +29,14 @@
     ]
   },
   {
+    "name": "Health Hurdles",
     "title": "High Women's HIV Prevalence",
-    "description": "As of 2022, 6.63% of women aged 15 and above in the Philippines were living with HIV, indicating a significant public health challenge.",
+    "description": "In 2022, 6.63% of women aged 15+ in the Philippines were living with HIV, highlighting a significant public health challenge that needs urgent attention.",
     "year": 2022,
     "indicatorIds": [
       "sh-dyn-aids-fe-zs"
     ],
-    "emoji": "⚠️",
+    "emoji": "⚕️",
     "type": "BAD",
     "topicIds": [
       "health",
@@ -27,8 +44,9 @@
     ]
   },
   {
+    "name": "Family Planning Success",
     "title": "Low Wanted Fertility Rate",
-    "description": "The wanted fertility rate in the Philippines was 1.5 births per woman in 2022, reflecting a potential shift towards smaller family sizes.",
+    "description": "The wanted fertility rate in the Philippines was 1.5 births per woman in 2022, indicating effective family planning and reproductive health policies.",
     "year": 2022,
     "indicatorIds": [
       "sp-dyn-wfrt"
@@ -38,20 +56,6 @@
     "topicIds": [
       "health",
       "gender"
-    ]
-  },
-  {
-    "title": "Dominance in Medium and High-Tech Exports",
-    "description": "In 2022, 80.02% of the Philippines' manufactured exports were medium and high-tech, highlighting its strong position in the global tech market.",
-    "year": 2022,
-    "indicatorIds": [
-      "tx-mnf-tech-zs-un"
-    ],
-    "emoji": "💻",
-    "type": "GOOD",
-    "topicIds": [
-      "private-sector",
-      "trade"
     ]
   }
 ]

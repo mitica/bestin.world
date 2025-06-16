@@ -1,25 +1,27 @@
 [
   {
-    "title": "High Bribery Incidence Among Firms",
+    "name": "Bribery Blues",
+    "title": "High Bribery Incidence",
     "description": "In 2017, 56.1% of firms in Liberia reported experiencing at least one bribe payment request, indicating a significant challenge in the business environment.",
     "year": 2017,
     "indicatorIds": [
       "ic-frm-brib-zs"
     ],
-    "emoji": "💼",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
       "private-sector"
     ]
   },
   {
-    "title": "Significant Net Forest Depletion",
-    "description": "In 2021, Liberia's adjusted savings due to net forest depletion was 17.54% of GNI, highlighting environmental sustainability concerns.",
+    "name": "Forest Depletion Dilemma",
+    "title": "Significant Forest Depletion",
+    "description": "In 2021, Liberia's net forest depletion was 17.54% of GNI, highlighting concerns over environmental sustainability and resource management.",
     "year": 2021,
     "indicatorIds": [
       "ny-adj-dfor-gn-zs"
     ],
-    "emoji": "🌳",
+    "emoji": "🌲",
     "type": "BAD",
     "topicIds": [
       "economy",
@@ -27,49 +29,38 @@
     ]
   },
   {
-    "title": "Low Access to Basic Handwashing Facilities",
-    "description": "As of 2022, only 3.44% of Liberia's population had access to basic handwashing facilities, underscoring public health challenges.",
-    "year": 2022,
+    "name": "Military Minimalism",
+    "title": "Low Military Expenditure",
+    "description": "In 2023, Liberia's military expenditure was 37,153,000 LCU, reflecting a minimal investment in defense compared to global standards.",
+    "year": 2023,
     "indicatorIds": [
-      "sh-sta-hygn-zs"
+      "ms-mil-xpnd-cn"
     ],
-    "emoji": "🚰",
-    "type": "BAD",
+    "emoji": "🛡️",
+    "type": "GOOD",
     "topicIds": [
-      "health",
-      "environment"
+      "public-sector"
     ]
   },
   {
-    "title": "Limited New Business Density",
-    "description": "In 2022, Liberia had a new business density of 0.0245 registrations per 1,000 people aged 15-64, indicating a low rate of entrepreneurship.",
-    "year": 2022,
-    "indicatorIds": [
-      "ic-bus-ndns-zs"
-    ],
-    "emoji": "🏢",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
+    "name": "Economic Challenges",
     "title": "Low GDP and GNI Per Capita",
-    "description": "In 2023, Liberia's GDP per capita was 771.89 LCU, and GNI per capita was 722.19 LCU, reflecting economic challenges.",
+    "description": "In 2023, Liberia's GDP per capita was 771.89 LCU and GNI per capita was 722.19 LCU, indicating economic challenges and low income levels.",
     "year": 2023,
     "indicatorIds": [
       "ny-gdp-pcap-cn",
       "ny-gnp-pcap-cn"
     ],
-    "emoji": "💰",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "High Rate of Over-Age Female Students in Primary Education",
-    "description": "In 2017, 46.53% of female students in primary education were over-age, indicating educational system inefficiencies.",
+    "name": "Education Hurdles",
+    "title": "High Over-Age Enrollment in Primary Education",
+    "description": "In 2017, 46.53% of female students in primary education were over-age, suggesting challenges in the education system.",
     "year": 2017,
     "indicatorIds": [
       "se-prm-oenr-fe-zs"
@@ -81,13 +72,15 @@
     ]
   },
   {
-    "title": "Limited Urban Handwashing Facilities",
-    "description": "In 2022, only 5.64% of Liberia's urban population had access to basic handwashing facilities, highlighting urban health infrastructure issues.",
+    "name": "Hygiene Hiccups",
+    "title": "Limited Access to Basic Hygiene Facilities",
+    "description": "In 2022, only 3.44% of Liberia's population had access to basic handwashing facilities, highlighting significant public health challenges.",
     "year": 2022,
     "indicatorIds": [
+      "sh-sta-hygn-zs",
       "sh-sta-hygn-ur-zs"
     ],
-    "emoji": "🏙️",
+    "emoji": "🚰",
     "type": "BAD",
     "topicIds": [
       "health",
@@ -95,67 +88,74 @@
     ]
   },
   {
-    "title": "Low Military Expenditure",
-    "description": "In 2023, Liberia's military expenditure was 37,153,000 LCU, reflecting limited investment in defense.",
-    "year": 2023,
-    "indicatorIds": [
-      "ms-mil-xpnd-cn"
-    ],
-    "emoji": "🛡️",
-    "type": "BAD",
-    "topicIds": [
-      "public-sector"
-    ]
-  },
-  {
-    "title": "Limited Transport Services in Service Exports",
-    "description": "In 2022, transport services accounted for only 0.39% of Liberia's service exports, indicating a narrow service export base.",
+    "name": "Business Beginnings",
+    "title": "Low New Business Density",
+    "description": "In 2022, Liberia had a new business density of 0.025 registrations per 1,000 people aged 15-64, indicating a slow pace of entrepreneurial growth.",
     "year": 2022,
     "indicatorIds": [
-      "bx-gsr-tran-zs"
+      "ic-bus-ndns-zs"
     ],
-    "emoji": "🚚",
+    "emoji": "🏢",
     "type": "BAD",
     "topicIds": [
-      "economy",
-      "trade"
+      "private-sector"
     ]
   },
   {
-    "title": "Low Value Added per Worker in Services",
-    "description": "In 2023, the value added per worker in Liberia's service sector was 1,004.08 constant 2015 US$, indicating low productivity.",
+    "name": "Service Sector Struggles",
+    "title": "Low Value Added Per Worker in Services",
+    "description": "In 2023, the value added per worker in Liberia's service sector was 1,004.08 constant 2015 US$, reflecting low productivity levels.",
     "year": 2023,
     "indicatorIds": [
       "nv-srv-empl-kd"
     ],
-    "emoji": "📉",
+    "emoji": "🛠️",
     "type": "BAD",
     "topicIds": [
       "economy"
     ]
   },
   {
-    "title": "Limited Voice and Accountability",
-    "description": "In 2023, Liberia had 14 sources for voice and accountability, suggesting challenges in governance and civic engagement.",
-    "year": 2023,
+    "name": "Transport Troubles",
+    "title": "Minimal Contribution of Transport Services to Exports",
+    "description": "In 2022, transport services accounted for only 0.39% of Liberia's service exports, indicating limited development in this sector.",
+    "year": 2022,
     "indicatorIds": [
-      "va-no-src"
+      "bx-gsr-tran-zs",
+      "tx-val-tran-zs-wt"
     ],
-    "emoji": "🗣️",
+    "emoji": "🚚",
     "type": "BAD",
     "topicIds": [
-      "public-sector"
+      "economy",
+      "trade",
+      "private-sector"
     ]
   },
   {
-    "title": "Minimal Official Flows from UN Agencies",
-    "description": "In 2022, Liberia received 136.50 US$ in net official flows from UN agencies, indicating limited international financial support.",
+    "name": "UN Aid Dependency",
+    "title": "Net Official Flows from UN Agencies",
+    "description": "In 2022, Liberia received 136.5 million US$ in net official flows from UN agencies, reflecting a reliance on international aid.",
     "year": 2022,
     "indicatorIds": [
       "dt-nfl-sprp-cd"
     ],
     "emoji": "🌐",
-    "type": "BAD",
+    "type": "GOOD",
     "topicIds": []
+  },
+  {
+    "name": "Voice and Accountability",
+    "title": "Moderate Voice and Accountability",
+    "description": "In 2023, Liberia had 14 sources contributing to its voice and accountability score, indicating a moderate level of political freedom and civil liberties.",
+    "year": 2023,
+    "indicatorIds": [
+      "va-no-src"
+    ],
+    "emoji": "🗣️",
+    "type": "GOOD",
+    "topicIds": [
+      "public-sector"
+    ]
   }
 ]

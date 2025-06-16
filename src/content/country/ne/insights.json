@@ -1,34 +1,8 @@
 [
   {
-    "title": "High Air Pollution Levels",
-    "description": "In 2020, Niger recorded a mean annual PM2.5 air pollution exposure of 85.12 micrograms per cubic meter, one of the highest globally.",
-    "year": 2020,
-    "indicatorIds": [
-      "en-atm-pm25-mc-m3"
-    ],
-    "emoji": "🌫️",
-    "type": "BAD",
-    "topicIds": [
-      "urban-development",
-      "environment"
-    ]
-  },
-  {
-    "title": "Widespread Informal Competition",
-    "description": "In 2017, 85.1% of firms in Niger reported facing competition from unregistered firms, indicating a significant informal sector presence.",
-    "year": 2017,
-    "indicatorIds": [
-      "ic-frm-cmpu-zs"
-    ],
-    "emoji": "🏢",
-    "type": "BAD",
-    "topicIds": [
-      "private-sector"
-    ]
-  },
-  {
-    "title": "Strong Agricultural Sector",
-    "description": "As of 2023, agriculture, forestry, and fishing contribute 47.81% to Niger's GDP, highlighting the sector's importance to the economy.",
+    "name": "Agriculture is King",
+    "title": "Agricultural Dominance",
+    "description": "In 2023, agriculture, forestry, and fishing contributed to 47.81% of Niger's GDP, showcasing the country's reliance on these sectors for economic stability.",
     "year": 2023,
     "indicatorIds": [
       "nv-agr-totl-zs"
@@ -42,11 +16,13 @@
     ]
   },
   {
-    "title": "Severe Learning Poverty Among Girls",
-    "description": "In 2019, 100% of female children at the end-of-primary age were below minimum reading proficiency, adjusted for out-of-school children.",
+    "name": "Education's Great Divide",
+    "title": "Education Disparity",
+    "description": "In 2019, 100% of female primary school-age children were out-of-school, highlighting a significant challenge in achieving gender parity in education.",
     "year": 2019,
     "indicatorIds": [
-      "se-lpv-prim-fe"
+      "se-lpv-prim-fe",
+      "se-lpv-prim-sd-fe"
     ],
     "emoji": "📚",
     "type": "BAD",
@@ -55,50 +31,57 @@
     ]
   },
   {
-    "title": "High Female Out-of-School Rates",
-    "description": "In 2019, 100% of female primary school age children were out of school, indicating a critical education gap.",
-    "year": 2019,
-    "indicatorIds": [
-      "se-lpv-prim-sd-fe"
-    ],
-    "emoji": "🚸",
-    "type": "BAD",
-    "topicIds": []
-  },
-  {
-    "title": "High Adolescent Out-of-School Rates",
-    "description": "In 2023, 72.97% of female and 71.63% of male adolescents of lower secondary school age were out of school.",
+    "name": "Youth Unemployment Challenge",
+    "title": "High Youth Unemployment",
+    "description": "In 2023, 72.29% of adolescents were out of school, indicating a high rate of youth unemployment and educational disengagement.",
     "year": 2023,
     "indicatorIds": [
+      "se-sec-uner-lo-zs",
       "se-sec-uner-lo-fe-zs",
       "se-sec-uner-lo-ma-zs"
     ],
-    "emoji": "🏫",
+    "emoji": "🧑‍🎓",
     "type": "BAD",
     "topicIds": [
       "education"
     ]
   },
   {
-    "title": "High Child Mortality Rates",
-    "description": "In 2023, Niger's under-5 mortality rate was 114.8 per 1,000 live births, with 110.7 for females and 118.5 for males.",
-    "year": 2023,
+    "name": "Health Cost Burden",
+    "title": "Healthcare-Induced Poverty",
+    "description": "In 2018, 78.53% of the population was pushed further below the $3.65 poverty line due to out-of-pocket healthcare expenses, indicating a significant financial burden on households.",
+    "year": 2018,
     "indicatorIds": [
-      "sh-dyn-mort",
-      "sh-dyn-mort-fe",
-      "sh-dyn-mort-ma"
+      "sh-uhc-fbp1-zs",
+      "sh-uhc-fbp2-zs",
+      "sh-uhc-tot1-zs",
+      "sh-uhc-tot2-zs"
     ],
-    "emoji": "⚰️",
+    "emoji": "💸",
     "type": "BAD",
     "topicIds": [
-      "health",
-      "aid-effectiveness",
-      "climate-change"
+      "health"
     ]
   },
   {
-    "title": "Effective Use of Bed Nets",
-    "description": "In 2015, 95.5% of the under-5 population used insecticide-treated bed nets, indicating strong malaria prevention efforts.",
+    "name": "Clean Air Crisis",
+    "title": "Severe Air Pollution",
+    "description": "In 2020, Niger experienced a mean annual PM2.5 air pollution level of 85.12 micrograms per cubic meter, posing serious health risks to its population.",
+    "year": 2020,
+    "indicatorIds": [
+      "en-atm-pm25-mc-m3"
+    ],
+    "emoji": "🌫️",
+    "type": "BAD",
+    "topicIds": [
+      "urban-development",
+      "environment"
+    ]
+  },
+  {
+    "name": "Bed Nets Success",
+    "title": "Effective Malaria Prevention",
+    "description": "In 2015, 95.5% of the under-5 population used insecticide-treated bed nets, demonstrating effective malaria prevention efforts.",
     "year": 2015,
     "indicatorIds": [
       "sh-mlr-nets-zs"
@@ -110,63 +93,45 @@
     ]
   },
   {
-    "title": "High Health Expenditure-Induced Poverty",
-    "description": "In 2018, 78.53% of the population was pushed or further pushed below the $3.65 poverty line due to out-of-pocket health expenditures.",
-    "year": 2018,
-    "indicatorIds": [
-      "sh-uhc-tot2-zs"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "High Youth Employment Rates",
-    "description": "In 2022, 78.35% of males aged 15-24 were employed, reflecting a strong youth employment rate.",
-    "year": 2022,
-    "indicatorIds": [
-      "sl-emp-1524-sp-ma-ne-zs"
-    ],
-    "emoji": "👷",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection"
-    ]
-  },
-  {
-    "title": "Young Female Population",
-    "description": "In 2023, 46.91% of Niger's female population was aged 0-14, indicating a young demographic profile.",
+    "name": "Child Mortality Concern",
+    "title": "High Child Mortality Rates",
+    "description": "In 2023, Niger had an under-5 mortality rate of 114.8 per 1,000 live births, highlighting significant challenges in child health and survival.",
     "year": 2023,
     "indicatorIds": [
-      "sp-pop-0014-fe-zs"
+      "sh-dyn-mort",
+      "sh-dyn-mort-fe",
+      "sh-dyn-mort-ma"
     ],
-    "emoji": "👧",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Coverage of Social Insurance Programs",
-    "description": "In 2021, only 21.4% of the population in the third quintile was covered by social insurance programs, indicating limited social safety nets.",
-    "year": 2021,
-    "indicatorIds": [
-      "per_si_allsi-cov_q3_tot"
-    ],
-    "emoji": "🔍",
+    "emoji": "👶",
     "type": "BAD",
     "topicIds": [
-      "social-protection"
+      "health",
+      "aid-effectiveness",
+      "climate-change"
     ]
   },
   {
-    "title": "Low Educational Attainment in Lower Secondary",
-    "description": "As of 2022, only 11.5% of males aged 25 and above had completed lower secondary education, highlighting educational challenges.",
+    "name": "Informal Competition",
+    "title": "Prevalence of Informal Firms",
+    "description": "In 2017, 85.1% of firms reported competition from unregistered firms, indicating a significant informal sector presence.",
+    "year": 2017,
+    "indicatorIds": [
+      "ic-frm-cmpu-zs"
+    ],
+    "emoji": "🏢",
+    "type": "BAD",
+    "topicIds": [
+      "private-sector"
+    ]
+  },
+  {
+    "name": "Education Struggles",
+    "title": "Low Educational Attainment",
+    "description": "In 2022, only 8.45% of Niger's population aged 25+ had completed lower secondary education, and a mere 1.38% had completed post-secondary education. This highlights significant challenges in educational attainment.",
     "year": 2022,
     "indicatorIds": [
-      "se-sec-cuat-lo-ma-zs"
+      "se-sec-cuat-lo-zs",
+      "se-sec-cuat-po-zs"
     ],
     "emoji": "📚",
     "type": "BAD",
@@ -176,79 +141,51 @@
     ]
   },
   {
-    "title": "Minimal Post-Secondary Education Completion",
-    "description": "In 2022, merely 1.38% of the population aged 25 and above had completed post-secondary education, reflecting low higher education attainment.",
+    "name": "Youth Employment Success",
+    "title": "Low Youth Unemployment Rates",
+    "description": "Niger boasts impressively low youth unemployment rates, with only 0.397% of the youth labor force unemployed in 2022, according to national estimates.",
     "year": 2022,
     "indicatorIds": [
-      "se-sec-cuat-po-zs"
+      "sl-uem-1524-ne-zs"
     ],
-    "emoji": "🎓",
-    "type": "BAD",
+    "emoji": "👷‍♂️",
+    "type": "GOOD",
     "topicIds": [
-      "education",
-      "gender"
+      "social-protection"
     ]
   },
   {
-    "title": "Limited Progression to Secondary School for Females",
-    "description": "In 2015, only 56% of females progressed to secondary school, indicating gender disparities in education.",
-    "year": 2015,
-    "indicatorIds": [
-      "se-sec-prog-fe-zs"
-    ],
-    "emoji": "👩‍🎓",
-    "type": "BAD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Prevalence of Overweight in Children",
-    "description": "In 2022, only 0.5% of female children under five were overweight, suggesting low levels of childhood obesity.",
+    "name": "Female Workforce Stability",
+    "title": "Low Female Unemployment",
+    "description": "In 2022, Niger had a low female unemployment rate of 0.29%, showcasing a relatively stable female workforce.",
     "year": 2022,
     "indicatorIds": [
-      "sh-sta-owgh-fe-zs"
-    ],
-    "emoji": "🍏",
-    "type": "GOOD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Low Youth Unemployment Rate",
-    "description": "In 2024, the youth unemployment rate was estimated at 16.3%, reflecting a relatively low level of youth joblessness.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-uem-1524-fe-zs"
-    ],
-    "emoji": "👷‍♀️",
-    "type": "GOOD",
-    "topicIds": [
-      "social-protection",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Female Unemployment Rate",
-    "description": "The female unemployment rate was estimated at 25.8% in 2024, indicating a relatively low level of female joblessness.",
-    "year": 2024,
-    "indicatorIds": [
-      "sl-uem-totl-fe-zs"
+      "sl-uem-totl-fe-ne-zs"
     ],
     "emoji": "👩‍💼",
     "type": "GOOD",
     "topicIds": [
-      "education",
-      "social-protection",
-      "gender",
-      "social-development"
+      "social-protection"
     ]
   },
   {
-    "title": "Low Employment in Industry for Males",
-    "description": "In 2023, only 5.4% of male employment was in the industry sector, showing limited industrial employment opportunities.",
+    "name": "Insurance Gaps",
+    "title": "Limited Social Insurance Coverage",
+    "description": "As of 2021, only 21.45% of the population in the third quintile had access to social insurance programs, indicating gaps in social safety nets.",
+    "year": 2021,
+    "indicatorIds": [
+      "per_si_allsi-cov_q3_tot"
+    ],
+    "emoji": "🛡️",
+    "type": "BAD",
+    "topicIds": [
+      "social-protection"
+    ]
+  },
+  {
+    "name": "Industry Employment Challenge",
+    "title": "Low Male Employment in Industry",
+    "description": "In 2023, only 5.42% of Niger's male workforce was employed in the industry sector, reflecting limited industrial job opportunities.",
     "year": 2023,
     "indicatorIds": [
       "sl-ind-empl-ma-zs"
@@ -257,6 +194,36 @@
     "type": "BAD",
     "topicIds": [
       "social-protection",
+      "gender"
+    ]
+  },
+  {
+    "name": "Healthy Kids",
+    "title": "Low Prevalence of Overweight Children",
+    "description": "In 2022, only 0.5% of female children under 5 were overweight, indicating a low prevalence of childhood obesity.",
+    "year": 2022,
+    "indicatorIds": [
+      "sh-sta-owgh-fe-zs"
+    ],
+    "emoji": "👶",
+    "type": "GOOD",
+    "topicIds": [
+      "health"
+    ]
+  },
+  {
+    "name": "Secondary School Progress",
+    "title": "Moderate Progression to Secondary School",
+    "description": "In 2015, 58.27% of students progressed to secondary school, with a slightly lower rate of 56.04% for females, indicating moderate educational progression.",
+    "year": 2015,
+    "indicatorIds": [
+      "se-sec-prog-zs",
+      "se-sec-prog-fe-zs"
+    ],
+    "emoji": "🏫",
+    "type": "GOOD",
+    "topicIds": [
+      "education",
       "gender"
     ]
   }

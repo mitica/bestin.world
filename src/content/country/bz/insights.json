@@ -1,7 +1,8 @@
 [
   {
-    "title": "Limited High-Technology Exports",
-    "description": "In 2022, Belize's high-technology exports amounted to just $17, representing a mere 0.00018% of its manufactured exports. This highlights a significant gap in the country's technological advancement and export capabilities.",
+    "name": "Tech Exports? Not Our Forte",
+    "title": "Minimal High-Technology Exports",
+    "description": "In 2022, Belize's high-technology exports were valued at just $17, making up a mere 0.00018% of its manufactured exports. This indicates a minimal focus on high-tech industries.",
     "year": 2022,
     "indicatorIds": [
       "tx-val-tech-cd",
@@ -16,8 +17,9 @@
     ]
   },
   {
-    "title": "Investment in ICT through Public-Private Partnerships",
-    "description": "In 2019, Belize invested $8.6 million in ICT through public-private partnerships, indicating a commitment to improving its information and communication technology infrastructure.",
+    "name": "ICT Investments on the Rise",
+    "title": "Growing ICT Investments",
+    "description": "In 2019, Belize invested $8.6 million in public-private partnerships for ICT, showcasing a commitment to enhancing its digital infrastructure.",
     "year": 2019,
     "indicatorIds": [
       "ie-ppn-icti-cd"
@@ -29,8 +31,9 @@
     ]
   },
   {
+    "name": "Youth Health Challenge",
     "title": "Children Living with HIV",
-    "description": "As of 2022, there are 100 children aged 0-14 living with HIV in Belize. This statistic underscores the ongoing public health challenges the country faces in addressing HIV/AIDS.",
+    "description": "As of 2022, there are 100 children aged 0-14 living with HIV in Belize, highlighting a significant public health challenge.",
     "year": 2022,
     "indicatorIds": [
       "sh-hiv-0014"

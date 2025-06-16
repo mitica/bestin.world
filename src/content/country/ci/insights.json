@@ -1,10 +1,12 @@
 [
   {
-    "title": "High Risk of Catastrophic Expenditure for Surgical Care",
-    "description": "In 2022, 100% of the population in Ivory Coast was at risk of catastrophic expenditure for surgical care, indicating a significant financial burden on citizens seeking medical procedures.",
+    "name": "Surgical Costs Crisis",
+    "title": "High Risk of Financial Ruin from Surgical Care",
+    "description": "In 2022, 100% of the population in Ivory Coast faced the risk of catastrophic and impoverishing expenditure due to surgical care, highlighting a significant healthcare affordability crisis.",
     "year": 2022,
     "indicatorIds": [
-      "sh-sgr-crsk-zs"
+      "sh-sgr-crsk-zs",
+      "sh-sgr-irsk-zs"
     ],
     "emoji": "💸",
     "type": "BAD",
@@ -13,26 +15,14 @@
     ]
   },
   {
-    "title": "High Risk of Impoverishing Expenditure for Surgical Care",
-    "description": "As of 2022, every individual in Ivory Coast faced a 100% risk of impoverishing expenditure when accessing surgical care, highlighting a critical healthcare affordability issue.",
-    "year": 2022,
-    "indicatorIds": [
-      "sh-sgr-irsk-zs"
-    ],
-    "emoji": "⚠️",
-    "type": "BAD",
-    "topicIds": [
-      "health"
-    ]
-  },
-  {
-    "title": "Limited Market Competition Services Implementation",
-    "description": "In 2024, Ivory Coast scored 23.07 in the implementation of key services promoting market competition, suggesting room for improvement in fostering a competitive economic environment.",
+    "name": "Competitive Market Challenges",
+    "title": "Struggles in Implementing Market Competition Services",
+    "description": "As of 2024, Ivory Coast scored 23.07 in implementing key services promoting market competition, indicating room for improvement in fostering a competitive business environment.",
     "year": 2024,
     "indicatorIds": [
       "ic-bre-mc-p3"
     ],
-    "emoji": "🔍",
+    "emoji": "🏢",
     "type": "BAD",
     "topicIds": []
   }

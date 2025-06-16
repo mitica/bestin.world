@@ -1,7 +1,8 @@
 [
   {
-    "title": "Leading in ICT Service Exports",
-    "description": "In 2023, Israel's ICT service exports accounted for 61.77% of its total service exports, marking the highest percentage globally.",
+    "name": "Tech Titans",
+    "title": "Leading ICT Service Exporters",
+    "description": "In 2023, Israel's ICT service exports accounted for 61.77% of its total service exports, marking it as a global leader in this sector.",
     "year": 2023,
     "indicatorIds": [
       "bx-gsr-ccis-zs"
@@ -15,8 +16,9 @@
     ]
   },
   {
-    "title": "Top Investor in Research and Development",
-    "description": "In 2022, Israel dedicated 6.02% of its GDP to research and development, the highest proportion worldwide.",
+    "name": "Innovative Minds",
+    "title": "Top R&D Spenders",
+    "description": "Israel invested 6.02% of its GDP in research and development in 2022, showcasing its commitment to innovation and technological advancement.",
     "year": 2022,
     "indicatorIds": [
       "gb-xpd-rsdv-gd-zs"
@@ -28,13 +30,14 @@
     ]
   },
   {
-    "title": "Universal Female Secondary Education Enrollment",
-    "description": "As of 2015, Israel achieved a 100% net enrollment rate for females in secondary education, leading globally.",
+    "name": "Educated & Empowered",
+    "title": "Full Female Secondary School Enrollment",
+    "description": "In 2015, Israel achieved a 100% net enrollment rate for females in secondary education, reflecting its dedication to gender equality in education.",
     "year": 2015,
     "indicatorIds": [
       "se-sec-nenr-fe"
     ],
-    "emoji": "📚",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -42,13 +45,14 @@
     ]
   },
   {
-    "title": "Low Male Mortality from Non-Communicable Diseases",
-    "description": "In 2021, the mortality rate for Israeli males aged 30 to 70 from CVD, cancer, diabetes, or CRD was 8.9%, one of the lowest rates globally.",
+    "name": "Healthy Lifestyles",
+    "title": "Low Male Mortality from Major Diseases",
+    "description": "In 2021, Israel reported a low mortality rate of 8.9% for males aged 30-70 from cardiovascular diseases, cancer, diabetes, or chronic respiratory diseases.",
     "year": 2021,
     "indicatorIds": [
       "sh-dyn-ncom-ma-zs"
     ],
-    "emoji": "❤️",
+    "emoji": "💪",
     "type": "GOOD",
     "topicIds": [
       "health"

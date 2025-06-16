@@ -1,12 +1,13 @@
 [
   {
-    "title": "High Female Representation in Primary Education",
-    "description": "In 2023, 99.5% of primary education teachers in Belarus were female, showcasing a strong female presence in the educational workforce.",
+    "name": "Education Powerhouse",
+    "title": "Top Female Teachers",
+    "description": "In 2023, an impressive 99.5% of primary education teachers in Belarus were female, showcasing the country's commitment to gender equality in education.",
     "year": 2023,
     "indicatorIds": [
       "se-prm-tchr-fe-zs"
     ],
-    "emoji": "👩‍🏫",
+    "emoji": "📚",
     "type": "GOOD",
     "topicIds": [
       "education",
@@ -14,11 +15,13 @@
     ]
   },
   {
-    "title": "Exceptional Educational Attainment for Women",
-    "description": "By 2023, 98.2% of Belarusian women aged 25 and older had completed at least upper secondary education, indicating high educational achievement among females.",
+    "name": "Educated Nation",
+    "title": "High Educational Attainment",
+    "description": "As of 2023, 98.18% of Belarusian women aged 25 and older had completed at least upper secondary education, reflecting a strong educational foundation.",
     "year": 2023,
     "indicatorIds": [
-      "se-sec-cuat-up-fe-zs"
+      "se-sec-cuat-up-fe-zs",
+      "se-sec-cuat-up-zs"
     ],
     "emoji": "🎓",
     "type": "GOOD",
@@ -28,13 +31,16 @@
     ]
   },
   {
-    "title": "Low Maternal Mortality Ratio",
-    "description": "Belarus reported a maternal mortality ratio of just 1 per 100,000 live births in 2023, reflecting excellent maternal healthcare.",
+    "name": "Maternal Health Champions",
+    "title": "Lowest Maternal Mortality",
+    "description": "Belarus boasts one of the lowest maternal mortality ratios globally, with only 1 death per 100,000 live births in 2023, highlighting its advanced healthcare system.",
     "year": 2023,
     "indicatorIds": [
-      "sh-sta-mmrt"
+      "sh-sta-mmrt",
+      "sh-mmr-risk",
+      "sh-mmr-risk-zs"
     ],
-    "emoji": "🤰",
+    "emoji": "👶",
     "type": "GOOD",
     "topicIds": [
       "health",
@@ -43,8 +49,65 @@
     ]
   },
   {
-    "title": "Minimal Early Marriage Among Women",
-    "description": "As of 2019, only 0.1% of Belarusian women aged 20-24 were married by age 15, indicating low prevalence of child marriage.",
+    "name": "Carbon Guardians",
+    "title": "Negative CO2 Flux from Deforestation",
+    "description": "In 2022, Belarus achieved a net negative CO2 flux from deforestation, contributing to global environmental sustainability efforts.",
+    "year": 2022,
+    "indicatorIds": [
+      "en-ghg-co2-lu-df-mt-ce-ar5"
+    ],
+    "emoji": "🌳",
+    "type": "GOOD",
+    "topicIds": [
+      "environment"
+    ]
+  },
+  {
+    "name": "Aid Deficit",
+    "title": "Negative Net Bilateral Aid",
+    "description": "In 2022, Belarus experienced a negative net bilateral aid flow from DAC donors and European Union institutions, amounting to -$102.24 million, indicating financial challenges.",
+    "year": 2022,
+    "indicatorIds": [
+      "dc-dac-cecl-cd"
+    ],
+    "emoji": "💸",
+    "type": "BAD",
+    "topicIds": [
+      "aid-effectiveness"
+    ]
+  },
+  {
+    "name": "Private Education Rarity",
+    "title": "Minimal Private School Enrollment",
+    "description": "In 2023, only 0.01% of primary school students in Belarus were enrolled in private institutions, suggesting a predominantly public education system.",
+    "year": 2023,
+    "indicatorIds": [
+      "se-prm-priv-zs"
+    ],
+    "emoji": "🏫",
+    "type": "GOOD",
+    "topicIds": [
+      "education"
+    ]
+  },
+  {
+    "name": "Income Equality",
+    "title": "Fair Income Distribution",
+    "description": "In 2020, the lowest 10% of income earners in Belarus held 4.5% of the national income, indicating a relatively equitable income distribution.",
+    "year": 2020,
+    "indicatorIds": [
+      "si-dst-frst-10"
+    ],
+    "emoji": "💰",
+    "type": "GOOD",
+    "topicIds": [
+      "poverty"
+    ]
+  },
+  {
+    "name": "Early Marriage Rarity",
+    "title": "Low Child Marriage Rates",
+    "description": "As of 2019, only 0.1% of Belarusian women aged 20-24 were married by age 15, reflecting progressive social norms.",
     "year": 2019,
     "indicatorIds": [
       "sp-m15-2024-fe-zs"
@@ -57,110 +120,17 @@
     ]
   },
   {
-    "title": "Significant Income Share for Lowest 10%",
-    "description": "In 2020, the lowest 10% of income earners in Belarus held 4.5% of the national income, suggesting a relatively equitable income distribution.",
-    "year": 2020,
-    "indicatorIds": [
-      "si-dst-frst-10"
-    ],
-    "emoji": "💰",
-    "type": "GOOD",
-    "topicIds": [
-      "poverty"
-    ]
-  },
-  {
-    "title": "High Educational Attainment in Population",
-    "description": "By 2023, 97.9% of the Belarusian population aged 25 and older had completed at least upper secondary education, highlighting widespread educational achievement.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-sec-cuat-up-zs"
-    ],
-    "emoji": "📚",
-    "type": "GOOD",
-    "topicIds": [
-      "education",
-      "gender"
-    ]
-  },
-  {
-    "title": "Low Net Bilateral Aid Flows",
-    "description": "In 2022, Belarus experienced a net outflow of bilateral aid amounting to -$102.24 million, indicating a negative balance in aid received.",
-    "year": 2022,
-    "indicatorIds": [
-      "dc-dac-cecl-cd"
-    ],
-    "emoji": "💸",
-    "type": "BAD",
-    "topicIds": [
-      "aid-effectiveness"
-    ]
-  },
-  {
-    "title": "Negative Carbon Dioxide Flux from Deforestation",
-    "description": "Belarus reported a net flux of -3.26 Mt CO2e from deforestation in 2022, reflecting a reduction in carbon emissions from land use change.",
-    "year": 2022,
-    "indicatorIds": [
-      "en-ghg-co2-lu-df-mt-ce-ar5"
-    ],
-    "emoji": "🌳",
-    "type": "GOOD",
-    "topicIds": [
-      "environment"
-    ]
-  },
-  {
-    "title": "Minimal Private School Enrollment in Primary Education",
-    "description": "In 2023, only 0.01% of primary school students in Belarus were enrolled in private institutions, indicating a predominantly public education system.",
-    "year": 2023,
-    "indicatorIds": [
-      "se-prm-priv-zs"
-    ],
-    "emoji": "🏫",
-    "type": "BAD",
-    "topicIds": [
-      "education"
-    ]
-  },
-  {
-    "title": "Low Labor Force with Basic Education Among Males",
-    "description": "As of 2023, only 17.8% of the male working-age population in Belarus had basic education, suggesting a need for improved educational opportunities for men.",
+    "name": "Basic Education Gap",
+    "title": "Low Male Basic Education",
+    "description": "In 2023, only 17.82% of the male working-age population in Belarus had basic education, highlighting a potential area for educational improvement.",
     "year": 2023,
     "indicatorIds": [
       "sl-tlf-basc-ma-zs"
     ],
-    "emoji": "👨‍🏭",
+    "emoji": "📉",
     "type": "BAD",
     "topicIds": [
       "social-protection"
-    ]
-  },
-  {
-    "title": "Low Lifetime Risk of Maternal Death",
-    "description": "In 2023, the lifetime risk of maternal death in Belarus was 1 in 96,213, indicating strong maternal health systems.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-mmr-risk"
-    ],
-    "emoji": "🩺",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "gender"
-    ]
-  },
-  {
-    "title": "Minimal Lifetime Risk of Maternal Death Percentage",
-    "description": "The lifetime risk of maternal death in Belarus was 0.001% in 2023, showcasing exceptional maternal healthcare.",
-    "year": 2023,
-    "indicatorIds": [
-      "sh-mmr-risk-zs"
-    ],
-    "emoji": "👶",
-    "type": "GOOD",
-    "topicIds": [
-      "health",
-      "gender"
     ]
   }
 ]

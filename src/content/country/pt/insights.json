@@ -1,39 +1,42 @@
 [
   {
-    "title": "Exemplary Female Education Retention",
-    "description": "In 2020, Portugal achieved a 100% persistence rate for females reaching the last grade of primary education, showcasing its commitment to gender equality in education.",
+    "name": "Trade Regulations Ace",
+    "title": "Top-notch Trade Regulations",
+    "description": "In 2024, Portugal scored an impressive 88.92 in the quality of regulations for international trade, showcasing its robust framework for global commerce.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-it-p1"
+    ],
+    "emoji": "📈",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Labor Law Champions",
+    "title": "Exemplary Labor Regulations",
+    "description": "Portugal's labor regulations were rated at 88.23 in 2024, reflecting a strong commitment to fair and effective labor practices.",
+    "year": 2024,
+    "indicatorIds": [
+      "ic-bre-lb-p1"
+    ],
+    "emoji": "💼",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Education Persistence Pioneers",
+    "title": "Unwavering Female Education",
+    "description": "In 2020, Portugal achieved a 100% persistence rate for females reaching grade 5 and the last grade of primary education, highlighting its dedication to female education.",
     "year": 2020,
     "indicatorIds": [
       "se-prm-prs5-fe-zs",
       "se-prm-prsl-fe-zs"
     ],
-    "emoji": "📚",
+    "emoji": "🎓",
     "type": "GOOD",
     "topicIds": [
       "education",
       "gender"
     ]
-  },
-  {
-    "title": "Top-tier Quality of Labor Regulations",
-    "description": "Portugal scored 88.23 in 2024 for the quality of its labor regulations, placing it among the highest globally, reflecting a robust framework for workforce management.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-lb-p1"
-    ],
-    "emoji": "⚖️",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Outstanding International Trade Regulations",
-    "description": "In 2024, Portugal achieved a score of 88.92 for the quality of its international trade regulations, indicating a strong regulatory environment conducive to global trade.",
-    "year": 2024,
-    "indicatorIds": [
-      "ic-bre-it-p1"
-    ],
-    "emoji": "🌍",
-    "type": "GOOD",
-    "topicIds": []
   }
 ]

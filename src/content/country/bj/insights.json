@@ -1,7 +1,8 @@
 [
   {
+    "name": "Malaria's Unyielding Grip",
     "title": "High Malaria Incidence",
-    "description": "In 2023, Benin recorded a malaria incidence rate of 363.4 cases per 1,000 population at risk, one of the highest in the world.",
+    "description": "In 2023, Benin reported a malaria incidence of 363.4 cases per 1,000 population at risk, one of the highest in the world.",
     "year": 2023,
     "indicatorIds": [
       "sh-mlr-incd-p3"
@@ -13,21 +14,23 @@
     ]
   },
   {
+    "name": "Diabetes? Not a Big Deal Here",
     "title": "Low Diabetes Prevalence",
-    "description": "As of 2021, only 1.1% of Benin's population aged 20 to 79 were affected by diabetes, marking one of the lowest prevalence rates globally.",
+    "description": "With only 1.1% of its population aged 20 to 79 affected by diabetes in 2021, Benin boasts one of the lowest diabetes prevalence rates globally.",
     "year": 2021,
     "indicatorIds": [
       "sh-sta-diab-zs"
     ],
-    "emoji": "🍏",
+    "emoji": "🍎",
     "type": "GOOD",
     "topicIds": [
       "health"
     ]
   },
   {
-    "title": "Limited Access to Sanitation Services",
-    "description": "In 2022, only 2.7% of Benin's population had access to safely managed sanitation services, highlighting a significant area for improvement.",
+    "name": "Sanitation Struggles",
+    "title": "Limited Access to Sanitation",
+    "description": "In 2022, only 2.7% of Benin's population had access to safely managed sanitation services, highlighting significant challenges in public health infrastructure.",
     "year": 2022,
     "indicatorIds": [
       "sh-sta-smss-zs"

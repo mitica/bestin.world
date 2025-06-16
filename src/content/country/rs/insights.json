@@ -1,7 +1,8 @@
 [
   {
-    "title": "High Government Investment in Primary Education",
-    "description": "In 2015, Serbia allocated 43.65% of its GDP per capita to government expenditure per student in primary education, indicating a strong commitment to educational development.",
+    "name": "Education is a Priority",
+    "title": "Top Investment in Primary Education",
+    "description": "In 2015, Serbia's government expenditure per student in primary education was 43.65% of GDP per capita, showcasing a strong commitment to education.",
     "year": 2015,
     "indicatorIds": [
       "se-xpd-prim-pc-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Empowerment in Women's Health Decisions",
-    "description": "By 2019, 96.2% of Serbian women aged 15-49 were making informed decisions regarding sexual relations, contraceptive use, and reproductive health care, showcasing significant progress in women's empowerment.",
+    "name": "Empowered Women",
+    "title": "Leading in Women's Health Autonomy",
+    "description": "In 2019, 96.2% of Serbian women aged 15-49 made informed decisions regarding sexual relations, contraceptive use, and reproductive health care, highlighting significant progress in women's rights.",
     "year": 2019,
     "indicatorIds": [
       "sg-dmk-srcr-fn-zs"
@@ -26,19 +28,9 @@
     ]
   },
   {
-    "title": "Low Multidimensional Poverty Rate",
-    "description": "In 2019, only 0.1% of Serbia's population was living in multidimensional poverty, reflecting effective poverty alleviation strategies.",
-    "year": 2019,
-    "indicatorIds": [
-      "si-pov-mpun"
-    ],
-    "emoji": "💪",
-    "type": "GOOD",
-    "topicIds": []
-  },
-  {
-    "title": "Minimal Deaths by Injury",
-    "description": "In 2019, injuries accounted for just 2.37% of total deaths in Serbia, indicating effective public safety and health measures.",
+    "name": "Safe and Sound",
+    "title": "Low Injury-Related Deaths",
+    "description": "In 2019, only 2.37% of deaths in Serbia were due to injuries, indicating a relatively safe environment for its citizens.",
     "year": 2019,
     "indicatorIds": [
       "sh-dth-injr-zs"
@@ -50,26 +42,40 @@
     ]
   },
   {
-    "title": "Negative Net Aid Flows from Finland",
-    "description": "In 2022, Serbia experienced a negative net bilateral aid flow of -$4,099,999.90 from Finland, suggesting a reduction in financial support from this donor.",
+    "name": "Poverty Almost Eradicated",
+    "title": "Minimal Multidimensional Poverty",
+    "description": "By 2019, Serbia had reduced its multidimensional poverty headcount ratio to just 0.1% of the population, reflecting effective poverty alleviation strategies.",
+    "year": 2019,
+    "indicatorIds": [
+      "si-pov-mpun"
+    ],
+    "emoji": "🌟",
+    "type": "GOOD",
+    "topicIds": []
+  },
+  {
+    "name": "Aid Challenges",
+    "title": "Negative Net Aid Flows",
+    "description": "In 2022, Serbia experienced a negative net bilateral aid flow of -$4,099,999.90 from Finland, indicating challenges in international aid relations.",
     "year": 2022,
     "indicatorIds": [
       "dc-dac-finl-cd"
     ],
-    "emoji": "💸",
+    "emoji": "🔄",
     "type": "BAD",
     "topicIds": [
       "aid-effectiveness"
     ]
   },
   {
-    "title": "Negative Official Flows from UNECE",
-    "description": "In 2015, Serbia had a negative net official flow of -$961.99 from UN agencies, specifically UNECE, indicating a decrease in financial assistance from this source.",
+    "name": "UN Support Lacking",
+    "title": "Minimal Official UN Flows",
+    "description": "In 2015, Serbia received a minimal net official flow of -$961.99 from UNECE, highlighting limited support from UN agencies.",
     "year": 2015,
     "indicatorIds": [
       "dt-nfl-unec-cd"
     ],
-    "emoji": "🔻",
+    "emoji": "🌐",
     "type": "BAD",
     "topicIds": [
       "aid-effectiveness"

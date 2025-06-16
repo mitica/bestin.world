@@ -1,7 +1,8 @@
 [
   {
-    "title": "Zero Bribery Incidence",
-    "description": "In 2019, only 0.2% of firms in Cyprus reported experiencing at least one bribe payment request, showcasing the country's strong stance against corruption.",
+    "name": "Bribery-Free Business Zone",
+    "title": "Lowest Bribery Incidence Among Firms",
+    "description": "In 2019, only 0.2% of firms in Cyprus reported experiencing a bribe payment request, showcasing the country's strong stance against corruption.",
     "year": 2019,
     "indicatorIds": [
       "ic-frm-brib-zs"
@@ -13,8 +14,9 @@
     ]
   },
   {
-    "title": "Exceptional Female Education Persistence",
-    "description": "By 2021, Cyprus achieved a 100% persistence rate for females reaching grade 5 and the last grade of primary education, highlighting the country's commitment to female education.",
+    "name": "Education Champions",
+    "title": "Top Female Persistence to Primary Education",
+    "description": "In 2021, Cyprus achieved a 100% persistence rate for females reaching the last grade of primary education, highlighting its commitment to female education.",
     "year": 2021,
     "indicatorIds": [
       "se-prm-prs5-fe-zs",
@@ -28,13 +30,14 @@
     ]
   },
   {
-    "title": "Minimal Poverty Levels",
-    "description": "In 2021, only 0.1% of Cyprus's population lived below the poverty line of $8.30 a day, indicating a strong economic standing and effective poverty alleviation measures.",
+    "name": "Poverty Virtually Eliminated",
+    "title": "Lowest Poverty Headcount Ratio",
+    "description": "As of 2021, only 0.1% of Cyprus's population lived below the $8.30 a day poverty line, reflecting the country's economic stability and effective social policies.",
     "year": 2021,
     "indicatorIds": [
       "si-pov-umic"
     ],
-    "emoji": "💪",
+    "emoji": "💰",
     "type": "GOOD",
     "topicIds": [
       "poverty"
