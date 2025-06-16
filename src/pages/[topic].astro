@@ -1,5 +1,5 @@
 ---
-import CountryInsightsList from "../components/CountryInsightsList.astro";
+import BestWorstCountries from "../components/BestWorstCountries.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 
@@ -14,93 +14,36 @@ export async function getStaticPaths() {
 const { topic } = Astro.props;
 const [countryInsights, countries] = await Promise.all([
   getCollection("countryInsights"),
-  getCollection("countries")
+  getCollection("countries").then((countries) =>
+    countries.map((country) => country.data)
+  )
 ]);
-const getCountry = (id: string) => {
-  return countries.find((country) => country.id === id)!.data;
-};
-// Filter country insights to find the ones related to this topic
-const relatedInsights = countryInsights
+const insights = countryInsights
   .map((insight) =>
     insight.data.map((it) => ({
       ...it,
       countryId: insight.id
     }))
   )
-  .flat()
-  .filter((insight) => insight.topicIds.includes(topic.id));
-const bestInsights = relatedInsights.filter(
-  (insight) => insight.type === "GOOD"
-);
-const worstInsights = relatedInsights.filter(
-  (insight) => insight.type === "BAD"
-);
-const bestCountries = bestInsights.reduce(
-  (acc, insight) => {
-    const countryId = insight.countryId;
-    if (!acc[countryId]) {
-      acc[countryId] = [];
-    }
-    acc[countryId].push(insight);
-    return acc;
-  },
-  {} as Record<string, (typeof bestInsights)[0][]>
-);
-const count = (items: (typeof bestInsights)[0][]) =>
-  items
-    .map((item) => item.indicatorIds.length)
-    .reduce((sum, count) => sum + count, 0);
-const TopBestCountries = Object.entries(bestCountries)
-  .sort(([, a], [, b]) => count(b) - count(a))
-  .slice(0, 10)
-  .map(([countryId, insights]) => ({
-    country: getCountry(countryId),
-    insights
-  }));
+  .flat();
 
-const worstCountries = worstInsights.reduce(
-  (acc, insight) => {
-    const countryId = insight.countryId;
-    if (!acc[countryId]) {
-      acc[countryId] = [];
-    }
-    acc[countryId].push(insight);
-    return acc;
-  },
-  {} as Record<string, (typeof worstInsights)[0][]>
+const relatedInsights = insights.filter((insight) =>
+  insight.topicIds.includes(topic.id)
 );
-const TopWorstCountries = Object.entries(worstCountries)
-  .sort(([, a], [, b]) => count(b) - count(a))
-  .slice(0, 10)
-  .map(([countryId, insights]) => ({
-    country: getCountry(countryId),
-    insights
-  }));
+
+const title = `${topic.name} – Exceptional Countries`;
 ---
 
-<Layout title={`Topic: ${topic.name}`}>
+<Layout title={title}>
   <div class="flex flex-col gap-4">
-    <h2 class="text-center text-gray-600">{topic.name} – The Extremes</h2>
-    <div class="sm:grid sm:grid-cols-2 gap-4 sm:items-start">
-      <div class="flex flex-col gap-2 items-center pb-8 sm:items-end">
-        <h3 class="flex gap-2 text-good">
-          <span>Unicorns</span><span>🦄</span>
-        </h3>
-        <CountryInsightsList
-          list={TopBestCountries}
-          className="flex flex-col items-center sm:items-end text-lg gap-1"
-          itemClassName="sm:flex-row-reverse"
-        />
-      </div>
-      <div class="flex flex-col gap-2 items-center pb-8 sm:items-start">
-        <h3 class="flex sm:flex-row-reverse gap-2 text-bad">
-          <span>Stragglers</span><span>🐌</span>
-        </h3>
-        <CountryInsightsList
-          list={TopWorstCountries}
-          className="flex flex-col text-lg gap-1 items-center sm:items-start"
-        />
-      </div>
+    <div>
+      <h2 class="text-center">{title}</h2>
+      <p class="text-center text-gray-500 text-sm">
+        Exploring the best and worst performers across {topic.name} indicators
+      </p>
     </div>
+    <BestWorstCountries insights={relatedInsights} countries={countries} />
+    <h2 class="text-center">Global – Exceptional Countries</h2>
+    <BestWorstCountries insights={insights} countries={countries} />
   </div>
 </Layout>

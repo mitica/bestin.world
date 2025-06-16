@@ -1,6 +1,6 @@
 ---
 import type { CountryInfo, InsightInfo } from "../content/common/types";
-import { classNames } from "../utils";
+import { classNames, countryCodeToFlagEmoji } from "../utils";
 
 type Input = {
   className?: string;
@@ -29,6 +29,7 @@ const { list, className, itemClassName } = Astro.props as Input;
               : null
           )}
         >
+          {/* <span>{countryCodeToFlagEmoji(country.code)}</span> */}
           <span>{country.name}</span>
           <span class="truncate">{uniqueEmojis}</span>
         </a>

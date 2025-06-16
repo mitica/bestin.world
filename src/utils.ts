@@ -41,3 +41,15 @@ export const toTopicId = (name: string): string => {
 export function classNames(...inputs: ClassNameValue[]) {
   return twMerge(inputs);
 }
+
+export function countryCodeToFlagEmoji(code: string): string {
+  code = code.trim().toUpperCase();
+  if (!/^[A-Z]{2}$/i.test(code)) {
+    throw new Error("Invalid country code. Must be 2 letters.");
+  }
+
+  return code
+    .split("")
+    .map((char) => String.fromCodePoint(char.charCodeAt(0) + 127397))
+    .join("");
+}
