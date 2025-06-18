@@ -21,11 +21,11 @@ html, body {
   line-height: 1.5;
 }
 
-a {
+.a {
   color: var(--primary-color);
   text-decoration: none;
 }
-a:hover {
+.a:hover {
   text-decoration: underline;
 }
 
@@ -182,9 +182,6 @@ button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   }
   header, footer {
     background-color: var(--bg-color);
-  }
-  a {
-    color: var(--primary-color);
   }
 }
 /* Accessibility */

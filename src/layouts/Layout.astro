@@ -26,7 +26,18 @@ const { title, description, canonical } = Astro.props;
       <div class="max-w-[64rem] mx-auto flex items-center justify-between px-4">
         <nav>
           <ul class="flex gap-4">
-            <li><a href="/">BestIn.world</a></li>
+            <li>
+              <a
+                href="/"
+                class="flex items-center gap-2 text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors duration-200"
+                ><img
+                  src="/favicon.svg"
+                  alt="BestIn.world"
+                  class="h-8 w-8 inline-block"
+                  loading="lazy"
+                />BestIn.world</a
+              >
+            </li>
           </ul>
         </nav>
       </div>
@@ -38,6 +49,7 @@ const { title, description, canonical } = Astro.props;
       <p>© {new Date().getFullYear()} BestIn.world</p>
       <p>
         <a
+          class="a"
           href="https://github.com/mitica/bestin.world"
           target="_blank"
           rel="noopener noreferrer">Made with</a

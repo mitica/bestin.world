@@ -22,7 +22,7 @@ const { list, className, itemClassName } = Astro.props as Input;
         <a
           href={`/${country.slug}/`}
           class={classNames(
-            "truncate flex items-center gap-2",
+            "a truncate flex items-center gap-2",
             itemClassName,
             index < 3
               ? ["font-bold", "font-semibold", "font-medium"][index]
