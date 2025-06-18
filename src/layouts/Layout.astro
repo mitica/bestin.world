@@ -1,5 +1,5 @@
 ---
-import "../styles/global.css";
+import "../assets/global.css";
 const { title, description, canonical } = Astro.props;
 ---
 
@@ -23,13 +23,13 @@ const { title, description, canonical } = Astro.props;
   </head>
   <body>
     <header>
-      <div class="max-w-[64rem] mx-auto flex items-center justify-between px-4">
+      <div class="max-w-[64rem] m-auto flex items-center justify-between px-4">
         <nav>
           <ul class="flex gap-4">
             <li>
               <a
                 href="/"
-                class="flex items-center gap-2 text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors duration-200"
+                class="h-8 flex items-center gap-2 text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors duration-200"
                 ><img
                   src="/favicon.svg"
                   alt="BestIn.world"
@@ -53,7 +53,9 @@ const { title, description, canonical } = Astro.props;
           href="https://github.com/mitica/bestin.world"
           target="_blank"
           rel="noopener noreferrer">Made with</a
-        > ❤️ in Moldova
+        > ❤️ in <a href="/moldova" class="hover:underline hover:text-gray-600"
+          >Moldova</a
+        >
       </p>
     </footer>
   </body>
