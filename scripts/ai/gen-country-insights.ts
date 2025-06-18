@@ -6,7 +6,7 @@ import type {
 } from "../../src/content/common/types";
 import { getCountries, getIndicators } from "../common/helpers";
 import { readFile, writeFile } from "fs/promises";
-import { getCountryInsights } from "./helpers";
+import { getCountryInsights } from "./ai-get-country-insights";
 import { fileURLToPath } from "url";
 import { createFolderIfNotExists, fileExists } from "../../src/utils";
 
