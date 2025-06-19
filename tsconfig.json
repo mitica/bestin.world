@@ -4,13 +4,5 @@
   "exclude": ["dist"],
   "compileOptions": {
     "resolveJsonModule": true,
-    "paths": {
-      "@components/*": ["./src/components/*"],
-      "@layouts/*": ["./src/layouts/*"],
-      "@pages/*": ["./src/pages/*"],
-      "@utils/*": ["./src/utils/*"],
-      "@styles/*": ["./src/styles/*"],
-      "content/*": ["./src/content/*"]
-    }
   }
 }

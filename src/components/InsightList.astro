@@ -10,7 +10,7 @@ const { list, type } = Astro.props as {
 };
 ---
 
-<ul>
+<ul class="mb-2">
   {
     list.length > 0 &&
       list.map((item) => (
@@ -29,14 +29,4 @@ const { list, type } = Astro.props as {
     )
   }
 </ul>
-{list.length > 0 && <p class="source">Based on World Bank data</p>}
-
-<style>
-  ul {
-    margin-bottom: 1rem;
-  }
-  .source {
-    font-size: 0.8rem;
-    color: var(--secondary-color);
-  }
-</style>
+{list.length > 0 && <p class="text-secondary text-sm">Based on World Bank data</p>}

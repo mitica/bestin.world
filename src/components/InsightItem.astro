@@ -12,18 +12,7 @@ const { item, topics } = Astro.props as {
   {item.title}
 </h4>
 <p class="text-secondary">{item.description}</p>
-<p class="topics">
-  {topics.map((topic) => <a class="a" href={`/${topic.id}/`}>{topic.name}</a>)}
+<p class="flex flex-wrap gap-2">
+  {topics.map((topic) => <a class="a inline-block" href={`/${topic.id}/`}>{topic.name}</a>)}
 </p>
 
-<style>
-  .topics {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-
-  .topics a {
-    display: inline-block;
-  }
-</style>
