@@ -53,3 +53,7 @@ export function countryCodeToFlagEmoji(code: string): string {
     .map((char) => String.fromCodePoint(char.charCodeAt(0) + 127397))
     .join("");
 }
+
+export const isNumber = (value: unknown): value is number => {
+  return typeof value === "number" && !isNaN(value);
+};

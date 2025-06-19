@@ -55,6 +55,15 @@ export interface IndicatorCountryValue {
   type: "max" | "min" | "average";
 }
 
+export interface IndicatorCountryRankValue {
+  countryId: string;
+  indicatorId: string;
+  date: number;
+  value: number;
+  decimal?: number;
+  rank: number;
+}
+
 export interface InsightInfo {
   name: string;
   title: string;
