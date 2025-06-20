@@ -1,5 +1,47 @@
 import removeAccents from "remove-accents";
 import { twMerge, type ClassNameValue } from "tailwind-merge";
+import { countries, continents } from "countries-list";
+import type { ContinentInfo } from "./content/common/types";
+
+/**
+ * Get a list of country codes by continent.
+ * @param continent The continent code to filter by.
+ * @returns An array of country codes belonging to the specified continent.
+ */
+export const getCountriesByContinent = (continent: string): string[] => {
+  continent = continent.toUpperCase();
+  const continentCountries: string[] = [];
+  for (const countryCode in countries) {
+    const country = countries[countryCode as keyof typeof countries];
+    if (country.continent === continent) {
+      continentCountries.push(countryCode.toLowerCase());
+    }
+  }
+  return continentCountries;
+};
+
+export const getCountryContinent = (countryCode: string): string | null => {
+  countryCode = countryCode.toUpperCase();
+  const country = countries[countryCode as keyof typeof countries];
+  if (country) {
+    return country.continent;
+  }
+  return null; // Return null if country not found
+};
+
+export const getContinentInfo = (continent: string): ContinentInfo => {
+  continent = continent.toUpperCase();
+  const name = continents[continent as keyof typeof continents];
+  if (name) {
+    return {
+      id: continent.toLowerCase(),
+      name,
+      cca2: continent.toLowerCase(),
+      code: continent.toLowerCase()
+    };
+  }
+  throw new Error(`Continent ${continent} not found`);
+};
 
 export const createFolderIfNotExists = async (path: string) => {
   const fs = await import("fs/promises");

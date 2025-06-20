@@ -23,8 +23,8 @@ const { list, type } = Astro.props as {
     !list.length && (
       <li class={type === "GOOD" ? "text-bad" : "text-good"}>
         {type === "GOOD"
-          ? "Oh no! No best insights found for this country."
-          : "Good news! No worst insights found for this country."}
+          ? "Oh no! No good insights found for this country."
+          : "Good news! No bad insights found for this country."}
       </li>
     )
   }

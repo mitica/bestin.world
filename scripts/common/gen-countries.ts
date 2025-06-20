@@ -1,4 +1,4 @@
-import { readFile, writeFile } from "fs/promises";
+import { writeFile } from "fs/promises";
 import type {
   CountryInfo,
   CurrencyInfo,
@@ -7,7 +7,11 @@ import type {
 
 import countries from "../../data/countries.json";
 import languagesContent from "../../src/content/common/languages.json";
-import { slugify } from "../../src/utils";
+import {
+  getContinentInfo,
+  getCountryContinent,
+  slugify
+} from "../../src/utils";
 
 async function gen() {
   const result: CountryInfo[] = [];
@@ -17,6 +21,7 @@ async function gen() {
 
   for (const item of countries) {
     if (!item.independent) continue;
+    const continentCode = getCountryContinent(item.cca2);
     const id = item.cca2.toLowerCase();
     const code = item.cca2.toLowerCase();
     result.push({
@@ -30,7 +35,7 @@ async function gen() {
       ccn3: item.ccn3,
       cca3: item.cca3,
       cioc: item.cioc,
-      continents: [],
+      continents: continentCode ? [getContinentInfo(continentCode)] : [],
       currencies: Object.entries(item.currencies || {}).map<CurrencyInfo>(
         ([code, currency]) => ({
           id: code.toLowerCase(),
