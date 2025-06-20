@@ -7,12 +7,40 @@ const { item, topics } = Astro.props as {
 };
 ---
 
-<h4>
-  {item.emoji}
-  {item.title}
-</h4>
-<p class="text-secondary">{item.description}</p>
+<div
+  class="flex items-center justify-between cursor-pointer"
+  onclick="toggleDescription(this)"
+>
+  <h4>
+    {item.emoji}
+    {item.title}
+  </h4>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-5 w-5 transition-transform duration-300"
+    fill="none"
+    viewBox="0 0 24 24"
+    stroke="currentColor"
+  >
+    <path
+      stroke-linecap="round"
+      stroke-linejoin="round"
+      stroke-width="2"
+      d="M19 9l-7 7-7-7"></path>
+  </svg>
+</div>
+<p
+  class="overflow-hidden transition-[height] duration-300 ease-in-out h-0 text-secondary"
+>
+  {item.description}
+</p>
 <p class="flex flex-wrap gap-2">
-  {topics.map((topic) => <a class="a inline-block" href={`/${topic.id}/`}>{topic.name}</a>)}
+  {
+    topics.map((topic) => (
+      <a class="a inline-block" href={`/${topic.id}/`}>
+        {topic.name}
+      </a>
+    ))
+  }
 </p>
 

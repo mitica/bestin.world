@@ -8,7 +8,7 @@ const countries = defineCollection({
     slug: z.string().min(1).max(100),
     name: z.string().min(2).max(100),
     code: z.string().length(2),
-    officialName: z.string(),
+    officialName: z.string()
   })
 });
 
@@ -65,10 +65,29 @@ const countryInsights = defineCollection({
   )
 });
 
+const indicatorRanks = defineCollection({
+  loader: glob({
+    pattern: "src/content/indicator/*/rank.json",
+    generateId: ({ entry }) =>
+      /indicator\/([\w-]+)\/rank/.exec(entry)?.[1] || ""
+  }),
+  schema: z.array(
+    z.object({
+      indicatorId: z.string(),
+      value: z.number(),
+      date: z.number().int(),
+      rank: z.number().int(),
+      countryId: z.string(),
+      decimal: z.number().int()
+    })
+  )
+});
+
 export const collections = {
   countries,
   indicators,
   countryTops,
   countryInsights,
-  topics
+  topics,
+  indicatorRanks
 };

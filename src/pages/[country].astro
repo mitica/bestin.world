@@ -47,4 +47,24 @@ const canonical = `/${country.slug}/`;
     <h2 class="text-bad">{country.name} Falling Behind</h2>
     <InsightList list={worstIn} type="BAD" />
   </div>
+  <script is:inline>
+    function toggleDescription(header) {
+      const icon = header.querySelector("svg");
+      const desc = header.nextElementSibling;
+      const isOpen = desc.style.height && desc.style.height !== "0px";
+
+      if (isOpen) {
+        desc.style.height = desc.scrollHeight + "px"; // ensure accurate starting point
+        requestAnimationFrame(() => (desc.style.height = "0px"));
+      } else {
+        desc.style.height = desc.scrollHeight + "px";
+        desc.addEventListener("transitionend", function handler() {
+          desc.style.height = "auto";
+          desc.removeEventListener("transitionend", handler);
+        });
+      }
+
+      icon.classList.toggle("rotate-180");
+    }
+  </script>
 </Layout>
