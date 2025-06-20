@@ -28,6 +28,9 @@ const indicators = defineCollection({
     code: z.string(),
     commonName: z.string().optional(),
     unit: z.string().optional(),
+    priority: z.number().int(),
+    valueInfo: z.string().optional(),
+    isComparable: z.boolean().optional(),
   })
 });
 

@@ -44,6 +44,9 @@ export interface IndicatorInfo extends BaseEntityInfo {
   sort?: number;
   unit?: string;
   topicIds: string[];
+  valueInfo?: string;
+  priority?: number;
+  isComparable?: boolean;
 }
 
 export interface IndicatorCountryValue {

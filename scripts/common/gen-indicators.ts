@@ -9,9 +9,9 @@ async function gen() {
   const result: IndicatorInfo[] = [];
   const existingIndicators = await getIndicators();
   // temporarily remove sort property from existing indicators
-  // existingIndicators.forEach((item) => {
-  //   delete item.sort;
-  // });
+  existingIndicators.forEach((item) => {
+    delete item.sort;
+  });
 
   for (const item of wbIndicators) {
     const name = item.name.trim();
@@ -48,6 +48,9 @@ async function gen() {
         existing.commonName = item.commonName;
         existing.sort = item.sort;
         existing.unit = existing.unit || item.unit;
+        existing.valueInfo = item.valueInfo;
+        existing.priority = item.priority;
+        existing.isComparable = item.isComparable;
       }
     });
   }

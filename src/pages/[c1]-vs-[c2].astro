@@ -1,13 +1,14 @@
 ---
 import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
-import { getCollection, getEntry } from "astro:content";
+import { getCollection } from "astro:content";
 import {
   countryCodeToFlagEmoji,
   getCountriesByContinent,
   uniq
 } from "../utils";
 import { classNames } from "../utils";
+import { ArrowDownIcon, ArrowUpIcon } from "@heroicons/react/24/solid";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -47,7 +48,14 @@ const getIndicator = (id: string) => {
   return indicators.find((indicator) => indicator.id === id)!.data;
 };
 
-const ranks = indicatorRanks
+const filterByUnit = (unit?: string) => {
+  return (
+    !unit ||
+    (!/\bUSD\b/.test(unit) && !/\$/i.test(unit) && !/\bLCU\b/.test(unit))
+  );
+};
+
+let ranks = indicatorRanks
   .map((rank) =>
     rank.data
       .filter(
@@ -59,15 +67,29 @@ const ranks = indicatorRanks
         indicator: getIndicator(rank.id)
       }))
   )
+  .flat()
+  .filter((r) => filterByUnit(r.indicator.unit))
+  .sort((a, b) => a.indicator.priority - b.indicator.priority);
+
+// .filter((r) => r.indicator && r.indicator.isComparable)
+// reduce by indicator.priority
+ranks = Object.values(
+  ranks.reduce<Record<string, typeof ranks>>((acc, r) => {
+    const key = r.indicatorId;
+    if (!acc[key]) acc[key] = [];
+    acc[key].push(r);
+    return acc;
+  }, {})
+)
+  .map((group) => group.sort((a, b) => Math.abs(a.value - b.value)))
   .flat();
 
 const countryRanks = ranks.filter((r) => r.countryId === country.id);
 const vsCountryRanks = ranks.filter((r) => r.countryId === vsCountry.id);
-const countryRanksBetter = countryRanks.filter(
-  (r) =>
-    vsCountryRanks.find((v) => v.indicatorId === r.indicatorId) &&
-    r.rank < vsCountryRanks.find((v) => v.indicatorId === r.indicatorId)!.rank!
-);
+const countryRanksBetter = countryRanks.filter((r) => {
+  const vsRank = vsCountryRanks.find((v) => v.indicatorId === r.indicatorId);
+  return vsRank && r.rank < vsRank.rank && r.value !== vsRank.value;
+});
 const vsCountryRanksBetter = vsCountryRanks.filter(
   (r) =>
     countryRanks.find((c) => c.indicatorId === r.indicatorId) &&
@@ -95,13 +117,19 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
             (v) => v.indicatorId === r.indicatorId
           )!;
           const unit = r.indicator.unit;
-          const buildInfo = (v: typeof r, flag: string, className?: string) => {
+          const buildInfo = (
+            v: typeof r,
+            icon: Element,
+            flag: string,
+            className?: string
+          ) => {
             return (
               <div class={classNames(`flex flex-row gap-2`, className)}>
+                {icon}
                 <span>{v.rank}</span>
                 <span>
                   {v.value.toLocaleString("en", {
-                    maximumFractionDigits: 3
+                    maximumFractionDigits: 2
                   })}
                 </span>
                 <span>{flag}</span>
@@ -109,17 +137,29 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
             );
           };
 
+          const name = r.indicator.commonName || r.indicator.name;
+
           return (
             <li>
               <h5>
-                {r.indicator.commonName || r.indicator.name}
-                {unit ? ` (${unit})` : null}
+                {name}
+                {unit && !name.includes(unit) ? ` (${unit})` : null}
               </h5>
-              <div class="flex items-center gap-4 pb-4">
-                {buildInfo(r, countryEmoji)}
-                <span>vs</span>
-                {buildInfo(vsRank, vsCountryEmoji, "flex-row-reverse")}
+              <div class="flex items-center gap-2 pb-4">
+                {buildInfo(
+                  r,
+                  <ArrowUpIcon className="h-4 w-4 text-green-500" />,
+                  countryEmoji
+                )}
+                <span>|</span>
+                {buildInfo(
+                  vsRank,
+                  <ArrowDownIcon className="h-4 w-4 text-red-500" />,
+                  vsCountryEmoji,
+                  "flex-row-reverse"
+                )}
               </div>
+              <p class="text-secondary text-sm">{r.indicator.valueInfo}</p>
             </li>
           );
         })
