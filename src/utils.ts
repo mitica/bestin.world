@@ -99,3 +99,7 @@ export function countryCodeToFlagEmoji(code: string): string {
 export const isNumber = (value: unknown): value is number => {
   return typeof value === "number" && !isNaN(value);
 };
+
+export const uniq = <T>(array: T[]): T[] => {
+  return Array.from(new Set(array));
+};

@@ -1,6 +1,13 @@
 import { defineCollection, z } from "astro:content";
 import { glob, file } from "astro/loaders";
 
+const continentSchema = z.object({
+  id: z.string().regex(/^[a-z]{2}$/),
+  name: z.string(),
+  cca2: z.string().length(2),
+  code: z.string().length(2)
+});
+
 const countries = defineCollection({
   loader: file("src/content/common/countries.json"),
   schema: z.object({
@@ -8,7 +15,8 @@ const countries = defineCollection({
     slug: z.string().min(1).max(100),
     name: z.string().min(2).max(100),
     code: z.string().length(2),
-    officialName: z.string()
+    officialName: z.string(),
+    continents: z.array(continentSchema)
   })
 });
 
@@ -17,7 +25,9 @@ const indicators = defineCollection({
   schema: z.object({
     id: z.string(),
     name: z.string(),
-    code: z.string()
+    code: z.string(),
+    commonName: z.string().optional(),
+    unit: z.string().optional(),
   })
 });
 

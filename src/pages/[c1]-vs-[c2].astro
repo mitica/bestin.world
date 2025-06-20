@@ -1,0 +1,129 @@
+---
+import { TOP_COUNTRIES } from "../config";
+import Layout from "../layouts/Layout.astro";
+import { getCollection, getEntry } from "astro:content";
+import {
+  countryCodeToFlagEmoji,
+  getCountriesByContinent,
+  uniq
+} from "../utils";
+import { classNames } from "../utils";
+
+export async function getStaticPaths() {
+  const countries = await getCollection("countries");
+  return countries
+    .map((country) => {
+      const vsCodes = uniq(
+        TOP_COUNTRIES.concat(
+          getCountriesByContinent(country.data.continents[0].code)
+        )
+      ).filter((c) => c !== country.id);
+      return vsCodes
+        .map((vsCode) => ({
+          c1: country,
+          c2: countries.find((c) => c.id === vsCode)!
+        }))
+        .filter(({ c1, c2 }) => c1 && c2);
+    })
+    .flat()
+    .map(({ c1, c2 }) => {
+      return {
+        params: { c1: c1.id, c2: c2.id },
+        props: { country: c1.data, vsCountry: c2.data }
+      };
+    });
+}
+
+const { country, vsCountry } = Astro.props;
+const [indicatorRanks, topics, indicators] = await Promise.all([
+  getCollection("indicatorRanks"),
+  getCollection("topics"),
+  getCollection("indicators")
+]);
+const getTopic = (id: string) => {
+  return topics.find((topic) => topic.id === id)!.data;
+};
+const getIndicator = (id: string) => {
+  return indicators.find((indicator) => indicator.id === id)!.data;
+};
+
+const ranks = indicatorRanks
+  .map((rank) =>
+    rank.data
+      .filter(
+        (it) => it.countryId === country.id || it.countryId === vsCountry.id
+      )
+      .map((r) => ({
+        ...r,
+        indicatorId: rank.id,
+        indicator: getIndicator(rank.id)
+      }))
+  )
+  .flat();
+
+const countryRanks = ranks.filter((r) => r.countryId === country.id);
+const vsCountryRanks = ranks.filter((r) => r.countryId === vsCountry.id);
+const countryRanksBetter = countryRanks.filter(
+  (r) =>
+    vsCountryRanks.find((v) => v.indicatorId === r.indicatorId) &&
+    r.rank < vsCountryRanks.find((v) => v.indicatorId === r.indicatorId)!.rank!
+);
+const vsCountryRanksBetter = vsCountryRanks.filter(
+  (r) =>
+    countryRanks.find((c) => c.indicatorId === r.indicatorId) &&
+    r.rank < countryRanks.find((c) => c.indicatorId === r.indicatorId)!.rank!
+);
+
+const title = `${country.name} vs ${vsCountry.name} Insights`;
+const description = `Explore the latest insights comparing ${country.name} and ${vsCountry.name}. Discover what ${country.name} excels in and where it falls behind.`;
+const canonical = `/${country.id}-vs-${vsCountry.id}/`;
+const countryEmoji = countryCodeToFlagEmoji(country.id);
+const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
+---
+
+<Layout title={title} description={description} canonical={canonical}>
+  <div class="flex flex-col gap-4">
+    <h2>{title}</h2>
+    <h3 class="text-lg">
+      {country.name} is ranked better in {countryRanksBetter.length} indicators,
+      while {vsCountry.name} is ranked better in {vsCountryRanksBetter.length} indicators.
+    </h3>
+    <ul>
+      {
+        countryRanksBetter.map((r) => {
+          const vsRank = vsCountryRanks.find(
+            (v) => v.indicatorId === r.indicatorId
+          )!;
+          const unit = r.indicator.unit;
+          const buildInfo = (v: typeof r, flag: string, className?: string) => {
+            return (
+              <div class={classNames(`flex flex-row gap-2`, className)}>
+                <span>{v.rank}</span>
+                <span>
+                  {v.value.toLocaleString("en", {
+                    maximumFractionDigits: 3
+                  })}
+                </span>
+                <span>{flag}</span>
+              </div>
+            );
+          };
+
+          return (
+            <li>
+              <h5>
+                {r.indicator.commonName || r.indicator.name}
+                {unit ? ` (${unit})` : null}
+              </h5>
+              <div class="flex items-center gap-4 pb-4">
+                {buildInfo(r, countryEmoji)}
+                <span>vs</span>
+                {buildInfo(vsRank, vsCountryEmoji, "flex-row-reverse")}
+              </div>
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
+</Layout>
