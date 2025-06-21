@@ -123,7 +123,7 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
   <div class="flex flex-col gap-4">
     <h2>{title}</h2>
     <p class="text-lg">
-      <a class="a font-medium" href={`/${country.slug}/`}>{country.name}</a> is ranked
+      <a class="a font-medium" href={`/${country.slug}/`}>{countryCodeToFlagEmoji(country.id)} {country.name}</a> is ranked
       better in <span class="font-medium"
         >{countryRanksBetter.length} indicators</span
       >, while {vsCountry.name} is ranked better in <a
@@ -165,7 +165,9 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
               <h5>
                 {emoji}
                 {name}
-                {unit && !name.includes(unit) ? ` (${unit})` : null}
+                {unit && !name.toLowerCase().includes(unit.toLowerCase())
+                  ? ` (${unit})`
+                  : null}
               </h5>
               <div class="flex items-center gap-2 pb-4">
                 {buildInfo(

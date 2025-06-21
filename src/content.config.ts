@@ -16,7 +16,8 @@ const countries = defineCollection({
     name: z.string().min(2).max(100),
     code: z.string().length(2),
     officialName: z.string(),
-    continents: z.array(continentSchema)
+    continents: z.array(continentSchema),
+    borderIds: z.array(z.string().regex(/^[a-z]{2}$/))
   })
 });
 
@@ -31,7 +32,7 @@ const indicators = defineCollection({
     priority: z.number().int(),
     valueInfo: z.string().optional(),
     isComparable: z.boolean().optional(),
-    emoji: z.string().optional(),
+    emoji: z.string().optional()
   })
 });
 

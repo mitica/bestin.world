@@ -43,6 +43,14 @@
         "native": "Türkmençe",
         "cca3": "tuk"
       }
+    ],
+    "borderIds": [
+      "ir",
+      "pk",
+      "tm",
+      "uz",
+      "tj",
+      "cn"
     ]
   },
   {
@@ -82,6 +90,12 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "cg",
+      "cd",
+      "zm",
+      "na"
     ]
   },
   {
@@ -121,6 +135,12 @@
         "native": "Shqip",
         "cca3": "sqi"
       }
+    ],
+    "borderIds": [
+      "me",
+      "gr",
+      "mk",
+      "xk"
     ]
   },
   {
@@ -160,6 +180,10 @@
         "native": "Català",
         "cca3": "cat"
       }
+    ],
+    "borderIds": [
+      "fr",
+      "es"
     ]
   },
   {
@@ -199,6 +223,10 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "om",
+      "sa"
     ]
   },
   {
@@ -245,6 +273,13 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "bo",
+      "br",
+      "cl",
+      "py",
+      "uy"
     ]
   },
   {
@@ -284,6 +319,12 @@
         "native": "Հայերեն",
         "cca3": "hye"
       }
+    ],
+    "borderIds": [
+      "az",
+      "ge",
+      "ir",
+      "tr"
     ]
   },
   {
@@ -323,7 +364,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "au",
@@ -362,7 +404,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "at",
@@ -393,7 +436,17 @@
         "symbol": "€"
       }
     ],
-    "languages": []
+    "languages": [],
+    "borderIds": [
+      "cz",
+      "de",
+      "hu",
+      "it",
+      "li",
+      "sk",
+      "si",
+      "ch"
+    ]
   },
   {
     "id": "az",
@@ -439,6 +492,13 @@
         "native": "Русский",
         "cca3": "rus"
       }
+    ],
+    "borderIds": [
+      "am",
+      "ge",
+      "ir",
+      "ru",
+      "tr"
     ]
   },
   {
@@ -485,6 +545,11 @@
         "native": "Kirundi",
         "cca3": "run"
       }
+    ],
+    "borderIds": [
+      "cd",
+      "rw",
+      "tz"
     ]
   },
   {
@@ -538,6 +603,12 @@
         "native": "Nederlands",
         "cca3": "nld"
       }
+    ],
+    "borderIds": [
+      "fr",
+      "de",
+      "lu",
+      "nl"
     ]
   },
   {
@@ -577,6 +648,12 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "bf",
+      "ne",
+      "ng",
+      "tg"
     ]
   },
   {
@@ -616,6 +693,14 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "bj",
+      "ci",
+      "gh",
+      "ml",
+      "ne",
+      "tg"
     ]
   },
   {
@@ -655,6 +740,10 @@
         "native": "বাংলা",
         "cca3": "ben"
       }
+    ],
+    "borderIds": [
+      "mm",
+      "in"
     ]
   },
   {
@@ -694,6 +783,13 @@
         "native": "Български",
         "cca3": "bul"
       }
+    ],
+    "borderIds": [
+      "gr",
+      "mk",
+      "ro",
+      "rs",
+      "tr"
     ]
   },
   {
@@ -733,7 +829,8 @@
         "native": "العربية",
         "cca3": "ara"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "bs",
@@ -780,7 +877,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "ba",
@@ -833,6 +931,11 @@
         "native": "Српски",
         "cca3": "srp"
       }
+    ],
+    "borderIds": [
+      "hr",
+      "me",
+      "rs"
     ]
   },
   {
@@ -879,6 +982,13 @@
         "native": "Русский",
         "cca3": "rus"
       }
+    ],
+    "borderIds": [
+      "lv",
+      "lt",
+      "pl",
+      "ru",
+      "ua"
     ]
   },
   {
@@ -925,6 +1035,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "gt",
+      "mx"
     ]
   },
   {
@@ -985,6 +1099,13 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ar",
+      "br",
+      "cl",
+      "py",
+      "pe"
     ]
   },
   {
@@ -1024,6 +1145,18 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "ar",
+      "bo",
+      "co",
+      "gf",
+      "gy",
+      "py",
+      "pe",
+      "sr",
+      "uy",
+      "ve"
     ]
   },
   {
@@ -1063,7 +1196,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "bn",
@@ -1110,6 +1244,9 @@
         "native": "Bahasa Melayu",
         "cca3": "msa"
       }
+    ],
+    "borderIds": [
+      "my"
     ]
   },
   {
@@ -1157,6 +1294,10 @@
         "native": "རྫོང་ཁ",
         "cca3": "dzo"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "in"
     ]
   },
   {
@@ -1203,6 +1344,12 @@
         "native": "Setswana",
         "cca3": "tsn"
       }
+    ],
+    "borderIds": [
+      "na",
+      "za",
+      "zm",
+      "zw"
     ]
   },
   {
@@ -1249,6 +1396,14 @@
         "native": "Sängö",
         "cca3": "sag"
       }
+    ],
+    "borderIds": [
+      "cm",
+      "td",
+      "cd",
+      "cg",
+      "ss",
+      "sd"
     ]
   },
   {
@@ -1295,6 +1450,9 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "us"
     ]
   },
   {
@@ -1348,6 +1506,13 @@
         "native": "Rumantsch",
         "cca3": "roh"
       }
+    ],
+    "borderIds": [
+      "at",
+      "fr",
+      "it",
+      "li",
+      "de"
     ]
   },
   {
@@ -1387,6 +1552,11 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ar",
+      "bo",
+      "pe"
     ]
   },
   {
@@ -1426,6 +1596,24 @@
         "native": "中文",
         "cca3": "zho"
       }
+    ],
+    "borderIds": [
+      "af",
+      "bt",
+      "mm",
+      "hk",
+      "in",
+      "kz",
+      "np",
+      "kp",
+      "kg",
+      "la",
+      "mo",
+      "mn",
+      "pk",
+      "ru",
+      "tj",
+      "vn"
     ]
   },
   {
@@ -1465,6 +1653,13 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "bf",
+      "gh",
+      "gn",
+      "lr",
+      "ml"
     ]
   },
   {
@@ -1511,6 +1706,14 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "cf",
+      "td",
+      "cg",
+      "gq",
+      "ga",
+      "ng"
     ]
   },
   {
@@ -1571,6 +1774,17 @@
         "native": "Kiswahili",
         "cca3": "swa"
       }
+    ],
+    "borderIds": [
+      "ao",
+      "bi",
+      "cf",
+      "cg",
+      "rw",
+      "ss",
+      "tz",
+      "ug",
+      "zm"
     ]
   },
   {
@@ -1624,6 +1838,13 @@
         "native": "Lingála",
         "cca3": "lin"
       }
+    ],
+    "borderIds": [
+      "ao",
+      "cm",
+      "cf",
+      "cd",
+      "ga"
     ]
   },
   {
@@ -1663,6 +1884,13 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "br",
+      "ec",
+      "pa",
+      "pe",
+      "ve"
     ]
   },
   {
@@ -1709,7 +1937,8 @@
         "native": "Français",
         "cca3": "fra"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "cv",
@@ -1748,7 +1977,8 @@
         "native": "Português",
         "cca3": "por"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "cr",
@@ -1787,6 +2017,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ni",
+      "pa"
     ]
   },
   {
@@ -1834,7 +2068,8 @@
         "native": "Español",
         "cca3": "spa"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "cy",
@@ -1880,7 +2115,8 @@
         "native": "Türkçe",
         "cca3": "tur"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "cz",
@@ -1926,6 +2162,12 @@
         "native": "Slovenčina",
         "cca3": "slk"
       }
+    ],
+    "borderIds": [
+      "at",
+      "de",
+      "pl",
+      "sk"
     ]
   },
   {
@@ -1965,6 +2207,17 @@
         "native": "Deutsch",
         "cca3": "deu"
       }
+    ],
+    "borderIds": [
+      "at",
+      "be",
+      "cz",
+      "dk",
+      "fr",
+      "lu",
+      "nl",
+      "pl",
+      "ch"
     ]
   },
   {
@@ -2011,6 +2264,11 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "er",
+      "et",
+      "so"
     ]
   },
   {
@@ -2050,7 +2308,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "dk",
@@ -2089,6 +2348,9 @@
         "native": "Dansk",
         "cca3": "dan"
       }
+    ],
+    "borderIds": [
+      "de"
     ]
   },
   {
@@ -2128,6 +2390,9 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ht"
     ]
   },
   {
@@ -2167,6 +2432,15 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "tn",
+      "ly",
+      "ne",
+      "eh",
+      "mr",
+      "ml",
+      "ma"
     ]
   },
   {
@@ -2206,6 +2480,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "co",
+      "pe"
     ]
   },
   {
@@ -2245,6 +2523,12 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "il",
+      "ly",
+      "ps",
+      "sd"
     ]
   },
   {
@@ -2298,6 +2582,11 @@
         "native": "ትግርኛ",
         "cca3": "tir"
       }
+    ],
+    "borderIds": [
+      "dj",
+      "et",
+      "sd"
     ]
   },
   {
@@ -2337,6 +2626,13 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ad",
+      "fr",
+      "gi",
+      "pt",
+      "ma"
     ]
   },
   {
@@ -2376,6 +2672,10 @@
         "native": "Eesti",
         "cca3": "est"
       }
+    ],
+    "borderIds": [
+      "lv",
+      "ru"
     ]
   },
   {
@@ -2415,6 +2715,14 @@
         "native": "አማርኛ",
         "cca3": "amh"
       }
+    ],
+    "borderIds": [
+      "dj",
+      "er",
+      "ke",
+      "so",
+      "ss",
+      "sd"
     ]
   },
   {
@@ -2461,6 +2769,11 @@
         "native": "Svenska",
         "cca3": "swe"
       }
+    ],
+    "borderIds": [
+      "no",
+      "se",
+      "ru"
     ]
   },
   {
@@ -2507,7 +2820,8 @@
         "native": "Na Vosa Vaka-Viti",
         "cca3": "fij"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "fr",
@@ -2546,6 +2860,16 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "ad",
+      "be",
+      "de",
+      "it",
+      "lu",
+      "mc",
+      "es",
+      "ch"
     ]
   },
   {
@@ -2576,7 +2900,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "ga",
@@ -2615,6 +2940,11 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "cm",
+      "cg",
+      "gq"
     ]
   },
   {
@@ -2654,6 +2984,9 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "ie"
     ]
   },
   {
@@ -2693,6 +3026,12 @@
         "native": "ქართული",
         "cca3": "kat"
       }
+    ],
+    "borderIds": [
+      "am",
+      "az",
+      "ru",
+      "tr"
     ]
   },
   {
@@ -2732,6 +3071,11 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "bf",
+      "ci",
+      "tg"
     ]
   },
   {
@@ -2771,6 +3115,14 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "ci",
+      "gw",
+      "lr",
+      "ml",
+      "sn",
+      "sl"
     ]
   },
   {
@@ -2810,6 +3162,9 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "sn"
     ]
   },
   {
@@ -2849,6 +3204,10 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "gn",
+      "sn"
     ]
   },
   {
@@ -2902,6 +3261,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "cm",
+      "ga"
     ]
   },
   {
@@ -2941,6 +3304,12 @@
         "native": "Ελληνικά",
         "cca3": "ell"
       }
+    ],
+    "borderIds": [
+      "al",
+      "bg",
+      "tr",
+      "mk"
     ]
   },
   {
@@ -2980,7 +3349,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "gt",
@@ -3019,6 +3389,12 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "bz",
+      "sv",
+      "hn",
+      "mx"
     ]
   },
   {
@@ -3058,6 +3434,11 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "br",
+      "sr",
+      "ve"
     ]
   },
   {
@@ -3097,6 +3478,11 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "gt",
+      "sv",
+      "ni"
     ]
   },
   {
@@ -3136,6 +3522,13 @@
         "native": "Hrvatski",
         "cca3": "hrv"
       }
+    ],
+    "borderIds": [
+      "ba",
+      "hu",
+      "me",
+      "rs",
+      "si"
     ]
   },
   {
@@ -3182,6 +3575,9 @@
         "native": "Kreyòl Ayisyen",
         "cca3": "hat"
       }
+    ],
+    "borderIds": [
+      "do"
     ]
   },
   {
@@ -3221,6 +3617,15 @@
         "native": "Magyar",
         "cca3": "hun"
       }
+    ],
+    "borderIds": [
+      "at",
+      "hr",
+      "ro",
+      "rs",
+      "sk",
+      "si",
+      "ua"
     ]
   },
   {
@@ -3260,6 +3665,11 @@
         "native": "Bahasa Indonesia",
         "cca3": "ind"
       }
+    ],
+    "borderIds": [
+      "tl",
+      "my",
+      "pg"
     ]
   },
   {
@@ -3313,6 +3723,14 @@
         "native": "தமிழ்",
         "cca3": "tam"
       }
+    ],
+    "borderIds": [
+      "bd",
+      "bt",
+      "mm",
+      "cn",
+      "np",
+      "pk"
     ]
   },
   {
@@ -3359,6 +3777,9 @@
         "native": "Gaeilge",
         "cca3": "gle"
       }
+    ],
+    "borderIds": [
+      "gb"
     ]
   },
   {
@@ -3398,6 +3819,15 @@
         "native": "فارسی",
         "cca3": "fas"
       }
+    ],
+    "borderIds": [
+      "af",
+      "am",
+      "az",
+      "iq",
+      "pk",
+      "tr",
+      "tm"
     ]
   },
   {
@@ -3437,6 +3867,14 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "ir",
+      "jo",
+      "kw",
+      "sa",
+      "sy",
+      "tr"
     ]
   },
   {
@@ -3476,7 +3914,8 @@
         "native": "Íslenska",
         "cca3": "isl"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "il",
@@ -3522,6 +3961,13 @@
         "native": "עברית",
         "cca3": "heb"
       }
+    ],
+    "borderIds": [
+      "eg",
+      "jo",
+      "lb",
+      "ps",
+      "sy"
     ]
   },
   {
@@ -3561,6 +4007,14 @@
         "native": "Italiano",
         "cca3": "ita"
       }
+    ],
+    "borderIds": [
+      "at",
+      "fr",
+      "sm",
+      "si",
+      "ch",
+      "va"
     ]
   },
   {
@@ -3600,7 +4054,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "jo",
@@ -3639,6 +4094,13 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "iq",
+      "il",
+      "ps",
+      "sa",
+      "sy"
     ]
   },
   {
@@ -3678,7 +4140,8 @@
         "native": "日本語",
         "cca3": "jpn"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "kz",
@@ -3724,6 +4187,13 @@
         "native": "Русский",
         "cca3": "rus"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "kg",
+      "ru",
+      "tm",
+      "uz"
     ]
   },
   {
@@ -3770,6 +4240,13 @@
         "native": "Kiswahili",
         "cca3": "swa"
       }
+    ],
+    "borderIds": [
+      "et",
+      "so",
+      "ss",
+      "tz",
+      "ug"
     ]
   },
   {
@@ -3816,6 +4293,12 @@
         "native": "Русский",
         "cca3": "rus"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "kz",
+      "tj",
+      "uz"
     ]
   },
   {
@@ -3863,6 +4346,11 @@
         "native": "ភាសាខ្មែរ",
         "cca3": "khm"
       }
+    ],
+    "borderIds": [
+      "la",
+      "th",
+      "vn"
     ]
   },
   {
@@ -3910,7 +4398,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "kn",
@@ -3949,7 +4438,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "kr",
@@ -3988,6 +4478,9 @@
         "native": "한국어",
         "cca3": "kor"
       }
+    ],
+    "borderIds": [
+      "kp"
     ]
   },
   {
@@ -4027,6 +4520,10 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "iq",
+      "sa"
     ]
   },
   {
@@ -4066,6 +4563,13 @@
         "native": "ພາສາລາວ",
         "cca3": "lao"
       }
+    ],
+    "borderIds": [
+      "mm",
+      "kh",
+      "cn",
+      "th",
+      "vn"
     ]
   },
   {
@@ -4112,6 +4616,10 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "il",
+      "sy"
     ]
   },
   {
@@ -4151,6 +4659,11 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "gn",
+      "ci",
+      "sl"
     ]
   },
   {
@@ -4190,6 +4703,14 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "td",
+      "eg",
+      "ne",
+      "sd",
+      "tn"
     ]
   },
   {
@@ -4229,7 +4750,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "li",
@@ -4268,6 +4790,10 @@
         "native": "Deutsch",
         "cca3": "deu"
       }
+    ],
+    "borderIds": [
+      "at",
+      "ch"
     ]
   },
   {
@@ -4314,6 +4840,9 @@
         "native": "தமிழ்",
         "cca3": "tam"
       }
+    ],
+    "borderIds": [
+      "in"
     ]
   },
   {
@@ -4368,6 +4897,9 @@
         "native": "Sesotho",
         "cca3": "sot"
       }
+    ],
+    "borderIds": [
+      "za"
     ]
   },
   {
@@ -4407,6 +4939,12 @@
         "native": "Lietuvių",
         "cca3": "lit"
       }
+    ],
+    "borderIds": [
+      "by",
+      "lv",
+      "pl",
+      "ru"
     ]
   },
   {
@@ -4460,6 +4998,11 @@
         "native": "Lëtzebuergesch",
         "cca3": "ltz"
       }
+    ],
+    "borderIds": [
+      "be",
+      "fr",
+      "de"
     ]
   },
   {
@@ -4499,6 +5042,12 @@
         "native": "Latviešu",
         "cca3": "lav"
       }
+    ],
+    "borderIds": [
+      "by",
+      "ee",
+      "lt",
+      "ru"
     ]
   },
   {
@@ -4538,6 +5087,11 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "eh",
+      "es"
     ]
   },
   {
@@ -4577,6 +5131,9 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "fr"
     ]
   },
   {
@@ -4616,6 +5173,10 @@
         "native": "Română",
         "cca3": "ron"
       }
+    ],
+    "borderIds": [
+      "ro",
+      "ua"
     ]
   },
   {
@@ -4662,7 +5223,8 @@
         "native": "Malagasy",
         "cca3": "mlg"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "mv",
@@ -4701,7 +5263,8 @@
         "native": "Divehi",
         "cca3": "div"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "mx",
@@ -4740,6 +5303,11 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "bz",
+      "gt",
+      "us"
     ]
   },
   {
@@ -4786,7 +5354,8 @@
         "native": "Kajin M̧ajeļ",
         "cca3": "mah"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "mk",
@@ -4825,6 +5394,13 @@
         "native": "Македонски",
         "cca3": "mkd"
       }
+    ],
+    "borderIds": [
+      "al",
+      "bg",
+      "gr",
+      "xk",
+      "rs"
     ]
   },
   {
@@ -4864,6 +5440,15 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "bf",
+      "gn",
+      "ci",
+      "mr",
+      "ne",
+      "sn"
     ]
   },
   {
@@ -4910,7 +5495,8 @@
         "native": "Malti",
         "cca3": "mlt"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "mm",
@@ -4949,6 +5535,13 @@
         "native": "မြန်မာဘာသာ",
         "cca3": "mya"
       }
+    ],
+    "borderIds": [
+      "bd",
+      "cn",
+      "in",
+      "la",
+      "th"
     ]
   },
   {
@@ -4980,7 +5573,14 @@
         "symbol": "€"
       }
     ],
-    "languages": []
+    "languages": [],
+    "borderIds": [
+      "al",
+      "ba",
+      "hr",
+      "xk",
+      "rs"
+    ]
   },
   {
     "id": "mn",
@@ -5019,6 +5619,10 @@
         "native": "Монгол",
         "cca3": "mon"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "ru"
     ]
   },
   {
@@ -5058,6 +5662,14 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "mw",
+      "za",
+      "sz",
+      "tz",
+      "zm",
+      "zw"
     ]
   },
   {
@@ -5097,6 +5709,12 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "ml",
+      "sn",
+      "eh"
     ]
   },
   {
@@ -5143,7 +5761,8 @@
         "native": "Français",
         "cca3": "fra"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "mw",
@@ -5189,6 +5808,11 @@
         "native": "Chichewa",
         "cca3": "nya"
       }
+    ],
+    "borderIds": [
+      "mz",
+      "tz",
+      "zm"
     ]
   },
   {
@@ -5235,6 +5859,11 @@
         "native": "Bahasa Melayu",
         "cca3": "msa"
       }
+    ],
+    "borderIds": [
+      "bn",
+      "id",
+      "th"
     ]
   },
   {
@@ -5317,6 +5946,12 @@
         "native": "Setswana",
         "cca3": "tsn"
       }
+    ],
+    "borderIds": [
+      "ao",
+      "bw",
+      "za",
+      "zm"
     ]
   },
   {
@@ -5356,6 +5991,15 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "bj",
+      "bf",
+      "td",
+      "ly",
+      "ml",
+      "ng"
     ]
   },
   {
@@ -5395,6 +6039,12 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "bj",
+      "cm",
+      "td",
+      "ne"
     ]
   },
   {
@@ -5434,6 +6084,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "cr",
+      "hn"
     ]
   },
   {
@@ -5473,6 +6127,10 @@
         "native": "Nederlands",
         "cca3": "nld"
       }
+    ],
+    "borderIds": [
+      "be",
+      "de"
     ]
   },
   {
@@ -5519,6 +6177,11 @@
         "native": "Norsk (Bokmål)",
         "cca3": "nob"
       }
+    ],
+    "borderIds": [
+      "fi",
+      "se",
+      "ru"
     ]
   },
   {
@@ -5558,6 +6221,10 @@
         "native": "नेपाली",
         "cca3": "nep"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "in"
     ]
   },
   {
@@ -5604,7 +6271,8 @@
         "native": "Dorerin Naoero",
         "cca3": "nau"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "nz",
@@ -5650,7 +6318,8 @@
         "native": "Māori",
         "cca3": "mri"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "om",
@@ -5689,6 +6358,11 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "sa",
+      "ae",
+      "ye"
     ]
   },
   {
@@ -5735,6 +6409,12 @@
         "native": "اردو",
         "cca3": "urd"
       }
+    ],
+    "borderIds": [
+      "af",
+      "cn",
+      "in",
+      "ir"
     ]
   },
   {
@@ -5782,6 +6462,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "co",
+      "cr"
     ]
   },
   {
@@ -5835,6 +6519,13 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "bo",
+      "br",
+      "cl",
+      "co",
+      "ec"
     ]
   },
   {
@@ -5874,7 +6565,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "pw",
@@ -5913,7 +6605,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "pg",
@@ -5959,6 +6652,9 @@
         "native": "Hiri Motu",
         "cca3": "hmo"
       }
+    ],
+    "borderIds": [
+      "id"
     ]
   },
   {
@@ -5998,6 +6694,15 @@
         "native": "Polski",
         "cca3": "pol"
       }
+    ],
+    "borderIds": [
+      "by",
+      "cz",
+      "de",
+      "lt",
+      "ru",
+      "sk",
+      "ua"
     ]
   },
   {
@@ -6037,6 +6742,11 @@
         "native": "한국어",
         "cca3": "kor"
       }
+    ],
+    "borderIds": [
+      "cn",
+      "kr",
+      "ru"
     ]
   },
   {
@@ -6076,6 +6786,9 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "es"
     ]
   },
   {
@@ -6122,6 +6835,11 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ar",
+      "bo",
+      "br"
     ]
   },
   {
@@ -6161,6 +6879,9 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "sa"
     ]
   },
   {
@@ -6200,6 +6921,13 @@
         "native": "Română",
         "cca3": "ron"
       }
+    ],
+    "borderIds": [
+      "bg",
+      "hu",
+      "md",
+      "rs",
+      "ua"
     ]
   },
   {
@@ -6239,6 +6967,22 @@
         "native": "Русский",
         "cca3": "rus"
       }
+    ],
+    "borderIds": [
+      "az",
+      "by",
+      "cn",
+      "ee",
+      "fi",
+      "ge",
+      "kz",
+      "kp",
+      "lv",
+      "lt",
+      "mn",
+      "no",
+      "pl",
+      "ua"
     ]
   },
   {
@@ -6292,6 +7036,12 @@
         "native": "Kinyarwanda",
         "cca3": "kin"
       }
+    ],
+    "borderIds": [
+      "bi",
+      "cd",
+      "tz",
+      "ug"
     ]
   },
   {
@@ -6331,6 +7081,15 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "iq",
+      "jo",
+      "kw",
+      "om",
+      "qa",
+      "ae",
+      "ye"
     ]
   },
   {
@@ -6377,6 +7136,15 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "cf",
+      "td",
+      "eg",
+      "er",
+      "et",
+      "ly",
+      "ss"
     ]
   },
   {
@@ -6416,6 +7184,13 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "gm",
+      "gn",
+      "gw",
+      "ml",
+      "mr"
     ]
   },
   {
@@ -6476,7 +7251,8 @@
         "native": "中文",
         "cca3": "zho"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "sb",
@@ -6515,7 +7291,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "sl",
@@ -6554,6 +7331,10 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "gn",
+      "lr"
     ]
   },
   {
@@ -6593,6 +7374,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "gt",
+      "hn"
     ]
   },
   {
@@ -6632,6 +7417,9 @@
         "native": "Italiano",
         "cca3": "ita"
       }
+    ],
+    "borderIds": [
+      "it"
     ]
   },
   {
@@ -6678,6 +7466,11 @@
         "native": "Soomaaliga",
         "cca3": "som"
       }
+    ],
+    "borderIds": [
+      "dj",
+      "et",
+      "ke"
     ]
   },
   {
@@ -6717,6 +7510,16 @@
         "native": "Српски",
         "cca3": "srp"
       }
+    ],
+    "borderIds": [
+      "ba",
+      "bg",
+      "hr",
+      "hu",
+      "xk",
+      "mk",
+      "me",
+      "ro"
     ]
   },
   {
@@ -6756,6 +7559,14 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "cf",
+      "cd",
+      "et",
+      "ke",
+      "sd",
+      "ug"
     ]
   },
   {
@@ -6795,7 +7606,8 @@
         "native": "Português",
         "cca3": "por"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "sr",
@@ -6834,6 +7646,11 @@
         "native": "Nederlands",
         "cca3": "nld"
       }
+    ],
+    "borderIds": [
+      "br",
+      "gf",
+      "gy"
     ]
   },
   {
@@ -6873,6 +7690,13 @@
         "native": "Slovenčina",
         "cca3": "slk"
       }
+    ],
+    "borderIds": [
+      "at",
+      "cz",
+      "hu",
+      "pl",
+      "ua"
     ]
   },
   {
@@ -6912,6 +7736,12 @@
         "native": "Slovenščina",
         "cca3": "slv"
       }
+    ],
+    "borderIds": [
+      "at",
+      "hr",
+      "it",
+      "hu"
     ]
   },
   {
@@ -6951,6 +7781,10 @@
         "native": "Svenska",
         "cca3": "swe"
       }
+    ],
+    "borderIds": [
+      "fi",
+      "no"
     ]
   },
   {
@@ -7005,6 +7839,10 @@
         "native": "SiSwati",
         "cca3": "ssw"
       }
+    ],
+    "borderIds": [
+      "mz",
+      "za"
     ]
   },
   {
@@ -7051,7 +7889,8 @@
         "native": "Français",
         "cca3": "fra"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "sy",
@@ -7090,6 +7929,13 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "iq",
+      "il",
+      "jo",
+      "lb",
+      "tr"
     ]
   },
   {
@@ -7136,6 +7982,14 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "cm",
+      "cf",
+      "ly",
+      "ne",
+      "ng",
+      "sd"
     ]
   },
   {
@@ -7175,6 +8029,11 @@
         "native": "Français",
         "cca3": "fra"
       }
+    ],
+    "borderIds": [
+      "bj",
+      "bf",
+      "gh"
     ]
   },
   {
@@ -7214,6 +8073,12 @@
         "native": "ภาษาไทย",
         "cca3": "tha"
       }
+    ],
+    "borderIds": [
+      "mm",
+      "kh",
+      "la",
+      "my"
     ]
   },
   {
@@ -7260,6 +8125,12 @@
         "native": "Тоҷикӣ",
         "cca3": "tgk"
       }
+    ],
+    "borderIds": [
+      "af",
+      "cn",
+      "kg",
+      "uz"
     ]
   },
   {
@@ -7306,6 +8177,12 @@
         "native": "Türkmençe",
         "cca3": "tuk"
       }
+    ],
+    "borderIds": [
+      "af",
+      "ir",
+      "kz",
+      "uz"
     ]
   },
   {
@@ -7345,6 +8222,9 @@
         "native": "Português",
         "cca3": "por"
       }
+    ],
+    "borderIds": [
+      "id"
     ]
   },
   {
@@ -7391,7 +8271,8 @@
         "native": "faka Tonga",
         "cca3": "ton"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "tt",
@@ -7430,7 +8311,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "tn",
@@ -7469,6 +8351,10 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "dz",
+      "ly"
     ]
   },
   {
@@ -7508,6 +8394,16 @@
         "native": "Türkçe",
         "cca3": "tur"
       }
+    ],
+    "borderIds": [
+      "am",
+      "az",
+      "bg",
+      "ge",
+      "gr",
+      "ir",
+      "iq",
+      "sy"
     ]
   },
   {
@@ -7555,7 +8451,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "tz",
@@ -7601,6 +8498,16 @@
         "native": "Kiswahili",
         "cca3": "swa"
       }
+    ],
+    "borderIds": [
+      "bi",
+      "cd",
+      "ke",
+      "mw",
+      "mz",
+      "rw",
+      "ug",
+      "zm"
     ]
   },
   {
@@ -7647,6 +8554,13 @@
         "native": "Kiswahili",
         "cca3": "swa"
       }
+    ],
+    "borderIds": [
+      "cd",
+      "ke",
+      "rw",
+      "ss",
+      "tz"
     ]
   },
   {
@@ -7686,6 +8600,15 @@
         "native": "Українська",
         "cca3": "ukr"
       }
+    ],
+    "borderIds": [
+      "by",
+      "hu",
+      "md",
+      "pl",
+      "ro",
+      "ru",
+      "sk"
     ]
   },
   {
@@ -7725,6 +8648,10 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "ar",
+      "br"
     ]
   },
   {
@@ -7764,6 +8691,10 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "ca",
+      "mx"
     ]
   },
   {
@@ -7810,6 +8741,13 @@
         "native": "O‘zbek",
         "cca3": "uzb"
       }
+    ],
+    "borderIds": [
+      "af",
+      "kz",
+      "kg",
+      "tj",
+      "tm"
     ]
   },
   {
@@ -7856,6 +8794,9 @@
         "native": "Latina",
         "cca3": "lat"
       }
+    ],
+    "borderIds": [
+      "it"
     ]
   },
   {
@@ -7895,7 +8836,8 @@
         "native": "English",
         "cca3": "eng"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "ve",
@@ -7934,6 +8876,11 @@
         "native": "Español",
         "cca3": "spa"
       }
+    ],
+    "borderIds": [
+      "br",
+      "co",
+      "gy"
     ]
   },
   {
@@ -7973,6 +8920,11 @@
         "native": "Tiếng Việt",
         "cca3": "vie"
       }
+    ],
+    "borderIds": [
+      "kh",
+      "cn",
+      "la"
     ]
   },
   {
@@ -8026,7 +8978,8 @@
         "native": "Français",
         "cca3": "fra"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "ws",
@@ -8072,7 +9025,8 @@
         "native": "Gagana Sāmoa",
         "cca3": "smo"
       }
-    ]
+    ],
+    "borderIds": []
   },
   {
     "id": "ye",
@@ -8111,6 +9065,10 @@
         "native": "العربية",
         "cca3": "ara"
       }
+    ],
+    "borderIds": [
+      "om",
+      "sa"
     ]
   },
   {
@@ -8213,6 +9171,14 @@
         "native": "isiZulu",
         "cca3": "zul"
       }
+    ],
+    "borderIds": [
+      "bw",
+      "ls",
+      "mz",
+      "na",
+      "sz",
+      "zw"
     ]
   },
   {
@@ -8252,6 +9218,16 @@
         "native": "English",
         "cca3": "eng"
       }
+    ],
+    "borderIds": [
+      "ao",
+      "bw",
+      "cd",
+      "mw",
+      "mz",
+      "na",
+      "tz",
+      "zw"
     ]
   },
   {
@@ -8411,6 +9387,12 @@
         "native": "isiXhosa",
         "cca3": "xho"
       }
+    ],
+    "borderIds": [
+      "bw",
+      "mz",
+      "za",
+      "zm"
     ]
   }
 ]

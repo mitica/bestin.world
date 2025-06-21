@@ -1,7 +1,9 @@
 ---
 import InsightList from "../components/InsightList.astro";
+import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
+import { countryCodeToFlagEmoji, uniq } from "../utils";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -12,13 +14,18 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.props;
-const [tops, topics] = await Promise.all([
+const [tops, topics, countries] = await Promise.all([
   getEntry("countryInsights", country.id)!.then((t) => t.data),
-  getCollection("topics")
+  getCollection("topics"),
+  getCollection("countries")
 ]);
 
 const getTopic = (id: string) => {
   return topics.find((topic) => topic.id === id)!.data;
+};
+
+const getCountry = (id: string) => {
+  return countries.find((country) => country.id === id)!.data;
 };
 
 const bestIn = tops
@@ -38,6 +45,9 @@ const worstIn = tops
 const title = `Best and Worst in ${country.name}`;
 const description = `Explore the best and worst indicators for ${country.name} across various topics.`;
 const canonical = `/${country.slug}/`;
+const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES)).map(
+  (id) => getCountry(id)
+);
 ---
 
 <Layout title={title} description={description} canonical={canonical}>
@@ -47,4 +57,16 @@ const canonical = `/${country.slug}/`;
     <h2 class="text-bad">{country.name} Falling Behind</h2>
     <InsightList list={worstIn} type="BAD" />
   </div>
+  <h4>Areas Where {country.name} is Better then Others</h4>
+  <ul class="flex flex-row gap-4 flex-wrap text-2xl">
+    {
+      compareCountries.map((c) => (
+        <li>
+          <a href={`/${country.id}-vs-${c.id}/`}>
+            {countryCodeToFlagEmoji(c.id)}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
 </Layout>

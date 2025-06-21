@@ -48,7 +48,12 @@ async function gen() {
       ),
       languages: Object.entries(item.languages || {})
         .map<LanguageInfo>(([code]) => allLanguages[code.toLowerCase()])
-        .filter((it) => !!it)
+        .filter((it) => !!it),
+      borderIds: item.borders
+        .map(
+          (c3) => countries.find((c) => c.cca3 === c3)?.cca2.toLowerCase() || ""
+        )
+        .filter(Boolean)
     });
   }
 

@@ -20,6 +20,7 @@ export interface CountryInfo extends BaseEntityInfo {
   continents: ContinentInfo[];
   currencies: CurrencyInfo[];
   languages: LanguageInfo[];
+  borderIds: string[];
 }
 
 export interface ContinentInfo extends BaseEntityInfo {
