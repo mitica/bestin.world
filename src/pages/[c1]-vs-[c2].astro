@@ -8,7 +8,8 @@ import {
   uniq
 } from "../utils";
 import { classNames } from "../utils";
-import { ArrowDownIcon, ArrowUpIcon } from "@heroicons/react/24/solid";
+import ArrowUpIcon from "../components/shared/ArrowUpIcon.astro";
+import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
