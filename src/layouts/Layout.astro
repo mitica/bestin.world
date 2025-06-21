@@ -1,6 +1,9 @@
 ---
 import "../styles/global.css";
 const { title, description, canonical } = Astro.props;
+const pageUrl = "https://bestin.world" + (canonical ? canonical : "");
+const pageTitle = title + " - BestIn.world";
+const pageDescription = description || "BestIn.world";
 ---
 
 <!doctype html>
@@ -14,12 +17,12 @@ const { title, description, canonical } = Astro.props;
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="BestIn.world" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title + " - BestIn.world"}</title>
-    <meta name="description" content={description || "BestIn.world"} />
-    <link
-      rel="canonical"
-      href={"https://bestin.world" + (canonical ? canonical : "")}
-    />
+    <title>{pageTitle}</title>
+    <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={pageUrl} />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={pageDescription} />
+    <meta property="og:url" content={pageUrl} />
   </head>
   <body>
     <header>

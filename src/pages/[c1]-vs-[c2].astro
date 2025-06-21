@@ -5,22 +5,35 @@ import { getCollection } from "astro:content";
 import {
   countryCodeToFlagEmoji,
   getCountriesByContinent,
+  getCountryContinent,
   uniq
 } from "../utils";
 import { classNames } from "../utils";
 import ArrowUpIcon from "../components/shared/ArrowUpIcon.astro";
 import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
+import { localesProvider } from "../locales";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
+  const getVsCodes = (
+    list: { id: string }[],
+    country: { id: string; borderIds: string[] }
+  ) => {
+    const countryId = country.id;
+    return uniq(
+      TOP_COUNTRIES.includes(countryId)
+        ? list.map((c) => c.id)
+        : TOP_COUNTRIES.concat(country.borderIds).concat(
+            getCountriesByContinent(getCountryContinent(countryId)!)
+          )
+    ).filter((c) => c !== countryId);
+  };
   return countries
     .map((country) => {
-      const vsCodes = uniq(
-        countries
-          .map((c) => c.data)
-          .flat()
-          .map((c) => c.code)
-      ).filter((c) => c !== country.id);
+      const vsCodes = getVsCodes(
+        countries.map((c) => c.data).flat(),
+        country.data
+      );
       return vsCodes
         .map((vsCode) => ({
           c1: country,
@@ -112,8 +125,12 @@ const rankList = countryRanksBetter
   })
   .sort((a, b) => b.diff - a.diff);
 
-const title = `Areas Where ${country.name} Is Better Than ${vsCountry.name}`;
-const description = `Explore the indicators where ${country.name} outperforms ${vsCountry.name} across various topics.`;
+const locales = localesProvider.lang("en");
+const title = locales.country_vs_country_title(country.name, vsCountry.name);
+const description = locales.country_vs_country_description(
+  country.name,
+  vsCountry.name
+);
 const canonical = `/${country.id}-vs-${vsCountry.id}/`;
 const countryEmoji = countryCodeToFlagEmoji(country.id);
 const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
@@ -123,8 +140,9 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
   <div class="flex flex-col gap-4">
     <h2>{title}</h2>
     <p class="text-lg">
-      <a class="a font-medium" href={`/${country.slug}/`}>{countryCodeToFlagEmoji(country.id)} {country.name}</a> is ranked
-      better in <span class="font-medium"
+      <a class="a font-medium" href={`/${country.slug}/`}
+        >{countryCodeToFlagEmoji(country.id)} {country.name}</a
+      > is ranked better in <span class="font-medium"
         >{countryRanksBetter.length} indicators</span
       >, while {vsCountry.name} is ranked better in <a
         class="a font-medium"

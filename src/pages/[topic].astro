@@ -2,6 +2,7 @@
 import BestWorstCountries from "../components/BestWorstCountries.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { localesProvider } from "../locales";
 
 export async function getStaticPaths() {
   const topics = await getCollection("topics");
@@ -31,13 +32,14 @@ const relatedInsights = insights.filter((insight) =>
   insight.topicIds.includes(topic.id)
 );
 
-const title = `${topic.name}: Exceptional Countries`;
-const description = `Explore the exceptional countries in ${topic.name} indicators.`;
+const locales = localesProvider.lang("en");
+const title = locales.topic_page_title(topic.name);
+const description = locales.topic_page_description(topic.name);
 const canonical = `/${topic.id}/`;
 ---
 
 <Layout title={title} description={description} canonical={canonical}>
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-6">
     <div>
       <h2 class="text-center">{title}</h2>
       <p class="text-center text-gray-500 text-sm">
@@ -45,7 +47,7 @@ const canonical = `/${topic.id}/`;
       </p>
     </div>
     <BestWorstCountries insights={relatedInsights} countries={countries} />
-    <h2 class="text-center">Global – Exceptional Countries</h2>
+    <h2 class="text-center">Global – {locales.home_page_title()}</h2>
     <BestWorstCountries insights={insights} countries={countries} />
   </div>
 </Layout>
