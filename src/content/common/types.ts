@@ -47,6 +47,7 @@ export interface IndicatorInfo extends BaseEntityInfo {
   valueInfo?: string;
   priority?: number;
   isComparable?: boolean;
+  emoji?: string;
 }
 
 export interface IndicatorCountryValue {

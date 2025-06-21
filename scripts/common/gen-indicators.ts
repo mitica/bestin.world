@@ -51,6 +51,7 @@ async function gen() {
         existing.valueInfo = item.valueInfo;
         existing.priority = item.priority;
         existing.isComparable = item.isComparable;
+        existing.emoji = item.emoji || existing.emoji;
       }
     });
   }

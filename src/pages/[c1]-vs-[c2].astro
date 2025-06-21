@@ -16,9 +16,10 @@ export async function getStaticPaths() {
   return countries
     .map((country) => {
       const vsCodes = uniq(
-        TOP_COUNTRIES.concat(
-          getCountriesByContinent(country.data.continents[0].code)
-        )
+        countries
+          .map((c) => c.data)
+          .flat()
+          .map((c) => c.code)
       ).filter((c) => c !== country.id);
       return vsCodes
         .map((vsCode) => ({
@@ -65,9 +66,8 @@ const filterIndicator = (indicator: {
     .filter(Boolean)
     .join(" ");
   return (
-    /(\%|per|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
-    !/LCU/.test(text) &&
-    !/Estimate\b/.test(text)
+    /(\%|per\b|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
+    !/(LCU|Remittances|Estimate\b)/.test(text)
   );
 };
 
@@ -112,8 +112,8 @@ const rankList = countryRanksBetter
   })
   .sort((a, b) => b.diff - a.diff);
 
-const title = `${country.name} vs ${vsCountry.name} Insights`;
-const description = `Explore the latest insights comparing ${country.name} and ${vsCountry.name}. Discover what ${country.name} excels in and where it falls behind.`;
+const title = `Areas Where ${country.name} Is Better Than ${vsCountry.name}`;
+const description = `Explore the indicators where ${country.name} outperforms ${vsCountry.name} across various topics.`;
 const canonical = `/${country.id}-vs-${vsCountry.id}/`;
 const countryEmoji = countryCodeToFlagEmoji(country.id);
 const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
@@ -158,10 +158,12 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
           };
 
           const name = indicator.commonName || indicator.name;
+          const emoji = indicator.emoji || null;
 
           return (
             <li>
               <h5>
+                {emoji}
                 {name}
                 {unit && !name.includes(unit) ? ` (${unit})` : null}
               </h5>

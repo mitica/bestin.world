@@ -31,6 +31,7 @@ const indicators = defineCollection({
     priority: z.number().int(),
     valueInfo: z.string().optional(),
     isComparable: z.boolean().optional(),
+    emoji: z.string().optional(),
   })
 });
 

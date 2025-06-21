@@ -33,6 +33,7 @@ export const aiEnrichIndicators = async (
         existing.valueInfo = item.valueInfo;
         existing.priority = item.priority;
         existing.isComparable = item.isComparable;
+        existing.emoji = item.emoji || existing.emoji;
       } else {
         console.warn(
           `Indicator not found in results: ${item.id} - ${item.commonName}`
@@ -51,6 +52,7 @@ const execute = async (
   const prompt = `Below is a list of indicators.
 I need you to enrich them with additional information to help understand the role of each indicator in the world context.
 The output should be a list of enriched indicators with the following properties:
+- emoji: A short emoji to represent the indicator. optional, but recommended.
 - commonName: The common name of the indicator - simple to understand for a general audience.
 - sort: [1, 0, -1]: where 1 = greater value is better; 0 = neutral, and -1 = lower value is better. Use 0 any time the indicator's value is not a strong evidence of good or bad performance.
 - unit: The unit of measurement for the indicator, e.g. "USD", "%", "m", etc. - optional
@@ -90,6 +92,7 @@ Take into account all ${count} input indicators.
                 type: "object",
                 properties: {
                   id: { type: "string" },
+                  emoji: { type: "string" },
                   commonName: { type: "string" },
                   sort: { type: "integer", enum: [1, 0, -1] },
                   unit: { type: "string" },
