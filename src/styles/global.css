@@ -51,6 +51,10 @@ html, body {
 .a:hover {
   text-decoration: underline;
 }
+.a-effect:hover {
+  color: var(--primary-color);
+  text-decoration: underline;
+}
 
 ul, ol {
   list-style: none;
@@ -121,11 +125,14 @@ main {
 }
 header, footer {
   background-color: var(--bg-color);
-  padding: 1rem;
   text-align: center;
+}
+header {
+  padding: 1rem 0;
 }
 footer {
   color: var(--secondary-color);
+  padding: 1rem;
 }
 
 /* Buttons */

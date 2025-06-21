@@ -37,16 +37,16 @@ export async function getStaticPaths() {
 }
 
 const { country, vsCountry } = Astro.props;
-const [indicatorRanks, topics, indicators] = await Promise.all([
+const [indicatorRanks, indicators, toipics] = await Promise.all([
   getCollection("indicatorRanks"),
-  getCollection("topics"),
-  getCollection("indicators")
+  getCollection("indicators"),
+  getCollection("topics")
 ]);
-const getTopic = (id: string) => {
-  return topics.find((topic) => topic.id === id)!.data;
-};
 const getIndicator = (id: string) => {
   return indicators.find((indicator) => indicator.id === id)!.data;
+};
+const getTopic = (id: string) => {
+  return toipics.find((topic) => topic.id === id)!.data;
 };
 
 const filterByUnit = (unit?: string) => {
@@ -56,7 +56,24 @@ const filterByUnit = (unit?: string) => {
   );
 };
 
-let ranks = indicatorRanks
+const filterIndicator = (indicator: {
+  name: string;
+  commonName?: string;
+  unit?: string;
+}) => {
+  const text = [indicator.commonName || indicator.name, indicator.unit]
+    .filter(Boolean)
+    .join(" ");
+  return (
+    /(\%|per|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
+    !/LCU/.test(text) &&
+    !/Estimate\b/.test(text)
+  );
+};
+
+const year = new Date().getFullYear();
+
+const ranks = indicatorRanks
   .map((rank) =>
     rank.data
       .filter(
@@ -69,21 +86,7 @@ let ranks = indicatorRanks
       }))
   )
   .flat()
-  .filter((r) => filterByUnit(r.indicator.unit))
-  .sort((a, b) => a.indicator.priority - b.indicator.priority);
-
-// .filter((r) => r.indicator && r.indicator.isComparable)
-// reduce by indicator.priority
-ranks = Object.values(
-  ranks.reduce<Record<string, typeof ranks>>((acc, r) => {
-    const key = r.indicatorId;
-    if (!acc[key]) acc[key] = [];
-    acc[key].push(r);
-    return acc;
-  }, {})
-)
-  .map((group) => group.sort((a, b) => Math.abs(a.value - b.value)))
-  .flat();
+  .filter((r) => r.date > year - 8 && filterIndicator(r.indicator));
 
 const countryRanks = ranks.filter((r) => r.countryId === country.id);
 const vsCountryRanks = ranks.filter((r) => r.countryId === vsCountry.id);
@@ -91,11 +94,23 @@ const countryRanksBetter = countryRanks.filter((r) => {
   const vsRank = vsCountryRanks.find((v) => v.indicatorId === r.indicatorId);
   return vsRank && r.rank < vsRank.rank && r.value !== vsRank.value;
 });
-const vsCountryRanksBetter = vsCountryRanks.filter(
-  (r) =>
-    countryRanks.find((c) => c.indicatorId === r.indicatorId) &&
-    r.rank < countryRanks.find((c) => c.indicatorId === r.indicatorId)!.rank!
-);
+const vsCountryRanksBetter = vsCountryRanks.filter((r) => {
+  const countryRank = countryRanks.find((c) => c.indicatorId === r.indicatorId);
+  return (
+    countryRank && r.rank < countryRank.rank && r.value !== countryRank.value
+  );
+});
+
+const rankList = countryRanksBetter
+  .map((cr) => {
+    const vsCr = vsCountryRanks.find((v) => v.indicatorId === cr.indicatorId)!;
+    return {
+      cr,
+      vsCr,
+      diff: vsCr.rank - cr.rank
+    };
+  })
+  .sort((a, b) => b.diff - a.diff);
 
 const title = `${country.name} vs ${vsCountry.name} Insights`;
 const description = `Explore the latest insights comparing ${country.name} and ${vsCountry.name}. Discover what ${country.name} excels in and where it falls behind.`;
@@ -107,19 +122,23 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
 <Layout title={title} description={description} canonical={canonical}>
   <div class="flex flex-col gap-4">
     <h2>{title}</h2>
-    <h3 class="text-lg">
-      {country.name} is ranked better in {countryRanksBetter.length} indicators,
-      while {vsCountry.name} is ranked better in {vsCountryRanksBetter.length} indicators.
-    </h3>
+    <p class="text-lg">
+      <a class="a font-medium" href={`/${country.slug}/`}>{country.name}</a> is ranked
+      better in <span class="font-medium"
+        >{countryRanksBetter.length} indicators</span
+      >, while {vsCountry.name} is ranked better in <a
+        class="a font-medium"
+        href={`/${vsCountry.id}-vs-${country.id}/`}
+        >{vsCountryRanksBetter.length} indicators</a
+      >.
+    </p>
     <ul>
       {
-        countryRanksBetter.map((r) => {
-          const vsRank = vsCountryRanks.find(
-            (v) => v.indicatorId === r.indicatorId
-          )!;
-          const unit = r.indicator.unit;
+        rankList.map(({ cr, vsCr }) => {
+          const indicator = cr.indicator;
+          const unit = indicator.unit;
           const buildInfo = (
-            v: typeof r,
+            v: typeof cr,
             icon: Element,
             flag: string,
             className?: string
@@ -127,7 +146,7 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
             return (
               <div class={classNames(`flex flex-row gap-2`, className)}>
                 {icon}
-                <span>{v.rank}</span>
+                {/* <span>{v.rank}</span> */}
                 <span>
                   {v.value.toLocaleString("en", {
                     maximumFractionDigits: 2
@@ -138,7 +157,7 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
             );
           };
 
-          const name = r.indicator.commonName || r.indicator.name;
+          const name = indicator.commonName || indicator.name;
 
           return (
             <li>
@@ -148,19 +167,19 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
               </h5>
               <div class="flex items-center gap-2 pb-4">
                 {buildInfo(
-                  r,
+                  cr,
                   <ArrowUpIcon className="h-4 w-4 text-green-500" />,
                   countryEmoji
                 )}
                 <span>|</span>
                 {buildInfo(
-                  vsRank,
+                  vsCr,
                   <ArrowDownIcon className="h-4 w-4 text-red-500" />,
                   vsCountryEmoji,
                   "flex-row-reverse"
                 )}
               </div>
-              <p class="text-secondary text-sm">{r.indicator.valueInfo}</p>
+              <p class="text-secondary text-sm">{indicator.valueInfo}</p>
             </li>
           );
         })
