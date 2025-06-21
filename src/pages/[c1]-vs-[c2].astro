@@ -20,6 +20,7 @@ export async function getStaticPaths() {
     country: { id: string; borderIds: string[] }
   ) => {
     const countryId = country.id;
+    // if (1 === 1) return [];
     return uniq(
       TOP_COUNTRIES.includes(countryId)
         ? list.map((c) => c.id)
@@ -51,16 +52,12 @@ export async function getStaticPaths() {
 }
 
 const { country, vsCountry } = Astro.props;
-const [indicatorRanks, indicators, toipics] = await Promise.all([
+const [indicatorRanks, indicators] = await Promise.all([
   getCollection("indicatorRanks"),
-  getCollection("indicators"),
-  getCollection("topics")
+  getCollection("indicators")
 ]);
 const getIndicator = (id: string) => {
   return indicators.find((indicator) => indicator.id === id)!.data;
-};
-const getTopic = (id: string) => {
-  return toipics.find((topic) => topic.id === id)!.data;
 };
 
 const filterByUnit = (unit?: string) => {

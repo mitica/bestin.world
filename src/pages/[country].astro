@@ -15,17 +15,17 @@ export async function getStaticPaths() {
 
 const { country } = Astro.props;
 const [tops, topics, countries] = await Promise.all([
-  getEntry("countryInsights", country.id)!.then((t) => t.data),
+  getEntry("countryInsights", country.id)?.then((t) => t.data) || [],
   getCollection("topics"),
   getCollection("countries")
 ]);
 
 const getTopic = (id: string) => {
-  return topics.find((topic) => topic.id === id)!.data;
+  return topics.find((topic) => topic.id === id)?.data;
 };
 
 const getCountry = (id: string) => {
-  return countries.find((country) => country.id === id)!.data;
+  return countries.find((country) => country.id === id)?.data;
 };
 
 const bestIn = tops
@@ -47,7 +47,8 @@ const description = `Explore the best and worst indicators for ${country.name} a
 const canonical = `/${country.slug}/`;
 const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES))
   .filter((id) => id !== country.id)
-  .map((id) => getCountry(id));
+  .map((id) => getCountry(id)!)
+  .filter(Boolean);
 ---
 
 <Layout title={title} description={description} canonical={canonical}>
