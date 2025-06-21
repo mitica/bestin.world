@@ -14,7 +14,8 @@
     "collect:data": "ts-node scripts/collect/democracy.ts",
     "compute:tops": "ts-node scripts/compute/generate-top-scores.ts",
     "generate:og": "ts-node scripts/generate/og-images.ts",
-    "build:data": "npm run collect:democracy && npm run compute:tops && npm run generate:og"
+    "build:data": "npm run collect:democracy && npm run compute:tops && npm run generate:og",
+    "locales": "localizy -d locales -o src/generated-locales.ts"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
@@ -23,8 +24,10 @@
   },
   "devDependencies": {
     "@resvg/resvg-js": "^2.6.2",
+    "commander": "^14.0.0",
     "countries-list": "^3.1.1",
     "dotenv": "^16.5.0",
+    "localizy": "^0.1.9",
     "node-fetch": "^3.3.2",
     "openai": "^5.3.0",
     "remove-accents": "^0.5.0",

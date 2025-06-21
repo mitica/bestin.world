@@ -13,3 +13,5 @@ export const TOP_COUNTRIES = [
   "in",
   "ru"
 ];
+
+export const SUPPORTED_LANGUAGES = ["en"];

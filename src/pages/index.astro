@@ -2,6 +2,7 @@
 import BestWorstCountries from "../components/BestWorstCountries.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
+import { localesProvider } from "../locales";
 
 const [countryInsights, countries] = await Promise.all([
   getCollection("countryInsights"),
@@ -17,9 +18,10 @@ const insights = countryInsights
     }))
   )
   .flat();
-const title = "Exceptional Countries";
-const description =
-  "Explore the best and worst performers across global indicators.";
+
+const locales = localesProvider.lang("en");
+const title = locales.home_page_title();
+const description = locales.home_page_description();
 const canonical = "/";
 ---
 
