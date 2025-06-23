@@ -4,6 +4,7 @@ import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 import { countryCodeToFlagEmoji, uniq } from "../utils";
+import { localesProvider } from "../locales";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -42,8 +43,10 @@ const worstIn = tops
     ...item,
     topics: item.topicIds.map(getTopic)
   }));
-const title = `Best and Worst in ${country.name}`;
-const description = `Explore the best and worst indicators for ${country.name} across various topics.`;
+
+const locales = localesProvider.lang("en");
+const title = locales.country_page_title(country.name);
+const description = locales.country_page_description(country.name);
 const canonical = `/${country.slug}/`;
 const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES))
   .filter((id) => id !== country.id)
@@ -53,9 +56,9 @@ const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES))
 
 <Layout title={title} description={description} canonical={canonical}>
   <div class="flex flex-col gap-6">
-    <h2 class="text-good">{country.name} in the Lead</h2>
+    <h2 class="text-good">{locales.country_in_the_lead(country.name)}</h2>
     <InsightList list={bestIn} type="GOOD" />
-    <h2 class="text-bad">{country.name} Falling Behind</h2>
+    <h2 class="text-bad">{locales.country_folling_behind(country.name)}</h2>
     <InsightList list={worstIn} type="BAD" />
     <div>
       <h4>Areas Where {country.name} is Better then Others</h4>

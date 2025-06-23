@@ -24,9 +24,10 @@ export async function getStaticPaths() {
     return uniq(
       TOP_COUNTRIES.includes(countryId)
         ? list.map((c) => c.id)
-        : TOP_COUNTRIES.concat(country.borderIds).concat(
-            getCountriesByContinent(getCountryContinent(countryId)!)
-          )
+        : TOP_COUNTRIES.concat(country.borderIds)
+      // .concat(
+      //     getCountriesByContinent(getCountryContinent(countryId)!)
+      //   )
     ).filter((c) => c !== countryId);
   };
   return countries
