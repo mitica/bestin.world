@@ -49,10 +49,10 @@ export const getLanguages = async () => {
   return languages;
 };
 
-let wbIndicators: IndicatorCountryValue[];
+const wbIndicators: Record<string, IndicatorCountryValue[]> = {};
 
 export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
-  if (wbIndicators) return wbIndicators;
+  if (wbIndicators[indicator.id]) return wbIndicators[indicator.id];
   const data: {
     country: { id: string };
     date: string;
@@ -62,7 +62,7 @@ export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
     `data/wb/wb-indicator-${indicator.idWorldBank}.json`,
     "utf-8"
   ).then((data) => JSON.parse(data));
-  wbIndicators = data
+  wbIndicators[indicator.id] = data
     .filter((item) => !!item.date && !!item.value && item.value !== "null")
     .map<IndicatorCountryValue>((item) => ({
       countryId: item.country.id.toString().toLowerCase(),
@@ -73,7 +73,7 @@ export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
       type: "average" // Default type, can be changed later
     }));
 
-  return wbIndicators;
+  return wbIndicators[indicator.id];
 };
 
 /**

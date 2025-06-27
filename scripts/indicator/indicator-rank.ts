@@ -14,23 +14,23 @@ async function generate() {
   for (const indicator of indicators) {
     if (![1, -1].includes(indicator.sort as never)) continue;
     let values = await getLastWBIndicatorData(indicator);
-    values = values.filter((item) => isNumber(item.value));
+    values = values.filter(
+      (item) => countryIds.includes(item.countryId) && isNumber(item.value)
+    );
     if (values.length === 0) continue;
 
     const result = (
       indicator.sort === 1
         ? values.sort((a, b) => b.value - a.value)
         : values.sort((a, b) => a.value - b.value)
-    )
-      .filter((item) => countryIds.includes(item.countryId))
-      .map<IndicatorCountryRankValue>((item, rank) => ({
-        countryId: item.countryId,
-        date: item.date,
-        value: item.value,
-        indicatorId: item.indicatorId,
-        rank: rank + 1,
-        decimal: item.decimal
-      }));
+    ).map<IndicatorCountryRankValue>((item, rank) => ({
+      countryId: item.countryId,
+      date: item.date,
+      value: item.value,
+      indicatorId: item.indicatorId,
+      rank: rank + 1,
+      decimal: item.decimal
+    }));
 
     const fileName = `src/content/indicator/${indicator.id}/rank.json`;
     await createFolderIfNotExists(`src/content/indicator/${indicator.id}`);

@@ -5,9 +5,7 @@ const filterIndicator = (indicator: {
   commonName?: string;
   unit?: string;
 }) => {
-  const text = [indicator.commonName || indicator.name, indicator.unit]
-    .filter(Boolean)
-    .join(" ");
+  const text = [indicator.name, indicator.unit].filter(Boolean).join(" ");
   return (
     /(\%|per\b|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
     !/(LCU|Remittances|Estimate\b)/.test(text)
@@ -52,7 +50,7 @@ export const compareCountryIndicators = async ({ id1, id2 }: Props) => {
   });
   const vsCountryRanksBetter = vsCountryRanks.filter((r) => {
     const countryRank = countryRanks.find(
-      (c) => c.indicatorId === r.indicatorId
+      (v) => v.indicatorId === r.indicatorId
     );
     return (
       countryRank && r.rank < countryRank.rank && r.value !== countryRank.value
@@ -73,14 +71,14 @@ export const compareCountryIndicators = async ({ id1, id2 }: Props) => {
     .sort((a, b) => b.diff - a.diff);
 
   const list2 = vsCountryRanksBetter
-    .map((value2) => {
-      const value1 = countryRanks.find(
-        (c) => c.indicatorId === value2.indicatorId
+    .map((value1) => {
+      const value2 = countryRanks.find(
+        (c) => c.indicatorId === value1.indicatorId
       )!;
       return {
         value1,
         value2,
-        diff: value1.rank - value2.rank
+        diff: value2.rank - value1.rank
       };
     })
     .sort((a, b) => b.diff - a.diff);

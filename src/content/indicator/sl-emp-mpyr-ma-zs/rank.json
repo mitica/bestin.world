@@ -1,1538 +1,1426 @@
 [
   {
-    "countryId": "cn",
-    "date": 2021,
-    "value": 5206950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 1,
-    "decimal": 0
-  },
-  {
-    "countryId": "us",
-    "date": 2021,
-    "value": 4058103.538,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 2,
-    "decimal": 0
-  },
-  {
-    "countryId": "au",
-    "date": 2021,
-    "value": 3635190,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 3,
-    "decimal": 0
-  },
-  {
-    "countryId": "br",
-    "date": 2021,
-    "value": 2393695.61,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 4,
-    "decimal": 0
-  },
-  {
-    "countryId": "ru",
-    "date": 2021,
-    "value": 2154940,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 5,
-    "decimal": 0
-  },
-  {
-    "countryId": "kz",
-    "date": 2021,
-    "value": 2137959,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 6,
-    "decimal": 0
-  },
-  {
-    "countryId": "in",
-    "date": 2021,
-    "value": 1785279.48,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 7,
-    "decimal": 0
-  },
-  {
-    "countryId": "sa",
-    "date": 2021,
-    "value": 1736370,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 8,
-    "decimal": 0
-  },
-  {
-    "countryId": "ar",
-    "date": 2021,
-    "value": 1179577.597,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 9,
-    "decimal": 0
-  },
-  {
-    "countryId": "sd",
-    "date": 2021,
-    "value": 1126648.4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 10,
-    "decimal": 0
-  },
-  {
-    "countryId": "mn",
-    "date": 2021,
-    "value": 1126312,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 11,
-    "decimal": 0
-  },
-  {
-    "countryId": "mx",
-    "date": 2021,
-    "value": 971260,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 12,
-    "decimal": 0
-  },
-  {
-    "countryId": "za",
-    "date": 2021,
-    "value": 963410,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 13,
-    "decimal": 0
-  },
-  {
     "countryId": "ng",
-    "date": 2021,
-    "value": 686440,
-    "indicatorId": "ag-lnd-agri-k2",
+    "date": 2023,
+    "value": 26.3378614618412,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 1,
+    "decimal": 1
+  },
+  {
+    "countryId": "dj",
+    "date": 2023,
+    "value": 22.541993281075,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 2,
+    "decimal": 1
+  },
+  {
+    "countryId": "tl",
+    "date": 2023,
+    "value": 18.0150592011346,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 3,
+    "decimal": 1
+  },
+  {
+    "countryId": "az",
+    "date": 2023,
+    "value": 16.1198947528434,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 4,
+    "decimal": 1
+  },
+  {
+    "countryId": "uz",
+    "date": 2023,
+    "value": 14.289331956894,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 5,
+    "decimal": 1
+  },
+  {
+    "countryId": "to",
+    "date": 2023,
+    "value": 11.579766536965,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 6,
+    "decimal": 1
+  },
+  {
+    "countryId": "hn",
+    "date": 2023,
+    "value": 11.396198135207,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 7,
+    "decimal": 1
+  },
+  {
+    "countryId": "gq",
+    "date": 2023,
+    "value": 11.3595949713079,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 8,
+    "decimal": 1
+  },
+  {
+    "countryId": "lb",
+    "date": 2023,
+    "value": 11.2176936498174,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 9,
+    "decimal": 1
+  },
+  {
+    "countryId": "gr",
+    "date": 2023,
+    "value": 9.63388383440242,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 10,
+    "decimal": 1
+  },
+  {
+    "countryId": "st",
+    "date": 2023,
+    "value": 9.54757583614208,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 11,
+    "decimal": 1
+  },
+  {
+    "countryId": "ug",
+    "date": 2023,
+    "value": 8.85863192755295,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 12,
+    "decimal": 1
+  },
+  {
+    "countryId": "gm",
+    "date": 2023,
+    "value": 8.41834780038749,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 13,
+    "decimal": 1
+  },
+  {
+    "countryId": "na",
+    "date": 2023,
+    "value": 8.40439272192351,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
     "rank": 14,
-    "decimal": 0
-  },
-  {
-    "countryId": "id",
-    "date": 2021,
-    "value": 646000,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 15,
-    "decimal": 0
-  },
-  {
-    "countryId": "ca",
-    "date": 2021,
-    "value": 569910,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 16,
-    "decimal": 0
-  },
-  {
-    "countryId": "td",
-    "date": 2021,
-    "value": 503380,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 17,
-    "decimal": 0
-  },
-  {
-    "countryId": "ir",
-    "date": 2021,
-    "value": 470670,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 18,
-    "decimal": 0
+    "decimal": 1
   },
   {
     "countryId": "ne",
-    "date": 2021,
-    "value": 465950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 19,
-    "decimal": 0
+    "date": 2023,
+    "value": 8.21786560950462,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 15,
+    "decimal": 1
   },
   {
-    "countryId": "ao",
-    "date": 2021,
-    "value": 458970,
-    "indicatorId": "ag-lnd-agri-k2",
+    "countryId": "sd",
+    "date": 2022,
+    "value": 8.09966587499982,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 16,
+    "decimal": 1
+  },
+  {
+    "countryId": "tn",
+    "date": 2023,
+    "value": 8.02458118939186,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 17,
+    "decimal": 1
+  },
+  {
+    "countryId": "it",
+    "date": 2023,
+    "value": 8.02125762607154,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 18,
+    "decimal": 1
+  },
+  {
+    "countryId": "mk",
+    "date": 2023,
+    "value": 7.89585202911556,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 19,
+    "decimal": 1
+  },
+  {
+    "countryId": "lc",
+    "date": 2023,
+    "value": 7.80173552543337,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
     "rank": 20,
-    "decimal": 0
+    "decimal": 1
+  },
+  {
+    "countryId": "hr",
+    "date": 2023,
+    "value": 7.63119597104071,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 21,
+    "decimal": 1
+  },
+  {
+    "countryId": "za",
+    "date": 2023,
+    "value": 7.36690348818221,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 22,
+    "decimal": 1
+  },
+  {
+    "countryId": "gy",
+    "date": 2023,
+    "value": 7.3081493944371,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 23,
+    "decimal": 1
+  },
+  {
+    "countryId": "nz",
+    "date": 2023,
+    "value": 7.27693764901852,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 24,
+    "decimal": 1
+  },
+  {
+    "countryId": "ni",
+    "date": 2023,
+    "value": 7.21963620386835,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 25,
+    "decimal": 1
+  },
+  {
+    "countryId": "ye",
+    "date": 2023,
+    "value": 7.1726424341599,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 26,
+    "decimal": 1
+  },
+  {
+    "countryId": "at",
+    "date": 2023,
+    "value": 7.04613862513225,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 27,
+    "decimal": 1
+  },
+  {
+    "countryId": "bz",
+    "date": 2023,
+    "value": 7.04316324524699,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 28,
+    "decimal": 1
+  },
+  {
+    "countryId": "cu",
+    "date": 2023,
+    "value": 7.00587662710829,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 29,
+    "decimal": 1
+  },
+  {
+    "countryId": "lv",
+    "date": 2023,
+    "value": 6.92596671344074,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 30,
+    "decimal": 1
+  },
+  {
+    "countryId": "mx",
+    "date": 2023,
+    "value": 6.80281235211961,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 31,
+    "decimal": 1
+  },
+  {
+    "countryId": "py",
+    "date": 2023,
+    "value": 6.7332348404971,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 32,
+    "decimal": 1
+  },
+  {
+    "countryId": "ch",
+    "date": 2023,
+    "value": 6.73078958886623,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 33,
+    "decimal": 1
+  },
+  {
+    "countryId": "au",
+    "date": 2023,
+    "value": 6.69979629265182,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 34,
+    "decimal": 1
+  },
+  {
+    "countryId": "fr",
+    "date": 2023,
+    "value": 6.65277008644449,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 35,
+    "decimal": 1
+  },
+  {
+    "countryId": "vc",
+    "date": 2023,
+    "value": 6.53079562163045,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 36,
+    "decimal": 1
+  },
+  {
+    "countryId": "ls",
+    "date": 2023,
+    "value": 6.4721627922595,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 37,
+    "decimal": 1
+  },
+  {
+    "countryId": "kr",
+    "date": 2023,
+    "value": 6.42769516013571,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 38,
+    "decimal": 1
+  },
+  {
+    "countryId": "pt",
+    "date": 2023,
+    "value": 6.37336808958279,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 39,
+    "decimal": 1
+  },
+  {
+    "countryId": "ee",
+    "date": 2023,
+    "value": 6.34520965379326,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 40,
+    "decimal": 1
+  },
+  {
+    "countryId": "bd",
+    "date": 2023,
+    "value": 6.25186731594594,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 41,
+    "decimal": 1
   },
   {
     "countryId": "so",
-    "date": 2021,
-    "value": 441290,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 21,
-    "decimal": 0
+    "date": 2023,
+    "value": 6.23573730351646,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 42,
+    "decimal": 1
   },
   {
-    "countryId": "ml",
-    "date": 2021,
-    "value": 431310,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 22,
-    "decimal": 0
+    "countryId": "mr",
+    "date": 2023,
+    "value": 6.15716192381531,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 43,
+    "decimal": 1
   },
   {
-    "countryId": "co",
-    "date": 2021,
-    "value": 427180,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 23,
-    "decimal": 0
+    "countryId": "tr",
+    "date": 2023,
+    "value": 6.08684512526517,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 44,
+    "decimal": 1
   },
   {
-    "countryId": "mz",
-    "date": 2021,
-    "value": 414138.32,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 24,
-    "decimal": 0
+    "countryId": "es",
+    "date": 2023,
+    "value": 6.08330308729556,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 45,
+    "decimal": 1
+  },
+  {
+    "countryId": "al",
+    "date": 2023,
+    "value": 6.06072316471513,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 46,
+    "decimal": 1
+  },
+  {
+    "countryId": "sv",
+    "date": 2023,
+    "value": 5.99595854150497,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 47,
+    "decimal": 1
+  },
+  {
+    "countryId": "mg",
+    "date": 2023,
+    "value": 5.79809735139098,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 48,
+    "decimal": 1
+  },
+  {
+    "countryId": "cv",
+    "date": 2023,
+    "value": 5.73918105251669,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 49,
+    "decimal": 1
+  },
+  {
+    "countryId": "tt",
+    "date": 2023,
+    "value": 5.7382920394113,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 50,
+    "decimal": 1
+  },
+  {
+    "countryId": "il",
+    "date": 2023,
+    "value": 5.72258722362584,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 51,
+    "decimal": 1
+  },
+  {
+    "countryId": "mt",
+    "date": 2023,
+    "value": 5.60671869086453,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 52,
+    "decimal": 1
+  },
+  {
+    "countryId": "de",
+    "date": 2023,
+    "value": 5.54746016676641,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 53,
+    "decimal": 1
+  },
+  {
+    "countryId": "pe",
+    "date": 2023,
+    "value": 5.45440709127074,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 54,
+    "decimal": 1
+  },
+  {
+    "countryId": "do",
+    "date": 2023,
+    "value": 5.44062777190095,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 55,
+    "decimal": 1
+  },
+  {
+    "countryId": "ie",
+    "date": 2023,
+    "value": 5.4153969377224,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 56,
+    "decimal": 1
+  },
+  {
+    "countryId": "bg",
+    "date": 2023,
+    "value": 5.39986052658064,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 57,
+    "decimal": 1
+  },
+  {
+    "countryId": "jm",
+    "date": 2023,
+    "value": 5.34121176866791,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 58,
+    "decimal": 1
+  },
+  {
+    "countryId": "sa",
+    "date": 2023,
+    "value": 5.32206926424059,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 59,
+    "decimal": 1
+  },
+  {
+    "countryId": "hu",
+    "date": 2023,
+    "value": 5.31800558370256,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 60,
+    "decimal": 1
+  },
+  {
+    "countryId": "fi",
+    "date": 2023,
+    "value": 5.3155487692974,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 61,
+    "decimal": 1
+  },
+  {
+    "countryId": "ca",
+    "date": 2023,
+    "value": 5.22868284257601,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 62,
+    "decimal": 1
+  },
+  {
+    "countryId": "si",
+    "date": 2023,
+    "value": 5.18443857036217,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 63,
+    "decimal": 1
+  },
+  {
+    "countryId": "br",
+    "date": 2023,
+    "value": 5.1283648634433,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 64,
+    "decimal": 1
+  },
+  {
+    "countryId": "sg",
+    "date": 2023,
+    "value": 5.12763319416798,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 65,
+    "decimal": 1
+  },
+  {
+    "countryId": "ba",
+    "date": 2023,
+    "value": 5.11091301189948,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 66,
+    "decimal": 1
   },
   {
     "countryId": "dz",
-    "date": 2021,
-    "value": 413160.71,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 25,
-    "decimal": 0
+    "date": 2023,
+    "value": 5.0985192420031,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 67,
+    "decimal": 1
+  },
+  {
+    "countryId": "pl",
+    "date": 2023,
+    "value": 5.02719456602307,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 68,
+    "decimal": 1
+  },
+  {
+    "countryId": "cn",
+    "date": 2023,
+    "value": 5.02568862650125,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 69,
+    "decimal": 1
+  },
+  {
+    "countryId": "be",
+    "date": 2023,
+    "value": 4.97869031396296,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 70,
+    "decimal": 1
+  },
+  {
+    "countryId": "iq",
+    "date": 2023,
+    "value": 4.97073009219594,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 71,
+    "decimal": 1
+  },
+  {
+    "countryId": "bf",
+    "date": 2023,
+    "value": 4.9051626831223,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 72,
+    "decimal": 1
+  },
+  {
+    "countryId": "se",
+    "date": 2023,
+    "value": 4.89892492231455,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 73,
+    "decimal": 1
+  },
+  {
+    "countryId": "uy",
+    "date": 2023,
+    "value": 4.77046036835914,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 74,
+    "decimal": 1
+  },
+  {
+    "countryId": "nl",
+    "date": 2023,
+    "value": 4.675159533773,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 75,
+    "decimal": 1
+  },
+  {
+    "countryId": "bo",
+    "date": 2023,
+    "value": 4.65308747343875,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 76,
+    "decimal": 1
+  },
+  {
+    "countryId": "ao",
+    "date": 2023,
+    "value": 4.62204106869927,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 77,
+    "decimal": 1
+  },
+  {
+    "countryId": "ma",
+    "date": 2023,
+    "value": 4.57977925799045,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 78,
+    "decimal": 1
+  },
+  {
+    "countryId": "sr",
+    "date": 2023,
+    "value": 4.57234109592965,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 79,
+    "decimal": 1
+  },
+  {
+    "countryId": "in",
+    "date": 2023,
+    "value": 4.46588629238928,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 80,
+    "decimal": 1
+  },
+  {
+    "countryId": "rs",
+    "date": 2023,
+    "value": 4.40671259021603,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 81,
+    "decimal": 1
+  },
+  {
+    "countryId": "id",
+    "date": 2023,
+    "value": 4.38129343907976,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 82,
+    "decimal": 1
+  },
+  {
+    "countryId": "me",
+    "date": 2023,
+    "value": 4.35622955694321,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 83,
+    "decimal": 1
+  },
+  {
+    "countryId": "zm",
+    "date": 2023,
+    "value": 4.29126324311355,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 84,
+    "decimal": 1
+  },
+  {
+    "countryId": "kh",
+    "date": 2023,
+    "value": 4.28613896972902,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 85,
+    "decimal": 1
+  },
+  {
+    "countryId": "ae",
+    "date": 2023,
+    "value": 4.24930755766654,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 86,
+    "decimal": 1
+  },
+  {
+    "countryId": "cl",
+    "date": 2023,
+    "value": 4.22183081738731,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 87,
+    "decimal": 1
+  },
+  {
+    "countryId": "pg",
+    "date": 2023,
+    "value": 4.19484236275485,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 88,
+    "decimal": 1
+  },
+  {
+    "countryId": "cd",
+    "date": 2023,
+    "value": 4.15642879349181,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 89,
+    "decimal": 1
+  },
+  {
+    "countryId": "sk",
+    "date": 2023,
+    "value": 4.10279124090886,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 90,
+    "decimal": 1
+  },
+  {
+    "countryId": "ar",
+    "date": 2023,
+    "value": 4.07605770994619,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 91,
+    "decimal": 1
+  },
+  {
+    "countryId": "kp",
+    "date": 2023,
+    "value": 4.05920305716479,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 92,
+    "decimal": 1
+  },
+  {
+    "countryId": "tj",
+    "date": 2023,
+    "value": 4.01327016065051,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 93,
+    "decimal": 1
+  },
+  {
+    "countryId": "bn",
+    "date": 2023,
+    "value": 3.94187950593134,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 94,
+    "decimal": 1
+  },
+  {
+    "countryId": "mu",
+    "date": 2023,
+    "value": 3.83012513656894,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 95,
+    "decimal": 1
+  },
+  {
+    "countryId": "my",
+    "date": 2023,
+    "value": 3.82973427394423,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 96,
+    "decimal": 1
+  },
+  {
+    "countryId": "dk",
+    "date": 2023,
+    "value": 3.82347919533188,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 97,
+    "decimal": 1
+  },
+  {
+    "countryId": "lk",
+    "date": 2023,
+    "value": 3.81801169467103,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 98,
+    "decimal": 1
+  },
+  {
+    "countryId": "zw",
+    "date": 2023,
+    "value": 3.80080519625213,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 99,
+    "decimal": 1
+  },
+  {
+    "countryId": "tm",
+    "date": 2023,
+    "value": 3.76753888421981,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 100,
+    "decimal": 1
+  },
+  {
+    "countryId": "lu",
+    "date": 2023,
+    "value": 3.76096497469731,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 101,
+    "decimal": 1
+  },
+  {
+    "countryId": "ir",
+    "date": 2023,
+    "value": 3.67187357954617,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 102,
+    "decimal": 1
+  },
+  {
+    "countryId": "ws",
+    "date": 2023,
+    "value": 3.66472944761045,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 103,
+    "decimal": 1
+  },
+  {
+    "countryId": "jo",
+    "date": 2023,
+    "value": 3.65343398010545,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 104,
+    "decimal": 1
+  },
+  {
+    "countryId": "gh",
+    "date": 2023,
+    "value": 3.60510163088776,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 105,
+    "decimal": 1
+  },
+  {
+    "countryId": "vu",
+    "date": 2023,
+    "value": 3.58990673609832,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 106,
+    "decimal": 1
+  },
+  {
+    "countryId": "pa",
+    "date": 2023,
+    "value": 3.52013191573144,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 107,
+    "decimal": 1
+  },
+  {
+    "countryId": "us",
+    "date": 2023,
+    "value": 3.46843049494905,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 108,
+    "decimal": 1
+  },
+  {
+    "countryId": "co",
+    "date": 2023,
+    "value": 3.45403570520492,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 109,
+    "decimal": 1
+  },
+  {
+    "countryId": "mv",
+    "date": 2023,
+    "value": 3.44088212075683,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 110,
+    "decimal": 1
+  },
+  {
+    "countryId": "mn",
+    "date": 2023,
+    "value": 3.32409632978825,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 111,
+    "decimal": 1
+  },
+  {
+    "countryId": "cr",
+    "date": 2023,
+    "value": 3.31335290806469,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 112,
+    "decimal": 1
+  },
+  {
+    "countryId": "gt",
+    "date": 2023,
+    "value": 3.29217736517361,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 113,
+    "decimal": 1
+  },
+  {
+    "countryId": "th",
+    "date": 2023,
+    "value": 3.22413856778816,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 114,
+    "decimal": 1
+  },
+  {
+    "countryId": "cz",
+    "date": 2023,
+    "value": 3.18769576551208,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 115,
+    "decimal": 1
+  },
+  {
+    "countryId": "ga",
+    "date": 2023,
+    "value": 3.17788125165867,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 116,
+    "decimal": 1
+  },
+  {
+    "countryId": "er",
+    "date": 2023,
+    "value": 3.10278760138952,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 117,
+    "decimal": 1
+  },
+  {
+    "countryId": "bw",
+    "date": 2023,
+    "value": 3.09563668890585,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 118,
+    "decimal": 1
+  },
+  {
+    "countryId": "eg",
+    "date": 2023,
+    "value": 3.08360529342228,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 119,
+    "decimal": 1
+  },
+  {
+    "countryId": "mz",
+    "date": 2023,
+    "value": 3.05932643334081,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 120,
+    "decimal": 1
+  },
+  {
+    "countryId": "ph",
+    "date": 2023,
+    "value": 3.04794851264621,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 121,
+    "decimal": 1
+  },
+  {
+    "countryId": "ge",
+    "date": 2023,
+    "value": 3.01931332955321,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 122,
+    "decimal": 1
+  },
+  {
+    "countryId": "mm",
+    "date": 2023,
+    "value": 2.96970071110017,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 123,
+    "decimal": 1
+  },
+  {
+    "countryId": "ec",
+    "date": 2023,
+    "value": 2.79947134204834,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 124,
+    "decimal": 1
+  },
+  {
+    "countryId": "sz",
+    "date": 2023,
+    "value": 2.70099930140024,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 125,
+    "decimal": 1
+  },
+  {
+    "countryId": "ly",
+    "date": 2023,
+    "value": 2.6017267466739,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 126,
+    "decimal": 1
+  },
+  {
+    "countryId": "vn",
+    "date": 2023,
+    "value": 2.58403290179193,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 127,
+    "decimal": 1
+  },
+  {
+    "countryId": "gn",
+    "date": 2023,
+    "value": 2.48406399622499,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 128,
+    "decimal": 1
+  },
+  {
+    "countryId": "cy",
+    "date": 2023,
+    "value": 2.41012045474358,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 129,
+    "decimal": 1
+  },
+  {
+    "countryId": "jp",
+    "date": 2023,
+    "value": 2.38889277339928,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 130,
+    "decimal": 1
+  },
+  {
+    "countryId": "tg",
+    "date": 2023,
+    "value": 2.21381404540415,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 131,
+    "decimal": 1
+  },
+  {
+    "countryId": "kg",
+    "date": 2023,
+    "value": 2.18463372008822,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 132,
+    "decimal": 1
+  },
+  {
+    "countryId": "cm",
+    "date": 2023,
+    "value": 2.17469811783249,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 133,
+    "decimal": 1
+  },
+  {
+    "countryId": "tz",
+    "date": 2023,
+    "value": 2.11114359044592,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 134,
+    "decimal": 1
+  },
+  {
+    "countryId": "gb",
+    "date": 2023,
+    "value": 2.08568403461081,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 135,
+    "decimal": 1
+  },
+  {
+    "countryId": "np",
+    "date": 2023,
+    "value": 2.05954425412139,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 136,
+    "decimal": 1
+  },
+  {
+    "countryId": "ci",
+    "date": 2023,
+    "value": 2.01341315859587,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 137,
+    "decimal": 1
+  },
+  {
+    "countryId": "ve",
+    "date": 2023,
+    "value": 2.00582836179981,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 138,
+    "decimal": 1
+  },
+  {
+    "countryId": "ru",
+    "date": 2023,
+    "value": 1.91467242443514,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 139,
+    "decimal": 1
+  },
+  {
+    "countryId": "bj",
+    "date": 2023,
+    "value": 1.91244259043121,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 140,
+    "decimal": 1
+  },
+  {
+    "countryId": "lt",
+    "date": 2023,
+    "value": 1.90436370224805,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 141,
+    "decimal": 1
+  },
+  {
+    "countryId": "am",
+    "date": 2023,
+    "value": 1.88098304647612,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 142,
+    "decimal": 1
+  },
+  {
+    "countryId": "pk",
+    "date": 2023,
+    "value": 1.86774741132709,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 143,
+    "decimal": 1
   },
   {
     "countryId": "ua",
     "date": 2021,
-    "value": 413110,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 26,
-    "decimal": 0
-  },
-  {
-    "countryId": "mg",
-    "date": 2021,
-    "value": 408950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 27,
-    "decimal": 0
-  },
-  {
-    "countryId": "mr",
-    "date": 2021,
-    "value": 397100,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 28,
-    "decimal": 0
-  },
-  {
-    "countryId": "tz",
-    "date": 2021,
-    "value": 395212,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 29,
-    "decimal": 0
-  },
-  {
-    "countryId": "na",
-    "date": 2021,
-    "value": 388120,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 30,
-    "decimal": 0
-  },
-  {
-    "countryId": "et",
-    "date": 2021,
-    "value": 385950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 31,
-    "decimal": 0
-  },
-  {
-    "countryId": "af",
-    "date": 2021,
-    "value": 383130,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 32,
-    "decimal": 0
-  },
-  {
-    "countryId": "bo",
-    "date": 2021,
-    "value": 381193.672,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 33,
-    "decimal": 0
-  },
-  {
-    "countryId": "tr",
-    "date": 2021,
-    "value": 380890,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 34,
-    "decimal": 0
-  },
-  {
-    "countryId": "pk",
-    "date": 2021,
-    "value": 363030,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 35,
-    "decimal": 0
-  },
-  {
-    "countryId": "cd",
-    "date": 2021,
-    "value": 338980,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 36,
-    "decimal": 0
-  },
-  {
-    "countryId": "tm",
-    "date": 2021,
-    "value": 338380,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 37,
-    "decimal": 0
-  },
-  {
-    "countryId": "ma",
-    "date": 2021,
-    "value": 302910,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 38,
-    "decimal": 0
-  },
-  {
-    "countryId": "fr",
-    "date": 2021,
-    "value": 285537.54,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 39,
-    "decimal": 0
-  },
-  {
-    "countryId": "ss",
-    "date": 2021,
-    "value": 282527,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 40,
-    "decimal": 0
-  },
-  {
-    "countryId": "ke",
-    "date": 2021,
-    "value": 277100,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 41,
-    "decimal": 0
-  },
-  {
-    "countryId": "es",
-    "date": 2021,
-    "value": 262284.464,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 42,
-    "decimal": 0
-  },
-  {
-    "countryId": "bw",
-    "date": 2021,
-    "value": 258620,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 43,
-    "decimal": 0
-  },
-  {
-    "countryId": "uz",
-    "date": 2021,
-    "value": 256906,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 44,
-    "decimal": 0
-  },
-  {
-    "countryId": "pe",
-    "date": 2021,
-    "value": 255156.89,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 45,
-    "decimal": 0
-  },
-  {
-    "countryId": "zm",
-    "date": 2021,
-    "value": 238390,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 46,
-    "decimal": 0
-  },
-  {
-    "countryId": "ci",
-    "date": 2021,
-    "value": 235000,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 47,
-    "decimal": 0
-  },
-  {
-    "countryId": "th",
-    "date": 2021,
-    "value": 235000,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 48,
-    "decimal": 0
-  },
-  {
-    "countryId": "ye",
-    "date": 2021,
-    "value": 234520,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 49,
-    "decimal": 0
-  },
-  {
-    "countryId": "ve",
-    "date": 2021,
-    "value": 215000,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 50,
-    "decimal": 0
-  },
-  {
-    "countryId": "gb",
-    "date": 2021,
-    "value": 172151.41,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 51,
-    "decimal": 0
-  },
-  {
-    "countryId": "py",
-    "date": 2021,
-    "value": 168091.4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 52,
-    "decimal": 0
-  },
-  {
-    "countryId": "de",
-    "date": 2021,
-    "value": 165910,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 53,
-    "decimal": 0
-  },
-  {
-    "countryId": "zw",
-    "date": 2021,
-    "value": 162000,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 54,
-    "decimal": 0
-  },
-  {
-    "countryId": "ly",
-    "date": 2021,
-    "value": 153500,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 55,
-    "decimal": 0
-  },
-  {
-    "countryId": "gn",
-    "date": 2021,
-    "value": 146380,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 56,
-    "decimal": 0
-  },
-  {
-    "countryId": "pl",
-    "date": 2021,
-    "value": 144994.6,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 57,
-    "decimal": 0
-  },
-  {
-    "countryId": "ug",
-    "date": 2021,
-    "value": 144150,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 58,
-    "decimal": 0
-  },
-  {
-    "countryId": "uy",
-    "date": 2021,
-    "value": 140696.05,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 59,
-    "decimal": 0
-  },
-  {
-    "countryId": "sy",
-    "date": 2021,
-    "value": 139133.76,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 60,
-    "decimal": 0
-  },
-  {
-    "countryId": "ro",
-    "date": 2021,
-    "value": 130790,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 61,
-    "decimal": 0
-  },
-  {
-    "countryId": "mm",
-    "date": 2021,
-    "value": 129800,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 62,
-    "decimal": 0
-  },
-  {
-    "countryId": "bf",
-    "date": 2021,
-    "value": 127400,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 63,
-    "decimal": 0
-  },
-  {
-    "countryId": "ph",
-    "date": 2021,
-    "value": 126830,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 64,
-    "decimal": 0
-  },
-  {
-    "countryId": "gh",
-    "date": 2021,
-    "value": 126037.4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 65,
-    "decimal": 0
-  },
-  {
-    "countryId": "it",
-    "date": 2021,
-    "value": 124030.309,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 66,
-    "decimal": 0
-  },
-  {
-    "countryId": "vn",
-    "date": 2021,
-    "value": 123600,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 67,
-    "decimal": 0
-  },
-  {
-    "countryId": "cg",
-    "date": 2021,
-    "value": 106780,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 68,
-    "decimal": 0
-  },
-  {
-    "countryId": "cl",
-    "date": 2021,
-    "value": 105955.37,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 69,
-    "decimal": 0
-  },
-  {
-    "countryId": "kg",
-    "date": 2021,
-    "value": 103661,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 70,
-    "decimal": 0
-  },
-  {
-    "countryId": "nz",
-    "date": 2021,
-    "value": 101750,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 71,
-    "decimal": 0
-  },
-  {
-    "countryId": "bd",
-    "date": 2021,
-    "value": 100680,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 72,
-    "decimal": 0
-  },
-  {
-    "countryId": "cm",
-    "date": 2021,
-    "value": 97500,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 73,
-    "decimal": 0
-  },
-  {
-    "countryId": "tn",
-    "date": 2021,
-    "value": 97005,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 74,
-    "decimal": 0
-  },
-  {
-    "countryId": "sn",
-    "date": 2021,
-    "value": 95110,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 75,
-    "decimal": 0
-  },
-  {
-    "countryId": "iq",
-    "date": 2021,
-    "value": 94240,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 76,
-    "decimal": 0
-  },
-  {
-    "countryId": "my",
-    "date": 2021,
-    "value": 85710,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 77,
-    "decimal": 0
-  },
-  {
-    "countryId": "by",
-    "date": 2021,
-    "value": 81740,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 78,
-    "decimal": 0
-  },
-  {
-    "countryId": "er",
-    "date": 2021,
-    "value": 75920,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 79,
-    "decimal": 0
-  },
-  {
-    "countryId": "cu",
-    "date": 2021,
-    "value": 64010,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 80,
-    "decimal": 0
-  },
-  {
-    "countryId": "kh",
-    "date": 2021,
-    "value": 60991.397,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 81,
-    "decimal": 0
-  },
-  {
-    "countryId": "mw",
-    "date": 2021,
-    "value": 60500,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 82,
-    "decimal": 0
-  },
-  {
-    "countryId": "gr",
-    "date": 2021,
-    "value": 58671.88,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 83,
-    "decimal": 0
-  },
-  {
-    "countryId": "ec",
-    "date": 2021,
-    "value": 54700,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 84,
-    "decimal": 0
-  },
-  {
-    "countryId": "ni",
-    "date": 2021,
-    "value": 50910,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 85,
-    "decimal": 0
-  },
-  {
-    "countryId": "bg",
-    "date": 2021,
-    "value": 50465.972,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 86,
-    "decimal": 0
-  },
-  {
-    "countryId": "hu",
-    "date": 2021,
-    "value": 50436.886,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 87,
-    "decimal": 0
-  },
-  {
-    "countryId": "tj",
-    "date": 2021,
-    "value": 49170,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 88,
-    "decimal": 0
-  },
-  {
-    "countryId": "cf",
-    "date": 2021,
-    "value": 49100,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 89,
-    "decimal": 0
-  },
-  {
-    "countryId": "az",
-    "date": 2021,
-    "value": 47806,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 90,
-    "decimal": 0
-  },
-  {
-    "countryId": "jp",
-    "date": 2021,
-    "value": 46590,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 91,
-    "decimal": 0
-  },
-  {
-    "countryId": "gt",
-    "date": 2021,
-    "value": 46120,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 92,
-    "decimal": 0
-  },
-  {
-    "countryId": "ie",
-    "date": 2021,
-    "value": 43370,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 93,
-    "decimal": 0
-  },
-  {
-    "countryId": "np",
-    "date": 2021,
-    "value": 41210,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 94,
-    "decimal": 0
-  },
-  {
-    "countryId": "eg",
-    "date": 2021,
-    "value": 40310,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 95,
-    "decimal": 0
-  },
-  {
-    "countryId": "pt",
-    "date": 2021,
-    "value": 39622.955,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 96,
-    "decimal": 0
-  },
-  {
-    "countryId": "bj",
-    "date": 2021,
-    "value": 39500,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 97,
-    "decimal": 0
-  },
-  {
-    "countryId": "sl",
-    "date": 2021,
-    "value": 39490,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 98,
-    "decimal": 0
-  },
-  {
-    "countryId": "tg",
-    "date": 2021,
-    "value": 38200,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 99,
-    "decimal": 0
-  },
-  {
-    "countryId": "hn",
-    "date": 2021,
-    "value": 35760,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 100,
-    "decimal": 0
-  },
-  {
-    "countryId": "cz",
-    "date": 2021,
-    "value": 35297.97,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 101,
-    "decimal": 0
-  },
-  {
-    "countryId": "rs",
-    "date": 2021,
-    "value": 34850,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 102,
-    "decimal": 0
-  },
-  {
-    "countryId": "se",
-    "date": 2021,
-    "value": 30029.1,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 103,
-    "decimal": 0
-  },
-  {
-    "countryId": "lt",
-    "date": 2021,
-    "value": 29378,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 104,
-    "decimal": 0
-  },
-  {
-    "countryId": "lk",
-    "date": 2021,
-    "value": 28120,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 105,
-    "decimal": 0
-  },
-  {
-    "countryId": "dk",
-    "date": 2021,
-    "value": 26180,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 106,
-    "decimal": 0
-  },
-  {
-    "countryId": "at",
-    "date": 2021,
-    "value": 25974.594,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 107,
-    "decimal": 0
-  },
-  {
-    "countryId": "kp",
-    "date": 2021,
-    "value": 25950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 108,
-    "decimal": 0
-  },
-  {
-    "countryId": "ls",
-    "date": 2021,
-    "value": 24330,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 109,
-    "decimal": 0
-  },
-  {
-    "countryId": "do",
-    "date": 2021,
-    "value": 24290,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 110,
-    "decimal": 0
-  },
-  {
-    "countryId": "ge",
-    "date": 2021,
-    "value": 23799,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 111,
-    "decimal": 0
-  },
-  {
-    "countryId": "md",
-    "date": 2021,
-    "value": 22750,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 112,
-    "decimal": 0
-  },
-  {
-    "countryId": "fi",
-    "date": 2021,
-    "value": 22680,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 113,
-    "decimal": 0
-  },
-  {
-    "countryId": "ba",
-    "date": 2021,
-    "value": 22630,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 114,
-    "decimal": 0
-  },
-  {
-    "countryId": "pa",
-    "date": 2021,
-    "value": 21813.16,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 115,
-    "decimal": 0
-  },
-  {
-    "countryId": "ga",
-    "date": 2021,
-    "value": 21532.36,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 116,
-    "decimal": 0
+    "value": 1.85757952893855,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 144,
+    "decimal": 1
   },
   {
     "countryId": "bi",
-    "date": 2021,
-    "value": 21030,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 117,
-    "decimal": 0
-  },
-  {
-    "countryId": "la",
-    "date": 2021,
-    "value": 20310,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 118,
-    "decimal": 0
-  },
-  {
-    "countryId": "rw",
-    "date": 2021,
-    "value": 20044.6,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 119,
-    "decimal": 0
-  },
-  {
-    "countryId": "lv",
-    "date": 2021,
-    "value": 19700,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 120,
-    "decimal": 0
-  },
-  {
-    "countryId": "lr",
-    "date": 2021,
-    "value": 19230.4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 121,
-    "decimal": 0
-  },
-  {
-    "countryId": "is",
-    "date": 2021,
-    "value": 18720,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 122,
-    "decimal": 0
-  },
-  {
-    "countryId": "sk",
-    "date": 2021,
-    "value": 18560,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 123,
-    "decimal": 0
-  },
-  {
-    "countryId": "nl",
-    "date": 2021,
-    "value": 18120,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 124,
-    "decimal": 0
-  },
-  {
-    "countryId": "cr",
-    "date": 2021,
-    "value": 18110,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 125,
-    "decimal": 0
-  },
-  {
-    "countryId": "ht",
-    "date": 2021,
-    "value": 17950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 126,
-    "decimal": 0
-  },
-  {
-    "countryId": "dj",
-    "date": 2021,
-    "value": 17039,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 127,
-    "decimal": 0
-  },
-  {
-    "countryId": "am",
-    "date": 2021,
-    "value": 16748.2,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 128,
-    "decimal": 0
-  },
-  {
-    "countryId": "kr",
-    "date": 2021,
-    "value": 16030,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 129,
-    "decimal": 0
-  },
-  {
-    "countryId": "ch",
-    "date": 2021,
-    "value": 14993.783,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 130,
-    "decimal": 0
-  },
-  {
-    "countryId": "hr",
-    "date": 2021,
-    "value": 14760,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 131,
-    "decimal": 0
-  },
-  {
-    "countryId": "om",
-    "date": 2021,
-    "value": 14662.2,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 132,
-    "decimal": 0
-  },
-  {
-    "countryId": "pg",
-    "date": 2021,
-    "value": 14410,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 133,
-    "decimal": 0
-  },
-  {
-    "countryId": "be",
-    "date": 2021,
-    "value": 13656.7,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 134,
-    "decimal": 0
-  },
-  {
-    "countryId": "mk",
-    "date": 2021,
-    "value": 12600,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 135,
-    "decimal": 0
-  },
-  {
-    "countryId": "sv",
-    "date": 2021,
-    "value": 11957,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 136,
-    "decimal": 0
-  },
-  {
-    "countryId": "sz",
-    "date": 2021,
-    "value": 11950,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 137,
-    "decimal": 0
-  },
-  {
-    "countryId": "al",
-    "date": 2021,
-    "value": 11363.3,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 138,
-    "decimal": 0
-  },
-  {
-    "countryId": "gy",
-    "date": 2021,
-    "value": 10430,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 139,
-    "decimal": 0
-  },
-  {
-    "countryId": "jo",
-    "date": 2021,
-    "value": 10230,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 140,
-    "decimal": 0
-  },
-  {
-    "countryId": "ee",
-    "date": 2021,
-    "value": 9870,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 141,
-    "decimal": 0
-  },
-  {
-    "countryId": "no",
-    "date": 2021,
-    "value": 9850,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 142,
-    "decimal": 0
-  },
-  {
-    "countryId": "gw",
-    "date": 2021,
-    "value": 8151.1,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 143,
-    "decimal": 0
-  },
-  {
-    "countryId": "lb",
-    "date": 2021,
-    "value": 6793,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 144,
-    "decimal": 0
-  },
-  {
-    "countryId": "il",
-    "date": 2021,
-    "value": 6435,
-    "indicatorId": "ag-lnd-agri-k2",
+    "date": 2023,
+    "value": 1.85672356306342,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
     "rank": 145,
-    "decimal": 0
-  },
-  {
-    "countryId": "gm",
-    "date": 2021,
-    "value": 6340,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 146,
-    "decimal": 0
-  },
-  {
-    "countryId": "si",
-    "date": 2021,
-    "value": 6109.6,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 147,
-    "decimal": 0
-  },
-  {
-    "countryId": "bt",
-    "date": 2021,
-    "value": 5130,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 148,
-    "decimal": 0
-  },
-  {
-    "countryId": "jm",
-    "date": 2021,
-    "value": 4170,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 149,
-    "decimal": 0
-  },
-  {
-    "countryId": "ae",
-    "date": 2021,
-    "value": 3915.615,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 150,
-    "decimal": 0
-  },
-  {
-    "countryId": "tl",
-    "date": 2021,
-    "value": 3414,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 151,
-    "decimal": 0
-  },
-  {
-    "countryId": "fj",
-    "date": 2021,
-    "value": 3116,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 152,
-    "decimal": 0
-  },
-  {
-    "countryId": "me",
-    "date": 2021,
-    "value": 2555.6,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 153,
-    "decimal": 0
-  },
-  {
-    "countryId": "vu",
-    "date": 2021,
-    "value": 1870,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 154,
-    "decimal": 0
-  },
-  {
-    "countryId": "bz",
-    "date": 2021,
-    "value": 1820,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 155,
-    "decimal": 0
-  },
-  {
-    "countryId": "kw",
-    "date": 2021,
-    "value": 1500,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 156,
-    "decimal": 0
-  },
-  {
-    "countryId": "km",
-    "date": 2021,
-    "value": 1330,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 157,
-    "decimal": 0
-  },
-  {
-    "countryId": "lu",
-    "date": 2021,
-    "value": 1328.11,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 158,
-    "decimal": 0
-  },
-  {
-    "countryId": "cy",
-    "date": 2021,
-    "value": 1231.349,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 159,
-    "decimal": 0
+    "decimal": 1
   },
   {
     "countryId": "sb",
-    "date": 2021,
-    "value": 1200,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 160,
-    "decimal": 0
+    "date": 2023,
+    "value": 1.82999173641471,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 146,
+    "decimal": 1
   },
   {
-    "countryId": "gq",
-    "date": 2021,
-    "value": 1049.2,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 161,
-    "decimal": 0
+    "countryId": "lr",
+    "date": 2023,
+    "value": 1.76332682240435,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 147,
+    "decimal": 1
   },
   {
-    "countryId": "mu",
-    "date": 2021,
-    "value": 860,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 162,
-    "decimal": 0
+    "countryId": "sn",
+    "date": 2023,
+    "value": 1.70242056886434,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 148,
+    "decimal": 1
   },
   {
-    "countryId": "cv",
-    "date": 2021,
-    "value": 790,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 163,
-    "decimal": 0
+    "countryId": "td",
+    "date": 2023,
+    "value": 1.7018596978761,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 149,
+    "decimal": 1
   },
   {
-    "countryId": "sr",
-    "date": 2021,
-    "value": 780,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 164,
-    "decimal": 0
+    "countryId": "is",
+    "date": 2023,
+    "value": 1.68654173764906,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 150,
+    "decimal": 1
   },
   {
-    "countryId": "qa",
-    "date": 2021,
-    "value": 740,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 165,
-    "decimal": 0
+    "countryId": "cf",
+    "date": 2023,
+    "value": 1.61781996194874,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 151,
+    "decimal": 1
   },
   {
-    "countryId": "tt",
-    "date": 2021,
-    "value": 540,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 166,
-    "decimal": 0
+    "countryId": "sl",
+    "date": 2023,
+    "value": 1.61733783853041,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 152,
+    "decimal": 1
   },
   {
-    "countryId": "ws",
-    "date": 2021,
-    "value": 494.1,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 167,
-    "decimal": 0
+    "countryId": "cg",
+    "date": 2023,
+    "value": 1.60829642516655,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 153,
+    "decimal": 1
   },
   {
-    "countryId": "st",
-    "date": 2021,
-    "value": 420,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 168,
-    "decimal": 0
+    "countryId": "kz",
+    "date": 2023,
+    "value": 1.53887981079595,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 154,
+    "decimal": 1
   },
   {
-    "countryId": "to",
-    "date": 2021,
-    "value": 350,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 169,
-    "decimal": 0
+    "countryId": "ro",
+    "date": 2023,
+    "value": 1.5114545448893,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 155,
+    "decimal": 1
   },
   {
-    "countryId": "ki",
-    "date": 2021,
-    "value": 340,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 170,
-    "decimal": 0
-  },
-  {
-    "countryId": "dm",
-    "date": 2021,
-    "value": 250,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 171,
-    "decimal": 0
-  },
-  {
-    "countryId": "ad",
-    "date": 2021,
-    "value": 187.562,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 172,
-    "decimal": 0
-  },
-  {
-    "countryId": "bn",
-    "date": 2021,
-    "value": 134,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 173,
-    "decimal": 0
-  },
-  {
-    "countryId": "bs",
-    "date": 2021,
-    "value": 130,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 174,
-    "decimal": 0
-  },
-  {
-    "countryId": "bb",
-    "date": 2021,
-    "value": 100,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 175,
-    "decimal": 0
-  },
-  {
-    "countryId": "lc",
-    "date": 2021,
-    "value": 99.4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 176,
-    "decimal": 0
-  },
-  {
-    "countryId": "ag",
-    "date": 2021,
-    "value": 90,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 177,
-    "decimal": 0
-  },
-  {
-    "countryId": "mt",
-    "date": 2021,
-    "value": 87.5,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 178,
-    "decimal": 0
+    "countryId": "af",
+    "date": 2023,
+    "value": 1.47495870937318,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 156,
+    "decimal": 1
   },
   {
     "countryId": "bh",
-    "date": 2021,
-    "value": 81,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 179,
-    "decimal": 0
+    "date": 2023,
+    "value": 1.42162608594466,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 157,
+    "decimal": 1
   },
   {
-    "countryId": "gd",
-    "date": 2021,
-    "value": 80,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 180,
-    "decimal": 0
+    "countryId": "sy",
+    "date": 2023,
+    "value": 1.38476169001897,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 158,
+    "decimal": 1
   },
   {
-    "countryId": "mh",
-    "date": 2021,
-    "value": 70,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 181,
-    "decimal": 0
+    "countryId": "mw",
+    "date": 2023,
+    "value": 1.34585135545632,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 159,
+    "decimal": 1
   },
   {
-    "countryId": "vc",
-    "date": 2021,
-    "value": 70,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 182,
-    "decimal": 0
+    "countryId": "rw",
+    "date": 2023,
+    "value": 1.20465450454876,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 160,
+    "decimal": 1
   },
   {
-    "countryId": "kn",
-    "date": 2021,
-    "value": 60,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 183,
-    "decimal": 0
+    "countryId": "fj",
+    "date": 2023,
+    "value": 1.1198891994001,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 161,
+    "decimal": 1
   },
   {
-    "countryId": "mv",
-    "date": 2021,
-    "value": 59,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 184,
-    "decimal": 0
+    "countryId": "ke",
+    "date": 2023,
+    "value": 1.0193052225922,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 162,
+    "decimal": 1
   },
   {
-    "countryId": "li",
-    "date": 2021,
-    "value": 51.7,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 185,
-    "decimal": 0
+    "countryId": "om",
+    "date": 2023,
+    "value": 1.00719241941826,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 163,
+    "decimal": 1
   },
   {
-    "countryId": "fm",
-    "date": 2021,
-    "value": 50,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 186,
-    "decimal": 0
+    "countryId": "ht",
+    "date": 2023,
+    "value": 1.0069417237349,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 164,
+    "decimal": 1
   },
   {
-    "countryId": "pw",
-    "date": 2021,
-    "value": 43,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 187,
-    "decimal": 0
+    "countryId": "la",
+    "date": 2023,
+    "value": 0.949840647641731,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 165,
+    "decimal": 1
   },
   {
-    "countryId": "sm",
-    "date": 2021,
-    "value": 23,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 188,
-    "decimal": 0
+    "countryId": "km",
+    "date": 2023,
+    "value": 0.887160241692629,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 166,
+    "decimal": 1
   },
   {
-    "countryId": "tv",
-    "date": 2021,
-    "value": 18,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 189,
-    "decimal": 0
+    "countryId": "gw",
+    "date": 2023,
+    "value": 0.809000452178069,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 167,
+    "decimal": 1
   },
   {
-    "countryId": "sc",
-    "date": 2021,
-    "value": 15.5,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 190,
-    "decimal": 0
+    "countryId": "bs",
+    "date": 2023,
+    "value": 0.80521472392638,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 168,
+    "decimal": 1
   },
   {
-    "countryId": "sg",
-    "date": 2021,
-    "value": 6.6,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 191,
-    "decimal": 0
+    "countryId": "no",
+    "date": 2023,
+    "value": 0.735941381055837,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 169,
+    "decimal": 1
   },
   {
-    "countryId": "nr",
-    "date": 2021,
-    "value": 4,
-    "indicatorId": "ag-lnd-agri-k2",
-    "rank": 192,
-    "decimal": 0
+    "countryId": "kw",
+    "date": 2023,
+    "value": 0.70385424017476,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 170,
+    "decimal": 1
+  },
+  {
+    "countryId": "by",
+    "date": 2023,
+    "value": 0.691180183787616,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 171,
+    "decimal": 1
+  },
+  {
+    "countryId": "bb",
+    "date": 2023,
+    "value": 0.618293154186855,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 172,
+    "decimal": 1
+  },
+  {
+    "countryId": "ss",
+    "date": 2023,
+    "value": 0.583419554063723,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 173,
+    "decimal": 1
+  },
+  {
+    "countryId": "bt",
+    "date": 2023,
+    "value": 0.540088920717333,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 174,
+    "decimal": 1
+  },
+  {
+    "countryId": "md",
+    "date": 2023,
+    "value": 0.505565766383186,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 175,
+    "decimal": 1
+  },
+  {
+    "countryId": "ml",
+    "date": 2023,
+    "value": 0.380500979293677,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 176,
+    "decimal": 1
+  },
+  {
+    "countryId": "qa",
+    "date": 2023,
+    "value": 0.246758639171597,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 177,
+    "decimal": 1
+  },
+  {
+    "countryId": "et",
+    "date": 2023,
+    "value": 0.154745652287815,
+    "indicatorId": "sl-emp-mpyr-ma-zs",
+    "rank": 178,
+    "decimal": 1
   }
 ]
