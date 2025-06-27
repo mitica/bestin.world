@@ -2,16 +2,12 @@
 import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import {
-  countryCodeToFlagEmoji,
-  getCountriesByContinent,
-  getCountryContinent,
-  uniq
-} from "../utils";
+import { countryCodeToFlagEmoji, uniq } from "../utils";
 import { classNames } from "../utils";
 import ArrowUpIcon from "../components/shared/ArrowUpIcon.astro";
 import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
 import { localesProvider } from "../locales";
+import { compareCountryIndicators } from "../helpers/country-vs-country-indicators";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -53,75 +49,11 @@ export async function getStaticPaths() {
 }
 
 const { country, vsCountry } = Astro.props;
-const [indicatorRanks, indicators] = await Promise.all([
-  getCollection("indicatorRanks"),
-  getCollection("indicators")
-]);
-const getIndicator = (id: string) => {
-  return indicators.find((indicator) => indicator.id === id)!.data;
-};
 
-const filterByUnit = (unit?: string) => {
-  return (
-    !unit ||
-    (!/\bUSD\b/.test(unit) && !/\$/i.test(unit) && !/\bLCU\b/.test(unit))
-  );
-};
-
-const filterIndicator = (indicator: {
-  name: string;
-  commonName?: string;
-  unit?: string;
-}) => {
-  const text = [indicator.commonName || indicator.name, indicator.unit]
-    .filter(Boolean)
-    .join(" ");
-  return (
-    /(\%|per\b|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
-    !/(LCU|Remittances|Estimate\b)/.test(text)
-  );
-};
-
-const year = new Date().getFullYear();
-
-const ranks = indicatorRanks
-  .map((rank) =>
-    rank.data
-      .filter(
-        (it) => it.countryId === country.id || it.countryId === vsCountry.id
-      )
-      .map((r) => ({
-        ...r,
-        indicatorId: rank.id,
-        indicator: getIndicator(rank.id)
-      }))
-  )
-  .flat()
-  .filter((r) => r.date > year - 8 && filterIndicator(r.indicator));
-
-const countryRanks = ranks.filter((r) => r.countryId === country.id);
-const vsCountryRanks = ranks.filter((r) => r.countryId === vsCountry.id);
-const countryRanksBetter = countryRanks.filter((r) => {
-  const vsRank = vsCountryRanks.find((v) => v.indicatorId === r.indicatorId);
-  return vsRank && r.rank < vsRank.rank && r.value !== vsRank.value;
+const { list1, list2 } = await compareCountryIndicators({
+  id1: country.id,
+  id2: vsCountry.id
 });
-const vsCountryRanksBetter = vsCountryRanks.filter((r) => {
-  const countryRank = countryRanks.find((c) => c.indicatorId === r.indicatorId);
-  return (
-    countryRank && r.rank < countryRank.rank && r.value !== countryRank.value
-  );
-});
-
-const rankList = countryRanksBetter
-  .map((cr) => {
-    const vsCr = vsCountryRanks.find((v) => v.indicatorId === cr.indicatorId)!;
-    return {
-      cr,
-      vsCr,
-      diff: vsCr.rank - cr.rank
-    };
-  })
-  .sort((a, b) => b.diff - a.diff);
 
 const locales = localesProvider.lang("en");
 const title = locales.country_vs_country_title(country.name, vsCountry.name);
@@ -141,20 +73,19 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
       <a class="a font-medium" href={`/${country.slug}/`}
         >{countryCodeToFlagEmoji(country.id)} {country.name}</a
       > is ranked better in <span class="font-medium"
-        >{countryRanksBetter.length} indicators</span
+        >{list1.length} indicators</span
       >, while {vsCountry.name} is ranked better in <a
         class="a font-medium"
-        href={`/${vsCountry.id}-vs-${country.id}/`}
-        >{vsCountryRanksBetter.length} indicators</a
+        href={`/${vsCountry.id}-vs-${country.id}/`}>{list2.length} indicators</a
       >.
     </p>
     <ul>
       {
-        rankList.map(({ cr, vsCr }) => {
-          const indicator = cr.indicator;
+        list1.map(({ value1, value2 }) => {
+          const indicator = value1.indicator;
           const unit = indicator.unit;
           const buildInfo = (
-            v: typeof cr,
+            v: typeof value1,
             icon: Element,
             flag: string,
             className?: string
@@ -187,13 +118,13 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
               </h5>
               <div class="flex items-center gap-2 pb-4">
                 {buildInfo(
-                  cr,
+                  value1,
                   <ArrowUpIcon className="h-4 w-4 text-green-500" />,
                   countryEmoji
                 )}
                 <span>|</span>
                 {buildInfo(
-                  vsCr,
+                  value2,
                   <ArrowDownIcon className="h-4 w-4 text-red-500" />,
                   vsCountryEmoji,
                   "flex-row-reverse"
