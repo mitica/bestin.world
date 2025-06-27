@@ -6,9 +6,21 @@
     "type": "min"
   },
   {
+    "indicatorId": "bx-gsr-ccis-zs",
+    "value": 0.0588545658356921,
+    "date": 2022,
+    "type": "min"
+  },
+  {
     "indicatorId": "dt-nfl-uncv-cd",
     "value": 1781999.94564056,
     "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-nfl-unpb-cd",
+    "value": 12249046.3256836,
+    "date": 2022,
     "type": "max"
   },
   {
@@ -27,6 +39,12 @@
     "indicatorId": "fp-cpi-totl",
     "value": 38796.5572974048,
     "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "gc-tax-gsrv-rv-zs",
+    "value": 59.7905113134605,
+    "date": 2016,
     "type": "max"
   },
   {
@@ -138,6 +156,24 @@
     "type": "min"
   },
   {
+    "indicatorId": "sl-uem-advn-fe-zs",
+    "value": 36.748,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sm-pop-fdip",
+    "value": 10014984,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sm-pop-idpc",
+    "value": 9053000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "sn-itk-vita-zs",
     "value": 1,
     "date": 2022,
@@ -153,6 +189,18 @@
     "indicatorId": "tm-tax-manf-wm-fn-zs",
     "value": 26.8,
     "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "tm-tax-mrch-wm-fn-zs",
+    "value": 25.17,
+    "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "vc-idp-nwcv",
+    "value": 6039000,
+    "date": 2023,
     "type": "max"
   }
 ]

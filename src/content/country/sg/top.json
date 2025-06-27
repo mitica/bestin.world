@@ -204,6 +204,18 @@
     "type": "max"
   },
   {
+    "indicatorId": "ne-dab-totl-zs",
+    "value": 62.5609701941318,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ne-rsb-gnfs-zs",
+    "value": 37.359956619654,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "nv-mnf-mtrn-zs-un",
     "value": 52.8352748240796,
     "date": 2021,
@@ -218,6 +230,12 @@
   {
     "indicatorId": "pv-no-src",
     "value": 9,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "pv-per-rnk-upper",
+    "value": 100,
     "date": 2023,
     "type": "max"
   },
@@ -288,6 +306,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "sh-h2o-smdw-ur-zs",
+    "value": 100,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "sh-sta-pois-p5",
     "value": 0.0001,
     "date": 2021,
@@ -342,6 +366,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "sp-urb-totl-in-zs",
+    "value": 100,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "tm-tax-mrch-sm-ar-zs",
     "value": 0.05,
     "date": 2022,
@@ -352,6 +382,18 @@
     "value": 0.07,
     "date": 2022,
     "type": "min"
+  },
+  {
+    "indicatorId": "tm-val-food-zs-un",
+    "value": 4.0272730280579,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "tm-val-ictg-zs-un",
+    "value": 31.12,
+    "date": 2022,
+    "type": "max"
   },
   {
     "indicatorId": "vc-ihr-psrc-fe-p5",

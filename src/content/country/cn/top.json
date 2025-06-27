@@ -1,9 +1,39 @@
 [
   {
+    "indicatorId": "ag-lnd-agri-k2",
+    "value": 5206950,
+    "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ag-lnd-el5m-ur-k2",
+    "value": 32989.8003106,
+    "date": 2015,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ag-lnd-totl-ur-k2",
+    "value": 522345.1853048,
+    "date": 2015,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ag-prd-crel-mt",
+    "value": 633293471.19,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "bn-gsr-fcty-cd",
     "value": -148241647819.55,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "bn-gsr-gnfs-cd",
+    "value": 386063151779.81,
+    "date": 2023,
+    "type": "max"
   },
   {
     "indicatorId": "bn-gsr-mrch-cd",
@@ -18,6 +48,24 @@
     "type": "min"
   },
   {
+    "indicatorId": "bx-gsr-gnfs-cd",
+    "value": 3511247752096.65,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "bx-gsr-mrch-cd",
+    "value": 3179192962108.03,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "cm-mkt-ldom-no",
+    "value": 11497,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "cm-mkt-trnr",
     "value": 283.0379189,
     "date": 2022,
@@ -26,6 +74,12 @@
   {
     "indicatorId": "dc-dac-canl-cd",
     "value": -10449999.8092651,
+    "date": 2022,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dc-dac-espl-cd",
+    "value": -27120000.8392334,
     "date": 2022,
     "type": "min"
   },
@@ -60,10 +114,70 @@
     "type": "min"
   },
   {
+    "indicatorId": "dt-dod-dect-cd",
+    "value": 2420210835503.5,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-dimf-cd",
+    "value": 48576699224.5,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-dlxf-cd",
+    "value": 1084231056086.7,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-dpng-cd",
+    "value": 616235068132.6,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-dppg-cd",
+    "value": 467995987954.1,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-dstc-cd",
+    "value": 1287403080192.3,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "dt-dod-dstc-zs",
     "value": 53.1938,
     "date": 2023,
     "type": "max"
+  },
+  {
+    "indicatorId": "dt-dod-pvlx-cd",
+    "value": 488114430988.5,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-nfl-bond-cd",
+    "value": -29282319000,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dt-nfl-dpng-cd",
+    "value": -44757998000,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dt-nfl-ifad-cd",
+    "value": -17701969.1467285,
+    "date": 2022,
+    "type": "min"
   },
   {
     "indicatorId": "dt-nfl-pbnd-cd",
@@ -72,8 +186,20 @@
     "type": "min"
   },
   {
+    "indicatorId": "dt-nfl-pcbk-cd",
+    "value": 12166577000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "dt-nfl-pcbo-cd",
     "value": -9927394000,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dt-nfl-pngb-cd",
+    "value": -23249604000,
     "date": 2023,
     "type": "min"
   },
@@ -114,6 +240,198 @@
     "type": "min"
   },
   {
+    "indicatorId": "dt-tds-dect-cd",
+    "value": 385484224724.3,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-tds-dppg-cd",
+    "value": 54170837199,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "eg-elc-rnwx-kh",
+    "value": 1105539040000,
+    "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-all-lu-mt-ce-ar5",
+    "value": 13819.168,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-all-mt-ce-ar5",
+    "value": 15943.9866,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-ag-mt-ce-ar5",
+    "value": 631.2643,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-bu-mt-ce-ar5",
+    "value": 43.5899,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-fe-mt-ce-ar5",
+    "value": 734.8163,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-ic-mt-ce-ar5",
+    "value": 4.391,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-ip-mt-ce-ar5",
+    "value": 7.9872,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-mt-ce-ar5",
+    "value": 1814.2071,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-pi-mt-ce-ar5",
+    "value": 3.9361,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-tr-mt-ce-ar5",
+    "value": 6.4053,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-ch4-wa-mt-ce-ar5",
+    "value": 381.8169,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-bu-mt-ce-ar5",
+    "value": 655.4274,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-fe-mt-ce-ar5",
+    "value": 706.7156,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-ic-mt-ce-ar5",
+    "value": 2874.023,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-ip-mt-ce-ar5",
+    "value": 1454.067,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-lu-fl-mt-ce-ar5",
+    "value": -965.792,
+    "date": 2022,
+    "type": "min"
+  },
+  {
+    "indicatorId": "en-ghg-co2-lu-mt-ce-ar5",
+    "value": -1340.474,
+    "date": 2022,
+    "type": "min"
+  },
+  {
+    "indicatorId": "en-ghg-co2-mt-ce-ar5",
+    "value": 13259.639,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-pi-mt-ce-ar5",
+    "value": 6472.9471,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-fgas-ip-mt-ce-ar5",
+    "value": 481.6056,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-ag-mt-ce-ar5",
+    "value": 238.6565,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-bu-mt-ce-ar5",
+    "value": 11.1467,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-fe-mt-ce-ar5",
+    "value": 0.7963,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-ic-mt-ce-ar5",
+    "value": 6.4257,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-ip-mt-ce-ar5",
+    "value": 40.6329,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-mt-ce-ar5",
+    "value": 414.5383,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-pi-mt-ce-ar5",
+    "value": 63.5074,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-tr-mt-ce-ar5",
+    "value": 26.0113,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-n2o-wa-mt-ce-ar5",
+    "value": 27.3616,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "en-urb-lcty-ur-zs",
     "value": 3.23735599983009,
     "date": 2024,
@@ -126,6 +444,30 @@
     "type": "max"
   },
   {
+    "indicatorId": "er-fsh-aqua-mt",
+    "value": 75388639,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "er-fsh-capt-mt",
+    "value": 13179077.02,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "er-fsh-prod-mt",
+    "value": 88567716.02,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "fd-ast-prvt-gd-zs",
+    "value": 194.674033936082,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "fi-res-totl-cd",
     "value": 3264803869739.12,
     "date": 2024,
@@ -135,6 +477,54 @@
     "indicatorId": "fi-res-xgld-cd",
     "value": 3264803869739.12,
     "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "fm-ast-prvt-gd-zs",
+    "value": 194.674033936082,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ie-ppi-engy-cd",
+    "value": 38416240000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ie-ppn-icti-cd",
+    "value": 1668990000,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ie-ppn-tran-cd",
+    "value": 28433590000,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ip-ids-rsct",
+    "value": 785857,
+    "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ip-jrn-artc-sc",
+    "value": 898949.09,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ip-pat-resd",
+    "value": 1426644,
+    "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ip-tmk-rsct",
+    "value": 9192753,
+    "date": 2021,
     "type": "max"
   },
   {
@@ -156,14 +546,98 @@
     "type": "max"
   },
   {
+    "indicatorId": "is-shp-good-tu",
+    "value": 268990000,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "it-cel-sets",
+    "value": 1810000000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "it-mlt-main",
+    "value": 173326000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "it-net-bbnd",
+    "value": 636000000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ne-exp-gnfs-cd",
+    "value": 3513236885527.07,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ne-gdi-ftot-cd",
+    "value": 7356189467275.4,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "ne-gdi-stkb-cd",
     "value": 131668667724.073,
     "date": 2023,
     "type": "max"
   },
   {
+    "indicatorId": "ne-gdi-totl-cd",
+    "value": 7487858134999.47,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ne-gdi-totl-kd",
+    "value": 7013919269566.73,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "ne-rsb-gnfs-cd",
     "value": 386035269476.361,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-agr-totl-cd",
+    "value": 1267012683927.92,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-agr-totl-kd",
+    "value": 1272151044574.5,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-ind-manf-cd",
+    "value": 4658788723542.83,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-ind-manf-kd",
+    "value": 3202510065357,
+    "date": 2015,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-ind-totl-cd",
+    "value": 6812375152229.01,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-ind-totl-kd",
+    "value": 6733047172563.83,
     "date": 2023,
     "type": "max"
   },
@@ -204,8 +678,62 @@
     "type": "max"
   },
   {
+    "indicatorId": "ny-gdp-mktp-pp-cd",
+    "value": 34660138175163.8,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ny-gdp-mktp-pp-kd",
+    "value": 31229733453000.4,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ny-gds-totl-cd",
+    "value": 7894150934328.33,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ny-gnp-mktp-pp-cd",
+    "value": 34368922355773.2,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ny-gnp-mktp-pp-kd",
+    "value": 30967963937867.9,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "ny-gns-ictr-cd",
     "value": 7759804247447.57,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-prm-tchr",
+    "value": 6719340,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-sec-enrl-vo",
+    "value": 15927388,
+    "date": 2018,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-sec-tchr",
+    "value": 7251617,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-sec-tchr-fe",
+    "value": 4290848,
     "date": 2023,
     "type": "max"
   },
@@ -228,6 +756,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "sl-tlf-totl-in",
+    "value": 773128536,
+    "date": 2024,
+    "type": "max"
+  },
+  {
     "indicatorId": "sm-pop-totl-zs",
     "value": 0.071076396299372,
     "date": 2015,
@@ -240,9 +774,69 @@
     "type": "min"
   },
   {
+    "indicatorId": "sp-pop-1564-fe-in",
+    "value": 471798189,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sp-pop-65up-fe-in",
+    "value": 110720269,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sp-pop-65up-ma-in",
+    "value": 91238067,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sp-pop-65up-to",
+    "value": 201958336,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sp-urb-totl",
+    "value": 910895447,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "st-int-tvlx-cd",
+    "value": 130504000000,
+    "date": 2020,
+    "type": "max"
+  },
+  {
+    "indicatorId": "tx-val-mrch-cd-wt",
+    "value": 3379255000000,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "tx-val-mrch-wl-cd",
+    "value": 3421795720251,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "tx-val-tech-cd",
+    "value": 825045389470,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "vc-btl-deth",
     "value": 1,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "vc-idp-nwds",
+    "value": 4702000,
+    "date": 2023,
+    "type": "max"
   }
 ]

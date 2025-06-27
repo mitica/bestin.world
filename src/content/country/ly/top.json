@@ -6,6 +6,12 @@
     "type": "max"
   },
   {
+    "indicatorId": "dt-nfl-sprp-cd",
+    "value": 1330835.93845367,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "eg-use-comm-cl-zs",
     "value": 0.01,
     "date": 2020,
@@ -114,9 +120,21 @@
     "type": "min"
   },
   {
+    "indicatorId": "tm-val-mrch-wr-zs",
+    "value": 0.0362733506887309,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "tx-val-insf-zs-wt",
     "value": 67.6004872107186,
     "date": 2021,
     "type": "max"
+  },
+  {
+    "indicatorId": "tx-val-mrch-wr-zs",
+    "value": 0.0417176920178906,
+    "date": 2023,
+    "type": "min"
   }
 ]

@@ -1,5 +1,23 @@
 [
   {
+    "indicatorId": "ag-lnd-agri-k2",
+    "value": 4,
+    "date": 2021,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ag-prd-crel-mt",
+    "value": 1,
+    "date": 2018,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ag-srf-totl-k2",
+    "value": 20,
+    "date": 2022,
+    "type": "min"
+  },
+  {
     "indicatorId": "bx-trf-pwkr-cd-dt",
     "value": 880605.811639709,
     "date": 2023,
@@ -196,6 +214,12 @@
     "value": 0.0943881928951433,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "sp-urb-totl-in-zs",
+    "value": 100,
+    "date": 2023,
+    "type": "max"
   },
   {
     "indicatorId": "tm-val-mrch-wl-cd",

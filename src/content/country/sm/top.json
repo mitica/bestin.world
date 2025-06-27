@@ -1,9 +1,39 @@
 [
   {
+    "indicatorId": "cc-no-src",
+    "value": 1,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "cc-std-err",
+    "value": 0.46119099855423,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "fb-cbk-brch-p5",
     "value": 122.013218098627,
     "date": 2023,
     "type": "max"
+  },
+  {
+    "indicatorId": "ge-no-src",
+    "value": 1,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ge-std-err",
+    "value": 0.512995004653931,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "iq-spi-pil3",
+    "value": 38.14375,
+    "date": 2023,
+    "type": "min"
   },
   {
     "indicatorId": "ne-con-prvt-kd-zg",
@@ -48,6 +78,30 @@
     "type": "min"
   },
   {
+    "indicatorId": "rl-no-src",
+    "value": 1,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "rl-std-err",
+    "value": 0.456088840961456,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "rq-no-src",
+    "value": 1,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "rq-std-err",
+    "value": 0.48214453458786,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "se-prm-enrl-tc-zs",
     "value": 6.93061,
     "date": 2018,
@@ -68,6 +122,12 @@
   {
     "indicatorId": "se-sec-tcaq-lo-fe-zs",
     "value": 0.800000011920929,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "se-sec-tcaq-ma-zs",
+    "value": 8.69565010070801,
     "date": 2023,
     "type": "min"
   },
@@ -164,6 +224,12 @@
   {
     "indicatorId": "sp-pop-5054-ma-5y",
     "value": 8.90918958031838,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sp-pop-5559-fe-5y",
+    "value": 9.12616263813162,
     "date": 2023,
     "type": "max"
   },

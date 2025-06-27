@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "dt-nfl-iaea-cd",
+    "value": 1695508.48007202,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "dt-nfl-imfn-cd",
     "value": -5073959569.2,
     "date": 2023,
@@ -9,6 +15,18 @@
     "indicatorId": "dt-nfl-nifc-cd",
     "value": -139947843.74,
     "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dt-tds-dimf-cd",
+    "value": 21015156199,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "en-ghg-co2-lu-os-mt-ce-ar5",
+    "value": -2.96373,
+    "date": 2022,
     "type": "min"
   },
   {

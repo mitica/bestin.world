@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "cm-mkt-lcap-gd-zs",
+    "value": 409.025769903351,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "dc-dac-luxl-cd",
     "value": 9999.99977648258,
     "date": 2022,
@@ -330,6 +336,12 @@
     "type": "max"
   },
   {
+    "indicatorId": "se-pre-durs",
+    "value": 1,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "se-prm-nint-fe-zs",
     "value": 99.98248,
     "date": 2017,
@@ -346,5 +358,11 @@
     "value": 8.781,
     "date": 2022,
     "type": "min"
+  },
+  {
+    "indicatorId": "sm-pop-rhcr-ea",
+    "value": 3764517,
+    "date": 2023,
+    "type": "max"
   }
 ]

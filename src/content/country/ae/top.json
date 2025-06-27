@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "it-cel-sets-p2",
+    "value": 212.2208173,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "it-net-user-fe-zs",
     "value": 100,
     "date": 2023,
@@ -18,8 +24,20 @@
     "type": "max"
   },
   {
+    "indicatorId": "se-prm-priv-zs",
+    "value": 82.5502471923828,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "se-sec-uner-lo-zs",
     "value": 0.00341999996453524,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sh-tbs-incd",
+    "value": 0.8,
     "date": 2023,
     "type": "min"
   },
@@ -34,6 +52,12 @@
     "value": 18.473,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "sp-pop-1564-fe-zs",
+    "value": 75.5113793324939,
+    "date": 2023,
+    "type": "max"
   },
   {
     "indicatorId": "sp-pop-2529-fe-5y",

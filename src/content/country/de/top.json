@@ -1,7 +1,25 @@
 [
   {
+    "indicatorId": "bn-cab-xoka-cd",
+    "value": 262634424373.066,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "bn-fin-totl-cd",
+    "value": 269787639303.108,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "bn-trf-kogt-cd",
     "value": -28714630237.4204,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "eg-elc-nucl-zs",
+    "value": 1.38768430182134,
     "date": 2023,
     "type": "min"
   },
@@ -34,5 +52,23 @@
     "value": 0.4,
     "date": 2016,
     "type": "min"
+  },
+  {
+    "indicatorId": "st-int-dprt",
+    "value": 99533000,
+    "date": 2019,
+    "type": "max"
+  },
+  {
+    "indicatorId": "st-int-trnr-cd",
+    "value": 16593000000,
+    "date": 2019,
+    "type": "max"
+  },
+  {
+    "indicatorId": "st-int-xpnd-cd",
+    "value": 101231000000,
+    "date": 2019,
+    "type": "max"
   }
 ]

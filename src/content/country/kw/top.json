@@ -48,6 +48,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "sh-h2o-smdw-ur-zs",
+    "value": 100,
+    "date": 2022,
+    "type": "max"
+  },
+  {
     "indicatorId": "sh-sta-smss-zs",
     "value": 100,
     "date": 2022,
@@ -66,6 +72,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "sp-pop-4044-fe-5y",
+    "value": 10.1971871901617,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "sp-pop-4044-ma-5y",
     "value": 13.0447748484172,
     "date": 2023,
@@ -76,5 +88,17 @@
     "value": 9.7882317717899,
     "date": 2023,
     "type": "max"
+  },
+  {
+    "indicatorId": "sp-urb-totl-in-zs",
+    "value": 100,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "tm-val-fuel-zs-un",
+    "value": 0.638353486392054,
+    "date": 2023,
+    "type": "min"
   }
 ]
