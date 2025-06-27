@@ -54,8 +54,8 @@ I need you to enrich them with additional information to help understand the rol
 The output should be a list of enriched indicators with the following properties:
 - emoji: A short emoji to represent the indicator. optional, but recommended.
 - commonName: The common name of the indicator - simple to understand for a general audience.
-- sort: [1, 0, -1]: where 1 = greater value is better; 0 = neutral, and -1 = lower value is better. Use 0 any time the indicator's value is not a strong evidence of good or bad performance.
-- unit: The unit of measurement for the indicator, e.g. "USD", "%", "m", etc. - optional
+- sort: [1, 0, -1]: where 1 = greater value is better in any case; -1 = lower value is better in any case; 0 = it depends/neutral, depends on range or other indicators.
+- unit: The unit of measurement for the indicator, e.g. "USD", "%", "m", etc. - optional. short unit is preferred.
 - valueInfo: A short description of the indicator's value, e.g. "The higher export of goods and services, the better the economy performs."
 - priority: 0, 1, 2, or 3 - 0 = Essential; 1 = Important; 2 = Nice to have; 3 = Not important.
 - isComparable: true or false - whether the indicator is comparable across countries. Can I use this indicator to compare countries against each other? If yes, set to true, otherwise false.
