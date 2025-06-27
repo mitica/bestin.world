@@ -1,13 +1,21 @@
 import { writeFile } from "fs/promises";
-import { getIndicators, getLastWBIndicatorData } from "../common/helpers";
+import {
+  getCountries,
+  getIndicators,
+  getLastWBIndicatorData
+} from "../common/helpers";
 import type { IndicatorCountryValue } from "../../src/content/common/types";
 import { createFolderIfNotExists } from "../../src/utils";
 
 async function genTopPerCountryAndIndicator() {
   const indicators = await getIndicators();
   const countryTops = new Map<string, IndicatorCountryValue[]>();
+  const countries = await getCountries();
+  const countryIds = countries.map((country) => country.id);
   for (const indicator of indicators) {
-    const data = await getLastWBIndicatorData(indicator);
+    const data = await getLastWBIndicatorData(indicator).then((values) =>
+      values.filter((item) => countryIds.includes(item.countryId))
+    );
     if (data.length === 0) continue;
     const maxValue = Math.max(...data.map((item) => item.value));
     const minValue = Math.min(...data.map((item) => item.value));
@@ -22,6 +30,7 @@ async function genTopPerCountryAndIndicator() {
       ...new Set(maxValues.concat(minValues).map((item) => item.countryId))
     ];
     for (const countryId of countryCodes) {
+      if (!countryIds.includes(countryId)) continue; // Ensure the countryId is valid
       if (!countryTops.has(countryId)) {
         countryTops.set(countryId, []);
       }
