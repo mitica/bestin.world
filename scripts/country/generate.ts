@@ -1,5 +1,7 @@
+import * as countryTop from "./country-top";
+
 async function start() {
-  await import("./country-best");
+  await countryTop.generate();
 }
 
 start()

@@ -6,6 +6,7 @@ import {
 } from "../common/helpers";
 import type { IndicatorCountryValue } from "../../src/content/common/types";
 import { createFolderIfNotExists } from "../../src/utils";
+import { fileURLToPath } from "url";
 
 async function genTopPerCountryAndIndicator() {
   const indicators = await getIndicators();
@@ -62,6 +63,14 @@ async function genTopPerCountryAndIndicator() {
   }
 }
 
-genTopPerCountryAndIndicator()
-  .then(() => console.log("Done generating top indicators per country."))
-  .catch((error) => console.error("Error generating top indicators:", error));
+export async function generate() {
+  await genTopPerCountryAndIndicator()
+    .then(() => console.log("Done generating top indicators per country."))
+    .catch((error) => console.error("Error generating top indicators:", error));
+}
+
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  generate();
+}
