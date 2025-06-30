@@ -43,7 +43,7 @@ Input Indicators:
 ${input.indicators
   .map(
     (indicator) =>
-      `- ${indicator.name} (id=${indicator.id}; year=${indicator.year}; value=${indicator.value}; type=${indicator.type}, World Bank ID=${indicator.wbid})`
+      `- ${indicator.name} (id=${indicator.id}; year=${indicator.year}; value=${indicator.value}; type=${indicator.type}, World Bank ID=${indicator.wbid}, HDR ID=${indicator.hdrid})`
   )
   .join("\n")}
 

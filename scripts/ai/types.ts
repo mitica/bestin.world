@@ -6,6 +6,7 @@ export interface AICountryTopsInput {
     value: number;
     year: number;
     type: string;
-    wbid: string;
+    wbid?: string;
+    hdrid?: string;
   }[];
 }

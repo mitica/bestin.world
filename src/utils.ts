@@ -1,3 +1,4 @@
+import "dotenv/config";
 import removeAccents from "remove-accents";
 import { twMerge, type ClassNameValue } from "tailwind-merge";
 import { countries, continents } from "countries-list";
@@ -103,3 +104,6 @@ export const isNumber = (value: unknown): value is number => {
 export const uniq = <T>(array: T[]): T[] => {
   return Array.from(new Set(array));
 };
+
+export const delay = (ms: number): Promise<void> =>
+  new Promise((resolve) => setTimeout(resolve, ms));

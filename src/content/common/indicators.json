@@ -24540,5 +24540,118 @@
     "priority": 0,
     "isComparable": true,
     "emoji": "🔪"
+  },
+  {
+    "name": "Gender Inequality Index",
+    "id": "gii",
+    "code": "gii",
+    "idHDR": "gii",
+    "topicIds": [
+      "health",
+      "gender",
+      "public-sector"
+    ],
+    "commonName": "Gender Inequality Index",
+    "sort": -1,
+    "unit": "",
+    "valueInfo": "Measures gender disparities in reproductive health, empowerment, and labor market participation. Lower values indicate less inequality.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "♀️"
+  },
+  {
+    "name": "Gender Development Index",
+    "id": "gdi",
+    "code": "gdi",
+    "idHDR": "gdi",
+    "topicIds": [
+      "education",
+      "health",
+      "gender",
+      "economy"
+    ],
+    "commonName": "Gender Development Index",
+    "sort": 1,
+    "unit": "",
+    "valueInfo": "Compares female and male Human Development Index (HDI) values. Higher values indicate more gender equality.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "⚖️"
+  },
+  {
+    "name": "Human Development Index",
+    "id": "hdi",
+    "code": "hdi",
+    "idHDR": "hdi",
+    "topicIds": [
+      "education",
+      "health",
+      "economy"
+    ],
+    "commonName": "Human Development Index",
+    "sort": 1,
+    "unit": "",
+    "valueInfo": "Assesses long-term progress in health, education, and income. Higher values indicate better human development.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "🌍"
+  },
+  {
+    "name": "Inequality-adjusted Human Development Index",
+    "id": "ihdi",
+    "code": "ihdi",
+    "idHDR": "ihdi",
+    "topicIds": [
+      "education",
+      "health",
+      "economy",
+      "social-development"
+    ],
+    "commonName": "Inequality-adjusted Human Development Index",
+    "sort": 1,
+    "unit": "",
+    "valueInfo": "Adjusts the HDI for inequality in distribution of each dimension. Higher values indicate better human development with less inequality.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "📊"
+  },
+  {
+    "name": "Multidimensional Poverty Index",
+    "id": "mpi",
+    "code": "mpi",
+    "idHDR": "mpi",
+    "topicIds": [
+      "education",
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Multidimensional Poverty Index",
+    "sort": -1,
+    "unit": "",
+    "valueInfo": "Measures acute poverty by considering health, education, and living standards. Lower values indicate less poverty.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "📉"
+  },
+  {
+    "name": "Planetary pressures–adjusted Human Development Index",
+    "id": "phdi",
+    "code": "phdi",
+    "idHDR": "phdi",
+    "topicIds": [
+      "education",
+      "health",
+      "economy",
+      "environment",
+      "climate-change"
+    ],
+    "commonName": "Planetary Pressures–adjusted Human Development Index",
+    "sort": 1,
+    "unit": "",
+    "valueInfo": "Adjusts HDI by considering environmental sustainability. Higher values indicate better human development with lower environmental impact.",
+    "priority": 2,
+    "isComparable": true,
+    "emoji": "🌿"
   }
 ]

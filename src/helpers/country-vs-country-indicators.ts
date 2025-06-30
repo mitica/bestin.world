@@ -1,15 +1,18 @@
 import { getCollection } from "astro:content";
+import { MAIN_INDICATOR_IDS } from "../config";
 
 const filterIndicator = (indicator: {
+  id: string;
   name: string;
   commonName?: string;
   unit?: string;
 }) => {
-  const text = [indicator.name, indicator.unit].filter(Boolean).join(" ");
-  return (
-    /(\%|per\b|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
-    !/(LCU|Remittances|Estimate\b)/.test(text)
-  );
+  return MAIN_INDICATOR_IDS.includes(indicator.id);
+  // const text = [indicator.name, indicator.unit].filter(Boolean).join(" ");
+  // return (
+  //   /(\%|per\b|Per\b|Index|scale|days|years|rank|Rank|Bound)/.test(text) &&
+  //   !/(LCU|Remittances|Estimate\b)/.test(text)
+  // );
 };
 
 type Props = {

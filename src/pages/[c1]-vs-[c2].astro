@@ -2,7 +2,7 @@
 import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import { countryCodeToFlagEmoji, uniq } from "../utils";
+import { countryCodeToFlagEmoji, getCountriesByContinent, getCountryContinent, uniq } from "../utils";
 import { classNames } from "../utils";
 import ArrowUpIcon from "../components/shared/ArrowUpIcon.astro";
 import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
@@ -21,9 +21,9 @@ export async function getStaticPaths() {
       TOP_COUNTRIES.includes(countryId)
         ? list.map((c) => c.id)
         : TOP_COUNTRIES.concat(country.borderIds)
-      // .concat(
-      //     getCountriesByContinent(getCountryContinent(countryId)!)
-      //   )
+      .concat(
+          getCountriesByContinent(getCountryContinent(countryId)!)
+        )
     ).filter((c) => c !== countryId);
   };
   return countries

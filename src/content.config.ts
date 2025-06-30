@@ -93,7 +93,7 @@ const indicatorRanks = defineCollection({
       date: z.number().int(),
       rank: z.number().int(),
       countryId: z.string(),
-      decimal: z.number().int()
+      decimal: z.number().int().optional(),
     })
   )
 });

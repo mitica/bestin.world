@@ -2,7 +2,7 @@ import { writeFile } from "fs/promises";
 import {
   getCountries,
   getIndicators,
-  getLastWBIndicatorData
+  getLastIndicatorData
 } from "../common/helpers";
 import type { IndicatorCountryRankValue } from "../../src/content/common/types";
 import { createFolderIfNotExists, isNumber } from "../../src/utils";
@@ -13,7 +13,7 @@ async function generate() {
   const countryIds = countries.map((country) => country.id);
   for (const indicator of indicators) {
     if (![1, -1].includes(indicator.sort as never)) continue;
-    let values = await getLastWBIndicatorData(indicator);
+    let values = await getLastIndicatorData(indicator);
     values = values.filter(
       (item) => countryIds.includes(item.countryId) && isNumber(item.value)
     );

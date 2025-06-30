@@ -42,6 +42,7 @@ export interface LanguageInfo extends BaseEntityInfo {
 
 export interface IndicatorInfo extends BaseEntityInfo {
   idWorldBank?: string;
+  idHDR?: string;
   sort?: number;
   unit?: string;
   topicIds: string[];

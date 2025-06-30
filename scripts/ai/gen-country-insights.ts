@@ -42,7 +42,8 @@ const getInsights = async (
         name: indicator.name,
         value: value.value,
         year: value.date,
-        wbid: indicator.idWorldBank!
+        wbid: indicator.idWorldBank,
+        hdrid: indicator.idHDR,
       };
     })
   });

@@ -2,7 +2,7 @@ import { writeFile } from "fs/promises";
 import {
   getCountries,
   getIndicators,
-  getLastWBIndicatorData
+  getLastIndicatorData
 } from "../common/helpers";
 import type { IndicatorCountryValue } from "../../src/content/common/types";
 import { createFolderIfNotExists } from "../../src/utils";
@@ -14,7 +14,7 @@ async function genTopPerCountryAndIndicator() {
   const countries = await getCountries();
   const countryIds = countries.map((country) => country.id);
   for (const indicator of indicators) {
-    const data = await getLastWBIndicatorData(indicator).then((values) =>
+    const data = await getLastIndicatorData(indicator).then((values) =>
       values.filter((item) => countryIds.includes(item.countryId))
     );
     if (data.length === 0) continue;

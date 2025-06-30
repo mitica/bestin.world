@@ -20,8 +20,8 @@ export const getCountries = async () => {
 
 let indicators: IndicatorInfo[];
 
-export const getIndicators = async () => {
-  if (indicators) return indicators;
+export const getIndicators = async (fresh = false) => {
+  if (indicators && !fresh) return indicators;
   indicators = await readFile(
     "src/content/common/indicators.json",
     "utf-8"
@@ -76,6 +76,61 @@ export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
   return wbIndicators[indicator.id];
 };
 
+const hdrIndicators: Record<string, IndicatorCountryValue[]> = {};
+
+export const getHDRIndicatorData = async (indicator: IndicatorInfo) => {
+  if (hdrIndicators[indicator.id]) return hdrIndicators[indicator.id];
+  const countries = await getCountries();
+  const data: {
+    country: string;
+    countryIsoCode: string;
+    indexCode: string;
+    index: string;
+    indicatorCode: string;
+    indicator: string;
+    value: string;
+    note: string;
+    year: string;
+  }[] = await readFile(`data/hdr-data.json`, "utf-8").then((data) =>
+    JSON.parse(data)
+  );
+  hdrIndicators[indicator.id] = data
+    .filter(
+      (item) =>
+        !!item.year &&
+        !!item.value &&
+        item.value !== "null" &&
+        item.indicatorCode === indicator.idHDR
+    )
+    .map<IndicatorCountryValue>((item) => ({
+      countryId:
+        countries
+          .find(
+            (country) =>
+              country.cca3?.toLowerCase() === item.countryIsoCode.toLowerCase()
+          )
+          ?.id.toLowerCase() || "",
+      date: parseInt(item.year, 10),
+      value: parseFloat(item.value || ""),
+      indicatorId: indicator.id,
+      decimal: 0,
+      type: "average" // Default type, can be changed later
+    }))
+    .filter((it) => it.countryId);
+
+  return hdrIndicators[indicator.id];
+};
+
+export const getIndicatorData = async (indicator: IndicatorInfo) => {
+  if (indicator.idWorldBank) {
+    return getWBIndicatorData(indicator);
+  } else if (indicator.idHDR) {
+    return getHDRIndicatorData(indicator);
+  } else {
+    throw new Error("Unknown indicator type");
+  }
+};
+
 /**
  * Get the last data point for a given indicator
  * for the latest year available grouped by country.
@@ -90,4 +145,26 @@ export const getLastWBIndicatorData = async (indicator: IndicatorInfo) => {
     return acc;
   }, {} as Record<string, (typeof data)[0]>);
   return Object.values(latestByCountry);
+};
+
+export const getLastHDRIndicatorData = async (indicator: IndicatorInfo) => {
+  const data = await getHDRIndicatorData(indicator);
+  const year = new Date().getFullYear();
+  const latestByCountry = data.reduce((acc, item) => {
+    if (!acc[item.countryId] && item.date >= year - 10) {
+      acc[item.countryId] = item;
+    }
+    return acc;
+  }, {} as Record<string, (typeof data)[0]>);
+  return Object.values(latestByCountry);
+};
+
+export const getLastIndicatorData = async (indicator: IndicatorInfo) => {
+  if (indicator.idWorldBank) {
+    return getLastWBIndicatorData(indicator);
+  } else if (indicator.idHDR) {
+    return getLastHDRIndicatorData(indicator);
+  } else {
+    throw new Error("Unknown indicator type");
+  }
 };

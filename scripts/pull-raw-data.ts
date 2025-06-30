@@ -1,4 +1,5 @@
 import { readFile, writeFile } from "fs/promises";
+import { delay } from "../src/utils";
 
 async function pullCountries() {
   const response = await fetch(
@@ -70,11 +71,94 @@ async function pullWorldBankValues() {
   }
 }
 
+type HDRData = {
+  country: string;
+  countryIsoCode: string;
+  indexCode: string;
+  index: string;
+  indicatorCode: string;
+  indicator: string;
+  value: string;
+  note: string;
+  year: string;
+};
+
+async function hdrData() {
+  for (let year = new Date().getFullYear(); year >= 2023; year--) {
+    const response = await fetch(
+      `https://hdrdata.org/api/CompositeIndices/query-detailed?apikey=${process.env.HDR_API_KEY}&year=${year}`
+    );
+    if (!response.ok) {
+      if (response.statusText === "Not Found") {
+        console.warn(`No HDR data found for year ${year}`);
+        await delay(1000);
+        continue;
+      }
+      throw new Error(
+        `Failed to fetch HDR indicators data: ${response.statusText}`
+      );
+    }
+    const data: HDRData[] = await response.json();
+    if (data.length === 0) {
+      console.warn(`No HDR data found for year ${year}`);
+      await delay(1000);
+      continue;
+    }
+    const validIndicatorCodes = [
+      "gii",
+      "gdi",
+      "hdi",
+      "ihdi",
+      "mpi_rank",
+      "phdi"
+    ];
+    const list = data.filter((item) =>
+      validIndicatorCodes.includes(item.indicatorCode)
+    );
+    const indicators = validIndicatorCodes.map((code) => {
+      const item = list.find((i) => i.indicatorCode === code);
+      const it = { ...item } as any;
+      delete it.note;
+      delete it.countryIsoCode;
+      delete it.value;
+      delete it.country;
+      delete it.year;
+      it.name = it.index;
+      return it;
+    });
+    await writeFile(
+      "data/hdr-indicators.json",
+      JSON.stringify(
+        indicators.map((item) => ({
+          ...item,
+          indicatorCode: item.indicatorCode.replace(/_rank/g, "")
+        })),
+        null,
+        2
+      ),
+      "utf-8"
+    );
+    await writeFile(
+      "data/hdr-data.json",
+      JSON.stringify(
+        list.map((item) => ({
+          ...item,
+          indicatorCode: item.indicatorCode.replace(/_rank/g, "")
+        })),
+        null,
+        2
+      ),
+      "utf-8"
+    );
+  }
+}
+
 async function pull() {
   await pullCountries();
   await pullLanguages();
   await wbIndicators();
   await pullWorldBankValues();
+  await hdrData();
 }
 
 pull()
