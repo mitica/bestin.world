@@ -83,8 +83,23 @@ type HDRData = {
   year: string;
 };
 
+const hdrIndicatorsMap = {
+  mpi_rank: "mpi",
+  assets: "mpi-assets",
+  child_mortality: "mpi-child-mortality",
+  drinking_water: "mpi-drinking-water",
+  electricity: "mpi-electricity",
+  housing: "mpi-housing",
+  nutrition: "mpi-nutrition",
+  sanitation: "mpi-sanitation",
+  school_attendance: "mpi-school-attendance",
+  years_of_schooling: "mpi-years-of-schooling",
+  cooking_fuel: "mpi-cooking-fuel"
+} as any;
+
 async function hdrData() {
-  for (let year = new Date().getFullYear(); year >= 2023; year--) {
+  const result: HDRData[] = [];
+  for (let year = new Date().getFullYear(); year >= 2012; year--) {
     const response = await fetch(
       `https://hdrdata.org/api/CompositeIndices/query-detailed?apikey=${process.env.HDR_API_KEY}&year=${year}`
     );
@@ -104,60 +119,68 @@ async function hdrData() {
       await delay(1000);
       continue;
     }
+    await delay(3000);
     const validIndicatorCodes = [
       "gii",
       "gdi",
       "hdi",
       "ihdi",
-      "mpi_rank",
-      "phdi"
+      "phdi",
+      ...Object.keys(hdrIndicatorsMap)
     ];
-    const list = data.filter((item) =>
-      validIndicatorCodes.includes(item.indicatorCode)
+    const list = data.filter(
+      (item) =>
+        validIndicatorCodes.includes(item.indicatorCode) && item.value !== "0"
     );
-    const indicators = validIndicatorCodes.map((code) => {
-      const item = list.find((i) => i.indicatorCode === code);
-      const it = { ...item } as any;
-      delete it.note;
-      delete it.countryIsoCode;
-      delete it.value;
-      delete it.country;
-      delete it.year;
-      it.name = it.index;
-      return it;
-    });
-    await writeFile(
-      "data/hdr-indicators.json",
-      JSON.stringify(
-        indicators.map((item) => ({
-          ...item,
-          indicatorCode: item.indicatorCode.replace(/_rank/g, "")
-        })),
-        null,
-        2
-      ),
-      "utf-8"
-    );
-    await writeFile(
-      "data/hdr-data.json",
-      JSON.stringify(
-        list.map((item) => ({
-          ...item,
-          indicatorCode: item.indicatorCode.replace(/_rank/g, "")
-        })),
-        null,
-        2
-      ),
-      "utf-8"
+    if (result.length === 0) {
+      const indicators = validIndicatorCodes.map((code) => {
+        const item = list.find((i) => i.indicatorCode === code);
+        const it = { ...item } as any;
+        delete it.note;
+        delete it.countryIsoCode;
+        delete it.value;
+        delete it.country;
+        delete it.year;
+        it.name = it.index;
+        if (hdrIndicatorsMap[code]?.startsWith("mpi-")) {
+          it.name = [it.name, it.indicator].join(", ");
+        }
+        return it;
+      });
+      await writeFile(
+        "data/hdr-indicators.json",
+        JSON.stringify(
+          indicators.map((item) => ({
+            ...item,
+            indicatorCode:
+              hdrIndicatorsMap[item.indicatorCode] || item.indicatorCode
+          })),
+          null,
+          2
+        ),
+        "utf-8"
+      );
+    }
+    result.push(
+      ...list.map((item) => ({
+        ...item,
+        indicatorCode:
+          hdrIndicatorsMap[item.indicatorCode] || item.indicatorCode
+      }))
     );
   }
+  await writeFile(
+    "data/hdr-data.json",
+    JSON.stringify(result, null, 2),
+    "utf-8"
+  );
 }
 
 async function pull() {
-  await pullCountries();
-  await pullLanguages();
-  await wbIndicators();
-  await pullWorldBankValues();
+  // await pullCountries();
+  // await pullLanguages();
+  // await wbIndicators();
+  // await pullWorldBankValues();
   await hdrData();
 }
 

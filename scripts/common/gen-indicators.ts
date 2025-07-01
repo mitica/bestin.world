@@ -43,7 +43,17 @@ const hdrIndicatorToCategories: Record<string, string[]> = {
   GDI: ["education", "health", "gender", "economy"],
   GII: ["health", "gender", "public-sector"],
   PHDI: ["education", "health", "economy", "environment", "climate-change"],
-  MPI: ["education", "health", "poverty", "social-protection"]
+  MPI: ["education", "health", "poverty", "social-protection"],
+  "MPI-ASSETS": ["health", "poverty", "social-protection"],
+  "MPI-CHILD-MORTALITY": ["health", "poverty", "social-protection"],
+  "MPI-DRINKING-WATER": ["health", "poverty", "social-protection"],
+  "MPI-ELECTRICITY": ["health", "poverty", "social-protection"],
+  "MPI-HOUSING": ["health", "poverty", "social-protection"],
+  "MPI-SANITATION": ["health", "poverty", "social-protection"],
+  "MPI-NUTRITION": ["health", "poverty", "social-protection"],
+  "MPI-SCHOOL-ATTENDANCE": ["education", "poverty", "social-protection"],
+  "MPI-YEARS-OF-SCHOOLING": ["education", "poverty", "social-protection"],
+  "MPI-COOKING-FUEL": ["health", "poverty", "social-protection"]
   // SPI: ["health", "education", "social-development", "environment", "gender"],
   // GCI: ["economy", "infrastructure", "education", "private-sector", "science"],
   // LPI: ["infrastructure", "trade", "economy", "private-sector"],

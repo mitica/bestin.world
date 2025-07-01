@@ -32,6 +32,14 @@
     "name": "Inequality-adjusted Human Development Index"
   },
   {
+    "indexCode": "PHDI",
+    "index": "Planetary pressures–adjusted Human Development Index",
+    "dimension": "",
+    "indicatorCode": "phdi",
+    "indicator": "Planetary pressures–adjusted Human Development Index (value)",
+    "name": "Planetary pressures–adjusted Human Development Index"
+  },
+  {
     "indexCode": "MPI",
     "index": "Multidimensional Poverty Index",
     "dimension": "",
@@ -40,11 +48,83 @@
     "name": "Multidimensional Poverty Index"
   },
   {
-    "indexCode": "PHDI",
-    "index": "Planetary pressures–adjusted Human Development Index",
-    "dimension": "",
-    "indicatorCode": "phdi",
-    "indicator": "Planetary pressures–adjusted Human Development Index (value)",
-    "name": "Planetary pressures–adjusted Human Development Index"
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-assets",
+    "indicator": "Assets (%)",
+    "name": "Multidimensional Poverty Index, Assets (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Health",
+    "indicatorCode": "mpi-child-mortality",
+    "indicator": "Child mortality (%)",
+    "name": "Multidimensional Poverty Index, Child mortality (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-drinking-water",
+    "indicator": "Drinking water (%)",
+    "name": "Multidimensional Poverty Index, Drinking water (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-electricity",
+    "indicator": "Electricity (%)",
+    "name": "Multidimensional Poverty Index, Electricity (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-housing",
+    "indicator": "Housing (%)",
+    "name": "Multidimensional Poverty Index, Housing (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Health",
+    "indicatorCode": "mpi-nutrition",
+    "indicator": "Nutrition (%)",
+    "name": "Multidimensional Poverty Index, Nutrition (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-sanitation",
+    "indicator": "Sanitation (%)",
+    "name": "Multidimensional Poverty Index, Sanitation (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Education",
+    "indicatorCode": "mpi-school-attendance",
+    "indicator": "School attendance (%)",
+    "name": "Multidimensional Poverty Index, School attendance (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Education",
+    "indicatorCode": "mpi-years-of-schooling",
+    "indicator": "Years of schooling (%)",
+    "name": "Multidimensional Poverty Index, Years of schooling (%)"
+  },
+  {
+    "indexCode": "MPI",
+    "index": "Multidimensional Poverty Index",
+    "dimension": "Standard of Living",
+    "indicatorCode": "mpi-cooking-fuel",
+    "indicator": "Cooking fuel (%)",
+    "name": "Multidimensional Poverty Index, Cooking fuel (%)"
   }
 ]

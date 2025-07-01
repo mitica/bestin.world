@@ -24653,5 +24653,185 @@
     "priority": 2,
     "isComparable": true,
     "emoji": "🌿"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Assets (%)",
+    "id": "mpi-assets",
+    "code": "mpi-assets",
+    "idHDR": "mpi-assets",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Asset Ownership",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Higher asset ownership indicates better living standards and economic stability.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "🏠"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Child mortality (%)",
+    "id": "mpi-child-mortality",
+    "code": "mpi-child-mortality",
+    "idHDR": "mpi-child-mortality",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Child Mortality Rate",
+    "sort": -1,
+    "unit": "%",
+    "valueInfo": "Lower child mortality rates reflect better healthcare and living conditions.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "⚰️"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Drinking water (%)",
+    "id": "mpi-drinking-water",
+    "code": "mpi-drinking-water",
+    "idHDR": "mpi-drinking-water",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Access to Drinking Water",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Higher access to clean drinking water is crucial for health and well-being.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "🚰"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Electricity (%)",
+    "id": "mpi-electricity",
+    "code": "mpi-electricity",
+    "idHDR": "mpi-electricity",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Access to Electricity",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Greater access to electricity enhances quality of life and economic opportunities.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "💡"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Housing (%)",
+    "id": "mpi-housing",
+    "code": "mpi-housing",
+    "idHDR": "mpi-housing",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Adequate Housing",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Better housing conditions improve health and social stability.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "🏡"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Nutrition (%)",
+    "id": "mpi-nutrition",
+    "code": "mpi-nutrition",
+    "idHDR": "mpi-nutrition",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Nutritional Status",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Better nutrition is essential for health, development, and productivity.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "🍎"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Sanitation (%)",
+    "id": "mpi-sanitation",
+    "code": "mpi-sanitation",
+    "idHDR": "mpi-sanitation",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Access to Sanitation",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Improved sanitation facilities reduce disease and enhance quality of life.",
+    "priority": 0,
+    "isComparable": true,
+    "emoji": "🚽"
+  },
+  {
+    "name": "Multidimensional Poverty Index, School attendance (%)",
+    "id": "mpi-school-attendance",
+    "code": "mpi-school-attendance",
+    "idHDR": "mpi-school-attendance",
+    "topicIds": [
+      "education",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "School Attendance",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Higher school attendance rates indicate better educational access and future prospects.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "🎒"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Years of schooling (%)",
+    "id": "mpi-years-of-schooling",
+    "code": "mpi-years-of-schooling",
+    "idHDR": "mpi-years-of-schooling",
+    "topicIds": [
+      "education",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Years of Schooling",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "More years of schooling lead to better job opportunities and economic growth.",
+    "priority": 1,
+    "isComparable": true,
+    "emoji": "📚"
+  },
+  {
+    "name": "Multidimensional Poverty Index, Cooking fuel (%)",
+    "id": "mpi-cooking-fuel",
+    "code": "mpi-cooking-fuel",
+    "idHDR": "mpi-cooking-fuel",
+    "topicIds": [
+      "health",
+      "poverty",
+      "social-protection"
+    ],
+    "commonName": "Clean Cooking Fuel",
+    "sort": 1,
+    "unit": "%",
+    "valueInfo": "Access to clean cooking fuel reduces health risks and environmental impact.",
+    "priority": 2,
+    "isComparable": true,
+    "emoji": "🔥"
   }
 ]

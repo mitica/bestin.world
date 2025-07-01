@@ -12,12 +12,22 @@ async function generate() {
   const countries = await getCountries();
   const countryIds = countries.map((country) => country.id);
   for (const indicator of indicators) {
-    if (![1, -1].includes(indicator.sort as never)) continue;
+    if (![1, -1].includes(indicator.sort as never)) {
+      console.warn(
+        `Skipping indicator ${indicator.id} (${indicator.name}) because it does not have a valid sort order.`
+      );
+      continue;
+    }
     let values = await getLastIndicatorData(indicator);
     values = values.filter(
       (item) => countryIds.includes(item.countryId) && isNumber(item.value)
     );
-    if (values.length === 0) continue;
+    if (values.length === 0) {
+      console.warn(
+        `Skipping indicator ${indicator.id} (${indicator.name}) because it has no valid data.`
+      );
+      continue;
+    }
 
     const result = (
       indicator.sort === 1
