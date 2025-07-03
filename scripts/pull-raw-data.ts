@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "fs/promises";
 import { delay } from "../src/utils";
+import { getCountries } from "./common/helpers";
 
 async function pullCountries() {
   const response = await fetch(
@@ -99,6 +100,8 @@ const hdrIndicatorsMap = {
 
 async function hdrData() {
   const result: HDRData[] = [];
+  const countries = await getCountries();
+  const countryIds = countries.map((country) => country.id);
   for (let year = new Date().getFullYear(); year >= 2012; year--) {
     const response = await fetch(
       `https://hdrdata.org/api/CompositeIndices/query-detailed?apikey=${process.env.HDR_API_KEY}&year=${year}`
@@ -130,7 +133,12 @@ async function hdrData() {
     ];
     const list = data.filter(
       (item) =>
-        validIndicatorCodes.includes(item.indicatorCode) && item.value !== "0"
+        validIndicatorCodes.includes(item.indicatorCode) &&
+        item.value !== "0" &&
+        countries.find(
+          (country) =>
+            country.cca3?.toUpperCase() === item.countryIsoCode.toUpperCase()
+        )
     );
     if (result.length === 0) {
       const indicators = validIndicatorCodes.map((code) => {

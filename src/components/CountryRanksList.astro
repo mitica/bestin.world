@@ -1,0 +1,44 @@
+---
+import { getCollection } from "astro:content";
+import type { getRanks } from "../helpers/country-ranks";
+import { classNames, countryCodeToFlagEmoji } from "../utils";
+
+type Input = {
+  className?: string;
+  itemClassName?: string;
+  list: Awaited<ReturnType<typeof getRanks>>;
+};
+const { list, className, itemClassName } = Astro.props as Input;
+const [countries] = await Promise.all([getCollection("countries")]);
+
+const getCountry = (id: string) => {
+  return countries.find((country) => country.id === id)!.data;
+};
+---
+
+<div class={className}>
+  {
+    list.map((data, index) => {
+      const country = getCountry(data.countryId);
+      // const emojies = data.values.map((insight) => insight.indicator.emoji);
+      // const uniqueEmojis = Array.from(new Set(emojies)).slice(0, 5).join(" ");
+      return (
+        <a
+          href={`/${country.slug}/`}
+          title={country.officialName || country.name}
+          class={classNames(
+            "a truncate flex items-center gap-2",
+            itemClassName,
+            index < 3
+              ? ["font-bold", "font-semibold", "font-medium"][index]
+              : null
+          )}
+        >
+          <span>{countryCodeToFlagEmoji(country.code)}</span>
+          <span>{country.name}</span>
+          {/* <span class="truncate">{uniqueEmojis}</span> */}
+        </a>
+      );
+    })
+  }
+</div>

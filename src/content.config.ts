@@ -32,7 +32,8 @@ const indicators = defineCollection({
     priority: z.number().int(),
     valueInfo: z.string().optional(),
     isComparable: z.boolean().optional(),
-    emoji: z.string().optional()
+    emoji: z.string().optional(),
+    topicIds: z.array(z.string())
   })
 });
 
@@ -93,7 +94,7 @@ const indicatorRanks = defineCollection({
       date: z.number().int(),
       rank: z.number().int(),
       countryId: z.string(),
-      decimal: z.number().int().optional(),
+      decimal: z.number().int().optional()
     })
   )
 });
