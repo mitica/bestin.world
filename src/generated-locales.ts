@@ -73,8 +73,16 @@ export class LocalizyLocales {
         return this.v('country_in_the_lead', Array.from(arguments));
     }
 
+    country_in_the_lead_info(_p1: string, _p2: number) {
+        return this.v('country_in_the_lead_info', Array.from(arguments));
+    }
+
     country_folling_behind(_p1: string) {
         return this.v('country_folling_behind', Array.from(arguments));
+    }
+
+    country_folling_behind_info(_p1: string, _p2: number) {
+        return this.v('country_folling_behind_info', Array.from(arguments));
     }
 }
 
@@ -87,4 +95,6 @@ export type LocalesKey = 'home_page_title'
     | 'country_page_title'
     | 'country_page_description'
     | 'country_in_the_lead'
-    | 'country_folling_behind';
+    | 'country_in_the_lead_info'
+    | 'country_folling_behind'
+    | 'country_folling_behind_info';
