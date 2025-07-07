@@ -42,7 +42,10 @@ export default async function layoutElements() {
           fontSize: "1.5rem",
           fontWeight: "bold",
           textShadow: "2px 2px 1px rgba(250, 250, 250, 0.5)",
-          gap: "0.5rem"
+          gap: "0.5rem",
+          // padding: "0.4rem 1rem",
+          // borderRadius: "0.5rem",
+          // backgroundColor: "#ffffff"
         },
         children: [
           {
@@ -81,7 +84,7 @@ export default async function layoutElements() {
           color: "#888888",
           fontStyle: "italic",
           alignItems: "center",
-          justifyContent: "space-between",
+          justifyContent: "space-between"
         },
         children: {
           type: "span",

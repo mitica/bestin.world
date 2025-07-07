@@ -16,8 +16,8 @@ export const getEmojiSvg = async (emoji: string) => {
   return await res.text();
 };
 
-export const readCountryInsights = async () => {
-  const f = "src/content/country/*/insights.json";
+export const readCountryInsights = async (country = "*") => {
+  const f = `src/content/country/${country}/insights.json`;
   const list: (InsightInfo & { countryId: string })[] = [];
   for await (const entry of glob(f)) {
     const countryId = /[\\/]country[\\/]([^/]+)[\\/]/.exec(entry)?.[1] || "";
