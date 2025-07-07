@@ -1,11 +1,37 @@
-import { readFile } from "fs/promises";
+import { glob, readFile } from "fs/promises";
 import type {
   CountryInfo,
   IndicatorCountryValue,
   IndicatorInfo,
+  InsightInfo,
   LanguageInfo,
   TopicInfo
 } from "../../src/content/common/types";
+import twemoji from "twemoji";
+
+export const getEmojiSvg = async (emoji: string) => {
+  const code = twemoji.convert.toCodePoint(emoji);
+  const url = `https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/${code}.svg`;
+  const res = await fetch(url);
+  return await res.text();
+};
+
+export const readCountryInsights = async () => {
+  const f = "src/content/country/*/insights.json";
+  const list: (InsightInfo & { countryId: string })[] = [];
+  for await (const entry of glob(f)) {
+    const countryId = /[\\/]country[\\/]([^/]+)[\\/]/.exec(entry)?.[1] || "";
+    if (!countryId) throw new Error(`Country ID not found in path: ${entry}`);
+    const data = await readFile(entry, "utf-8");
+    list.push(
+      ...JSON.parse(data).map((item: InsightInfo) => ({
+        ...item,
+        countryId: countryId.toLowerCase()
+      }))
+    );
+  }
+  return list;
+};
 
 let countries: CountryInfo[];
 

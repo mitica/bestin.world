@@ -1,9 +1,11 @@
 ---
+import { localesProvider } from "../locales";
 import "../styles/global.css";
-const { title, description, canonical } = Astro.props;
+const { title, description, canonical, imageUrl } = Astro.props;
 const pageUrl = "https://bestin.world" + (canonical ? canonical : "");
 const pageTitle = title + " - BestIn.world";
 const pageDescription = description || "BestIn.world";
+const locales = localesProvider.lang(Astro.props.lang || "en");
 ---
 
 <!doctype html>
@@ -23,6 +25,7 @@ const pageDescription = description || "BestIn.world";
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />
     <meta property="og:url" content={pageUrl} />
+    {imageUrl && <meta property="og:image" content={imageUrl} />}
   </head>
   <body>
     <header>
@@ -50,7 +53,7 @@ const pageDescription = description || "BestIn.world";
     </main>
     <footer>
       <p>© {new Date().getFullYear()} BestIn.world</p>
-      <p class="text-sm text-gray-400">Based on World Bank & HDR data</p>
+      <p class="text-sm text-gray-400">{locales.data_source_info()}</p>
       <p>
         <a
           class="a"

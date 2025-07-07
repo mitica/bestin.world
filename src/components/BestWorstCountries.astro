@@ -1,5 +1,6 @@
 ---
 import type { CountryInfo, InsightInfo } from "../content/common/types";
+import { bestWorstCountries } from "../helpers/best-worst-countries";
 import CountryInsightsList from "./CountryInsightsList.astro";
 
 const {
@@ -12,55 +13,11 @@ const {
   limit?: number;
 };
 
-const bestInsights = insights.filter((insight) => insight.type === "GOOD");
-const worstInsights = insights.filter((insight) => insight.type === "BAD");
-const bestCountries = bestInsights.reduce(
-  (acc, insight) => {
-    const countryId = insight.countryId;
-    if (!acc[countryId]) {
-      acc[countryId] = [];
-    }
-    acc[countryId].push(insight);
-    return acc;
-  },
-  {} as Record<string, (typeof bestInsights)[0][]>
-);
-const getCountry = (id: string) => {
-  return countries.find((country) => country.id === id);
-};
-const countIndicators = (items: (typeof bestInsights)[0][]) =>
-  items
-    .map((item) => item.indicatorIds.length)
-    .reduce((sum, count) => sum + count, 0);
-const count = (items: (typeof bestInsights)[0][]) =>
-  items.length + countIndicators(items) / 2;
-
-const TopBestCountries = Object.entries(bestCountries)
-  .sort(([, a], [, b]) => count(b) - count(a))
-  .slice(0, limit)
-  .map(([countryId, insights]) => ({
-    country: getCountry(countryId),
-    insights
-  }));
-
-const worstCountries = worstInsights.reduce(
-  (acc, insight) => {
-    const countryId = insight.countryId;
-    if (!acc[countryId]) {
-      acc[countryId] = [];
-    }
-    acc[countryId].push(insight);
-    return acc;
-  },
-  {} as Record<string, (typeof worstInsights)[0][]>
-);
-const TopWorstCountries = Object.entries(worstCountries)
-  .sort(([, a], [, b]) => count(b) - count(a))
-  .slice(0, limit)
-  .map(([countryId, insights]) => ({
-    country: getCountry(countryId),
-    insights
-  }));
+const { Best, Worst } = bestWorstCountries({
+  insights,
+  countries,
+  limit
+});
 ---
 
 <div class="grid sm:grid-cols-2 gap-6 sm:items-start">
@@ -69,7 +26,7 @@ const TopWorstCountries = Object.entries(worstCountries)
       <span>Unicorns</span><span>🦄</span>
     </h3>
     <CountryInsightsList
-      list={TopBestCountries}
+      list={Best}
       className="flex flex-col items-center sm:items-end text-lg gap-1"
       itemClassName="sm:flex-row-reverse"
     />
@@ -79,7 +36,7 @@ const TopWorstCountries = Object.entries(worstCountries)
       <span>Stragglers</span><span>🐌</span>
     </h3>
     <CountryInsightsList
-      list={TopWorstCountries}
+      list={Worst}
       className="flex flex-col text-lg gap-1 items-center sm:items-start"
     />
   </div>

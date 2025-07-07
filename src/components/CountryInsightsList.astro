@@ -30,7 +30,7 @@ const { list, className, itemClassName } = Astro.props as Input;
               : null
           )}
         >
-          {/* <span>{countryCodeToFlagEmoji(country.code)}</span> */}
+          <span>{countryCodeToFlagEmoji(country.code)}</span>
           <span>{country.name}</span>
           <span class="truncate">{uniqueEmojis}</span>
         </a>

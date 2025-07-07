@@ -84,6 +84,10 @@ export class LocalizyLocales {
     country_folling_behind_info(_p1: string, _p2: number) {
         return this.v('country_folling_behind_info', Array.from(arguments));
     }
+
+    data_source_info() {
+        return this.v('data_source_info');
+    }
 }
 
 export type LocalesKey = 'home_page_title'
@@ -97,4 +101,5 @@ export type LocalesKey = 'home_page_title'
     | 'country_in_the_lead'
     | 'country_in_the_lead_info'
     | 'country_folling_behind'
-    | 'country_folling_behind_info';
+    | 'country_folling_behind_info'
+    | 'data_source_info';

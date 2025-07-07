@@ -29,7 +29,7 @@ export async function getStaticPaths() {
         : TOP_COUNTRIES.concat(country.borderIds).concat(
             getCountriesByContinent(getCountryContinent(countryId)!)
           )
-    ).filter((c) => c !== countryId);
+    ).filter((c) => c !== countryId && countries.find((cc) => cc.id === c));
   };
   return countries
     .map((country) => {
@@ -142,7 +142,11 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
     <p>
       <a class="a flex gap-2" href={`/${vsCountry.id}-vs-${country.id}/`}
         ><ArrowRightIcon className="h-4 w-4" />
-        <span>{locales.country_vs_country_title(vsCountry.name, country.name)}</span>
+        <span
+          >{
+            locales.country_vs_country_title(vsCountry.name, country.name)
+          }</span
+        >
       </a>
     </p>
   </div>

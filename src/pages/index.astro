@@ -25,7 +25,12 @@ const description = locales.home_page_description();
 const canonical = "/";
 ---
 
-<Layout title={title} description={description} canonical={canonical}>
+<Layout
+  title={title}
+  description={description}
+  canonical={canonical}
+  imageUrl="/index.png"
+>
   <div class="flex flex-col gap-4">
     <div>
       <h2 class="text-center">{title}</h2>
