@@ -88,6 +88,10 @@ export class LocalizyLocales {
     data_source_info() {
         return this.v('data_source_info');
     }
+
+    vs() {
+        return this.v('vs');
+    }
 }
 
 export type LocalesKey = 'home_page_title'
@@ -102,4 +106,5 @@ export type LocalesKey = 'home_page_title'
     | 'country_in_the_lead_info'
     | 'country_folling_behind'
     | 'country_folling_behind_info'
-    | 'data_source_info';
+    | 'data_source_info'
+    | 'vs';

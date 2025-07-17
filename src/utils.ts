@@ -3,6 +3,7 @@ import removeAccents from "remove-accents";
 import { twMerge, type ClassNameValue } from "tailwind-merge";
 import { countries, continents } from "countries-list";
 import type { ContinentInfo } from "./content/common/types";
+import { TOP_COUNTRIES } from "./config";
 
 /**
  * Get a list of country codes by continent.
@@ -107,3 +108,18 @@ export const uniq = <T>(array: T[]): T[] => {
 
 export const delay = (ms: number): Promise<void> =>
   new Promise((resolve) => setTimeout(resolve, ms));
+
+export const getVsCountryCodes = (
+  list: { id: string }[],
+  country: { id: string; borderIds: string[] }
+) => {
+  const countryId = country.id;
+  // if (1 === 1) return [];
+  return uniq(
+    TOP_COUNTRIES.includes(countryId)
+      ? list.map((c) => c.id)
+      : TOP_COUNTRIES.concat(country.borderIds).concat(
+          getCountriesByContinent(getCountryContinent(countryId)!)
+        )
+  ).filter((c) => c !== countryId && list.find((cc) => cc.id === c));
+};

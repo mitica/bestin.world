@@ -1,6 +1,7 @@
 import { glob, readFile } from "fs/promises";
 import type {
   CountryInfo,
+  IndicatorCountryRankValue,
   IndicatorCountryValue,
   IndicatorInfo,
   InsightInfo,
@@ -29,6 +30,21 @@ export const readCountryInsights = async (country = "*") => {
         countryId: countryId.toLowerCase()
       }))
     );
+  }
+  return list;
+};
+
+export const readIndicatorRanks = async (indicators: string[] = []) => {
+  const f = `src/content/indicator/*/rank.json`;
+  const list: IndicatorCountryRankValue[] = [];
+  for await (const entry of glob(f)) {
+    const indicatorId =
+      /[\\/]indicator[\\/]([^/]+)[\\/]/.exec(entry)?.[1] || "";
+    if (!indicatorId)
+      throw new Error(`Indicator ID not found in path: ${entry}`);
+    if (indicators.length && !indicators.includes(indicatorId)) continue;
+    const data = await readFile(entry, "utf-8");
+    list.push(...JSON.parse(data));
   }
   return list;
 };

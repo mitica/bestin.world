@@ -1,5 +1,8 @@
-import { getCollection } from "astro:content";
 import { MAIN_INDICATOR_IDS } from "../config";
+import type {
+  IndicatorCountryRankValue,
+  IndicatorInfo
+} from "../content/common/types";
 
 const filterIndicator = (indicator: {
   id: string;
@@ -18,31 +21,28 @@ const filterIndicator = (indicator: {
 type Props = {
   id1: string;
   id2: string;
+  indicators: IndicatorInfo[];
+  indicatorRanks: IndicatorCountryRankValue[];
 };
 
-export const compareCountryIndicators = async ({ id1, id2 }: Props) => {
-  const [indicatorRanks, indicators] = await Promise.all([
-    getCollection("indicatorRanks"),
-    getCollection("indicators")
-  ]);
-
+export const compareCountryIndicators = async ({
+  id1,
+  id2,
+  indicators,
+  indicatorRanks
+}: Props) => {
   const getIndicator = (id: string) => {
-    return indicators.find((indicator) => indicator.id === id)!.data;
+    return indicators.find((indicator) => indicator.id === id)!;
   };
 
   const year = new Date().getFullYear();
 
   const ranks = indicatorRanks
-    .map((rank) =>
-      rank.data
-        .filter((it) => it.countryId === id1 || it.countryId === id2)
-        .map((r) => ({
-          ...r,
-          indicatorId: rank.id,
-          indicator: getIndicator(rank.id)
-        }))
-    )
-    .flat()
+    .filter((it) => it.countryId === id1 || it.countryId === id2)
+    .map((r) => ({
+      ...r,
+      indicator: getIndicator(r.indicatorId)
+    }))
     .filter((r) => r.date > year - 8 && filterIndicator(r.indicator));
 
   const countryRanks = ranks.filter((r) => r.countryId === id1);
