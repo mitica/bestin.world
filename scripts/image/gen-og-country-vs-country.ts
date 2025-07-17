@@ -33,9 +33,10 @@ const [countries] = await Promise.all([getCountries()]);
 const locales = localesProvider.lang("en");
 
 export async function generateImage(id1: string, id2: string) {
-  const [country, vsCountry] = countries.filter(
-    (c) => c.id === id1 || c.id === id2
-  );
+  const [country, vsCountry] = [
+    countries.find((c) => c.id === id1)!,
+    countries.find((c) => c.id === id2)!
+  ];
 
   const { list1, list2 } = await compareCountryIndicators({
     id1,
