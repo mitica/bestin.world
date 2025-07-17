@@ -24,7 +24,7 @@ export default async function layoutElements() {
           )}')`,
           backgroundSize: "cover",
           backgroundPosition: "center",
-          opacity: 0.7
+          opacity: 0.5
         }
       }
     },

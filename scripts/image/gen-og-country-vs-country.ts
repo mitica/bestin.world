@@ -20,6 +20,7 @@ import {
 import { compareCountryIndicators } from "../../src/helpers/country-vs-country-indicators";
 import { TOP_COUNTRIES } from "../../src/config";
 import { fileURLToPath } from "url";
+import { compressedBuffer } from "./helpers/compress-image";
 
 // Load custom font
 const fontData = await Promise.all([
@@ -232,7 +233,8 @@ export async function generateImage(id1: string, id2: string) {
                         type: "span",
                         props: {
                           style: {
-                            fontWeight: "bold"
+                            fontWeight: "bold",
+                            textShadow: "2px 2px 1px rgba(250, 250, 250, 0.6)"
                           },
                           children: item.name
                         }
@@ -274,7 +276,7 @@ export async function generateImage(id1: string, id2: string) {
   });
 
   const img = resvg.render();
-  const pngBuffer = img.asPng();
+  const pngBuffer = await compressedBuffer(img.asPng());
   await fs.writeFile(`public/${country.id}-vs-${vsCountry.id}.png`, pngBuffer);
 }
 
