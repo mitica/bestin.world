@@ -123,3 +123,7 @@ export const getVsCountryCodes = (
         )
   ).filter((c) => c !== countryId && list.find((cc) => cc.id === c));
 };
+
+export const truncateText = (str: string, length: number, suffix = "…") =>
+  // use special 3 dots character: …
+  str.length > length ? `${str.substring(0, length)}${suffix}` : str;

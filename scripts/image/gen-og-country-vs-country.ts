@@ -14,7 +14,8 @@ import {
   countryCodeToFlagEmoji,
   getCountriesByContinent,
   getCountryContinent,
-  getVsCountryCodes
+  getVsCountryCodes,
+  truncateText
 } from "../../src/utils";
 import { compareCountryIndicators } from "../../src/helpers/country-vs-country-indicators";
 import { TOP_COUNTRIES } from "../../src/config";
@@ -46,6 +47,20 @@ export async function generateImage(id1: string, id2: string) {
     console.warn(`No indicators found for ${id1} vs ${id2}`);
     return;
   }
+
+  const list = list1.slice(0, 3).map((item) => ({
+    name: truncateText(
+      item.value1.indicator.commonName || item.value1.indicator.name,
+      70
+    ),
+    emoji: item.value1.indicator.emoji || ""
+  }));
+
+  if (list1.length > 3)
+    list.push({
+      name: "+" + (list1.length - 3),
+      emoji: ""
+    });
 
   const svg = await satori(
     {
@@ -199,7 +214,7 @@ export async function generateImage(id1: string, id2: string) {
                 gap: "0.8rem"
               },
               children: await Promise.all(
-                list1.slice(0, 3).map(async (item) => ({
+                list.map(async (item) => ({
                   type: "div",
                   props: {
                     style: {
@@ -212,19 +227,14 @@ export async function generateImage(id1: string, id2: string) {
                       gap: "1rem"
                     },
                     children: [
-                      await getEmojiElement(
-                        item.value1.indicator.emoji || "",
-                        32
-                      ),
+                      await getEmojiElement(item.emoji, 32),
                       {
                         type: "span",
                         props: {
                           style: {
                             fontWeight: "bold"
                           },
-                          children:
-                            item.value1.indicator.commonName ||
-                            item.value1.indicator.name
+                          children: item.name
                         }
                       }
                     ]
