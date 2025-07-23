@@ -1,11 +1,5 @@
 [
   {
-    "indicatorId": "cm-mkt-lcap-gd-zs",
-    "value": 409.025769903351,
-    "date": 2022,
-    "type": "max"
-  },
-  {
     "indicatorId": "dc-dac-luxl-cd",
     "value": 9999.99977648258,
     "date": 2022,
@@ -36,6 +30,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "dt-tds-dect-gn-zs",
+    "value": 0.0893565633895763,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "dt-tds-dppf-xp-zs",
     "value": 0.301103190612642,
     "date": 2023,
@@ -49,290 +49,284 @@
   },
   {
     "indicatorId": "ne-con-govt-cn",
-    "value": 18422330000000000,
-    "date": 2023,
+    "value": 25560255740076500,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-govt-kn",
-    "value": 2121754000000000,
-    "date": 2023,
+    "value": 2174187539682000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-prvt-cn",
-    "value": 71941643000000000,
-    "date": 2023,
+    "value": 99892913729861000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-prvt-cn-ad",
-    "value": 71941643000000000,
-    "date": 2023,
+    "value": 99892913729860900,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-prvt-kn",
-    "value": 8258149000000000,
-    "date": 2023,
+    "value": 8468731799500000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-totl-cn",
-    "value": 90363973000000000,
-    "date": 2023,
+    "value": 125453169469938000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-con-totl-kn",
-    "value": 10379903000000000,
-    "date": 2023,
+    "value": 10642919339182000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-dab-totl-cn",
-    "value": 100190975344245000,
-    "date": 2022,
+    "value": 204617206583650000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-dab-totl-kn",
-    "value": 14993318559107300,
-    "date": 2022,
+    "value": 15908626631106800,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-exp-gnfs-cn",
-    "value": 34617095000000000,
-    "date": 2023,
+    "value": 45300578388437000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-gdi-ftot-cn",
-    "value": 38363588000000000,
-    "date": 2023,
+    "value": 52893072177124300,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-gdi-stkb-cn",
-    "value": 13852045646007000,
-    "date": 2023,
+    "value": 26270964936587700,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-gdi-stkb-kn",
-    "value": 2158588830432900,
-    "date": 2022,
+    "value": 2267487273502700,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-gdi-totl-cn",
-    "value": 39654679855831100,
-    "date": 2022,
+    "value": 79164037113712000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-gdi-totl-kn",
-    "value": 4904101792292000,
-    "date": 2022,
+    "value": 5265707291924800,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-imp-gnfs-cn",
-    "value": 40021046000000000,
-    "date": 2023,
+    "value": 53065105522780000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-rsb-gnfs-cn",
-    "value": -5403951000000000,
-    "date": 2023,
+    "value": -7764527134343000,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ne-rsb-gnfs-kn",
-    "value": 1393598000000000,
-    "date": 2023,
+    "value": 1581294112795800,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-agr-totl-cn",
-    "value": 18360183000000000,
-    "date": 2023,
+    "value": 25714862153552000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-agr-totl-kn",
-    "value": 1582522000000000,
-    "date": 2023,
+    "value": 1636960827578400,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-ind-manf-cn",
-    "value": 27765832000000000,
+    "value": 27765832359524800,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "nv-ind-totl-cn",
-    "value": 51842958000000000,
-    "date": 2023,
+    "value": 72029630980372900,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-ind-totl-kn",
-    "value": 5320683000000000,
-    "date": 2023,
+    "value": 5471381832751300,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-srv-totl-cn",
-    "value": 69039487000000000,
-    "date": 2023,
+    "value": 94862198724622600,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-srv-totl-kn",
-    "value": 8935222000000000,
-    "date": 2023,
+    "value": 9211573970900100,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-disc-cn",
-    "value": 2036316708500620,
-    "date": 2022,
+    "value": 1006907437668020,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-disc-kn",
-    "value": -195940706686100,
-    "date": 2022,
+    "value": -366758273502600,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-fcst-cn",
-    "value": 139242629000000000,
-    "date": 2023,
+    "value": 192606691858547000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-fcst-kn",
-    "value": 15838428000000000,
-    "date": 2023,
+    "value": 16319916631229800,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-mktp-cn",
-    "value": 143039267000000000,
-    "date": 2023,
+    "value": 197859586886975000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-mktp-cn-ad",
-    "value": 143039267000000000,
-    "date": 2023,
+    "value": 197859586886975000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-mktp-kn",
-    "value": 16617976000000000,
-    "date": 2023,
+    "value": 17123162470400000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-pcap-cn",
-    "value": 1578648142.50136,
-    "date": 2023,
+    "value": 2160800203.30933,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-pcap-kn",
-    "value": 183403742.865462,
-    "date": 2023,
+    "value": 186999950.46727,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gds-totl-cn",
-    "value": 52675294000000000,
-    "date": 2023,
+    "value": 72406417417037000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdy-totl-kn",
-    "value": 15032375589154800,
-    "date": 2023,
+    "value": 15335992465965300,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gnp-mktp-cn",
-    "value": 142872444650948000,
-    "date": 2023,
+    "value": 197581475858706000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gnp-mktp-cn-ad",
-    "value": 142872444650948000,
-    "date": 2023,
+    "value": 197581475858706000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gnp-mktp-kn",
-    "value": 14904658911647900,
-    "date": 2022,
+    "value": 14878040210349700,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "ny-gnp-pcap-cn",
-    "value": 1576807013.15987,
-    "date": 2023,
+    "value": 2157762986.989,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gnp-pcap-kn",
-    "value": 166487399.532501,
-    "date": 2022,
+    "value": 164200999.031469,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "ny-tax-nind-cn",
-    "value": 3796638000000000,
-    "date": 2023,
+    "value": 5252895028427600,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-tax-nind-kn",
-    "value": 779548000000000,
-    "date": 2023,
+    "value": 803245839170200,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-ttf-gnfs-kn",
-    "value": -1585600410845230,
-    "date": 2023,
+    "value": -1787170004434680,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "pa-nus-atls",
-    "value": 353510.127596,
-    "date": 2023,
-    "type": "max"
-  },
-  {
-    "indicatorId": "pa-nus-fcrf",
-    "value": 42000,
-    "date": 2023,
+    "value": 452865.002276,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "pa-nus-ppp",
-    "value": 89391.8126957291,
-    "date": 2023,
+    "value": 117170.156249744,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "pa-nus-prvt-pp",
-    "value": 88593.2124224345,
-    "date": 2023,
+    "value": 113984.898215385,
+    "date": 2024,
     "type": "max"
   },
   {

@@ -6,12 +6,6 @@
     "type": "min"
   },
   {
-    "indicatorId": "ic-frm-corr-zs",
-    "value": 0.1,
-    "date": 2023,
-    "type": "min"
-  },
-  {
     "indicatorId": "is-air-good-mt-k1",
     "value": 0.000087,
     "date": 2015,
@@ -31,7 +25,13 @@
   },
   {
     "indicatorId": "sp-pop-6569-fe-5y",
-    "value": 7.68804111096344,
+    "value": 7.75907265692811,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-cdp-zs",
+    "value": 100,
     "date": 2023,
     "type": "max"
   }

@@ -1,15 +1,15 @@
 [
   {
+    "indicatorId": "cm-mkt-lcap-gd-zs",
+    "value": 246.263825136957,
+    "date": 2024,
+    "type": "max"
+  },
+  {
     "indicatorId": "dt-nfl-prop-cd",
     "value": 750000000,
     "date": 2023,
     "type": "max"
-  },
-  {
-    "indicatorId": "ic-tax-metg",
-    "value": 1,
-    "date": 2020,
-    "type": "min"
   },
   {
     "indicatorId": "se-sec-ages",
@@ -57,6 +57,12 @@
     "indicatorId": "mpi-school-attendance",
     "value": 2.63392014385636,
     "date": 2016,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-fo-zs",
+    "value": 0.3649131358,
+    "date": 2020,
     "type": "min"
   }
 ]

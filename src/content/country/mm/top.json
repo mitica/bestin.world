@@ -6,34 +6,40 @@
     "type": "min"
   },
   {
+    "indicatorId": "iq-cpa-fisp-xq",
+    "value": 1,
+    "date": 2024,
+    "type": "min"
+  },
+  {
     "indicatorId": "iq-cpa-hres-xq",
     "value": 1.5,
-    "date": 2023,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "iq-cpa-prop-xq",
     "value": 1,
-    "date": 2023,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "iq-cpa-trad-xq",
     "value": 1.5,
-    "date": 2023,
-    "type": "min"
-  },
-  {
-    "indicatorId": "nv-mnf-fbto-zs-un",
-    "value": 0.29339686754052,
-    "date": 2020,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "nv-mnf-mtrn-zs-un",
-    "value": 0.00591368470952165,
-    "date": 2020,
+    "value": 0.136971332991248,
+    "date": 2021,
     "type": "min"
+  },
+  {
+    "indicatorId": "nv-mnf-othr-zs-un",
+    "value": 96.6885683752653,
+    "date": 2021,
+    "type": "max"
   },
   {
     "indicatorId": "nv-mnf-tech-zs-un",
@@ -62,6 +68,18 @@
   {
     "indicatorId": "sh-sta-owgh-me-zs",
     "value": 0.6,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sh-sta-owgh-me-fe-zs",
+    "value": 0.6,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sh-sta-owgh-me-ma-zs",
+    "value": 0.7,
     "date": 2024,
     "type": "min"
   }

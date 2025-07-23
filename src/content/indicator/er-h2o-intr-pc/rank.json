@@ -360,17 +360,17 @@
     "decimal": 0
   },
   {
-    "countryId": "ie",
+    "countryId": "hr",
     "date": 2021,
-    "value": 9735.42686071823,
+    "value": 9719.04734774416,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 46,
     "decimal": 0
   },
   {
-    "countryId": "hr",
+    "countryId": "ie",
     "date": 2021,
-    "value": 9719.04734774416,
+    "value": 9587.94345461429,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 47,
     "decimal": 0
@@ -426,7 +426,7 @@
   {
     "countryId": "us",
     "date": 2021,
-    "value": 8486.69984006607,
+    "value": 8485.40209724933,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 54,
     "decimal": 0
@@ -514,7 +514,7 @@
   {
     "countryId": "lt",
     "date": 2021,
-    "value": 5519.77461039353,
+    "value": 5504.9530334214,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 65,
     "decimal": 0
@@ -624,11 +624,19 @@
     "decimal": 0
   },
   {
+    "countryId": "bg",
+    "date": 2021,
+    "value": 3227.14440287917,
+    "indicatorId": "er-h2o-intr-pc",
+    "rank": 79,
+    "decimal": 0
+  },
+  {
     "countryId": "mx",
     "date": 2021,
     "value": 3204.12012558145,
     "indicatorId": "er-h2o-intr-pc",
-    "rank": 79,
+    "rank": 80,
     "decimal": 0
   },
   {
@@ -636,7 +644,7 @@
     "date": 2021,
     "value": 3163.25951343203,
     "indicatorId": "er-h2o-intr-pc",
-    "rank": 80,
+    "rank": 81,
     "decimal": 0
   },
   {
@@ -644,21 +652,13 @@
     "date": 2021,
     "value": 3130.04811053059,
     "indicatorId": "er-h2o-intr-pc",
-    "rank": 81,
+    "rank": 82,
     "decimal": 0
   },
   {
     "countryId": "it",
     "date": 2021,
     "value": 3086.25414029448,
-    "indicatorId": "er-h2o-intr-pc",
-    "rank": 82,
-    "decimal": 0
-  },
-  {
-    "countryId": "bg",
-    "date": 2021,
-    "value": 3053.32723249473,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 83,
     "decimal": 0
@@ -754,7 +754,7 @@
   {
     "countryId": "es",
     "date": 2021,
-    "value": 2345.21012133636,
+    "value": 2343.82471007131,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 95,
     "decimal": 0
@@ -818,7 +818,7 @@
   {
     "countryId": "gb",
     "date": 2021,
-    "value": 2163.33017497074,
+    "value": 2164.69604681715,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 103,
     "decimal": 0
@@ -1186,7 +1186,7 @@
   {
     "countryId": "hu",
     "date": 2021,
-    "value": 617.926607003106,
+    "value": 622.992665715011,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 149,
     "decimal": 0
@@ -1346,7 +1346,7 @@
   {
     "countryId": "mt",
     "date": 2021,
-    "value": 97.3895737229431,
+    "value": 97.4621248673164,
     "indicatorId": "er-h2o-intr-pc",
     "rank": 169,
     "decimal": 0

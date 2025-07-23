@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "bm-gsr-cmcp-zs",
+    "value": -47.2546895155739,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "eg-elc-hyro-zs",
     "value": 0.000825722920416825,
     "date": 2021,
@@ -25,32 +31,44 @@
   },
   {
     "indicatorId": "nv-ind-totl-kd-zg",
-    "value": 98.5269692748736,
-    "date": 2022,
+    "value": 53.279756620124,
+    "date": 2024,
     "type": "max"
   },
   {
+    "indicatorId": "nv-ind-totl-zs",
+    "value": 74.2990525380889,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "nv-srv-totl-zs",
+    "value": 15.3425928189637,
+    "date": 2024,
+    "type": "min"
+  },
+  {
     "indicatorId": "ny-gdp-defl-zs",
-    "value": 91.0207112559976,
-    "date": 2023,
+    "value": 91.8915450597609,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-defl-zs-ad",
-    "value": 91.0207112559976,
-    "date": 2023,
+    "value": 91.8915450597609,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-mktp-kd-zg",
-    "value": 33.8026170921817,
-    "date": 2023,
+    "value": 43.3720094777132,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ny-gdp-pcap-kd-zg",
-    "value": 33.0390050012149,
-    "date": 2023,
+    "value": 42.5553403529796,
+    "date": 2024,
     "type": "max"
   }
 ]

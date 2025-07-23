@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "ic-frm-outg-zs",
+    "value": 10,
+    "date": 2024,
+    "type": "max"
+  },
+  {
     "indicatorId": "pv-per-rnk-upper",
     "value": 2.84360194206238,
     "date": 2023,
@@ -25,20 +31,32 @@
   },
   {
     "indicatorId": "sh-prg-anem",
-    "value": 59,
-    "date": 2019,
+    "value": 62.1,
+    "date": 2023,
     "type": "max"
   },
   {
-    "indicatorId": "sp-pop-5054-fe-5y",
-    "value": 2.41225499938001,
-    "date": 2023,
+    "indicatorId": "sp-pop-5559-fe-5y",
+    "value": 1.8114010161346,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-6064-fe-5y",
-    "value": 1.3777064935462,
-    "date": 2023,
+    "value": 1.37596011155341,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-taxe-zs",
+    "value": 3.380029917,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-mng-ind",
+    "value": 28.06830788,
+    "date": 2024,
     "type": "min"
   }
 ]

@@ -1,8 +1,8 @@
 [
   {
     "indicatorId": "bx-trf-pwkr-dt-gd-zs",
-    "value": 41.9416031832265,
-    "date": 2022,
+    "value": 49.9757027039835,
+    "date": 2023,
     "type": "max"
   },
   {
@@ -36,9 +36,27 @@
     "type": "min"
   },
   {
+    "indicatorId": "er-ptd-totl-zs",
+    "value": 0.1,
+    "date": 2024,
+    "type": "min"
+  },
+  {
     "indicatorId": "gc-tax-gsrv-va-zs",
-    "value": 25.5642325540117,
+    "value": 25.5642328583775,
     "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-cmpu-zs",
+    "value": 7.210072517,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-gov-durs-zs",
+    "value": 31.32529831,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -49,15 +67,21 @@
   },
   {
     "indicatorId": "ne-con-prvt-kd-zg",
-    "value": -20.9805131478776,
-    "date": 2022,
-    "type": "min"
+    "value": 30.8846356742268,
+    "date": 2023,
+    "type": "max"
   },
   {
     "indicatorId": "ne-con-prvt-pc-kd-zg",
-    "value": -20.6434981433103,
-    "date": 2022,
-    "type": "min"
+    "value": 31.4414744255776,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ne-con-totl-kd-zg",
+    "value": 22.9369719374135,
+    "date": 2023,
+    "type": "max"
   },
   {
     "indicatorId": "ny-adj-dpem-cd",
@@ -70,11 +94,5 @@
     "value": 17.4501093946828,
     "date": 2023,
     "type": "max"
-  },
-  {
-    "indicatorId": "sp-pop-3034-ma-5y",
-    "value": 4.53816759258326,
-    "date": 2023,
-    "type": "min"
   }
 ]

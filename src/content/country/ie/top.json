@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "bm-gsr-cmcp-zs",
+    "value": 83.0068525667673,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "bm-gsr-royl-cd",
     "value": 153215662951.598,
     "date": 2023,
@@ -12,10 +18,28 @@
     "type": "min"
   },
   {
+    "indicatorId": "bm-klt-dinv-cd-wd",
+    "value": -127045085600.434,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "bn-gsr-fcty-cd",
+    "value": -131486896486.972,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "bx-gsr-ccis-cd",
     "value": 246946257949.176,
     "date": 2023,
     "type": "max"
+  },
+  {
+    "indicatorId": "bx-klt-dinv-cd-wd",
+    "value": -139972323560.253,
+    "date": 2023,
+    "type": "min"
   },
   {
     "indicatorId": "bx-pef-totl-cd-wd",
@@ -31,51 +55,45 @@
   },
   {
     "indicatorId": "eg-gdp-puse-ko-pp",
-    "value": 50.791763102272,
+    "value": 50.7917631022719,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "eg-gdp-puse-ko-pp-kd",
-    "value": 46.9709823804673,
+    "value": 46.9709823252969,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "eg-use-comm-gd-pp-kd",
-    "value": 21.2897399483781,
+    "value": 21.2897399733843,
     "date": 2023,
     "type": "min"
   },
   {
-    "indicatorId": "ic-frm-crim-zs",
-    "value": 0.5,
-    "date": 2020,
+    "indicatorId": "ic-frm-corr-zs",
+    "value": 0.0858573914,
+    "date": 2024,
     "type": "min"
+  },
+  {
+    "indicatorId": "ne-dab-totl-zs",
+    "value": 58.4825064144491,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ne-rsb-gnfs-zs",
+    "value": 42.1907375112031,
+    "date": 2024,
+    "type": "max"
   },
   {
     "indicatorId": "nv-ind-empl-kd",
-    "value": 370136.571615029,
+    "value": 368382.123612654,
     "date": 2023,
     "type": "max"
-  },
-  {
-    "indicatorId": "nv-ind-manf-kd-zg",
-    "value": -23.9264178654166,
-    "date": 2023,
-    "type": "min"
-  },
-  {
-    "indicatorId": "nv-mnf-othr-zs-un",
-    "value": 94.3309187975237,
-    "date": 2021,
-    "type": "max"
-  },
-  {
-    "indicatorId": "nv-mnf-txtl-zs-un",
-    "value": 0.111794360925548,
-    "date": 2021,
-    "type": "min"
   },
   {
     "indicatorId": "ny-adj-dkap-gn-zs",
@@ -85,8 +103,8 @@
   },
   {
     "indicatorId": "ny-gsr-nfcy-cd",
-    "value": -150270102791.349,
-    "date": 2022,
+    "value": -131482758156.536,
+    "date": 2023,
     "type": "min"
   },
   {

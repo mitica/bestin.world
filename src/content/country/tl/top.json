@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "bm-gsr-royl-cd",
+    "value": 638,
+    "date": 2024,
+    "type": "min"
+  },
+  {
     "indicatorId": "en-ghg-co2-zg-ar5",
     "value": 41247.0588235294,
     "date": 2023,
@@ -7,8 +13,8 @@
   },
   {
     "indicatorId": "fs-ast-cgov-gd-zs",
-    "value": -40.6623502190807,
-    "date": 2023,
+    "value": -39.5644512952106,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -85,7 +91,7 @@
   },
   {
     "indicatorId": "ne-exp-gnfs-kd-zg",
-    "value": -59.9868601932459,
+    "value": -59.9868573769802,
     "date": 2023,
     "type": "min"
   },
@@ -115,13 +121,13 @@
   },
   {
     "indicatorId": "ny-adj-nnty-kd-zg",
-    "value": -65.6566721416172,
+    "value": -65.6566735077637,
     "date": 2021,
     "type": "min"
   },
   {
     "indicatorId": "ny-adj-nnty-pc-kd-zg",
-    "value": -66.2693449070117,
+    "value": -66.2693462487867,
     "date": 2021,
     "type": "min"
   },
@@ -139,14 +145,14 @@
   },
   {
     "indicatorId": "ny-gdp-defl-kd-zg",
-    "value": -20.8334380271277,
-    "date": 2023,
+    "value": -7.52658256185083,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-defl-kd-zg-ad",
-    "value": -20.8334380271277,
-    "date": 2023,
+    "value": -7.52658256185083,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -156,9 +162,33 @@
     "type": "max"
   },
   {
+    "indicatorId": "ny-gnp-mktp-kd-zg",
+    "value": -22.6704090104764,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ny-gnp-pcap-kd-zg",
+    "value": -23.5078428200533,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "sg-vaw-negl-zs",
     "value": 62.8,
     "date": 2016,
     "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-co2-zs",
+    "value": 0.981328845,
+    "date": 2021,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-exs-zs",
+    "value": 0.5339469314,
+    "date": 2021,
+    "type": "min"
   }
 ]

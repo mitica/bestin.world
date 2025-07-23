@@ -18,15 +18,9 @@
     "type": "max"
   },
   {
-    "indicatorId": "fb-ast-nper-zs",
-    "value": 55.4109645865667,
-    "date": 2022,
-    "type": "max"
-  },
-  {
     "indicatorId": "fb-bnk-capa-zs",
-    "value": 1.15199867633904,
-    "date": 2022,
+    "value": -6.40252879823414,
+    "date": 2023,
     "type": "min"
   },
   {
@@ -34,6 +28,12 @@
     "value": -25.9499170798713,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-metg-zs",
+    "value": 96.12562561,
+    "date": 2024,
+    "type": "max"
   },
   {
     "indicatorId": "se-prm-cmpt-ma-zs",
@@ -78,15 +78,15 @@
     "type": "min"
   },
   {
-    "indicatorId": "tm-tax-mrch-ip-zs",
-    "value": 58.3870373780151,
-    "date": 2022,
-    "type": "max"
-  },
-  {
     "indicatorId": "va-per-rnk-lower",
     "value": 0.483091801404953,
     "date": 2022,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-engm-zs",
+    "value": 3.655687809,
+    "date": 2024,
     "type": "min"
   }
 ]

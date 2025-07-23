@@ -1,8 +1,8 @@
 [
   {
     "indicatorId": "cm-mkt-trad-gd-zs",
-    "value": 182.161642382129,
-    "date": 2022,
+    "value": 198.033769330476,
+    "date": 2023,
     "type": "max"
   },
   {
@@ -52,6 +52,30 @@
     "value": 467328215967432,
     "date": 2023,
     "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-brib-zs",
+    "value": 0.0177613664,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-durs",
+    "value": 193.1072845,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-metg-zs",
+    "value": 0.9246596694,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "ic-gov-durs-zs",
+    "value": 0.2265686989,
+    "date": 2024,
+    "type": "min"
   },
   {
     "indicatorId": "ne-gdi-fprv-cn",
@@ -151,44 +175,50 @@
   },
   {
     "indicatorId": "sp-pop-0004-fe-5y",
-    "value": 2.54948705245384,
-    "date": 2023,
+    "value": 2.40905136452172,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-0004-ma-5y",
-    "value": 2.70022958858671,
-    "date": 2023,
+    "value": 2.55095110386512,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-0014-fe-zs",
-    "value": 10.6596376570019,
-    "date": 2023,
+    "value": 10.2726167381504,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-0014-to-zs",
-    "value": 10.970817085997,
-    "date": 2023,
+    "value": 10.568126821068,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sp-pop-0509-fe-5y",
+    "value": 3.56841028938477,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sp-pop-0509-ma-5y",
+    "value": 3.76373619934953,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-6064-fe-5y",
-    "value": 8.23165828602826,
-    "date": 2023,
-    "type": "max"
-  },
-  {
-    "indicatorId": "sp-pop-6064-ma-5y",
-    "value": 8.05462742731756,
-    "date": 2023,
+    "value": 8.21383527103828,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "sp-pop-dpnd-yg",
-    "value": 15.5187042021483,
-    "date": 2023,
+    "value": 15.0632459523254,
+    "date": 2024,
     "type": "min"
   }
 ]

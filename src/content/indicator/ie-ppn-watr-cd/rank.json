@@ -8,19 +8,27 @@
     "decimal": 0
   },
   {
-    "countryId": "cn",
-    "date": 2022,
-    "value": 937080000,
+    "countryId": "id",
+    "date": 2023,
+    "value": 989980000,
     "indicatorId": "ie-ppn-watr-cd",
     "rank": 2,
     "decimal": 0
   },
   {
     "countryId": "br",
-    "date": 2022,
-    "value": 565200000,
+    "date": 2023,
+    "value": 287000000,
     "indicatorId": "ie-ppn-watr-cd",
     "rank": 3,
+    "decimal": 0
+  },
+  {
+    "countryId": "cn",
+    "date": 2023,
+    "value": 286060000,
+    "indicatorId": "ie-ppn-watr-cd",
+    "rank": 4,
     "decimal": 0
   },
   {
@@ -28,7 +36,7 @@
     "date": 2021,
     "value": 278250000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 4,
+    "rank": 5,
     "decimal": 0
   },
   {
@@ -36,7 +44,15 @@
     "date": 2018,
     "value": 239530000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 5,
+    "rank": 6,
+    "decimal": 0
+  },
+  {
+    "countryId": "tn",
+    "date": 2023,
+    "value": 220600000,
+    "indicatorId": "ie-ppn-watr-cd",
+    "rank": 7,
     "decimal": 0
   },
   {
@@ -44,7 +60,7 @@
     "date": 2016,
     "value": 200000000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 6,
+    "rank": 8,
     "decimal": 0
   },
   {
@@ -52,7 +68,7 @@
     "date": 2020,
     "value": 192310000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 7,
+    "rank": 9,
     "decimal": 0
   },
   {
@@ -60,7 +76,7 @@
     "date": 2022,
     "value": 183180000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 8,
+    "rank": 10,
     "decimal": 0
   },
   {
@@ -68,7 +84,7 @@
     "date": 2020,
     "value": 159730000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 9,
+    "rank": 11,
     "decimal": 0
   },
   {
@@ -76,29 +92,13 @@
     "date": 2019,
     "value": 159140000,
     "indicatorId": "ie-ppn-watr-cd",
-    "rank": 10,
-    "decimal": 0
-  },
-  {
-    "countryId": "ph",
-    "date": 2022,
-    "value": 155480000,
-    "indicatorId": "ie-ppn-watr-cd",
-    "rank": 11,
+    "rank": 12,
     "decimal": 0
   },
   {
     "countryId": "pe",
     "date": 2018,
     "value": 121400000,
-    "indicatorId": "ie-ppn-watr-cd",
-    "rank": 12,
-    "decimal": 0
-  },
-  {
-    "countryId": "id",
-    "date": 2022,
-    "value": 116740000,
     "indicatorId": "ie-ppn-watr-cd",
     "rank": 13,
     "decimal": 0
@@ -176,11 +176,19 @@
     "decimal": 0
   },
   {
-    "countryId": "kh",
-    "date": 2022,
-    "value": 7000000,
+    "countryId": "ph",
+    "date": 2023,
+    "value": 3680000,
     "indicatorId": "ie-ppn-watr-cd",
     "rank": 23,
+    "decimal": 0
+  },
+  {
+    "countryId": "kh",
+    "date": 2023,
+    "value": 2300000,
+    "indicatorId": "ie-ppn-watr-cd",
+    "rank": 24,
     "decimal": 0
   }
 ]

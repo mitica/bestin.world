@@ -1,14 +1,14 @@
 [
   {
     "indicatorId": "bg-gsr-nfsv-gd-zs",
-    "value": 315.324223108932,
-    "date": 2023,
+    "value": 323.937825303788,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-gsr-insf-zs",
-    "value": 45.83672134554,
-    "date": 2023,
+    "value": 44.6804531733176,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -25,8 +25,8 @@
   },
   {
     "indicatorId": "fi-res-totl-mo",
-    "value": 0.0687981625608723,
-    "date": 2023,
+    "value": 0.0596075787862588,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -37,25 +37,25 @@
   },
   {
     "indicatorId": "ne-exp-gnfs-zs",
-    "value": 212.530618289922,
-    "date": 2023,
+    "value": 215.502405357575,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-imp-gnfs-zs",
-    "value": 181.690075385809,
-    "date": 2023,
+    "value": 182.725525601947,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ne-trd-gnfs-zs",
-    "value": 394.220693675731,
-    "date": 2023,
+    "value": 398.227930959521,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "nv-srv-empl-kd",
-    "value": 196335.243821233,
+    "value": 192780.902881326,
     "date": 2023,
     "type": "max"
   },
@@ -67,14 +67,14 @@
   },
   {
     "indicatorId": "ny-adj-nnty-pc-kd",
-    "value": 65364.2682519505,
+    "value": 65458.1506441114,
     "date": 2021,
     "type": "max"
   },
   {
-    "indicatorId": "ny-gdp-pcap-pp-kd",
-    "value": 130491.299515711,
-    "date": 2023,
+    "indicatorId": "ny-gdp-pcap-pp-cd",
+    "value": 150772.358842278,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -127,8 +127,8 @@
   },
   {
     "indicatorId": "sl-gdp-pcap-em-kd",
-    "value": 265731.579588875,
-    "date": 2023,
+    "value": 263890.542768963,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -145,8 +145,8 @@
   },
   {
     "indicatorId": "tm-val-insf-zs-wt",
-    "value": 45.9159630211184,
-    "date": 2023,
+    "value": 44.7718548501653,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -160,5 +160,17 @@
     "value": 1.37099203536874,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "ic-frm-exs-zs",
+    "value": 44.94680023,
+    "date": 2020,
+    "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-fo-zs",
+    "value": 49.91693497,
+    "date": 2020,
+    "type": "max"
   }
 ]

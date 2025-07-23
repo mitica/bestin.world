@@ -42,7 +42,7 @@
   {
     "countryId": "lt",
     "date": 2021,
-    "value": 0.813684756603289,
+    "value": 0.811499868251447,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 6,
     "decimal": 2
@@ -104,11 +104,19 @@
     "decimal": 2
   },
   {
+    "countryId": "bg",
+    "date": 2021,
+    "value": 0.537930472249555,
+    "indicatorId": "ag-lnd-arbl-ha-pc",
+    "rank": 14,
+    "decimal": 2
+  },
+  {
     "countryId": "ee",
     "date": 2021,
     "value": 0.525947230962964,
     "indicatorId": "ag-lnd-arbl-ha-pc",
-    "rank": 14,
+    "rank": 15,
     "decimal": 2
   },
   {
@@ -116,21 +124,13 @@
     "date": 2021,
     "value": 0.515032827211392,
     "indicatorId": "ag-lnd-arbl-ha-pc",
-    "rank": 15,
-    "decimal": 2
-  },
-  {
-    "countryId": "bg",
-    "date": 2021,
-    "value": 0.508957008134791,
-    "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 16,
     "decimal": 2
   },
   {
     "countryId": "us",
     "date": 2021,
-    "value": 0.47504076484476,
+    "value": 0.474968124035982,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 17,
     "decimal": 2
@@ -154,7 +154,7 @@
   {
     "countryId": "hu",
     "date": 2021,
-    "value": 0.426338915647972,
+    "value": 0.42983424657136,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 20,
     "decimal": 2
@@ -322,7 +322,7 @@
   {
     "countryId": "es",
     "date": 2021,
-    "value": 0.243590846543664,
+    "value": 0.243446947496071,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 41,
     "decimal": 2
@@ -962,7 +962,7 @@
   {
     "countryId": "gb",
     "date": 2021,
-    "value": 0.0896633846312131,
+    "value": 0.0897199958198973,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 121,
     "decimal": 2
@@ -1000,17 +1000,17 @@
     "decimal": 2
   },
   {
-    "countryId": "ie",
+    "countryId": "si",
     "date": 2021,
-    "value": 0.0866254308423091,
+    "value": 0.085836441613431,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 126,
     "decimal": 2
   },
   {
-    "countryId": "si",
+    "countryId": "ie",
     "date": 2021,
-    "value": 0.085836441613431,
+    "value": 0.0853131295145272,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 127,
     "decimal": 2
@@ -1410,7 +1410,7 @@
   {
     "countryId": "mt",
     "date": 2021,
-    "value": 0.0150423500007714,
+    "value": 0.0150535559201004,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 177,
     "decimal": 2
@@ -1426,7 +1426,7 @@
   {
     "countryId": "me",
     "date": 2021,
-    "value": 0.0143731296763139,
+    "value": 0.0142387925503917,
     "indicatorId": "ag-lnd-arbl-ha-pc",
     "rank": 179,
     "decimal": 2

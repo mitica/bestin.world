@@ -60,12 +60,6 @@
     "type": "min"
   },
   {
-    "indicatorId": "ic-frm-metg-zs",
-    "value": 1.9,
-    "date": 2023,
-    "type": "min"
-  },
-  {
     "indicatorId": "ms-mil-xprt-kd",
     "value": 1000000,
     "date": 2019,
@@ -85,7 +79,7 @@
   },
   {
     "indicatorId": "sg-tim-uwrk-fe",
-    "value": 27.76825,
+    "value": 24.21405,
     "date": 2019,
     "type": "max"
   },
@@ -100,5 +94,11 @@
     "value": 62.7322293455989,
     "date": 2022,
     "type": "max"
+  },
+  {
+    "indicatorId": "ic-frm-cdp-zs",
+    "value": 3.986961365,
+    "date": 2023,
+    "type": "min"
   }
 ]

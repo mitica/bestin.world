@@ -24,6 +24,12 @@
     "type": "min"
   },
   {
+    "indicatorId": "ie-ppn-engy-cd",
+    "value": 1000000,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "it-net-user-fe-zs",
     "value": 1.49482,
     "date": 2017,
@@ -43,8 +49,14 @@
   },
   {
     "indicatorId": "nv-agr-empl-kd",
-    "value": 216.180228453932,
+    "value": 212.529453658282,
     "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "nv-mnf-txtl-zs-un",
+    "value": 0.608553558258707,
+    "date": 2015,
     "type": "min"
   },
   {
@@ -61,49 +73,49 @@
   },
   {
     "indicatorId": "ny-gdp-pcap-cd",
-    "value": 193.007145564804,
-    "date": 2023,
+    "value": 153.930217854023,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-pcap-kd",
-    "value": 253.530723439042,
-    "date": 2023,
+    "value": 255.598395837897,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-pcap-pp-cd",
-    "value": 919.906646235639,
-    "date": 2023,
+    "value": 949.834613118208,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-pcap-pp-kd",
-    "value": 828.861074309521,
-    "date": 2023,
+    "value": 835.620859248356,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gnp-pcap-cd",
-    "value": 220,
-    "date": 2023,
+    "value": 190,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gnp-pcap-kd",
-    "value": 254.204327785401,
+    "value": 264.196885261793,
     "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "ny-gnp-pcap-pp-cd",
-    "value": 920,
-    "date": 2023,
+    "value": 950,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "ny-gnp-pcap-pp-kd",
-    "value": 830.625366525664,
+    "value": 851.962370060218,
     "date": 2023,
     "type": "min"
   },
@@ -175,8 +187,8 @@
   },
   {
     "indicatorId": "sl-gdp-pcap-em-kd",
-    "value": 1940.37316325516,
-    "date": 2023,
+    "value": 1939.71520646709,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -210,9 +222,15 @@
     "type": "min"
   },
   {
-    "indicatorId": "sp-pop-5559-fe-5y",
-    "value": 1.77747215861876,
-    "date": 2023,
-    "type": "min"
+    "indicatorId": "sh-sta-stnt-me-fe-zs",
+    "value": 52,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sh-sta-stnt-me-ma-zs",
+    "value": 58.5,
+    "date": 2024,
+    "type": "max"
   }
 ]
