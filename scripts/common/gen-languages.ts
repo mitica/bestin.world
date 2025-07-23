@@ -1,9 +1,9 @@
-import { writeFile } from "fs/promises";
 import type { LanguageInfo } from "../../src/content/common/types";
-
 import languages from "../../data/languages.json";
+import { saveFileIfChanged } from "./helpers";
+import { fileURLToPath } from "url";
 
-async function gen() {
+export async function gen() {
   const result: LanguageInfo[] = [];
 
   for (const item of languages) {
@@ -20,7 +20,11 @@ async function gen() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/languages.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/languages.json", content);
 }
 
-gen().then(() => console.log("Languages generated successfully"));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  gen();
+}

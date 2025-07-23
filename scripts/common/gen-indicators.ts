@@ -1,10 +1,10 @@
-import { writeFile } from "fs/promises";
 import type { IndicatorInfo } from "../../src/content/common/types";
 import wbIndicators from "../../data/wb-indicators.json";
 import hdrIndicators from "../../data/hdr-indicators.json";
 import { toTopicId } from "../../src/utils";
-import { getIndicators } from "./helpers";
+import { getIndicators, saveFileIfChanged } from "./helpers";
 import { aiEnrichIndicators } from "../ai/ai-enrich-indicators";
+import { fileURLToPath } from "url";
 
 async function genWB() {
   const result: IndicatorInfo[] = [];
@@ -34,7 +34,7 @@ async function genWB() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/indicators.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/indicators.json", content);
 }
 
 const hdrIndicatorToCategories: Record<string, string[]> = {
@@ -96,7 +96,7 @@ async function genHDR() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/indicators.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/indicators.json", content);
 }
 
 async function enrich() {
@@ -138,13 +138,17 @@ async function enrich() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/indicators.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/indicators.json", content);
 }
 
-async function generate() {
+export async function gen() {
   await genWB();
   await genHDR();
   await enrich();
 }
 
-generate().then(() => console.log("Indicators generated successfully"));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  gen();
+}

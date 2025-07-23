@@ -4,11 +4,15 @@ import type {
   IndicatorInfo,
   InsightInfo
 } from "../../src/content/common/types";
-import { getCountries, getIndicators } from "../common/helpers";
-import { readFile, writeFile } from "fs/promises";
+import {
+  getCountries,
+  getIndicators,
+  saveFileIfChanged
+} from "../common/helpers";
+import { readFile } from "fs/promises";
 import { getCountryInsights } from "./ai-get-country-insights";
 import { fileURLToPath } from "url";
-import { createFolderIfNotExists, fileExists } from "../../src/utils";
+import { createFolderIfNotExists } from "../../src/utils";
 
 const getValues = async (country: string) => {
   try {
@@ -43,7 +47,7 @@ const getInsights = async (
         value: value.value,
         year: value.date,
         wbid: indicator.idWorldBank,
-        hdrid: indicator.idHDR,
+        hdrid: indicator.idHDR
       };
     })
   });
@@ -99,7 +103,7 @@ export async function generate() {
     const values = await getValues(country.id);
     insights = insights || (await getInsights(country, indicators, values));
     await createFolderIfNotExists(`src/content/country/${country.id}`);
-    await writeFile(fileName, JSON.stringify(insights, null, 2), "utf-8");
+    await saveFileIfChanged(fileName, JSON.stringify(insights, null, 2));
     console.log(
       `Generated insights for ${country.name} (${country.id}): ${insights.length} insights`
     );

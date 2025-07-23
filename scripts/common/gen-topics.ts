@@ -1,9 +1,10 @@
-import { writeFile } from "fs/promises";
 import type { TopicInfo } from "../../src/content/common/types";
 import wbIndicators from "../../data/wb-indicators.json";
 import { toTopicId } from "../../src/utils";
+import { saveFileIfChanged } from "./helpers";
+import { fileURLToPath } from "url";
 
-async function gen() {
+export async function gen() {
   const result: TopicInfo[] = [];
 
   const ids = new Set<string>();
@@ -22,7 +23,12 @@ async function gen() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/topics.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/topics.json", content);
 }
 
-gen().then(() => console.log("Topics generated successfully"));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  gen();
+}
+

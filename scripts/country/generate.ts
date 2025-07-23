@@ -1,9 +1,12 @@
 import * as countryTop from "./country-top";
+import { fileURLToPath } from "url";
 
-async function start() {
+export async function start() {
   await countryTop.generate();
 }
 
-start()
-  .then(() => console.log("Data generated successfully"))
-  .catch((error) => console.error("Error generating data:", error));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  start();
+}

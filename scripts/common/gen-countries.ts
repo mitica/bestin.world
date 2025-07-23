@@ -1,10 +1,8 @@
-import { writeFile } from "fs/promises";
 import type {
   CountryInfo,
   CurrencyInfo,
   LanguageInfo
 } from "../../src/content/common/types";
-
 import countries from "../../data/countries.json";
 import languagesContent from "../../src/content/common/languages.json";
 import {
@@ -12,8 +10,10 @@ import {
   getCountryContinent,
   slugify
 } from "../../src/utils";
+import { saveFileIfChanged } from "./helpers";
+import { fileURLToPath } from "url";
 
-async function gen() {
+export async function gen() {
   const result: CountryInfo[] = [];
   const allLanguages: Record<string, LanguageInfo> = Object.fromEntries(
     languagesContent.map((value) => [(value.cca3 || "").toLowerCase(), value])
@@ -58,7 +58,11 @@ async function gen() {
   }
 
   const content = JSON.stringify(result, null, 2);
-  await writeFile("src/content/common/countries.json", content, "utf-8");
+  await saveFileIfChanged("src/content/common/countries.json", content);
 }
 
-gen().then(() => console.log("Countries generated successfully"));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  gen();
+}

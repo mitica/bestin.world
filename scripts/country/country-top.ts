@@ -1,8 +1,8 @@
-import { writeFile } from "fs/promises";
 import {
   getCountries,
   getIndicators,
-  getLastIndicatorData
+  getLastIndicatorData,
+  saveFileIfChanged
 } from "../common/helpers";
 import type { IndicatorCountryValue } from "../../src/content/common/types";
 import { createFolderIfNotExists } from "../../src/utils";
@@ -46,7 +46,7 @@ async function genTopPerCountryAndIndicator() {
   for (const [countryId, values] of countryTops) {
     const fileName = `src/content/country/${countryId}/top.json`;
     await createFolderIfNotExists(`src/content/country/${countryId}`);
-    await writeFile(
+    await saveFileIfChanged(
       fileName,
       JSON.stringify(
         values.map((item) => ({

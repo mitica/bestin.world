@@ -1,6 +1,7 @@
-import { readFile, writeFile } from "fs/promises";
+import { readFile } from "fs/promises";
 import { delay } from "../src/utils";
-import { getCountries } from "./common/helpers";
+import { getCountries, saveFileIfChanged } from "./common/helpers";
+import { fileURLToPath } from "url";
 
 async function pullCountries() {
   const response = await fetch(
@@ -10,11 +11,7 @@ async function pullCountries() {
     throw new Error(`Failed to fetch countries data: ${response.statusText}`);
   }
   const data = await response.json();
-  await writeFile(
-    "data/countries.json",
-    JSON.stringify(data, null, 2),
-    "utf-8"
-  );
+  await saveFileIfChanged("data/countries.json", JSON.stringify(data, null, 2));
 }
 
 async function pullLanguages() {
@@ -27,11 +24,7 @@ async function pullLanguages() {
   const data = JSON.parse(
     (await response.text()).replace("module.exports = ", "").replace("];", "]")
   );
-  await writeFile(
-    "data/languages.json",
-    JSON.stringify(data, null, 2),
-    "utf-8"
-  );
+  await saveFileIfChanged("data/languages.json", JSON.stringify(data, null, 2));
 }
 
 async function wbIndicators() {
@@ -42,10 +35,9 @@ async function wbIndicators() {
     throw new Error(`Failed to fetch languages data: ${response.statusText}`);
   }
   const data = await response.json();
-  await writeFile(
+  await saveFileIfChanged(
     "data/wb-indicators.json",
-    JSON.stringify(data[1], null, 2),
-    "utf-8"
+    JSON.stringify(data[1], null, 2)
   );
 }
 
@@ -63,10 +55,9 @@ async function pullWorldBankValues() {
       throw new Error(`Failed to fetch indicator data: ${response.statusText}`);
     }
     const data = await response.json();
-    await writeFile(
+    await saveFileIfChanged(
       `data/wb/wb-indicator-${indicator.idWorldBank}.json`,
-      JSON.stringify(data[1], null, 2),
-      "utf-8"
+      JSON.stringify(data[1], null, 2)
     );
     await new Promise((resolve) => setTimeout(resolve, 1000)); // To avoid hitting API rate limits
   }
@@ -155,7 +146,7 @@ async function hdrData() {
         }
         return it;
       });
-      await writeFile(
+      await saveFileIfChanged(
         "data/hdr-indicators.json",
         JSON.stringify(
           indicators.map((item) => ({
@@ -165,8 +156,7 @@ async function hdrData() {
           })),
           null,
           2
-        ),
-        "utf-8"
+        )
       );
     }
     result.push(
@@ -177,21 +167,30 @@ async function hdrData() {
       }))
     );
   }
-  await writeFile(
+  await saveFileIfChanged(
     "data/hdr-data.json",
-    JSON.stringify(result, null, 2),
-    "utf-8"
+    JSON.stringify(
+      result.filter((it) =>
+        countryIds.includes(it.countryIsoCode.trim().toLowerCase())
+      ),
+      null,
+      2
+    )
   );
 }
 
-async function pull() {
-  // await pullCountries();
-  // await pullLanguages();
-  // await wbIndicators();
-  // await pullWorldBankValues();
+export async function pullRawData() {
+  await pullCountries();
+  await pullLanguages();
+  await wbIndicators();
+  await pullWorldBankValues();
   await hdrData();
 }
 
-pull()
-  .then(() => console.log("Countries data pulled successfully"))
-  .catch((error) => console.error("Error pulling countries data:", error));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  pullRawData()
+    .then(() => console.log("Countries data pulled successfully"))
+    .catch((error) => console.error("Error pulling countries data:", error));
+}

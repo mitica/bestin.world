@@ -1,10 +1,18 @@
-async function start() {
-  await import("./gen-languages");
-  await import("./gen-countries");
-  await import("./gen-indicators");
-  await import("./gen-topics");
+import { fileURLToPath } from "url";
+import * as genCountries from "./gen-countries";
+import * as genLanguages from "./gen-languages";
+import * as genIndicators from "./gen-indicators";
+import * as genTopics from "./gen-topics";
+
+export async function start() {
+  await genLanguages.gen();
+  await genCountries.gen();
+  await genIndicators.gen();
+  await genTopics.gen();
 }
 
-start()
-  .then(() => console.log("Data generated successfully"))
-  .catch((error) => console.error("Error generating data:", error));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  start();
+}

@@ -4,7 +4,6 @@ import fs from "fs/promises";
 import {
   getCountries,
   getIndicators,
-  readCountryInsights,
   readIndicatorRanks
 } from "../common/helpers";
 import { localesProvider } from "../../src/locales";

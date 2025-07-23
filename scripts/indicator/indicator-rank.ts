@@ -1,13 +1,14 @@
-import { writeFile } from "fs/promises";
 import {
   getCountries,
   getIndicators,
-  getLastIndicatorData
+  getLastIndicatorData,
+  saveFileIfChanged
 } from "../common/helpers";
 import type { IndicatorCountryRankValue } from "../../src/content/common/types";
 import { createFolderIfNotExists, isNumber } from "../../src/utils";
+import { fileURLToPath } from "url";
 
-async function generate() {
+export async function generate() {
   const indicators = await getIndicators();
   const countries = await getCountries();
   const countryIds = countries.map((country) => country.id);
@@ -44,11 +45,14 @@ async function generate() {
 
     const fileName = `src/content/indicator/${indicator.id}/rank.json`;
     await createFolderIfNotExists(`src/content/indicator/${indicator.id}`);
-    await writeFile(fileName, JSON.stringify(result, null, 2));
+    await saveFileIfChanged(fileName, JSON.stringify(result, null, 2));
     console.log(`Generated ${fileName}`);
   }
 }
 
-generate()
-  .then(() => console.log("Done generating indicator ranks."))
-  .catch((error) => console.error("Error generating indicator ranks:", error));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  generate();
+}
+

@@ -1,4 +1,4 @@
-import { glob, readFile } from "fs/promises";
+import { glob, readFile, writeFile } from "fs/promises";
 import type {
   CountryInfo,
   IndicatorCountryRankValue,
@@ -209,4 +209,22 @@ export const getLastIndicatorData = async (indicator: IndicatorInfo) => {
   } else {
     throw new Error("Unknown indicator type");
   }
+};
+
+export const saveFileIfChanged = async (
+  filePath: string,
+  content: string,
+  encoding: BufferEncoding = "utf-8"
+) => {
+  try {
+    const existingContent = await readFile(filePath, encoding);
+    if (existingContent === content) {
+      console.log(`No changes in ${filePath}, skipping write.`);
+      return;
+    }
+  } catch (error) {
+    // File does not exist or other read error, proceed to write
+  }
+  await writeFile(filePath, content, encoding);
+  console.log(`File ${filePath} updated.`);
 };

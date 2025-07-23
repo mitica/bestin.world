@@ -1,7 +1,12 @@
-async function start() {
-  await import("./indicator-rank");
+import { fileURLToPath } from "url";
+import * as indicatorRank from "./indicator-rank";
+
+export async function start() {
+  await indicatorRank.generate();
 }
 
-start()
-  .then(() => console.log("Data generated successfully"))
-  .catch((error) => console.error("Error generating data:", error));
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  start();
+}
