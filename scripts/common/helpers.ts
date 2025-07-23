@@ -9,6 +9,7 @@ import type {
   TopicInfo
 } from "../../src/content/common/types";
 import twemoji from "twemoji";
+import { fileExists } from "../../src/utils";
 
 export const getEmojiSvg = async (emoji: string) => {
   const code = twemoji.convert.toCodePoint(emoji);
@@ -95,15 +96,17 @@ const wbIndicators: Record<string, IndicatorCountryValue[]> = {};
 
 export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
   if (wbIndicators[indicator.id]) return wbIndicators[indicator.id];
+  const filePath = `data/wb/wb-indicator-${indicator.idWorldBank}.json`;
+  if (!(await fileExists(filePath))) {
+    console.warn(`File not found: ${filePath}`);
+    return [];
+  }
   const data: {
     country: { id: string };
     date: string;
     value: string | null;
     decimal: number;
-  }[] = await readFile(
-    `data/wb/wb-indicator-${indicator.idWorldBank}.json`,
-    "utf-8"
-  ).then((data) => JSON.parse(data));
+  }[] = await readFile(filePath, "utf-8").then((data) => JSON.parse(data));
   wbIndicators[indicator.id] = data
     .filter((item) => !!item.date && !!item.value && item.value !== "null")
     .map<IndicatorCountryValue>((item) => ({

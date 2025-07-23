@@ -11,6 +11,11 @@ async function pullCountries() {
     throw new Error(`Failed to fetch countries data: ${response.statusText}`);
   }
   const data = await response.json();
+  data.forEach((country: any) => {
+    if (country.name.common === "Türkiye") {
+      country.name.common = "Turkey";
+    }
+  });
   await saveFileIfChanged("data/countries.json", JSON.stringify(data, null, 2));
 }
 
@@ -41,25 +46,52 @@ async function wbIndicators() {
   );
 }
 
+let ERROR_COUNT = 0;
+const fetchWorldBankIndicator = async (indicatorId: string, iterator = 0) => {
+  const year = new Date().getFullYear();
+  const response = await fetch(
+    `https://api.worldbank.org/v2/country/all/indicator/${indicatorId}?date=2000:${year}&format=json&per_page=20000`
+  );
+  if (!response.ok) {
+    console.error(await response.text());
+    if (iterator < 3) {
+      console.warn(`Retrying fetch for ${indicatorId}...`);
+      await delay(2000);
+      return fetchWorldBankIndicator(indicatorId, iterator + 1);
+    }
+    ERROR_COUNT++;
+    if (ERROR_COUNT > 5) {
+      throw new Error(`Failed to fetch indicator data: ${response.statusText}`);
+    }
+    return [];
+  }
+  const data = await response.json();
+
+  return data[1] || [];
+};
+
 async function pullWorldBankValues() {
   const indicators = await readFile(
     "src/content/common/indicators.json",
     "utf-8"
   ).then((data) => JSON.parse(data));
-  const year = new Date().getFullYear();
+  const startIndicator: string = process.env.START_INDICATOR || "";
+  let started = startIndicator === "";
   for (const indicator of indicators) {
-    const response = await fetch(
-      `https://api.worldbank.org/v2/country/all/indicator/${indicator.idWorldBank}?date=2000:${year}&format=json&per_page=20000`
-    );
-    if (!response.ok) {
-      throw new Error(`Failed to fetch indicator data: ${response.statusText}`);
+    if (indicator.idWorldBank === startIndicator) started = true;
+    if (!started) continue;
+    if (!indicator.idWorldBank) continue;
+
+    const data = await fetchWorldBankIndicator(indicator.idWorldBank);
+    if (data.length === 0) {
+      console.warn(`No data found for indicator ${indicator.idWorldBank}`);
+      continue;
     }
-    const data = await response.json();
     await saveFileIfChanged(
       `data/wb/wb-indicator-${indicator.idWorldBank}.json`,
-      JSON.stringify(data[1], null, 2)
+      JSON.stringify(data, null, 2)
     );
-    await new Promise((resolve) => setTimeout(resolve, 1000)); // To avoid hitting API rate limits
+    await delay(1000);
   }
 }
 
@@ -132,20 +164,22 @@ async function hdrData() {
         )
     );
     if (result.length === 0) {
-      const indicators = validIndicatorCodes.map((code) => {
-        const item = list.find((i) => i.indicatorCode === code);
-        const it = { ...item } as any;
-        delete it.note;
-        delete it.countryIsoCode;
-        delete it.value;
-        delete it.country;
-        delete it.year;
-        it.name = it.index;
-        if (hdrIndicatorsMap[code]?.startsWith("mpi-")) {
-          it.name = [it.name, it.indicator].join(", ");
-        }
-        return it;
-      });
+      const indicators = validIndicatorCodes
+        .map((code) => {
+          const item = list.find((i) => i.indicatorCode === code);
+          const it = { ...item } as any;
+          delete it.note;
+          delete it.countryIsoCode;
+          delete it.value;
+          delete it.country;
+          delete it.year;
+          it.name = it.index;
+          if (hdrIndicatorsMap[code]?.startsWith("mpi-")) {
+            it.name = [it.name, it.indicator].join(", ");
+          }
+          return it;
+        })
+        .filter((it) => !!it.name);
       await saveFileIfChanged(
         "data/hdr-indicators.json",
         JSON.stringify(
@@ -190,7 +224,5 @@ export async function pullRawData() {
 const __filename = fileURLToPath(import.meta.url);
 
 if (process.argv[1] === __filename) {
-  pullRawData()
-    .then(() => console.log("Countries data pulled successfully"))
-    .catch((error) => console.error("Error pulling countries data:", error));
+  pullRawData();
 }
