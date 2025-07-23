@@ -281,15 +281,24 @@ export async function generateImage(id1: string, id2: string) {
 }
 
 export async function generateImages() {
+  const promises: Promise<void>[] = [];
   for (const country of countries) {
-    const codes = getVsCountryCodes(countries, country);
+    const codes = getVsCountryCodes(countries, country, false);
     for (const code of codes) {
       if (code !== country.id) {
-        await generateImage(country.id, code);
-        console.log(`Generated image for ${country.id} vs ${code}`);
+        promises.push(
+          generateImage(country.id, code).then(() => {
+            console.log(`Generated image for ${country.id} vs ${code}`);
+          })
+        );
+      }
+      if (promises.length >= 4) {
+        await Promise.all(promises);
+        promises.length = 0;
       }
     }
   }
+  await Promise.all(promises);
 }
 
 const __filename = fileURLToPath(import.meta.url);

@@ -14,8 +14,13 @@ import { fileExists } from "../../src/utils";
 export const getEmojiSvg = async (emoji: string) => {
   const code = twemoji.convert.toCodePoint(emoji);
   const url = `https://cdn.jsdelivr.net/gh/twitter/twemoji/assets/svg/${code}.svg`;
-  const res = await fetch(url);
-  return await res.text();
+  try {
+    const res = await fetch(url);
+    return await res.text();
+  } catch (error) {
+    console.error(`Error fetching emoji SVG: ${error}`);
+    return null;
+  }
 };
 
 export const readCountryInsights = async (country = "*") => {

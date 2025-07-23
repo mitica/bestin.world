@@ -111,7 +111,8 @@ export const delay = (ms: number): Promise<void> =>
 
 export const getVsCountryCodes = (
   list: { id: string }[],
-  country: { id: string; borderIds: string[] }
+  country: { id: string; borderIds: string[] },
+  continent = true
 ) => {
   const countryId = country.id;
   // if (1 === 1) return [];
@@ -119,7 +120,9 @@ export const getVsCountryCodes = (
     TOP_COUNTRIES.includes(countryId)
       ? list.map((c) => c.id)
       : TOP_COUNTRIES.concat(country.borderIds).concat(
-          getCountriesByContinent(getCountryContinent(countryId)!)
+          continent
+            ? getCountriesByContinent(getCountryContinent(countryId)!)
+            : []
         )
   ).filter((c) => c !== countryId && list.find((cc) => cc.id === c));
 };
