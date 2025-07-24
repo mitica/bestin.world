@@ -20,9 +20,10 @@ export async function gen() {
   );
 
   for (const item of countries) {
-    if (!item.independent) continue;
-    const continentCode = getCountryContinent(item.cca2);
     const id = item.cca2.toLowerCase();
+    if (!item.independent) continue;
+    if (["va"].includes(id)) continue;
+    const continentCode = getCountryContinent(item.cca2);
     const code = item.cca2.toLowerCase();
     result.push({
       id,

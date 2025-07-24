@@ -86,3 +86,10 @@ export interface TopicInfo {
   id: string;
   idWorldBank?: string;
 }
+
+export interface CountrySummary {
+  countryId: string;
+  rank: number;
+  points: number;
+  indicatorCount: number;
+}

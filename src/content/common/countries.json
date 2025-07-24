@@ -8751,55 +8751,6 @@
     ]
   },
   {
-    "id": "va",
-    "slug": "vatican-city",
-    "name": "Vatican City",
-    "commonName": "Vatican City",
-    "officialName": "Vatican City State",
-    "code": "va",
-    "cca2": "VA",
-    "ccn3": "336",
-    "cca3": "VAT",
-    "cioc": "",
-    "continents": [
-      {
-        "id": "eu",
-        "name": "Europe",
-        "cca2": "eu",
-        "code": "eu"
-      }
-    ],
-    "currencies": [
-      {
-        "id": "eur",
-        "name": "Euro",
-        "code": "EUR",
-        "commonName": "Euro",
-        "officialName": "Euro",
-        "symbol": "€"
-      }
-    ],
-    "languages": [
-      {
-        "id": "it",
-        "code": "it",
-        "name": "Italian",
-        "native": "Italiano",
-        "cca3": "ita"
-      },
-      {
-        "id": "la",
-        "code": "la",
-        "name": "Latin",
-        "native": "Latina",
-        "cca3": "lat"
-      }
-    ],
-    "borderIds": [
-      "it"
-    ]
-  },
-  {
     "id": "vc",
     "slug": "saint-vincent-and-the-grenadines",
     "name": "Saint Vincent and the Grenadines",

@@ -45,6 +45,16 @@ const topics = defineCollection({
   })
 });
 
+const countrySummaries = defineCollection({
+  loader: file("src/content/country/summary.json"),
+  schema: z.object({
+    countryId: z.string(),
+    rank: z.number().int(),
+    points: z.number().int(),
+    indicatorCount: z.number().int()
+  })
+});
+
 const countryTops = defineCollection({
   loader: glob({
     pattern: "src/content/country/*/top.json",
@@ -105,5 +115,6 @@ export const collections = {
   countryTops,
   countryInsights,
   topics,
-  indicatorRanks
+  indicatorRanks,
+  countrySummaries
 };
