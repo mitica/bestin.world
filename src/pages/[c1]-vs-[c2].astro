@@ -15,6 +15,7 @@ import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
 import { localesProvider } from "../locales";
 import { compareCountryIndicators } from "../helpers/country-vs-country-indicators";
 import ArrowRightIcon from "../components/shared/ArrowRightIcon.astro";
+import CountryVsCountryChart from "../components/CountryVsCountryChart.astro";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -72,6 +73,13 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
   imageUrl={`/${country.id}-vs-${vsCountry.id}.png`}
 >
   <div class="flex flex-col gap-4">
+    <CountryVsCountryChart
+      data={[
+        { country, count: list1.length },
+        { country: vsCountry, count: list2.length }
+      ]}
+    />
+    <br />
     <h2>{title}</h2>
     <p class="text-lg">
       <a class="a font-medium" href={`/${country.slug}/`}

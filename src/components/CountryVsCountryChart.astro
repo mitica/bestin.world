@@ -1,0 +1,58 @@
+---
+import type { CountryInfo } from "../content/common/types";
+import { countryCodeToFlagEmoji } from "../utils";
+import ProgressBar from "./shared/ProgressBar.astro";
+
+const { data } = Astro.props as {
+  data: { country: CountryInfo; count: number }[];
+};
+const [country1, country2] = data;
+const total = country1.count + country2.count;
+
+const getColor = (count: number) => {
+  if (count === 0) return "bg-gray-200";
+  if (count < total / 2) return "bg-yellow-400";
+  return "bg-green-500";
+};
+---
+
+<div class="grid grid-cols-2 gap-6 items-start">
+  <div class="flex flex-col gap-2 items-center items-end">
+    <h3 class="flex gap-2 items-center w-full">
+      <span class="truncate text-right flex-1">
+        {country1.country.commonName || country1.country.name}
+      </span>
+      <span class="text-3xl">{countryCodeToFlagEmoji(country1.country.id)}</span
+      >
+    </h3>
+    <div class="flex gap-2 w-full items-center">
+      <span class="flex-1">
+        <ProgressBar
+          percentage={(country1.count / total) * 100}
+          className="p-1 flex justify-end h-7"
+          barClassName={getColor(country1.count)}
+        />
+      </span>
+      <span class="font-bold text-4xl">{country1.count}</span>
+    </div>
+  </div>
+  <div class="flex flex-col gap-2 items-center items-start">
+    <h3 class="flex gap-2 items-center w-full">
+      <span class="text-3xl">{countryCodeToFlagEmoji(country2.country.id)}</span
+      >
+      <span class="truncate">
+        {country2.country.commonName || country2.country.name}
+      </span>
+    </h3>
+    <div class="flex gap-2 w-full items-center">
+      <span class="font-bold text-4xl">{country2.count}</span>
+      <span class="flex-1">
+        <ProgressBar
+          percentage={(country2.count / total) * 100}
+          className="p-1 h-7"
+          barClassName={getColor(country2.count)}
+        />
+      </span>
+    </div>
+  </div>
+</div>

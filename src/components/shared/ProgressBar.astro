@@ -1,0 +1,17 @@
+---
+import { classNames } from "../../utils";
+
+const { className, barClassName, percentage } = Astro.props as {
+  className?: string;
+  barClassName?: string;
+  percentage: number;
+};
+---
+
+<div class={classNames(`relative w-full h-4 bg-gray-100 rounded`, className)}>
+  <div
+    class={classNames(`h-full bg-blue-500 rounded`, barClassName)}
+    style={`width: ${percentage}%;`}
+  >
+  </div>
+</div>
