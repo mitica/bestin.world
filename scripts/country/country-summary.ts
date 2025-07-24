@@ -16,7 +16,7 @@ export async function generate() {
   const countries = await getCountries();
   const ranks = await readIndicatorRanks();
   const results: CountrySummary[] = [];
-  const fileName = `src/content/country/summary.json`;
+  const fileName = `src/content/common/country-summary.json`;
   // const getIndicator = (id: string) => indicators.find((it) => it.id === id)!;
   for (const country of countries) {
     const countryRanks = ranks.filter(

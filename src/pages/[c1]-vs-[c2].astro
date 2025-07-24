@@ -72,7 +72,7 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
   canonical={canonical}
   imageUrl={`/${country.id}-vs-${vsCountry.id}.png`}
 >
-  <div class="flex flex-col gap-4">
+  <div class="flex flex-col gap-4 text-center">
     <CountryVsCountryChart
       data={[
         { country, count: list1.length },
@@ -116,7 +116,10 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
             );
           };
 
-          const name = indicator.name;
+          const name =
+            indicator.name.length > 50
+              ? indicator.commonName || indicator.name
+              : indicator.name;
           const emoji = indicator.emoji || null;
 
           return (
@@ -126,7 +129,7 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
                 {name}
                 {unit ? ` (${unit})` : null}
               </h5>
-              <div class="flex items-center gap-2 pb-4">
+              <div class="flex items-center gap-2 pb-4 justify-center">
                 {buildInfo(
                   value1,
                   <ArrowUpIcon className="h-4 w-4 text-green-500" />,
@@ -140,14 +143,18 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
                   "flex-row-reverse"
                 )}
               </div>
-              <p class="text-secondary text-sm">{indicator.valueInfo}</p>
+              <p class="text-secondary text-sm line-clamp-2">
+                {indicator.valueInfo}
+              </p>
             </li>
           );
         })
       }
     </ul>
     <p>
-      <a class="a flex gap-2" href={`/${vsCountry.id}-vs-${country.id}/`}
+      <a
+        class="a flex gap-2 justify-center"
+        href={`/${vsCountry.id}-vs-${country.id}/`}
         ><ArrowRightIcon className="h-4 w-4" />
         <span
           >{

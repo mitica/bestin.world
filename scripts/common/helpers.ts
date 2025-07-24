@@ -1,6 +1,7 @@
 import { glob, readFile, writeFile } from "fs/promises";
 import type {
   CountryInfo,
+  CountrySummary,
   IndicatorCountryRankValue,
   IndicatorCountryValue,
   IndicatorInfo,
@@ -64,6 +65,17 @@ export const getCountries = async () => {
     (data) => JSON.parse(data)
   );
   return countries;
+};
+
+let countrySummary: CountrySummary[];
+
+export const getCountrySummary = async (fresh = false) => {
+  if (countrySummary && !fresh) return countrySummary;
+  countrySummary = await readFile(
+    "src/content/common/country-summary.json",
+    "utf-8"
+  ).then((data) => JSON.parse(data));
+  return countrySummary;
 };
 
 let indicators: IndicatorInfo[];

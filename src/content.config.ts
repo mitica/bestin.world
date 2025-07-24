@@ -8,6 +8,16 @@ const continentSchema = z.object({
   code: z.string().length(2)
 });
 
+// const countrySummaries = defineCollection({
+//   loader: file("src/content/common/country-summary.json"),
+//   schema: z.object({
+//     countryId: z.string(),
+//     rank: z.number().int(),
+//     points: z.number().int(),
+//     indicatorCount: z.number().int()
+//   })
+// });
+
 const countries = defineCollection({
   loader: file("src/content/common/countries.json"),
   schema: z.object({
@@ -42,16 +52,6 @@ const topics = defineCollection({
   schema: z.object({
     id: z.string(),
     name: z.string()
-  })
-});
-
-const countrySummaries = defineCollection({
-  loader: file("src/content/country/summary.json"),
-  schema: z.object({
-    countryId: z.string(),
-    rank: z.number().int(),
-    points: z.number().int(),
-    indicatorCount: z.number().int()
   })
 });
 
@@ -115,6 +115,6 @@ export const collections = {
   countryTops,
   countryInsights,
   topics,
-  indicatorRanks,
-  countrySummaries
+  indicatorRanks
+  // countrySummaries
 };

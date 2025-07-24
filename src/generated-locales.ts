@@ -92,6 +92,10 @@ export class LocalizyLocales {
     vs() {
         return this.v('vs');
     }
+
+    country_summary_rank_info(_p1: { country: string; rank: number; total: number; indicatorCount: number }) {
+        return this.v('country_summary_rank_info', Array.from(arguments));
+    }
 }
 
 export type LocalesKey = 'home_page_title'
@@ -107,4 +111,5 @@ export type LocalesKey = 'home_page_title'
     | 'country_folling_behind'
     | 'country_folling_behind_info'
     | 'data_source_info'
-    | 'vs';
+    | 'vs'
+    | 'country_summary_rank_info';

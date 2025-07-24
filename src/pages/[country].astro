@@ -1,10 +1,11 @@
 ---
 import InsightList from "../components/InsightList.astro";
-import { TOP_COUNTRIES } from "../config";
+import { MAIN_INDICATOR_IDS, TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 import { countryCodeToFlagEmoji, uniq } from "../utils";
 import { localesProvider } from "../locales";
+import { getCountrySummary } from "../../scripts/common/helpers";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -15,11 +16,18 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.props;
-const [tops, topics, countries] = await Promise.all([
+const [tops, topics, countries, countrySummaries] = await Promise.all([
   getEntry("countryInsights", country.id)?.then((t) => t.data) || [],
   getCollection("topics"),
-  getCollection("countries")
+  getCollection("countries"),
+  getCountrySummary()
 ]);
+
+const countrySummary = countrySummaries.find(
+  (it) => it.countryId === country.id
+);
+
+const topNumber = countrySummaries.length;
 
 const getTopic = (id: string) => {
   return topics.find((topic) => topic.id === id)?.data;
@@ -44,6 +52,8 @@ const worstIn = tops
     topics: item.topicIds.map(getTopic)
   }));
 
+const name = country.name;
+
 const locales = localesProvider.lang("en");
 const title = locales.country_page_title(country.name);
 const description = locales.country_page_description(country.name);
@@ -52,6 +62,10 @@ const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES))
   .filter((id) => id !== country.id)
   .map((id) => getCountry(id)!)
   .filter(Boolean);
+let rankColor =
+  countrySummary && countrySummary.rank <= 50 ? "text-good" : "text-blue-500";
+if (countrySummary && topNumber - countrySummary.rank <= 50)
+  rankColor = "text-bad";
 ---
 
 <Layout
@@ -60,26 +74,62 @@ const compareCountries = uniq(country.borderIds.concat(TOP_COUNTRIES))
   canonical={canonical}
   imageUrl={`/${country.slug}.png`}
 >
-  <div class="flex flex-col gap-6">
-    <div>
-      <h2 class="text-good">{locales.country_in_the_lead(country.name)} 👑</h2>
-      <p class="secondary">
-        {locales.country_in_the_lead_info(country.name, bestIn.length)}
-      </p>
-    </div>
-    <InsightList list={bestIn} type="GOOD" />
-    <div>
-      <h2 class="text-bad">
-        {locales.country_folling_behind(country.name)} 😭
-      </h2>
-      <p class="secondary">
-        {locales.country_folling_behind_info(country.name, worstIn.length)}
-      </p>
-    </div>
-    <InsightList list={worstIn} type="BAD" />
+  <div class="flex flex-col gap-6 text-center">
+    {
+      countrySummary && (
+        <div class="flex flex-col gap-2 items-center">
+          <h2 class="text-7xl! flex items-center gap-4 font-bold!">
+            <span class={rankColor}>{countrySummary.rank}</span>
+            <span class="text-gray-400">/</span>
+            <span>{topNumber}</span>
+          </h2>
+          <p class="secondary text-center">
+            {locales.country_summary_rank_info({
+              country: name,
+              rank: countrySummary.rank,
+              total: topNumber,
+              indicatorCount: MAIN_INDICATOR_IDS.length
+            })}
+          </p>
+        </div>
+      )
+    }
+    {
+      bestIn.length > 0 && (
+        <>
+          <div>
+            <h2 class="text-good">
+              {locales.country_in_the_lead(country.name)} 👑
+            </h2>
+            <p class="secondary">
+              {locales.country_in_the_lead_info(country.name, bestIn.length)}
+            </p>
+          </div>
+          <InsightList list={bestIn} type="GOOD" />
+        </>
+      )
+    }
+    {
+      worstIn.length > 0 && (
+        <>
+          <div>
+            <h2 class="text-bad">
+              {locales.country_folling_behind(country.name)} 😭
+            </h2>
+            <p class="secondary">
+              {locales.country_folling_behind_info(
+                country.name,
+                worstIn.length
+              )}
+            </p>
+          </div>
+          <InsightList list={worstIn} type="BAD" />
+        </>
+      )
+    }
     <div>
       <h4>Areas Where {country.name} is Better then Others</h4>
-      <ul class="flex flex-row gap-4 flex-wrap text-2xl">
+      <ul class="flex flex-row gap-4 flex-wrap text-2xl justify-center">
         {
           compareCountries.map((c) => (
             <li>

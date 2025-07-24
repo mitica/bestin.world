@@ -52,7 +52,14 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
       <slot />
     </main>
     <footer>
-      <p>© {new Date().getFullYear()} BestIn.world</p>
+      <p>
+        © BestIn.world, {
+          new Date().toLocaleDateString("en", {
+            month: "long",
+            year: "numeric"
+          })
+        }
+      </p>
       <p class="text-sm text-gray-400">{locales.data_source_info()}</p>
       <p>
         <a

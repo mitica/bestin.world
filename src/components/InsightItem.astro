@@ -11,12 +11,12 @@ const { item, topics } = Astro.props as {
   {item.emoji}
   {item.title}
 </h4>
-<p class="text-secondary">
+<p class="text-secondary line-clamp-2">
   {item.description}
 </p>
-<p class="flex flex-wrap gap-2">
+<p class="flex flex-wrap gap-2 items-center justify-center">
   {
-    topics.map((topic) => (
+    topics.slice(0, 2).map((topic) => (
       <a class="a inline-block" href={`/${topic.id}/`}>
         {topic.name}
       </a>
