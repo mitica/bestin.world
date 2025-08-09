@@ -1,6 +1,4 @@
 {
-  "home_page_title": "Countries at the Extremes",
-  "home_page_description": "Explore the best and worst countries in the world based on various metrics.",
   "country_vs_country_title": "Areas Where %s Is Better Than %s",
   "country_vs_country_description": "Discover the strengths of %s compared to %s across different metrics.",
   "topic_page_title": "%s - Best & Worst Countries",
@@ -13,5 +11,9 @@
   "country_folling_behind_info": "%s ranks last in the world on %d indicators",
   "data_source_info": "Based on World Bank & HDR data",
   "vs": "vs",
-  "country_summary_rank_info": "%(country)s is ranked %(rank)d out of %(total)d countries, based on %(indicatorCount)d indicators"
+  "country_summary_rank_info": "%(country)s is ranked %(rank)d out of %(total)d countries, based on %(indicatorCount)d indicators",
+  "best_countries_in_the_world": "Best Countries in the World",
+  "best_countries_in_the_world_description": "Explore the world’s top countries ranked by %(indicatorCount)d key indicators.",
+  "countries_at_the_extremes": "Countries at the Extremes",
+  "countries_at_the_extremes_description": "Discover the countries that are the best and worst in the world across various metrics."
 }

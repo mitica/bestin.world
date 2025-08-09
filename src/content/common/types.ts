@@ -92,4 +92,5 @@ export interface CountrySummary {
   rank: number;
   points: number;
   indicatorCount: number;
+  ranks: IndicatorCountryRankValue[];
 }

@@ -74,22 +74,27 @@ p {
   margin-bottom: 1rem;
 }
 h1 {
-  @apply text-4xl mb-4;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
 }
 h2 {
-  @apply text-3xl mb-4;
+  font-size: 1.875rem;
+  margin-bottom: 1rem;
 }
 h3 {
-  @apply text-2xl mb-4;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 h4 {
-  @apply text-xl mb-4;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
 }
 h5 {
-  @apply text-lg mb-4;
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
 }
 h6 {
-  @apply mb-4;
+  margin-bottom: 1rem;
 }
 blockquote {
   margin: 1rem 0;
@@ -131,7 +136,7 @@ footer {
 }
 
 /* Buttons */
-button, input[type="submit"], input[type="reset"] {
+/* button, input[type="submit"], input[type="reset"] {
   background-color: var(--primary-color);
   color: white;
   border: none;
@@ -142,4 +147,4 @@ button, input[type="submit"], input[type="reset"] {
 }
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: darken(var(--primary-color), 10%);
-}
+} */

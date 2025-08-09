@@ -14,7 +14,7 @@ export async function generate() {
     .filter((it) => MAIN_INDICATOR_IDS.includes(it.id))
     .map((it) => it.id);
   const countries = await getCountries();
-  const ranks = await readIndicatorRanks();
+  const ranks = await readIndicatorRanks(MAIN_INDICATOR_IDS);
   const results: CountrySummary[] = [];
   const fileName = `src/content/common/country-summary.json`;
   // const getIndicator = (id: string) => indicators.find((it) => it.id === id)!;
@@ -28,7 +28,8 @@ export async function generate() {
         countryId: country.id,
         rank: 0,
         points: countryRanks.reduce((sum, rank) => sum + rank.rank, 0),
-        indicatorCount: countryRanks.length
+        indicatorCount: countryRanks.length,
+        ranks: countryRanks.sort((a, b) => a.rank - b.rank)
       });
     }
   }

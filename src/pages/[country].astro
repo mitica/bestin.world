@@ -5,7 +5,8 @@ import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 import { countryCodeToFlagEmoji, uniq } from "../utils";
 import { localesProvider } from "../locales";
-import { getCountrySummary } from "../../scripts/common/helpers";
+import { getCountrySummary, getIndicators } from "../../scripts/common/helpers";
+import IndicatorsRankList from "../components/IndicatorsRankList.astro";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -16,12 +17,18 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.props;
-const [tops, topics, countries, countrySummaries] = await Promise.all([
-  getEntry("countryInsights", country.id)?.then((t) => t.data) || [],
-  getCollection("topics"),
-  getCollection("countries"),
-  getCountrySummary()
-]);
+const [tops, topics, countries, countrySummaries, indicators] =
+  await Promise.all([
+    getEntry("countryInsights", country.id)?.then((t) => t.data) || [],
+    getCollection("topics"),
+    getCollection("countries"),
+    getCountrySummary(),
+    getIndicators()
+  ]);
+
+const mainIndicators = indicators.filter((indicator) =>
+  MAIN_INDICATOR_IDS.includes(indicator.id)
+);
 
 const countrySummary = countrySummaries.find(
   (it) => it.countryId === country.id
@@ -75,23 +82,31 @@ if (countrySummary && topNumber - countrySummary.rank <= 50)
   imageUrl={`/${country.slug}.png`}
 >
   <div class="flex flex-col gap-6 text-center">
+    <h1>{name}</h1>
     {
       countrySummary && (
-        <div class="flex flex-col gap-2 items-center">
-          <h2 class="text-7xl! flex items-center gap-4 font-bold!">
-            <span class={rankColor}>{countrySummary.rank}</span>
-            <span class="text-gray-400">/</span>
-            <span>{topNumber}</span>
-          </h2>
-          <p class="secondary text-center">
-            {locales.country_summary_rank_info({
-              country: name,
-              rank: countrySummary.rank,
-              total: topNumber,
-              indicatorCount: MAIN_INDICATOR_IDS.length
-            })}
-          </p>
-        </div>
+        <>
+          <div class="flex flex-col gap-2 items-center">
+            <h2 class="text-7xl! flex items-center gap-4 font-bold!">
+              <span class={rankColor}>{countrySummary.rank}</span>
+              <span class="text-gray-400">/</span>
+              <span>{topNumber}</span>
+            </h2>
+            <p class="secondary text-center">
+              {locales.country_summary_rank_info({
+                country: name,
+                rank: countrySummary.rank,
+                total: topNumber,
+                indicatorCount: MAIN_INDICATOR_IDS.length
+              })}
+            </p>
+          </div>
+          <IndicatorsRankList
+            indicators={mainIndicators}
+            list={countrySummary.ranks}
+          />
+          <br />
+        </>
       )
     }
     {

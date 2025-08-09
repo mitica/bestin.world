@@ -23,7 +23,8 @@ export async function getStaticPaths() {
     .map((country) => {
       const vsCodes = getVsCountryCodes(
         countries.map((c) => c.data).flat(),
-        country.data
+        country.data,
+        false
       );
       return vsCodes
         .map((vsCode) => ({

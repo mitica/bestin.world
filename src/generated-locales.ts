@@ -37,14 +37,6 @@ export class LocalizyLocales {
     }
     
 
-    home_page_title() {
-        return this.v('home_page_title');
-    }
-
-    home_page_description() {
-        return this.v('home_page_description');
-    }
-
     country_vs_country_title(_p1: string, _p2: string) {
         return this.v('country_vs_country_title', Array.from(arguments));
     }
@@ -96,11 +88,25 @@ export class LocalizyLocales {
     country_summary_rank_info(_p1: { country: string; rank: number; total: number; indicatorCount: number }) {
         return this.v('country_summary_rank_info', Array.from(arguments));
     }
+
+    best_countries_in_the_world() {
+        return this.v('best_countries_in_the_world');
+    }
+
+    best_countries_in_the_world_description(_p1: { indicatorCount: number }) {
+        return this.v('best_countries_in_the_world_description', Array.from(arguments));
+    }
+
+    countries_at_the_extremes() {
+        return this.v('countries_at_the_extremes');
+    }
+
+    countries_at_the_extremes_description() {
+        return this.v('countries_at_the_extremes_description');
+    }
 }
 
-export type LocalesKey = 'home_page_title'
-    | 'home_page_description'
-    | 'country_vs_country_title'
+export type LocalesKey = 'country_vs_country_title'
     | 'country_vs_country_description'
     | 'topic_page_title'
     | 'topic_page_description'
@@ -112,4 +118,8 @@ export type LocalesKey = 'home_page_title'
     | 'country_folling_behind_info'
     | 'data_source_info'
     | 'vs'
-    | 'country_summary_rank_info';
+    | 'country_summary_rank_info'
+    | 'best_countries_in_the_world'
+    | 'best_countries_in_the_world_description'
+    | 'countries_at_the_extremes'
+    | 'countries_at_the_extremes_description';

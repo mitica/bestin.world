@@ -1,0 +1,57 @@
+---
+import { classNames } from "../utils";
+import type {
+  IndicatorCountryRankValue,
+  IndicatorInfo
+} from "../content/common/types";
+
+type Input = {
+  className?: string;
+  itemClassName?: string;
+  list: IndicatorCountryRankValue[];
+  indicators: IndicatorInfo[];
+};
+const { list, className, itemClassName, indicators } = Astro.props as Input;
+
+const getIndicator = (id: string) => {
+  return indicators.find((indicator) => indicator.id === id)!;
+};
+---
+
+<div
+  class={classNames(
+    "flex flex-col justify-center items-center w-full",
+    className
+  )}
+>
+  {
+    list.map((data) => {
+      const indicator = getIndicator(data.indicatorId);
+      return (
+        <div class={classNames("flex gap-3 items-center w-full max-w-md", itemClassName)}>
+          <span
+            class={classNames(
+              "w-6 text-right flex-shrink-0 text-secondary",
+              data.rank === 1 ? "text-accent font-bold" : null,
+              data.rank === 2 ? "text-good font-semibold" : null,
+              data.rank === 3 ? "text-primary font-medium" : null
+            )}
+          >
+            {data.rank}
+          </span>
+          <div
+            class={classNames("flex gap-2 font-medium min-w-0 flex-1", itemClassName)}
+          >
+            <span class="flex-shrink-0">{indicator.emoji}</span>
+            <span class="truncate text-left">
+              {indicator.commonName || indicator.name}
+            </span>
+          </div>
+          <span class="flex-shrink-0 text-secondary">
+            {data.value.toLocaleString("en", { maximumFractionDigits: 2 })}
+          </span>
+        </div>
+      );
+    })
+  }
+</div>

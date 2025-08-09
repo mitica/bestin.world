@@ -2,8 +2,10 @@
   "name": "bestin.world",
   "type": "module",
   "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
   "scripts": {
-    "dev": "astro dev --host",
+    "dev": "astro dev --host --port 4321",
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",

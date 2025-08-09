@@ -1,0 +1,139 @@
+---
+import { classNames, countryCodeToFlagEmoji } from "../utils";
+import type { CountryInfo, CountrySummary } from "../content/common/types";
+import { readIndicatorRanks } from "../../scripts/common/helpers";
+import { MAIN_INDICATOR_IDS } from "../config";
+
+type Input = {
+  className?: string;
+  itemClassName?: string;
+  list: CountrySummary[];
+  countries: CountryInfo[];
+  defaultLimit?: number;
+};
+const {
+  list,
+  className,
+  itemClassName,
+  countries,
+  defaultLimit = 10
+} = Astro.props as Input;
+
+const getCountry = (id: string) => {
+  return countries.find((country) => country.id === id)!;
+};
+const [allRanks] = await Promise.all([readIndicatorRanks(MAIN_INDICATOR_IDS)]);
+const getCountryRanks = (countryId: string) => {
+  return allRanks
+    .filter((r) => r.countryId === countryId)
+    .sort((a, b) => b.rank - a.rank);
+};
+---
+
+<div
+  class={classNames(
+    "overflow-hidden flex flex-col justify-center text-gray-500 m-auto",
+    className
+  )}
+>
+  <div id="country-list">
+    {
+      list.map((data, index) => {
+        const country = getCountry(data.countryId);
+        // if (!country) return null;
+        const ranks = getCountryRanks(data.countryId);
+        const countGold = ranks.filter((r) => r.rank === 1).length;
+        const countSilver = ranks.filter((r) => r.rank === 2).length;
+        const countBronze = ranks.filter((r) => r.rank === 3).length;
+        const rank = data.rank;
+        return (
+          <div
+            class={classNames(
+              "gap-3 items-center country-item",
+              itemClassName,
+              index >= defaultLimit ? "hidden" : "flex"
+            )}
+            data-index={index}
+          >
+            <span class="w-8 text-right">{rank}</span>
+            <a
+              href={`/${country.slug}/`}
+              title={country.officialName || country.name}
+              class={classNames(
+                "a truncate flex items-center gap-2 text-lg max-w-sm",
+                itemClassName,
+                index < 3
+                  ? ["font-bold", "font-semibold", "font-medium"][index]
+                  : null
+              )}
+            >
+              <span>{countryCodeToFlagEmoji(country.code)}</span>
+              <span>{country.name}</span>
+            </a>
+            <div class="flex gap-2">
+              {/* Add medal counts with emojis */}
+              {countGold > 0 && <span>{countGold} 🏆</span>}
+              {countSilver > 0 && <span>{countSilver} ⭐</span>}
+              {countBronze > 0 && <span>{countBronze} 🎖️</span>}
+            </div>
+          </div>
+        );
+      })
+    }
+  </div>
+
+  {
+    list.length > defaultLimit && (
+      <div class="mt-4 text-center">
+        <button
+          id="view-all-btn"
+          class="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors duration-200 cursor-pointer"
+          onclick="toggleViewAll()"
+        >
+          View All ({list.length})
+        </button>
+        <button
+          id="view-less-btn"
+          class="px-4 py-2 bg-gray-500 hover:bg-gray-600 text-white rounded-md transition-colors duration-200 hidden"
+          onclick="toggleViewAll()"
+        >
+          View Less
+        </button>
+      </div>
+    )
+  }
+</div>
+
+<script>
+  function toggleViewAll() {
+    const countryItems = document.querySelectorAll(".country-item");
+    const viewAllBtn = document.getElementById("view-all-btn");
+    const viewLessBtn = document.getElementById("view-less-btn");
+
+    const isExpanded = viewAllBtn?.classList.contains("hidden");
+
+    if (!isExpanded) {
+      // Show all items
+      countryItems.forEach((item) => {
+        item.classList.remove("hidden");
+        item.classList.add("flex");
+      });
+      viewAllBtn?.classList.add("hidden");
+      viewLessBtn?.classList.remove("hidden");
+    } else {
+      // Show only first 10 items
+      countryItems.forEach((item) => {
+        const dataIndex = parseInt(item.getAttribute("data-index") || "0");
+        if (dataIndex >= 10) {
+          item.classList.add("hidden");
+          item.classList.remove("flex");
+        }
+      });
+      viewAllBtn?.classList.remove("hidden");
+      viewLessBtn?.classList.add("hidden");
+    }
+  }
+
+  // Make function globally available
+  (window as any).toggleViewAll = toggleViewAll;
+</script>

@@ -3,12 +3,17 @@ import BestWorstCountries from "../components/BestWorstCountries.astro";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
 import { localesProvider } from "../locales";
+import Country from "./[country].astro";
+import { getCountrySummary } from "../../scripts/common/helpers";
+import CountryTopList from "../components/CountryTopList.astro";
+import { MAIN_INDICATOR_IDS } from "../config";
 
-const [countryInsights, countries] = await Promise.all([
+const [countryInsights, countries, summaries] = await Promise.all([
   getCollection("countryInsights"),
   getCollection("countries").then((countries) =>
     countries.map((country) => country.data)
-  )
+  ),
+  getCountrySummary()
 ]);
 const insights = countryInsights
   .map((insight) =>
@@ -20,8 +25,10 @@ const insights = countryInsights
   .flat();
 
 const locales = localesProvider.lang("en");
-const title = locales.home_page_title();
-const description = locales.home_page_description();
+const title = locales.best_countries_in_the_world();
+const description = locales.best_countries_in_the_world_description({
+  indicatorCount: MAIN_INDICATOR_IDS.length
+});
 const canonical = "/";
 ---
 
@@ -36,6 +43,14 @@ const canonical = "/";
       <h2 class="text-center">{title}</h2>
       <p class="text-center text-gray-500 text-sm">
         {description}
+      </p>
+    </div>
+    <CountryTopList list={summaries} countries={countries} />
+    <br/>
+    <div>
+      <h2 class="text-center">{locales.countries_at_the_extremes()}</h2>
+      <p class="text-center text-gray-500 text-sm">
+        {locales.countries_at_the_extremes_description()}
       </p>
     </div>
     <BestWorstCountries insights={insights} countries={countries} />
