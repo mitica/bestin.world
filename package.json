@@ -24,6 +24,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.1.10",
     "astro": "^5.9.2",
+    "glob": "^11.0.3",
     "imagemin": "^9.0.1",
     "imagemin-pngquant": "^10.0.0",
     "tailwindcss": "^4.1.10"

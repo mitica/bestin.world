@@ -25,7 +25,7 @@ type Props = {
   indicatorRanks: IndicatorCountryRankValue[];
 };
 
-export const compareCountryIndicators = async ({
+export const compareCountryIndicators = ({
   id1,
   id2,
   indicators,

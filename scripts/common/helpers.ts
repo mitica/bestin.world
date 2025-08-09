@@ -56,6 +56,14 @@ export const readIndicatorRanks = async (indicators: string[] = []) => {
   return list;
 };
 
+let allIndicatorRanks: IndicatorCountryRankValue[];
+
+export const getAllIndicatorRanks = async () => {
+  if (allIndicatorRanks) return allIndicatorRanks;
+  allIndicatorRanks = await readIndicatorRanks();
+  return allIndicatorRanks;
+};
+
 let countries: CountryInfo[];
 
 export const getCountries = async () => {

@@ -1,14 +1,7 @@
 ---
-import { TOP_COUNTRIES } from "../config";
 import Layout from "../layouts/Layout.astro";
 import { getCollection } from "astro:content";
-import {
-  countryCodeToFlagEmoji,
-  getCountriesByContinent,
-  getCountryContinent,
-  getVsCountryCodes,
-  uniq
-} from "../utils";
+import { countryCodeToFlagEmoji, getVsCountryCodes } from "../utils";
 import { classNames } from "../utils";
 import ArrowUpIcon from "../components/shared/ArrowUpIcon.astro";
 import ArrowDownIcon from "../components/shared/ArrowDownIcon.astro";
@@ -16,6 +9,10 @@ import { localesProvider } from "../locales";
 import { compareCountryIndicators } from "../helpers/country-vs-country-indicators";
 import ArrowRightIcon from "../components/shared/ArrowRightIcon.astro";
 import CountryVsCountryChart from "../components/CountryVsCountryChart.astro";
+import {
+  getAllIndicatorRanks,
+  getIndicators
+} from "../../scripts/common/helpers";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -45,15 +42,15 @@ export async function getStaticPaths() {
 const { country, vsCountry } = Astro.props;
 
 const [indicatorRanks, indicators] = await Promise.all([
-  getCollection("indicatorRanks"),
-  getCollection("indicators")
+  getAllIndicatorRanks(),
+  getIndicators()
 ]);
 
-const { list1, list2 } = await compareCountryIndicators({
+const { list1, list2 } = compareCountryIndicators({
   id1: country.id,
   id2: vsCountry.id,
-  indicators: indicators.map((i) => i.data),
-  indicatorRanks: indicatorRanks.map((ir) => ir.data).flat()
+  indicators: indicators,
+  indicatorRanks: indicatorRanks
 });
 
 const locales = localesProvider.lang("en");
