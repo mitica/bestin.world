@@ -1,11 +1,18 @@
 import satori from "satori";
 import { Resvg } from "@resvg/resvg-js";
 import fs from "fs/promises";
-import { getCountries, readCountryInsights } from "../common/helpers";
+import {
+  getCountries,
+  getCountrySummary,
+  readCountryInsights
+} from "../common/helpers";
 import { localesProvider } from "../../src/locales";
 import layoutElements from "./helpers/layout-elements";
 import getEmojiElement from "./helpers/get-emoji-element";
 import { countryCodeToFlagEmoji } from "../../src/utils";
+import { compressedBuffer } from "./helpers/compress-image";
+import { fileURLToPath } from "url";
+import { MAIN_INDICATOR_IDS } from "../../src/config";
 
 // Load custom font
 const fontData = await Promise.all([
@@ -13,13 +20,21 @@ const fontData = await Promise.all([
   fs.readFile("src/fonts/Inter-Medium.ttf")
 ]);
 
-const [countries] = await Promise.all([getCountries()]);
+const [countries, countrySummaries] = await Promise.all([
+  getCountries(),
+  getCountrySummary()
+]);
 
 const locales = localesProvider.lang("en");
 
 export async function generateImage(countryId: string) {
   const country = countries.find((c) => c.id === countryId);
-  if (!country) {
+  const countrySummary = countrySummaries.find(
+    (cs) => cs.countryId === countryId
+  );
+  const topNumber = countrySummaries.length;
+
+  if (!country || !countrySummary) {
     throw new Error(`Country with ID ${countryId} not found`);
   }
 
@@ -33,6 +48,7 @@ export async function generateImage(countryId: string) {
   const limit = 8;
   const list = bestIn.slice(0, limit - 2);
   list.push(...worstIn.slice(0, limit - list.length));
+  const name = country.name;
 
   const svg = await satori(
     {
@@ -45,7 +61,7 @@ export async function generateImage(countryId: string) {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#fafbfc",
           color: "#000000",
           fontFamily: "Inter",
           fontSize: "24px",
@@ -57,23 +73,16 @@ export async function generateImage(countryId: string) {
         children: [
           ...(await layoutElements()),
           await getEmojiElement(countryCodeToFlagEmoji(countryId), {
-            width: 60,
-            height: 60,
+            width: 100,
+            height: 100,
             position: "absolute",
             top: "2rem",
             right: "2.5rem"
           }),
           {
-            type: "h2",
+            type: "h1",
             props: {
-              style: {
-                margin: 0,
-                padding: 0,
-                // fontSize: "2rem",
-                fontWeight: "bold",
-                lineHeight: "1.2"
-              },
-              children: locales.country_page_title(country.name)
+              children: name
             }
           },
           {
@@ -83,36 +92,65 @@ export async function generateImage(countryId: string) {
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "center",
-                gap: "0.8rem"
+                gap: "1rem"
               },
-              children: await Promise.all(
-                list.map(async (item) => ({
-                  type: "div",
+              children: [
+                {
+                  type: "h2",
                   props: {
                     style: {
+                      fontWeight: "bold",
                       display: "flex",
-                      flexDirection: "row",
                       alignItems: "center",
-                      textAlign: "center",
-                      color: item.type === "GOOD" ? "#158f39" : "#ef4444",
-                      fontSize: "1.8rem",
-                      gap: "1rem"
+                      gap: "2rem",
+                      fontSize: "8rem",
+                      color: "#333333"
                     },
                     children: [
-                      await getEmojiElement(item.emoji, 32),
                       {
                         type: "span",
                         props: {
                           style: {
-                            fontWeight: "bold"
+                            color: "#10b981"
                           },
-                          children: item.title
+                          children: countrySummary.rank
+                        }
+                      },
+                      {
+                        type: "span",
+                        props: {
+                          style: {
+                            color: "#888888"
+                          },
+                          children: "/"
+                        }
+                      },
+                      {
+                        type: "span",
+                        props: {
+                          children: topNumber
                         }
                       }
                     ]
                   }
-                }))
-              )
+                },
+                {
+                  type: "p",
+                  props: {
+                    style: {
+                      color: "#666666",
+                      fontSize: "1.5rem",
+                      textAlign: "center"
+                    },
+                    children: locales.country_summary_rank_info({
+                      country: name,
+                      rank: countrySummary.rank,
+                      total: topNumber,
+                      indicatorCount: MAIN_INDICATOR_IDS.length
+                    })
+                  }
+                }
+              ]
             }
           }
         ]
@@ -146,12 +184,19 @@ export async function generateImage(countryId: string) {
   });
 
   const img = resvg.render();
-  const pngBuffer = img.asPng();
+  const pngBuffer = await compressedBuffer(img.asPng());
   await fs.writeFile(`public/${country.slug}.png`, pngBuffer);
 }
 
 export async function generateImages() {
   for (const country of countries) {
     await generateImage(country.id);
+    console.log(`Generated image for ${country.name}`);
   }
+}
+
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  generateImages();
 }

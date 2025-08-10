@@ -17,9 +17,10 @@ import {
   truncateText
 } from "../../src/utils";
 import { compareCountryIndicators } from "../../src/helpers/country-vs-country-indicators";
-import { TOP_COUNTRIES } from "../../src/config";
+import { MAIN_INDICATOR_IDS, TOP_COUNTRIES } from "../../src/config";
 import { fileURLToPath } from "url";
 import { compressedBuffer } from "./helpers/compress-image";
+import CountryVsCountryChart from "./helpers/country-vs-country-chart";
 
 // Load custom font
 const fontData = await Promise.all([
@@ -30,6 +31,12 @@ const fontData = await Promise.all([
 const [countries] = await Promise.all([getCountries()]);
 
 const locales = localesProvider.lang("en");
+
+const getColor = (_count: number) => {
+  // if (count === 0) return "#e5e7eb"; // gray-200
+  // if (count < MAIN_INDICATOR_IDS.length / 2) return "#fbbf24"; // yellow-400
+  return "#10b981"; // green-500
+};
 
 export async function generateImage(id1: string, id2: string) {
   const [country, vsCountry] = [
@@ -74,7 +81,7 @@ export async function generateImage(id1: string, id2: string) {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#fafbfc",
           color: "#000000",
           fontFamily: "Inter",
           fontSize: "24px",
@@ -122,7 +129,7 @@ export async function generateImage(id1: string, id2: string) {
                           children: country.name
                         }
                       },
-                      await getEmojiElement(countryCodeToFlagEmoji(id1), 48)
+                      await getEmojiElement(countryCodeToFlagEmoji(id1), 52)
                     ]
                   }
                 },
@@ -149,7 +156,7 @@ export async function generateImage(id1: string, id2: string) {
                       flex: 1
                     },
                     children: [
-                      await getEmojiElement(countryCodeToFlagEmoji(id2), 48),
+                      await getEmojiElement(countryCodeToFlagEmoji(id2), 52),
                       {
                         type: "span",
                         props: {
@@ -171,15 +178,21 @@ export async function generateImage(id1: string, id2: string) {
                 display: "flex",
                 flexDirection: "row",
                 alignItems: "center",
+                justifyContent: "flex-start",
+                width: "100%",
                 gap: "2rem",
-                fontSize: "4rem"
+                fontSize: "8rem"
               },
               children: [
                 {
                   type: "span",
                   props: {
                     style: {
-                      color: "#158f39"
+                      color: getColor(list1.length),
+                      alignItems: "center",
+                      justifyContent: "flex-end",
+                      gap: "1rem",
+                      flex: 1
                     },
                     children: list1.length
                   }
@@ -188,61 +201,29 @@ export async function generateImage(id1: string, id2: string) {
                   type: "span",
                   props: {
                     style: {
-                      color: "#888888"
+                      color: "#888888",
+                      fontSize: "6rem",
+                      flex: "none",
+                      paddingBottom: "0.5rem"
                     },
-                    children: "/"
+                    children: ":"
                   }
                 },
                 {
                   type: "span",
                   props: {
                     style: {
-                      color: "#158f39"
+                      color: getColor(list2.length),
+                      display: "flex",
+                      flexDirection: "row",
+                      alignItems: "center",
+                      gap: "1rem",
+                      flex: 1
                     },
                     children: list2.length
                   }
                 }
               ]
-            }
-          },
-          {
-            type: "div",
-            props: {
-              style: {
-                display: "flex",
-                flexDirection: "column",
-                alignItems: "center",
-                gap: "0.8rem"
-              },
-              children: await Promise.all(
-                list.map(async (item) => ({
-                  type: "div",
-                  props: {
-                    style: {
-                      display: "flex",
-                      flexDirection: "row",
-                      alignItems: "center",
-                      textAlign: "center",
-                      color: "#888888",
-                      fontSize: "1.8rem",
-                      gap: "1rem"
-                    },
-                    children: [
-                      await getEmojiElement(item.emoji, 32),
-                      {
-                        type: "span",
-                        props: {
-                          style: {
-                            fontWeight: "bold",
-                            textShadow: "2px 2px 1px rgba(250, 250, 250, 0.6)"
-                          },
-                          children: item.name
-                        }
-                      }
-                    ]
-                  }
-                }))
-              )
             }
           }
         ]

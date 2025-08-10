@@ -7,6 +7,8 @@ import { getCountries, readCountryInsights } from "../common/helpers";
 import CountryTopLists from "./helpers/country-top-lists";
 import { localesProvider } from "../../src/locales";
 import layoutElements from "./helpers/layout-elements";
+import { fileURLToPath } from "url";
+import { compressedBuffer } from "./helpers/compress-image";
 
 export async function generateImage() {
   // Load custom font
@@ -39,7 +41,7 @@ export async function generateImage() {
           flexDirection: "column",
           justifyContent: "center",
           alignItems: "center",
-          backgroundColor: "#ffffff",
+          backgroundColor: "#fafbfc",
           color: "#000000",
           fontFamily: "Inter",
           fontSize: "24px",
@@ -59,7 +61,7 @@ export async function generateImage() {
                 fontWeight: "bold",
                 lineHeight: "1.2"
               },
-              children: locales.home_page_title()
+              children: locales.countries_at_the_extremes()
             }
           },
           await CountryTopLists({
@@ -97,6 +99,12 @@ export async function generateImage() {
   });
 
   const img = resvg.render();
-  const pngBuffer = img.asPng();
+  const pngBuffer = await compressedBuffer(img.asPng());
   await fs.writeFile(`public/index.png`, pngBuffer);
+}
+
+const __filename = fileURLToPath(import.meta.url);
+
+if (process.argv[1] === __filename) {
+  generateImage();
 }

@@ -5,7 +5,7 @@ export const compressedBuffer = async (pngBuffer: Buffer) =>
   await imagemin.buffer(pngBuffer, {
     plugins: [
       imageminPngquant({
-        quality: [0.9, 0.95]
+        quality: [0.5, 0.7]
       })
     ]
   });

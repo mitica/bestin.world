@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import { localesProvider } from "../../../src/locales";
 
 export default async function layoutElements() {
-  const [bgImage, logoImage] = await Promise.all([
+  const [_bgImage, logoImage] = await Promise.all([
     fs.readFile("scripts/image/data/bg-image.png"),
     fs.readFile("public/favicon.svg")
   ]);
@@ -10,24 +10,24 @@ export default async function layoutElements() {
   const locales = localesProvider.lang("en");
 
   return [
-    {
-      type: "div",
-      props: {
-        style: {
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundImage: `url('data:image/png;base64,${bgImage.toString(
-            "base64"
-          )}')`,
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-          opacity: 0.5
-        }
-      }
-    },
+    // {
+    //   type: "div",
+    //   props: {
+    //     style: {
+    //       position: "absolute",
+    //       top: 0,
+    //       left: 0,
+    //       right: 0,
+    //       bottom: 0,
+    //       // backgroundImage: `url('data:image/png;base64,${bgImage.toString(
+    //       //   "base64"
+    //       // )}')`,
+    //       backgroundSize: "cover",
+    //       backgroundPosition: "center",
+    //       opacity: 0.5
+    //     }
+    //   }
+    // },
     // logo
     {
       type: "div",
