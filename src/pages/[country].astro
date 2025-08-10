@@ -82,7 +82,10 @@ if (countrySummary && topNumber - countrySummary.rank <= 50)
   imageUrl={`/${country.slug}.png`}
 >
   <div class="flex flex-col gap-6 text-center">
-    <h1>{name}</h1>
+    <div>
+      <div class="text-5xl">{countryCodeToFlagEmoji(country.id)}</div>
+      <h1>{name}</h1>
+    </div>
     {
       countrySummary && (
         <>
