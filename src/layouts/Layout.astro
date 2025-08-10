@@ -2,6 +2,7 @@
 import { localesProvider } from "../locales";
 import SearchButton from "../components/SearchButton.astro";
 import SearchModal from "../components/SearchModal.astro";
+import ShareButton from "../components/ShareButton.astro";
 import "../styles/global.css";
 const { title, description, canonical, imageUrl } = Astro.props;
 const pageUrl = "https://bestin.world" + (canonical ? canonical : "");
@@ -32,6 +33,7 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
         <meta property="og:image" content={`https://bestin.world${imageUrl}`} />
       )
     }
+    <script is:inline>window.sa_event=window.sa_event||function(){var a=[].slice.call(arguments);window.sa_event.q?window.sa_event.q.push(a):window.sa_event.q=[a]};</script>
   </head>
   <body>
     <header>
@@ -82,6 +84,7 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
       </p>
     </footer>
     <SearchModal />
+    <ShareButton />
     <!-- 100% privacy-first analytics -->
     <script is:inline src="https://scripts.simpleanalyticscdn.com/latest.js"
     ></script>

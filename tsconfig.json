@@ -2,15 +2,14 @@
   "extends": "astro/tsconfigs/strict",
   "include": [
     ".astro/types.d.ts",
-    "**/*"
+    "**/*",
+    "src/typings/**/*.d.ts"
   ],
   "exclude": [
     "dist"
   ],
-  "compileOptions": {
-    "resolveJsonModule": true
-  },
   "compilerOptions": {
+    "resolveJsonModule": true,
     "jsx": "react-jsx",
     "jsxImportSource": "react"
   }

@@ -4,13 +4,24 @@ import countriesData from "../content/common/countries.json";
 
 <div id="search-modal" class="fixed inset-0 bg-black bg-opacity-50 z-50 hidden">
   <div class="flex items-start justify-center min-h-screen p-4 pt-16">
-    <div class="bg-white rounded-lg w-full max-w-2xl max-h-[80vh] flex flex-col">
+    <div
+      class="bg-white rounded-lg w-full max-w-2xl max-h-[80vh] flex flex-col"
+    >
       <div class="p-4 border-b">
         <div class="flex items-center justify-between mb-4">
           <h2 class="text-xl font-semibold">Search Countries</h2>
           <button id="close-modal" class="text-gray-500 hover:text-gray-700">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M6 18L18 6M6 6l12 12"></path>
             </svg>
           </button>
         </div>
@@ -22,19 +33,21 @@ import countriesData from "../content/common/countries.json";
         />
       </div>
       <div id="countries-list" class="flex-1 overflow-y-auto p-4">
-        {countriesData.map((country) => (
-          <a
-            href={`/${country.slug}/`}
-            class="country-item block p-3 hover:bg-gray-100 rounded-lg transition-colors duration-200 border-b border-gray-100 last:border-b-0"
-            data-name={country.name.toLowerCase()}
-            data-common-name={country.commonName.toLowerCase()}
-          >
-            <div class="font-medium text-gray-900">{country.name}</div>
-            {country.commonName !== country.name && (
-              <div class="text-sm text-gray-500">{country.commonName}</div>
-            )}
-          </a>
-        ))}
+        {
+          countriesData.map((country) => (
+            <a
+              href={`/${country.slug}/`}
+              class="country-item block p-3 hover:bg-gray-100 rounded-lg transition-colors duration-200 border-b border-gray-100 last:border-b-0"
+              data-name={country.name.toLowerCase()}
+              data-common-name={country.commonName.toLowerCase()}
+            >
+              <div class="font-medium text-gray-900">{country.name}</div>
+              {country.commonName !== country.name && (
+                <div class="text-sm text-gray-500">{country.commonName}</div>
+              )}
+            </a>
+          ))
+        }
       </div>
     </div>
   </div>
@@ -42,63 +55,70 @@ import countriesData from "../content/common/countries.json";
 
 <script>
   // Modal functionality
-  const modal = document.getElementById('search-modal');
-  const searchInput = document.getElementById('country-search') as HTMLInputElement;
-  const closeModal = document.getElementById('close-modal');
-  const countryItems = document.querySelectorAll('.country-item');
+  const modal = document.getElementById("search-modal");
+  const searchInput = document.getElementById(
+    "country-search"
+  ) as HTMLInputElement;
+  const closeModal = document.getElementById("close-modal");
+  const countryItems = document.querySelectorAll(".country-item");
 
   // Open modal function (will be called from search button)
   function openSearchModal() {
-    modal?.classList.remove('hidden');
+    modal?.classList.remove("hidden");
     searchInput?.focus();
+    try {
+      (window as any).sa_event("click_search_modal");
+    } catch (error) {
+      console.error("Error tracking event:", error);
+    }
   }
 
   // Close modal
   function closeSearchModal() {
-    modal?.classList.add('hidden');
-    searchInput.value = '';
+    modal?.classList.add("hidden");
+    searchInput.value = "";
     showAllCountries();
   }
 
   // Show all countries
   function showAllCountries() {
-    countryItems.forEach(item => {
-      (item as HTMLElement).style.display = 'block';
+    countryItems.forEach((item) => {
+      (item as HTMLElement).style.display = "block";
     });
   }
 
   // Search functionality
-  searchInput?.addEventListener('input', (e) => {
+  searchInput?.addEventListener("input", (e) => {
     const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
-    
-    countryItems.forEach(item => {
-      const countryName = item.getAttribute('data-name') || '';
-      const commonName = item.getAttribute('data-common-name') || '';
-      
+
+    countryItems.forEach((item) => {
+      const countryName = item.getAttribute("data-name") || "";
+      const commonName = item.getAttribute("data-common-name") || "";
+
       if (countryName.includes(searchTerm) || commonName.includes(searchTerm)) {
-        (item as HTMLElement).style.display = 'block';
+        (item as HTMLElement).style.display = "block";
       } else {
-        (item as HTMLElement).style.display = 'none';
+        (item as HTMLElement).style.display = "none";
       }
     });
   });
 
   // Close modal when clicking outside
-  modal?.addEventListener('click', (e) => {
+  modal?.addEventListener("click", (e) => {
     if (e.target === modal) {
       closeSearchModal();
     }
   });
 
   // Close modal with escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) {
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && !modal?.classList.contains("hidden")) {
       closeSearchModal();
     }
   });
 
   // Close modal button
-  closeModal?.addEventListener('click', closeSearchModal);
+  closeModal?.addEventListener("click", closeSearchModal);
 
   // Make openSearchModal globally available
   (window as any).openSearchModal = openSearchModal;
