@@ -1,14 +1,26 @@
 [
   {
     "indicatorId": "ag-lnd-arbl-zs",
-    "value": 60.520857340401,
-    "date": 2022,
+    "value": 60.627789,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "ag-lnd-irig-ag-zs",
-    "value": 78.9034564958284,
+    "value": 89.041387,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dc-dac-isll-cd",
+    "value": 1670.000027,
     "date": 2021,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dc-dac-korl-cd",
+    "value": 197786193.847656,
+    "date": 2023,
     "type": "max"
   },
   {
@@ -24,51 +36,45 @@
     "type": "max"
   },
   {
-    "indicatorId": "dt-nfl-ifad-cd",
-    "value": 71008148.1933594,
-    "date": 2022,
-    "type": "max"
-  },
-  {
     "indicatorId": "dt-nfl-rdbc-cd",
     "value": 515833000,
     "date": 2023,
     "type": "max"
   },
   {
-    "indicatorId": "dt-nfl-uncr-cd",
-    "value": 92.6700013224036,
-    "date": 2020,
-    "type": "min"
+    "indicatorId": "nv-mnf-txtl-zs-un",
+    "value": 56.805855,
+    "date": 2018,
+    "type": "max"
   },
   {
     "indicatorId": "ny-adj-dkap-gn-zs",
-    "value": 1.225706205948,
+    "value": 1.225706,
     "date": 2021,
     "type": "min"
   },
   {
     "indicatorId": "se-com-durs",
     "value": 5,
-    "date": 2023,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "se-enr-seco-fm-zs",
-    "value": 1.24441254138947,
+    "value": 1.244413,
     "date": 2021,
     "type": "max"
   },
   {
     "indicatorId": "se-sec-priv-zs",
-    "value": 93.8996276855469,
+    "value": 93.899628,
     "date": 2017,
     "type": "max"
   },
   {
-    "indicatorId": "sh-hiv-pmtc-zs",
-    "value": 4,
-    "date": 2022,
+    "indicatorId": "sh-hiv-incd-tl-p3",
+    "value": 0.01,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -79,7 +85,7 @@
   },
   {
     "indicatorId": "sh-xpd-ghed-gd-zs",
-    "value": 0.1549108,
+    "value": 0.154911,
     "date": 2022,
     "type": "min"
   },
@@ -97,13 +103,13 @@
   },
   {
     "indicatorId": "tm-val-agri-zs-un",
-    "value": 6.41256931026831,
+    "value": 6.412569,
     "date": 2015,
     "type": "max"
   },
   {
     "indicatorId": "tx-val-manf-zs-un",
-    "value": 95.8123018643015,
+    "value": 95.812302,
     "date": 2015,
     "type": "max"
   }

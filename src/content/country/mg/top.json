@@ -1,19 +1,19 @@
 [
   {
-    "indicatorId": "fr-inr-rinr",
-    "value": 42.9145487481916,
-    "date": 2023,
+    "indicatorId": "en-hpt-thrd-no",
+    "value": 2894,
+    "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "fr-inr-risk",
-    "value": 43.8633801400958,
+    "value": 43.86338,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-us-os",
-    "value": 35.0351421932379,
+    "value": 35.035142,
     "date": 2024,
     "type": "min"
   },
@@ -25,7 +25,7 @@
   },
   {
     "indicatorId": "nv-ind-empl-kd",
-    "value": 1752.18639719219,
+    "value": 1752.186397,
     "date": 2023,
     "type": "min"
   },
@@ -37,25 +37,25 @@
   },
   {
     "indicatorId": "se-prm-prs5-fe-zs",
-    "value": 33.2596282958984,
+    "value": 33.259628,
     "date": 2018,
     "type": "min"
   },
   {
     "indicatorId": "se-prm-prs5-ma-zs",
-    "value": 29.9196891784668,
+    "value": 29.919689,
     "date": 2018,
     "type": "min"
   },
   {
     "indicatorId": "se-prm-prs5-zs",
-    "value": 31.569299697876,
+    "value": 31.5693,
     "date": 2018,
     "type": "min"
   },
   {
     "indicatorId": "se-prm-prsl-fe-zs",
-    "value": 33.2596282958984,
+    "value": 33.259628,
     "date": 2018,
     "type": "min"
   },
@@ -78,24 +78,6 @@
     "type": "max"
   },
   {
-    "indicatorId": "se-prm-tcaq-ma-zs",
-    "value": 11.1628065109253,
-    "date": 2019,
-    "type": "min"
-  },
-  {
-    "indicatorId": "se-sec-tcaq-up-ma-zs",
-    "value": 15.7323398590088,
-    "date": 2019,
-    "type": "min"
-  },
-  {
-    "indicatorId": "se-sec-tcaq-up-zs",
-    "value": 15.8889722824097,
-    "date": 2019,
-    "type": "min"
-  },
-  {
     "indicatorId": "se-xpd-tert-pc-zs",
     "value": 0.03809,
     "date": 2016,
@@ -109,7 +91,7 @@
   },
   {
     "indicatorId": "sh-sta-bass-ur-zs",
-    "value": 21.6374242883531,
+    "value": 21.637424,
     "date": 2022,
     "type": "min"
   },
@@ -118,5 +100,17 @@
     "value": 82.559,
     "date": 2024,
     "type": "max"
+  },
+  {
+    "indicatorId": "sm-pop-totl-zs",
+    "value": 0.1,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "tm-val-mrch-rs-zs",
+    "value": 0.000001,
+    "date": 2023,
+    "type": "min"
   }
 ]

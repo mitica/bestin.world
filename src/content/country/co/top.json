@@ -2,7 +2,13 @@
   {
     "indicatorId": "ag-lnd-prcp-mm",
     "value": 3240,
-    "date": 2021,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dc-dac-espl-cd",
+    "value": 46453296.661377,
+    "date": 2023,
     "type": "max"
   },
   {
@@ -49,61 +55,61 @@
   },
   {
     "indicatorId": "ic-bre-be-p1",
-    "value": 96.6071422100067,
+    "value": 96.607142,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-dr-p2",
-    "value": 80.0466690063477,
+    "value": 80.046669,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-mc-p1",
-    "value": 71.5952369272709,
+    "value": 71.595237,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-mc-p2",
-    "value": 75.1675467789173,
+    "value": 75.167547,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-tx-p2",
-    "value": 71.5277786254883,
+    "value": 71.527779,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "per_lm_alllm-cov_pop_tot",
-    "value": 0.14566788408191,
+    "value": 0.145668,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "per_lm_alllm-cov_q2_tot",
-    "value": 0.139773031186933,
+    "value": 0.139773,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "per_lm_alllm-cov_q3_tot",
-    "value": 0.220633987396089,
+    "value": 0.220634,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "per_lm_alllm-cov_q4_tot",
-    "value": 0.177471541826124,
+    "value": 0.177472,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "per_sa_allsa-adq_pop_tot",
-    "value": 0.691134806000953,
+    "value": 0.691135,
     "date": 2022,
     "type": "min"
   },
@@ -144,12 +150,6 @@
     "type": "max"
   },
   {
-    "indicatorId": "si-spr-pc40-zg",
-    "value": -4.61,
-    "date": 2020,
-    "type": "min"
-  },
-  {
     "indicatorId": "sl-mnf-0714-zs",
     "value": 15.23,
     "date": 2015,
@@ -175,8 +175,8 @@
   },
   {
     "indicatorId": "sm-pop-opip-ea",
-    "value": 2851160,
-    "date": 2023,
+    "value": 2779604,
+    "date": 2024,
     "type": "max"
   }
 ]

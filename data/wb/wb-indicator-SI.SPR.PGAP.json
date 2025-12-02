@@ -2410,7 +2410,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2024",
-    "value": null,
+    "value": 2.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2426,7 +2426,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2023",
-    "value": 3,
+    "value": 2.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2442,7 +2442,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2022",
-    "value": 3.1,
+    "value": 2.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2458,7 +2458,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2021",
-    "value": 3.1,
+    "value": 2.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2474,7 +2474,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2020",
-    "value": 3.3,
+    "value": 3.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2490,7 +2490,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2019",
-    "value": 3.3,
+    "value": 3.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2506,7 +2506,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2018",
-    "value": 3.5,
+    "value": 3.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2522,7 +2522,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2017",
-    "value": 3.7,
+    "value": 3.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2538,7 +2538,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2016",
-    "value": 3.9,
+    "value": 3.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2554,6 +2554,22 @@
     },
     "countryiso3code": "EAS",
     "date": "2015",
+    "value": 3.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2014",
     "value": 4.1,
     "unit": "",
     "obs_status": "",
@@ -2569,24 +2585,8 @@
       "value": "East Asia & Pacific"
     },
     "countryiso3code": "EAS",
-    "date": "2014",
-    "value": 4.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
     "date": "2013",
-    "value": 4.7,
+    "value": 4.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2602,7 +2602,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2012",
-    "value": 5.4,
+    "value": 4.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2618,7 +2618,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2011",
-    "value": 5.8,
+    "value": 5.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2634,7 +2634,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2010",
-    "value": 6.4,
+    "value": 5.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2650,6 +2650,54 @@
     },
     "countryiso3code": "EAS",
     "date": "2009",
+    "value": 6.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2008",
+    "value": 6.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2007",
+    "value": 6.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2006",
     "value": 6.9,
     "unit": "",
     "obs_status": "",
@@ -2665,56 +2713,8 @@
       "value": "East Asia & Pacific"
     },
     "countryiso3code": "EAS",
-    "date": "2008",
-    "value": 7.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
-    "date": "2007",
-    "value": 7.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
-    "date": "2006",
-    "value": 8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
     "date": "2005",
-    "value": 8.2,
+    "value": 7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2730,7 +2730,7 @@
     },
     "countryiso3code": "EAS",
     "date": "2004",
-    "value": 8.9,
+    "value": 7.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -2746,6 +2746,54 @@
     },
     "countryiso3code": "EAS",
     "date": "2003",
+    "value": 8.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2002",
+    "value": 8.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2001",
+    "value": 9.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z4",
+      "value": "East Asia & Pacific"
+    },
+    "countryiso3code": "EAS",
+    "date": "2000",
     "value": 9.6,
     "unit": "",
     "obs_status": "",
@@ -2757,54 +2805,6 @@
       "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
     },
     "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
-    "date": "2002",
-    "value": 10.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
-    "date": "2001",
-    "value": 11.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z4",
-      "value": "East Asia & Pacific"
-    },
-    "countryiso3code": "EAS",
-    "date": "2000",
-    "value": 11.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
       "id": "4E",
       "value": "East Asia & Pacific (excluding high income)"
     },
@@ -4010,7 +4010,7 @@
     },
     "countryiso3code": "ECS",
     "date": "2024",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -4026,7 +4026,7 @@
     },
     "countryiso3code": "ECS",
     "date": "2023",
-    "value": 1.8,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -4042,7 +4042,7 @@
     },
     "countryiso3code": "ECS",
     "date": "2022",
-    "value": 1.9,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -4058,7 +4058,7 @@
     },
     "countryiso3code": "ECS",
     "date": "2021",
-    "value": 1.9,
+    "value": 1.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -4074,6 +4074,134 @@
     },
     "countryiso3code": "ECS",
     "date": "2020",
+    "value": 1.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2019",
+    "value": 1.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2018",
+    "value": 1.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2017",
+    "value": 1.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2016",
+    "value": 1.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2015",
+    "value": 1.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2014",
+    "value": 1.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2013",
+    "value": 1.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2012",
     "value": 2.1,
     "unit": "",
     "obs_status": "",
@@ -4089,135 +4217,183 @@
       "value": "Europe & Central Asia"
     },
     "countryiso3code": "ECS",
-    "date": "2019",
-    "value": 2.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2018",
-    "value": 2.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2017",
-    "value": 2.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2016",
-    "value": 2.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2015",
-    "value": 2.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2014",
-    "value": 2.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2013",
-    "value": 2.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2012",
-    "value": 3.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
     "date": "2011",
+    "value": 2.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2010",
+    "value": 2.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2009",
+    "value": 2.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2008",
+    "value": 2.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2007",
+    "value": 2.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2006",
+    "value": 2.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2005",
+    "value": 2.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2004",
+    "value": 2.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2003",
+    "value": 3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2002",
+    "value": 3.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2001",
+    "value": 3.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "Z7",
+      "value": "Europe & Central Asia"
+    },
+    "countryiso3code": "ECS",
+    "date": "2000",
     "value": 3.5,
     "unit": "",
     "obs_status": "",
@@ -4229,182 +4405,6 @@
       "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
     },
     "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2010",
-    "value": 3.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2009",
-    "value": 3.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2008",
-    "value": 3.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2007",
-    "value": 4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2006",
-    "value": 4.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2005",
-    "value": 4.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2004",
-    "value": 4.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2003",
-    "value": 5.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2002",
-    "value": 5.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2001",
-    "value": 5.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "Z7",
-      "value": "Europe & Central Asia"
-    },
-    "countryiso3code": "ECS",
-    "date": "2000",
-    "value": 5.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
       "id": "7E",
       "value": "Europe & Central Asia (excluding high income)"
     },
@@ -5610,7 +5610,7 @@
     },
     "countryiso3code": "FCS",
     "date": "2024",
-    "value": null,
+    "value": 11.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -5626,262 +5626,6 @@
     },
     "countryiso3code": "FCS",
     "date": "2023",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2022",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2021",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2020",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2019",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2018",
-    "value": 10.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2017",
-    "value": 10.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2016",
-    "value": 10.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2015",
-    "value": 10.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2014",
-    "value": 9.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2013",
-    "value": 9.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2012",
-    "value": 10,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2011",
-    "value": 10.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2010",
-    "value": 10.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2009",
-    "value": 11.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2008",
-    "value": 11.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2007",
     "value": 11.7,
     "unit": "",
     "obs_status": "",
@@ -5897,8 +5641,264 @@
       "value": "Fragile and conflict affected situations"
     },
     "countryiso3code": "FCS",
+    "date": "2022",
+    "value": 11.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2021",
+    "value": 11.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2020",
+    "value": 11.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2019",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2018",
+    "value": 10.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2017",
+    "value": 10.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2016",
+    "value": 10.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2015",
+    "value": 10.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2014",
+    "value": 10.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2013",
+    "value": 10.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2012",
+    "value": 10.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2011",
+    "value": 11.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2010",
+    "value": 11.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2009",
+    "value": 11.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2008",
+    "value": 12,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
+    "date": "2007",
+    "value": 12.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
     "date": "2006",
-    "value": 12.5,
+    "value": 13.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -5914,7 +5914,7 @@
     },
     "countryiso3code": "FCS",
     "date": "2005",
-    "value": 13.3,
+    "value": 14.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -5930,22 +5930,6 @@
     },
     "countryiso3code": "FCS",
     "date": "2004",
-    "value": 13.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "F1",
-      "value": "Fragile and conflict affected situations"
-    },
-    "countryiso3code": "FCS",
-    "date": "2003",
     "value": 14.6,
     "unit": "",
     "obs_status": "",
@@ -5961,8 +5945,24 @@
       "value": "Fragile and conflict affected situations"
     },
     "countryiso3code": "FCS",
+    "date": "2003",
+    "value": 15.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "F1",
+      "value": "Fragile and conflict affected situations"
+    },
+    "countryiso3code": "FCS",
     "date": "2002",
-    "value": 14.9,
+    "value": 15.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -5978,7 +5978,7 @@
     },
     "countryiso3code": "FCS",
     "date": "2001",
-    "value": 15.3,
+    "value": 16.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6410,7 +6410,7 @@
     },
     "countryiso3code": "",
     "date": "2024",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6442,7 +6442,7 @@
     },
     "countryiso3code": "",
     "date": "2022",
-    "value": 1.1,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6474,7 +6474,7 @@
     },
     "countryiso3code": "",
     "date": "2020",
-    "value": 1,
+    "value": 0.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6490,7 +6490,7 @@
     },
     "countryiso3code": "",
     "date": "2019",
-    "value": 1.2,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6506,7 +6506,7 @@
     },
     "countryiso3code": "",
     "date": "2018",
-    "value": 1.2,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6522,7 +6522,7 @@
     },
     "countryiso3code": "",
     "date": "2017",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6538,7 +6538,7 @@
     },
     "countryiso3code": "",
     "date": "2016",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6554,7 +6554,7 @@
     },
     "countryiso3code": "",
     "date": "2015",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6570,7 +6570,7 @@
     },
     "countryiso3code": "",
     "date": "2014",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6586,7 +6586,7 @@
     },
     "countryiso3code": "",
     "date": "2013",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6602,7 +6602,7 @@
     },
     "countryiso3code": "",
     "date": "2012",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6618,7 +6618,7 @@
     },
     "countryiso3code": "",
     "date": "2011",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6634,7 +6634,7 @@
     },
     "countryiso3code": "",
     "date": "2010",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6650,7 +6650,7 @@
     },
     "countryiso3code": "",
     "date": "2009",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6666,7 +6666,7 @@
     },
     "countryiso3code": "",
     "date": "2008",
-    "value": 1.3,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6714,7 +6714,7 @@
     },
     "countryiso3code": "",
     "date": "2005",
-    "value": 1.5,
+    "value": 1.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -6746,6 +6746,38 @@
     },
     "countryiso3code": "",
     "date": "2003",
+    "value": 1.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XD",
+      "value": "High income"
+    },
+    "countryiso3code": "",
+    "date": "2002",
+    "value": 1.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XD",
+      "value": "High income"
+    },
+    "countryiso3code": "",
+    "date": "2001",
     "value": 1.6,
     "unit": "",
     "obs_status": "",
@@ -6761,38 +6793,6 @@
       "value": "High income"
     },
     "countryiso3code": "",
-    "date": "2002",
-    "value": 1.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XD",
-      "value": "High income"
-    },
-    "countryiso3code": "",
-    "date": "2001",
-    "value": 1.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XD",
-      "value": "High income"
-    },
-    "countryiso3code": "",
     "date": "2000",
     "value": 1.7,
     "unit": "",
@@ -8410,7 +8410,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2024",
-    "value": null,
+    "value": 10.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8426,7 +8426,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2023",
-    "value": null,
+    "value": 10.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8442,7 +8442,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2022",
-    "value": null,
+    "value": 10.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8458,7 +8458,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2021",
-    "value": null,
+    "value": 10.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8474,134 +8474,6 @@
     },
     "countryiso3code": "IDA",
     "date": "2020",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2019",
-    "value": 9.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2018",
-    "value": 9.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2017",
-    "value": 9.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2016",
-    "value": 10,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2015",
-    "value": 10,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2014",
-    "value": 10,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2013",
-    "value": 10.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2012",
     "value": 10.5,
     "unit": "",
     "obs_status": "",
@@ -8617,8 +8489,136 @@
       "value": "IDA total"
     },
     "countryiso3code": "IDA",
+    "date": "2019",
+    "value": 10.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2018",
+    "value": 10.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2017",
+    "value": 10.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2016",
+    "value": 10.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2015",
+    "value": 10.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2014",
+    "value": 10.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2013",
+    "value": 10.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
+    "date": "2012",
+    "value": 10.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
     "date": "2011",
-    "value": 10.8,
+    "value": 11.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8634,7 +8634,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2010",
-    "value": 11,
+    "value": 11.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8650,7 +8650,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2009",
-    "value": 11.5,
+    "value": 11.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8666,7 +8666,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2008",
-    "value": 11.6,
+    "value": 12,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8682,7 +8682,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2007",
-    "value": 12.1,
+    "value": 12.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8698,7 +8698,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2006",
-    "value": 12.7,
+    "value": 13.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8714,22 +8714,6 @@
     },
     "countryiso3code": "IDA",
     "date": "2005",
-    "value": 13.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XG",
-      "value": "IDA total"
-    },
-    "countryiso3code": "IDA",
-    "date": "2004",
     "value": 13.6,
     "unit": "",
     "obs_status": "",
@@ -8745,8 +8729,8 @@
       "value": "IDA total"
     },
     "countryiso3code": "IDA",
-    "date": "2003",
-    "value": 14.2,
+    "date": "2004",
+    "value": 14,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8761,7 +8745,7 @@
       "value": "IDA total"
     },
     "countryiso3code": "IDA",
-    "date": "2002",
+    "date": "2003",
     "value": 14.6,
     "unit": "",
     "obs_status": "",
@@ -8777,8 +8761,24 @@
       "value": "IDA total"
     },
     "countryiso3code": "IDA",
+    "date": "2002",
+    "value": 15,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XG",
+      "value": "IDA total"
+    },
+    "countryiso3code": "IDA",
     "date": "2001",
-    "value": 14.9,
+    "value": 15.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -8794,7 +8794,7 @@
     },
     "countryiso3code": "IDA",
     "date": "2000",
-    "value": 15.2,
+    "value": 15.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9210,7 +9210,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2024",
-    "value": null,
+    "value": 3.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9226,6 +9226,22 @@
     },
     "countryiso3code": "LCN",
     "date": "2023",
+    "value": 3.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZJ",
+      "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2022",
     "value": 3.3,
     "unit": "",
     "obs_status": "",
@@ -9241,24 +9257,8 @@
       "value": "Latin America & Caribbean"
     },
     "countryiso3code": "LCN",
-    "date": "2022",
-    "value": 3.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZJ",
-      "value": "Latin America & Caribbean"
-    },
-    "countryiso3code": "LCN",
     "date": "2021",
-    "value": 3.7,
+    "value": 3.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9290,7 +9290,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2019",
-    "value": 3.6,
+    "value": 3.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9306,7 +9306,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2018",
-    "value": 3.6,
+    "value": 3.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9338,22 +9338,6 @@
     },
     "countryiso3code": "LCN",
     "date": "2016",
-    "value": 3.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZJ",
-      "value": "Latin America & Caribbean"
-    },
-    "countryiso3code": "LCN",
-    "date": "2015",
     "value": 3.6,
     "unit": "",
     "obs_status": "",
@@ -9369,8 +9353,24 @@
       "value": "Latin America & Caribbean"
     },
     "countryiso3code": "LCN",
+    "date": "2015",
+    "value": 3.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZJ",
+      "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
     "date": "2014",
-    "value": 3.8,
+    "value": 3.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9386,7 +9386,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2013",
-    "value": 3.9,
+    "value": 3.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9402,7 +9402,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2012",
-    "value": 4.1,
+    "value": 4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9434,7 +9434,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2010",
-    "value": 4.4,
+    "value": 4.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9450,7 +9450,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2009",
-    "value": 4.7,
+    "value": 4.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9466,7 +9466,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2008",
-    "value": 4.8,
+    "value": 4.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9482,7 +9482,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2007",
-    "value": 5,
+    "value": 4.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9498,7 +9498,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2006",
-    "value": 5.5,
+    "value": 5.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9514,6 +9514,22 @@
     },
     "countryiso3code": "LCN",
     "date": "2005",
+    "value": 6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZJ",
+      "value": "Latin America & Caribbean"
+    },
+    "countryiso3code": "LCN",
+    "date": "2004",
     "value": 6.2,
     "unit": "",
     "obs_status": "",
@@ -9529,8 +9545,8 @@
       "value": "Latin America & Caribbean"
     },
     "countryiso3code": "LCN",
-    "date": "2004",
-    "value": 6.3,
+    "date": "2003",
+    "value": 6.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9545,7 +9561,7 @@
       "value": "Latin America & Caribbean"
     },
     "countryiso3code": "LCN",
-    "date": "2003",
+    "date": "2002",
     "value": 6.7,
     "unit": "",
     "obs_status": "",
@@ -9561,24 +9577,8 @@
       "value": "Latin America & Caribbean"
     },
     "countryiso3code": "LCN",
-    "date": "2002",
-    "value": 6.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZJ",
-      "value": "Latin America & Caribbean"
-    },
-    "countryiso3code": "LCN",
     "date": "2001",
-    "value": 7.3,
+    "value": 7.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -9594,7 +9594,7 @@
     },
     "countryiso3code": "LCN",
     "date": "2000",
-    "value": 7.7,
+    "value": 7.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -10810,7 +10810,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2024",
-    "value": null,
+    "value": 5.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -10826,6 +10826,134 @@
     },
     "countryiso3code": "LMY",
     "date": "2023",
+    "value": 5.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2022",
+    "value": 5.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2021",
+    "value": 5.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2020",
+    "value": 6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2019",
+    "value": 5.8,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2018",
+    "value": 5.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2017",
+    "value": 6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2016",
+    "value": 6.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XO",
+      "value": "Low & middle income"
+    },
+    "countryiso3code": "LMY",
+    "date": "2015",
     "value": 6.3,
     "unit": "",
     "obs_status": "",
@@ -10841,7 +10969,7 @@
       "value": "Low & middle income"
     },
     "countryiso3code": "LMY",
-    "date": "2022",
+    "date": "2014",
     "value": 6.4,
     "unit": "",
     "obs_status": "",
@@ -10857,136 +10985,8 @@
       "value": "Low & middle income"
     },
     "countryiso3code": "LMY",
-    "date": "2021",
-    "value": 6.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2020",
-    "value": 6.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2019",
-    "value": 6.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2018",
-    "value": 6.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2017",
-    "value": 6.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2016",
-    "value": 6.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2015",
-    "value": 6.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
-    "date": "2014",
-    "value": 7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XO",
-      "value": "Low & middle income"
-    },
-    "countryiso3code": "LMY",
     "date": "2013",
-    "value": 7.1,
+    "value": 6.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11002,7 +11002,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2012",
-    "value": 7.4,
+    "value": 7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11018,7 +11018,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2011",
-    "value": 7.6,
+    "value": 7.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11034,7 +11034,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2010",
-    "value": 7.8,
+    "value": 7.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11050,7 +11050,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2009",
-    "value": 8.2,
+    "value": 8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11082,7 +11082,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2007",
-    "value": 8.6,
+    "value": 8.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11130,7 +11130,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2004",
-    "value": 9.4,
+    "value": 9.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11146,7 +11146,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2003",
-    "value": 9.7,
+    "value": 10,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11162,7 +11162,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2002",
-    "value": 9.9,
+    "value": 10.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11178,7 +11178,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2001",
-    "value": 10.3,
+    "value": 10.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11194,7 +11194,7 @@
     },
     "countryiso3code": "LMY",
     "date": "2000",
-    "value": 10.4,
+    "value": 11.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11226,150 +11226,6 @@
     },
     "countryiso3code": "",
     "date": "2023",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2022",
-    "value": 16,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2021",
-    "value": 16.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2020",
-    "value": 16.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2019",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2018",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2017",
-    "value": 15.5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2016",
-    "value": 15.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2015",
-    "value": 15.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
-    "date": "2014",
     "value": 14.8,
     "unit": "",
     "obs_status": "",
@@ -11385,8 +11241,8 @@
       "value": "Low income"
     },
     "countryiso3code": "",
-    "date": "2013",
-    "value": 14.9,
+    "date": "2022",
+    "value": 14.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11401,7 +11257,7 @@
       "value": "Low income"
     },
     "countryiso3code": "",
-    "date": "2012",
+    "date": "2021",
     "value": 15,
     "unit": "",
     "obs_status": "",
@@ -11417,8 +11273,152 @@
       "value": "Low income"
     },
     "countryiso3code": "",
+    "date": "2020",
+    "value": 15,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2019",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2018",
+    "value": null,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2017",
+    "value": 14.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2016",
+    "value": 14.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2015",
+    "value": 14.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2014",
+    "value": 14,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2013",
+    "value": 14.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2012",
+    "value": 14.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
     "date": "2011",
-    "value": 15.4,
+    "value": 14.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11434,6 +11434,22 @@
     },
     "countryiso3code": "",
     "date": "2010",
+    "value": 15.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XM",
+      "value": "Low income"
+    },
+    "countryiso3code": "",
+    "date": "2009",
     "value": 15.9,
     "unit": "",
     "obs_status": "",
@@ -11449,24 +11465,8 @@
       "value": "Low income"
     },
     "countryiso3code": "",
-    "date": "2009",
-    "value": 16.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XM",
-      "value": "Low income"
-    },
-    "countryiso3code": "",
     "date": "2008",
-    "value": 16.5,
+    "value": 15.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11482,7 +11482,7 @@
     },
     "countryiso3code": "",
     "date": "2007",
-    "value": 17.6,
+    "value": 16.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11498,7 +11498,7 @@
     },
     "countryiso3code": "",
     "date": "2006",
-    "value": 18.6,
+    "value": 17.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11514,7 +11514,7 @@
     },
     "countryiso3code": "",
     "date": "2005",
-    "value": 19.6,
+    "value": 18.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11530,7 +11530,7 @@
     },
     "countryiso3code": "",
     "date": "2004",
-    "value": 20.3,
+    "value": 18.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11546,7 +11546,7 @@
     },
     "countryiso3code": "",
     "date": "2003",
-    "value": 20.9,
+    "value": 19.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11562,7 +11562,7 @@
     },
     "countryiso3code": "",
     "date": "2002",
-    "value": 21.5,
+    "value": 20.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11610,54 +11610,6 @@
     },
     "countryiso3code": "",
     "date": "2024",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2023",
-    "value": 6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2022",
-    "value": 6.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2021",
     "value": 6.3,
     "unit": "",
     "obs_status": "",
@@ -11673,8 +11625,56 @@
       "value": "Lower middle income"
     },
     "countryiso3code": "",
-    "date": "2020",
+    "date": "2023",
     "value": 6.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
+    "date": "2022",
+    "value": 6.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
+    "date": "2021",
+    "value": 6.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
+    "date": "2020",
+    "value": 6.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11770,7 +11770,7 @@
     },
     "countryiso3code": "",
     "date": "2014",
-    "value": 7.1,
+    "value": 7.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11786,7 +11786,7 @@
     },
     "countryiso3code": "",
     "date": "2013",
-    "value": 7.3,
+    "value": 7.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11802,38 +11802,6 @@
     },
     "countryiso3code": "",
     "date": "2012",
-    "value": 7.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2011",
-    "value": 7.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2010",
     "value": 8.1,
     "unit": "",
     "obs_status": "",
@@ -11849,8 +11817,40 @@
       "value": "Lower middle income"
     },
     "countryiso3code": "",
+    "date": "2011",
+    "value": 8.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
+    "date": "2010",
+    "value": 8.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
     "date": "2009",
-    "value": 8.5,
+    "value": 9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11866,7 +11866,7 @@
     },
     "countryiso3code": "",
     "date": "2008",
-    "value": 8.7,
+    "value": 9.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11882,7 +11882,7 @@
     },
     "countryiso3code": "",
     "date": "2007",
-    "value": 8.9,
+    "value": 9.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11898,38 +11898,6 @@
     },
     "countryiso3code": "",
     "date": "2006",
-    "value": 9.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2005",
-    "value": 9.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XN",
-      "value": "Lower middle income"
-    },
-    "countryiso3code": "",
-    "date": "2004",
     "value": 9.8,
     "unit": "",
     "obs_status": "",
@@ -11945,8 +11913,40 @@
       "value": "Lower middle income"
     },
     "countryiso3code": "",
+    "date": "2005",
+    "value": 10.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
+    "date": "2004",
+    "value": 10.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XN",
+      "value": "Lower middle income"
+    },
+    "countryiso3code": "",
     "date": "2003",
-    "value": 10,
+    "value": 10.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -11962,7 +11962,7 @@
     },
     "countryiso3code": "",
     "date": "2002",
-    "value": 10.2,
+    "value": 10.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12026,7 +12026,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2023",
-    "value": 4.6,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12042,7 +12042,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2022",
-    "value": 4.6,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12058,7 +12058,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2021",
-    "value": 4.6,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12074,7 +12074,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2020",
-    "value": 4.7,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12090,7 +12090,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2019",
-    "value": null,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12106,7 +12106,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2018",
-    "value": 4.4,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12122,7 +12122,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2017",
-    "value": 4.4,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12138,7 +12138,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2016",
-    "value": 4.4,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12154,7 +12154,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2015",
-    "value": 4.2,
+    "value": 5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12170,7 +12170,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2014",
-    "value": 4.1,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12186,7 +12186,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2013",
-    "value": 4,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12202,7 +12202,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2012",
-    "value": 3.9,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12218,7 +12218,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2011",
-    "value": 3.9,
+    "value": 5.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12234,7 +12234,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2010",
-    "value": 3.9,
+    "value": 5.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12250,7 +12250,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2009",
-    "value": 4,
+    "value": 5.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12266,7 +12266,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2008",
-    "value": 4.1,
+    "value": 5.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12282,7 +12282,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2007",
-    "value": 4.2,
+    "value": 5.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12298,7 +12298,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2006",
-    "value": 4.2,
+    "value": 5.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12314,7 +12314,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2005",
-    "value": 4.3,
+    "value": 5.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12330,7 +12330,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2004",
-    "value": 4.3,
+    "value": 6.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12346,7 +12346,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2003",
-    "value": 4.5,
+    "value": 6.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12362,7 +12362,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2002",
-    "value": null,
+    "value": 6.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12378,7 +12378,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2001",
-    "value": 4.6,
+    "value": 6.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -12394,7 +12394,7 @@
     },
     "countryiso3code": "MEA",
     "date": "2000",
-    "value": 4.6,
+    "value": 6.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13610,7 +13610,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2024",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13626,7 +13626,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2023",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13642,7 +13642,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2022",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13658,7 +13658,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2021",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13674,7 +13674,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2020",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13690,7 +13690,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2019",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13706,7 +13706,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2018",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13722,7 +13722,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2017",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13738,7 +13738,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2016",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13754,7 +13754,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2015",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13770,7 +13770,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2014",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13786,7 +13786,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2013",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13802,7 +13802,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2012",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13818,7 +13818,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2011",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13834,7 +13834,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2010",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13850,7 +13850,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2009",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13866,7 +13866,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2008",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13882,7 +13882,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2007",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13898,7 +13898,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2006",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13914,7 +13914,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2005",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13930,7 +13930,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2004",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13946,7 +13946,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2003",
-    "value": null,
+    "value": 1.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13962,7 +13962,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2002",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13978,7 +13978,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2001",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -13994,7 +13994,7 @@
     },
     "countryiso3code": "NAC",
     "date": "2000",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -16810,22 +16810,6 @@
     },
     "countryiso3code": "SAS",
     "date": "2024",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "8S",
-      "value": "South Asia"
-    },
-    "countryiso3code": "SAS",
-    "date": "2023",
     "value": 5.4,
     "unit": "",
     "obs_status": "",
@@ -16841,7 +16825,7 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
-    "date": "2022",
+    "date": "2023",
     "value": 5.6,
     "unit": "",
     "obs_status": "",
@@ -16857,8 +16841,24 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
+    "date": "2022",
+    "value": 5.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "8S",
+      "value": "South Asia"
+    },
+    "countryiso3code": "SAS",
     "date": "2021",
-    "value": 5.8,
+    "value": 6.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -16874,7 +16874,7 @@
     },
     "countryiso3code": "SAS",
     "date": "2020",
-    "value": 6,
+    "value": 6.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -16970,7 +16970,7 @@
     },
     "countryiso3code": "SAS",
     "date": "2014",
-    "value": 7,
+    "value": 7.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -16986,7 +16986,7 @@
     },
     "countryiso3code": "SAS",
     "date": "2013",
-    "value": 7.2,
+    "value": 7.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17002,7 +17002,7 @@
     },
     "countryiso3code": "SAS",
     "date": "2012",
-    "value": 7.4,
+    "value": 8.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17018,38 +17018,6 @@
     },
     "countryiso3code": "SAS",
     "date": "2011",
-    "value": 7.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "8S",
-      "value": "South Asia"
-    },
-    "countryiso3code": "SAS",
-    "date": "2010",
-    "value": 7.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "8S",
-      "value": "South Asia"
-    },
-    "countryiso3code": "SAS",
-    "date": "2009",
     "value": 8.3,
     "unit": "",
     "obs_status": "",
@@ -17065,23 +17033,7 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
-    "date": "2008",
-    "value": 8.4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "8S",
-      "value": "South Asia"
-    },
-    "countryiso3code": "SAS",
-    "date": "2007",
+    "date": "2010",
     "value": 8.6,
     "unit": "",
     "obs_status": "",
@@ -17097,8 +17049,8 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
-    "date": "2006",
-    "value": 8.8,
+    "date": "2009",
+    "value": 9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17113,23 +17065,7 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
-    "date": "2005",
-    "value": 9.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "8S",
-      "value": "South Asia"
-    },
-    "countryiso3code": "SAS",
-    "date": "2004",
+    "date": "2008",
     "value": 9.2,
     "unit": "",
     "obs_status": "",
@@ -17145,7 +17081,7 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
-    "date": "2003",
+    "date": "2007",
     "value": 9.4,
     "unit": "",
     "obs_status": "",
@@ -17161,8 +17097,72 @@
       "value": "South Asia"
     },
     "countryiso3code": "SAS",
+    "date": "2006",
+    "value": 9.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "8S",
+      "value": "South Asia"
+    },
+    "countryiso3code": "SAS",
+    "date": "2005",
+    "value": 9.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "8S",
+      "value": "South Asia"
+    },
+    "countryiso3code": "SAS",
+    "date": "2004",
+    "value": 10.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "8S",
+      "value": "South Asia"
+    },
+    "countryiso3code": "SAS",
+    "date": "2003",
+    "value": 10.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "8S",
+      "value": "South Asia"
+    },
+    "countryiso3code": "SAS",
     "date": "2002",
-    "value": 9.5,
+    "value": 10.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17610,214 +17610,6 @@
     },
     "countryiso3code": "SSF",
     "date": "2024",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2023",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2022",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2021",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2020",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2019",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2018",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2017",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2016",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2015",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2014",
-    "value": 11.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2013",
-    "value": 11.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2012",
-    "value": 12.1,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2011",
     "value": 12.4,
     "unit": "",
     "obs_status": "",
@@ -17833,39 +17625,215 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
+    "date": "2023",
+    "value": 12.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2022",
+    "value": 12.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2021",
+    "value": 12.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2020",
+    "value": 12.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2019",
+    "value": 12.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2018",
+    "value": 12.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2017",
+    "value": 12.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2016",
+    "value": 12.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2015",
+    "value": 12.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2014",
+    "value": 12.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2013",
+    "value": 12.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2012",
+    "value": 12.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2011",
+    "value": 13,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
     "date": "2010",
-    "value": 12.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2009",
-    "value": 13.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2008",
     "value": 13.3,
     "unit": "",
     "obs_status": "",
@@ -17881,8 +17849,8 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
-    "date": "2007",
-    "value": 13.9,
+    "date": "2009",
+    "value": 13.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17897,7 +17865,23 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
-    "date": "2006",
+    "date": "2008",
+    "value": 14,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2007",
     "value": 14.5,
     "unit": "",
     "obs_status": "",
@@ -17913,7 +17897,7 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
-    "date": "2005",
+    "date": "2006",
     "value": 15.1,
     "unit": "",
     "obs_status": "",
@@ -17929,8 +17913,8 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
-    "date": "2004",
-    "value": 15.6,
+    "date": "2005",
+    "value": 15.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -17945,7 +17929,7 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
-    "date": "2003",
+    "date": "2004",
     "value": 16.3,
     "unit": "",
     "obs_status": "",
@@ -17961,39 +17945,23 @@
       "value": "Sub-Saharan Africa"
     },
     "countryiso3code": "SSF",
+    "date": "2003",
+    "value": 17.1,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
     "date": "2002",
-    "value": 16.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2001",
-    "value": 17.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "ZG",
-      "value": "Sub-Saharan Africa"
-    },
-    "countryiso3code": "SSF",
-    "date": "2000",
     "value": 17.6,
     "unit": "",
     "obs_status": "",
@@ -18005,6 +17973,38 @@
       "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
     },
     "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2001",
+    "value": 18,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "ZG",
+      "value": "Sub-Saharan Africa"
+    },
+    "countryiso3code": "SSF",
+    "date": "2000",
+    "value": 18.5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
       "id": "ZF",
       "value": "Sub-Saharan Africa (excluding high income)"
     },
@@ -18810,7 +18810,7 @@
     },
     "countryiso3code": "",
     "date": "2024",
-    "value": null,
+    "value": 2.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -18826,7 +18826,7 @@
     },
     "countryiso3code": "",
     "date": "2023",
-    "value": 3.5,
+    "value": 2.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -18842,6 +18842,102 @@
     },
     "countryiso3code": "",
     "date": "2022",
+    "value": 2.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2021",
+    "value": 3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2020",
+    "value": 3.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2019",
+    "value": 3.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2018",
+    "value": 3.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2017",
+    "value": 3.4,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2016",
     "value": 3.6,
     "unit": "",
     "obs_status": "",
@@ -18857,8 +18953,8 @@
       "value": "Upper middle income"
     },
     "countryiso3code": "",
-    "date": "2021",
-    "value": 3.8,
+    "date": "2015",
+    "value": 3.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -18873,55 +18969,7 @@
       "value": "Upper middle income"
     },
     "countryiso3code": "",
-    "date": "2020",
-    "value": 3.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2019",
-    "value": 3.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2018",
-    "value": 3.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2017",
+    "date": "2014",
     "value": 3.9,
     "unit": "",
     "obs_status": "",
@@ -18937,23 +18985,7 @@
       "value": "Upper middle income"
     },
     "countryiso3code": "",
-    "date": "2016",
-    "value": 4,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2015",
+    "date": "2013",
     "value": 4.1,
     "unit": "",
     "obs_status": "",
@@ -18969,40 +19001,8 @@
       "value": "Upper middle income"
     },
     "countryiso3code": "",
-    "date": "2014",
-    "value": 4.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2013",
-    "value": 4.2,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
     "date": "2012",
-    "value": 4.3,
+    "value": 4.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19018,7 +19018,7 @@
     },
     "countryiso3code": "",
     "date": "2011",
-    "value": 4.5,
+    "value": 5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19034,7 +19034,7 @@
     },
     "countryiso3code": "",
     "date": "2010",
-    "value": 4.8,
+    "value": 5.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19050,7 +19050,7 @@
     },
     "countryiso3code": "",
     "date": "2009",
-    "value": 5,
+    "value": 5.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19066,7 +19066,7 @@
     },
     "countryiso3code": "",
     "date": "2008",
-    "value": 5.1,
+    "value": 6.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19082,86 +19082,6 @@
     },
     "countryiso3code": "",
     "date": "2007",
-    "value": 5.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2006",
-    "value": 5.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2005",
-    "value": 5.8,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2004",
-    "value": 6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2003",
-    "value": 6.3,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "XT",
-      "value": "Upper middle income"
-    },
-    "countryiso3code": "",
-    "date": "2002",
     "value": 6.4,
     "unit": "",
     "obs_status": "",
@@ -19177,8 +19097,88 @@
       "value": "Upper middle income"
     },
     "countryiso3code": "",
+    "date": "2006",
+    "value": 6.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2005",
+    "value": 7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2004",
+    "value": 7.6,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2003",
+    "value": 8.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
+    "date": "2002",
+    "value": 8.7,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "XT",
+      "value": "Upper middle income"
+    },
+    "countryiso3code": "",
     "date": "2001",
-    "value": 7.3,
+    "value": 9.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19194,7 +19194,7 @@
     },
     "countryiso3code": "",
     "date": "2000",
-    "value": 7.6,
+    "value": 9.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19210,38 +19210,6 @@
     },
     "countryiso3code": "WLD",
     "date": "2024",
-    "value": null,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "1W",
-      "value": "World"
-    },
-    "countryiso3code": "WLD",
-    "date": "2023",
-    "value": 4.7,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "1W",
-      "value": "World"
-    },
-    "countryiso3code": "WLD",
-    "date": "2022",
     "value": 4.8,
     "unit": "",
     "obs_status": "",
@@ -19257,7 +19225,7 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2021",
+    "date": "2023",
     "value": 4.9,
     "unit": "",
     "obs_status": "",
@@ -19273,8 +19241,40 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2020",
+    "date": "2022",
     "value": 5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "1W",
+      "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2021",
+    "value": 5,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "1W",
+      "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2020",
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19306,38 +19306,6 @@
     },
     "countryiso3code": "WLD",
     "date": "2018",
-    "value": 4.9,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "1W",
-      "value": "World"
-    },
-    "countryiso3code": "WLD",
-    "date": "2017",
-    "value": 5,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "1W",
-      "value": "World"
-    },
-    "countryiso3code": "WLD",
-    "date": "2016",
     "value": 5.1,
     "unit": "",
     "obs_status": "",
@@ -19353,7 +19321,7 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2015",
+    "date": "2017",
     "value": 5.2,
     "unit": "",
     "obs_status": "",
@@ -19369,7 +19337,23 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2014",
+    "date": "2016",
+    "value": 5.3,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "1W",
+      "value": "World"
+    },
+    "countryiso3code": "WLD",
+    "date": "2015",
     "value": 5.4,
     "unit": "",
     "obs_status": "",
@@ -19385,7 +19369,7 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2013",
+    "date": "2014",
     "value": 5.5,
     "unit": "",
     "obs_status": "",
@@ -19401,8 +19385,8 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2012",
-    "value": 5.8,
+    "date": "2013",
+    "value": 5.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19417,7 +19401,7 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
-    "date": "2011",
+    "date": "2012",
     "value": 6,
     "unit": "",
     "obs_status": "",
@@ -19433,8 +19417,24 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
+    "date": "2011",
+    "value": 6.2,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "1W",
+      "value": "World"
+    },
+    "countryiso3code": "WLD",
     "date": "2010",
-    "value": 6.3,
+    "value": 6.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19450,22 +19450,6 @@
     },
     "countryiso3code": "WLD",
     "date": "2009",
-    "value": 6.6,
-    "unit": "",
-    "obs_status": "",
-    "decimal": 1
-  },
-  {
-    "indicator": {
-      "id": "SI.SPR.PGAP",
-      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
-    },
-    "country": {
-      "id": "1W",
-      "value": "World"
-    },
-    "countryiso3code": "WLD",
-    "date": "2008",
     "value": 6.7,
     "unit": "",
     "obs_status": "",
@@ -19481,8 +19465,24 @@
       "value": "World"
     },
     "countryiso3code": "WLD",
+    "date": "2008",
+    "value": 6.9,
+    "unit": "",
+    "obs_status": "",
+    "decimal": 1
+  },
+  {
+    "indicator": {
+      "id": "SI.SPR.PGAP",
+      "value": "Prosperity gap (average shortfall from a prosperity standard of $28/day)"
+    },
+    "country": {
+      "id": "1W",
+      "value": "World"
+    },
+    "countryiso3code": "WLD",
     "date": "2007",
-    "value": 7,
+    "value": 7.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19498,7 +19498,7 @@
     },
     "countryiso3code": "WLD",
     "date": "2006",
-    "value": 7.3,
+    "value": 7.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19514,7 +19514,7 @@
     },
     "countryiso3code": "WLD",
     "date": "2005",
-    "value": 7.5,
+    "value": 7.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -19530,7 +19530,7 @@
     },
     "countryiso3code": "WLD",
     "date": "2004",
-    "value": 7.8,
+    "value": 7.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -22410,7 +22410,7 @@
     },
     "countryiso3code": "ARG",
     "date": "2024",
-    "value": null,
+    "value": 2.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -23674,7 +23674,7 @@
     },
     "countryiso3code": "AUS",
     "date": "2020",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -24026,7 +24026,7 @@
     },
     "countryiso3code": "AUT",
     "date": "2023",
-    "value": null,
+    "value": 0.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -25642,7 +25642,7 @@
     },
     "countryiso3code": "BGD",
     "date": "2022",
-    "value": 5.2,
+    "value": 5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -26826,7 +26826,7 @@
     },
     "countryiso3code": "BEL",
     "date": "2023",
-    "value": null,
+    "value": 0.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -31226,7 +31226,7 @@
     },
     "countryiso3code": "BGR",
     "date": "2023",
-    "value": null,
+    "value": 1.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -33658,7 +33658,7 @@
     },
     "countryiso3code": "CAN",
     "date": "2021",
-    "value": null,
+    "value": 0.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -36042,7 +36042,7 @@
     },
     "countryiso3code": "CHN",
     "date": "2022",
-    "value": null,
+    "value": 2.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -38826,7 +38826,7 @@
     },
     "countryiso3code": "HRV",
     "date": "2023",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -40026,7 +40026,7 @@
     },
     "countryiso3code": "CYP",
     "date": "2023",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -40426,7 +40426,7 @@
     },
     "countryiso3code": "CZE",
     "date": "2023",
-    "value": null,
+    "value": 0.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -40826,7 +40826,7 @@
     },
     "countryiso3code": "DNK",
     "date": "2023",
-    "value": null,
+    "value": 0.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -42010,7 +42010,7 @@
     },
     "countryiso3code": "DOM",
     "date": "2024",
-    "value": null,
+    "value": 2.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -42410,7 +42410,7 @@
     },
     "countryiso3code": "ECU",
     "date": "2024",
-    "value": null,
+    "value": 3.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -44426,7 +44426,7 @@
     },
     "countryiso3code": "EST",
     "date": "2023",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -46426,7 +46426,7 @@
     },
     "countryiso3code": "FIN",
     "date": "2023",
-    "value": null,
+    "value": 0.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -46826,7 +46826,7 @@
     },
     "countryiso3code": "FRA",
     "date": "2023",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -48410,7 +48410,7 @@
     },
     "countryiso3code": "GEO",
     "date": "2024",
-    "value": null,
+    "value": 3.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -50026,7 +50026,7 @@
     },
     "countryiso3code": "GRC",
     "date": "2023",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -50362,7 +50362,7 @@
     },
     "countryiso3code": "GRC",
     "date": "2002",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -50394,7 +50394,7 @@
     },
     "countryiso3code": "GRC",
     "date": "2000",
-    "value": 1.5,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -53610,7 +53610,7 @@
     },
     "countryiso3code": "HND",
     "date": "2024",
-    "value": null,
+    "value": 6.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54442,7 +54442,7 @@
     },
     "countryiso3code": "HUN",
     "date": "2022",
-    "value": 1.4,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54458,7 +54458,7 @@
     },
     "countryiso3code": "HUN",
     "date": "2021",
-    "value": 1.4,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54474,7 +54474,7 @@
     },
     "countryiso3code": "HUN",
     "date": "2020",
-    "value": 1.5,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54490,7 +54490,7 @@
     },
     "countryiso3code": "HUN",
     "date": "2019",
-    "value": 1.4,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54506,7 +54506,7 @@
     },
     "countryiso3code": "HUN",
     "date": "2018",
-    "value": 1.6,
+    "value": null,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -54890,7 +54890,7 @@
     },
     "countryiso3code": "ISL",
     "date": "2019",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -55530,7 +55530,7 @@
     },
     "countryiso3code": "IND",
     "date": "2004",
-    "value": 9.4,
+    "value": 9.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -56826,7 +56826,7 @@
     },
     "countryiso3code": "IRL",
     "date": "2023",
-    "value": null,
+    "value": 0.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -58026,7 +58026,7 @@
     },
     "countryiso3code": "ITA",
     "date": "2023",
-    "value": null,
+    "value": 1.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -60042,7 +60042,7 @@
     },
     "countryiso3code": "KEN",
     "date": "2022",
-    "value": null,
+    "value": 10,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -61642,7 +61642,7 @@
     },
     "countryiso3code": "XKX",
     "date": "2022",
-    "value": null,
+    "value": 7.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -62426,7 +62426,7 @@
     },
     "countryiso3code": "KGZ",
     "date": "2023",
-    "value": null,
+    "value": 4.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -63226,7 +63226,7 @@
     },
     "countryiso3code": "LVA",
     "date": "2023",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -63642,7 +63642,7 @@
     },
     "countryiso3code": "LBN",
     "date": "2022",
-    "value": null,
+    "value": 4.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -65626,7 +65626,7 @@
     },
     "countryiso3code": "LTU",
     "date": "2023",
-    "value": null,
+    "value": 1.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -66026,7 +66026,7 @@
     },
     "countryiso3code": "LUX",
     "date": "2023",
-    "value": null,
+    "value": 0.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -66858,7 +66858,7 @@
     },
     "countryiso3code": "MDG",
     "date": "2021",
-    "value": null,
+    "value": 14.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -67002,7 +67002,7 @@
     },
     "countryiso3code": "MDG",
     "date": "2012",
-    "value": 28.4,
+    "value": 15.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -67034,7 +67034,7 @@
     },
     "countryiso3code": "MDG",
     "date": "2010",
-    "value": 26,
+    "value": 14.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -67114,7 +67114,7 @@
     },
     "countryiso3code": "MDG",
     "date": "2005",
-    "value": 21.4,
+    "value": 11.7,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -67178,7 +67178,7 @@
     },
     "countryiso3code": "MDG",
     "date": "2001",
-    "value": 24.7,
+    "value": 13.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -71226,7 +71226,7 @@
     },
     "countryiso3code": "MDA",
     "date": "2023",
-    "value": null,
+    "value": 2.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -71274,7 +71274,7 @@
     },
     "countryiso3code": "MDA",
     "date": "2020",
-    "value": null,
+    "value": 2.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -73242,7 +73242,7 @@
     },
     "countryiso3code": "MOZ",
     "date": "2022",
-    "value": null,
+    "value": 24.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -73290,7 +73290,7 @@
     },
     "countryiso3code": "MOZ",
     "date": "2019",
-    "value": 25.7,
+    "value": 25.2,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -77242,7 +77242,7 @@
     },
     "countryiso3code": "NGA",
     "date": "2022",
-    "value": null,
+    "value": 9.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -78426,7 +78426,7 @@
     },
     "countryiso3code": "NOR",
     "date": "2023",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -80010,7 +80010,7 @@
     },
     "countryiso3code": "PAN",
     "date": "2024",
-    "value": null,
+    "value": 2.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -80810,7 +80810,7 @@
     },
     "countryiso3code": "PRY",
     "date": "2024",
-    "value": null,
+    "value": 2.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -81210,7 +81210,7 @@
     },
     "countryiso3code": "PER",
     "date": "2024",
-    "value": null,
+    "value": 3.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -82026,7 +82026,7 @@
     },
     "countryiso3code": "POL",
     "date": "2023",
-    "value": null,
+    "value": 0.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -82426,7 +82426,7 @@
     },
     "countryiso3code": "PRT",
     "date": "2023",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -83626,7 +83626,7 @@
     },
     "countryiso3code": "ROU",
     "date": "2023",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -84026,7 +84026,7 @@
     },
     "countryiso3code": "RUS",
     "date": "2023",
-    "value": null,
+    "value": 1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -84042,7 +84042,7 @@
     },
     "countryiso3code": "RUS",
     "date": "2022",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -84426,7 +84426,7 @@
     },
     "countryiso3code": "RWA",
     "date": "2023",
-    "value": null,
+    "value": 8.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -88826,7 +88826,7 @@
     },
     "countryiso3code": "SVK",
     "date": "2023",
-    "value": null,
+    "value": 1.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -89226,7 +89226,7 @@
     },
     "countryiso3code": "SVN",
     "date": "2023",
-    "value": null,
+    "value": 0.6,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -90006,7 +90006,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2024",
@@ -90022,7 +90022,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2023",
@@ -90038,7 +90038,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2022",
@@ -90054,7 +90054,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2021",
@@ -90070,7 +90070,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2020",
@@ -90086,7 +90086,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2019",
@@ -90102,7 +90102,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2018",
@@ -90118,7 +90118,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2017",
@@ -90134,7 +90134,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2016",
@@ -90150,7 +90150,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2015",
@@ -90166,7 +90166,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2014",
@@ -90182,7 +90182,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2013",
@@ -90198,7 +90198,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2012",
@@ -90214,7 +90214,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2011",
@@ -90230,7 +90230,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2010",
@@ -90246,7 +90246,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2009",
@@ -90262,7 +90262,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2008",
@@ -90278,7 +90278,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2007",
@@ -90294,7 +90294,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2006",
@@ -90310,7 +90310,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2005",
@@ -90326,7 +90326,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2004",
@@ -90342,7 +90342,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2003",
@@ -90358,7 +90358,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2002",
@@ -90374,7 +90374,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2001",
@@ -90390,7 +90390,7 @@
     },
     "country": {
       "id": "SO",
-      "value": "Somalia"
+      "value": "Somalia, Fed. Rep."
     },
     "countryiso3code": "SOM",
     "date": "2000",
@@ -91226,7 +91226,7 @@
     },
     "countryiso3code": "ESP",
     "date": "2023",
-    "value": null,
+    "value": 1.3,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -94426,7 +94426,7 @@
     },
     "countryiso3code": "SWE",
     "date": "2023",
-    "value": null,
+    "value": 1.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -94842,7 +94842,7 @@
     },
     "countryiso3code": "CHE",
     "date": "2022",
-    "value": null,
+    "value": 0.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -95610,7 +95610,7 @@
     },
     "countryiso3code": "TJK",
     "date": "2024",
-    "value": null,
+    "value": 4.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -95626,7 +95626,7 @@
     },
     "countryiso3code": "TJK",
     "date": "2023",
-    "value": null,
+    "value": 4.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -95642,7 +95642,7 @@
     },
     "countryiso3code": "TJK",
     "date": "2022",
-    "value": null,
+    "value": 4.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -95658,7 +95658,7 @@
     },
     "countryiso3code": "TJK",
     "date": "2021",
-    "value": null,
+    "value": 5.1,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -95930,7 +95930,7 @@
     },
     "countryiso3code": "TJK",
     "date": "2004",
-    "value": 9,
+    "value": 8.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -96442,7 +96442,7 @@
     },
     "countryiso3code": "THA",
     "date": "2022",
-    "value": 2,
+    "value": 1.9,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -96970,7 +96970,7 @@
     },
     "countryiso3code": "TLS",
     "date": "2014",
-    "value": 9.5,
+    "value": 9.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -97354,7 +97354,7 @@
     },
     "countryiso3code": "TGO",
     "date": "2015",
-    "value": 16.1,
+    "value": 16,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -97418,7 +97418,7 @@
     },
     "countryiso3code": "TGO",
     "date": "2011",
-    "value": 17.1,
+    "value": 17,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -97498,7 +97498,7 @@
     },
     "countryiso3code": "TGO",
     "date": "2006",
-    "value": 15.6,
+    "value": 15.5,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -102410,7 +102410,7 @@
     },
     "countryiso3code": "URY",
     "date": "2024",
-    "value": null,
+    "value": 1.4,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -102794,7 +102794,7 @@
     },
     "countryiso3code": "URY",
     "date": "2000",
-    "value": 1.9,
+    "value": 1.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1
@@ -102810,7 +102810,7 @@
     },
     "countryiso3code": "UZB",
     "date": "2024",
-    "value": null,
+    "value": 2.8,
     "unit": "",
     "obs_status": "",
     "decimal": 1

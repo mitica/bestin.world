@@ -1,13 +1,19 @@
 [
   {
     "indicatorId": "bm-gsr-insf-zs",
-    "value": 0.0369898652729143,
+    "value": 0.03699,
     "date": 2023,
     "type": "min"
   },
   {
+    "indicatorId": "en-hpt-thrd-no",
+    "value": 1,
+    "date": 2022,
+    "type": "min"
+  },
+  {
     "indicatorId": "gb-xpd-rsdv-gd-zs",
-    "value": 0.0101899998262525,
+    "value": 0.01019,
     "date": 2018,
     "type": "min"
   },
@@ -24,8 +30,14 @@
     "type": "max"
   },
   {
+    "indicatorId": "se-xpd-totl-gb-zs",
+    "value": 32.042419,
+    "date": 2024,
+    "type": "max"
+  },
+  {
     "indicatorId": "tm-val-insf-zs-wt",
-    "value": 0.0392269084330882,
+    "value": 0.039227,
     "date": 2023,
     "type": "min"
   }

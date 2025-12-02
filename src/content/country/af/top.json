@@ -1,20 +1,14 @@
 [
   {
-    "indicatorId": "dc-dac-gbrl-cd",
-    "value": 434559997.558594,
-    "date": 2022,
-    "type": "max"
-  },
-  {
-    "indicatorId": "dt-nfl-uncr-cd",
-    "value": 37871448.5168457,
-    "date": 2016,
-    "type": "max"
-  },
-  {
     "indicatorId": "dt-nfl-undp-cd",
-    "value": 18618459.7015381,
+    "value": 18618459.701538,
     "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "dt-nfl-wfpg-cd",
+    "value": 29472158.432007,
+    "date": 2023,
     "type": "max"
   },
   {
@@ -25,8 +19,8 @@
   },
   {
     "indicatorId": "er-gdp-fwtl-m3-kd",
-    "value": 0.80589698069956,
-    "date": 2021,
+    "value": 0.755608,
+    "date": 2022,
     "type": "min"
   },
   {
@@ -36,14 +30,8 @@
     "type": "min"
   },
   {
-    "indicatorId": "fp-cpi-totl-zg",
-    "value": -6.60118564073726,
-    "date": 2024,
-    "type": "min"
-  },
-  {
     "indicatorId": "gc-xpn-gsrv-zs",
-    "value": 54.7788688983146,
+    "value": 54.778869,
     "date": 2017,
     "type": "max"
   },
@@ -103,26 +91,32 @@
   },
   {
     "indicatorId": "se-adt-1524-lt-fm-zs",
-    "value": 0.536690652370453,
+    "value": 0.536691,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "se-enr-prim-fm-zs",
-    "value": 0.671689987182617,
+    "value": 0.67169,
     "date": 2019,
     "type": "min"
   },
   {
     "indicatorId": "se-enr-prsc-fm-zs",
-    "value": 0.636020004749298,
+    "value": 0.63602,
     "date": 2018,
+    "type": "min"
+  },
+  {
+    "indicatorId": "se-enr-tert-fm-zs",
+    "value": 0.38092,
+    "date": 2020,
     "type": "min"
   },
   {
     "indicatorId": "se-pre-durs",
     "value": 1,
-    "date": 2023,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -133,7 +127,7 @@
   },
   {
     "indicatorId": "se-ter-cuat-ms-fe-zs",
-    "value": 0.0399999991059303,
+    "value": 0.04,
     "date": 2021,
     "type": "min"
   },
@@ -157,8 +151,8 @@
   },
   {
     "indicatorId": "sh-hiv-artc-zs",
-    "value": 9,
-    "date": 2022,
+    "value": 11,
+    "date": 2024,
     "type": "min"
   },
   {
@@ -181,25 +175,25 @@
   },
   {
     "indicatorId": "sh-xpd-chex-gd-zs",
-    "value": 23.0881691,
+    "value": 23.088169,
     "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "sh-xpd-ghed-ch-zs",
-    "value": 0.78598934,
+    "value": 0.785989,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "sh-xpd-ghed-ge-zs",
-    "value": 1.12605727,
+    "value": 1.126057,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "sh-xpd-ghed-pc-cd",
-    "value": 0.63391294,
+    "value": 0.633913,
     "date": 2022,
     "type": "min"
   },
@@ -211,19 +205,19 @@
   },
   {
     "indicatorId": "sl-fam-work-fe-zs",
-    "value": 66.7798192102057,
+    "value": 66.779819,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "sl-tlf-cact-fm-zs",
-    "value": 7.3046813504501,
+    "value": 7.304681,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sl-tlf-totl-fe-zs",
-    "value": 6.80438606806718,
+    "value": 6.804386,
     "date": 2024,
     "type": "min"
   },
@@ -246,12 +240,6 @@
     "type": "max"
   },
   {
-    "indicatorId": "sm-pop-rhcr-eo",
-    "value": 6403144,
-    "date": 2023,
-    "type": "max"
-  },
-  {
     "indicatorId": "sp-hou-fema-zs",
     "value": 1.7,
     "date": 2015,
@@ -259,7 +247,7 @@
   },
   {
     "indicatorId": "tm-val-mrch-r4-zs",
-    "value": 23.6781281742096,
+    "value": 23.678128,
     "date": 2023,
     "type": "max"
   }

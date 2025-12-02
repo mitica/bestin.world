@@ -1,63 +1,21 @@
 [
   {
     "indicatorId": "cc-std-err",
-    "value": 0.144912332296371,
+    "value": 0.144912,
     "date": 2023,
     "type": "min"
   },
   {
-    "indicatorId": "dc-oda-tldc-gn-zs",
-    "value": 0.000617726273133849,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "gc-tax-impt-cn",
-    "value": 29000,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "gc-tax-impt-zs",
-    "value": 0.000135509060579699,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "gc-tax-intt-cn",
-    "value": 29000,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "gc-tax-intt-rv-zs",
-    "value": 0.0000695922914010661,
-    "date": 2022,
-    "type": "min"
-  },
-  {
     "indicatorId": "ic-bre-us-os",
-    "value": 86.4246622423331,
+    "value": 86.424662,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "ic-bre-us-p1",
-    "value": 91.7361078262329,
+    "value": 91.736108,
     "date": 2024,
     "type": "max"
-  },
-  {
-    "indicatorId": "nv-mnf-mtrn-zs-un",
-    "value": 1231.59579886967,
-    "date": 2022,
-    "type": "max"
-  },
-  {
-    "indicatorId": "nv-mnf-othr-zs-un",
-    "value": -1886.89451087879,
-    "date": 2022,
-    "type": "min"
   },
   {
     "indicatorId": "se-sec-durs",
@@ -67,38 +25,44 @@
   },
   {
     "indicatorId": "si-dst-02nd-20",
-    "value": 15.4,
-    "date": 2022,
+    "value": 15.3,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "si-dst-03rd-20",
-    "value": 19.6,
-    "date": 2022,
+    "value": 19.3,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "si-dst-05th-20",
-    "value": 32.4,
-    "date": 2022,
+    "value": 32.8,
+    "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "si-dst-10th-10",
-    "value": 18.2,
-    "date": 2022,
+    "value": 18.8,
+    "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "si-pov-gini",
-    "value": 24.1,
-    "date": 2022,
+    "value": 23.8,
+    "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "sl-ind-empl-ma-zs",
-    "value": 49.018805752879,
+    "value": 49.018806,
     "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sl-uem-basc-zs",
+    "value": 40.088,
+    "date": 2024,
     "type": "max"
   }
 ]

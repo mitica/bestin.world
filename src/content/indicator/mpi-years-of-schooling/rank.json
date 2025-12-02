@@ -104,27 +104,11 @@
     "decimal": 0
   },
   {
-    "countryId": "jo",
-    "date": 2017,
-    "value": 26.7886189968763,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 14,
-    "decimal": 0
-  },
-  {
-    "countryId": "bd",
-    "date": 2019,
-    "value": 26.7776154659132,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 15,
-    "decimal": 0
-  },
-  {
     "countryId": "cr",
     "date": 2018,
     "value": 26.6273116854196,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 16,
+    "rank": 14,
     "decimal": 0
   },
   {
@@ -132,23 +116,15 @@
     "date": 2016,
     "value": 25.6292483336947,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 17,
+    "rank": 15,
     "decimal": 0
   },
   {
     "countryId": "la",
-    "date": 2017,
-    "value": 25.6138065986171,
+    "date": 2023,
+    "value": 25.444252,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 18,
-    "decimal": 0
-  },
-  {
-    "countryId": "bo",
-    "date": 2016,
-    "value": 25.2421308202289,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 19,
+    "rank": 16,
     "decimal": 0
   },
   {
@@ -156,7 +132,15 @@
     "date": 2021,
     "value": 24.81832,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 20,
+    "rank": 17,
+    "decimal": 0
+  },
+  {
+    "countryId": "bd",
+    "date": 2022,
+    "value": 24.777697,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 18,
     "decimal": 0
   },
   {
@@ -164,7 +148,7 @@
     "date": 2019,
     "value": 24.6563934547677,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 21,
+    "rank": 19,
     "decimal": 0
   },
   {
@@ -172,7 +156,15 @@
     "date": 2022,
     "value": 24.2961440251595,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 22,
+    "rank": 20,
+    "decimal": 0
+  },
+  {
+    "countryId": "jo",
+    "date": 2023,
+    "value": 24.272112,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 21,
     "decimal": 0
   },
   {
@@ -180,7 +172,7 @@
     "date": 2015,
     "value": 23.7067036659805,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 23,
+    "rank": 22,
     "decimal": 0
   },
   {
@@ -188,13 +180,21 @@
     "date": 2021,
     "value": 22.873143127052,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 24,
+    "rank": 23,
     "decimal": 0
   },
   {
     "countryId": "bj",
-    "date": 2022,
+    "date": 2021,
     "value": 22.2078997390378,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 24,
+    "decimal": 0
+  },
+  {
+    "countryId": "bo",
+    "date": 2023,
+    "value": 22.180355,
     "indicatorId": "mpi-years-of-schooling",
     "rank": 25,
     "decimal": 0
@@ -232,19 +232,11 @@
     "decimal": 0
   },
   {
-    "countryId": "sn",
-    "date": 2019,
-    "value": 20.6257654369684,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 30,
-    "decimal": 0
-  },
-  {
     "countryId": "gn",
     "date": 2018,
     "value": 20.5773091996411,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 31,
+    "rank": 30,
     "decimal": 0
   },
   {
@@ -252,7 +244,7 @@
     "date": 2018,
     "value": 20.572741265624,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 32,
+    "rank": 31,
     "decimal": 0
   },
   {
@@ -260,7 +252,7 @@
     "date": 2019,
     "value": 20.5447416068304,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 33,
+    "rank": 32,
     "decimal": 0
   },
   {
@@ -268,7 +260,7 @@
     "date": 2018,
     "value": 19.974280440804,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 34,
+    "rank": 33,
     "decimal": 0
   },
   {
@@ -276,7 +268,7 @@
     "date": 2019,
     "value": 19.8923325261822,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 35,
+    "rank": 34,
     "decimal": 0
   },
   {
@@ -284,13 +276,21 @@
     "date": 2019,
     "value": 19.8627409956558,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 36,
+    "rank": 35,
     "decimal": 0
   },
   {
     "countryId": "br",
     "date": 2015,
     "value": 19.8349092897427,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 36,
+    "decimal": 0
+  },
+  {
+    "countryId": "ne",
+    "date": 2021,
+    "value": 19.57483,
     "indicatorId": "mpi-years-of-schooling",
     "rank": 37,
     "decimal": 0
@@ -345,10 +345,18 @@
   },
   {
     "countryId": "af",
-    "date": 2023,
+    "date": 2022,
     "value": 18.2960747236269,
     "indicatorId": "mpi-years-of-schooling",
     "rank": 44,
+    "decimal": 0
+  },
+  {
+    "countryId": "sn",
+    "date": 2023,
+    "value": 18.188883,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -356,7 +364,7 @@
     "date": 2017,
     "value": 17.6890763677866,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 45,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -364,7 +372,7 @@
     "date": 2022,
     "value": 17.6166940918595,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 46,
+    "rank": 47,
     "decimal": 0
   },
   {
@@ -372,7 +380,7 @@
     "date": 2019,
     "value": 17.373875315252,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 47,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -380,15 +388,15 @@
     "date": 2016,
     "value": 17.3542251617018,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 48,
+    "rank": 49,
     "decimal": 0
   },
   {
     "countryId": "mz",
-    "date": 2023,
+    "date": 2022,
     "value": 17.287981978599,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 49,
+    "rank": 50,
     "decimal": 0
   },
   {
@@ -396,7 +404,7 @@
     "date": 2018,
     "value": 17.1628295825185,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 50,
+    "rank": 51,
     "decimal": 0
   },
   {
@@ -404,7 +412,7 @@
     "date": 2022,
     "value": 16.876800904479,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 51,
+    "rank": 52,
     "decimal": 0
   },
   {
@@ -412,7 +420,15 @@
     "date": 2018,
     "value": 16.7121469649161,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 52,
+    "rank": 53,
+    "decimal": 0
+  },
+  {
+    "countryId": "pe",
+    "date": 2023,
+    "value": 16.661743,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 54,
     "decimal": 0
   },
   {
@@ -420,7 +436,7 @@
     "date": 2019,
     "value": 16.4387166602226,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 53,
+    "rank": 55,
     "decimal": 0
   },
   {
@@ -428,7 +444,7 @@
     "date": 2021,
     "value": 15.87571,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 54,
+    "rank": 56,
     "decimal": 0
   },
   {
@@ -436,15 +452,7 @@
     "date": 2021,
     "value": 15.7868903106263,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 55,
-    "decimal": 0
-  },
-  {
-    "countryId": "pe",
-    "date": 2022,
-    "value": 15.4963469034933,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 56,
+    "rank": 57,
     "decimal": 0
   },
   {
@@ -452,7 +460,7 @@
     "date": 2018,
     "value": 15.4275300425941,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 57,
+    "rank": 58,
     "decimal": 0
   },
   {
@@ -460,7 +468,7 @@
     "date": 2019,
     "value": 15.2985216982281,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 58,
+    "rank": 59,
     "decimal": 0
   },
   {
@@ -468,7 +476,7 @@
     "date": 2016,
     "value": 14.4884047765618,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 59,
+    "rank": 60,
     "decimal": 0
   },
   {
@@ -476,7 +484,7 @@
     "date": 2018,
     "value": 13.7307324920659,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 60,
+    "rank": 61,
     "decimal": 0
   },
   {
@@ -484,7 +492,7 @@
     "date": 2022,
     "value": 13.6210072339815,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 61,
+    "rank": 62,
     "decimal": 0
   },
   {
@@ -492,7 +500,23 @@
     "date": 2016,
     "value": 13.3835158646774,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 62,
+    "rank": 63,
+    "decimal": 0
+  },
+  {
+    "countryId": "az",
+    "date": 2023,
+    "value": 13.141996,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 64,
+    "decimal": 0
+  },
+  {
+    "countryId": "vu",
+    "date": 2023,
+    "value": 12.640486,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 65,
     "decimal": 0
   },
   {
@@ -500,7 +524,7 @@
     "date": 2019,
     "value": 12.45521,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 63,
+    "rank": 66,
     "decimal": 0
   },
   {
@@ -508,7 +532,7 @@
     "date": 2016,
     "value": 12.3397189762873,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 64,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -516,15 +540,15 @@
     "date": 2019,
     "value": 12.0459730559628,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 65,
+    "rank": 68,
     "decimal": 0
   },
   {
     "countryId": "sz",
-    "date": 2022,
+    "date": 2021,
     "value": 12.0046600473166,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 66,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -532,7 +556,7 @@
     "date": 2016,
     "value": 11.9417294489043,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 67,
+    "rank": 70,
     "decimal": 0
   },
   {
@@ -540,31 +564,23 @@
     "date": 2018,
     "value": 11.6882409419072,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 68,
+    "rank": 71,
     "decimal": 0
   },
   {
     "countryId": "ye",
-    "date": 2023,
+    "date": 2022,
     "value": 11.6669332131214,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 69,
+    "rank": 72,
     "decimal": 0
   },
   {
     "countryId": "ga",
-    "date": 2021,
+    "date": 2019,
     "value": 11.5475468380642,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 70,
-    "decimal": 0
-  },
-  {
-    "countryId": "ls",
-    "date": 2018,
-    "value": 10.9051295700347,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 71,
+    "rank": 73,
     "decimal": 0
   },
   {
@@ -572,7 +588,7 @@
     "date": 2019,
     "value": 10.571593331654,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 72,
+    "rank": 74,
     "decimal": 0
   },
   {
@@ -580,7 +596,7 @@
     "date": 2018,
     "value": 10.5140168024349,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 73,
+    "rank": 75,
     "decimal": 0
   },
   {
@@ -588,7 +604,15 @@
     "date": 2016,
     "value": 10.471886857968,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 74,
+    "rank": 76,
+    "decimal": 0
+  },
+  {
+    "countryId": "ls",
+    "date": 2023,
+    "value": 9.7656849,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 77,
     "decimal": 0
   },
   {
@@ -596,7 +620,7 @@
     "date": 2015,
     "value": 9.0945169698833,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 75,
+    "rank": 78,
     "decimal": 0
   },
   {
@@ -604,7 +628,7 @@
     "date": 2018,
     "value": 8.63550971004822,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 76,
+    "rank": 79,
     "decimal": 0
   },
   {
@@ -612,7 +636,7 @@
     "date": 2022,
     "value": 8.34852239691057,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 77,
+    "rank": 80,
     "decimal": 0
   },
   {
@@ -620,7 +644,7 @@
     "date": 2017,
     "value": 8.27972307930447,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 78,
+    "rank": 81,
     "decimal": 0
   },
   {
@@ -628,7 +652,15 @@
     "date": 2022,
     "value": 7.56592572269855,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 79,
+    "rank": 82,
+    "decimal": 0
+  },
+  {
+    "countryId": "kg",
+    "date": 2023,
+    "value": 7.1643487,
+    "indicatorId": "mpi-years-of-schooling",
+    "rank": 83,
     "decimal": 0
   },
   {
@@ -636,7 +668,7 @@
     "date": 2019,
     "value": 6.72072631898852,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 80,
+    "rank": 84,
     "decimal": 0
   },
   {
@@ -644,7 +676,7 @@
     "date": 2015,
     "value": 6.51792806267039,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 81,
+    "rank": 85,
     "decimal": 0
   },
   {
@@ -652,7 +684,7 @@
     "date": 2022,
     "value": 6.35928485451177,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 82,
+    "rank": 86,
     "decimal": 0
   },
   {
@@ -660,7 +692,7 @@
     "date": 2018,
     "value": 6.12570663164206,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 83,
+    "rank": 87,
     "decimal": 0
   },
   {
@@ -668,7 +700,7 @@
     "date": 2015,
     "value": 5.71280281864213,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 84,
+    "rank": 88,
     "decimal": 0
   },
   {
@@ -676,7 +708,7 @@
     "date": 2019,
     "value": 5.36852906248363,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 85,
+    "rank": 89,
     "decimal": 0
   },
   {
@@ -684,7 +716,7 @@
     "date": 2021,
     "value": 5.342671,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 86,
+    "rank": 90,
     "decimal": 0
   },
   {
@@ -692,23 +724,15 @@
     "date": 2016,
     "value": 4.89726342762606,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 87,
+    "rank": 91,
     "decimal": 0
   },
   {
     "countryId": "mx",
-    "date": 2022,
-    "value": 4.70795728746387,
+    "date": 2023,
+    "value": 4.2572622,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 88,
-    "decimal": 0
-  },
-  {
-    "countryId": "kg",
-    "date": 2018,
-    "value": 4.6130462201639,
-    "indicatorId": "mpi-years-of-schooling",
-    "rank": 89,
+    "rank": 92,
     "decimal": 0
   },
   {
@@ -716,7 +740,7 @@
     "date": 2019,
     "value": 1.78381254683107,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 90,
+    "rank": 93,
     "decimal": 0
   },
   {
@@ -724,7 +748,7 @@
     "date": 2018,
     "value": 0.7866145380644,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 91,
+    "rank": 94,
     "decimal": 0
   },
   {
@@ -732,7 +756,7 @@
     "date": 2017,
     "value": 0.70798180040052,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 92,
+    "rank": 95,
     "decimal": 0
   },
   {
@@ -740,7 +764,7 @@
     "date": 2019,
     "value": 0.25177615031218,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 93,
+    "rank": 96,
     "decimal": 0
   },
   {
@@ -748,7 +772,7 @@
     "date": 2015,
     "value": 0.19045262285837,
     "indicatorId": "mpi-years-of-schooling",
-    "rank": 94,
+    "rank": 97,
     "decimal": 0
   }
 ]

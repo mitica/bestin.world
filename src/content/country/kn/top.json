@@ -25,13 +25,13 @@
   },
   {
     "indicatorId": "ge-std-err",
-    "value": 0.512995004653931,
+    "value": 0.512995,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "ny-adj-aedu-cd",
-    "value": 13736000.6574204,
+    "value": 13736000.65742,
     "date": 2021,
     "type": "min"
   },
@@ -46,5 +46,17 @@
     "value": 1,
     "date": 2023,
     "type": "min"
+  },
+  {
+    "indicatorId": "vc-ihr-psrc-ma-p5",
+    "value": 124.955373,
+    "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "vc-ihr-psrc-p5",
+    "value": 64.160144,
+    "date": 2023,
+    "type": "max"
   }
 ]

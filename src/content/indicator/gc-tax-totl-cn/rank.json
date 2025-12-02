@@ -497,10 +497,18 @@
   },
   {
     "countryId": "de",
-    "date": 2022,
-    "value": 435353000000,
+    "date": 2023,
+    "value": 448749000000,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 63,
+    "decimal": 0
+  },
+  {
+    "countryId": "ca",
+    "date": 2024,
+    "value": 437202000000,
+    "indicatorId": "gc-tax-totl-cn",
+    "rank": 64,
     "decimal": 0
   },
   {
@@ -508,7 +516,7 @@
     "date": 2023,
     "value": 420892190000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 64,
+    "rank": 65,
     "decimal": 0
   },
   {
@@ -516,15 +524,15 @@
     "date": 2023,
     "value": 415804273000.802,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 65,
+    "rank": 66,
     "decimal": 0
   },
   {
-    "countryId": "ca",
-    "date": 2023,
-    "value": 405119000000,
+    "countryId": "et",
+    "date": 2024,
+    "value": 400462094782.17,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 66,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -532,15 +540,15 @@
     "date": 2023,
     "value": 356637222354.92,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 67,
+    "rank": 68,
     "decimal": 0
   },
   {
-    "countryId": "et",
-    "date": 2023,
-    "value": 342910800000,
+    "countryId": "mz",
+    "date": 2024,
+    "value": 317635107140,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 68,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -548,21 +556,13 @@
     "date": 2023,
     "value": 306960220150.376,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 69,
+    "rank": 70,
     "decimal": 0
   },
   {
     "countryId": "eg",
     "date": 2015,
     "value": 305957000000,
-    "indicatorId": "gc-tax-totl-cn",
-    "rank": 70,
-    "decimal": 0
-  },
-  {
-    "countryId": "mz",
-    "date": 2022,
-    "value": 273237379877.452,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 71,
     "decimal": 0
@@ -616,17 +616,17 @@
     "decimal": 0
   },
   {
-    "countryId": "pe",
-    "date": 2021,
-    "value": 139860448413,
+    "countryId": "mu",
+    "date": 2024,
+    "value": 142358600905,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 78,
     "decimal": 0
   },
   {
-    "countryId": "mu",
-    "date": 2023,
-    "value": 131170572721,
+    "countryId": "pe",
+    "date": 2021,
+    "value": 139860448413,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 79,
     "decimal": 0
@@ -840,25 +840,25 @@
     "decimal": 0
   },
   {
+    "countryId": "ge",
+    "date": 2024,
+    "value": 22565500000,
+    "indicatorId": "gc-tax-totl-cn",
+    "rank": 106,
+    "decimal": 0
+  },
+  {
     "countryId": "bt",
     "date": 2020,
     "value": 22371234000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 106,
+    "rank": 107,
     "decimal": 0
   },
   {
     "countryId": "lu",
     "date": 2023,
     "value": 22045518000,
-    "indicatorId": "gc-tax-totl-cn",
-    "rank": 107,
-    "decimal": 0
-  },
-  {
-    "countryId": "sk",
-    "date": 2022,
-    "value": 21400783000,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 108,
     "decimal": 0
@@ -872,19 +872,11 @@
     "decimal": 0
   },
   {
-    "countryId": "ge",
-    "date": 2023,
-    "value": 19087700000,
-    "indicatorId": "gc-tax-totl-cn",
-    "rank": 110,
-    "decimal": 0
-  },
-  {
     "countryId": "pg",
     "date": 2023,
     "value": 17626937530.123,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 111,
+    "rank": 110,
     "decimal": 0
   },
   {
@@ -892,7 +884,7 @@
     "date": 2021,
     "value": 17302694693.93,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 112,
+    "rank": 111,
     "decimal": 0
   },
   {
@@ -900,7 +892,7 @@
     "date": 2023,
     "value": 16774399000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 113,
+    "rank": 112,
     "decimal": 0
   },
   {
@@ -908,7 +900,7 @@
     "date": 2023,
     "value": 15805271000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 114,
+    "rank": 113,
     "decimal": 0
   },
   {
@@ -916,7 +908,7 @@
     "date": 2021,
     "value": 15707416557.93,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 115,
+    "rank": 114,
     "decimal": 0
   },
   {
@@ -924,7 +916,7 @@
     "date": 2022,
     "value": 15200894358.475,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 116,
+    "rank": 115,
     "decimal": 0
   },
   {
@@ -932,7 +924,7 @@
     "date": 2023,
     "value": 14276949370,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 117,
+    "rank": 116,
     "decimal": 0
   },
   {
@@ -940,7 +932,7 @@
     "date": 2023,
     "value": 13011828000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 118,
+    "rank": 117,
     "decimal": 0
   },
   {
@@ -948,7 +940,7 @@
     "date": 2023,
     "value": 11835944017.7802,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 119,
+    "rank": 118,
     "decimal": 0
   },
   {
@@ -956,7 +948,7 @@
     "date": 2022,
     "value": 11725776362.5134,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 120,
+    "rank": 119,
     "decimal": 0
   },
   {
@@ -964,13 +956,21 @@
     "date": 2023,
     "value": 9514130575.68,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 121,
+    "rank": 120,
     "decimal": 0
   },
   {
     "countryId": "ee",
     "date": 2023,
     "value": 8180390000,
+    "indicatorId": "gc-tax-totl-cn",
+    "rank": 121,
+    "decimal": 0
+  },
+  {
+    "countryId": "sv",
+    "date": 2024,
+    "value": 7602400000,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 122,
     "decimal": 0
@@ -984,19 +984,11 @@
     "decimal": 0
   },
   {
-    "countryId": "sv",
-    "date": 2023,
-    "value": 7009538792.98,
-    "indicatorId": "gc-tax-totl-cn",
-    "rank": 124,
-    "decimal": 0
-  },
-  {
     "countryId": "lv",
     "date": 2023,
     "value": 6580406000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 125,
+    "rank": 124,
     "decimal": 0
   },
   {
@@ -1004,7 +996,7 @@
     "date": 2023,
     "value": 6184200000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 126,
+    "rank": 125,
     "decimal": 0
   },
   {
@@ -1012,7 +1004,7 @@
     "date": 2021,
     "value": 5028179102.13,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 127,
+    "rank": 126,
     "decimal": 0
   },
   {
@@ -1020,7 +1012,7 @@
     "date": 2023,
     "value": 4492365000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 128,
+    "rank": 127,
     "decimal": 0
   },
   {
@@ -1028,7 +1020,7 @@
     "date": 2016,
     "value": 2655964506,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 129,
+    "rank": 128,
     "decimal": 0
   },
   {
@@ -1036,7 +1028,7 @@
     "date": 2022,
     "value": 2640456000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 130,
+    "rank": 129,
     "decimal": 0
   },
   {
@@ -1044,7 +1036,7 @@
     "date": 2023,
     "value": 2530937346.31,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 131,
+    "rank": 130,
     "decimal": 0
   },
   {
@@ -1052,7 +1044,7 @@
     "date": 2023,
     "value": 2473645991,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 132,
+    "rank": 131,
     "decimal": 0
   },
   {
@@ -1060,7 +1052,7 @@
     "date": 2017,
     "value": 983420000,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 133,
+    "rank": 132,
     "decimal": 0
   },
   {
@@ -1068,7 +1060,7 @@
     "date": 2017,
     "value": 967444231.6,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 134,
+    "rank": 133,
     "decimal": 0
   },
   {
@@ -1076,7 +1068,7 @@
     "date": 2022,
     "value": 694441700.07,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 135,
+    "rank": 134,
     "decimal": 0
   },
   {
@@ -1084,13 +1076,21 @@
     "date": 2023,
     "value": 683502128.07,
     "indicatorId": "gc-tax-totl-cn",
-    "rank": 136,
+    "rank": 135,
     "decimal": 0
   },
   {
     "countryId": "vc",
     "date": 2017,
     "value": 542370000,
+    "indicatorId": "gc-tax-totl-cn",
+    "rank": 136,
+    "decimal": 0
+  },
+  {
+    "countryId": "ad",
+    "date": 2023,
+    "value": 488236297.080001,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 137,
     "decimal": 0
@@ -1178,7 +1178,7 @@
   {
     "countryId": "zw",
     "date": 2018,
-    "value": 2010005.51961677,
+    "value": 2010005.519617,
     "indicatorId": "gc-tax-totl-cn",
     "rank": 148,
     "decimal": 0

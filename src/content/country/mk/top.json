@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "dc-dac-svnl-cd",
+    "value": 8189237.594604,
+    "date": 2023,
+    "type": "max"
+  },
+  {
     "indicatorId": "nv-srv-totl-kd-zg",
     "value": -100,
     "date": 2023,
@@ -7,13 +13,13 @@
   },
   {
     "indicatorId": "sh-dth-comm-zs",
-    "value": 1.28361099483121,
+    "value": 1.283611,
     "date": 2019,
     "type": "min"
   },
   {
     "indicatorId": "sh-dth-ncom-zs",
-    "value": 96.131870575848,
+    "value": 96.131871,
     "date": 2019,
     "type": "max"
   },
@@ -28,6 +34,12 @@
     "value": 100,
     "date": 2019,
     "type": "max"
+  },
+  {
+    "indicatorId": "mpi-nutrition",
+    "value": 5.74953388693972,
+    "date": 2018,
+    "type": "min"
   },
   {
     "indicatorId": "mpi-years-of-schooling",

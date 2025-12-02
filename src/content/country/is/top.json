@@ -1,31 +1,19 @@
 [
   {
     "indicatorId": "ag-lnd-irig-ag-zs",
-    "value": 0.00267094017094017,
-    "date": 2021,
-    "type": "min"
-  },
-  {
-    "indicatorId": "dc-oda-totl-cd",
-    "value": 94380000,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "dc-oda-totl-kd",
-    "value": 94714456,
-    "date": 2022,
+    "value": 0.003053,
+    "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "eg-use-comm-cl-zs",
-    "value": 89.33,
+    "value": 88.81,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "eg-use-elec-kh-pc",
-    "value": 50082.7509412761,
+    "value": 49955.63736,
     "date": 2023,
     "type": "max"
   },
@@ -37,55 +25,55 @@
   },
   {
     "indicatorId": "er-h2o-fwag-zs",
-    "value": 0.107797341,
-    "date": 2021,
+    "value": 0.107797,
+    "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "er-h2o-intr-pc",
-    "value": 456351.336840975,
-    "date": 2021,
+    "value": 445022.683068,
+    "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "fx-own-totl-40-zs",
     "value": 100,
-    "date": 2021,
+    "date": 2024,
     "type": "max"
   },
   {
-    "indicatorId": "fx-own-totl-ol-zs",
+    "indicatorId": "fx-own-totl-ma-zs",
     "value": 100,
-    "date": 2021,
-    "type": "max"
-  },
-  {
-    "indicatorId": "fx-own-totl-so-zs",
-    "value": 100,
-    "date": 2021,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "fx-own-totl-zs",
-    "value": 100,
-    "date": 2021,
+    "value": 99.854836,
+    "date": 2024,
     "type": "max"
   },
   {
+    "indicatorId": "nv-mnf-chem-zs-un",
+    "value": -4.737616,
+    "date": 2022,
+    "type": "min"
+  },
+  {
     "indicatorId": "ny-adj-dfor-cd",
-    "value": 27386.3286496569,
+    "value": 27386.32865,
     "date": 2021,
     "type": "min"
   },
   {
     "indicatorId": "ny-adj-dres-gn-zs",
-    "value": 0.000112343756705461,
+    "value": 0.000112,
     "date": 2021,
     "type": "min"
   },
   {
     "indicatorId": "ny-gdp-totl-rt-zs",
-    "value": 0.000106967737793307,
+    "value": 0.000107,
     "date": 2021,
     "type": "min"
   },
@@ -139,7 +127,7 @@
   },
   {
     "indicatorId": "sh-sta-brtw-zs",
-    "value": 3.992822369,
+    "value": 3.992822,
     "date": 2020,
     "type": "min"
   },
@@ -151,8 +139,14 @@
   },
   {
     "indicatorId": "sl-uem-neet-fe-zs",
-    "value": 2.619,
-    "date": 2023,
+    "value": 3.606,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "sm-pop-asys-eo",
+    "value": 5,
+    "date": 2024,
     "type": "min"
   },
   {

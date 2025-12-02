@@ -7,20 +7,32 @@
   },
   {
     "indicatorId": "en-atm-pm25-mc-m3",
-    "value": 4.89518090216668,
+    "value": 4.895181,
     "date": 2020,
     "type": "min"
   },
   {
+    "indicatorId": "fx-own-totl-40-zs",
+    "value": 100,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "fx-own-totl-ma-zs",
+    "value": 100,
+    "date": 2024,
+    "type": "max"
+  },
+  {
     "indicatorId": "fx-own-totl-ol-zs",
     "value": 100,
-    "date": 2021,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "fx-own-totl-so-zs",
-    "value": 100,
-    "date": 2021,
+    "value": 99.792632,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -37,7 +49,7 @@
   },
   {
     "indicatorId": "rl-est",
-    "value": 1.96704590320587,
+    "value": 1.967046,
     "date": 2023,
     "type": "max"
   },
@@ -49,14 +61,8 @@
   },
   {
     "indicatorId": "rl-per-rnk-lower",
-    "value": 95.2830200195312,
+    "value": 95.28302,
     "date": 2023,
-    "type": "max"
-  },
-  {
-    "indicatorId": "se-sec-enrr-fe",
-    "value": 153.241073608398,
-    "date": 2022,
     "type": "max"
   },
   {
@@ -79,13 +85,13 @@
   },
   {
     "indicatorId": "sp-dyn-conm-zs",
-    "value": 81.5642458100559,
+    "value": 81.564246,
     "date": 2015,
     "type": "max"
   },
   {
     "indicatorId": "sp-dyn-conu-zs",
-    "value": 85.4748603351955,
+    "value": 85.47486,
     "date": 2015,
     "type": "max"
   },
@@ -97,7 +103,7 @@
   },
   {
     "indicatorId": "ic-frm-nprd-zs",
-    "value": 48.51690292,
+    "value": 48.516903,
     "date": 2020,
     "type": "max"
   }

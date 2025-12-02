@@ -8,35 +8,19 @@
     "decimal": 0
   },
   {
-    "countryId": "pe",
-    "date": 2022,
-    "value": 13.4482526893697,
+    "countryId": "ki",
+    "date": 2018,
+    "value": 13.2839013486536,
     "indicatorId": "mpi-housing",
     "rank": 2,
     "decimal": 0
   },
   {
-    "countryId": "ki",
-    "date": 2018,
-    "value": 13.2839013486536,
+    "countryId": "pe",
+    "date": 2023,
+    "value": 13.237406,
     "indicatorId": "mpi-housing",
     "rank": 3,
-    "decimal": 0
-  },
-  {
-    "countryId": "ls",
-    "date": 2018,
-    "value": 12.5597494269906,
-    "indicatorId": "mpi-housing",
-    "rank": 4,
-    "decimal": 0
-  },
-  {
-    "countryId": "bd",
-    "date": 2019,
-    "value": 12.4552240669592,
-    "indicatorId": "mpi-housing",
-    "rank": 5,
     "decimal": 0
   },
   {
@@ -44,7 +28,7 @@
     "date": 2018,
     "value": 12.1422393005612,
     "indicatorId": "mpi-housing",
-    "rank": 6,
+    "rank": 4,
     "decimal": 0
   },
   {
@@ -52,7 +36,7 @@
     "date": 2022,
     "value": 11.8218872172139,
     "indicatorId": "mpi-housing",
-    "rank": 7,
+    "rank": 5,
     "decimal": 0
   },
   {
@@ -60,7 +44,7 @@
     "date": 2019,
     "value": 11.7608119735316,
     "indicatorId": "mpi-housing",
-    "rank": 8,
+    "rank": 6,
     "decimal": 0
   },
   {
@@ -68,7 +52,15 @@
     "date": 2019,
     "value": 11.7396959112394,
     "indicatorId": "mpi-housing",
-    "rank": 9,
+    "rank": 7,
+    "decimal": 0
+  },
+  {
+    "countryId": "bd",
+    "date": 2022,
+    "value": 11.728847,
+    "indicatorId": "mpi-housing",
+    "rank": 8,
     "decimal": 0
   },
   {
@@ -76,12 +68,20 @@
     "date": 2019,
     "value": 11.45,
     "indicatorId": "mpi-housing",
+    "rank": 9,
+    "decimal": 0
+  },
+  {
+    "countryId": "vu",
+    "date": 2023,
+    "value": 11.408947,
+    "indicatorId": "mpi-housing",
     "rank": 10,
     "decimal": 0
   },
   {
     "countryId": "af",
-    "date": 2023,
+    "date": 2022,
     "value": 11.3983221351986,
     "indicatorId": "mpi-housing",
     "rank": 11,
@@ -112,19 +112,11 @@
     "decimal": 0
   },
   {
-    "countryId": "bo",
-    "date": 2016,
-    "value": 11.0363036156313,
-    "indicatorId": "mpi-housing",
-    "rank": 15,
-    "decimal": 0
-  },
-  {
     "countryId": "in",
     "date": 2019,
     "value": 10.9855832308249,
     "indicatorId": "mpi-housing",
-    "rank": 16,
+    "rank": 15,
     "decimal": 0
   },
   {
@@ -132,7 +124,7 @@
     "date": 2017,
     "value": 10.8762712993608,
     "indicatorId": "mpi-housing",
-    "rank": 17,
+    "rank": 16,
     "decimal": 0
   },
   {
@@ -140,7 +132,7 @@
     "date": 2019,
     "value": 10.793174291626,
     "indicatorId": "mpi-housing",
-    "rank": 18,
+    "rank": 17,
     "decimal": 0
   },
   {
@@ -148,7 +140,7 @@
     "date": 2016,
     "value": 10.7802623911113,
     "indicatorId": "mpi-housing",
-    "rank": 19,
+    "rank": 18,
     "decimal": 0
   },
   {
@@ -156,7 +148,7 @@
     "date": 2022,
     "value": 10.7126290547125,
     "indicatorId": "mpi-housing",
-    "rank": 20,
+    "rank": 19,
     "decimal": 0
   },
   {
@@ -164,7 +156,7 @@
     "date": 2019,
     "value": 10.6869402921807,
     "indicatorId": "mpi-housing",
-    "rank": 21,
+    "rank": 20,
     "decimal": 0
   },
   {
@@ -172,7 +164,7 @@
     "date": 2016,
     "value": 10.4985838829835,
     "indicatorId": "mpi-housing",
-    "rank": 22,
+    "rank": 21,
     "decimal": 0
   },
   {
@@ -180,7 +172,7 @@
     "date": 2019,
     "value": 10.4051405415926,
     "indicatorId": "mpi-housing",
-    "rank": 23,
+    "rank": 22,
     "decimal": 0
   },
   {
@@ -188,7 +180,7 @@
     "date": 2018,
     "value": 10.3563311008807,
     "indicatorId": "mpi-housing",
-    "rank": 24,
+    "rank": 23,
     "decimal": 0
   },
   {
@@ -196,7 +188,7 @@
     "date": 2019,
     "value": 10.2340269254689,
     "indicatorId": "mpi-housing",
-    "rank": 25,
+    "rank": 24,
     "decimal": 0
   },
   {
@@ -204,7 +196,7 @@
     "date": 2017,
     "value": 9.93716314891073,
     "indicatorId": "mpi-housing",
-    "rank": 26,
+    "rank": 25,
     "decimal": 0
   },
   {
@@ -212,7 +204,7 @@
     "date": 2016,
     "value": 9.82528929999024,
     "indicatorId": "mpi-housing",
-    "rank": 27,
+    "rank": 26,
     "decimal": 0
   },
   {
@@ -220,13 +212,21 @@
     "date": 2022,
     "value": 9.82272761629915,
     "indicatorId": "mpi-housing",
-    "rank": 28,
+    "rank": 27,
     "decimal": 0
   },
   {
     "countryId": "do",
     "date": 2019,
     "value": 9.80201286817348,
+    "indicatorId": "mpi-housing",
+    "rank": 28,
+    "decimal": 0
+  },
+  {
+    "countryId": "bo",
+    "date": 2023,
+    "value": 9.7077956,
     "indicatorId": "mpi-housing",
     "rank": 29,
     "decimal": 0
@@ -264,11 +264,19 @@
     "decimal": 0
   },
   {
-    "countryId": "mz",
+    "countryId": "kg",
     "date": 2023,
-    "value": 9.31915519637684,
+    "value": 9.4945802,
     "indicatorId": "mpi-housing",
     "rank": 34,
+    "decimal": 0
+  },
+  {
+    "countryId": "mz",
+    "date": 2022,
+    "value": 9.31915519637684,
+    "indicatorId": "mpi-housing",
+    "rank": 35,
     "decimal": 0
   },
   {
@@ -276,7 +284,7 @@
     "date": 2016,
     "value": 9.27673115534097,
     "indicatorId": "mpi-housing",
-    "rank": 35,
+    "rank": 36,
     "decimal": 0
   },
   {
@@ -284,7 +292,15 @@
     "date": 2015,
     "value": 9.25171243929783,
     "indicatorId": "mpi-housing",
-    "rank": 36,
+    "rank": 37,
+    "decimal": 0
+  },
+  {
+    "countryId": "ne",
+    "date": 2021,
+    "value": 9.244281,
+    "indicatorId": "mpi-housing",
+    "rank": 38,
     "decimal": 0
   },
   {
@@ -292,7 +308,7 @@
     "date": 2018,
     "value": 9.08598077197266,
     "indicatorId": "mpi-housing",
-    "rank": 37,
+    "rank": 39,
     "decimal": 0
   },
   {
@@ -300,7 +316,7 @@
     "date": 2018,
     "value": 8.93463564819246,
     "indicatorId": "mpi-housing",
-    "rank": 38,
+    "rank": 40,
     "decimal": 0
   },
   {
@@ -308,7 +324,15 @@
     "date": 2018,
     "value": 8.85235477585202,
     "indicatorId": "mpi-housing",
-    "rank": 39,
+    "rank": 41,
+    "decimal": 0
+  },
+  {
+    "countryId": "ls",
+    "date": 2023,
+    "value": 8.8349018,
+    "indicatorId": "mpi-housing",
+    "rank": 42,
     "decimal": 0
   },
   {
@@ -316,7 +340,7 @@
     "date": 2022,
     "value": 8.74457581310744,
     "indicatorId": "mpi-housing",
-    "rank": 40,
+    "rank": 43,
     "decimal": 0
   },
   {
@@ -324,7 +348,7 @@
     "date": 2021,
     "value": 8.6931,
     "indicatorId": "mpi-housing",
-    "rank": 41,
+    "rank": 44,
     "decimal": 0
   },
   {
@@ -332,7 +356,7 @@
     "date": 2015,
     "value": 8.68010432695438,
     "indicatorId": "mpi-housing",
-    "rank": 42,
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -340,7 +364,7 @@
     "date": 2019,
     "value": 8.63511715381073,
     "indicatorId": "mpi-housing",
-    "rank": 43,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -348,7 +372,7 @@
     "date": 2017,
     "value": 8.58739776542992,
     "indicatorId": "mpi-housing",
-    "rank": 44,
+    "rank": 47,
     "decimal": 0
   },
   {
@@ -356,7 +380,7 @@
     "date": 2021,
     "value": 8.465304,
     "indicatorId": "mpi-housing",
-    "rank": 45,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -364,7 +388,7 @@
     "date": 2020,
     "value": 8.45672559551899,
     "indicatorId": "mpi-housing",
-    "rank": 46,
+    "rank": 49,
     "decimal": 0
   },
   {
@@ -372,7 +396,7 @@
     "date": 2016,
     "value": 8.26662025313477,
     "indicatorId": "mpi-housing",
-    "rank": 47,
+    "rank": 50,
     "decimal": 0
   },
   {
@@ -380,7 +404,7 @@
     "date": 2019,
     "value": 8.26261824018469,
     "indicatorId": "mpi-housing",
-    "rank": 48,
+    "rank": 51,
     "decimal": 0
   },
   {
@@ -388,7 +412,7 @@
     "date": 2017,
     "value": 8.00246379084821,
     "indicatorId": "mpi-housing",
-    "rank": 49,
+    "rank": 52,
     "decimal": 0
   },
   {
@@ -396,7 +420,7 @@
     "date": 2019,
     "value": 7.94731636950601,
     "indicatorId": "mpi-housing",
-    "rank": 50,
+    "rank": 53,
     "decimal": 0
   },
   {
@@ -404,7 +428,7 @@
     "date": 2018,
     "value": 7.93264747824275,
     "indicatorId": "mpi-housing",
-    "rank": 51,
+    "rank": 54,
     "decimal": 0
   },
   {
@@ -412,7 +436,7 @@
     "date": 2021,
     "value": 7.84925,
     "indicatorId": "mpi-housing",
-    "rank": 52,
+    "rank": 55,
     "decimal": 0
   },
   {
@@ -420,7 +444,7 @@
     "date": 2019,
     "value": 7.83601630959206,
     "indicatorId": "mpi-housing",
-    "rank": 53,
+    "rank": 56,
     "decimal": 0
   },
   {
@@ -428,7 +452,7 @@
     "date": 2017,
     "value": 7.67113629771232,
     "indicatorId": "mpi-housing",
-    "rank": 54,
+    "rank": 57,
     "decimal": 0
   },
   {
@@ -436,7 +460,7 @@
     "date": 2019,
     "value": 7.61725769019295,
     "indicatorId": "mpi-housing",
-    "rank": 55,
+    "rank": 58,
     "decimal": 0
   },
   {
@@ -444,7 +468,7 @@
     "date": 2016,
     "value": 7.26331899987946,
     "indicatorId": "mpi-housing",
-    "rank": 56,
+    "rank": 59,
     "decimal": 0
   },
   {
@@ -452,7 +476,7 @@
     "date": 2018,
     "value": 7.0996988308867,
     "indicatorId": "mpi-housing",
-    "rank": 57,
+    "rank": 60,
     "decimal": 0
   },
   {
@@ -460,7 +484,7 @@
     "date": 2022,
     "value": 7.09462684540832,
     "indicatorId": "mpi-housing",
-    "rank": 58,
+    "rank": 61,
     "decimal": 0
   },
   {
@@ -468,7 +492,7 @@
     "date": 2018,
     "value": 7.044234149306,
     "indicatorId": "mpi-housing",
-    "rank": 59,
+    "rank": 62,
     "decimal": 0
   },
   {
@@ -476,7 +500,7 @@
     "date": 2022,
     "value": 6.9692145436219,
     "indicatorId": "mpi-housing",
-    "rank": 60,
+    "rank": 63,
     "decimal": 0
   },
   {
@@ -484,39 +508,23 @@
     "date": 2015,
     "value": 6.92648973870904,
     "indicatorId": "mpi-housing",
-    "rank": 61,
-    "decimal": 0
-  },
-  {
-    "countryId": "mx",
-    "date": 2022,
-    "value": 6.60784070551335,
-    "indicatorId": "mpi-housing",
-    "rank": 62,
-    "decimal": 0
-  },
-  {
-    "countryId": "bj",
-    "date": 2022,
-    "value": 6.48007183544402,
-    "indicatorId": "mpi-housing",
-    "rank": 63,
-    "decimal": 0
-  },
-  {
-    "countryId": "ga",
-    "date": 2021,
-    "value": 6.21487475263419,
-    "indicatorId": "mpi-housing",
     "rank": 64,
     "decimal": 0
   },
   {
-    "countryId": "la",
-    "date": 2017,
-    "value": 6.16645697929752,
+    "countryId": "bj",
+    "date": 2021,
+    "value": 6.48007183544402,
     "indicatorId": "mpi-housing",
     "rank": 65,
+    "decimal": 0
+  },
+  {
+    "countryId": "ga",
+    "date": 2019,
+    "value": 6.21487475263419,
+    "indicatorId": "mpi-housing",
+    "rank": 66,
     "decimal": 0
   },
   {
@@ -524,7 +532,7 @@
     "date": 2018,
     "value": 6.15117446592717,
     "indicatorId": "mpi-housing",
-    "rank": 66,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -532,7 +540,7 @@
     "date": 2018,
     "value": 6.09677569248661,
     "indicatorId": "mpi-housing",
-    "rank": 67,
+    "rank": 68,
     "decimal": 0
   },
   {
@@ -540,7 +548,7 @@
     "date": 2021,
     "value": 6.06328815468559,
     "indicatorId": "mpi-housing",
-    "rank": 68,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -548,7 +556,7 @@
     "date": 2019,
     "value": 6.01409458838665,
     "indicatorId": "mpi-housing",
-    "rank": 69,
+    "rank": 70,
     "decimal": 0
   },
   {
@@ -556,15 +564,31 @@
     "date": 2018,
     "value": 5.83630432758388,
     "indicatorId": "mpi-housing",
-    "rank": 70,
+    "rank": 71,
     "decimal": 0
   },
   {
     "countryId": "sz",
-    "date": 2022,
+    "date": 2021,
     "value": 5.4957307097926,
     "indicatorId": "mpi-housing",
-    "rank": 71,
+    "rank": 72,
+    "decimal": 0
+  },
+  {
+    "countryId": "sn",
+    "date": 2023,
+    "value": 5.3658627,
+    "indicatorId": "mpi-housing",
+    "rank": 73,
+    "decimal": 0
+  },
+  {
+    "countryId": "la",
+    "date": 2023,
+    "value": 5.2209934,
+    "indicatorId": "mpi-housing",
+    "rank": 74,
     "decimal": 0
   },
   {
@@ -572,7 +596,7 @@
     "date": 2017,
     "value": 5.19116795050603,
     "indicatorId": "mpi-housing",
-    "rank": 72,
+    "rank": 75,
     "decimal": 0
   },
   {
@@ -580,15 +604,15 @@
     "date": 2021,
     "value": 4.89023928551387,
     "indicatorId": "mpi-housing",
-    "rank": 73,
+    "rank": 76,
     "decimal": 0
   },
   {
-    "countryId": "sn",
-    "date": 2019,
-    "value": 4.76089034978768,
+    "countryId": "mx",
+    "date": 2023,
+    "value": 4.8256396,
     "indicatorId": "mpi-housing",
-    "rank": 74,
+    "rank": 77,
     "decimal": 0
   },
   {
@@ -596,7 +620,15 @@
     "date": 2018,
     "value": 4.54430280102439,
     "indicatorId": "mpi-housing",
-    "rank": 75,
+    "rank": 78,
+    "decimal": 0
+  },
+  {
+    "countryId": "nr",
+    "date": 2023,
+    "value": 4.1695622,
+    "indicatorId": "mpi-housing",
+    "rank": 79,
     "decimal": 0
   },
   {
@@ -604,15 +636,7 @@
     "date": 2022,
     "value": 4.11154920293949,
     "indicatorId": "mpi-housing",
-    "rank": 76,
-    "decimal": 0
-  },
-  {
-    "countryId": "jo",
-    "date": 2017,
-    "value": 3.91892066204109,
-    "indicatorId": "mpi-housing",
-    "rank": 77,
+    "rank": 80,
     "decimal": 0
   },
   {
@@ -620,7 +644,7 @@
     "date": 2021,
     "value": 3.627954,
     "indicatorId": "mpi-housing",
-    "rank": 78,
+    "rank": 81,
     "decimal": 0
   },
   {
@@ -628,7 +652,7 @@
     "date": 2019,
     "value": 3.48294966902134,
     "indicatorId": "mpi-housing",
-    "rank": 79,
+    "rank": 82,
     "decimal": 0
   },
   {
@@ -636,7 +660,7 @@
     "date": 2019,
     "value": 3.42122947144186,
     "indicatorId": "mpi-housing",
-    "rank": 80,
+    "rank": 83,
     "decimal": 0
   },
   {
@@ -644,7 +668,7 @@
     "date": 2018,
     "value": 3.32899488106009,
     "indicatorId": "mpi-housing",
-    "rank": 81,
+    "rank": 84,
     "decimal": 0
   },
   {
@@ -652,7 +676,7 @@
     "date": 2015,
     "value": 3.19273414317779,
     "indicatorId": "mpi-housing",
-    "rank": 82,
+    "rank": 85,
     "decimal": 0
   },
   {
@@ -660,7 +684,7 @@
     "date": 2022,
     "value": 3.11887833016454,
     "indicatorId": "mpi-housing",
-    "rank": 83,
+    "rank": 86,
     "decimal": 0
   },
   {
@@ -668,7 +692,7 @@
     "date": 2017,
     "value": 2.81533971422744,
     "indicatorId": "mpi-housing",
-    "rank": 84,
+    "rank": 87,
     "decimal": 0
   },
   {
@@ -676,7 +700,7 @@
     "date": 2021,
     "value": 2.442862,
     "indicatorId": "mpi-housing",
-    "rank": 85,
+    "rank": 88,
     "decimal": 0
   },
   {
@@ -684,7 +708,15 @@
     "date": 2016,
     "value": 2.35936897153858,
     "indicatorId": "mpi-housing",
-    "rank": 86,
+    "rank": 89,
+    "decimal": 0
+  },
+  {
+    "countryId": "az",
+    "date": 2023,
+    "value": 2.2712868,
+    "indicatorId": "mpi-housing",
+    "rank": 90,
     "decimal": 0
   },
   {
@@ -692,7 +724,7 @@
     "date": 2018,
     "value": 2.24894272229471,
     "indicatorId": "mpi-housing",
-    "rank": 87,
+    "rank": 91,
     "decimal": 0
   },
   {
@@ -700,7 +732,7 @@
     "date": 2019,
     "value": 2.09852449655299,
     "indicatorId": "mpi-housing",
-    "rank": 88,
+    "rank": 92,
     "decimal": 0
   },
   {
@@ -708,7 +740,7 @@
     "date": 2015,
     "value": 1.92835477308288,
     "indicatorId": "mpi-housing",
-    "rank": 89,
+    "rank": 93,
     "decimal": 0
   },
   {
@@ -716,7 +748,7 @@
     "date": 2015,
     "value": 1.9042676062152,
     "indicatorId": "mpi-housing",
-    "rank": 90,
+    "rank": 94,
     "decimal": 0
   },
   {
@@ -724,15 +756,15 @@
     "date": 2023,
     "value": 1.70137169020634,
     "indicatorId": "mpi-housing",
-    "rank": 91,
+    "rank": 95,
     "decimal": 0
   },
   {
-    "countryId": "kg",
-    "date": 2018,
-    "value": 1.42681471386555,
+    "countryId": "jo",
+    "date": 2023,
+    "value": 1.1367137,
     "indicatorId": "mpi-housing",
-    "rank": 92,
+    "rank": 96,
     "decimal": 0
   },
   {
@@ -740,7 +772,7 @@
     "date": 2019,
     "value": 0.52725598468583,
     "indicatorId": "mpi-housing",
-    "rank": 93,
+    "rank": 97,
     "decimal": 0
   }
 ]

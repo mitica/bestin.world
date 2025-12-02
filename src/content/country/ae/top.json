@@ -14,32 +14,50 @@
   {
     "indicatorId": "it-net-user-zs",
     "value": 100,
-    "date": 2023,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "se-prm-priv-zs",
-    "value": 82.5502471923828,
-    "date": 2023,
+    "value": 81.642418,
+    "date": 2024,
     "type": "max"
   },
   {
-    "indicatorId": "se-sec-uner-lo-zs",
-    "value": 0.00341999996453524,
-    "date": 2023,
+    "indicatorId": "se-prm-uner-zs",
+    "value": 0.00387,
+    "date": 2024,
     "type": "min"
+  },
+  {
+    "indicatorId": "se-sec-uner-lo-zs",
+    "value": 0.01117,
+    "date": 2024,
+    "type": "min"
+  },
+  {
+    "indicatorId": "se-ter-cuat-ba-fe-zs",
+    "value": 56.759998,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-ter-cuat-ba-ma-zs",
+    "value": 50.279999,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-ter-cuat-ba-zs",
+    "value": 52.66,
+    "date": 2024,
+    "type": "max"
   },
   {
     "indicatorId": "sh-tbs-incd",
     "value": 0.8,
     "date": 2023,
     "type": "min"
-  },
-  {
-    "indicatorId": "sm-pop-totl-zs",
-    "value": 88.4040483728066,
-    "date": 2015,
-    "type": "max"
   },
   {
     "indicatorId": "sp-dyn-amrt-fe",
@@ -49,37 +67,37 @@
   },
   {
     "indicatorId": "sp-pop-1564-fe-zs",
-    "value": 75.742437705322,
+    "value": 75.742438,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "sp-pop-2529-fe-5y",
-    "value": 11.9083955658353,
+    "value": 11.908396,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "sp-pop-2529-ma-5y",
-    "value": 13.9403833850943,
+    "value": 13.940383,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "sp-pop-6569-fe-5y",
-    "value": 0.943504770718857,
+    "value": 0.943505,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-65up-fe-zs",
-    "value": 2.16240516279178,
+    "value": 2.162405,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "sp-pop-7074-fe-5y",
-    "value": 0.628291401602306,
+    "value": 0.628291,
     "date": 2024,
     "type": "min"
   }

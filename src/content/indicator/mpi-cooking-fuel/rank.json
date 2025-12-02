@@ -40,17 +40,17 @@
     "decimal": 0
   },
   {
-    "countryId": "bw",
-    "date": 2015,
-    "value": 12.5297756129731,
+    "countryId": "vu",
+    "date": 2023,
+    "value": 12.554548,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 6,
     "decimal": 0
   },
   {
-    "countryId": "bd",
-    "date": 2019,
-    "value": 12.4660298776049,
+    "countryId": "bw",
+    "date": 2015,
+    "value": 12.5297756129731,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 7,
     "decimal": 0
@@ -96,17 +96,17 @@
     "decimal": 0
   },
   {
-    "countryId": "pe",
-    "date": 2022,
-    "value": 11.9503052172696,
+    "countryId": "mw",
+    "date": 2019,
+    "value": 11.9449066254797,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 13,
     "decimal": 0
   },
   {
-    "countryId": "mw",
-    "date": 2019,
-    "value": 11.9449066254797,
+    "countryId": "la",
+    "date": 2023,
+    "value": 11.910149,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 14,
     "decimal": 0
@@ -120,11 +120,19 @@
     "decimal": 0
   },
   {
+    "countryId": "pe",
+    "date": 2023,
+    "value": 11.859246,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 16,
+    "decimal": 0
+  },
+  {
     "countryId": "ph",
     "date": 2022,
     "value": 11.8487529010431,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 16,
+    "rank": 17,
     "decimal": 0
   },
   {
@@ -132,7 +140,7 @@
     "date": 2016,
     "value": 11.7792544377299,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 17,
+    "rank": 18,
     "decimal": 0
   },
   {
@@ -140,21 +148,13 @@
     "date": 2015,
     "value": 11.7695775709622,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 18,
+    "rank": 19,
     "decimal": 0
   },
   {
     "countryId": "tz",
     "date": 2022,
     "value": 11.7534691486388,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 19,
-    "decimal": 0
-  },
-  {
-    "countryId": "la",
-    "date": 2017,
-    "value": 11.7435094942708,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 20,
     "decimal": 0
@@ -201,10 +201,18 @@
   },
   {
     "countryId": "ye",
-    "date": 2023,
+    "date": 2022,
     "value": 11.3038767398656,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 26,
+    "decimal": 0
+  },
+  {
+    "countryId": "ls",
+    "date": 2023,
+    "value": 11.244452,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 27,
     "decimal": 0
   },
   {
@@ -212,7 +220,7 @@
     "date": 2016,
     "value": 11.2368903671954,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 27,
+    "rank": 28,
     "decimal": 0
   },
   {
@@ -220,7 +228,7 @@
     "date": 2019,
     "value": 11.221789547703,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 28,
+    "rank": 29,
     "decimal": 0
   },
   {
@@ -228,7 +236,7 @@
     "date": 2019,
     "value": 11.2080538893972,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 29,
+    "rank": 30,
     "decimal": 0
   },
   {
@@ -236,7 +244,7 @@
     "date": 2019,
     "value": 11.1005537669356,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 30,
+    "rank": 31,
     "decimal": 0
   },
   {
@@ -244,7 +252,7 @@
     "date": 2022,
     "value": 10.9879822590317,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 31,
+    "rank": 32,
     "decimal": 0
   },
   {
@@ -252,7 +260,7 @@
     "date": 2019,
     "value": 10.782815882147,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 32,
+    "rank": 33,
     "decimal": 0
   },
   {
@@ -260,7 +268,7 @@
     "date": 2017,
     "value": 10.7050025036356,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 33,
+    "rank": 34,
     "decimal": 0
   },
   {
@@ -268,7 +276,7 @@
     "date": 2019,
     "value": 10.5907591390501,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 34,
+    "rank": 35,
     "decimal": 0
   },
   {
@@ -276,7 +284,7 @@
     "date": 2020,
     "value": 10.4955361951091,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 35,
+    "rank": 36,
     "decimal": 0
   },
   {
@@ -284,21 +292,13 @@
     "date": 2018,
     "value": 10.4778408669235,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 36,
+    "rank": 37,
     "decimal": 0
   },
   {
     "countryId": "gw",
     "date": 2018,
     "value": 10.4695621610053,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 37,
-    "decimal": 0
-  },
-  {
-    "countryId": "bo",
-    "date": 2016,
-    "value": 10.4636897436984,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 38,
     "decimal": 0
@@ -313,7 +313,7 @@
   },
   {
     "countryId": "bj",
-    "date": 2022,
+    "date": 2021,
     "value": 10.438478837815,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 40,
@@ -328,19 +328,11 @@
     "decimal": 0
   },
   {
-    "countryId": "kg",
-    "date": 2018,
-    "value": 10.2921578366264,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 42,
-    "decimal": 0
-  },
-  {
     "countryId": "cm",
     "date": 2018,
     "value": 10.2899261536981,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 43,
+    "rank": 42,
     "decimal": 0
   },
   {
@@ -348,7 +340,7 @@
     "date": 2016,
     "value": 10.1711094424994,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 44,
+    "rank": 43,
     "decimal": 0
   },
   {
@@ -356,7 +348,7 @@
     "date": 2021,
     "value": 10.1617395736325,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 45,
+    "rank": 44,
     "decimal": 0
   },
   {
@@ -364,7 +356,7 @@
     "date": 2021,
     "value": 10.1136,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 46,
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -372,15 +364,7 @@
     "date": 2015,
     "value": 10.0839843238669,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 47,
-    "decimal": 0
-  },
-  {
-    "countryId": "af",
-    "date": 2015,
-    "value": 10.0715908231285,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 48,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -388,15 +372,15 @@
     "date": 2018,
     "value": 10.0012139017162,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 49,
+    "rank": 47,
     "decimal": 0
   },
   {
     "countryId": "mz",
-    "date": 2023,
+    "date": 2022,
     "value": 9.98517200468277,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 50,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -404,15 +388,7 @@
     "date": 2021,
     "value": 9.94683770922159,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 51,
-    "decimal": 0
-  },
-  {
-    "countryId": "sn",
-    "date": 2019,
-    "value": 9.93209283303961,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 52,
+    "rank": 49,
     "decimal": 0
   },
   {
@@ -420,7 +396,7 @@
     "date": 2016,
     "value": 9.89455554905145,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 53,
+    "rank": 50,
     "decimal": 0
   },
   {
@@ -428,7 +404,7 @@
     "date": 2021,
     "value": 9.823337,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 54,
+    "rank": 51,
     "decimal": 0
   },
   {
@@ -436,7 +412,15 @@
     "date": 2018,
     "value": 9.78570487764882,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 55,
+    "rank": 52,
+    "decimal": 0
+  },
+  {
+    "countryId": "sn",
+    "date": 2023,
+    "value": 9.7430501,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 53,
     "decimal": 0
   },
   {
@@ -444,7 +428,7 @@
     "date": 2018,
     "value": 9.6298007172689,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 56,
+    "rank": 54,
     "decimal": 0
   },
   {
@@ -452,13 +436,29 @@
     "date": 2021,
     "value": 9.533572,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 57,
+    "rank": 55,
+    "decimal": 0
+  },
+  {
+    "countryId": "bo",
+    "date": 2023,
+    "value": 9.5031015,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 56,
     "decimal": 0
   },
   {
     "countryId": "id",
     "date": 2017,
     "value": 9.43595654175494,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 57,
+    "decimal": 0
+  },
+  {
+    "countryId": "ne",
+    "date": 2021,
+    "value": 9.385205,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 58,
     "decimal": 0
@@ -472,11 +472,19 @@
     "decimal": 0
   },
   {
+    "countryId": "kg",
+    "date": 2023,
+    "value": 9.2949553,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 60,
+    "decimal": 0
+  },
+  {
     "countryId": "td",
     "date": 2019,
     "value": 8.81256206859794,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 60,
+    "rank": 61,
     "decimal": 0
   },
   {
@@ -484,7 +492,7 @@
     "date": 2017,
     "value": 8.75490651155309,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 61,
+    "rank": 62,
     "decimal": 0
   },
   {
@@ -492,7 +500,7 @@
     "date": 2019,
     "value": 8.15222592378527,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 62,
+    "rank": 63,
     "decimal": 0
   },
   {
@@ -500,7 +508,7 @@
     "date": 2019,
     "value": 8.11659620763931,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 63,
+    "rank": 64,
     "decimal": 0
   },
   {
@@ -508,7 +516,7 @@
     "date": 2019,
     "value": 8.0764110614026,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 64,
+    "rank": 65,
     "decimal": 0
   },
   {
@@ -516,7 +524,7 @@
     "date": 2015,
     "value": 7.82832712024616,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 65,
+    "rank": 66,
     "decimal": 0
   },
   {
@@ -524,7 +532,7 @@
     "date": 2018,
     "value": 7.72720959691396,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 66,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -532,7 +540,7 @@
     "date": 2018,
     "value": 7.33168611842948,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 67,
+    "rank": 68,
     "decimal": 0
   },
   {
@@ -540,7 +548,7 @@
     "date": 2019,
     "value": 7.328707,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 68,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -548,21 +556,13 @@
     "date": 2018,
     "value": 7.25156346676947,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 69,
-    "decimal": 0
-  },
-  {
-    "countryId": "ga",
-    "date": 2021,
-    "value": 6.86319467631562,
-    "indicatorId": "mpi-cooking-fuel",
     "rank": 70,
     "decimal": 0
   },
   {
-    "countryId": "mx",
-    "date": 2022,
-    "value": 6.668044657303,
+    "countryId": "ga",
+    "date": 2019,
+    "value": 6.86319467631562,
     "indicatorId": "mpi-cooking-fuel",
     "rank": 71,
     "decimal": 0
@@ -648,11 +648,27 @@
     "decimal": 0
   },
   {
+    "countryId": "mx",
+    "date": 2023,
+    "value": 3.3770477,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 82,
+    "decimal": 0
+  },
+  {
     "countryId": "tv",
     "date": 2019,
     "value": 3.2703230025256,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 82,
+    "rank": 83,
+    "decimal": 0
+  },
+  {
+    "countryId": "az",
+    "date": 2023,
+    "value": 1.3946524,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 84,
     "decimal": 0
   },
   {
@@ -660,7 +676,7 @@
     "date": 2018,
     "value": 1.30632803770334,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 83,
+    "rank": 85,
     "decimal": 0
   },
   {
@@ -668,7 +684,7 @@
     "date": 2015,
     "value": 1.03784170920682,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 84,
+    "rank": 86,
     "decimal": 0
   },
   {
@@ -676,7 +692,7 @@
     "date": 2016,
     "value": 0.59479481635787,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 85,
+    "rank": 87,
     "decimal": 0
   },
   {
@@ -684,15 +700,7 @@
     "date": 2021,
     "value": 0.543983,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 86,
-    "decimal": 0
-  },
-  {
-    "countryId": "jo",
-    "date": 2017,
-    "value": 0.34236142793382,
-    "indicatorId": "mpi-cooking-fuel",
-    "rank": 87,
+    "rank": 88,
     "decimal": 0
   },
   {
@@ -700,7 +708,7 @@
     "date": 2022,
     "value": 0.34204598434973,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 88,
+    "rank": 89,
     "decimal": 0
   },
   {
@@ -708,7 +716,7 @@
     "date": 2023,
     "value": 0.27974852996259,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 89,
+    "rank": 90,
     "decimal": 0
   },
   {
@@ -716,7 +724,15 @@
     "date": 2018,
     "value": 0.27630699953018,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 90,
+    "rank": 91,
+    "decimal": 0
+  },
+  {
+    "countryId": "jo",
+    "date": 2023,
+    "value": 0.27109802,
+    "indicatorId": "mpi-cooking-fuel",
+    "rank": 92,
     "decimal": 0
   },
   {
@@ -724,7 +740,7 @@
     "date": 2019,
     "value": 0.23861026841047,
     "indicatorId": "mpi-cooking-fuel",
-    "rank": 91,
+    "rank": 93,
     "decimal": 0
   }
 ]

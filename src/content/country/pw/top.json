@@ -1,43 +1,37 @@
 [
   {
     "indicatorId": "bn-cab-xoka-gd-zs",
-    "value": -52.9861955287176,
-    "date": 2022,
-    "type": "min"
-  },
-  {
-    "indicatorId": "dt-nfl-ilog-cd",
-    "value": 20012.6692652702,
+    "value": -52.986196,
     "date": 2022,
     "type": "min"
   },
   {
     "indicatorId": "en-ghg-all-pc-ce-ar5",
-    "value": 84.7125853218255,
+    "value": 84.712585,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "en-ghg-ch4-zg-ar5",
-    "value": -77.4386197743862,
+    "value": -77.43862,
     "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "en-ghg-co2-pc-ce-ar5",
-    "value": 81.2094545044283,
+    "value": 81.209455,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "en-ghg-co2-rt-gdp-kd",
-    "value": 6.55984188353085,
+    "value": 6.559842,
     "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "en-ghg-co2-rt-gdp-pp-kd",
-    "value": 5.14096630103408,
+    "value": 5.140966,
     "date": 2023,
     "type": "max"
   },
@@ -61,7 +55,7 @@
   },
   {
     "indicatorId": "ne-con-govt-kd",
-    "value": 98680121.9393124,
+    "value": 98680121.939312,
     "date": 2023,
     "type": "min"
   },
@@ -78,10 +72,28 @@
     "type": "min"
   },
   {
-    "indicatorId": "se-prm-enrl",
-    "value": 1401,
-    "date": 2023,
-    "type": "min"
+    "indicatorId": "se-adt-1524-lt-zs",
+    "value": 100,
+    "date": 2020,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-adt-litr-fe-zs",
+    "value": 100,
+    "date": 2020,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-adt-litr-ma-zs",
+    "value": 100,
+    "date": 2020,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-adt-litr-zs",
+    "value": 100,
+    "date": 2020,
+    "type": "max"
   },
   {
     "indicatorId": "sl-uem-advn-fe-zs",
@@ -90,8 +102,14 @@
     "type": "min"
   },
   {
+    "indicatorId": "sm-pop-asys-eo",
+    "value": 5,
+    "date": 2017,
+    "type": "min"
+  },
+  {
     "indicatorId": "st-int-rcpt-xp-zs",
-    "value": 93.5226089006151,
+    "value": 93.522609,
     "date": 2017,
     "type": "max"
   },
@@ -105,12 +123,6 @@
     "indicatorId": "tx-val-mrch-wl-cd",
     "value": 1910650,
     "date": 2023,
-    "type": "min"
-  },
-  {
-    "indicatorId": "tx-val-othr-zs-wt",
-    "value": 0.903812168644293,
-    "date": 2022,
     "type": "min"
   }
 ]

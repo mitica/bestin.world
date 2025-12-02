@@ -2072,7 +2072,7 @@
     "emoji": "📊🌐"
   },
   {
-    "name": "Net ODA provided, total (constant 2021 US$)",
+    "name": "Net ODA provided, total (constant 2023 US$)",
     "id": "dc-oda-totl-kd",
     "code": "DC.ODA.TOTL.KD",
     "idWorldBank": "DC.ODA.TOTL.KD",
@@ -3102,7 +3102,7 @@
     "emoji": "🌐"
   },
   {
-    "name": "Net official development assistance and official aid received (constant 2021 US$)",
+    "name": "Net official development assistance and official aid received (constant 2023 US$)",
     "id": "dt-oda-alld-kd",
     "code": "DT.ODA.ALLD.KD",
     "idWorldBank": "DT.ODA.ALLD.KD",
@@ -3134,7 +3134,7 @@
     "emoji": "💰"
   },
   {
-    "name": "Net official aid received (constant 2021 US$)",
+    "name": "Net official aid received (constant 2023 US$)",
     "id": "dt-oda-oatl-kd",
     "code": "DT.ODA.OATL.KD",
     "idWorldBank": "DT.ODA.OATL.KD",
@@ -3202,7 +3202,7 @@
     "emoji": "📊"
   },
   {
-    "name": "Net official development assistance received (constant 2021 US$)",
+    "name": "Net official development assistance received (constant 2023 US$)",
     "id": "dt-oda-odat-kd",
     "code": "DT.ODA.ODAT.KD",
     "idWorldBank": "DT.ODA.ODAT.KD",
@@ -15581,7 +15581,7 @@
       "education"
     ],
     "commonName": "Total Education Expenditure",
-    "sort": 0,
+    "sort": 1,
     "unit": "%",
     "valueInfo": "Reflects the government's prioritization of education within its overall budget.",
     "priority": 0,
@@ -15597,7 +15597,7 @@
       "education"
     ],
     "commonName": "Education Expenditure as GDP Percentage",
-    "sort": 0,
+    "sort": 1,
     "unit": "%",
     "valueInfo": "Indicates the share of national wealth invested in education, impacting long-term economic growth.",
     "priority": 0,

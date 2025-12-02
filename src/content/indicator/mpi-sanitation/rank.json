@@ -16,19 +16,11 @@
     "decimal": 0
   },
   {
-    "countryId": "bo",
-    "date": 2016,
-    "value": 12.7389560817866,
-    "indicatorId": "mpi-sanitation",
-    "rank": 3,
-    "decimal": 0
-  },
-  {
     "countryId": "st",
     "date": 2019,
     "value": 12.6972905859489,
     "indicatorId": "mpi-sanitation",
-    "rank": 4,
+    "rank": 3,
     "decimal": 0
   },
   {
@@ -36,23 +28,7 @@
     "date": 2015,
     "value": 11.9213346477581,
     "indicatorId": "mpi-sanitation",
-    "rank": 5,
-    "decimal": 0
-  },
-  {
-    "countryId": "pe",
-    "date": 2022,
-    "value": 11.7801508476504,
-    "indicatorId": "mpi-sanitation",
-    "rank": 6,
-    "decimal": 0
-  },
-  {
-    "countryId": "ls",
-    "date": 2018,
-    "value": 11.699103117094,
-    "indicatorId": "mpi-sanitation",
-    "rank": 7,
+    "rank": 4,
     "decimal": 0
   },
   {
@@ -60,7 +36,23 @@
     "date": 2022,
     "value": 11.6657858016733,
     "indicatorId": "mpi-sanitation",
-    "rank": 8,
+    "rank": 5,
+    "decimal": 0
+  },
+  {
+    "countryId": "pe",
+    "date": 2023,
+    "value": 11.560094,
+    "indicatorId": "mpi-sanitation",
+    "rank": 6,
+    "decimal": 0
+  },
+  {
+    "countryId": "bo",
+    "date": 2023,
+    "value": 11.339779,
+    "indicatorId": "mpi-sanitation",
+    "rank": 7,
     "decimal": 0
   },
   {
@@ -68,7 +60,7 @@
     "date": 2018,
     "value": 11.2257117587116,
     "indicatorId": "mpi-sanitation",
-    "rank": 9,
+    "rank": 8,
     "decimal": 0
   },
   {
@@ -76,7 +68,7 @@
     "date": 2017,
     "value": 11.1197736062815,
     "indicatorId": "mpi-sanitation",
-    "rank": 10,
+    "rank": 9,
     "decimal": 0
   },
   {
@@ -84,7 +76,7 @@
     "date": 2016,
     "value": 11.1115202830703,
     "indicatorId": "mpi-sanitation",
-    "rank": 11,
+    "rank": 10,
     "decimal": 0
   },
   {
@@ -92,7 +84,7 @@
     "date": 2019,
     "value": 10.8126243783401,
     "indicatorId": "mpi-sanitation",
-    "rank": 12,
+    "rank": 11,
     "decimal": 0
   },
   {
@@ -100,7 +92,7 @@
     "date": 2019,
     "value": 10.7823817005225,
     "indicatorId": "mpi-sanitation",
-    "rank": 13,
+    "rank": 12,
     "decimal": 0
   },
   {
@@ -108,7 +100,7 @@
     "date": 2016,
     "value": 10.7189254225784,
     "indicatorId": "mpi-sanitation",
-    "rank": 14,
+    "rank": 13,
     "decimal": 0
   },
   {
@@ -116,12 +108,20 @@
     "date": 2015,
     "value": 10.6772415317553,
     "indicatorId": "mpi-sanitation",
+    "rank": 14,
+    "decimal": 0
+  },
+  {
+    "countryId": "bd",
+    "date": 2022,
+    "value": 10.655463,
+    "indicatorId": "mpi-sanitation",
     "rank": 15,
     "decimal": 0
   },
   {
     "countryId": "ga",
-    "date": 2021,
+    "date": 2019,
     "value": 10.6051830914293,
     "indicatorId": "mpi-sanitation",
     "rank": 16,
@@ -169,7 +169,7 @@
   },
   {
     "countryId": "bj",
-    "date": 2022,
+    "date": 2021,
     "value": 10.0192927684286,
     "indicatorId": "mpi-sanitation",
     "rank": 22,
@@ -209,7 +209,7 @@
   },
   {
     "countryId": "sz",
-    "date": 2022,
+    "date": 2021,
     "value": 9.76167531521206,
     "indicatorId": "mpi-sanitation",
     "rank": 27,
@@ -232,11 +232,27 @@
     "decimal": 0
   },
   {
+    "countryId": "ls",
+    "date": 2023,
+    "value": 9.2845719,
+    "indicatorId": "mpi-sanitation",
+    "rank": 30,
+    "decimal": 0
+  },
+  {
     "countryId": "mg",
     "date": 2021,
     "value": 9.275602,
     "indicatorId": "mpi-sanitation",
-    "rank": 30,
+    "rank": 31,
+    "decimal": 0
+  },
+  {
+    "countryId": "vu",
+    "date": 2023,
+    "value": 9.2234718,
+    "indicatorId": "mpi-sanitation",
+    "rank": 32,
     "decimal": 0
   },
   {
@@ -244,7 +260,7 @@
     "date": 2019,
     "value": 9.11213617070247,
     "indicatorId": "mpi-sanitation",
-    "rank": 31,
+    "rank": 33,
     "decimal": 0
   },
   {
@@ -252,7 +268,7 @@
     "date": 2019,
     "value": 9.10097815906513,
     "indicatorId": "mpi-sanitation",
-    "rank": 32,
+    "rank": 34,
     "decimal": 0
   },
   {
@@ -260,7 +276,7 @@
     "date": 2018,
     "value": 9.08602393568738,
     "indicatorId": "mpi-sanitation",
-    "rank": 33,
+    "rank": 35,
     "decimal": 0
   },
   {
@@ -268,7 +284,7 @@
     "date": 2018,
     "value": 9.04464910327549,
     "indicatorId": "mpi-sanitation",
-    "rank": 34,
+    "rank": 36,
     "decimal": 0
   },
   {
@@ -276,15 +292,15 @@
     "date": 2018,
     "value": 9.02785548765909,
     "indicatorId": "mpi-sanitation",
-    "rank": 35,
+    "rank": 37,
     "decimal": 0
   },
   {
-    "countryId": "la",
-    "date": 2017,
-    "value": 8.81446664023567,
+    "countryId": "ne",
+    "date": 2021,
+    "value": 8.881012,
     "indicatorId": "mpi-sanitation",
-    "rank": 36,
+    "rank": 38,
     "decimal": 0
   },
   {
@@ -292,15 +308,15 @@
     "date": 2015,
     "value": 8.73306443734047,
     "indicatorId": "mpi-sanitation",
-    "rank": 37,
+    "rank": 39,
     "decimal": 0
   },
   {
     "countryId": "mz",
-    "date": 2023,
+    "date": 2022,
     "value": 8.72555398663229,
     "indicatorId": "mpi-sanitation",
-    "rank": 38,
+    "rank": 40,
     "decimal": 0
   },
   {
@@ -308,7 +324,7 @@
     "date": 2015,
     "value": 8.72459471704134,
     "indicatorId": "mpi-sanitation",
-    "rank": 39,
+    "rank": 41,
     "decimal": 0
   },
   {
@@ -316,15 +332,15 @@
     "date": 2017,
     "value": 8.65187571131977,
     "indicatorId": "mpi-sanitation",
-    "rank": 40,
+    "rank": 42,
     "decimal": 0
   },
   {
     "countryId": "ye",
-    "date": 2023,
+    "date": 2022,
     "value": 8.62363865367394,
     "indicatorId": "mpi-sanitation",
-    "rank": 41,
+    "rank": 43,
     "decimal": 0
   },
   {
@@ -332,7 +348,7 @@
     "date": 2021,
     "value": 8.404555,
     "indicatorId": "mpi-sanitation",
-    "rank": 42,
+    "rank": 44,
     "decimal": 0
   },
   {
@@ -340,15 +356,7 @@
     "date": 2019,
     "value": 8.33315342349217,
     "indicatorId": "mpi-sanitation",
-    "rank": 43,
-    "decimal": 0
-  },
-  {
-    "countryId": "bd",
-    "date": 2019,
-    "value": 8.32234208898751,
-    "indicatorId": "mpi-sanitation",
-    "rank": 44,
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -356,7 +364,7 @@
     "date": 2018,
     "value": 8.25094445266993,
     "indicatorId": "mpi-sanitation",
-    "rank": 45,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -364,15 +372,15 @@
     "date": 2016,
     "value": 8.14732334592071,
     "indicatorId": "mpi-sanitation",
-    "rank": 46,
+    "rank": 47,
     "decimal": 0
   },
   {
     "countryId": "af",
-    "date": 2023,
+    "date": 2022,
     "value": 8.1019130679752,
     "indicatorId": "mpi-sanitation",
-    "rank": 47,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -380,7 +388,7 @@
     "date": 2019,
     "value": 8.08454716064455,
     "indicatorId": "mpi-sanitation",
-    "rank": 48,
+    "rank": 49,
     "decimal": 0
   },
   {
@@ -388,7 +396,7 @@
     "date": 2018,
     "value": 8.00669277094532,
     "indicatorId": "mpi-sanitation",
-    "rank": 49,
+    "rank": 50,
     "decimal": 0
   },
   {
@@ -396,7 +404,7 @@
     "date": 2022,
     "value": 7.84750845040326,
     "indicatorId": "mpi-sanitation",
-    "rank": 50,
+    "rank": 51,
     "decimal": 0
   },
   {
@@ -404,7 +412,7 @@
     "date": 2019,
     "value": 7.73717990032622,
     "indicatorId": "mpi-sanitation",
-    "rank": 51,
+    "rank": 52,
     "decimal": 0
   },
   {
@@ -412,7 +420,7 @@
     "date": 2021,
     "value": 7.69643491632799,
     "indicatorId": "mpi-sanitation",
-    "rank": 52,
+    "rank": 53,
     "decimal": 0
   },
   {
@@ -420,7 +428,7 @@
     "date": 2018,
     "value": 7.68973051103031,
     "indicatorId": "mpi-sanitation",
-    "rank": 53,
+    "rank": 54,
     "decimal": 0
   },
   {
@@ -428,7 +436,7 @@
     "date": 2021,
     "value": 7.426283,
     "indicatorId": "mpi-sanitation",
-    "rank": 54,
+    "rank": 55,
     "decimal": 0
   },
   {
@@ -436,7 +444,7 @@
     "date": 2022,
     "value": 7.36507998031958,
     "indicatorId": "mpi-sanitation",
-    "rank": 55,
+    "rank": 56,
     "decimal": 0
   },
   {
@@ -444,7 +452,7 @@
     "date": 2019,
     "value": 7.16773064255958,
     "indicatorId": "mpi-sanitation",
-    "rank": 56,
+    "rank": 57,
     "decimal": 0
   },
   {
@@ -452,7 +460,7 @@
     "date": 2022,
     "value": 7.05327461951252,
     "indicatorId": "mpi-sanitation",
-    "rank": 57,
+    "rank": 58,
     "decimal": 0
   },
   {
@@ -460,7 +468,7 @@
     "date": 2018,
     "value": 6.97037844573472,
     "indicatorId": "mpi-sanitation",
-    "rank": 58,
+    "rank": 59,
     "decimal": 0
   },
   {
@@ -468,7 +476,7 @@
     "date": 2016,
     "value": 6.91985158488407,
     "indicatorId": "mpi-sanitation",
-    "rank": 59,
+    "rank": 60,
     "decimal": 0
   },
   {
@@ -476,7 +484,7 @@
     "date": 2022,
     "value": 6.8759280453557,
     "indicatorId": "mpi-sanitation",
-    "rank": 60,
+    "rank": 61,
     "decimal": 0
   },
   {
@@ -484,7 +492,7 @@
     "date": 2021,
     "value": 6.814868,
     "indicatorId": "mpi-sanitation",
-    "rank": 61,
+    "rank": 62,
     "decimal": 0
   },
   {
@@ -492,7 +500,15 @@
     "date": 2018,
     "value": 6.7673231923793,
     "indicatorId": "mpi-sanitation",
-    "rank": 62,
+    "rank": 63,
+    "decimal": 0
+  },
+  {
+    "countryId": "la",
+    "date": 2023,
+    "value": 6.7146633,
+    "indicatorId": "mpi-sanitation",
+    "rank": 64,
     "decimal": 0
   },
   {
@@ -500,7 +516,7 @@
     "date": 2015,
     "value": 6.60710109528092,
     "indicatorId": "mpi-sanitation",
-    "rank": 63,
+    "rank": 65,
     "decimal": 0
   },
   {
@@ -508,7 +524,7 @@
     "date": 2019,
     "value": 6.56323620177792,
     "indicatorId": "mpi-sanitation",
-    "rank": 64,
+    "rank": 66,
     "decimal": 0
   },
   {
@@ -516,7 +532,7 @@
     "date": 2018,
     "value": 6.32911238037379,
     "indicatorId": "mpi-sanitation",
-    "rank": 65,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -524,15 +540,7 @@
     "date": 2016,
     "value": 6.21104301418958,
     "indicatorId": "mpi-sanitation",
-    "rank": 66,
-    "decimal": 0
-  },
-  {
-    "countryId": "sn",
-    "date": 2019,
-    "value": 6.09956829811587,
-    "indicatorId": "mpi-sanitation",
-    "rank": 67,
+    "rank": 68,
     "decimal": 0
   },
   {
@@ -540,7 +548,7 @@
     "date": 2017,
     "value": 6.07742915990126,
     "indicatorId": "mpi-sanitation",
-    "rank": 68,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -548,7 +556,7 @@
     "date": 2019,
     "value": 5.98751421447751,
     "indicatorId": "mpi-sanitation",
-    "rank": 69,
+    "rank": 70,
     "decimal": 0
   },
   {
@@ -556,7 +564,7 @@
     "date": 2018,
     "value": 5.69827712726536,
     "indicatorId": "mpi-sanitation",
-    "rank": 70,
+    "rank": 71,
     "decimal": 0
   },
   {
@@ -564,7 +572,23 @@
     "date": 2019,
     "value": 5.657947,
     "indicatorId": "mpi-sanitation",
-    "rank": 71,
+    "rank": 72,
+    "decimal": 0
+  },
+  {
+    "countryId": "sn",
+    "date": 2023,
+    "value": 5.5986318,
+    "indicatorId": "mpi-sanitation",
+    "rank": 73,
+    "decimal": 0
+  },
+  {
+    "countryId": "az",
+    "date": 2023,
+    "value": 5.4769071,
+    "indicatorId": "mpi-sanitation",
+    "rank": 74,
     "decimal": 0
   },
   {
@@ -572,15 +596,7 @@
     "date": 2017,
     "value": 4.98253155979194,
     "indicatorId": "mpi-sanitation",
-    "rank": 72,
-    "decimal": 0
-  },
-  {
-    "countryId": "mx",
-    "date": 2022,
-    "value": 4.76591608924287,
-    "indicatorId": "mpi-sanitation",
-    "rank": 73,
+    "rank": 75,
     "decimal": 0
   },
   {
@@ -588,7 +604,7 @@
     "date": 2016,
     "value": 4.59236318370454,
     "indicatorId": "mpi-sanitation",
-    "rank": 74,
+    "rank": 76,
     "decimal": 0
   },
   {
@@ -596,7 +612,7 @@
     "date": 2019,
     "value": 4.49649325606552,
     "indicatorId": "mpi-sanitation",
-    "rank": 75,
+    "rank": 77,
     "decimal": 0
   },
   {
@@ -604,7 +620,7 @@
     "date": 2018,
     "value": 4.23642050507363,
     "indicatorId": "mpi-sanitation",
-    "rank": 76,
+    "rank": 78,
     "decimal": 0
   },
   {
@@ -612,7 +628,7 @@
     "date": 2019,
     "value": 3.91275468958043,
     "indicatorId": "mpi-sanitation",
-    "rank": 77,
+    "rank": 79,
     "decimal": 0
   },
   {
@@ -620,7 +636,7 @@
     "date": 2018,
     "value": 3.70956815309011,
     "indicatorId": "mpi-sanitation",
-    "rank": 78,
+    "rank": 80,
     "decimal": 0
   },
   {
@@ -628,7 +644,7 @@
     "date": 2023,
     "value": 3.39914878915021,
     "indicatorId": "mpi-sanitation",
-    "rank": 79,
+    "rank": 81,
     "decimal": 0
   },
   {
@@ -636,7 +652,7 @@
     "date": 2019,
     "value": 3.3751977322497,
     "indicatorId": "mpi-sanitation",
-    "rank": 80,
+    "rank": 82,
     "decimal": 0
   },
   {
@@ -644,7 +660,15 @@
     "date": 2017,
     "value": 2.90529976660426,
     "indicatorId": "mpi-sanitation",
-    "rank": 81,
+    "rank": 83,
+    "decimal": 0
+  },
+  {
+    "countryId": "mx",
+    "date": 2023,
+    "value": 2.4989552,
+    "indicatorId": "mpi-sanitation",
+    "rank": 84,
     "decimal": 0
   },
   {
@@ -652,7 +676,7 @@
     "date": 2019,
     "value": 2.40359972674273,
     "indicatorId": "mpi-sanitation",
-    "rank": 82,
+    "rank": 85,
     "decimal": 0
   },
   {
@@ -660,7 +684,15 @@
     "date": 2018,
     "value": 2.39657716391054,
     "indicatorId": "mpi-sanitation",
-    "rank": 83,
+    "rank": 86,
+    "decimal": 0
+  },
+  {
+    "countryId": "nr",
+    "date": 2023,
+    "value": 2.2237665,
+    "indicatorId": "mpi-sanitation",
+    "rank": 87,
     "decimal": 0
   },
   {
@@ -668,7 +700,7 @@
     "date": 2022,
     "value": 2.14129747458221,
     "indicatorId": "mpi-sanitation",
-    "rank": 84,
+    "rank": 88,
     "decimal": 0
   },
   {
@@ -676,7 +708,7 @@
     "date": 2019,
     "value": 2.13012164026589,
     "indicatorId": "mpi-sanitation",
-    "rank": 85,
+    "rank": 89,
     "decimal": 0
   },
   {
@@ -684,15 +716,7 @@
     "date": 2022,
     "value": 2.06509799896021,
     "indicatorId": "mpi-sanitation",
-    "rank": 86,
-    "decimal": 0
-  },
-  {
-    "countryId": "kg",
-    "date": 2018,
-    "value": 2.06412921771073,
-    "indicatorId": "mpi-sanitation",
-    "rank": 87,
+    "rank": 90,
     "decimal": 0
   },
   {
@@ -700,15 +724,7 @@
     "date": 2018,
     "value": 1.96286957193479,
     "indicatorId": "mpi-sanitation",
-    "rank": 88,
-    "decimal": 0
-  },
-  {
-    "countryId": "jo",
-    "date": 2017,
-    "value": 1.42724528054965,
-    "indicatorId": "mpi-sanitation",
-    "rank": 89,
+    "rank": 91,
     "decimal": 0
   },
   {
@@ -716,7 +732,7 @@
     "date": 2022,
     "value": 1.12759565416757,
     "indicatorId": "mpi-sanitation",
-    "rank": 90,
+    "rank": 92,
     "decimal": 0
   },
   {
@@ -724,7 +740,23 @@
     "date": 2021,
     "value": 1.108911,
     "indicatorId": "mpi-sanitation",
-    "rank": 91,
+    "rank": 93,
+    "decimal": 0
+  },
+  {
+    "countryId": "kg",
+    "date": 2023,
+    "value": 1.0800552,
+    "indicatorId": "mpi-sanitation",
+    "rank": 94,
+    "decimal": 0
+  },
+  {
+    "countryId": "jo",
+    "date": 2023,
+    "value": 0.68989595,
+    "indicatorId": "mpi-sanitation",
+    "rank": 95,
     "decimal": 0
   },
   {
@@ -732,7 +764,7 @@
     "date": 2017,
     "value": 0.60905928510694,
     "indicatorId": "mpi-sanitation",
-    "rank": 92,
+    "rank": 96,
     "decimal": 0
   },
   {
@@ -740,7 +772,7 @@
     "date": 2019,
     "value": 0.45049372079371,
     "indicatorId": "mpi-sanitation",
-    "rank": 93,
+    "rank": 97,
     "decimal": 0
   },
   {
@@ -748,7 +780,7 @@
     "date": 2016,
     "value": 0.37646970775125,
     "indicatorId": "mpi-sanitation",
-    "rank": 94,
+    "rank": 98,
     "decimal": 0
   }
 ]

@@ -1,5 +1,11 @@
 [
   {
+    "indicatorId": "ag-lnd-crop-zs",
+    "value": 0.003529,
+    "date": 2023,
+    "type": "min"
+  },
+  {
     "indicatorId": "dt-dod-dpng-cd",
     "value": 4347683.2,
     "date": 2022,
@@ -13,8 +19,20 @@
   },
   {
     "indicatorId": "eg-elc-coal-zs",
-    "value": 96.1930926216641,
+    "value": 96.193093,
     "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "sh-hiv-pmtc-zs",
+    "value": 100,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "mpi-electricity",
+    "value": 11.8361484491249,
+    "date": 2015,
     "type": "max"
   }
 ]

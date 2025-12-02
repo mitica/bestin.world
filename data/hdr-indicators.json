@@ -42,14 +42,6 @@
   {
     "indexCode": "MPI",
     "index": "Multidimensional Poverty Index",
-    "dimension": "",
-    "indicatorCode": "mpi",
-    "indicator": "MPI Value (Range: 0 to 1)",
-    "name": "Multidimensional Poverty Index"
-  },
-  {
-    "indexCode": "MPI",
-    "index": "Multidimensional Poverty Index",
     "dimension": "Standard of Living",
     "indicatorCode": "mpi-assets",
     "indicator": "Assets (%)",
@@ -126,5 +118,21 @@
     "indicatorCode": "mpi-cooking-fuel",
     "indicator": "Cooking fuel (%)",
     "name": "Multidimensional Poverty Index, Cooking fuel (%)"
+  },
+  {
+    "indexCode": "GII",
+    "index": "Gender Inequality Index",
+    "dimension": "",
+    "indicatorCode": "gii",
+    "indicator": "GII Rank",
+    "name": "Gender Inequality Index"
+  },
+  {
+    "indexCode": "HDI",
+    "index": "Human Development Index",
+    "dimension": "",
+    "indicatorCode": "hdi",
+    "indicator": "HDI Rank",
+    "name": "Human Development Index"
   }
 ]

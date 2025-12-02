@@ -1,8 +1,20 @@
 [
   {
     "indicatorId": "ag-yld-crel-kg",
-    "value": 11.5,
-    "date": 2022,
+    "value": 23,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dc-dac-prtl-cd",
+    "value": -4842814.922333,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "dt-nfl-wfpg-cd",
+    "value": 11373.000219,
+    "date": 2023,
     "type": "min"
   },
   {
@@ -31,19 +43,25 @@
   },
   {
     "indicatorId": "ny-gdp-coal-rt-zs",
-    "value": 17.1799974804718,
+    "value": 17.179997,
     "date": 2021,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-sec-uner-lo-ma-zs",
+    "value": 83.093123,
+    "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "sh-hiv-0014",
     "value": 100,
-    "date": 2022,
+    "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "tx-val-mmtl-zs-un",
-    "value": 0.0000583139625688506,
+    "value": 0.000058,
     "date": 2023,
     "type": "min"
   }

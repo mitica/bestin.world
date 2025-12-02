@@ -1,133 +1,127 @@
 [
   {
-    "indicatorId": "ag-lnd-arbl-ha",
-    "value": 157736800,
-    "date": 2021,
-    "type": "max"
-  },
-  {
     "indicatorId": "bm-gsr-fcty-cd",
-    "value": 1443600000000,
+    "value": 1492101000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-gsr-gnfs-cd",
-    "value": 4108442000000,
+    "value": 4136061000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-gsr-mrch-cd",
-    "value": 3296238000000,
+    "value": 3295181000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-gsr-nfsv-cd",
-    "value": 812204000000,
+    "value": 840880000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-gsr-totl-cd",
-    "value": 5552042000000,
+    "value": 5628162000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-klt-dinv-cd-wd",
-    "value": 379072000000,
+    "value": 322167000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-trf-prvt-cd",
-    "value": 324538000000,
+    "value": 343422000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bm-trf-pwkr-cd-dt",
-    "value": 98418000000,
+    "value": 103179000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bn-cab-xoka-cd",
-    "value": -1133619000000,
+    "value": -1185294000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bn-fin-totl-cd",
-    "value": -1268835000000,
+    "value": -1128593000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bn-gsr-gnfs-cd",
-    "value": -917838000000,
+    "value": -903539000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bn-gsr-mrch-cd",
-    "value": -1212993000000,
-    "date": 2024,
-    "type": "min"
-  },
-  {
-    "indicatorId": "bn-kac-eoms-cd",
-    "value": -140483000000,
+    "value": -1215406000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bn-klt-ptxl-cd",
-    "value": -1069223000000,
+    "value": -961053000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bn-trf-curr-cd",
-    "value": -206897000000,
+    "value": -240729000000,
     "date": 2024,
     "type": "min"
   },
   {
     "indicatorId": "bx-gsr-fcty-cd",
-    "value": 1434716000000,
+    "value": 1451075000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bx-gsr-nfsv-cd",
-    "value": 1107359000000,
+    "value": 1152747000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bx-gsr-royl-cd",
-    "value": 144449000000,
+    "value": 169520000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bx-gsr-totl-cd",
-    "value": 4625320000000,
+    "value": 4683597000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bx-klt-dinv-cd-wd",
-    "value": 387990000000,
+    "value": 297058000000,
+    "date": 2024,
+    "type": "max"
+  },
+  {
+    "indicatorId": "bx-pef-totl-cd-wd",
+    "value": 305897000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "bx-trf-curr-cd",
-    "value": 201683000000,
+    "value": 187902000000,
     "date": 2024,
     "type": "max"
   },
@@ -145,26 +139,20 @@
   },
   {
     "indicatorId": "dc-oda-tldc-cd",
-    "value": 11689380000,
-    "date": 2022,
+    "value": 13494455365,
+    "date": 2023,
     "type": "max"
   },
   {
     "indicatorId": "dc-oda-totl-cd",
-    "value": 60328680000,
-    "date": 2022,
+    "value": 63192740000,
+    "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "dc-oda-totl-kd",
-    "value": 56430328449,
-    "date": 2022,
-    "type": "max"
-  },
-  {
-    "indicatorId": "en-fsh-thrd-no",
-    "value": 251,
-    "date": 2018,
+    "value": 61717271365,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -175,19 +163,19 @@
   },
   {
     "indicatorId": "fs-ast-prvt-gd-zs",
-    "value": 197.896120599056,
+    "value": 198.226503,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "gc-rev-gotr-zs",
-    "value": 2.56251645331687,
+    "value": 2.562516,
     "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "gc-tax-ypkg-zs",
-    "value": 92.9131779517794,
+    "value": 92.913178,
     "date": 2023,
     "type": "max"
   },
@@ -271,7 +259,7 @@
   },
   {
     "indicatorId": "ne-con-prvt-pc-kd",
-    "value": 45923.3571245703,
+    "value": 45923.357125,
     "date": 2024,
     "type": "max"
   },
@@ -475,20 +463,20 @@
   },
   {
     "indicatorId": "sh-xpd-chex-pc-cd",
-    "value": 12434.43359375,
+    "value": 12434.433594,
     "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "sh-xpd-chex-pp-cd",
-    "value": 12434.433860855,
+    "value": 12434.433861,
     "date": 2022,
     "type": "max"
   },
   {
     "indicatorId": "sm-pop-asys-ea",
-    "value": 2601467,
-    "date": 2023,
+    "value": 3184162,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -499,8 +487,8 @@
   },
   {
     "indicatorId": "sm-pop-totl",
-    "value": 46627102,
-    "date": 2015,
+    "value": 52375047,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -535,13 +523,13 @@
   },
   {
     "indicatorId": "tm-val-serv-cd-wt",
-    "value": 786596000000,
+    "value": 815272000000,
     "date": 2024,
     "type": "max"
   },
   {
     "indicatorId": "tx-val-serv-cd-wt",
-    "value": 1076649000000,
+    "value": 1121973000000,
     "date": 2024,
     "type": "max"
   }

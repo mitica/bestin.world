@@ -1,8 +1,14 @@
 [
   {
     "indicatorId": "eg-elc-nucl-zs",
-    "value": 64.1748307877974,
+    "value": 64.338546,
     "date": 2023,
+    "type": "max"
+  },
+  {
+    "indicatorId": "fx-own-totl-fe-zs",
+    "value": 99.848495,
+    "date": 2024,
     "type": "max"
   },
   {
@@ -13,8 +19,14 @@
   },
   {
     "indicatorId": "se-prm-uner-fe-zs",
-    "value": 0.025560000911355,
+    "value": 0.02556,
     "date": 2016,
+    "type": "min"
+  },
+  {
+    "indicatorId": "se-sec-uner-lo-fe-zs",
+    "value": 0.10864,
+    "date": 2022,
     "type": "min"
   },
   {
@@ -22,12 +34,6 @@
     "value": 100,
     "date": 2022,
     "type": "max"
-  },
-  {
-    "indicatorId": "sm-pop-idpc",
-    "value": 10,
-    "date": 2022,
-    "type": "min"
   },
   {
     "indicatorId": "st-int-arvl",

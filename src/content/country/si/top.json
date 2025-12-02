@@ -1,19 +1,37 @@
 [
   {
     "indicatorId": "ny-gdp-petr-rt-zs",
-    "value": 0.0000290014634526052,
+    "value": 0.000029,
     "date": 2021,
     "type": "min"
   },
   {
-    "indicatorId": "si-pov-sopo",
-    "value": 6.5,
+    "indicatorId": "se-prm-prs5-fe-zs",
+    "value": 100,
     "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "se-prm-prsl-fe-zs",
+    "value": 100,
+    "date": 2022,
+    "type": "max"
+  },
+  {
+    "indicatorId": "si-pov-sopo",
+    "value": 7,
+    "date": 2023,
+    "type": "min"
+  },
+  {
+    "indicatorId": "si-pov-umic",
+    "value": 0.1,
+    "date": 2023,
     "type": "min"
   },
   {
     "indicatorId": "tg-val-totl-gd-zs",
-    "value": 225.170697239271,
+    "value": 225.170697,
     "date": 2024,
     "type": "max"
   },
