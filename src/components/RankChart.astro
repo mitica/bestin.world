@@ -1,0 +1,38 @@
+---
+import {
+  createRankChart,
+  renderToSvgString
+} from "../helpers/create-rank-chart";
+import type { CountryRank } from "../content/common/types";
+
+interface Props {
+  ranks: CountryRank[];
+  width?: number;
+  height?: number;
+  color?: string;
+  class?: string;
+  responsive?: boolean;
+  type?: "line" | "fill";
+}
+
+const {
+  ranks,
+  width = 600,
+  height = 300,
+  color,
+  class: className,
+  responsive = false,
+  type = "line"
+} = Astro.props;
+
+const chartNode = createRankChart([ranks], {
+  width,
+  height,
+  colors: color ? [color] : undefined,
+  responsive,
+  type
+});
+const svgString = renderToSvgString(chartNode);
+---
+
+<div class={className} set:html={svgString} />

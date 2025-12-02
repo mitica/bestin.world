@@ -34,7 +34,7 @@ export const MAIN_INDICATOR_IDS = [
   "gdi",
   "hdi",
   "ihdi",
-  "mpi",
+  // "mpi",
   "phdi",
   // "mpi-assets",
   // "mpi-child-mortality",
@@ -53,3 +53,5 @@ export const MAIN_INDICATOR_IDS = [
   "sh-sta-mmrt",
   "sh-dyn-mort"
 ];
+
+export const CURRENT_YEAR = 2024;

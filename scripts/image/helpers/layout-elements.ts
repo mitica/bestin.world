@@ -65,7 +65,7 @@ export default async function layoutElements() {
                 fontSize: "1.5rem",
                 fontWeight: "bold"
               },
-              children: "BestIn.world"
+              children: "Bestin.world"
             }
           }
         ]

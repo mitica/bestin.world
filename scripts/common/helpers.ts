@@ -1,6 +1,7 @@
 import { glob, readFile, writeFile } from "fs/promises";
 import type {
   CountryInfo,
+  CountryRank,
   CountrySummary,
   IndicatorCountryRankValue,
   IndicatorCountryValue,
@@ -56,6 +57,21 @@ export const readIndicatorRanks = async (indicators: string[] = []) => {
   return list;
 };
 
+export const readIndicatorRanksHistory = async (indicators: string[] = []) => {
+  const f = `src/content/indicator/*/rank-history.json`;
+  const list: (IndicatorCountryRankValue & { year: number })[] = [];
+  for await (const entry of glob(f)) {
+    const indicatorId =
+      /[\\/]indicator[\\/]([^/]+)[\\/]/.exec(entry)?.[1] || "";
+    if (!indicatorId)
+      throw new Error(`Indicator ID not found in path: ${entry}`);
+    if (indicators.length && !indicators.includes(indicatorId)) continue;
+    const data = await readFile(entry, "utf-8");
+    list.push(...JSON.parse(data));
+  }
+  return list;
+};
+
 let allIndicatorRanks: IndicatorCountryRankValue[];
 
 export const getAllIndicatorRanks = async () => {
@@ -84,6 +100,17 @@ export const getCountrySummary = async (fresh = false) => {
     "utf-8"
   ).then((data) => JSON.parse(data));
   return countrySummary;
+};
+
+let countryRanks: CountryRank[];
+
+export const getCountryRanks = async (fresh = false) => {
+  if (countryRanks && !fresh) return countryRanks;
+  countryRanks = await readFile(
+    "src/content/common/country-rank.json",
+    "utf-8"
+  ).then((data) => JSON.parse(data));
+  return countryRanks;
 };
 
 let indicators: IndicatorInfo[];
@@ -149,6 +176,7 @@ export const getWBIndicatorData = async (indicator: IndicatorInfo) => {
 const hdrIndicators: Record<string, IndicatorCountryValue[]> = {};
 
 export const getHDRIndicatorData = async (indicator: IndicatorInfo) => {
+  await getIndicators();
   if (hdrIndicators[indicator.id]) return hdrIndicators[indicator.id];
   const countries = await getCountries();
   const data: {
@@ -205,11 +233,15 @@ export const getIndicatorData = async (indicator: IndicatorInfo) => {
  * Get the last data point for a given indicator
  * for the latest year available grouped by country.
  */
-export const getLastWBIndicatorData = async (indicator: IndicatorInfo) => {
-  const data = await getWBIndicatorData(indicator);
-  const year = new Date().getFullYear();
+export const getLastWBIndicatorData = async (
+  indicator: IndicatorInfo,
+  year: number
+) => {
+  const data = await getWBIndicatorData(indicator).then((data) =>
+    data.sort((a, b) => b.date - a.date)
+  );
   const latestByCountry = data.reduce((acc, item) => {
-    if (!acc[item.countryId] && item.date >= year - 10) {
+    if (!acc[item.countryId] && item.date >= year - 10 && item.date <= year) {
       acc[item.countryId] = item;
     }
     return acc;
@@ -217,11 +249,15 @@ export const getLastWBIndicatorData = async (indicator: IndicatorInfo) => {
   return Object.values(latestByCountry);
 };
 
-export const getLastHDRIndicatorData = async (indicator: IndicatorInfo) => {
-  const data = await getHDRIndicatorData(indicator);
-  const year = new Date().getFullYear();
+export const getLastHDRIndicatorData = async (
+  indicator: IndicatorInfo,
+  year: number
+) => {
+  const data = await getHDRIndicatorData(indicator).then((data) =>
+    data.sort((a, b) => b.date - a.date)
+  );
   const latestByCountry = data.reduce((acc, item) => {
-    if (!acc[item.countryId] && item.date >= year - 10) {
+    if (!acc[item.countryId] && item.date >= year - 10 && item.date <= year) {
       acc[item.countryId] = item;
     }
     return acc;
@@ -229,11 +265,14 @@ export const getLastHDRIndicatorData = async (indicator: IndicatorInfo) => {
   return Object.values(latestByCountry);
 };
 
-export const getLastIndicatorData = async (indicator: IndicatorInfo) => {
+export const getLastIndicatorData = async (
+  indicator: IndicatorInfo,
+  year: number
+) => {
   if (indicator.idWorldBank) {
-    return getLastWBIndicatorData(indicator);
+    return getLastWBIndicatorData(indicator, year);
   } else if (indicator.idHDR) {
-    return getLastHDRIndicatorData(indicator);
+    return getLastHDRIndicatorData(indicator, year);
   } else {
     throw new Error("Unknown indicator type");
   }

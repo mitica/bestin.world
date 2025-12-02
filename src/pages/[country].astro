@@ -5,8 +5,13 @@ import Layout from "../layouts/Layout.astro";
 import { getCollection, getEntry } from "astro:content";
 import { countryCodeToFlagEmoji, uniq } from "../utils";
 import { localesProvider } from "../locales";
-import { getCountrySummary, getIndicators } from "../../scripts/common/helpers";
+import {
+  getCountryRanks,
+  getCountrySummary,
+  getIndicators
+} from "../../scripts/common/helpers";
 import IndicatorsRankList from "../components/IndicatorsRankList.astro";
+import RankChart from "../components/RankChart.astro";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -17,13 +22,16 @@ export async function getStaticPaths() {
 }
 
 const { country } = Astro.props;
-const [tops, topics, countries, countrySummaries, indicators] =
+const [tops, topics, countries, countrySummaries, indicators, countryRanks] =
   await Promise.all([
     getEntry("countryInsights", country.id)?.then((t) => t.data) || [],
     getCollection("topics"),
     getCollection("countries"),
     getCountrySummary(),
-    getIndicators()
+    getIndicators(),
+    getCountryRanks().then((ranks) =>
+      ranks.filter((rank) => rank.countryId === country.id)
+    )
   ]);
 
 const mainIndicators = indicators.filter((indicator) =>
@@ -103,6 +111,17 @@ if (countrySummary && topNumber - countrySummary.rank <= 50)
                 indicatorCount: MAIN_INDICATOR_IDS.length
               })}
             </p>
+            <div class="flex items-center justify-center w-full max-w-3xl">
+              <RankChart
+                ranks={countryRanks}
+                width={480}
+                height={140}
+                color="#3b82f6"
+                responsive={true}
+                class="w-full"
+                type="fill"
+              />
+            </div>
           </div>
           <IndicatorsRankList
             indicators={mainIndicators}

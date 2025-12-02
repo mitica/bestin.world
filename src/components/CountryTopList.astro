@@ -36,7 +36,7 @@ const getCountryRanks = (countryId: string) => {
     className
   )}
 >
-  <div id="country-list">
+  <div>
     {
       list.map((data, index) => {
         const country = getCountry(data.countryId);
@@ -49,7 +49,7 @@ const getCountryRanks = (countryId: string) => {
         return (
           <div
             class={classNames(
-              "gap-3 items-center country-item",
+              "gap-3 items-center ctl-country-item",
               itemClassName,
               index >= defaultLimit ? "hidden" : "flex"
             )}
@@ -106,7 +106,7 @@ const getCountryRanks = (countryId: string) => {
 
 <script>
   function toggleViewAll() {
-    const countryItems = document.querySelectorAll(".country-item");
+    const countryItems = document.querySelectorAll(".ctl-country-item");
     const viewAllBtn = document.getElementById("view-all-btn");
     const viewLessBtn = document.getElementById("view-less-btn");
 

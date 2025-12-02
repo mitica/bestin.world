@@ -87,10 +87,17 @@ export interface TopicInfo {
   idWorldBank?: string;
 }
 
-export interface CountrySummary {
+export interface CountrySummaryData {
   countryId: string;
   rank: number;
   points: number;
   indicatorCount: number;
+}
+
+export interface CountrySummary extends CountrySummaryData {
   ranks: IndicatorCountryRankValue[];
+}
+
+export interface CountryRank extends CountrySummaryData {
+  year: number;
 }

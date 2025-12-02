@@ -3,9 +3,14 @@ import { Resvg } from "@resvg/resvg-js";
 import fs from "fs/promises";
 import {
   getCountries,
+  getCountryRanks,
   getCountrySummary,
   readCountryInsights
 } from "../common/helpers";
+import {
+  createRankChart,
+  renderToSvgString
+} from "../../src/helpers/create-rank-chart";
 import { localesProvider } from "../../src/locales";
 import layoutElements from "./helpers/layout-elements";
 import getEmojiElement from "./helpers/get-emoji-element";
@@ -20,9 +25,10 @@ const fontData = await Promise.all([
   fs.readFile("src/fonts/Inter-Medium.ttf")
 ]);
 
-const [countries, countrySummaries] = await Promise.all([
+const [countries, countrySummaries, allCountryRanks] = await Promise.all([
   getCountries(),
-  getCountrySummary()
+  getCountrySummary(),
+  getCountryRanks()
 ]);
 
 const locales = localesProvider.lang("en");
@@ -50,6 +56,29 @@ export async function generateImage(countryId: string) {
   list.push(...worstIn.slice(0, limit - list.length));
   const name = country.name;
 
+  const countryRanks = allCountryRanks.filter(
+    (cr) => cr.countryId === countryId
+  );
+
+  const rankValues = countryRanks.map((cr) => cr.rank);
+  const chartNode = createRankChart([countryRanks], {
+    width: 1200,
+    height: 200,
+    // colors: ["#888888"],
+    strokeWidth: 15,
+    fontSize: 24,
+    padding: 0,
+    showDots: false,
+    type: "fill",
+    minRank: Math.min(...rankValues),
+    maxRank: Math.max(...rankValues) + 5
+  });
+  const chartSvg = renderToSvgString(chartNode);
+  const chartBase64 = Buffer.from(chartSvg).toString("base64");
+  const chartSrc = `data:image/svg+xml;base64,${chartBase64}`;
+
+  // console.log(`Generating image for ${name} (${countryId})`, chartSrc);
+
   const svg = await satori(
     {
       type: "div",
@@ -68,10 +97,25 @@ export async function generateImage(countryId: string) {
           boxSizing: "border-box",
           padding: "2rem",
           overflow: "hidden",
-          gap: "2.4rem"
+          gap: "2.4rem",
+          position: "relative"
         },
         children: [
           ...(await layoutElements()),
+          {
+            type: "img",
+            props: {
+              src: chartSrc,
+              width: 1200,
+              height: 200,
+              style: {
+                position: "absolute",
+                bottom: "0px",
+                left: "0px",
+                opacity: 0.4
+              }
+            }
+          },
           await getEmojiElement(countryCodeToFlagEmoji(countryId), {
             width: 100,
             height: 100,

@@ -1,7 +1,6 @@
 <button
   id="search-button"
   class="flex items-center gap-2 px-3 py-2 text-gray-700 hover:text-blue-600 hover:bg-gray-100 rounded-lg transition-colors duration-200"
-  onclick="openSearchModal()"
 >
   <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
     <path
@@ -12,3 +11,155 @@
   </svg>
   <span class="hidden sm:inline">Search Countries</span>
 </button>
+
+<script>
+  // Lazy loading search modal functionality
+  let isLoading = false;
+  let isLoaded = false;
+  let pendingCallbacks: (() => void)[] = [];
+
+  async function loadSearchModal() {
+    if (isLoaded) {
+      return;
+    }
+
+    if (isLoading) {
+      return new Promise<void>(resolve => {
+        pendingCallbacks.push(resolve);
+      });
+    }
+
+    isLoading = true;
+
+    try {
+      // Show loading indicator
+      showLoadingIndicator();
+
+      // Fetch the search modal HTML
+      const response = await fetch('/api/search-modal');
+      if (!response.ok) {
+        throw new Error('Failed to load search modal');
+      }
+
+      const modalHTML = await response.text();
+      
+      // Inject the modal HTML into the page
+      const modalContainer = document.createElement('div');
+      modalContainer.innerHTML = modalHTML;
+      document.body.appendChild(modalContainer);
+
+      // Initialize the modal functionality
+      initializeSearchModal();
+      isLoaded = true;
+
+      // Execute any pending callbacks
+      pendingCallbacks.forEach(callback => callback());
+      pendingCallbacks = [];
+
+    } catch (error) {
+      console.error('Error loading search modal:', error);
+      alert('Failed to load search modal. Please try again.');
+    } finally {
+      isLoading = false;
+      hideLoadingIndicator();
+    }
+  }
+
+  function initializeSearchModal() {
+    const modal = document.getElementById("search-modal");
+    const searchInput = document.getElementById("country-search") as HTMLInputElement;
+    const closeModal = document.getElementById("close-modal");
+    const countryItems = document.querySelectorAll(".s-country-item");
+
+    // Open modal function
+    function openSearchModal() {
+      modal?.classList.remove("hidden");
+      searchInput?.focus();
+      try {
+        (window as any).sa_event("click_search_modal");
+      } catch (error) {
+        console.error("Error tracking event:", error);
+      }
+    }
+
+    // Close modal
+    function closeSearchModal() {
+      modal?.classList.add("hidden");
+      searchInput.value = "";
+      showAllCountries();
+    }
+
+    // Show all countries
+    function showAllCountries() {
+      countryItems.forEach((item) => {
+        (item as HTMLElement).style.display = "block";
+      });
+    }
+
+    // Search functionality
+    searchInput?.addEventListener("input", (e) => {
+      const searchTerm = (e.target as HTMLInputElement).value.toLowerCase();
+
+      countryItems.forEach((item) => {
+        const countryName = item.getAttribute("data-name") || "";
+        const commonName = item.getAttribute("data-common-name") || "";
+
+        if (countryName.includes(searchTerm) || commonName.includes(searchTerm)) {
+          (item as HTMLElement).style.display = "block";
+        } else {
+          (item as HTMLElement).style.display = "none";
+        }
+      });
+    });
+
+    // Close modal when clicking outside
+    modal?.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        closeSearchModal();
+      }
+    });
+
+    // Close modal with escape key
+    document.addEventListener("keydown", (e) => {
+      if (e.key === "Escape" && !modal?.classList.contains("hidden")) {
+        closeSearchModal();
+      }
+    });
+
+    // Close modal button
+    closeModal?.addEventListener("click", closeSearchModal);
+
+    // Make openSearchModal globally available and open immediately
+    (window as any).openSearchModal = openSearchModal;
+    openSearchModal();
+  }
+
+  function showLoadingIndicator() {
+    const loader = document.createElement('div');
+    loader.id = 'search-modal-loader';
+    loader.className = 'fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center';
+    loader.innerHTML = `
+      <div class="bg-white rounded-lg p-6 flex items-center gap-3">
+        <div class="animate-spin rounded-full h-6 w-6 border-b-2 border-blue-600"></div>
+        <span>Loading search...</span>
+      </div>
+    `;
+    document.body.appendChild(loader);
+  }
+
+  function hideLoadingIndicator() {
+    const loader = document.getElementById('search-modal-loader');
+    if (loader) {
+      loader.remove();
+    }
+  }
+
+  // Handle search button click
+  document.getElementById('search-button')?.addEventListener('click', async () => {
+    if (isLoaded && (window as any).openSearchModal) {
+      (window as any).openSearchModal();
+    } else {
+      await loadSearchModal();
+    }
+  });
+</script>

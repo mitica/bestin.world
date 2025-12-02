@@ -32,12 +32,12 @@ import countriesData from "../content/common/countries.json";
           class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
         />
       </div>
-      <div id="countries-list" class="flex-1 overflow-y-auto p-4">
+      <div id="s-countries-list" class="flex-1 overflow-y-auto p-4">
         {
           countriesData.map((country) => (
             <a
               href={`/${country.slug}/`}
-              class="country-item block p-3 hover:bg-gray-100 rounded-lg transition-colors duration-200 border-b border-gray-100 last:border-b-0"
+              class="s-country-item block p-3 hover:bg-gray-100 rounded-lg transition-colors duration-200 border-b border-gray-100 last:border-b-0"
               data-name={country.name.toLowerCase()}
               data-common-name={country.commonName.toLowerCase()}
             >
@@ -60,7 +60,7 @@ import countriesData from "../content/common/countries.json";
     "country-search"
   ) as HTMLInputElement;
   const closeModal = document.getElementById("close-modal");
-  const countryItems = document.querySelectorAll(".country-item");
+  const countryItems = document.querySelectorAll(".s-country-item");
 
   // Open modal function (will be called from search button)
   function openSearchModal() {

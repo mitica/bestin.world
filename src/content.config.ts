@@ -109,12 +109,25 @@ const indicatorRanks = defineCollection({
   )
 });
 
+const countryRanks = defineCollection({
+  loader: file("src/content/common/country-rank.json"),
+  schema: z.object({
+    id: z.string(),
+    countryId: z.string(),
+    rank: z.number().int(),
+    points: z.number().int(),
+    indicatorCount: z.number().int(),
+    year: z.number().int()
+  })
+});
+
 export const collections = {
   countries,
   indicators,
   countryTops,
   countryInsights,
   topics,
-  indicatorRanks
+  indicatorRanks,
+  countryRanks
   // countrySummaries
 };

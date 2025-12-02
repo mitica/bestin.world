@@ -14,6 +14,8 @@ async function pullCountries() {
   data.forEach((country: any) => {
     if (country.name.common === "Türkiye") {
       country.name.common = "Turkey";
+    } else if (country.name.common === "Somalia, Fed. Rep.") {
+      country.name.common = "Somalia";
     }
   });
   await saveFileIfChanged("data/countries.json", JSON.stringify(data, null, 2));
@@ -67,7 +69,15 @@ const fetchWorldBankIndicator = async (indicatorId: string, iterator = 0) => {
   }
   const data = await response.json();
 
-  return data[1] || [];
+  const items: { value: number | null }[] = data[1] || [];
+
+  items.forEach((item) => {
+    if (item.value === null || item.value === undefined) return;
+    // round to 6 decimal places
+    item.value = Number(item.value.toFixed(6));
+  });
+
+  return items;
 };
 
 async function pullWorldBankValues() {
@@ -118,13 +128,18 @@ const hdrIndicatorsMap = {
   sanitation: "mpi-sanitation",
   school_attendance: "mpi-school-attendance",
   years_of_schooling: "mpi-years-of-schooling",
-  cooking_fuel: "mpi-cooking-fuel"
+  cooking_fuel: "mpi-cooking-fuel",
+  gii_rank: "gii",
+  gdi_rank: "gdi",
+  hdi_rank: "hdi",
+  ihdi_rank: "ihdi",
+  phdi_rank: "phdi"
 } as any;
 
 async function hdrData() {
   const result: HDRData[] = [];
   const countries = await getCountries();
-  const countryIds = countries.map((country) => country.id);
+  // const countryIds = countries.map((country) => country.id);
   for (let year = new Date().getFullYear(); year >= 2012; year--) {
     const response = await fetch(
       `https://hdrdata.org/api/CompositeIndices/query-detailed?apikey=${process.env.HDR_API_KEY}&year=${year}`
@@ -145,6 +160,8 @@ async function hdrData() {
       await delay(1000);
       continue;
     }
+    // console.log(`Fetched HDR data for year ${year}, records: ${data.length}`);
+    // console.log(`Example record:`, data[0]);
     await delay(3000);
     const validIndicatorCodes = [
       "gii",
@@ -163,6 +180,7 @@ async function hdrData() {
             country.cca3?.toUpperCase() === item.countryIsoCode.toUpperCase()
         )
     );
+    // console.log(`Filtered HDR data for year ${year}, records: ${list.length}`);
     if (result.length === 0) {
       const indicators = validIndicatorCodes
         .map((code) => {
@@ -180,6 +198,7 @@ async function hdrData() {
           return it;
         })
         .filter((it) => !!it.name);
+      // console.log(`HDR Indicators metadata:`, indicators);
       await saveFileIfChanged(
         "data/hdr-indicators.json",
         JSON.stringify(
@@ -201,12 +220,15 @@ async function hdrData() {
       }))
     );
   }
+  // console.log(`Total HDR records fetched: ${result.length}`);
+  // console.log(`Example HDR record:`, result[0]);
   await saveFileIfChanged(
     "data/hdr-data.json",
     JSON.stringify(
-      result.filter((it) =>
-        countryIds.includes(it.countryIsoCode.trim().toLowerCase())
-      ),
+      result,
+      // .filter((it) =>
+      //   countryIds.includes(it.countryIsoCode.trim().toLowerCase())
+      // ),
       null,
       2
     )

@@ -1,13 +1,12 @@
 ---
 import { localesProvider } from "../locales";
 import SearchButton from "../components/SearchButton.astro";
-import SearchModal from "../components/SearchModal.astro";
 import ShareButton from "../components/ShareButton.astro";
 import "../styles/global.css";
 const { title, description, canonical, imageUrl } = Astro.props;
 const pageUrl = "https://bestin.world" + (canonical ? canonical : "");
-const pageTitle = title + " - BestIn.world";
-const pageDescription = description || "BestIn.world";
+const pageTitle = title + " - Bestin.world";
+const pageDescription = description || "Bestin.world";
 const locales = localesProvider.lang(Astro.props.lang || "en");
 ---
 
@@ -20,7 +19,7 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta name="apple-mobile-web-app-title" content="BestIn.world" />
+    <meta name="apple-mobile-web-app-title" content="Bestin.world" />
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
@@ -46,10 +45,10 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
                 class="h-8 flex items-center gap-2 text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors duration-200"
                 ><img
                   src="/favicon-96x96.png"
-                  alt="BestIn.world"
+                  alt="Bestin.world"
                   class="h-8 w-8 inline-block"
                   loading="lazy"
-                />BestIn.world</a
+                />Bestin.world</a
               >
             </li>
           </ul>
@@ -64,7 +63,7 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
     </main>
     <footer>
       <p>
-        © BestIn.world, {
+        © Bestin.world, {
           new Date().toLocaleDateString("en", {
             month: "long",
             year: "numeric"
@@ -83,7 +82,6 @@ const locales = localesProvider.lang(Astro.props.lang || "en");
         >
       </p>
     </footer>
-    <SearchModal />
     <ShareButton />
     <!-- 100% privacy-first analytics -->
     <script is:inline src="https://scripts.simpleanalyticscdn.com/latest.js"

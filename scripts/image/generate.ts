@@ -4,14 +4,30 @@ import * as genOgCountryVsCountry from "./gen-og-country-vs-country";
 import { fileURLToPath } from "url";
 
 export async function generate() {
+  const promises: Promise<void>[] = [];
+
+  console.log("Generating OG image for home page...");
+  promises.push(
+    genOgHome
+      .generateImage()
+      .then(() => console.log("OG image for home page generated successfully."))
+  );
+  promises.push(
+    geoOgCountry
+      .generateImages()
+      .then(() =>
+        console.log("OG images for countries generated successfully.")
+      )
+  );
+  promises.push(
+    genOgCountryVsCountry
+      .generateImages()
+      .then(() =>
+        console.log("OG images for country vs country generated successfully.")
+      )
+  );
   try {
-    console.log("Generating OG image for home page...");
-    await genOgHome.generateImage();
-    console.log("OG image for home page generated successfully.");
-    await geoOgCountry.generateImages();
-    console.log("OG images for countries generated successfully.");
-    await genOgCountryVsCountry.generateImages();
-    console.log("OG images for country vs country generated successfully.");
+    await Promise.all(promises);
   } catch (error) {
     console.error("Error generating OG images:", error);
   }
