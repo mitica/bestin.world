@@ -11,8 +11,10 @@ import ArrowRightIcon from "../components/shared/ArrowRightIcon.astro";
 import CountryVsCountryChart from "../components/CountryVsCountryChart.astro";
 import {
   getAllIndicatorRanks,
+  getCountryRanks,
   getIndicators
 } from "../../scripts/common/helpers";
+import RankChart from "../components/RankChart.astro";
 
 export async function getStaticPaths() {
   const countries = await getCollection("countries");
@@ -41,10 +43,18 @@ export async function getStaticPaths() {
 
 const { country, vsCountry } = Astro.props;
 
-const [indicatorRanks, indicators] = await Promise.all([
+const [indicatorRanks, indicators, allCountryRanks] = await Promise.all([
   getAllIndicatorRanks(),
-  getIndicators()
+  getIndicators(),
+  getCountryRanks()
 ]);
+
+const country1Ranks = allCountryRanks.filter(
+  (rank) => rank.countryId === country.id
+);
+const country2Ranks = allCountryRanks.filter(
+  (rank) => rank.countryId === vsCountry.id
+);
 
 const { list1, list2 } = compareCountryIndicators({
   id1: country.id,
@@ -62,6 +72,16 @@ const description = locales.country_vs_country_description(
 const canonical = `/${country.id}-vs-${vsCountry.id}/`;
 const countryEmoji = countryCodeToFlagEmoji(country.id);
 const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
+
+const getHexColor = (count: number) => {
+  if (count === 0) return "#e5e7eb";
+  if (count < (list1.length + list2.length) / 2) return "#facc15";
+  return "#22c55e";
+};
+const crs = [country1Ranks, country2Ranks].sort(
+  (a, b) => a[a.length - 1].rank - b[b.length - 1].rank
+);
+const lists = [list1, list2].sort((a, b) => b.length - a.length);
 ---
 
 <Layout
@@ -70,15 +90,25 @@ const vsCountryEmoji = countryCodeToFlagEmoji(vsCountry.id);
   canonical={canonical}
   imageUrl={`/${country.id}-vs-${vsCountry.id}.png`}
 >
-  <div class="flex flex-col gap-4 text-center">
+  <div class="flex flex-col gap-6 text-center">
     <CountryVsCountryChart
       data={[
         { country, count: list1.length },
         { country: vsCountry, count: list2.length }
       ]}
     />
-    <br />
-    <h2>{title}</h2>
+    <div class="flex items-center justify-center w-full max-w-3xl m-auto">
+      <RankChart
+        ranks={crs}
+        width={480}
+        height={140}
+        colors={[getHexColor(lists[0].length), getHexColor(lists[1].length)]}
+        responsive={true}
+        class="w-full"
+        type="fill"
+      />
+    </div>
+    <h2 class="pt-2">{title}</h2>
     <p class="text-lg">
       <a class="a font-medium" href={`/${country.slug}/`}
         >{countryCodeToFlagEmoji(country.id)} {country.name}</a

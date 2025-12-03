@@ -113,10 +113,10 @@ if (countrySummary && topNumber - countrySummary.rank <= 50)
             </p>
             <div class="flex items-center justify-center w-full max-w-3xl">
               <RankChart
-                ranks={countryRanks}
+                ranks={[countryRanks]}
                 width={480}
                 height={140}
-                color="#3b82f6"
+                colors={["#3b82f6"]}
                 responsive={true}
                 class="w-full"
                 type="fill"

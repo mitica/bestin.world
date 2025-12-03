@@ -504,16 +504,16 @@
     "decimal": 1
   },
   {
-    "countryId": "ru",
-    "date": 2021,
+    "countryId": "vn",
+    "date": 2022,
     "value": 4.71,
     "indicatorId": "tm-tax-manf-wm-fn-zs",
     "rank": 64,
     "decimal": 1
   },
   {
-    "countryId": "vn",
-    "date": 2022,
+    "countryId": "ru",
+    "date": 2021,
     "value": 4.71,
     "indicatorId": "tm-tax-manf-wm-fn-zs",
     "rank": 65,
@@ -640,16 +640,16 @@
     "decimal": 1
   },
   {
-    "countryId": "kg",
-    "date": 2021,
+    "countryId": "th",
+    "date": 2022,
     "value": 5.93,
     "indicatorId": "tm-tax-manf-wm-fn-zs",
     "rank": 81,
     "decimal": 1
   },
   {
-    "countryId": "th",
-    "date": 2022,
+    "countryId": "kg",
+    "date": 2021,
     "value": 5.93,
     "indicatorId": "tm-tax-manf-wm-fn-zs",
     "rank": 82,
@@ -1408,11 +1408,19 @@
     "decimal": 1
   },
   {
+    "countryId": "dj",
+    "date": 2014,
+    "value": 19.62,
+    "indicatorId": "tm-tax-manf-wm-fn-zs",
+    "rank": 177,
+    "decimal": 1
+  },
+  {
     "countryId": "sd",
     "date": 2021,
     "value": 26.8,
     "indicatorId": "tm-tax-manf-wm-fn-zs",
-    "rank": 177,
+    "rank": 178,
     "decimal": 1
   }
 ]

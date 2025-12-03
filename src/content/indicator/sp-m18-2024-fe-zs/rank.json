@@ -1,10 +1,18 @@
 [
   {
+    "countryId": "sg",
+    "date": 2023,
+    "value": 0.1,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 1,
+    "decimal": 0
+  },
+  {
     "countryId": "be",
     "date": 2020,
     "value": 0.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 1,
+    "rank": 2,
     "decimal": 0
   },
   {
@@ -12,20 +20,12 @@
     "date": 2017,
     "value": 0.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 2,
+    "rank": 3,
     "decimal": 0
   },
   {
     "countryId": "kp",
     "date": 2017,
-    "value": 0.1,
-    "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 3,
-    "decimal": 0
-  },
-  {
-    "countryId": "sg",
-    "date": 2023,
     "value": 0.1,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 4,
@@ -120,11 +120,19 @@
     "decimal": 0
   },
   {
+    "countryId": "om",
+    "date": 2014,
+    "value": 4,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 16,
+    "decimal": 0
+  },
+  {
     "countryId": "tt",
     "date": 2022,
     "value": 4.2,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 16,
+    "rank": 17,
     "decimal": 0
   },
   {
@@ -132,7 +140,7 @@
     "date": 2019,
     "value": 4.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 17,
+    "rank": 18,
     "decimal": 0
   },
   {
@@ -140,7 +148,7 @@
     "date": 2016,
     "value": 5.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 18,
+    "rank": 19,
     "decimal": 0
   },
   {
@@ -148,7 +156,7 @@
     "date": 2020,
     "value": 5.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 19,
+    "rank": 20,
     "decimal": 0
   },
   {
@@ -156,7 +164,7 @@
     "date": 2019,
     "value": 5.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 20,
+    "rank": 21,
     "decimal": 0
   },
   {
@@ -164,7 +172,7 @@
     "date": 2018,
     "value": 5.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 21,
+    "rank": 22,
     "decimal": 0
   },
   {
@@ -172,7 +180,7 @@
     "date": 2016,
     "value": 6,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 22,
+    "rank": 23,
     "decimal": 0
   },
   {
@@ -180,7 +188,7 @@
     "date": 2019,
     "value": 6.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 23,
+    "rank": 24,
     "decimal": 0
   },
   {
@@ -188,7 +196,7 @@
     "date": 2017,
     "value": 6.2,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 24,
+    "rank": 25,
     "decimal": 0
   },
   {
@@ -196,7 +204,7 @@
     "date": 2019,
     "value": 6.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 25,
+    "rank": 26,
     "decimal": 0
   },
   {
@@ -204,7 +212,7 @@
     "date": 2021,
     "value": 6.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 26,
+    "rank": 27,
     "decimal": 0
   },
   {
@@ -212,7 +220,7 @@
     "date": 2015,
     "value": 7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 27,
+    "rank": 28,
     "decimal": 0
   },
   {
@@ -220,7 +228,7 @@
     "date": 2020,
     "value": 7.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 28,
+    "rank": 29,
     "decimal": 0
   },
   {
@@ -228,7 +236,7 @@
     "date": 2019,
     "value": 7.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 29,
+    "rank": 30,
     "decimal": 0
   },
   {
@@ -236,7 +244,7 @@
     "date": 2018,
     "value": 8.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 30,
+    "rank": 31,
     "decimal": 0
   },
   {
@@ -244,7 +252,7 @@
     "date": 2017,
     "value": 8.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 31,
+    "rank": 32,
     "decimal": 0
   },
   {
@@ -252,7 +260,7 @@
     "date": 2022,
     "value": 9.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 32,
+    "rank": 33,
     "decimal": 0
   },
   {
@@ -260,7 +268,7 @@
     "date": 2018,
     "value": 9.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 33,
+    "rank": 34,
     "decimal": 0
   },
   {
@@ -268,7 +276,7 @@
     "date": 2016,
     "value": 9.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 34,
+    "rank": 35,
     "decimal": 0
   },
   {
@@ -276,7 +284,7 @@
     "date": 2019,
     "value": 10.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 35,
+    "rank": 36,
     "decimal": 0
   },
   {
@@ -284,7 +292,7 @@
     "date": 2018,
     "value": 11.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 36,
+    "rank": 37,
     "decimal": 0
   },
   {
@@ -292,7 +300,7 @@
     "date": 2018,
     "value": 12,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 37,
+    "rank": 38,
     "decimal": 0
   },
   {
@@ -300,7 +308,7 @@
     "date": 2022,
     "value": 12.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 38,
+    "rank": 39,
     "decimal": 0
   },
   {
@@ -308,7 +316,7 @@
     "date": 2018,
     "value": 12.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 39,
+    "rank": 40,
     "decimal": 0
   },
   {
@@ -316,7 +324,7 @@
     "date": 2021,
     "value": 13.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 40,
+    "rank": 41,
     "decimal": 0
   },
   {
@@ -324,7 +332,7 @@
     "date": 2018,
     "value": 13.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 41,
+    "rank": 42,
     "decimal": 0
   },
   {
@@ -332,7 +340,7 @@
     "date": 2018,
     "value": 13.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 42,
+    "rank": 43,
     "decimal": 0
   },
   {
@@ -340,7 +348,7 @@
     "date": 2020,
     "value": 14.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 43,
+    "rank": 44,
     "decimal": 0
   },
   {
@@ -348,7 +356,7 @@
     "date": 2021,
     "value": 14.6,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 44,
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -356,7 +364,7 @@
     "date": 2018,
     "value": 14.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 45,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -364,7 +372,7 @@
     "date": 2017,
     "value": 14.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 46,
+    "rank": 47,
     "decimal": 0
   },
   {
@@ -372,7 +380,7 @@
     "date": 2016,
     "value": 14.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 47,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -380,7 +388,7 @@
     "date": 2020,
     "value": 15.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 48,
+    "rank": 49,
     "decimal": 0
   },
   {
@@ -388,7 +396,7 @@
     "date": 2021,
     "value": 15.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 49,
+    "rank": 50,
     "decimal": 0
   },
   {
@@ -396,7 +404,7 @@
     "date": 2016,
     "value": 16,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 50,
+    "rank": 51,
     "decimal": 0
   },
   {
@@ -404,7 +412,7 @@
     "date": 2022,
     "value": 16.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 51,
+    "rank": 52,
     "decimal": 0
   },
   {
@@ -412,7 +420,7 @@
     "date": 2017,
     "value": 16.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 52,
+    "rank": 53,
     "decimal": 0
   },
   {
@@ -420,7 +428,7 @@
     "date": 2018,
     "value": 16.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 53,
+    "rank": 54,
     "decimal": 0
   },
   {
@@ -428,7 +436,7 @@
     "date": 2022,
     "value": 17,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 54,
+    "rank": 55,
     "decimal": 0
   },
   {
@@ -436,7 +444,7 @@
     "date": 2018,
     "value": 17.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 55,
+    "rank": 56,
     "decimal": 0
   },
   {
@@ -444,7 +452,7 @@
     "date": 2022,
     "value": 17.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 56,
+    "rank": 57,
     "decimal": 0
   },
   {
@@ -452,7 +460,7 @@
     "date": 2018,
     "value": 18.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 57,
+    "rank": 58,
     "decimal": 0
   },
   {
@@ -460,21 +468,13 @@
     "date": 2019,
     "value": 18.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 58,
+    "rank": 59,
     "decimal": 0
   },
   {
     "countryId": "bi",
     "date": 2017,
     "value": 19,
-    "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 59,
-    "decimal": 0
-  },
-  {
-    "countryId": "bo",
-    "date": 2016,
-    "value": 19.7,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 60,
     "decimal": 0
@@ -488,11 +488,19 @@
     "decimal": 0
   },
   {
+    "countryId": "bo",
+    "date": 2016,
+    "value": 19.7,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 62,
+    "decimal": 0
+  },
+  {
     "countryId": "km",
     "date": 2022,
     "value": 20.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 62,
+    "rank": 63,
     "decimal": 0
   },
   {
@@ -500,7 +508,7 @@
     "date": 2018,
     "value": 20.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 63,
+    "rank": 64,
     "decimal": 0
   },
   {
@@ -508,7 +516,7 @@
     "date": 2015,
     "value": 21.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 64,
+    "rank": 65,
     "decimal": 0
   },
   {
@@ -516,7 +524,7 @@
     "date": 2016,
     "value": 21.6,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 65,
+    "rank": 66,
     "decimal": 0
   },
   {
@@ -524,7 +532,7 @@
     "date": 2018,
     "value": 22.2,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 66,
+    "rank": 67,
     "decimal": 0
   },
   {
@@ -532,7 +540,7 @@
     "date": 2021,
     "value": 22.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 67,
+    "rank": 68,
     "decimal": 0
   },
   {
@@ -540,7 +548,7 @@
     "date": 2020,
     "value": 23.1,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 68,
+    "rank": 69,
     "decimal": 0
   },
   {
@@ -548,7 +556,7 @@
     "date": 2015,
     "value": 23.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 69,
+    "rank": 70,
     "decimal": 0
   },
   {
@@ -556,7 +564,7 @@
     "date": 2017,
     "value": 24.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 70,
+    "rank": 71,
     "decimal": 0
   },
   {
@@ -564,7 +572,7 @@
     "date": 2020,
     "value": 24.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 71,
+    "rank": 72,
     "decimal": 0
   },
   {
@@ -572,21 +580,13 @@
     "date": 2019,
     "value": 25.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 72,
+    "rank": 73,
     "decimal": 0
   },
   {
     "countryId": "ci",
     "date": 2021,
     "value": 25.8,
-    "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 73,
-    "decimal": 0
-  },
-  {
-    "countryId": "cg",
-    "date": 2015,
-    "value": 27.3,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 74,
     "decimal": 0
@@ -600,11 +600,19 @@
     "decimal": 0
   },
   {
+    "countryId": "cg",
+    "date": 2015,
+    "value": 27.3,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 76,
+    "decimal": 0
+  },
+  {
     "countryId": "bj",
     "date": 2022,
     "value": 27.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 76,
+    "rank": 77,
     "decimal": 0
   },
   {
@@ -612,7 +620,7 @@
     "date": 2018,
     "value": 27.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 77,
+    "rank": 78,
     "decimal": 0
   },
   {
@@ -620,7 +628,7 @@
     "date": 2019,
     "value": 28,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 78,
+    "rank": 79,
     "decimal": 0
   },
   {
@@ -628,21 +636,13 @@
     "date": 2023,
     "value": 28.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 79,
+    "rank": 80,
     "decimal": 0
   },
   {
     "countryId": "zm",
     "date": 2018,
     "value": 29,
-    "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 80,
-    "decimal": 0
-  },
-  {
-    "countryId": "cd",
-    "date": 2018,
-    "value": 29.1,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 81,
     "decimal": 0
@@ -656,25 +656,25 @@
     "decimal": 0
   },
   {
+    "countryId": "cd",
+    "date": 2018,
+    "value": 29.1,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 83,
+    "decimal": 0
+  },
+  {
     "countryId": "cu",
     "date": 2019,
     "value": 29.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 83,
+    "rank": 84,
     "decimal": 0
   },
   {
     "countryId": "gt",
     "date": 2015,
     "value": 29.5,
-    "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 84,
-    "decimal": 0
-  },
-  {
-    "countryId": "sl",
-    "date": 2019,
-    "value": 29.6,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 85,
     "decimal": 0
@@ -688,17 +688,17 @@
     "decimal": 0
   },
   {
-    "countryId": "cm",
-    "date": 2018,
-    "value": 29.8,
+    "countryId": "sl",
+    "date": 2019,
+    "value": 29.6,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 87,
     "decimal": 0
   },
   {
-    "countryId": "ao",
-    "date": 2016,
-    "value": 30.3,
+    "countryId": "cm",
+    "date": 2018,
+    "value": 29.8,
     "indicatorId": "sp-m18-2024-fe-zs",
     "rank": 88,
     "decimal": 0
@@ -712,11 +712,19 @@
     "decimal": 0
   },
   {
+    "countryId": "ao",
+    "date": 2016,
+    "value": 30.3,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 90,
+    "decimal": 0
+  },
+  {
     "countryId": "sn",
     "date": 2019,
     "value": 30.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 90,
+    "rank": 91,
     "decimal": 0
   },
   {
@@ -724,7 +732,7 @@
     "date": 2019,
     "value": 31.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 91,
+    "rank": 92,
     "decimal": 0
   },
   {
@@ -732,7 +740,7 @@
     "date": 2020,
     "value": 32.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 92,
+    "rank": 93,
     "decimal": 0
   },
   {
@@ -740,7 +748,7 @@
     "date": 2017,
     "value": 32.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 93,
+    "rank": 94,
     "decimal": 0
   },
   {
@@ -748,7 +756,7 @@
     "date": 2016,
     "value": 33.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 94,
+    "rank": 95,
     "decimal": 0
   },
   {
@@ -756,7 +764,7 @@
     "date": 2019,
     "value": 33.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 95,
+    "rank": 96,
     "decimal": 0
   },
   {
@@ -764,7 +772,7 @@
     "date": 2019,
     "value": 34,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 96,
+    "rank": 97,
     "decimal": 0
   },
   {
@@ -772,7 +780,15 @@
     "date": 2016,
     "value": 34,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 97,
+    "rank": 98,
+    "decimal": 0
+  },
+  {
+    "countryId": "sd",
+    "date": 2014,
+    "value": 34.2,
+    "indicatorId": "sp-m18-2024-fe-zs",
+    "rank": 99,
     "decimal": 0
   },
   {
@@ -780,7 +796,7 @@
     "date": 2022,
     "value": 34.9,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 98,
+    "rank": 100,
     "decimal": 0
   },
   {
@@ -788,7 +804,7 @@
     "date": 2018,
     "value": 36,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 99,
+    "rank": 101,
     "decimal": 0
   },
   {
@@ -796,7 +812,7 @@
     "date": 2021,
     "value": 36.6,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 100,
+    "rank": 102,
     "decimal": 0
   },
   {
@@ -804,7 +820,7 @@
     "date": 2020,
     "value": 37.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 101,
+    "rank": 103,
     "decimal": 0
   },
   {
@@ -812,7 +828,7 @@
     "date": 2021,
     "value": 38.2,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 102,
+    "rank": 104,
     "decimal": 0
   },
   {
@@ -820,7 +836,7 @@
     "date": 2021,
     "value": 38.8,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 103,
+    "rank": 105,
     "decimal": 0
   },
   {
@@ -828,7 +844,7 @@
     "date": 2016,
     "value": 40.3,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 104,
+    "rank": 106,
     "decimal": 0
   },
   {
@@ -836,7 +852,7 @@
     "date": 2018,
     "value": 46.5,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 105,
+    "rank": 107,
     "decimal": 0
   },
   {
@@ -844,7 +860,7 @@
     "date": 2023,
     "value": 48.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 106,
+    "rank": 108,
     "decimal": 0
   },
   {
@@ -852,7 +868,7 @@
     "date": 2019,
     "value": 51.4,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 107,
+    "rank": 109,
     "decimal": 0
   },
   {
@@ -860,7 +876,7 @@
     "date": 2018,
     "value": 53.7,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 108,
+    "rank": 110,
     "decimal": 0
   },
   {
@@ -868,7 +884,7 @@
     "date": 2019,
     "value": 60.6,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 109,
+    "rank": 111,
     "decimal": 0
   },
   {
@@ -876,7 +892,7 @@
     "date": 2019,
     "value": 61,
     "indicatorId": "sp-m18-2024-fe-zs",
-    "rank": 110,
+    "rank": 112,
     "decimal": 0
   }
 ]

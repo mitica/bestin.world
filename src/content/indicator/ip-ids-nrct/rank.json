@@ -896,9 +896,9 @@
     "decimal": 0
   },
   {
-    "countryId": "bt",
-    "date": 2019,
-    "value": 8,
+    "countryId": "ni",
+    "date": 2014,
+    "value": 9,
     "indicatorId": "ip-ids-nrct",
     "rank": 113,
     "decimal": 0
@@ -912,17 +912,17 @@
     "decimal": 0
   },
   {
-    "countryId": "iq",
-    "date": 2018,
+    "countryId": "bt",
+    "date": 2019,
     "value": 8,
     "indicatorId": "ip-ids-nrct",
     "rank": 115,
     "decimal": 0
   },
   {
-    "countryId": "cv",
+    "countryId": "iq",
     "date": 2018,
-    "value": 7,
+    "value": 8,
     "indicatorId": "ip-ids-nrct",
     "rank": 116,
     "decimal": 0
@@ -936,11 +936,19 @@
     "decimal": 0
   },
   {
+    "countryId": "cv",
+    "date": 2018,
+    "value": 7,
+    "indicatorId": "ip-ids-nrct",
+    "rank": 118,
+    "decimal": 0
+  },
+  {
     "countryId": "jm",
     "date": 2021,
     "value": 6,
     "indicatorId": "ip-ids-nrct",
-    "rank": 118,
+    "rank": 119,
     "decimal": 0
   },
   {
@@ -948,7 +956,7 @@
     "date": 2019,
     "value": 5,
     "indicatorId": "ip-ids-nrct",
-    "rank": 119,
+    "rank": 120,
     "decimal": 0
   },
   {
@@ -956,7 +964,7 @@
     "date": 2021,
     "value": 3,
     "indicatorId": "ip-ids-nrct",
-    "rank": 120,
+    "rank": 121,
     "decimal": 0
   },
   {
@@ -964,23 +972,7 @@
     "date": 2021,
     "value": 3,
     "indicatorId": "ip-ids-nrct",
-    "rank": 121,
-    "decimal": 0
-  },
-  {
-    "countryId": "bi",
-    "date": 2019,
-    "value": 2,
-    "indicatorId": "ip-ids-nrct",
     "rank": 122,
-    "decimal": 0
-  },
-  {
-    "countryId": "dm",
-    "date": 2016,
-    "value": 2,
-    "indicatorId": "ip-ids-nrct",
-    "rank": 123,
     "decimal": 0
   },
   {
@@ -988,28 +980,36 @@
     "date": 2020,
     "value": 2,
     "indicatorId": "ip-ids-nrct",
+    "rank": 123,
+    "decimal": 0
+  },
+  {
+    "countryId": "bi",
+    "date": 2019,
+    "value": 2,
+    "indicatorId": "ip-ids-nrct",
     "rank": 124,
     "decimal": 0
   },
   {
-    "countryId": "bb",
+    "countryId": "dm",
     "date": 2016,
-    "value": 1,
+    "value": 2,
     "indicatorId": "ip-ids-nrct",
     "rank": 125,
     "decimal": 0
   },
   {
-    "countryId": "cu",
-    "date": 2021,
-    "value": 1,
+    "countryId": "vc",
+    "date": 2014,
+    "value": 2,
     "indicatorId": "ip-ids-nrct",
     "rank": 126,
     "decimal": 0
   },
   {
-    "countryId": "mt",
-    "date": 2020,
+    "countryId": "cu",
+    "date": 2021,
     "value": 1,
     "indicatorId": "ip-ids-nrct",
     "rank": 127,
@@ -1032,7 +1032,7 @@
     "decimal": 0
   },
   {
-    "countryId": "ug",
+    "countryId": "mt",
     "date": 2020,
     "value": 1,
     "indicatorId": "ip-ids-nrct",
@@ -1040,11 +1040,35 @@
     "decimal": 0
   },
   {
+    "countryId": "ug",
+    "date": 2020,
+    "value": 1,
+    "indicatorId": "ip-ids-nrct",
+    "rank": 131,
+    "decimal": 0
+  },
+  {
+    "countryId": "bb",
+    "date": 2016,
+    "value": 1,
+    "indicatorId": "ip-ids-nrct",
+    "rank": 132,
+    "decimal": 0
+  },
+  {
     "countryId": "zm",
     "date": 2016,
     "value": 1,
     "indicatorId": "ip-ids-nrct",
-    "rank": 131,
+    "rank": 133,
+    "decimal": 0
+  },
+  {
+    "countryId": "bs",
+    "date": 2014,
+    "value": 1,
+    "indicatorId": "ip-ids-nrct",
+    "rank": 134,
     "decimal": 0
   }
 ]

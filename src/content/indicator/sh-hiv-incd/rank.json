@@ -280,19 +280,11 @@
     "decimal": 0
   },
   {
-    "countryId": "sg",
-    "date": 2023,
-    "value": 200,
-    "indicatorId": "sh-hiv-incd",
-    "rank": 36,
-    "decimal": 0
-  },
-  {
     "countryId": "tl",
     "date": 2024,
     "value": 200,
     "indicatorId": "sh-hiv-incd",
-    "rank": 37,
+    "rank": 36,
     "decimal": 0
   },
   {
@@ -300,15 +292,15 @@
     "date": 2024,
     "value": 200,
     "indicatorId": "sh-hiv-incd",
-    "rank": 38,
+    "rank": 37,
     "decimal": 0
   },
   {
-    "countryId": "au",
-    "date": 2022,
-    "value": 500,
+    "countryId": "sg",
+    "date": 2023,
+    "value": 200,
     "indicatorId": "sh-hiv-incd",
-    "rank": 39,
+    "rank": 38,
     "decimal": 0
   },
   {
@@ -316,7 +308,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 40,
+    "rank": 39,
     "decimal": 0
   },
   {
@@ -324,7 +316,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 41,
+    "rank": 40,
     "decimal": 0
   },
   {
@@ -332,7 +324,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 42,
+    "rank": 41,
     "decimal": 0
   },
   {
@@ -340,7 +332,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 43,
+    "rank": 42,
     "decimal": 0
   },
   {
@@ -348,7 +340,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 44,
+    "rank": 43,
     "decimal": 0
   },
   {
@@ -356,7 +348,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 45,
+    "rank": 44,
     "decimal": 0
   },
   {
@@ -364,7 +356,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 46,
+    "rank": 45,
     "decimal": 0
   },
   {
@@ -372,15 +364,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 47,
-    "decimal": 0
-  },
-  {
-    "countryId": "nl",
-    "date": 2023,
-    "value": 500,
-    "indicatorId": "sh-hiv-incd",
-    "rank": 48,
+    "rank": 46,
     "decimal": 0
   },
   {
@@ -388,15 +372,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 49,
-    "decimal": 0
-  },
-  {
-    "countryId": "so",
-    "date": 2022,
-    "value": 500,
-    "indicatorId": "sh-hiv-incd",
-    "rank": 50,
+    "rank": 47,
     "decimal": 0
   },
   {
@@ -404,7 +380,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 51,
+    "rank": 48,
     "decimal": 0
   },
   {
@@ -412,7 +388,7 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 52,
+    "rank": 49,
     "decimal": 0
   },
   {
@@ -420,12 +396,36 @@
     "date": 2024,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
-    "rank": 53,
+    "rank": 50,
     "decimal": 0
   },
   {
     "countryId": "tj",
     "date": 2024,
+    "value": 500,
+    "indicatorId": "sh-hiv-incd",
+    "rank": 51,
+    "decimal": 0
+  },
+  {
+    "countryId": "nl",
+    "date": 2023,
+    "value": 500,
+    "indicatorId": "sh-hiv-incd",
+    "rank": 52,
+    "decimal": 0
+  },
+  {
+    "countryId": "au",
+    "date": 2022,
+    "value": 500,
+    "indicatorId": "sh-hiv-incd",
+    "rank": 53,
+    "decimal": 0
+  },
+  {
+    "countryId": "so",
+    "date": 2022,
     "value": 500,
     "indicatorId": "sh-hiv-incd",
     "rank": 54,
@@ -664,19 +664,11 @@
     "decimal": 0
   },
   {
-    "countryId": "ca",
-    "date": 2022,
-    "value": 1700,
-    "indicatorId": "sh-hiv-incd",
-    "rank": 84,
-    "decimal": 0
-  },
-  {
     "countryId": "cu",
     "date": 2024,
     "value": 1700,
     "indicatorId": "sh-hiv-incd",
-    "rank": 85,
+    "rank": 84,
     "decimal": 0
   },
   {
@@ -684,12 +676,20 @@
     "date": 2024,
     "value": 1700,
     "indicatorId": "sh-hiv-incd",
-    "rank": 86,
+    "rank": 85,
     "decimal": 0
   },
   {
     "countryId": "sl",
     "date": 2024,
+    "value": 1700,
+    "indicatorId": "sh-hiv-incd",
+    "rank": 86,
+    "decimal": 0
+  },
+  {
+    "countryId": "ca",
+    "date": 2022,
     "value": 1700,
     "indicatorId": "sh-hiv-incd",
     "rank": 87,

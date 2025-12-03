@@ -416,16 +416,16 @@
     "decimal": 0
   },
   {
-    "countryId": "ge",
-    "date": 2017,
+    "countryId": "gr",
+    "date": 2023,
     "value": 7000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 53,
     "decimal": 0
   },
   {
-    "countryId": "gr",
-    "date": 2023,
+    "countryId": "ge",
+    "date": 2017,
     "value": 7000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 54,
@@ -448,11 +448,19 @@
     "decimal": 0
   },
   {
+    "countryId": "th",
+    "date": 2024,
+    "value": 5000000,
+    "indicatorId": "ms-mil-xprt-kd",
+    "rank": 57,
+    "decimal": 0
+  },
+  {
     "countryId": "kg",
     "date": 2017,
     "value": 5000000,
     "indicatorId": "ms-mil-xprt-kd",
-    "rank": 57,
+    "rank": 58,
     "decimal": 0
   },
   {
@@ -460,15 +468,15 @@
     "date": 2015,
     "value": 5000000,
     "indicatorId": "ms-mil-xprt-kd",
-    "rank": 58,
+    "rank": 59,
     "decimal": 0
   },
   {
-    "countryId": "th",
-    "date": 2024,
-    "value": 5000000,
+    "countryId": "me",
+    "date": 2022,
+    "value": 4000000,
     "indicatorId": "ms-mil-xprt-kd",
-    "rank": 59,
+    "rank": 60,
     "decimal": 0
   },
   {
@@ -476,20 +484,12 @@
     "date": 2020,
     "value": 4000000,
     "indicatorId": "ms-mil-xprt-kd",
-    "rank": 60,
+    "rank": 61,
     "decimal": 0
   },
   {
     "countryId": "do",
     "date": 2017,
-    "value": 4000000,
-    "indicatorId": "ms-mil-xprt-kd",
-    "rank": 61,
-    "decimal": 0
-  },
-  {
-    "countryId": "me",
-    "date": 2022,
     "value": 4000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 62,
@@ -512,8 +512,8 @@
     "decimal": 0
   },
   {
-    "countryId": "ng",
-    "date": 2022,
+    "countryId": "si",
+    "date": 2024,
     "value": 3000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 65,
@@ -528,27 +528,19 @@
     "decimal": 0
   },
   {
-    "countryId": "rs",
-    "date": 2021,
+    "countryId": "ng",
+    "date": 2022,
     "value": 3000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 67,
     "decimal": 0
   },
   {
-    "countryId": "si",
-    "date": 2024,
+    "countryId": "rs",
+    "date": 2021,
     "value": 3000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 68,
-    "decimal": 0
-  },
-  {
-    "countryId": "ec",
-    "date": 2018,
-    "value": 2000000,
-    "indicatorId": "ms-mil-xprt-kd",
-    "rank": 69,
     "decimal": 0
   },
   {
@@ -556,12 +548,20 @@
     "date": 2024,
     "value": 2000000,
     "indicatorId": "ms-mil-xprt-kd",
-    "rank": 70,
+    "rank": 69,
     "decimal": 0
   },
   {
     "countryId": "ee",
     "date": 2024,
+    "value": 2000000,
+    "indicatorId": "ms-mil-xprt-kd",
+    "rank": 70,
+    "decimal": 0
+  },
+  {
+    "countryId": "ec",
+    "date": 2018,
     "value": 2000000,
     "indicatorId": "ms-mil-xprt-kd",
     "rank": 71,

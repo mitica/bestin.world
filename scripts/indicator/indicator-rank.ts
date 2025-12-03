@@ -16,7 +16,7 @@ import { CURRENT_YEAR, MAIN_INDICATOR_IDS } from "../../src/config";
 export async function generate() {
   const indicators = await getIndicators();
   const countries = await getCountries();
-  // await generateLatestRanks(indicators, countries);
+  await generateLatestRanks(indicators, countries);
   await generateMainRanksHistory(
     indicators.filter((it) => MAIN_INDICATOR_IDS.includes(it.id)),
     countries

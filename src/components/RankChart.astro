@@ -6,10 +6,10 @@ import {
 import type { CountryRank } from "../content/common/types";
 
 interface Props {
-  ranks: CountryRank[];
+  ranks: CountryRank[][];
   width?: number;
   height?: number;
-  color?: string;
+  colors?: string[];
   class?: string;
   responsive?: boolean;
   type?: "line" | "fill";
@@ -19,16 +19,16 @@ const {
   ranks,
   width = 600,
   height = 300,
-  color,
+  colors,
   class: className,
   responsive = false,
   type = "line"
 } = Astro.props;
 
-const chartNode = createRankChart([ranks], {
+const chartNode = createRankChart(ranks, {
   width,
   height,
-  colors: color ? [color] : undefined,
+  colors,
   responsive,
   type
 });
